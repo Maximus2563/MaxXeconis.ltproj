@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Aggravate",
+        "name": "Aggravate",
+        "desc": "If Demonic hits the enemy, he will be prioritised by them during their next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_hit",
+                "Aggravate_Status"
+            ]
+        ]
+    }
+]

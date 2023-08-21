@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Sharpshooter",
+        "name": "Sharpshooter",
+        "desc": "Gain +35 hit if the unit has not moved.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                35
+            ],
+            [
+                "condition",
+                "unit.movement_left == unit.stats['MOV']"
+            ]
+        ]
+    }
+]

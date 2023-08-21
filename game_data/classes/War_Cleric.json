@@ -1,0 +1,134 @@
+[
+    {
+        "nid": "War Cleric",
+        "name": "War Cleric",
+        "desc": "Religious zelots who fight boldly for their faith.",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": "Servant",
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 23,
+            "STR": 4,
+            "MAG": 4,
+            "SKL": 6,
+            "SPD": 4,
+            "LCK": 0,
+            "DEF": 4,
+            "RES": 7,
+            "CON": 8,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 27,
+            "MAG": 32,
+            "SKL": 25,
+            "SPD": 22,
+            "LCK": 40,
+            "DEF": 21,
+            "RES": 37,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 3,
+            "MAG": 1,
+            "SKL": 2,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 1,
+            "CON": 2,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 24,
+            "MAG": 24,
+            "SKL": 25,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 24,
+            "RES": 27,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                31,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "[MAG] War Cleric (F) {DerTheVaporeon}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "War Cleric ",
+        "combat_anim_nid": "War Cleric",
+        "fields": []
+    }
+]

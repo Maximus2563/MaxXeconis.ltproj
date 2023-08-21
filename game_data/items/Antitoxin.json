@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Antitoxin",
+        "name": "Antitoxin",
+        "desc": "Cures poison.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                350
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    139,
+                    86
+                ]
+            ],
+            [
+                "restore_specific",
+                "Poisoned"
+            ]
+        ]
+    }
+]

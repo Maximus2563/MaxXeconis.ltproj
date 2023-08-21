@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WhirlwindArt",
+        "name": "Whirlwind",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            33
+        ],
+        "components": [
+            [
+                "item_override",
+                "cleave"
+            ],
+            [
+                "attack_speed",
+                -1000
+            ]
+        ]
+    }
+]

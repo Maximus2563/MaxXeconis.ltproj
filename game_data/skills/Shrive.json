@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Shrive",
+        "name": "Shrive",
+        "desc": "Foe wielding dark tomes cannot counter this unit.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            50
+        ],
+        "components": [
+            [
+                "item_override",
+                "NoCounter"
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Dark'"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

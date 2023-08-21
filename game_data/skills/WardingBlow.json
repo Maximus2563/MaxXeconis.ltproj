@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "WardingBlow",
+        "name": "Warding Blow",
+        "desc": "Grants RES+6 on initiation.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        6
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

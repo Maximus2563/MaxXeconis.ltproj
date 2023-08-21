@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "InferioritySwipe",
+        "name": "Inferiority Swipe",
+        "desc": "If unit has WTD, unit attacks twice.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification < 0"
+            ],
+            [
+                "all_brave",
+                null
+            ]
+        ]
+    }
+]

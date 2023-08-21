@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Canto+",
+        "name": "Canto+",
+        "desc": "Can move again after all actions.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canto_plus",
+                null
+            ]
+        ]
+    }
+]

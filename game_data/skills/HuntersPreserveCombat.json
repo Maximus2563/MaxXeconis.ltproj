@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HuntersPreserveCombat",
+        "name": "Hunter's Preserve",
+        "desc": "Unit has a Skl% chance to not consume weapon uses.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            36
+        ],
+        "components": [
+            [
+                "armsthrift",
+                1
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ]
+        ]
+    }
+]

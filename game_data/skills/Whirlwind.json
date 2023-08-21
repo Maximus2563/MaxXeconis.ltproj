@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Whirlwind",
+        "name": "Whirlwind",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            33
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "WhirlwindArt"
+            ],
+            [
+                "allowed_weapons",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Axe'"
+            ]
+        ]
+    }
+]

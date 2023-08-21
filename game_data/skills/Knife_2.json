@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Knife 2",
+        "name": "Steel Knife",
+        "desc": "Inflicts SKL/LCK-3, SPD-2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            29
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        -3
+                    ],
+                    [
+                        "LCK",
+                        -3
+                    ],
+                    [
+                        "SPD",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "nid": "Javi",
+        "name": "Javi",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Spartan",
+        "tags": [],
+        "bases": {
+            "HP": 32,
+            "STR": 14,
+            "MAG": 5,
+            "SKL": 11,
+            "SPD": 14,
+            "LCK": 6,
+            "DEF": 12,
+            "RES": 3,
+            "CON": 11,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 25,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 25,
+            "DEF": 40,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": -5,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 1
+        },
+        "starting_items": [
+            [
+                "TacticalEdge",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Champion"
+            ],
+            [
+                1,
+                "RallySpd"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Authenticity,Trusted allies"
+            ],
+            [
+                "Dislikes:",
+                "Injustice,Pretenders"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Javi",
+        "affinity": "Water",
+        "fields": [
+            [
+                "DeathQuote",
+                "Wish I could see more of what the world has to offer..."
+            ],
+            [
+                "EscapeQuote",
+                "A tactical retreat! How useful!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Seems I've learned something new! How thrilling!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "Continuous growth is admirable."
+            ],
+            [
+                "LowLevelUpQuote",
+                "I can do better than this, for Sages!"
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Oh dear, what a blunder..."
+            ],
+            [
+                "MaxStatQuote",
+                "Woah! I've reached a new plateau!"
+            ]
+        ]
+    }
+]

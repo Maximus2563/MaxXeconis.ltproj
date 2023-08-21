@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RallySpd",
+        "name": "Rally Speed",
+        "desc": "Use \"Rally\" to grants SPD+3 to allies within 2 spaces.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "RallyResA"
+            ]
+        ]
+    }
+]

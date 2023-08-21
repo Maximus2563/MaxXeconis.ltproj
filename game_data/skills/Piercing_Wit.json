@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Piercing Wit",
+        "name": "Piercing Wit",
+        "desc": "For every 2 points of skl unit has over foe, increases damage dealt by 1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "((unit.get_stat('SKL') - target.get_stat('SKL'))//2) if unit.get_stat('SKL') > target.get_stat('SKL') else 0 "
+            ]
+        ]
+    }
+]

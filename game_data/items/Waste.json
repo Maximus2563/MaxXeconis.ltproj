@@ -1,0 +1,96 @@
+[
+    {
+        "nid": "Waste",
+        "name": "Waste",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                50
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                7
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "value",
+                3600
+            ],
+            [
+                "min_range",
+                5
+            ],
+            [
+                "max_range",
+                13
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Scathe"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ]
+        ]
+    }
+]

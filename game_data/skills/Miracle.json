@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Miracle",
+        "name": "Miracle",
+        "desc": "Unit can survive a lethal blow at 1HP (LCK% Activation).",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "miracle",
+                null
+            ],
+            [
+                "proc_rate",
+                "MIRACLE"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

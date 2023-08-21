@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Snag",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == 'SNAG'",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "SnagBroken",
+                    "fade"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

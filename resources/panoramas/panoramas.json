@@ -1,0 +1,978 @@
+[
+    [
+        "Arena",
+        1
+    ],
+    [
+        "default_background",
+        1
+    ],
+    [
+        "info_menu_background",
+        1
+    ],
+    [
+        "Hill",
+        1
+    ],
+    [
+        "House",
+        1
+    ],
+    [
+        "title_background",
+        33
+    ],
+    [
+        "Forest",
+        1
+    ],
+    [
+        "InsideCastle",
+        1
+    ],
+    [
+        "Plains",
+        1
+    ],
+    [
+        "Bedroom",
+        1
+    ],
+    [
+        "Clearing",
+        1
+    ],
+    [
+        "Town",
+        1
+    ],
+    [
+        "TownSunset",
+        1
+    ],
+    [
+        "ForestDark",
+        1
+    ],
+    [
+        "CastleSepia",
+        1
+    ],
+    [
+        "Ruins",
+        1
+    ],
+    [
+        "CastleRuins",
+        1
+    ],
+    [
+        "GradoCastle",
+        1
+    ],
+    [
+        "DeepForest",
+        1
+    ],
+    [
+        "VillageGate",
+        1
+    ],
+    [
+        "Village",
+        1
+    ],
+    [
+        "BlackBackground",
+        1
+    ],
+    [
+        "Altar Night",
+        1
+    ],
+    [
+        "Armory",
+        1
+    ],
+    [
+        "Army Camp 2 Evening",
+        1
+    ],
+    [
+        "Army Camp 2 Night",
+        1
+    ],
+    [
+        "Army Camp 3 Day alt",
+        1
+    ],
+    [
+        "Army Camp 3 Day",
+        1
+    ],
+    [
+        "Army Camp 3 Evening",
+        1
+    ],
+    [
+        "Army Camp 3 Night",
+        1
+    ],
+    [
+        "Army Camp 3 Winter Day",
+        1
+    ],
+    [
+        "Army Camp 3 Winter Night",
+        1
+    ],
+    [
+        "Army Camp 4 Day",
+        1
+    ],
+    [
+        "Army Camp 4 Evening",
+        1
+    ],
+    [
+        "Army Camp 4 Night",
+        1
+    ],
+    [
+        "Army Camp 4 Winter Day",
+        1
+    ],
+    [
+        "Army Camp 5 Evening",
+        1
+    ],
+    [
+        "Army Camp 6 Day",
+        1
+    ],
+    [
+        "Army Camp 7 Day",
+        1
+    ],
+    [
+        "Army Camp 8 Day",
+        1
+    ],
+    [
+        "Army Camp 8 Winter Day",
+        1
+    ],
+    [
+        "Army Camp 9 Day",
+        1
+    ],
+    [
+        "Army Camp 10 Day",
+        1
+    ],
+    [
+        "Army Camp Day Alt",
+        1
+    ],
+    [
+        "Army Camp Day",
+        1
+    ],
+    [
+        "Bedroom 2 Night",
+        1
+    ],
+    [
+        "Bedroom Daytime",
+        1
+    ],
+    [
+        "Bedroom Night",
+        1
+    ],
+    [
+        "Campsite 2 Night",
+        1
+    ],
+    [
+        "Campsite Nighttime",
+        1
+    ],
+    [
+        "Campsite Winter",
+        1
+    ],
+    [
+        "Caravan 2 Night",
+        1
+    ],
+    [
+        "Caravan Day",
+        1
+    ],
+    [
+        "Castle 2 Day",
+        1
+    ],
+    [
+        "Castle 2 Evening",
+        1
+    ],
+    [
+        "Castle 2 Winter Day",
+        1
+    ],
+    [
+        "Castle 3 Day",
+        1
+    ],
+    [
+        "Castle 4 Day",
+        1
+    ],
+    [
+        "Castle 4 Evening",
+        1
+    ],
+    [
+        "Castle Courtyard Day",
+        1
+    ],
+    [
+        "Castle Courtyard Evening",
+        1
+    ],
+    [
+        "Castle Day",
+        1
+    ],
+    [
+        "Castle Dining Room",
+        1
+    ],
+    [
+        "Castle Interior 1 Nighttime",
+        1
+    ],
+    [
+        "Castle Interior 2 Evening",
+        1
+    ],
+    [
+        "Castle Interior 3 Evening",
+        1
+    ],
+    [
+        "Castle Interior 3 Winter Day",
+        1
+    ],
+    [
+        "Castle Interior 3",
+        1
+    ],
+    [
+        "Castle Interior 4 Evening",
+        1
+    ],
+    [
+        "Castle Interior 4",
+        1
+    ],
+    [
+        "Castle Interior 5 Day",
+        1
+    ],
+    [
+        "Castle Interior 5 Evening",
+        1
+    ],
+    [
+        "Castle Interior 5 Night",
+        1
+    ],
+    [
+        "Castle Interior 5",
+        1
+    ],
+    [
+        "Castle Interior 6 Night",
+        1
+    ],
+    [
+        "Castle Interior 6 Rainy",
+        1
+    ],
+    [
+        "Castle Interior 6",
+        1
+    ],
+    [
+        "Castle Interior 7",
+        1
+    ],
+    [
+        "Castle Interior 8",
+        1
+    ],
+    [
+        "Castle Interior 10",
+        1
+    ],
+    [
+        "Castle Interior 11",
+        1
+    ],
+    [
+        "Castle Interior Day",
+        1
+    ],
+    [
+        "Castle Interior Evening",
+        1
+    ],
+    [
+        "Castle Interior Night 2",
+        1
+    ],
+    [
+        "Castle Interior Night",
+        1
+    ],
+    [
+        "Castle Interior Ravaged Day",
+        1
+    ],
+    [
+        "Castle Interior Ravaged Night",
+        1
+    ],
+    [
+        "Castle Interior",
+        1
+    ],
+    [
+        "Castle View Day",
+        1
+    ],
+    [
+        "Cave 1",
+        1
+    ],
+    [
+        "Cave Entrance Day",
+        1
+    ],
+    [
+        "Chief Tent Interior",
+        1
+    ],
+    [
+        "Chiefs Tent 2",
+        1
+    ],
+    [
+        "Daytime Inside House 1",
+        1
+    ],
+    [
+        "Daytime Tavern 1",
+        1
+    ],
+    [
+        "Desert Day",
+        1
+    ],
+    [
+        "Desert Evening",
+        1
+    ],
+    [
+        "Desert Morning",
+        1
+    ],
+    [
+        "Desert Night",
+        1
+    ],
+    [
+        "Desert Ruins Day",
+        1
+    ],
+    [
+        "Desert Storeroom",
+        1
+    ],
+    [
+        "Destroyed House Day",
+        1
+    ],
+    [
+        "Dining Room",
+        1
+    ],
+    [
+        "Dungeon 2",
+        1
+    ],
+    [
+        "Dungeon 3",
+        1
+    ],
+    [
+        "Dungeon 4",
+        1
+    ],
+    [
+        "Dungeon",
+        1
+    ],
+    [
+        "Estate Day",
+        1
+    ],
+    [
+        "Estate Evening",
+        1
+    ],
+    [
+        "Forest 1 Daytime",
+        1
+    ],
+    [
+        "Forest 1 Evening",
+        1
+    ],
+    [
+        "Forest 2 Day",
+        1
+    ],
+    [
+        "Forest 2 Evening",
+        1
+    ],
+    [
+        "Forest 2 Night",
+        1
+    ],
+    [
+        "Forest 3 Day",
+        1
+    ],
+    [
+        "Forest 3 Night",
+        1
+    ],
+    [
+        "Forest 3 Winter Day",
+        1
+    ],
+    [
+        "Forest 4 Day",
+        1
+    ],
+    [
+        "Forest 5 Day",
+        1
+    ],
+    [
+        "Forest 6 Day",
+        1
+    ],
+    [
+        "Forest 6 Night",
+        1
+    ],
+    [
+        "Forest 7 Day",
+        1
+    ],
+    [
+        "Forest 8 Day",
+        1
+    ],
+    [
+        "Forest 9 Day",
+        1
+    ],
+    [
+        "Forest 10 Day",
+        1
+    ],
+    [
+        "Forest 11 Day",
+        1
+    ],
+    [
+        "Forest 12 Day",
+        1
+    ],
+    [
+        "Forest 13 Day",
+        1
+    ],
+    [
+        "Forest Morning",
+        1
+    ],
+    [
+        "Forest Outskirts 1 Winter Day",
+        1
+    ],
+    [
+        "Forest Outskirts 2 Winter Day",
+        1
+    ],
+    [
+        "Forest Outskirts 4 winter Day",
+        1
+    ],
+    [
+        "Forest Outskirts Day",
+        1
+    ],
+    [
+        "Forest Outskirts Evening",
+        1
+    ],
+    [
+        "Forest Outskirts Night",
+        1
+    ],
+    [
+        "Forest Outskirts Winter Day",
+        1
+    ],
+    [
+        "Forest Outskirts Winter Evening",
+        1
+    ],
+    [
+        "Forest Shrine Day",
+        1
+    ],
+    [
+        "Forest Sunset",
+        1
+    ],
+    [
+        "Fort Interior 1 Day",
+        1
+    ],
+    [
+        "Fort Interior 1 Night",
+        1
+    ],
+    [
+        "Fort Interior 2 Day",
+        1
+    ],
+    [
+        "Fort Interior 2 Evening",
+        1
+    ],
+    [
+        "Fort Interior 2 Night",
+        1
+    ],
+    [
+        "Fortress View Day",
+        1
+    ],
+    [
+        "Fortress View Evening",
+        1
+    ],
+    [
+        "Garrison Outside Night",
+        1
+    ],
+    [
+        "Hills 2 Night",
+        1
+    ],
+    [
+        "Hills 3 Night",
+        1
+    ],
+    [
+        "Hills Evening",
+        1
+    ],
+    [
+        "Hills Night",
+        1
+    ],
+    [
+        "Inside Castle 9 Day",
+        1
+    ],
+    [
+        "Inside Fort Evening",
+        1
+    ],
+    [
+        "Inside Fort Night",
+        1
+    ],
+    [
+        "Inside Fortress Day",
+        1
+    ],
+    [
+        "Inside House 2 Daytime",
+        1
+    ],
+    [
+        "Inside House 2 Nighttime",
+        1
+    ],
+    [
+        "Inside House 2",
+        1
+    ],
+    [
+        "Inside House 3 Night",
+        1
+    ],
+    [
+        "Inside House 3",
+        1
+    ],
+    [
+        "Inside House 4 Day",
+        1
+    ],
+    [
+        "Inside House 5 Night",
+        1
+    ],
+    [
+        "Inside House Destroyed Day",
+        1
+    ],
+    [
+        "Inside House Night",
+        1
+    ],
+    [
+        "Inside House",
+        1
+    ],
+    [
+        "Inside Tent 2",
+        1
+    ],
+    [
+        "Inside Tent 3 Day",
+        1
+    ],
+    [
+        "Inside Tent 3",
+        1
+    ],
+    [
+        "Inside Tent 4",
+        1
+    ],
+    [
+        "Inside Tent 5",
+        1
+    ],
+    [
+        "Inside Tent 6",
+        1
+    ],
+    [
+        "Inside Tent 7",
+        1
+    ],
+    [
+        "Inside Tent",
+        1
+    ],
+    [
+        "Kitchen",
+        1
+    ],
+    [
+        "Lakeside 2 Day",
+        1
+    ],
+    [
+        "Lakeside 2 Night",
+        1
+    ],
+    [
+        "Lakeside Day",
+        1
+    ],
+    [
+        "Lakeside Fog Day",
+        1
+    ],
+    [
+        "Lakeside Night",
+        1
+    ],
+    [
+        "Lakeside Rainy",
+        1
+    ],
+    [
+        "Lakeside Winter Day",
+        1
+    ],
+    [
+        "Meeting Room",
+        1
+    ],
+    [
+        "Mountain Pass 2 Day",
+        1
+    ],
+    [
+        "Mountain Pass 2 Evening",
+        1
+    ],
+    [
+        "Mountain Pass 3 Day",
+        1
+    ],
+    [
+        "Mountain Pass Day",
+        1
+    ],
+    [
+        "Mountainside 2 Day",
+        1
+    ],
+    [
+        "Mountainside 2",
+        1
+    ],
+    [
+        "Mountainside Cloudy 2",
+        1
+    ],
+    [
+        "Mountainside Day",
+        1
+    ],
+    [
+        "Mountainside Night",
+        1
+    ],
+    [
+        "Mountainside Winter Day",
+        1
+    ],
+    [
+        "Night Village",
+        1
+    ],
+    [
+        "Nighttime Tavern 1",
+        1
+    ],
+    [
+        "Occupied Castle Day",
+        1
+    ],
+    [
+        "Oceanside Day",
+        1
+    ],
+    [
+        "Office",
+        1
+    ],
+    [
+        "Outside Castle 3 Day",
+        1
+    ],
+    [
+        "Outside Castle 4 Day",
+        1
+    ],
+    [
+        "Outside Castle Day",
+        1
+    ],
+    [
+        "Outside Castle Night",
+        1
+    ],
+    [
+        "Outside Castle Rainy Night",
+        1
+    ],
+    [
+        "Outside Castle Rainy",
+        1
+    ],
+    [
+        "Outside Castle Winter Day",
+        1
+    ],
+    [
+        "Outside House 2 Day",
+        1
+    ],
+    [
+        "Outside House Day",
+        1
+    ],
+    [
+        "Outside House Night",
+        1
+    ],
+    [
+        "Outside House Winter Day",
+        1
+    ],
+    [
+        "Round Table Day",
+        1
+    ],
+    [
+        "Ruins 2",
+        1
+    ],
+    [
+        "Ruins 3",
+        1
+    ],
+    [
+        "Ruins (1)",
+        1
+    ],
+    [
+        "Sea Port Day",
+        1
+    ],
+    [
+        "Ship Interior Day",
+        1
+    ],
+    [
+        "Sky Evening",
+        1
+    ],
+    [
+        "Storage Room night",
+        1
+    ],
+    [
+        "Storage Room",
+        1
+    ],
+    [
+        "Tavern 2",
+        1
+    ],
+    [
+        "Temple 2",
+        1
+    ],
+    [
+        "Temple",
+        1
+    ],
+    [
+        "Throne Room 1 Day",
+        1
+    ],
+    [
+        "Throne Room 2 Day",
+        1
+    ],
+    [
+        "Throne Room 3",
+        1
+    ],
+    [
+        "Throne Room 4 Night",
+        1
+    ],
+    [
+        "Throne Room Night",
+        1
+    ],
+    [
+        "Town Day",
+        1
+    ],
+    [
+        "Tribal Settlement 3 Day",
+        1
+    ],
+    [
+        "Tribal Settlement Day",
+        1
+    ],
+    [
+        "Tribal Settlement Night",
+        1
+    ],
+    [
+        "Tribal Settlement Winter Day",
+        1
+    ],
+    [
+        "Village 1 Daytime",
+        1
+    ],
+    [
+        "Village 2 Daytime",
+        1
+    ],
+    [
+        "Village 2 Night",
+        1
+    ],
+    [
+        "Village 2 Rainy",
+        1
+    ],
+    [
+        "Village 2 Winter Day",
+        1
+    ],
+    [
+        "Village 2 Winter Night",
+        1
+    ],
+    [
+        "Village 3 Daytime",
+        1
+    ],
+    [
+        "Village 4 Day",
+        1
+    ],
+    [
+        "Village 5 Day",
+        1
+    ],
+    [
+        "Village 6 Day",
+        1
+    ],
+    [
+        "Village 6 Night",
+        1
+    ],
+    [
+        "Village 6 Winter Day",
+        1
+    ],
+    [
+        "Wasteland 2",
+        1
+    ],
+    [
+        "Wasteland",
+        1
+    ]
+]

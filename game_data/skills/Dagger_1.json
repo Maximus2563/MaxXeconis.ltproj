@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Dagger 1",
+        "name": "Iron Dagger",
+        "desc": "Inflicts DEF/RES -3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            28
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        -3
+                    ],
+                    [
+                        "RES",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

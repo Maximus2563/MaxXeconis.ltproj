@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Refinement",
+        "name": "Refinement",
+        "desc": "Grants +(Weapon Uses) hit and \n(Weapon Uses / 3) crit when initiating.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            7
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "item.data.get('uses', 0) "
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "item.data.get('uses', 0) // 3 "
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack' "
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

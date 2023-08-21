@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Float",
+        "name": "Float",
+        "desc": "Allows an ally to fly for 5 turns.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "value",
+                2700
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Barrier"
+            ],
+            [
+                "status_on_hit",
+                "FlyingTemp"
+            ]
+        ]
+    }
+]

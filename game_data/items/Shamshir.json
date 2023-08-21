@@ -1,0 +1,91 @@
+[
+    {
+        "nid": "Shamshir",
+        "name": "Shamshir",
+        "desc": "For light swordfighters only",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                35
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "prf_class",
+                [
+                    "Myrmidon",
+                    "Swordmaster",
+                    "Eirika_Lord",
+                    "Assassin",
+                    "Sword_Bonewalker",
+                    "Sword_Wight"
+                ]
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ]
+        ]
+    }
+]

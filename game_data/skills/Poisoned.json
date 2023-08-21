@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Poisoned",
+        "name": "Poisoned",
+        "desc": "Unit receives 1-5 dmg at the beginning of each turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                4
+            ],
+            [
+                "gba_poison",
+                5
+            ],
+            [
+                "unit_anim",
+                "MapPoison"
+            ],
+            [
+                "upkeep_animation",
+                "MapPoisonShock"
+            ],
+            [
+                "upkeep_sound",
+                "Poison"
+            ]
+        ]
+    }
+]

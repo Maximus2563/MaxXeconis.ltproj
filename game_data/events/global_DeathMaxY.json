@@ -1,0 +1,33 @@
+[
+    {
+        "name": "DeathMaxY",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'MaxYoung'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "MaxYoung",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "MaxYoung",
+                    "C-crap...|Gotta run!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "MaxYoung"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;MaxYoung;Right\nspeak;MaxYoung;C-crap...|Gotta run!\nremove_portrait;MaxYoung\n"
+    }
+]

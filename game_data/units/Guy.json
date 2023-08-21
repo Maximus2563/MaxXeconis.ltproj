@@ -1,0 +1,162 @@
+[
+    {
+        "nid": "Guy",
+        "name": "Guy",
+        "desc": "A laid back and apathetic cavalier in Pykroe's mercenaries.",
+        "variant": "",
+        "level": 3,
+        "klass": "AxeCavalier",
+        "tags": [],
+        "bases": {
+            "HP": 24,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 5,
+            "LCK": 3,
+            "DEF": 7,
+            "RES": 0,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 55,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 30,
+            "DEF": 50,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 2,
+            "RES": -1,
+            "DEF": 1,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": -1
+        },
+        "starting_items": [
+            [
+                "Steel Axe",
+                false
+            ],
+            [
+                "Hand Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Relaxation"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "His horse,Resting"
+            ],
+            [
+                "Dislikes:",
+                "Himself"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                31,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Guy",
+        "affinity": "Water",
+        "fields": [
+            [
+                "DeathQuote",
+                "Yeah, I deserved this..."
+            ],
+            [
+                "EscapeQuote",
+                "I lived another day? Alright."
+            ],
+            [
+                "HighLevelUpQuote",
+                "Wait, how did I do that?"
+            ],
+            [
+                "MidLevelUpQuote",
+                "Pretty good, I guess."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Mediocrity isn't fun."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Why can't I do anything right?"
+            ],
+            [
+                "PromoQuote",
+                "Huh, even I can make strides sometimes."
+            ],
+            [
+                "MaxStatQuote",
+                "I didn't realise I grew so fast..."
+            ]
+        ]
+    }
+]

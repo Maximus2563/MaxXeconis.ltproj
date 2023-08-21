@@ -1,0 +1,98 @@
+[
+    {
+        "name": "CSupportMaxMaxime",
+        "trigger": "on_support",
+        "level_nid": null,
+        "condition": "check_pair('Max', 'Maxime') and item == 'C'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Army Camp 3 Day"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Max",
+                    "Left",
+                    "Maxime",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Max",
+                    "Well, well. I've finally found you, faker!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "Uh, do I know you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Max",
+                    "The real Max around here!|I keep getting blamed for things I haven't done...|You wouldn't know anything about that, would you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "\"Real\" Max, eh? What accusations are you facing then?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Max",
+                    "Apparently, I stole an entire barrel of ale, threw up, and left a note apologizing."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "So, at least you apologized, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Max",
+                    "I like a drink as much as the next guy, but I did NOT do that."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "...|How's about a pint, hm? That'll smooth this over, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Max",
+                    "So long as you're paying AND you admit that you made that mess."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "Fine, man you're not gonna let go of that."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

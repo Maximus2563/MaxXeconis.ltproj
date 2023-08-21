@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Retribution",
+        "name": "Retribution",
+        "desc": "+5 ATK if unit is damaged during combat.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            44
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_take_damage",
+                "RetributionChild"
+            ]
+        ]
+    }
+]

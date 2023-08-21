@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Deluge Balm",
+        "name": "Deluge Balm",
+        "desc": "Grants RES +2/SKL +3 when healing an ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            24
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_attack",
+                "Deluge Balm Child"
+            ],
+            [
+                "combat_condition",
+                "target.team == unit.team"
+            ]
+        ]
+    }
+]

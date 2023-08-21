@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "RallyResA",
+        "name": "Rally Res",
+        "desc": "Grants RES+4 to all allies within 2 spaces.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "RallyResChild"
+            ],
+            [
+                "map_hit_sfx",
+                "Rally"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    185,
+                    8,
+                    255
+                ]
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "exp",
+                0
+            ],
+            [
+                "rally_blast_aoe",
+                2
+            ]
+        ]
+    }
+]

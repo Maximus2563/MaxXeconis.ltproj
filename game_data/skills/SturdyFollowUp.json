@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SturdyFollowUp",
+        "name": "Sturdy Follow-Up",
+        "desc": "If unit's DEF >= foe's DEF +5, unit can make a guaranteed follow-up attack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            33
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_speed",
+                100
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('DEF') > (target.get_stat('DEF') + 4)"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,1140 @@
+[
+    {
+        "nid": "3",
+        "name": "Ch. 3: Crimson Tears",
+        "tilemap": "Ch3",
+        "bg_tilemap": null,
+        "party": "SalGroup",
+        "music": {
+            "player_phase": "Thorn in You",
+            "enemy_phase": "Thorn in You",
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": "Thorn in You",
+            "enemy_battle": "Thorn in You",
+            "other_battle": null,
+            "enemy2_battle": null,
+            "boss_battle": "44 Condemnation"
+        },
+        "objective": {
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Sal dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Sal",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    29,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Aerial",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    28,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Roag",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    30,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Landros",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    29,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Maro",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    29,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Smoke",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    30,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Pikno",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    28,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nako",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    30,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sanjay",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Sanjay",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "A",
+                "starting_position": [
+                    8,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 3,
+                "klass": "Merc",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    28,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "Female",
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "B",
+                "starting_position": [
+                    25,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "C",
+                "starting_position": [
+                    17,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "B",
+                "starting_position": [
+                    17,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 5,
+                "klass": "Journeyman",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ],
+                    [
+                        "Pure Water",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "A",
+                "starting_position": [
+                    7,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 3,
+                "klass": "Merc",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Armorslayer",
+                        false
+                    ],
+                    [
+                        "Pure Water",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "Sanjay",
+                "starting_position": [
+                    6,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 4,
+                "klass": "Merc",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "B",
+                "starting_position": [
+                    18,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 3,
+                "klass": "Merc",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "C",
+                "starting_position": [
+                    14,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "C",
+                "starting_position": [
+                    13,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "B",
+                "starting_position": [
+                    17,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": "",
+                "level": 3,
+                "klass": "SwordCavalier",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Elias",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Skill",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "EmelinePrincess",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Jeremiah",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Oberon",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Jevil",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Cres",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Priest1",
+                "variant": null,
+                "level": 1,
+                "klass": "Priest",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Priest2",
+                "variant": null,
+                "level": 1,
+                "klass": "Priest",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Argento",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Cornelius",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Bishop",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Bishop",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "GreatKnight",
+                "variant": "",
+                "level": 1,
+                "klass": "Great_Knight",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": "",
+                "level": 3,
+                "klass": "SwordCavalier",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Light Brand",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "D",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": "",
+                "level": 3,
+                "klass": "AxeCavalier",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Halberd",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "D",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": "",
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "E",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": "",
+                "level": 2,
+                "klass": "Monk",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "E",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": "",
+                "level": 3,
+                "klass": "Cleric",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Heal",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "F",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": "",
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "F",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": "",
+                "level": 2,
+                "klass": "KnightS",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "G",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": "",
+                "level": 2,
+                "klass": "KnightL",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "G",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": "",
+                "level": 2,
+                "klass": "KnightA",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "G",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "SpawnE",
+                "region_type": "normal",
+                "position": [
+                    18,
+                    4
+                ],
+                "size": [
+                    10,
+                    8
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SpawnD",
+                "region_type": "normal",
+                "position": [
+                    6,
+                    0
+                ],
+                "size": [
+                    10,
+                    6
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SpawnG",
+                "region_type": "normal",
+                "position": [
+                    3,
+                    8
+                ],
+                "size": [
+                    9,
+                    5
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SpawnF",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    6
+                ],
+                "size": [
+                    6,
+                    10
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "EscapeBlank",
+                "region_type": "event",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "PlayerTeam",
+                "units": [
+                    "Sal",
+                    "Roag",
+                    "Pikno",
+                    "Maro",
+                    "Nako",
+                    "Smoke",
+                    "Landros",
+                    "Aerial"
+                ],
+                "positions": {
+                    "Sal": [
+                        29,
+                        0
+                    ],
+                    "Roag": [
+                        30,
+                        0
+                    ],
+                    "Pikno": [
+                        28,
+                        2
+                    ],
+                    "Maro": [
+                        29,
+                        2
+                    ],
+                    "Smoke": [
+                        30,
+                        2
+                    ],
+                    "Nako": [
+                        30,
+                        1
+                    ],
+                    "Landros": [
+                        29,
+                        1
+                    ],
+                    "Aerial": [
+                        28,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyTeam",
+                "units": [
+                    "Sanjay",
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "GREEN",
+                "units": [
+                    "Elias",
+                    "Jeremiah",
+                    "Oberon",
+                    "Argento",
+                    "Priest2",
+                    "Priest1",
+                    "Jevil",
+                    "Bishop",
+                    "GreatKnight"
+                ],
+                "positions": {
+                    "Elias": [
+                        7,
+                        2
+                    ],
+                    "Jeremiah": [
+                        6,
+                        3
+                    ],
+                    "Argento": [
+                        8,
+                        3
+                    ],
+                    "Skill": [
+                        3,
+                        5
+                    ],
+                    "Priest2": [
+                        5,
+                        8
+                    ],
+                    "Priest1": [
+                        9,
+                        8
+                    ],
+                    "Oberon": [
+                        1,
+                        12
+                    ],
+                    "Jevil": [
+                        3,
+                        12
+                    ],
+                    "Cres": [
+                        13,
+                        12
+                    ],
+                    "Cornelius": [
+                        11,
+                        7
+                    ],
+                    "Bishop": [
+                        3,
+                        7
+                    ],
+                    "GreatKnight": [
+                        11,
+                        5
+                    ],
+                    "EmelinePrincess": [
+                        4,
+                        5
+                    ]
+                }
+            },
+            {
+                "nid": "GroupD",
+                "units": [
+                    "114",
+                    "115"
+                ],
+                "positions": {
+                    "114": [
+                        3,
+                        0
+                    ],
+                    "115": [
+                        4,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "GroupE",
+                "units": [
+                    "116",
+                    "117"
+                ],
+                "positions": {
+                    "116": [
+                        30,
+                        6
+                    ],
+                    "117": [
+                        30,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "GroupF",
+                "units": [
+                    "119",
+                    "118"
+                ],
+                "positions": {
+                    "119": [
+                        18,
+                        15
+                    ],
+                    "118": [
+                        17,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "GroupG",
+                "units": [
+                    "120",
+                    "121",
+                    "122"
+                ],
+                "positions": {
+                    "120": [
+                        1,
+                        11
+                    ],
+                    "121": [
+                        2,
+                        12
+                    ],
+                    "122": [
+                        3,
+                        13
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "D",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "E",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "F",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Sanjay",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "A",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "G",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "B",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "C",
+                "trigger_threshold": 1
+            }
+        ]
+    }
+]

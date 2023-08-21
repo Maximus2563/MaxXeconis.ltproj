@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Pristine Pike",
+        "trigger": "on_base_convo",
+        "level_nid": "6B",
+        "condition": "unit == 'Pristine Pike'",
+        "commands": [
+            [
+                "music",
+                [
+                    "74 Dance in the Dark"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "music;74 Dance in the Dark\n"
+    }
+]

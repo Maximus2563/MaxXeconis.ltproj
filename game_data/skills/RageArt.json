@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RageArt",
+        "name": "Furious Smash",
+        "desc": "Unit releases their rage and adds +1 ATK/5 Crit per stack",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "eval_damage",
+                "len([skill for skill in unit.skills if skill.nid == 'RageChild']) "
+            ],
+            [
+                "event_after_combat",
+                "Global RageRemove"
+            ],
+            [
+                "eval_crit",
+                "5*(len([skill for skill in unit.skills if skill.nid == 'RageChild']) )"
+            ]
+        ]
+    }
+]

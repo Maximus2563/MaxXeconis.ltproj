@@ -1,0 +1,34 @@
+[
+    {
+        "name": "GuyRelax",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "unit.nid == 'Guy'",
+        "commands": [
+            [
+                "if",
+                [
+                    "not unit.get_field(\"AttackedThisTurn\")"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Guy",
+                    "Relaxed",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Rally"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

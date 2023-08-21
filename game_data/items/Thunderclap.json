@@ -1,0 +1,104 @@
+[
+    {
+        "nid": "Thunderclap",
+        "name": "Thunderclap",
+        "desc": "Attack up to three units.",
+        "icon_nid": "Leif Tomes",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                1350
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "multi_target",
+                3
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "allow_same_target",
+                null
+            ]
+        ]
+    }
+]

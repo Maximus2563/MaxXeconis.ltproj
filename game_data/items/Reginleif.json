@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Reginleif",
+        "name": "Reginleif",
+        "desc": "Effective against horseback and armoured units.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                7200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "prf_unit",
+                [
+                    "Eirika"
+                ]
+            ],
+            [
+                "effective_tag",
+                [
+                    "Armor",
+                    "Horse"
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Null Armor Eff ",
+        "name": "Null Armor Eff",
+        "desc": "Nullifies armor effective bonuses.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "negate_tags",
+                [
+                    "Armor"
+                ]
+            ]
+        ]
+    }
+]

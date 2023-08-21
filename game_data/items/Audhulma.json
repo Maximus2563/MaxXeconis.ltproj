@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Audhulma",
+        "name": "Audhulma",
+        "desc": "Resistance +5. Effective against monsters",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            19
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "status_on_equip",
+                "Resistance +5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "effective_tag",
+                [
+                    "Monster"
+                ]
+            ]
+        ]
+    }
+]

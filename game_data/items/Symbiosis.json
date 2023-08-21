@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Symbiosis",
+        "name": "Symbiosis",
+        "desc": "Restores (User's MAG + 7) HP to 2 targets.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            12
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1300
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "exp",
+                12
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "magic_heal",
+                7
+            ],
+            [
+                "multi_target",
+                2
+            ],
+            [
+                "allow_same_target",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "MapMediumHealTrans"
+            ],
+            [
+                "map_cast_sfx",
+                "MapHeal"
+            ]
+        ]
+    }
+]

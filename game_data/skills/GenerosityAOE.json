@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "GenerosityAOE",
+        "name": "GenerosityAOE",
+        "desc": "Unit's healing items gain +1 AoE.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            54
+        ],
+        "components": [
+            [
+                "smart_oversplash",
+                1
+            ]
+        ]
+    }
+]

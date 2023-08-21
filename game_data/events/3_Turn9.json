@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "enemy_turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 8",
+        "commands": [
+            [
+                "load_unit",
+                [
+                    "SkillCH3",
+                    "enemy",
+                    "Attack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "SkillCH3",
+                    "29,0",
+                    "",
+                    "",
+                    "north"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Esteban",
+                    "enemy",
+                    "Attack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Esteban",
+                    "28,0",
+                    "",
+                    "",
+                    "north"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Skill",
+                    "Right",
+                    "Esteban",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Now we have put his highness to rest...|Where are they... WHERE ARE THEY?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esteban",
+                    "It appears these people are trying to flee, huh."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Grr...GAH!|I will have their heads!|Nobody makes her highness cry and lives to tell the tale!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Esteban",
+                    "Oh look, the Goddess is crying...|Sir Skill, try to keep your cool, eh?|If these guys are dangerous, we want to be ready."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Arcein scum...|I'll show them who's dangerous!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Skill",
+                    "Esteban"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "load_unit;SkillCH3;enemy;Attack\nadd_unit;SkillCH3;29,0;;;north\nload_unit;Esteban;enemy;Attack\nadd_unit;Esteban;28,0;;;north\nmulti_add_portrait;Skill;Right;Esteban;Left\nspeak;Skill;Now we have put his highness to rest...|Where are they... WHERE ARE THEY?\nspeak;Esteban;It appears these people are trying to flee, huh.\nspeak;Skill;Grr...GAH!|I will have their heads!|Nobody makes her highness cry and lives to tell the tale!\nspeak;Esteban;Oh look, the Goddess is crying...|Sir Skill, try to keep your cool, eh?|If these guys are dangerous, we want to be ready.\nspeak;Skill;Arcein scum...|I'll show them who's dangerous!\nmulti_remove_portrait;Skill;Esteban\n"
+    }
+]

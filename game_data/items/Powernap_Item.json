@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Powernap_Item",
+        "name": "Powernap",
+        "desc": "Unit fully heals, but falls asleep for 2 turns.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "max_range",
+                0
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Napping"
+            ],
+            [
+                "heal",
+                100
+            ],
+            [
+                "restore",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "Berserk"
+            ]
+        ]
+    }
+]

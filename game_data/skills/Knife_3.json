@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Knife 3",
+        "name": "Silver Knife",
+        "desc": "Inflicts STR/MAG-3, SKL/LCK-4.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            29
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -3
+                    ],
+                    [
+                        "MAG",
+                        -3
+                    ],
+                    [
+                        "SKL",
+                        -4
+                    ],
+                    [
+                        "LCK",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

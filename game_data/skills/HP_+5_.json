@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "HP +5 ",
+        "name": "HP +5",
+        "desc": "Grants HP +5.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            12
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

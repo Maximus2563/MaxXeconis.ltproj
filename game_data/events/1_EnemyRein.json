@@ -1,0 +1,65 @@
+[
+    {
+        "name": "EnemyRein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Sal').position)",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "EnemyRein",
+                    "",
+                    "EnemyRein"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "107"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "0"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit2",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit2",
+                    "Filthy knights, this is OURS!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bandit2"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": ""
+    }
+]

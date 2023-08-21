@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Blindside",
+        "name": "Blindside",
+        "desc": "If unit initiates combat and an ally is on the \nopposite side of the target, grants Canter (2).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canter",
+                2
+            ],
+            [
+                "combat_condition",
+                "unit_funcs.check_flanked(target) == True"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Renew",
+        "name": "Renew",
+        "desc": "Refreshes an ally.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "value",
+                4000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Refresh"
+            ],
+            [
+                "refresh",
+                null
+            ]
+        ]
+    }
+]

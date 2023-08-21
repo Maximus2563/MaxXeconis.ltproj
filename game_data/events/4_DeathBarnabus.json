@@ -1,0 +1,44 @@
+[
+    {
+        "name": "DeathBarnabus",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == \"Barnabus\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Barnabus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Barnabus",
+                    "Gurgh... This is embarassing..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Barnabus",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Barnabus"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Barnabus;Left\nspeak;Barnabus;Gurgh... This is embarassing...\nexpression;Barnabus;CloseEyes\nremove_portrait;Barnabus\nwin_game\n"
+    }
+]

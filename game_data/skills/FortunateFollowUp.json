@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FortunateFollowUp",
+        "name": "Fortunate Follow-Up",
+        "desc": "If unit's LCK >= foe's LCK +5, unit can make a guaranteed follow-up attack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            26
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_speed",
+                100
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('LCK') > (target.get_stat('LCK') + 4)"
+            ]
+        ]
+    }
+]

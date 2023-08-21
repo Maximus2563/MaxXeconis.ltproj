@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RageChild",
+        "name": "Rage",
+        "desc": "Can release stacks of rage to add +1 ATK/5 Crit per stack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "stack",
+                6
+            ],
+            [
+                "combat_art",
+                "RageArt"
+            ]
+        ]
+    }
+]

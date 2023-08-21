@@ -1,0 +1,115 @@
+[
+    {
+        "nid": "Hogarth",
+        "name": "Hogarth",
+        "desc": "",
+        "variant": "",
+        "level": 7,
+        "klass": "War Monk",
+        "tags": [],
+        "bases": {
+            "HP": 44,
+            "STR": 13,
+            "MAG": 16,
+            "SKL": 10,
+            "SPD": 11,
+            "LCK": 6,
+            "DEF": 10,
+            "RES": 13,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 27,
+            "MAG": 32,
+            "SKL": 25,
+            "SPD": 22,
+            "LCK": 40,
+            "DEF": 21,
+            "RES": 37,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Tomahawk",
+                false
+            ],
+            [
+                "Silence",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                181,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                181,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Hogarth",
+        "affinity": "None",
+        "fields": []
+    }
+]

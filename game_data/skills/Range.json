@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Range",
+        "name": "Range",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

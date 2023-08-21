@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Heavy Strike",
+        "name": "Heavy Strike",
+        "desc": "Adds weapon weight to crit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "dynamic_crit_accuracy",
+                "unit.get_weapon().weight.value"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

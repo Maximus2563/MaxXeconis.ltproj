@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Invigorated",
+        "name": "Invigorated",
+        "desc": "Grants STR/MAG/SKL +2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        3
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SwordStudent",
+        "name": "SwordStudent",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "sum(20 for i in unit.items if item_system.weapon_type(unit, i) in ['Sword'])"
+            ]
+        ]
+    }
+]

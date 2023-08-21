@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "Fortify",
+        "name": "Fortify",
+        "desc": "Restores (User's Magic + 10) HP to all allies within range.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                45
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "magic_heal",
+                10
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Reinforce"
+            ],
+            [
+                "map_cast_sfx",
+                "Recover"
+            ]
+        ]
+    }
+]

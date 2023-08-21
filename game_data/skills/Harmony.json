@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Harmony",
+        "name": "Harmony",
+        "desc": "Allies within 2 spaces heal 20% of their max HP at the start of each turn.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "HarmonyChild"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

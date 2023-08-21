@@ -1,0 +1,162 @@
+[
+    {
+        "nid": "Blazing",
+        "name": "Blazing",
+        "desc": "Son of a Grahment Count. His faith is a source of strength.",
+        "variant": "",
+        "level": 3,
+        "klass": "Monk",
+        "tags": [],
+        "bases": {
+            "HP": 18,
+            "STR": 0,
+            "MAG": 5,
+            "SKL": 7,
+            "SPD": 8,
+            "LCK": 5,
+            "DEF": 3,
+            "RES": 6,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 5,
+            "MAG": 40,
+            "SKL": 45,
+            "SPD": 50,
+            "LCK": 55,
+            "DEF": 30,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": -1,
+            "MOV": 0,
+            "CON": 0,
+            "STR": -2,
+            "RES": 1,
+            "DEF": 0,
+            "LCK": 2,
+            "SKL": 0,
+            "SPD": 1
+        },
+        "starting_items": [
+            [
+                "Lightning",
+                false
+            ],
+            [
+                "Pure Water",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "FlamingFaith"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "His faith,Feeling righteous"
+            ],
+            [
+                "Dislikes:",
+                "Pessimists,The dark"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                31,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Blazing",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "My burning beliefs... Scattered like ash..."
+            ],
+            [
+                "EscapeQuote",
+                "I made it out alive, thank you Goddess."
+            ],
+            [
+                "PromoQuote",
+                "I'll burn even brighter now!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "This is the result of my convictions!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "Fortune falls upon me today."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Good, but my devotion calls for more."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "I'm feeling burnt out..."
+            ],
+            [
+                "MaxStatQuote",
+                "I can outshine anyone! Except the Goddess of course."
+            ]
+        ]
+    }
+]

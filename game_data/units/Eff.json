@@ -1,0 +1,134 @@
+[
+    {
+        "nid": "Eff",
+        "name": "Eff",
+        "desc": "",
+        "variant": "",
+        "level": 4,
+        "klass": "Malig Knight",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 14,
+            "MAG": 16,
+            "SKL": 18,
+            "SPD": 13,
+            "LCK": 9,
+            "DEF": 14,
+            "RES": 5,
+            "CON": 11,
+            "MOV": 8
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 45,
+            "MAG": 45,
+            "SKL": 50,
+            "SPD": 35,
+            "LCK": 30,
+            "DEF": 45,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 2,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 1,
+            "RES": -2,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 1,
+            "SPD": -1
+        },
+        "starting_items": [
+            [
+                "Killer Axe",
+                false
+            ],
+            [
+                "Luna",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Piercing Wit"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Reading,Classical music"
+            ],
+            [
+                "Dislikes:",
+                "Bad authors"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                121,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                121,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Eff",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "DeathQuote",
+                "And so this chapter...|Comes to a close..."
+            ]
+        ]
+    }
+]

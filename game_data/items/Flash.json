@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Flash",
+        "name": "Flash",
+        "desc": "Enemy cannot counter.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                2150
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Dazzled"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Sleep2"
+            ]
+        ]
+    }
+]

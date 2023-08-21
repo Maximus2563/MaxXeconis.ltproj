@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Vendor",
+        "trigger": "Vendor",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "shop",
+                [
+                    "{unit}",
+                    "Heal,Mend,Lightning,Shine,Vulnerary",
+                    "Vendor"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nshop;{unit};Heal,Mend,Lightning,Shine,Vulnerary;Vendor\ntransition;Open\n"
+    }
+]

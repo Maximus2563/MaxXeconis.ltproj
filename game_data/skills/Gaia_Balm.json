@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Gaia Balm",
+        "name": "Gaia Balm",
+        "desc": "Grants DEF +2/CON +3 when healing an ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.team == unit.team"
+            ],
+            [
+                "give_status_after_attack",
+                "Gaia Balm Child  "
+            ]
+        ]
+    }
+]

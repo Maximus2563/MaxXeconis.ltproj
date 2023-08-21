@@ -1,0 +1,33 @@
+[
+    {
+        "name": "DeathLentz",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == \"Lentz\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Lentz",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lentz",
+                    "Urgh... Darn brats..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lentz"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Lentz;Left\nspeak;Lentz;Urgh... Darn brats...\nremove_portrait;Lentz\n"
+    }
+]

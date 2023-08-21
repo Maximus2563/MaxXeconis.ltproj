@@ -1,0 +1,21 @@
+[
+    {
+        "name": "RageRemove",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "remove_skill",
+                [
+                    "Joker",
+                    "RageChild",
+                    "FLAG(no_banner)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

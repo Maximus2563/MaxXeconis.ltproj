@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "DivinePunishmentChild",
+        "name": "Divine Punishment",
+        "desc": "Halves unit's RES.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            4
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "RES",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

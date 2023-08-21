@@ -1,0 +1,137 @@
+[
+    {
+        "nid": "CherryYoung",
+        "name": "Cherry",
+        "desc": "A young noblewoman who wants to overcome her shyness.",
+        "variant": "Short",
+        "level": 3,
+        "klass": "Troubadour",
+        "tags": [],
+        "bases": {
+            "HP": 19,
+            "STR": 0,
+            "MAG": 7,
+            "SKL": 2,
+            "SPD": 4,
+            "LCK": 5,
+            "DEF": 6,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 5,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 1,
+            "DEF": 1,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": -2
+        },
+        "starting_items": [
+            [
+                "Heal",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Indentured Aid"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Praise"
+            ],
+            [
+                "Dislikes:",
+                "Being unprepared"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                1,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "CherryYoung",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "HighLevelUpQuote",
+                "Hoho! I can do it!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "Y-yay!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Uhm..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Eek!"
+            ]
+        ]
+    }
+]

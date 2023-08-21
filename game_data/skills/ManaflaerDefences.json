@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ManaflaerDefences",
+        "name": "ManaflaerDefences",
+        "desc": "",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "max(0, (target.get_stat('DEF') - target.get_stat('RES')))"
+            ]
+        ]
+    }
+]

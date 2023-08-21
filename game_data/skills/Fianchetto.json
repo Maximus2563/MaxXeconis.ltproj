@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Fianchetto",
+        "name": "Fianchetto",
+        "desc": "When initiating combat, if unit\nhas moved directly diagonally,\nadd the amount of tiles moved to\nATK/PRT/RSL.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            5
+        ],
+        "components": [
+            [
+                "condition",
+                "(unit.position[0] - unit.previous_position[0]) == (unit.position[1] - unit.previous_position[1]) or (unit.position[0] - unit.previous_position[0]) == -1 * (unit.position[1] - unit.previous_position[1])"
+            ],
+            [
+                "dynamic_resist",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position))"
+            ],
+            [
+                "dynamic_damage",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position)) if not 'TrueDamage' in item.tags else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

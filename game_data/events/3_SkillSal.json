@@ -1,0 +1,82 @@
+[
+    {
+        "name": "SkillSal",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('SkillCH3', 'Sal')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Skill",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sal",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Y-you?"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Skill"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "I knew I recognised you!|I'm surprised nobody else seems to remember such a vile TRAITOR!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Skill?!|I know this looks bad, but please listen to me..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Hmph, you are the spitting image of your foul necromancer father.|A traitor to the Goddess AND Aurelia."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Lord Sages did not put this into motion, you must see reason, surely..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Reason? The only reason I have is a reason to slice your head from your body!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Now I remember why I was glad to leave..."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "add_portrait;Skill;Left\nadd_portrait;Sal;Right\nspeak;Skill;Y-you?\nbop_portrait;Skill\nspeak;Skill;I knew I recognised you!|I'm surprised nobody else seems to remember such a vile TRAITOR!\nspeak;Sal;Skill?!|I know this looks bad, but please listen to me...\nspeak;Skill;Hmph, you are the spitting image of your foul necromancer father.|A traitor to the Goddess AND Aurelia.\nspeak;Sal;Lord Sages did not put this into motion, you must see reason, surely...\nspeak;Skill;Reason? The only reason I have is a reason to slice your head from your body!\nspeak;Sal;Now I remember why I was glad to leave...\n"
+    }
+]

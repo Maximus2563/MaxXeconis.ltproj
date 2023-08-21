@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ArcaneMajesty",
+        "name": "Arcane Majesty",
+        "desc": "Unit restores HP to full when defeated.\nReduces charge of this skill by 1 when defeated.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            43
+        ],
+        "components": [
+            [
+                "full_miracle",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "drain_charge",
+                1
+            ]
+        ]
+    }
+]

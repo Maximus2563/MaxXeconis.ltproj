@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "FlightorFlightChild",
+        "name": "Adrenaline Rush",
+        "desc": "Grants MOV+2 and avoid+20 for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "avoid",
+                20
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

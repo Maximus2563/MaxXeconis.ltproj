@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "crit",
+        "name": "crit",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "crit",
+                0
+            ]
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount == 9",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Left",
+                    "Sal"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Seems they're giving up! Good work team!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sal"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Left;Sal\nspeak;Sal;Seems they're giving up! Good work team!\nremove_portrait;Sal\nwin_game\n"
+    }
+]

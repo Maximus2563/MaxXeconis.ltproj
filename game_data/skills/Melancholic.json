@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Melancholic",
+        "name": "Melancholic",
+        "desc": "If there are no allies within 2 spaces and unit initiates combat,\nunit can make a follow-up attack before foe can counter.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit_funcs.check_focus(unit, 2) == 0  "
+            ],
+            [
+                "aura",
+                "Range"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "unit"
+            ],
+            [
+                "desperation",
+                null
+            ]
+        ]
+    }
+]

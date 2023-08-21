@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Hit -20",
+        "name": "Hit -20",
+        "desc": "Inflicts -20 hit.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            24
+        ],
+        "components": [
+            [
+                "hit",
+                -20
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

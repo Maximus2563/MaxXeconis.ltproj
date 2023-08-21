@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ContraryStrike",
+        "name": "Contrary Strike",
+        "desc": "If unit attacks a magic foe with a physical attack or vice versa, grants +3 ATK.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            55
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "(item_funcs.is_magic(unit, unit.get_weapon()) and not item_funcs.is_magic(target, target.get_weapon())) or (not item_funcs.is_magic(unit, unit.get_weapon()) and item_funcs.is_magic(target, target.get_weapon()))"
+            ],
+            [
+                "damage",
+                3
+            ]
+        ]
+    }
+]

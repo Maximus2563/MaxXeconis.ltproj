@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "NimbleCombo",
+        "name": "Nimble Combo",
+        "desc": "Unit's follow-up attacks have x1.5 Crit Rate.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "pcc_static",
+                1.5
+            ]
+        ]
+    }
+]

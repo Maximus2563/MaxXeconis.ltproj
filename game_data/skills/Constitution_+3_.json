@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Constitution +3 ",
+        "name": "Constitution +3 ",
+        "desc": "Grants CON +3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            20
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

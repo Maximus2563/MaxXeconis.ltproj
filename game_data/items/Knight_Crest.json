@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Knight Crest",
+        "name": "Knight Crest",
+        "desc": "Promotes worthy Cavaliers and Knights.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Knight",
+                    "Cavalier"
+                ]
+            ],
+            [
+                "eval_target_restrict",
+                "unit.level >= 10"
+            ],
+            [
+                "promote",
+                null
+            ]
+        ]
+    }
+]

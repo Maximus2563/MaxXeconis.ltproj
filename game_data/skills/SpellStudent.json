@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SpellStudent",
+        "name": "Spell Student",
+        "desc": "Grants +1 ATK for every adjacent tome ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_damage",
+                "len([u for u in get_allies_within_distance(unit, 1) if (u is not unit and u.get_weapon() and item_system.weapon_type(u, u.get_weapon()) in ['Anima','Light','Dark'])])"
+            ]
+        ]
+    }
+]

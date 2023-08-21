@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "DeathBlow",
+        "name": "Death Blow",
+        "desc": "Grants STR+6 on initiation.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        6
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

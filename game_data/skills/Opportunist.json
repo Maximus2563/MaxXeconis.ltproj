@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Opportunist",
+        "name": "Opportunist",
+        "desc": "Gain +5 damage if this unit attacks an enemy who cannot counterattack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "5 if not combat_calcs.can_counterattack(unit, unit.get_weapon(), target, target.get_weapon()) else 0"
+            ]
+        ]
+    }
+]

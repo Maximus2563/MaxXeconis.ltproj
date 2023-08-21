@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "Iron Dagger",
+        "name": "Iron Dagger",
+        "desc": "Inflicts DEF/RES -3 on hit.",
+        "icon_nid": "Knife",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                460
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Knife"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "status_on_hit",
+                "Dagger 1"
+            ]
+        ]
+    }
+]

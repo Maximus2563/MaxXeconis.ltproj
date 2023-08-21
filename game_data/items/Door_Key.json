@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "Door Key",
+        "name": "Door Key",
+        "desc": "Opens doors.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "value",
+                50
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "can_unlock",
+                "region.nid.startswith('Door')"
+            ]
+        ]
+    }
+]

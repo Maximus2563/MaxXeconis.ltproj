@@ -1,0 +1,46 @@
+[
+    {
+        "name": "FightSkill",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_default('SkillCH3', ['Sal'])",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Skill",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "I'll... Kill.. You..."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Skill"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "HYAH! TAKE THIS!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Skill"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "add_portrait;Skill;Left\nspeak;Skill;I'll... Kill.. You...\nbop_portrait;Skill\nspeak;Skill;HYAH! TAKE THIS!\nremove_portrait;Skill\n"
+    }
+]

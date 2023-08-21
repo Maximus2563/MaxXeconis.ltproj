@@ -1,0 +1,33 @@
+[
+    {
+        "name": "FightGrinst",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "(unit.nid == \"Grinst\" and unit2.team == 'player') or (unit2.nid == \"Grinst\" and unit.team == 'player')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Grinst",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Grinst",
+                    "I'll eat ya for dinner! Huehue!|Whew... hoo... Cramps..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Grinst"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": ""
+    }
+]

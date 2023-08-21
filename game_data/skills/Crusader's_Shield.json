@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Crusader's Shield",
+        "name": "Crusader's Shield",
+        "desc": "Reduces enemy magic damage by 25% when defending.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist_multiplier",
+                0.75
+            ],
+            [
+                "combat_condition",
+                "True if target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Anima, Light, Dark') and (mode == 'defense') else False"
+            ]
+        ]
+    }
+]

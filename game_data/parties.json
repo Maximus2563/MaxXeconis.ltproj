@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "MaxYoungGroup",
+        "name": "Max's Group",
+        "leader": "MaxYoung"
+    },
+    {
+        "nid": "SalGroup",
+        "name": "Sal's Platoon",
+        "leader": "Sal"
+    },
+    {
+        "nid": "LeapGroup",
+        "name": "Leap's Gang",
+        "leader": "Leap"
+    },
+    {
+        "nid": "MaxGroup",
+        "name": "Max's Squadron",
+        "leader": "Max"
+    }
+]

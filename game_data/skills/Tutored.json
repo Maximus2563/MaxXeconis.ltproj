@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Tutored",
+        "name": "Tutored",
+        "desc": "Grants x1.5 exp and weapon exp earned.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "exp_multiplier",
+                1.5
+            ],
+            [
+                "wexp_multiplier",
+                1.5
+            ]
+        ]
+    }
+]

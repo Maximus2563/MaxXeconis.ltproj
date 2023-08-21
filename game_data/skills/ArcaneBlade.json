@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ArcaneBlade",
+        "name": "Arcane Blade",
+        "desc": "Adds MAG to crit while initiating.\nDeals +7 damage on criticals.\n",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "unit.get_stat('MAG') if (mode == 'attack') else 0 "
+            ],
+            [
+                "alternate_critical_addition_formula",
+                "ARCANE"
+            ]
+        ]
+    }
+]

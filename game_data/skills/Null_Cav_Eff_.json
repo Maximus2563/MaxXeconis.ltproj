@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Null Cav Eff ",
+        "name": "Null Cav Eff",
+        "desc": "Nullifies cavalry effective bonuses.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            9
+        ],
+        "components": [
+            [
+                "negate_tags",
+                [
+                    "Horse"
+                ]
+            ]
+        ]
+    }
+]

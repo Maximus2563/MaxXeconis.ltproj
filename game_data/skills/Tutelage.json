@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Tutelage",
+        "name": "Tutelage",
+        "desc": " x1.5 exp and weapon exp earned by adjacent allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Tutored"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

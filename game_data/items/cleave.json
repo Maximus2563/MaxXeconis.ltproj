@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "cleave",
+        "name": "cleave",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "enemy_cleave_aoe",
+                null
+            ]
+        ]
+    }
+]

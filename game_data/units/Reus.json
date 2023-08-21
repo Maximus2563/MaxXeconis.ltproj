@@ -1,0 +1,117 @@
+[
+    {
+        "nid": "Reus",
+        "name": "Reus",
+        "desc": "",
+        "variant": "CJ",
+        "level": 3,
+        "klass": "Sniper",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 35,
+            "STR": 13,
+            "MAG": 0,
+            "SKL": 15,
+            "SPD": 14,
+            "LCK": 0,
+            "DEF": 11,
+            "RES": 8,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Silver Bow",
+                false
+            ],
+            [
+                "Steel Longbow ",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                121,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Reus",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

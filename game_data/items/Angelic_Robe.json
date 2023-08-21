@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Angelic Robe",
+        "name": "Angelic Robe",
+        "desc": "Permanently raises maximum HP by 7 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "HP",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                8000
+            ]
+        ]
+    }
+]

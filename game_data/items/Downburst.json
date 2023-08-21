@@ -1,0 +1,100 @@
+[
+    {
+        "nid": "Downburst",
+        "name": "Downburst",
+        "desc": "Attack in a straight line of 3 tiles.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    139,
+                    224,
+                    100
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "enemy_line_aoe",
+                null
+            ],
+            [
+                "eval_special_range",
+                "x == 0 or y == 0 or x == y or x == -y"
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                3
+            ]
+        ]
+    }
+]

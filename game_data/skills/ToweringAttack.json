@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ToweringAttack",
+        "name": "Towering Attack",
+        "desc": "if unit's CON > foe's CON rants hit = (unit's CON - foe's CON) x2. ",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_accuracy",
+                "2 * max(0, unit.get_stat('CON') - target.get_stat('CON'))"
+            ]
+        ]
+    }
+]

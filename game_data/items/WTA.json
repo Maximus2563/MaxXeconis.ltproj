@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "WTA",
+        "name": "WTA",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "double_triangle",
+                null
+            ]
+        ]
+    }
+]

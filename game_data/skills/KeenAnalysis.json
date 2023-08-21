@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "KeenAnalysis",
+        "name": "Keen Analysis",
+        "desc": "Unit gains +4 ATK against the weapon type they defeated last.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_kill",
+                "KeenAnalysisEvent"
+            ]
+        ]
+    }
+]

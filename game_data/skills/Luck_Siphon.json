@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Luck Siphon",
+        "name": "Luck Siphon",
+        "desc": "Grants +1 LCK after defeating a foe (stackable).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_kill",
+                "Luck Siphon Child"
+            ]
+        ]
+    }
+]

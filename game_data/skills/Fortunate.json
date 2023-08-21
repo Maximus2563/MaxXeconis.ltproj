@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Fortunate",
+        "name": "Fortunate ",
+        "desc": "Grants unit +10 dodge and +5 dodge to allies within 2 spaces.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            54
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit_avoid",
+                10
+            ],
+            [
+                "aura",
+                "FortunateChild"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

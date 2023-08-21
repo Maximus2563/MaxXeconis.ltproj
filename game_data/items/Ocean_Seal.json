@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Ocean Seal",
+        "name": "Ocean Seal",
+        "desc": "Promotes Thieves and Pirates.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            19
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "prf_class",
+                [
+                    "Pirate",
+                    "Thief"
+                ]
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict",
+                "unit.level >= 10"
+            ]
+        ]
+    }
+]

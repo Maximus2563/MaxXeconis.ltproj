@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DevilReversal",
+        "name": "Devil Reversal",
+        "desc": "recoil = damage dealt",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "attack_proc",
+                "DevilEffect"
+            ],
+            [
+                "proc_rate",
+                "DEVIL_PROC"
+            ]
+        ]
+    }
+]

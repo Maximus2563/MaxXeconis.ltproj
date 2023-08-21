@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Miss30",
+        "name": "Miss30",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "damage_on_miss",
+                0.3
+            ]
+        ]
+    }
+]

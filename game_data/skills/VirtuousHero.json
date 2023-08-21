@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "VirtuousHero",
+        "name": "Virtuous Hero",
+        "desc": "When rescuing an ally, unit attacks twice.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            46
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.traveler"
+            ],
+            [
+                "dynamic_multiattacks",
+                "1"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

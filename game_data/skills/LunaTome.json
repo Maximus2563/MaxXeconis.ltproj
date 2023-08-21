@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LunaTome",
+        "name": "LunaTome",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "target.get_stat('RES')"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "NobleCharmSword",
+        "name": "Noble Charm",
+        "desc": "no wexp gained by rapier",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            56
+        ],
+        "components": [
+            [
+                "wexp_multiplier",
+                0
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ]
+        ]
+    }
+]

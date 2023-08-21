@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Dreams of Home",
+        "trigger": "on_base_convo",
+        "level_nid": "DEBUG",
+        "condition": "unit == 'Dreams of Home'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Castle Interior 6 Rainy"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Skill",
+                    "FarLeft",
+                    "Nako",
+                    "30,Bottom",
+                    "Cherry",
+                    "60,Bottom"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Lanii",
+                    "84,Bottom",
+                    "Max",
+                    "130,Bottom",
+                    "Leap",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Skill",
+                    "Drip Gang."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Skill",
+                    "Max",
+                    "Leap",
+                    "Dark"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Shoop",
+                    "Pikno"
+                ]
+            ],
+            [
+                "ignore_base_convo",
+                [
+                    "Dreams of Home"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "RefreshOmni",
+        "name": "Divine Refresh",
+        "desc": "Adjacent allies can move again.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "map_cast_sfx",
+                "RefreshDanceMap"
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Refresh"
+            ],
+            [
+                "rally_blast_aoe",
+                1
+            ]
+        ]
+    }
+]

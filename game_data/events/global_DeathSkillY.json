@@ -1,0 +1,33 @@
+[
+    {
+        "name": "DeathSkillY",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'SkillYoung'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "SkillYoung",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SkillYoung",
+                    "No... NO! ARGH!|I'll get you back next time..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SkillYoung"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;SkillYoung;Right\nspeak;SkillYoung;No... NO! ARGH!|I'll get you back next time...\nremove_portrait;SkillYoung\n"
+    }
+]

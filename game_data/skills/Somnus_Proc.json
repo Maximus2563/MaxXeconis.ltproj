@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Somnus_Proc",
+        "name": "Somnus",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "SOMNUS"
+            ],
+            [
+                "attack_proc",
+                "Somnus"
+            ]
+        ]
+    }
+]

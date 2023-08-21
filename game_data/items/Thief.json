@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Thief",
+        "name": "Thief",
+        "desc": "Steal items from enemies.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                3200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    238,
+                    238
+                ]
+            ],
+            [
+                "steal",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "wexp",
+                3
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Turn1",
+        "trigger": "enemy_turn_change",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "New Group",
+                    "north",
+                    "New Group",
+                    "normal",
+                    "closest"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

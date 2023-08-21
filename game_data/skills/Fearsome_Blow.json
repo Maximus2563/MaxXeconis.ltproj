@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Fearsome Blow",
+        "name": "Fearsome Blow",
+        "desc": "If unit initiates combat and defeats an enemy, enemies within\n2 spaces of them will receive 7 damage.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            51
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_active_kill",
+                "FearsomeBlowChild"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Door1",
+        "trigger": "Door",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'Door1'",
+        "commands": [
+            [
+                "unlock",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "DoorNorth"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": ""
+    }
+]

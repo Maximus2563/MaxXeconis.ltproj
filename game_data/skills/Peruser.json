@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Peruser",
+        "name": "Peruser",
+        "desc": "During combat, grants +10/2/2 hit/ATK/PRT for every anima/light/dark \ntome in the unit's inventory respectively (maximum of +30/6/6).",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "min(6, sum(2 for i in unit.items if item_system.weapon_type(unit, i) in ['Dark']))"
+            ],
+            [
+                "dynamic_resist",
+                "min(6, sum(2 for i in unit.items if item_system.weapon_type(unit, i) in ['Light']))"
+            ],
+            [
+                "dynamic_accuracy",
+                "min(30, sum(10 for i in unit.items if item_system.weapon_type(unit, i) in ['Anima']))"
+            ]
+        ]
+    }
+]

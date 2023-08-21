@@ -1,0 +1,27 @@
+[
+    {
+        "name": "SpawnF",
+        "trigger": "on_region_interact",
+        "level_nid": "3",
+        "condition": "any(game.level.regions.get('SpawnF').contains(unit.position) for unit in game.get_units_in_party())",
+        "commands": [
+            [
+                "move_cursor",
+                [
+                    "30,7"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "GroupF",
+                    "South",
+                    "GroupF"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": ""
+    }
+]

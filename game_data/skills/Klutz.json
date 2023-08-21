@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Klutz",
+        "name": "Klutz",
+        "desc": "Grants Crit+10/Dodge-10.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            54
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "crit_avoid",
+                -10
+            ]
+        ]
+    }
+]

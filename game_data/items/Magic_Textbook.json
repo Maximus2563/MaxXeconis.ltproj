@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Magic Textbook",
+        "name": "Magic Textbook",
+        "desc": "Dark's practicing tome. x1.5 exp and wexp gained.",
+        "icon_nid": "Unique_26",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "FireDark",
+                    "ThunderDark",
+                    "WindDark",
+                    "IceDark"
+                ]
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Dark"
+                ]
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Tutored"
+            ]
+        ]
+    }
+]

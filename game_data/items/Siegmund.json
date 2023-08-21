@@ -1,0 +1,88 @@
+[
+    {
+        "nid": "Siegmund",
+        "name": "Siegmund",
+        "desc": "Ephraim only. Strength +5. Effective against monsters.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                17
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "status_on_equip",
+                "Strength +5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "prf_unit",
+                [
+                    "Eirika"
+                ]
+            ],
+            [
+                "effective_tag",
+                [
+                    "Monster"
+                ]
+            ]
+        ]
+    }
+]

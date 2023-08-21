@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Triangle Adept",
+        "name": "Triangle Adept",
+        "desc": "Doubles weapon triangle modifiers.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            51
+        ],
+        "components": [
+            [
+                "item_override",
+                "WTA"
+            ]
+        ]
+    }
+]

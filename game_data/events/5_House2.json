@@ -1,0 +1,82 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'House2'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Inside House 3 Night"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "Woman1",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Woman1",
+                    "Oh, you look kind... But young...|Experience is your friend, here! I'll teach you stuff!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{unit}",
+                    "15"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "villagesouth"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Inside House 3 Night\ntransition;Open\nadd_portrait;{unit};Left;Woman1;Right\nspeak;Woman1;Oh, you look kind... But young...|Experience is your friend, here! I'll teach you stuff!\ntransition;Close\nchange_background\ntransition;Open\ngive_exp;{unit};15\nhas_traded;{unit}\nshow_layer;villagesouth\n"
+    }
+]

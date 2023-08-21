@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Gaia Balm Child  ",
+        "name": "Gaia Balm",
+        "desc": "Grants DEF +2/CON +3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            37
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "CON",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

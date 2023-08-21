@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Multitarget2",
+        "name": "Multitarget2",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_target",
+                2
+            ],
+            [
+                "allow_same_target",
+                null
+            ]
+        ]
+    }
+]

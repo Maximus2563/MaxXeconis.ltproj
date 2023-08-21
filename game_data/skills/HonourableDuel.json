@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "HonourableDuel",
+        "name": "Honourable Duel",
+        "desc": "Gain +30 hit/-30 avo if this unit attacks an enemy who can counterattack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                30
+            ],
+            [
+                "avoid",
+                -30
+            ],
+            [
+                "combat_condition",
+                "combat_calcs.can_counterattack(unit, unit.get_weapon(), target, target.get_weapon()) "
+            ]
+        ]
+    }
+]

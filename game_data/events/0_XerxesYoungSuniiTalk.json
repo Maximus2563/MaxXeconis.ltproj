@@ -1,0 +1,104 @@
+[
+    {
+        "name": "XerxesYoungSuniiTalk",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "check_pair('XeconisYoung', 'Sunii') ",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "XeconisYoung",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sunii",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sunii",
+                    "You're trying to help me? Thank you so much, but...|You'd be safer not associating with me..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "XeconisYoung",
+                    "Well we're kind of already involved so...|Not like we have much choice now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sunii",
+                    "Touching. However, my baby girl... I can't die here...|Though, dragging other kids into this..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "XeconisYoung",
+                    "I'll have you know I'm not just a \"kid\".|Besides, who are these men? Clearly not normal bandits..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sunii",
+                    "Please don't ask questions... You're better off not knowing."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "XeconisYoung",
+                    "Is this just because I'm young?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sunii",
+                    "Just... Go on with what you were doing."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "XeconisYoung",
+                    "Fine, but I expect to be compensated when we're finished, with whatever it is you know."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sunii",
+                    "..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "XeconisYoung",
+                    "no_block"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sunii"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

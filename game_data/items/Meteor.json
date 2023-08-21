@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Meteor",
+        "name": "Meteor",
+        "desc": "Affects small sized area.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "hit",
+                45
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Meteor"
+            ],
+            [
+                "map_cast_sfx",
+                "FireCharge"
+            ],
+            [
+                "value",
+                4500
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                7
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    248,
+                    128,
+                    0
+                ]
+            ],
+            [
+                "enemy_blast_aoe",
+                1
+            ]
+        ]
+    }
+]

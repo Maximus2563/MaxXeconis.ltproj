@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "NervousStrike",
+        "name": "Nervous Strike",
+        "desc": "If unit is within 2 spaces of an ally, unit makes a guaranteed follow-up attack, but -10 hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_speed",
+                100
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "condition",
+                "unit_funcs.check_focus(unit, 2) > 0"
+            ]
+        ]
+    }
+]

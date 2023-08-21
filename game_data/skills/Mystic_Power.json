@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Mystic Power",
+        "name": "Mystic Power",
+        "desc": "Grants MAG/RES +3, STR/DEF -3.\nCan crit using magic weapons.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            49
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -3
+                    ],
+                    [
+                        "MAG",
+                        3
+                    ],
+                    [
+                        "DEF",
+                        -3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

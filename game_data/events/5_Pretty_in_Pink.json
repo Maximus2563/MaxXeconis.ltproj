@@ -1,0 +1,143 @@
+[
+    {
+        "name": "Pretty in Pink",
+        "trigger": "on_base_convo",
+        "level_nid": "5",
+        "condition": "unit == 'Pretty in Pink'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Night Village"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Pikno",
+                    "Right"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Pikno"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "Hyah!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Roag",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Gurlie... What are you doin'?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "Ah! Oh, Roag. I'm just training."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "At night?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "Well... Normally it means nobody's watching me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Huh, weird..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "Weird? Well... I'd rather not be feeling self conscious.|Such feelings are a hinderance in combat."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Gurl, I know I'd train in front of everyone! Show them I am, indeed, FABULOUS!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "I wish I had your confidence..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Oop... I didn't mean to make ya feel worse...|But I know that you can slay the day away! You should train with me next time!|I'll take any unwanted attention away from ya anyway!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "Heh, I guess I could do that."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "We can be... the Pink Protectors! Yasss!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pikno",
+                    "Sounds good to me. Thank you, Roag."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Don't mention it, hunny."
+                ]
+            ],
+            [
+                "ignore_base_convo",
+                [
+                    "Pretty in Pink"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "change_background;Night Village\nadd_portrait;Pikno;Right\nbop_portrait;Pikno\nspeak;Pikno;Hyah!\nadd_portrait;Roag;Left\nspeak;Roag;Gurlie... What are you doin'?\nspeak;Pikno;Ah! Oh, Roag. I'm just training.\nspeak;Roag;At night?\nspeak;Pikno;Well... Normally it means nobody's watching me.\nspeak;Roag;Huh, weird...\nspeak;Pikno;Weird? Well... I'd rather not be feeling self conscious.|Such feelings are a hinderance in combat.\nspeak;Roag;Gurl, I know I'd train in front of everyone! Show them I am, indeed, FABULOUS!\nspeak;Pikno;I wish I had your confidence...\nspeak;Roag;Oop... I didn't mean to make ya feel worse...|But I know that you can slay the day away! You should train with me next time!|I'll take any unwanted attention away from ya anyway!\nspeak;Pikno;Heh, I guess I could do that.\nspeak;Roag;We can be... the Pink Protectors! Yasss!\nspeak;Pikno;Sounds good to me. Thank you, Roag.\nspeak;Roag;Don't mention it, hunny.\nignore_base_convo;Pretty in Pink\n"
+    }
+]

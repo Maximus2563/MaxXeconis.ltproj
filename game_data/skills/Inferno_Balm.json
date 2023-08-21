@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Inferno Balm",
+        "name": "Inferno Balm",
+        "desc": "Grants STR/MAG +2 when healing an ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.team == unit.team"
+            ],
+            [
+                "give_status_after_attack",
+                "Pyro Balm Child "
+            ]
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "AttackTrackerRegen",
+        "trigger": "combat_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "set_unit_field",
+                [
+                    "{unit}",
+                    "AttackedThisTurn",
+                    "True"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

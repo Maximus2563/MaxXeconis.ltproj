@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "FearsomeBlowChild",
+        "name": "FearsomeBlowChild",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            51
+        ],
+        "components": [
+            [
+                "post_combat_splash",
+                7
+            ],
+            [
+                "post_combat_splash_aoe",
+                2
+            ],
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "F",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

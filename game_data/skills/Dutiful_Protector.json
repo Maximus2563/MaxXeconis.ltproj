@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Dutiful Protector",
+        "name": "Dutiful Protector",
+        "desc": "Unit gains +2 MOV if any allied unit has is below half HP.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            48
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "any(ally.get_hp() < ally.get_max_hp()//2 for ally in game.units if skill_system.check_ally(unit, ally))"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

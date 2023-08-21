@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Champion",
+        "name": "Champion",
+        "desc": "If there are 3+ allies with HP<50% within 2 spaces, unit attacks twice.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            56
+        ],
+        "components": [
+            [
+                "condition",
+                "len([u for u in get_allies_within_distance(unit, 2) if (u is not unit and u.get_hp() < u.get_max_hp()//2)]) > 2"
+            ],
+            [
+                "dynamic_multiattacks",
+                "1"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FollowUpShield",
+        "name": "Follow-Up Shield",
+        "desc": "If unit takes damage, decrease foe's follow-up damage by 30%.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_take_damage",
+                "FollowUpShieldChild"
+            ]
+        ]
+    }
+]

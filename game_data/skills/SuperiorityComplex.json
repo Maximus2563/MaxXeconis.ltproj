@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SuperiorityComplex",
+        "name": "Superiority Complex",
+        "desc": "Grants +1 ATK per stat unit has higher than foe.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "(max(0,min(1,unit.get_stat('STR') - target.get_stat('STR'))) + max(0,min(1,unit.get_stat('MAG') - target.get_stat('MAG'))) +max(0,min(1,unit.get_stat('SKL') - target.get_stat('SKL'))) +max(0,min(1,unit.get_stat('SPD') - target.get_stat('SPD'))) +max(0,min(1,unit.get_stat('LCK') - target.get_stat('LCK'))) +max(0,min(1,unit.get_stat('DEF') - target.get_stat('DEF'))) +max(0,min(1,unit.get_stat('RES') - target.get_stat('RES'))))"
+            ]
+        ]
+    }
+]

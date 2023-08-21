@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Metis's Tome",
+        "name": "Metis's Tome",
+        "desc": "Permanently raises all of the user's growth rates by 5.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "permanent_growth_change",
+                [
+                    [
+                        "HP",
+                        5
+                    ],
+                    [
+                        "STR",
+                        5
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        5
+                    ],
+                    [
+                        "SPD",
+                        5
+                    ],
+                    [
+                        "LCK",
+                        5
+                    ],
+                    [
+                        "DEF",
+                        5
+                    ],
+                    [
+                        "RES",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

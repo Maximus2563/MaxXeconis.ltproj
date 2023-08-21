@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "Trade",
+        "name": "Trade",
+        "desc": "Trade with a far away ally.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            11
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1100
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    232,
+                    200,
+                    15
+                ]
+            ],
+            [
+                "trade",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG",
+        "condition": "unit.nid == 'Prof' and unit2.nid == 'Pykroe'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Pykroe",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Prof",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pykroe",
+                    "REE! THAT IS OFFENSIVE!"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Pykroe;Left;no_block\nadd_portrait;Prof;Right\nspeak;Pykroe;REE! THAT IS OFFENSIVE!\n"
+    }
+]

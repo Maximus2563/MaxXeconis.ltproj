@@ -1,0 +1,33 @@
+[
+    {
+        "name": "FightPierre",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"Pierre\" and unit2.team == 'player') or (unit2.nid == \"Pierre\" and unit.team == 'player')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Pierre",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pierre",
+                    "Do not resist, you vill only make things vorse."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Pierre"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "add_portrait;Pierre;Left\nspeak;Pierre;Do not resist, you vill only make things vorse.\nremove_portrait;Pierre\n"
+    }
+]

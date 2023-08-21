@@ -1,0 +1,45 @@
+[
+    {
+        "name": "EscapeSal",
+        "trigger": null,
+        "level_nid": "3",
+        "condition": "len(get_player_units()) == 1 and region.nid == 'EscapeSal'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Sal",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Whew... Now that everyone is here, let's hurry up!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sal"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Sal",
+                    "",
+                    "East"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Sal;Left\nspeak;Sal;Whew... Now that everyone is here, let's hurry up!\nremove_portrait;Sal\nremove_unit;Sal;;East\nwin_game\n"
+    }
+]

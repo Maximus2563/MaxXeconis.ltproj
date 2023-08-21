@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "MiracleBoss",
+        "name": "MiracleBoss",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "TrueMiracle",
+                null
+            ]
+        ]
+    }
+]

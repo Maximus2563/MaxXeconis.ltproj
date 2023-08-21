@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Aggravate_Status",
+        "name": "Aggravated",
+        "desc": "Unit will prioritise targetting Demonic.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ],
+            [
+                "change_ai",
+                "DemonicProvoke"
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    }
+]

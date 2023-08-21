@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Canceled",
+        "name": "Canceled",
+        "desc": "Unit cannot counterattack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            1
+        ],
+        "components": [
+            [
+                "item_override",
+                "CannotCounter"
+            ],
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "F",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ],
+                    [
+                        "LostOnAlly (T/F)",
+                        "F",
+                        "Lost after combat with an ally"
+                    ],
+                    [
+                        "LostOnEnemy (T/F)",
+                        "T",
+                        "Lost after combat with an enemy"
+                    ],
+                    [
+                        "LostOnSplash (T/F)",
+                        "T",
+                        "Lost after combat if using an AOE item"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

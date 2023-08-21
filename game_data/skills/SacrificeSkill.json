@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SacrificeSkill",
+        "name": "Sacrifice",
+        "desc": "Can use 10 HP to heal an ally for 10 HP.\n",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            49
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Sacrifice"
+            ]
+        ]
+    }
+]

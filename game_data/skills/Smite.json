@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Smite",
+        "name": "Smite",
+        "desc": "Pushes target ally 2 spaces away.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            34
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Smite"
+            ]
+        ]
+    }
+]

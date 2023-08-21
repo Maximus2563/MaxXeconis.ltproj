@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Knife 4",
+        "name": "Gold Knife",
+        "desc": "Inflicts LCK-8.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            30
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        -8
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

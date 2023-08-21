@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Null Flier Eff",
+        "name": "Null Flier Eff",
+        "desc": "Nullifies flier effective bonuses.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            9
+        ],
+        "components": [
+            [
+                "negate_tags",
+                [
+                    "Flying"
+                ]
+            ]
+        ]
+    }
+]

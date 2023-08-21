@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Humiliated",
+        "name": "Humiliated",
+        "desc": "Grants +3 STR, but -10 hit.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            43
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "hit",
+                -10
+            ]
+        ]
+    }
+]

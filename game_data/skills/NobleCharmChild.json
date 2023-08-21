@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "NobleCharmChild",
+        "name": "Charmed",
+        "desc": "Grants +2 ATK.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            56
+        ],
+        "components": [
+            [
+                "damage",
+                2
+            ]
+        ]
+    }
+]

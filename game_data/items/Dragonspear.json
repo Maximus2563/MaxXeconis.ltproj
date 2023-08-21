@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Dragonspear",
+        "name": "Dragonspear",
+        "desc": "Effective against dragon units.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                4500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "effective_tag",
+                [
+                    "Dragon"
+                ]
+            ]
+        ]
+    }
+]

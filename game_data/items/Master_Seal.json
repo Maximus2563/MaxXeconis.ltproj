@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Master Seal",
+        "name": "Master Seal",
+        "desc": "Promotes all normal classes",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                20000
+            ],
+            [
+                "prf_class",
+                [
+                    "Myrmidon",
+                    "Mercenary",
+                    "Thief",
+                    "Cavalier",
+                    "Pegasus_Knight",
+                    "Knight",
+                    "Fighter",
+                    "Pirate",
+                    "Archer",
+                    "Monk",
+                    "Cleric",
+                    "Mage",
+                    "Shaman",
+                    "Troubadour",
+                    "Wyvern Rider",
+                    "Bard",
+                    "Soldier",
+                    "SwordCavalierBread",
+                    "LanceCavalier",
+                    "AxeCavalier",
+                    "BowCavalier",
+                    "KnightL",
+                    "KnightA",
+                    "KnightB",
+                    "Diviner",
+                    "Priest",
+                    "Servant",
+                    "MageF",
+                    "Pupil"
+                ]
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict",
+                "unit.level >= 10"
+            ]
+        ]
+    }
+]

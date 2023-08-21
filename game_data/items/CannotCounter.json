@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CannotCounter",
+        "name": "CannotCounter",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_counter",
+                null
+            ]
+        ]
+    }
+]

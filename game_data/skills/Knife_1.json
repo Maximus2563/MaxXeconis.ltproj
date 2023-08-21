@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Knife 1",
+        "name": "Iron Knfie",
+        "desc": "Inflicts SKL/LCK-2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            29
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        -2
+                    ],
+                    [
+                        "LCK",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

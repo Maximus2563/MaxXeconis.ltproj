@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "EnergizingMealChild",
+        "name": "Energized",
+        "desc": "SPD+3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            55
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "SpawnG",
+        "trigger": "on_region_interact",
+        "level_nid": "3",
+        "condition": "any(game.level.regions.get('SpawnG').contains(unit.position) for unit in game.get_units_in_party())",
+        "commands": [
+            [
+                "move_cursor",
+                [
+                    "1,12"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "GroupG",
+                    "West",
+                    "GroupG"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": ""
+    }
+]

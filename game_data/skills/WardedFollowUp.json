@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WardedFollowUp",
+        "name": "Warded Follow-Up",
+        "desc": "If unit's RES >= foe's RES +5, unit can make a guaranteed follow-up attack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_speed",
+                100
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('RES') > (target.get_stat('RES') + 4)"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Typhoon Balm",
+        "name": "Typhoon Balm",
+        "desc": "Grants SPD +2/LCK +4 when healing an ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.team == unit.team"
+            ],
+            [
+                "give_status_after_attack",
+                "Typhoon Balm Child   "
+            ]
+        ]
+    }
+]

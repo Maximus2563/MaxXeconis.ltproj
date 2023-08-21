@@ -1,0 +1,254 @@
+[
+    {
+        "nid": "Affinity",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Anima",
+        "subicon_dict": {
+            "EreshkigalFire": [
+                0,
+                1
+            ],
+            "EreshThunder": [
+                1,
+                1
+            ],
+            "WdimtaWind": [
+                2,
+                1
+            ],
+            "EreshIce": [
+                3,
+                0
+            ],
+            "Anima 1, 2": [
+                1,
+                2
+            ],
+            "WdimtaThunder": [
+                1,
+                1
+            ],
+            "EreshThunder4": [
+                4,
+                3
+            ],
+            "EreshThunder2": [
+                1,
+                2
+            ],
+            "EreshThunder3": [
+                1,
+                3
+            ],
+            "EreshThunder5": [
+                1,
+                5
+            ],
+            "EreshFire2": [
+                4,
+                2
+            ],
+            "EreshFire3": [
+                0,
+                3
+            ],
+            "Anima 0, 4": [
+                0,
+                4
+            ],
+            "EresjFire5": [
+                0,
+                5
+            ],
+            "Anima 2, 3": [
+                2,
+                3
+            ],
+            "WdimtaWind2": [
+                2,
+                3
+            ],
+            "Anima 3, 2": [
+                3,
+                2
+            ],
+            "EreshIce2": [
+                3,
+                2
+            ],
+            "Anima 3, 3": [
+                3,
+                3
+            ],
+            "EreshWind": [
+                2,
+                4
+            ],
+            "Anima 2, 2": [
+                2,
+                2
+            ],
+            "EreshIce6": [
+                3,
+                5
+            ],
+            "EreshIce5": [
+                3,
+                4
+            ],
+            "EreshFire5": [
+                0,
+                5
+            ],
+            "RainlashSand": [
+                4,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Axe",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Boosters",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Bow",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Consumable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dark",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Lance",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Light",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Neutral",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Skills",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Staff",
+        "subicon_dict": {
+            "EreshkigalStaff": [
+                1,
+                0
+            ],
+            "EStaff": [
+                1,
+                13
+            ],
+            "Estaff2": [
+                1,
+                14
+            ],
+            "EStaff3": [
+                1,
+                11
+            ]
+        }
+    },
+    {
+        "nid": "Sword",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Valuable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "wexp_icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "AffWater",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Skills (1)",
+        "subicon_dict": {
+            "Skills (1) 1, 3": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "nid": "Affinity (1)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "LordGlenn_FE10_GBA_Affinity_Weapon_Levels_Xerxes_Edit",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Unique_26",
+        "subicon_dict": {
+            "EreshikigalTome": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Knife",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Leif Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WhydidImakethisaccount} Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zane} icon 044",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "CamTech075 Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "BatimaTomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Food_by_ZessDynamite",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "jellyunicorns item icons ltinsert",
+        "subicon_dict": {}
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "kidnaprelease",
+        "trigger": "unit_death",
+        "level_nid": "DEBUG",
+        "condition": "unit.nid == 'Kidnapper'",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit2.team == 'player'"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Frost",
+                    "player"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "change_team",
+                [
+                    "Frost",
+                    "enemy"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "if;unit2.team == 'player'\n    change_team;Frost;player\nelse\n    change_team;Frost;enemy\nend\n"
+    }
+]

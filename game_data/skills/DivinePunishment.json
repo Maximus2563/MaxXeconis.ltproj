@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DivinePunishment",
+        "name": "Divine Punishment",
+        "desc": "Halves foe's RES for 1 turn if unit hits foe.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_hit",
+                "DivinePunishment"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 2",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "PlayerRein",
+                    "west",
+                    "PlayerRein",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Maro"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "0"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Maro",
+                    "OffscreenLeft",
+                    "Sal",
+                    "Right"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Maro",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maro",
+                    "Huff... H-Here!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Why are you so late? Did you... Not get enough sleep...?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maro",
+                    "Ah! No... Wait... Yes! I was polishing my lance!|Neat, huh?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Why? You'll just get it bloody anyway..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maro",
+                    "A soldier is only as good as his equipment!|That's what my father always said!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Well then, move out and make him proud!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maro",
+                    "Sir, yes si- I mean, yes ma'am!"
+                ]
+            ],
+            [
+                "add_lore",
+                [
+                    "Maro"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Maro",
+                    "Sal"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FlamingFaith",
+        "name": "Flaming Faith",
+        "desc": "At the start of turn, unit has a (LCK+10)% chance to gain MAG/RES+3 for 1 turn.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_turn_skill",
+                "FlamingFaithChild"
+            ],
+            [
+                "proc_rate",
+                "BLAZING"
+            ]
+        ]
+    }
+]

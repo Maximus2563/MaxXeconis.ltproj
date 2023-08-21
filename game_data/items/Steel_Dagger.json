@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "Steel Dagger",
+        "name": "Steel Dagger",
+        "desc": "Inflicts STR/MAG-2, DEF/RES-4 on hit.",
+        "icon_nid": "Knife",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                600
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Knife"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "status_on_hit",
+                "Dagger 2"
+            ]
+        ]
+    }
+]

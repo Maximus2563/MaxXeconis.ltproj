@@ -1,0 +1,88 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House2'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man2",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man2",
+                    "Lucky that maniac targetted our neighboring village.|The Lord does indeed shine on me... And you too!|Here, let's spread the luck around!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Goddess Icon"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "DoorNorth"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;House\ntransition;Open\nadd_portrait;Man2;Left;no_block\nadd_portrait;{unit};Right\nspeak;Man2;Lucky that maniac targetted our neighboring village.|The Lord does indeed shine on me... And you too!|Here, let's spread the luck around!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;{unit};Goddess Icon\nshow_layer;DoorNorth\nhas_traded;{unit}\n"
+    }
+]

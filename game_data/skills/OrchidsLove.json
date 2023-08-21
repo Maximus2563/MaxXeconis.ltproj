@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "OrchidsLove",
+        "name": "Orchid's Love",
+        "desc": "Grants 20% of Bread's Res to ATK/SPD and\nallies ATK within 2 spaces during combat.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            39
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "OrchidsLoveChild"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "dynamic_damage",
+                "(unit.get_stat('RES')) // 5"
+            ],
+            [
+                "dynamic_attack_speed",
+                "(unit.get_stat('RES'))  // 5"
+            ],
+            [
+                "dynamic_defense_speed",
+                "(unit.get_stat('RES'))  // 5"
+            ],
+            [
+                "dynamic_avoid",
+                "(unit.get_stat('RES'))  // 2.5"
+            ]
+        ]
+    }
+]

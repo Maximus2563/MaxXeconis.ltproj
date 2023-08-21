@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "KeenAnalysisEvent",
+        "name": "KeenAnalysisEvent",
+        "desc": "Boosts damage against weapon types the unit has defeated this map.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ],
+            [
+                "event_on_remove",
+                "Global Analysis"
+            ]
+        ]
+    }
+]

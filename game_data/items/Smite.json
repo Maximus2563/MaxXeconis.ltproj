@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Smite",
+        "name": "Smite",
+        "desc": "Pushes target allies 2 spaces away.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            38
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "shove_target_restrict",
+                2
+            ],
+            [
+                "shove",
+                2
+            ]
+        ]
+    }
+]

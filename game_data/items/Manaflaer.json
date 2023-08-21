@@ -1,0 +1,96 @@
+[
+    {
+        "nid": "Manaflaer",
+        "name": "Manaflaer",
+        "desc": "Uses MAG to determine damage.\nTargets the lower of foe's DEF/RES. Sages only.",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "icon_index": [
+            13,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "effective_tag",
+                [
+                    "Flying"
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Sages"
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Sagittae"
+            ],
+            [
+                "alternate_damage_formula",
+                "MAGIC_DAMAGE"
+            ],
+            [
+                "status_on_equip",
+                "ManaflaerDefences"
+            ]
+        ]
+    }
+]

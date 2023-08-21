@@ -1,0 +1,162 @@
+[
+    {
+        "nid": "Smoke",
+        "name": "Smoke",
+        "desc": "A mischievous thief with a penchance for punnery.",
+        "variant": "",
+        "level": 1,
+        "klass": "Thief",
+        "tags": [],
+        "bases": {
+            "HP": 16,
+            "STR": 4,
+            "MAG": 3,
+            "SKL": 5,
+            "SPD": 9,
+            "LCK": 6,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 6,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 30,
+            "MAG": 5,
+            "SKL": 60,
+            "SPD": 70,
+            "LCK": 55,
+            "DEF": 25,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": -2,
+            "DEF": -2,
+            "LCK": 1,
+            "SKL": 1,
+            "SPD": 2
+        },
+        "starting_items": [
+            [
+                "Iron Dagger",
+                false
+            ],
+            [
+                "SmokeKunai",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "ShiftyManners"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Puns,Entertaining "
+            ],
+            [
+                "Dislikes",
+                "Serious moments,Tough audiences"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                1,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Smoke",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "Looks like not even I can evade death..."
+            ],
+            [
+                "EscapeQuote",
+                "The Smoke is moving! Heh."
+            ],
+            [
+                "PromoQuote",
+                "This Smoke is rising up!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "The audience is dying to see more!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I'll be sure to gain some more fans now!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Heh, not the greatest performance..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Uhm, gotta go!"
+            ],
+            [
+                "MaxStatQuote",
+                "Guess the smoke's hit the ceiling?"
+            ]
+        ]
+    }
+]

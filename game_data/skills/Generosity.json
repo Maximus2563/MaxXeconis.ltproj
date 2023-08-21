@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Generosity",
+        "name": "Generosity",
+        "desc": "Unit's healing items gain +1 AoE.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            54
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "automatic_combat_art",
+                "GenerosityAOE"
+            ],
+            [
+                "allowed_weapons",
+                "item.nid == 'Vulnerary' or 'Elixir' or 'Antitoxin'"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Disarmed",
+        "name": "Disarmed",
+        "desc": "STR/DEF-3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            44
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -3
+                    ],
+                    [
+                        "DEF",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

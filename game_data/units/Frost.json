@@ -1,0 +1,150 @@
+[
+    {
+        "nid": "Frost",
+        "name": "Frost",
+        "desc": "A cleric far from her home in the isolated forest country of Arborst.",
+        "variant": "Female",
+        "level": 6,
+        "klass": "Cleric",
+        "tags": [],
+        "bases": {
+            "HP": 21,
+            "STR": 0,
+            "MAG": 8,
+            "SKL": 6,
+            "SPD": 5,
+            "LCK": 8,
+            "DEF": 1,
+            "RES": 10,
+            "CON": 4,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 5,
+            "MAG": 65,
+            "SKL": 45,
+            "SPD": 30,
+            "LCK": 35,
+            "DEF": 15,
+            "RES": 70,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 2,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 3,
+            "DEF": -2,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": -2
+        },
+        "starting_items": [
+            [
+                "Mend",
+                false
+            ],
+            [
+                "Symbiosis",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Typhoon Balm"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Nature"
+            ],
+            [
+                "Dislikes:",
+                "Large crowds,Bandits"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                71,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Frost",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "I can become one... with the earth..."
+            ],
+            [
+                "HighLevelUpQuote",
+                "It seems I have bloomed a new power!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I can grow, bit by bit."
+            ],
+            [
+                "LowLevelUpQuote",
+                "I... Hm..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Please don't look at me..."
+            ]
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Synergy",
+        "name": "Synergy",
+        "desc": "Grants +1 ATK for every ally within 2 spaces (max 4).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Range"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "eval_damage",
+                "min(4,unit_funcs.check_focus(unit, 2))"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DuelistsBlow",
+        "name": "Duelists Blow",
+        "desc": "Grants Avoid+20 on initiation.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    }
+]

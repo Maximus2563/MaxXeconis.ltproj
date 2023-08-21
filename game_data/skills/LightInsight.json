@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "LightInsight",
+        "name": "Light Insight",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "condition",
+                "unit.nid == 'Moox' and unit.get_field('PreviousSlay') == 'Light'"
+            ],
+            [
+                "unit_anim",
+                "MapLightAnalysis"
+            ]
+        ]
+    }
+]

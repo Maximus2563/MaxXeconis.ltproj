@@ -1,0 +1,40 @@
+[
+    {
+        "name": "DeathSaar",
+        "trigger": "unit_death",
+        "level_nid": "6",
+        "condition": "unit.nid == \"Saar\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Saar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Saar",
+                    "Emperor Vigarde...{br}Glory to His...Majesty..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Saar",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Saar"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

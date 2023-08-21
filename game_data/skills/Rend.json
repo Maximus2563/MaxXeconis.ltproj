@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Rend",
+        "name": "Rend",
+        "desc": "Critical hits deal x4 damage.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            40
+        ],
+        "components": [
+            [
+                "alternate_critical_multiplier_formula",
+                "Xec"
+            ]
+        ]
+    }
+]

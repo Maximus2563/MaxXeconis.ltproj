@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "OutsmartChild",
+        "name": "Outsmart",
+        "desc": "Grants +3 ATK and +10 crit.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            42
+        ],
+        "components": [
+            [
+                "damage",
+                3
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

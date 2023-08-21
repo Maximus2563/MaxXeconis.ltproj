@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LuckyBraggart",
+        "name": "Lucky Braggart",
+        "desc": "Grants +1 ATK for every ally in 2 spaces with lower LCK.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            43
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_damage",
+                "len([u for u in get_allies_within_distance(unit, 2) if (u.get_stat('LCK') < unit.get_stat('LCK'))])"
+            ]
+        ]
+    }
+]

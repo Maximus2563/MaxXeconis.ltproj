@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Cancelling",
+        "name": "Cancel",
+        "desc": "Unit has a SKL% chance to deny enemy counterattacks.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            41
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "Canceled"
+            ]
+        ]
+    }
+]

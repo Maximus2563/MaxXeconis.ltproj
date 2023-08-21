@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Deliverer",
+        "name": "Deliverer",
+        "desc": "Grants +2 MOV when rescuing an ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.traveler"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

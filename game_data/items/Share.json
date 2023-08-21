@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Share",
+        "name": "Share",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ally_blast_aoe",
+                1
+            ]
+        ]
+    }
+]

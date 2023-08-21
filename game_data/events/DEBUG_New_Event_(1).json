@@ -1,0 +1,35 @@
+[
+    {
+        "name": "New Event (1)",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG",
+        "condition": "unit.nid == 'Boey' and unit2.nid == 'Angel'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Angel",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boey",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "(Insert racism here)."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

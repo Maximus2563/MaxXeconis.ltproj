@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Inferno Balm Child ",
+        "name": "Inferno Balm ",
+        "desc": "Grants STR/MAG +2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            37
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

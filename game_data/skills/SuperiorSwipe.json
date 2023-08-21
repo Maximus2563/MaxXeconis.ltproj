@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SuperiorSwipe",
+        "name": "Superior Swipe",
+        "desc": "If unit has WTA, unit attacks twice.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0"
+            ],
+            [
+                "all_brave",
+                null
+            ]
+        ]
+    }
+]

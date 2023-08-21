@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Assertive",
+        "name": "Assertive",
+        "desc": "Grants +15 crit if unit has WTA.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0"
+            ],
+            [
+                "crit",
+                15
+            ]
+        ]
+    }
+]

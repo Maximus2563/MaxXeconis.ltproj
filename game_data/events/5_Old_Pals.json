@@ -1,0 +1,258 @@
+[
+    {
+        "name": "Old Pals",
+        "trigger": "on_base_convo",
+        "level_nid": "5",
+        "condition": "unit == 'Old Pals'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Bedroom Night"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Smoke",
+                    "MidRight",
+                    "Landros",
+                    "MidLeft",
+                    "Aerial",
+                    "FarRight",
+                    "Sages",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Sages",
+                    "Smile"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Aerial",
+                    "Smile"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Smoke",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Hah! Smoke, Landros, Aerial! How's it going?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smoke",
+                    "Hey! Your Highness, give us some SAGE advice!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Uh, well something I learned recently was...|ALWAYS CHECK THE RULES OF THE CARD GAME YOU'RE PLAYING!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Landros",
+                    "Don't tell me you lost a lot of money."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Uhm, alright! I won't!|My mouth? Shut!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aerial",
+                    "It's okay your Highness, I'm sure I can win it back."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smoke",
+                    "His skills will DEAL some serious damage to anyone's wallets!"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Landros",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Landros",
+                    "When will it end..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smoke",
+                    "When Land becomes Aerial!"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Landros",
+                    "NormalBlink"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Landros",
+                    "That was a stretch and you know it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aerial",
+                    "C'mon guys. A little less bickering in front of the prince."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Y'know, I've missed you guys."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aerial",
+                    "You could stay with us, come back home?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smoke",
+                    "Hello? We're looking for an Anne, Sir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Landros",
+                    "I think his silence is the answer, but why?"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Sages",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Sages",
+                    "NoSmile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Travelling far and wide, meeting new people...|Seeing what the world has to offer...|If I go home, I'm sure I'll have to do boring strategy stuff with father.|I just don't want to end up stuck in the castle, watching him... get worse..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Landros",
+                    "Ah, his health..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aerial",
+                    "Well, given things might be getting lively soon...|You might be needed to travel some more on his behalf.|Also, you would'a been sent to Aurelia... had you been home."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Sages",
+                    "NormalBlink"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I'll consider it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smoke",
+                    "Good, also you can lean on us, your Highness.|If you need to..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Thank you guys..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sages",
+                    "Smoke",
+                    "Landros",
+                    "Aerial"
+                ]
+            ],
+            [
+                "ignore_base_convo",
+                [
+                    "Old Pals"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "change_background;Bedroom Night\nmulti_add_portrait;Smoke;MidRight;Landros;MidLeft;Aerial;FarRight;Sages;FarLeft\nexpression;Sages;Smile\nexpression;Aerial;Smile\nexpression;Smoke;Smile\nspeak;Sages;Hah! Smoke, Landros, Aerial! How's it going?\nspeak;Smoke;Hey! Your Highness, give us some SAGE advice!\nspeak;Sages;Uh, well something I learned recently was...|ALWAYS CHECK THE RULES OF THE CARD GAME YOU'RE PLAYING!\nspeak;Landros;Don't tell me you lost a lot of money.\nspeak;Sages;Uhm, alright! I won't!|My mouth? Shut!\nspeak;Aerial;It's okay your Highness, I'm sure I can win it back.\nspeak;Smoke;His skills will DEAL some serious damage to anyone's wallets!\nexpression;Landros;CloseEyes\nspeak;Landros;When will it end...\nspeak;Smoke;When Land becomes Aerial!\nexpression;Landros;NormalBlink\nspeak;Landros;That was a stretch and you know it.\nspeak;Aerial;C'mon guys. A little less bickering in front of the prince.\nspeak;Sages;Y'know, I've missed you guys.\nspeak;Aerial;You could stay with us, come back home?\nspeak;Sages;...;FLAG(no_talk)\nspeak;Smoke;Hello? We're looking for an Anne, Sir.\nspeak;Landros;I think his silence is the answer, but why?\nexpression;Sages;CloseEyes\nexpression;Sages;NoSmile\nspeak;Sages;Travelling far and wide, meeting new people...|Seeing what the world has to offer...|If I go home, I'm sure I'll have to do boring strategy stuff with father.|I just don't want to end up stuck in the castle, watching him... get worse...\nspeak;Landros;Ah, his health...\nspeak;Aerial;Well, given things might be getting lively soon...|You might be needed to travel some more on his behalf.|Also, you would'a been sent to Aurelia... had you been home.\nexpression;Sages;NormalBlink\nspeak;Sages;I'll consider it.\nspeak;Smoke;Good, also you can lean on us, your Highness.|If you need to...\nspeak;Sages;Thank you guys...\nmulti_remove_portrait;Sages;Smoke;Landros;Aerial\nignore_base_convo;Old Pals\n"
+    }
+]

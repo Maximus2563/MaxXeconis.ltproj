@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Dagger Master",
+        "name": "Dagger Master",
+        "desc": "Grants +1 dmg dealt for every stat the enemy has debuffed.\nIf unit is hit by a dagger, attacker also receives status effects.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Knife'"
+            ],
+            [
+                "reflect_status",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "ChillChilling",
+        "name": "ChillChilling",
+        "desc": "Attack thrice",
+        "icon_nid": "Anima",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_hit",
+                "Chilled"
+            ],
+            [
+                "nihiled_by",
+                [
+                    "Frozen"
+                ]
+            ]
+        ]
+    }
+]

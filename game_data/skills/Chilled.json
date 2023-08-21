@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "Chilled",
+        "name": "Chilled",
+        "desc": "Once 3 stacks are accumulated, unit will be frozen.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            3
+        ],
+        "components": [
+            [
+                "time",
+                3
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    115,
+                    252,
+                    248
+                ]
+            ],
+            [
+                "condition",
+                "len([skill for skill in unit.skills if skill.nid == 'Chilled']) > 2"
+            ],
+            [
+                "stack",
+                3
+            ],
+            [
+                "self_nihil",
+                [
+                    "Frozen"
+                ]
+            ]
+        ]
+    }
+]

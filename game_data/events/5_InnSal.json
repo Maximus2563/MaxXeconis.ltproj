@@ -1,0 +1,139 @@
+[
+    {
+        "name": "InnSal",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'Inn' and unit.nid == 'Sal'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Nighttime Tavern 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sal",
+                    "Left",
+                    "Maxime",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Maxime",
+                    "HalfCloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "What's with all the... noise..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Ah, you! Could you give us a hand?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "Huh? Mademoiselle, I'm afraid I don't work for nothing.|Plus I really need my... *yawn* beauty sleep..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Come on, our lord foreited a lot of money to you earlier."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "His error, no?|Though if this will take that frown off your pretty face-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Watch your tongue."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "Just take this, it's good for playing dirty..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Well, thanks, I guess."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maxime",
+                    "Now if you don't mind, I'd love to go back to bed, ta-ta!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Sal",
+                    "Poison Sword (Poison Sword)"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nadd_portrait;Sal;Left;Maxime;Right\nexpression;Maxime;HalfCloseEyes\nspeak;Maxime;What's with all the... noise...\nspeak;Sal;Ah, you! Could you give us a hand?\nspeak;Maxime;Huh? Mademoiselle, I'm afraid I don't work for nothing.|Plus I really need my... *yawn* beauty sleep...\nspeak;Sal;Come on, our lord foreited a lot of money to you earlier.\nspeak;Maxime;His error, no?|Though if this will take that frown off your pretty face-\nspeak;Sal;Watch your tongue.\nspeak;Maxime;Just take this, it's good for playing dirty...\nspeak;Sal;Well, thanks, I guess.\nspeak;Maxime;Now if you don't mind, I'd love to go back to bed, ta-ta!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;Sal;Poison Sword (Poison Sword)\nhas_traded;{unit}\n"
+    }
+]

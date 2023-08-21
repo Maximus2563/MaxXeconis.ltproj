@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Draconis Sola ",
+        "name": "Draconis Sola",
+        "desc": "Grants +2 to all stats when there are no allies within 3 spaces.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit_funcs.check_focus(unit, 3) == 0"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "LCK",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

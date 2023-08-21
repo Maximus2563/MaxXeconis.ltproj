@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Somnus",
+        "name": "Somnus",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            4
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "Sleep"
+            ]
+        ]
+    }
+]

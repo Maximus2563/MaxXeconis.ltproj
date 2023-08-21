@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "FlamingFaithChild",
+        "name": "Flaming Faith",
+        "desc": "Grants MAG/RES+3",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "unit_anim",
+                "OverchargeAura"
+            ]
+        ]
+    }
+]

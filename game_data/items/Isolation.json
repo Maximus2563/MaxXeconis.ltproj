@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Isolation",
+        "name": "Isolation",
+        "desc": "Enemy cannot trade.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            6
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Isolation"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Berserk"
+            ]
+        ]
+    }
+]

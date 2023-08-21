@@ -1,0 +1,133 @@
+[
+    {
+        "nid": "Maro",
+        "name": "Maro",
+        "desc": "A soldier who enjoys keeping his weaponry refined.",
+        "variant": "",
+        "level": 1,
+        "klass": "Soldier",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 5,
+            "LCK": 4,
+            "DEF": 6,
+            "RES": 2,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 60,
+            "MAG": 5,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 2,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": -1,
+            "SKL": 0,
+            "SPD": -1
+        },
+        "starting_items": [
+            [
+                "Steel Lance",
+                false
+            ],
+            [
+                "Slim Lance",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Refinement"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Weaponry"
+            ],
+            [
+                "Dislikes:",
+                "Poor craftwork"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Maro ",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "Urk... I lost focus..."
+            ],
+            [
+                "EscapeQuote",
+                "Stay focused everyone!"
+            ]
+        ]
+    }
+]

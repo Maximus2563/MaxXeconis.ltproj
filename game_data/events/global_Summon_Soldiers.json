@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Summon Soldiers",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "make_generic",
+                [
+                    "",
+                    "Soldier",
+                    "1",
+                    "other",
+                    "Pursue"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{unit}",
+                    "{position}",
+                    "warp",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Soldier",
+                    "1",
+                    "other",
+                    "Pursue"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{unit}",
+                    "{position}",
+                    "warp",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Soldier",
+                    "1",
+                    "other",
+                    "Pursue"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{unit}",
+                    "{position}",
+                    "warp",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Soldier",
+                    "1",
+                    "other",
+                    "Pursue"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{unit}",
+                    "{position}",
+                    "warp",
+                    "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": ""
+    }
+]

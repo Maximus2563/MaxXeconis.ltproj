@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "Relaxed",
+        "name": "Relaxed",
+        "desc": "Grants DEF+3 during unit's next combat and restores 5 HP at the start of turns.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            42
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ],
+            [
+                "upkeep_damage",
+                -5
+            ]
+        ]
+    }
+]

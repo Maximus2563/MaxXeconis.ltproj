@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Killer Ballista",
+        "name": "Killer Ballis",
+        "desc": "",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Archer",
+                    "Sniper"
+                ]
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "effective_tag",
+                [
+                    "Flying"
+                ]
+            ]
+        ]
+    }
+]

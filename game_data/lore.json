@@ -1,0 +1,149 @@
+[
+    {
+        "nid": "Eirika",
+        "name": "Eirika",
+        "title": "Eirika",
+        "category": "Character",
+        "text": "Eirika is the protagonist of the Sacred Stones. She wields a Rapier.{br}\nEirika was born a poor black child, but made it big on the stock market."
+    },
+    {
+        "nid": "Aerial",
+        "name": "Aerial",
+        "title": "Aerial ",
+        "category": "Character",
+        "text": "A jovial man who can make friends with anyone and pushes himself with rigorous daily training. Has the biggest appetite in the army."
+    },
+    {
+        "nid": "Apple",
+        "name": "Apple",
+        "title": "Apple",
+        "category": "Character",
+        "text": "A fashionable mercenary who hopes to ditch the sword and open up his own shop. Not Angel!"
+    },
+    {
+        "nid": "Angel",
+        "name": "Angel",
+        "title": "Angel",
+        "category": "Character",
+        "text": "A snarky mage who has a knack for gaining and spreading information. Rumour has it his glasses are only comsetic, purely an attempt to make him appear smarter."
+    },
+    {
+        "nid": "Aspl",
+        "name": "Aspl",
+        "title": "Aspl",
+        "category": "Character",
+        "text": "A young boy who joined the army to attempt to demonstrate how he is comparable with the Gods, managing to survive as he is unfathomably lucky."
+    },
+    {
+        "nid": "Blazing",
+        "name": "Blazing",
+        "title": "Blazing",
+        "category": "Character",
+        "text": "A kindhearted son of a noble whose beliefs give him the strength to face the world. Worries often that his prayers do not reach the gods."
+    },
+    {
+        "nid": "Boey",
+        "name": "Boey",
+        "title": "Boey",
+        "category": "Character",
+        "text": "An airheaded mercenary whose lack of forethought is either endearing or infuriating, making his business a coin toss."
+    },
+    {
+        "nid": "Bread",
+        "name": "Bread",
+        "title": "Bread",
+        "category": "Character",
+        "text": "Second born child to a baker, forcing them to become a knight while their brother would take over the business. Adores cute things and uses them to escape the harshness of fighting."
+    },
+    {
+        "nid": "Cacti",
+        "name": "Cacti",
+        "title": "Cacti",
+        "category": "Character",
+        "text": "A righteous wielder of light magic who wishes to purge the lands of all that is wicked, but can be too brazen and end up in trouble..."
+    },
+    {
+        "nid": "Cherry",
+        "name": "Cherry",
+        "title": "Cherry Von Maple",
+        "category": "Character",
+        "text": "After overcoming her perpetual shyness, Cherry is anything but anxious. She isn't afraid to gossip about anyone, so long as they deserve it."
+    },
+    {
+        "nid": "Demonic",
+        "name": "Demonic",
+        "title": "Pete Aters",
+        "category": "Character",
+        "text": "A senile old guy who is far from his prime, but gives it his all anyway. Earned his title \"Demonic\" by terrorising friend and foe alike. "
+    },
+    {
+        "nid": "Eff",
+        "name": "Eff",
+        "title": "Eff Yu",
+        "category": "Character",
+        "text": "A smart guy who isn't afraid to let you know it. Thankfully he can back up his talk with his strategy, axe and powerful magic."
+    },
+    {
+        "nid": "Landros",
+        "name": "Landros",
+        "title": "Landros",
+        "category": "Character",
+        "text": "An nobleman who had joined the army by order of his parents. Uses the bow to stay out of harms way, letting him analyse the weather."
+    },
+    {
+        "nid": "Leap",
+        "name": "Leap",
+        "title": "Leap",
+        "category": "Character",
+        "text": "Leap was raised an oprhan in the clergy and fell in love with fashion. While they no longer practice faith, they remain a great healer.{br}\nLeap can buff ally speed and resistance after healing, making them fit for multiple combats against mages."
+    },
+    {
+        "nid": "Max",
+        "name": "Max",
+        "title": "Max Irmus",
+        "category": "Character",
+        "text": "A "
+    },
+    {
+        "nid": "Maro",
+        "name": "Maro",
+        "title": "Maro",
+        "category": "Character",
+        "text": "A new soldier in Sages' army, serving under Sal. He likes to fit the mantle of a soldier, but can be scattered.{br}\nMaro enjoys well kept weapons and benefits from having weapons with more uses."
+    },
+    {
+        "nid": "Prof",
+        "name": "Prof",
+        "title": "Brendan Essar",
+        "category": "Character",
+        "text": "Known to most as \"Prof\" due to his ethusiasm towards teaching, and not much else... The most self effacing in the army."
+    },
+    {
+        "nid": "Roag",
+        "name": "Roag",
+        "title": "Roag",
+        "category": "Character",
+        "text": "A flamboyant cavalier who tries to follow trends, he truly cares for his allies and will protect them with his life."
+    },
+    {
+        "nid": "Sal",
+        "name": "Sal",
+        "title": "Sal Ith",
+        "category": "Character",
+        "text": "After the disgrace of her family, she worked hard to restore her image under Sages' army. She loves telling others to sleep, but does it mostly out of kindness."
+    },
+    {
+        "nid": "Shini",
+        "name": "Shini",
+        "title": "Shini",
+        "category": "Character",
+        "text": "A swordsman for hire who is eager to please his employers. Sadly, this stresses him to no end, causing anxiety."
+    },
+    {
+        "nid": "Smoke",
+        "name": "Smoke",
+        "title": "Smoke",
+        "category": "Character",
+        "text": "Dubbed \"Smoke\" for his tendency to vanish into thin air. Tries to act enigmatic, much to the chagrin of his comrades."
+    }
+]

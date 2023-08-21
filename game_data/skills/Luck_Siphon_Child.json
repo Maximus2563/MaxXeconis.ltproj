@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Luck Siphon Child",
+        "name": "Luck Siphon",
+        "desc": "Stackable LCK.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                10
+            ]
+        ]
+    }
+]

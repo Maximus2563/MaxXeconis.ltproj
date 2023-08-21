@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Reconcile",
+        "name": "Reconcile",
+        "desc": "Restores (User's MAG + 5) HP to all adjacent allies.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                2200
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "exp",
+                12
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "magic_heal",
+                5
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Mend"
+            ],
+            [
+                "map_cast_sfx",
+                "Mend"
+            ]
+        ]
+    }
+]

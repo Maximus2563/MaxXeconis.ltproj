@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Skill +3",
+        "name": "Skill +3",
+        "desc": "Grants SKL +3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            15
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]
