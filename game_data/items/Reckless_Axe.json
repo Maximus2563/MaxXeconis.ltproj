@@ -1,0 +1,84 @@
+[
+    {
+        "nid": "Reckless_Axe",
+        "name": "Reckless Axe",
+        "desc": "Inflicts dodge -20 to user.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
+        "icon_index": [
+            13,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                17
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "status_on_equip",
+                "Reckless"
+            ]
+        ]
+    }
+]

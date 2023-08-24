@@ -2,12 +2,17 @@
     {
         "nid": "Premonition",
         "name": "Premonition",
-        "desc": "Unit has a MAG% chance of gaining +15 hit/avoid for 1 turn",
+        "desc": "Unit has a MAG% chance of gaining Hit/Avoid+15 for 1 turn",
         "icon_nid": "Skills (1)",
         "icon_index": [
             1,
             45
         ],
-        "components": []
+        "components": [
+            [
+                "avoid",
+                999
+            ]
+        ]
     }
 ]

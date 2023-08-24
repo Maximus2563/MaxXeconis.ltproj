@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reckless",
+        "name": "Reckless",
+        "desc": "Inflicts -20 dodge.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            36
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "crit_avoid",
+                -20
+            ]
+        ]
+    }
+]

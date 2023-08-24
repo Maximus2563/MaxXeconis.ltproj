@@ -58,7 +58,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Grants increased might, crit rate \nand crit avoid.",
+        "desc": "Grants increased might, crit rate \nand dodge.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -193,7 +193,7 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Grants increased might, avoid \nand crit avoid.",
+        "desc": "Grants increased might, avoid \nand dodge.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -283,7 +283,7 @@
     {
         "nid": "Earth",
         "name": "Earth",
-        "desc": "Grants increased attack, defense \nand crit avoid.",
+        "desc": "Grants increased attack, defense \nand dodge.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -328,7 +328,7 @@
     {
         "nid": "Water",
         "name": "Water",
-        "desc": "Grants increased defense, avoid \nand crit avoid.",
+        "desc": "Grants increased defense, avoid \nand dodge.",
         "bonus": [
             {
                 "support_rank": "C",

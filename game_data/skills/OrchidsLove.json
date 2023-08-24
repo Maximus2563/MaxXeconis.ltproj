@@ -2,7 +2,7 @@
     {
         "nid": "OrchidsLove",
         "name": "Orchid's Love",
-        "desc": "Grants 20% of Bread's Res to ATK/SPD and\nallies ATK within 2 spaces during combat.",
+        "desc": "Grants 50% of unit's STR/MAG/RES bonuses to allies within 2 spaces.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -24,22 +24,6 @@
             [
                 "aura_target",
                 "ally"
-            ],
-            [
-                "dynamic_damage",
-                "(unit.get_stat('RES')) // 5"
-            ],
-            [
-                "dynamic_attack_speed",
-                "(unit.get_stat('RES'))  // 5"
-            ],
-            [
-                "dynamic_defense_speed",
-                "(unit.get_stat('RES'))  // 5"
-            ],
-            [
-                "dynamic_avoid",
-                "(unit.get_stat('RES'))  // 2.5"
             ]
         ]
     }

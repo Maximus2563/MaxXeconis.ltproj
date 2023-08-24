@@ -3,10 +3,10 @@
         "nid": "Silver Longbow",
         "name": "Silver Longbow",
         "desc": "",
-        "icon_nid": "Bow",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            0,
-            12
+            3,
+            3
         ],
         "components": [
             [

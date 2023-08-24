@@ -1,0 +1,39 @@
+[
+    {
+        "name": "MorshuShop",
+        "trigger": "Shop",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'MorshuShop'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Suspicious Folk"
+                ]
+            ],
+            [
+                "shop",
+                [
+                    "{unit}",
+                    "Heal,Mend,Lightning,Shine,Vulnerary",
+                    "morshushop"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nmusic;Suspicious Folk\nshop;{unit};Heal,Mend,Lightning,Shine,Vulnerary;morshushop\ntransition;Open\n"
+    }
+]

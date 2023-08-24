@@ -2,7 +2,7 @@
     {
         "nid": "Overcast",
         "name": "Overcast",
-        "desc": "Inflicts -10 hit on foes within 2 spaces.",
+        "desc": "Inflicts Hit-10 on foes within 2 spaces.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             0,

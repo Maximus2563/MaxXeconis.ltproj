@@ -138,5 +138,9 @@
     {
         "nid": "DEVIL_PROC",
         "expression": "max(0,(31-LCK))"
+    },
+    {
+        "nid": "PREMONITION",
+        "expression": "MAG//2"
     }
 ]

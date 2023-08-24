@@ -1,5 +1,177 @@
 [
     {
+        "unit1": "Sages",
+        "unit2": "Sal",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 40,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 66,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sages",
+        "unit2": "Landros",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 32,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sages",
+        "unit2": "Smoke",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 28,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sages",
+        "unit2": "Aerial",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 34,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sages",
+        "unit2": "Javi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 34,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sages",
+        "unit2": "Frost",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 35,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 47,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
         "unit1": "Sal",
         "unit2": "Smoke",
         "one_way": false,
@@ -20,19 +192,6 @@
             {
                 "support_rank": "B",
                 "requirement": 59,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 86,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -66,19 +225,6 @@
             {
                 "support_rank": "B",
                 "requirement": 54,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 80,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -292,32 +438,6 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 56,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 78,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
             }
         ]
     },
@@ -342,19 +462,6 @@
             {
                 "support_rank": "B",
                 "requirement": 62,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 84,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -506,13 +613,13 @@
         ]
     },
     {
-        "unit1": "Leap",
-        "unit2": "Maxime",
+        "unit1": "Frost",
+        "unit2": "Hyper",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 29,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -522,10 +629,17 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
-            },
+            }
+        ]
+    },
+    {
+        "unit1": "Leap",
+        "unit2": "Maxime",
+        "one_way": false,
+        "requirements": [
             {
-                "support_rank": "B",
-                "requirement": 57,
+                "support_rank": "C",
+                "requirement": 34,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1290,6 +1404,39 @@
         ]
     },
     {
+        "unit1": "Boey",
+        "unit2": "Roag",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 34,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 52,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
         "unit1": "Maxime",
         "unit2": "Angel",
         "one_way": false,
@@ -1411,19 +1558,6 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 73,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
             }
         ]
     },
@@ -1457,13 +1591,26 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 89,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
             }
         ]
     },
     {
         "unit1": "Cherry",
         "unit2": "Smoke",
-        "one_way": true,
+        "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",

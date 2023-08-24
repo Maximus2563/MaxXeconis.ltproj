@@ -45,16 +45,12 @@
                 ]
             ],
             [
-                "music_fade_back",
-                []
-            ],
-            [
                 "end",
                 []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit.get_field('DeathQuote')\n    music;Seperation\n    add_portrait;{eval:unit.nid};Right\n    speak;{eval:unit.nid};{eval:unit.get_field('DeathQuote')}\n    expression;{eval:unit.nid};CloseEyes\n    remove_portrait;{eval:unit.nid}\n    music_fade_back\nend\n"
+        "source": "if;unit.get_field('DeathQuote')\n    music;Seperation\n    add_portrait;{eval:unit.nid};Right\n    speak;{eval:unit.nid};{eval:unit.get_field('DeathQuote')}\n    expression;{eval:unit.nid};CloseEyes\n    remove_portrait;{eval:unit.nid}\nend\n"
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Dagger Master",
         "name": "Dagger Master",
-        "desc": "Grants +1 dmg dealt for every stat the enemy has debuffed.\nIf unit is hit by a dagger, attacker also receives status effects.",
+        "desc": "Grants +1 dmg dealt for every stat the enemy has debuffed.\nIf unit is hit by a knife, attacker also receives status effects.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

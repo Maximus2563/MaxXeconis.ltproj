@@ -292,7 +292,11 @@
         "text": "Your hands are full. {w}{clear}If you had a convoy, I could send it there... {w}{clear}Anything else I can do for you?"
     },
     {
-        "nid": "shop_no_money",
+        "nid": "armory_no_money",
+        "text": "Sorry. You don't have enough money."
+    },
+    {
+        "nid": "vendor_no_money",
         "text": "Sorry. You don't have enough money."
     },
     {
@@ -370,5 +374,25 @@
     {
         "nid": "Kaga_Desc",
         "text": "Standard difficulty, but utilises classic 1RN RNG. Good for elitists!"
+    },
+    {
+        "nid": "morshushop_opener",
+        "text": "Hello! Welcome to my store. {w}{clear}Take all the time you need."
+    },
+    {
+        "nid": "morshushop_buy",
+        "text": "You want it? As long as you have enough gold!"
+    },
+    {
+        "nid": "morshushop_back",
+        "text": "Mmm... Anything else?"
+    },
+    {
+        "nid": "morshushop_leave",
+        "text": "Come back when you're a little richer!"
+    },
+    {
+        "nid": "morshushop_no_money",
+        "text": "Sorry, I don't give credit!"
     }
 ]

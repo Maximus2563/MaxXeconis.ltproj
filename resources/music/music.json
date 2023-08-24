@@ -90,11 +90,6 @@
         false
     ],
     [
-        "Strange People",
-        false,
-        false
-    ],
-    [
         "038 - Unease",
         false,
         false
@@ -357,6 +352,21 @@
     [
         "74 Dance in the Dark",
         false,
+        false
+    ],
+    [
+        "Strange People",
+        true,
+        false
+    ],
+    [
+        "Valiant Illusion",
+        true,
+        false
+    ],
+    [
+        "HummingTreasures",
+        true,
         false
     ]
 ]

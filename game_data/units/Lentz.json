@@ -10,16 +10,16 @@
             "Boss"
         ],
         "bases": {
-            "HP": 26,
+            "HP": 31,
             "STR": 10,
             "MAG": 0,
             "SKL": 6,
             "SPD": 6,
-            "LCK": 0,
-            "DEF": 5,
+            "LCK": 4,
+            "DEF": 6,
             "CON": 12,
             "MOV": 5,
-            "RES": 1
+            "RES": 2
         },
         "growths": {
             "HP": 0,
@@ -54,7 +54,7 @@
         "learned_skills": [
             [
                 1,
-                "Cancel"
+                "SealStr"
             ]
         ],
         "unit_notes": [],

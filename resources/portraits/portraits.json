@@ -1224,18 +1224,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Boey",
-        "blinking_offset": [
-            16,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Pit",
         "blinking_offset": [
             24,
@@ -1971,6 +1959,18 @@
         "nid": "Man4",
         "blinking_offset": [
             24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Boey",
+        "blinking_offset": [
+            16,
             32
         ],
         "smiling_offset": [

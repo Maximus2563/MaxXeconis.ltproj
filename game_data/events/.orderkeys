@@ -136,5 +136,21 @@
     "5_Outro.json": 134,
     "6B_Wandering_Maidens.json": 135,
     "6B_Pristine_Pike.json": 136,
-    "6B_Fiery_Family.json": 137
+    "6B_Fiery_Family.json": 137,
+    "6B_TalkJaviMaro.json": 138,
+    "6B_TalkNako.json": 139,
+    "6B_TalkFrost.json": 140,
+    "6B_TalkAerial.json": 141,
+    "6B_TalkMorshu.json": 142,
+    "6B_TalkBlazing.json": 143,
+    "6B_TalkLandros.json": 144,
+    "6B_TalkSmoke.json": 145,
+    "6B_TalkGuy.json": 146,
+    "6B_TalkRoag.json": 147,
+    "6B_TalkPiknoGuard.json": 148,
+    "6B_TalkBoey.json": 149,
+    "6B_TalkHyper.json": 150,
+    "6B_TalkPykroe.json": 151,
+    "6B_MorshuShop.json": 152,
+    "DEBUG_MorshuShop.json": 153
 }

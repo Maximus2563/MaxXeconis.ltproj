@@ -2,7 +2,7 @@
     {
         "nid": "Poison Claw",
         "name": "Poison Claw",
-        "desc": "Poisons on contact.",
+        "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,

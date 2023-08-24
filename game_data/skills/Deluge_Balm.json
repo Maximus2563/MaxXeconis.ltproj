@@ -2,7 +2,7 @@
     {
         "nid": "Deluge Balm",
         "name": "Deluge Balm",
-        "desc": "Grants RES +2/SKL +3 when healing an ally.",
+        "desc": "Grants RES+2/SKL+3 when healing an ally.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,

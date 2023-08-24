@@ -2,7 +2,7 @@
     {
         "nid": "Rancor",
         "name": "Rancor",
-        "desc": "Poisons on contact.",
+        "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "BatimaTomes",
         "icon_index": [
             3,

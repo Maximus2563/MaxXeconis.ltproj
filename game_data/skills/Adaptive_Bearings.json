@@ -2,7 +2,7 @@
     {
         "nid": "Adaptive Bearings",
         "name": "Adaptive Bearings",
-        "desc": "During combat, grants crit = 15 x (HP% remaining)\nand avoid = 15 x (HP% lost).",
+        "desc": "Grants Crit+15 at full HP during combat. \nThis converts to Avoid proportional to missing HP.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,
@@ -20,10 +20,6 @@
             [
                 "dynamic_avoid",
                 "15*(1 - (unit.get_hp() / unit.stats['HP']))"
-            ],
-            [
-                "eval_crit",
-                ""
             ]
         ]
     }

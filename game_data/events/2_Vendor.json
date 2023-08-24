@@ -3,12 +3,18 @@
         "name": "Vendor",
         "trigger": "Vendor",
         "level_nid": "2",
-        "condition": "True",
+        "condition": "region.nid == 'Vendor'",
         "commands": [
             [
                 "transition",
                 [
                     "Close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "HummingTreasures"
                 ]
             ],
             [
@@ -28,6 +34,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "transition;Close\nmusic;HummingTreasures\nshop;{unit};Vulnerary,Heal;vendor\ntransition;Open\n"
     }
 ]

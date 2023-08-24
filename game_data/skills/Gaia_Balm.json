@@ -2,7 +2,7 @@
     {
         "nid": "Gaia Balm",
         "name": "Gaia Balm",
-        "desc": "Grants DEF +2/CON +3 when healing an ally.",
+        "desc": "Grants DEF+2/CON+3 when healing an ally.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,

@@ -1,0 +1,134 @@
+[
+    {
+        "name": "TalkRoag",
+        "trigger": "on_talk",
+        "level_nid": "6B",
+        "condition": "unit2.nid == 'Roag'",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Roag",
+                    "Right",
+                    "Sages",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Hey, Sagey!|How's it goin' girlie?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Roag, right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Yahuh. That's me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I did wonder, how is it you came to be a knight?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Uhm... Well, I guess I was on the OTHER side of the law."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I see..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "It's ok hun, I didn't do anything TOO bad..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Now I'm curious, what kind of things did you do?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "That's a secret!|Anyway, things got worse, soooo I left the gang."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Were you close?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Not really, I'd always leave in search of better things.|Only to come back to 'em when things didn't work out...|Like, I guess this army's kept me fed, ya know?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "At least you're doing better..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Yah, thank you for worrying about me, Sagey."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Anytime."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Roag",
+                    "Sages"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Sages",
+                    "Roag"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "multi_add_portrait;Roag;Right;Sages;Left\nspeak;Roag;Hey, Sagey!|How's it goin' girlie?\nspeak;Sages;Roag, right?\nspeak;Roag;Yahuh. That's me.\nspeak;Sages;I did wonder, how is it you came to be a knight?\nspeak;Roag;Uhm... Well, I guess I was on the OTHER side of the law.\nspeak;Sages;I see...\nspeak;Roag;It's ok hun, I didn't do anything TOO bad...\nspeak;Sages;Now I'm curious, what kind of things did you do?\nspeak;Roag;That's a secret!|Anyway, things got worse, soooo I left the gang.\nspeak;Sages;Were you close?\nspeak;Roag;Not really, I'd always leave in search of better things.|Only to come back to 'em when things didn't work out...|Like, I guess this army's kept me fed, ya know? \nspeak;Sages;At least you're doing better...\nspeak;Roag;Yah, thank you for worrying about me, Sagey.\nspeak;Sages;Anytime.\nmulti_remove_portrait;Roag;Sages\nremove_talk;Sages;Roag\n"
+    }
+]

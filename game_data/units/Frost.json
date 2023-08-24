@@ -127,7 +127,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "I can become one... with the earth..."
+                "I will become one... with the earth...|Just as I... foresaw..."
             ],
             [
                 "HighLevelUpQuote",
@@ -144,6 +144,10 @@
             [
                 "WorstLevelUpQuote",
                 "Please don't look at me..."
+            ],
+            [
+                "PromoQuote",
+                "I foresaw this new path. I won't squander it."
             ]
         ]
     }

@@ -45,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    9
+                    6,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -71,7 +71,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
+                    11,
                     7
                 ],
                 "starting_traveler": null,
@@ -131,13 +131,13 @@
             },
             {
                 "nid": "Bread",
-                "team": "enemy",
+                "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    6
+                    8,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -308,17 +308,34 @@
         ],
         "regions": [
             {
-                "nid": "New Region",
-                "region_type": "vision",
+                "nid": "MorshuShop",
+                "region_type": "event",
                 "position": [
-                    16,
-                    2
+                    6,
+                    9
                 ],
                 "size": [
-                    3,
-                    4
+                    1,
+                    1
                 ],
-                "sub_nid": "",
+                "sub_nid": "Shop",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Armory",
+                "region_type": "event",
+                "position": [
+                    5,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armory",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

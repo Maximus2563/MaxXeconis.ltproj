@@ -2,7 +2,7 @@
     {
         "nid": "OrchidsLoveChild",
         "name": "Orchid's Love",
-        "desc": "Grants 20% of Bread's RES to ATK during combat.",
+        "desc": "Grants unit 50% of Breads's STR/MAG/RES bonuses.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -10,8 +10,21 @@
         ],
         "components": [
             [
-                "dynamic_damage",
-                "(game.get_unit('Bread').get_stat('RES')) // 5"
+                "stat_change_expression",
+                [
+                    [
+                        "RES",
+                        "max(0,(game.get_unit('Bread').get_stat('RES') - game.get_unit('Bread').stats['RES']))//2"
+                    ],
+                    [
+                        "STR",
+                        "max(0,(game.get_unit('Bread').get_stat('STR') - game.get_unit('Bread').stats['STR']))//2"
+                    ],
+                    [
+                        "MAG",
+                        "max(0,(game.get_unit('Bread').get_stat('MAG') - game.get_unit('Bread').stats['MAG']))//2"
+                    ]
+                ]
             ]
         ]
     }

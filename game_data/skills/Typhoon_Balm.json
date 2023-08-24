@@ -2,7 +2,7 @@
     {
         "nid": "Typhoon Balm",
         "name": "Typhoon Balm",
-        "desc": "Grants SPD +2/LCK +4 when healing an ally.",
+        "desc": "Grants SPD+2/LCK+4 when healing an ally.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

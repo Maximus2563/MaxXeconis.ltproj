@@ -2,7 +2,7 @@
     {
         "nid": "FollowUpShield",
         "name": "Follow-Up Shield",
-        "desc": "If unit takes damage, decrease foe's follow-up damage by 30%.",
+        "desc": "If unit takes damage, decrease foe's follow-up damage by 25%.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             3,
@@ -10,12 +10,33 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "T",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ],
+                    [
+                        "LostOnAlly (T/F)",
+                        "T",
+                        "Lost after combat with an ally"
+                    ],
+                    [
+                        "LostOnEnemy (T/F)",
+                        "T",
+                        "Lost after combat with an enemy"
+                    ],
+                    [
+                        "LostOnSplash (T/F)",
+                        "T",
+                        "Lost after combat if using an AOE item"
+                    ]
+                ]
             ],
             [
-                "gain_skill_after_take_damage",
-                "FollowUpShieldChild"
+                "resist_multiplier",
+                0.75
             ]
         ]
     }

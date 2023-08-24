@@ -601,6 +601,27 @@
                 "generic": true
             },
             {
+                "nid": "129",
+                "variant": null,
+                "level": 4,
+                "klass": "BowCavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Bronze_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "124",
                 "variant": null,
                 "level": 5,
@@ -609,6 +630,27 @@
                 "starting_items": [
                     [
                         "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 5,
+                "klass": "AxeCavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Bronze_Axe",
                         false
                     ]
                 ],
@@ -1130,16 +1172,26 @@
                 "nid": "CavReinforcements",
                 "units": [
                     "123",
-                    "124"
+                    "124",
+                    "129",
+                    "130"
                 ],
                 "positions": {
                     "123": [
                         5,
-                        15
+                        14
                     ],
                     "124": [
                         6,
                         15
+                    ],
+                    "129": [
+                        6,
+                        13
+                    ],
+                    "130": [
+                        5,
+                        12
                     ]
                 }
             },

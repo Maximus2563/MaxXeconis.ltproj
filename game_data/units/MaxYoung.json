@@ -8,10 +8,10 @@
         "klass": "Mage",
         "tags": [],
         "bases": {
-            "HP": 19,
+            "HP": 18,
             "STR": 3,
-            "MAG": 6,
-            "SKL": 8,
+            "MAG": 5,
+            "SKL": 6,
             "SPD": 7,
             "LCK": 2,
             "DEF": 4,

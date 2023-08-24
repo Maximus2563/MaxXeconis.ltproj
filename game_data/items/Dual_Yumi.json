@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Horseslayer",
-        "name": "Horseslayer",
-        "desc": "Effective against horseback units",
-        "icon_nid": "Lance",
+        "nid": "Dual_Yumi",
+        "name": "Dual Yumi",
+        "desc": "Attack up to two units.",
+        "icon_nid": "jellyunicorns item icons ltinsert",
         "icon_index": [
-            0,
-            7
+            11,
+            4
         ],
         "components": [
             [
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                7
+                6
             ],
             [
                 "hit",
@@ -31,15 +31,15 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Bow"
             ],
             [
                 "weapon_rank",
-                "D"
+                "C"
             ],
             [
                 "uses",
-                16
+                18
             ],
             [
                 "uses_options",
@@ -61,15 +61,15 @@
             ],
             [
                 "value",
-                1040
+                1550
             ],
             [
                 "min_range",
-                1
+                2
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
                 "effective_multiplier",
@@ -78,8 +78,20 @@
             [
                 "effective_tag",
                 [
-                    "Horse"
+                    "Flying"
                 ]
+            ],
+            [
+                "multi_target",
+                2
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

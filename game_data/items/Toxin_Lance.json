@@ -2,7 +2,7 @@
     {
         "nid": "Toxin Lance",
         "name": "Toxin Lance",
-        "desc": "Poisons on contact.",
+        "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

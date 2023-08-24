@@ -19,7 +19,7 @@
             ],
             [
                 "allowed_weapons",
-                "item.nid == 'Vulnerary' or 'Elixir' or 'Antitoxin'"
+                "item.nid == 'Vulnerary' or 'Elixir' or 'Antitoxin' or 'Concoction'"
             ]
         ]
     }

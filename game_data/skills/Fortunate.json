@@ -2,7 +2,7 @@
     {
         "nid": "Fortunate",
         "name": "Fortunate ",
-        "desc": "Grants unit +10 dodge and +5 dodge to allies within 2 spaces.",
+        "desc": "Grants dodge+10.\nGrants dodge+5 to allies within 2 spaces.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             4,

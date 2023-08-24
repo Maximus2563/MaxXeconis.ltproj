@@ -49,7 +49,7 @@
                 false
             ],
             [
-                "Slim Lance",
+                "Bronze_Lance",
                 false
             ]
         ],
@@ -127,6 +127,30 @@
             [
                 "EscapeQuote",
                 "Stay focused everyone!"
+            ],
+            [
+                "PromoQuote",
+                "I've refined myself into a better soldier!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Superb!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "We all have to meet standards."
+            ],
+            [
+                "LowLevelUpQuote",
+                "I must strive to do better..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "This is... flawed."
+            ],
+            [
+                "MaxStatQuote",
+                "I'll have to teach the others a thing or two!"
             ]
         ]
     }

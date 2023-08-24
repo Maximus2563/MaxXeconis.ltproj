@@ -58,6 +58,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "if;item == 'C'\n    alert;Reached rank C!\nelif;item == 'B'\n    alert;Reached rank B!\nelif;item == 'A'\n    alert;Reached rank A!\nelse\n    alert;Support increased!\nend\n"
     }
 ]

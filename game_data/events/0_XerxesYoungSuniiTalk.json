@@ -95,10 +95,17 @@
                 [
                     "Sunii"
                 ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "XeconisYoung",
+                    "Sunii"
+                ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "add_portrait;XeconisYoung;Left;no_block\nadd_portrait;Sunii;Right\nspeak;Sunii;You're trying to help me? Thank you so much, but...|You'd be safer not associating with me...\nspeak;XeconisYoung;Well we're kind of already involved so...|Not like we have much choice now.\nspeak;Sunii;Touching. However, my baby girl... I can't die here...|Though, dragging other kids into this...\nspeak;XeconisYoung;I'll have you know I'm not just a \"kid\".|Besides, who are these men? Clearly not normal bandits...\nspeak;Sunii;Please don't ask questions... You're better off not knowing.\nspeak;XeconisYoung;Is this just because I'm young?\nspeak;Sunii;Just... Go on with what you were doing.\nspeak;XeconisYoung;Fine, but I expect to be compensated when we're finished, with whatever it is you know.\nspeak;Sunii;...\nremove_portrait;XeconisYoung;no_block\nremove_portrait;Sunii\nremove_talk;XeconisYoung;Sunii"
     }
 ]

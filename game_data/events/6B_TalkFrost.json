@@ -1,0 +1,134 @@
+[
+    {
+        "name": "TalkFrost",
+        "trigger": "on_talk",
+        "level_nid": "6B",
+        "condition": "unit2.nid == 'Frost'",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Frost",
+                    "Right",
+                    "Sages",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Uhm, Frost, are you following me?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Frost",
+                    "Ah! Well..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Aha! The Sages fan club has finally started!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Frost",
+                    "Fan club?|I just wanted to, er, thank you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "What for?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Frost",
+                    "Well, everyone here is so nice."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "No worries, bloomed maiden, anything else?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Frost",
+                    "I wanted to give you this!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Cool!|Er, what is it?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Frost",
+                    "It's an antitoxin!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Interesting gift..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Frost",
+                    "I foresaw it would be useful..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Oh! Well in that case, thank you very much!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Frost",
+                    "Sages"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Sages",
+                    "Antitoxin"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Sages",
+                    "Frost"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "multi_add_portrait;Frost;Right;Sages;Left\nspeak;Sages;Uhm, Frost, are you following me?\nspeak;Frost;Ah! Well...\nspeak;Sages;Aha! The Sages fan club has finally started!\nspeak;Frost;Fan club?|I just wanted to, er, thank you?\nspeak;Sages;What for?\nspeak;Frost;Well, everyone here is so nice.\nspeak;Sages;No worries, bloomed maiden, anything else?\nspeak;Frost;I wanted to give you this!\nspeak;Sages;Cool!|Er, what is it?\nspeak;Frost;It's an antitoxin!\nspeak;Sages;Interesting gift...\nspeak;Frost;I foresaw it would be useful...\nspeak;Sages;Oh! Well in that case, thank you very much!\nmulti_remove_portrait;Frost;Sages\ngive_item;Sages;Antitoxin\nremove_talk;Sages;Frost\n"
+    }
+]

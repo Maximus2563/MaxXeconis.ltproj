@@ -217,7 +217,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Bronze_Lance",
                         false
                     ]
                 ],
@@ -313,7 +313,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Bronze_Axe",
                         false
                     ]
                 ],
@@ -321,7 +321,7 @@
                 "team": "enemy",
                 "ai": "PursueVillage",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     1,
                     9
@@ -598,8 +598,7 @@
             {
                 "nid": "EnemyRein",
                 "units": [
-                    "109",
-                    "113"
+                    "109"
                 ],
                 "positions": {
                     "108": [
@@ -661,6 +660,18 @@
                     "Maro": [
                         1,
                         13
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyRein2",
+                "units": [
+                    "113"
+                ],
+                "positions": {
+                    "113": [
+                        0,
+                        3
                     ]
                 }
             }

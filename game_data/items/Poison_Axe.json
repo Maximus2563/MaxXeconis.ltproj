@@ -2,7 +2,7 @@
     {
         "nid": "Poison Axe",
         "name": "Poison Axe",
-        "desc": "Poisons on contact.",
+        "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Axe",
         "icon_index": [
             0,

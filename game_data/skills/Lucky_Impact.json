@@ -2,21 +2,13 @@
     {
         "nid": "Lucky Impact",
         "name": "Lucky Impact",
-        "desc": "If initiating, +/-(LCK/5) dmg dealt/taken. \nAlso, if unit has higher LCK, foe cannot double.",
+        "desc": "If initiating and unit has higher LCK, foe cannot double.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             6,
             51
         ],
         "components": [
-            [
-                "dynamic_damage",
-                "unit.get_stat('LCK') // 5 if (mode == 'attack') else 0"
-            ],
-            [
-                "dynamic_resist",
-                "unit.get_stat('LCK') // 5 if (mode == 'defense') else 0"
-            ],
             [
                 "dynamic_defense_speed",
                 "100 if (unit.stats['LCK'] > target.stats['LCK']) and (mode == 'defense') else 0 "

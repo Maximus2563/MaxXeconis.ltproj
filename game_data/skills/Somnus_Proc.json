@@ -2,7 +2,7 @@
     {
         "nid": "Somnus_Proc",
         "name": "Somnus",
-        "desc": "",
+        "desc": "Unit has a SKL% chance to inflict <blue>sleep</> on hit.",
         "icon_nid": "Skills",
         "icon_index": [
             5,

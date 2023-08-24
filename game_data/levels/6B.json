@@ -33,7 +33,7 @@
                 "ai_group": null,
                 "starting_position": [
                     14,
-                    3
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -41,7 +41,7 @@
             {
                 "nid": "Frost",
                 "team": "player",
-                "ai": "Heal",
+                "ai": "None",
                 "roam_ai": "FollowSages",
                 "ai_group": "",
                 "starting_position": [
@@ -58,8 +58,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    4,
-                    2
+                    0,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -175,8 +175,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    0,
-                    20
+                    20,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -188,7 +188,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    0,
+                    5,
                     4
                 ],
                 "starting_traveler": null,
@@ -202,7 +202,7 @@
                 "ai_group": null,
                 "starting_position": [
                     13,
-                    5
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -303,8 +303,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    21,
-                    12
+                    1,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -329,8 +329,27 @@
                 "generic": true
             },
             {
+                "nid": "Guard",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Boey",
-                "team": "enemy",
+                "team": "enemy2",
                 "ai": "None",
                 "roam_ai": "None",
                 "ai_group": "",
@@ -340,350 +359,41 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Morshu",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
             {
-                "nid": "1",
-                "region_type": "formation",
-                "position": [
-                    18,
-                    25
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "2",
-                "region_type": "formation",
-                "position": [
-                    18,
-                    24
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "3",
-                "region_type": "formation",
-                "position": [
-                    19,
-                    24
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "4",
-                "region_type": "formation",
-                "position": [
-                    20,
-                    24
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "5",
-                "region_type": "formation",
-                "position": [
-                    20,
-                    25
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "6",
-                "region_type": "formation",
-                "position": [
-                    6,
-                    17
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "7",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "8",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "9",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village1",
+                "nid": "Shop",
                 "region_type": "event",
                 "position": [
-                    12,
-                    19
+                    0,
+                    0
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage1",
-                "region_type": "event",
-                "position": [
-                    12,
-                    19
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village2",
-                "region_type": "event",
-                "position": [
-                    12,
-                    10
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage2",
-                "region_type": "event",
-                "position": [
-                    12,
-                    10
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village3",
-                "region_type": "event",
-                "position": [
-                    5,
-                    6
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage3",
-                "region_type": "event",
-                "position": [
-                    5,
-                    6
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village4",
-                "region_type": "event",
-                "position": [
-                    5,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage4",
-                "region_type": "event",
-                "position": [
-                    5,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Vendor",
-                "region_type": "event",
-                "position": [
-                    6,
-                    10
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Vendor",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Armory",
-                "region_type": "event",
-                "position": [
-                    2,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Armory",
+                "sub_nid": "Shop",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [
-            {
-                "nid": "Wyvern1",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "EnemyTeam",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Sag",
-                "units": [],
-                "positions": {}
-            }
-        ],
+        "unit_groups": [],
         "ai_groups": []
     }
 ]

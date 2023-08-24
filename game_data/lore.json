@@ -1,5 +1,54 @@
 [
     {
+        "nid": "WeaponTriangle",
+        "name": "Weapon Triangle",
+        "title": "Weapon Triangle",
+        "category": "Game",
+        "text": "Weapon triangle grants bonuses/penalties dependent on weapon type (1 dmg/15 hit).\nSword>Axe>Lance>Sword.\nAnima>Light>Dark>Anima."
+    },
+    {
+        "nid": "EffectiveDamage",
+        "name": "Effective Damage",
+        "title": "Effective Damage",
+        "category": "Game",
+        "text": "Effective damage multiplies a weapon's MT by 3, when used against a specifed unit type."
+    },
+    {
+        "nid": "BonusExperience",
+        "name": "Bonus Exp.",
+        "title": "Bonus Experience",
+        "category": "Game",
+        "text": "Bonus experience will level up 3 stats at once. Chance relative to unit's growths."
+    },
+    {
+        "nid": "Poison",
+        "name": "Poison",
+        "title": "Poison",
+        "category": "Status",
+        "text": "Unit receives 1-5 damage at the start of their turn."
+    },
+    {
+        "nid": "FrozenSleep",
+        "name": "Frozen/Sleep",
+        "title": "Frozen/Sleep",
+        "category": "Status",
+        "text": "Unit cannot fight, move, or avoid attacks."
+    },
+    {
+        "nid": "Chill",
+        "name": "Chill",
+        "title": "Chill",
+        "category": "Status",
+        "text": "Three stacks of chill will leave a unit frozen."
+    },
+    {
+        "nid": "Canter",
+        "name": "Canter",
+        "title": "Canter",
+        "category": "Skill",
+        "text": "After initiating combat, unit can move the number of tiles specified.\n"
+    },
+    {
         "nid": "Eirika",
         "name": "Eirika",
         "title": "Eirika",
