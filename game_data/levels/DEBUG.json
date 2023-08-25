@@ -45,7 +45,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
+                    10,
                     10
                 ],
                 "starting_traveler": null,
@@ -84,8 +84,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    8
+                    8,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -123,8 +123,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    7
+                    15,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -136,8 +136,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    7
+                    12,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -149,7 +149,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
+                    8,
                     10
                 ],
                 "starting_traveler": null,
@@ -173,7 +173,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
+                    12,
                     9
                 ],
                 "starting_traveler": null,
@@ -193,12 +193,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    10
+                    4,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -250,7 +250,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    6
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -301,6 +301,32 @@
                 "starting_position": [
                     11,
                     8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Smoke",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Aspl",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false

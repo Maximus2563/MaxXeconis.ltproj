@@ -16,6 +16,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "remove_skill;Joker;RageChild;FLAG(no_banner)\n"
     }
 ]

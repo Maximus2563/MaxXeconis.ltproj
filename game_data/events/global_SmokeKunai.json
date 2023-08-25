@@ -1,0 +1,45 @@
+[
+    {
+        "name": "SmokeKunai",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid == 'Smoke'"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Smoke",
+                    "{unit2}",
+                    "hit1",
+                    "SmokeKunaiEvent"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "interact_unit",
+                [
+                    "Smoke",
+                    "{unit}",
+                    "hit1",
+                    "SmokeKunaiEvent"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "if;unit.nid == 'Smoke'\n    interact_unit;Smoke;{unit2};hit1;SmokeKunaiEvent\nelse\n    interact_unit;Smoke;{unit};hit1;SmokeKunaiEvent\nend\n"
+    }
+]

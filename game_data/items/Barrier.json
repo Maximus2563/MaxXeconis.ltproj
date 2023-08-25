@@ -2,7 +2,7 @@
     {
         "nid": "Barrier",
         "name": "Barrier",
-        "desc": "Raises ally's defense.",
+        "desc": "Grants ally DEF+7, decreases 1/turn.",
         "icon_nid": "Staff",
         "icon_index": [
             1,

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Revival",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "choice",
+                [
+                    "revival",
+                    "Who to revive?",
+                    "[u.nid for u in game.get_all_units_in_party() if is_dead(u.nid)]",
+                    "FLAG(expression)"
+                ]
+            ],
+            [
+                "resurrect",
+                [
+                    "{v:revival}"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "{v:revival}",
+                    "1"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{v:revival}",
+                    "{e:target_pos}",
+                    "warp"
+                ]
+            ],
+            [
+                "has_finished",
+                [
+                    "{v:revival}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "choice;revival;Who to revive?;[u.nid for u in game.get_all_units_in_party() if is_dead(u.nid)];FLAG(expression)\nresurrect;{v:revival}\nset_current_hp;{v:revival};1\nadd_unit;{v:revival};{e:target_pos};warp\nhas_finished;{v:revival}\n\n"
+    }
+]

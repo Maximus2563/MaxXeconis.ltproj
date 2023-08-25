@@ -14,15 +14,15 @@
                 [
                     [
                         "RES",
-                        "max(0,(game.get_unit('Bread').get_stat('RES') - game.get_unit('Bread').stats['RES']))//2"
+                        "max(0,(game.get_unit('Bread').stat_bonus('RES')))//2"
                     ],
                     [
                         "STR",
-                        "max(0,(game.get_unit('Bread').get_stat('STR') - game.get_unit('Bread').stats['STR']))//2"
+                        "max(0,(game.get_unit('Bread').stat_bonus('STR')))//2"
                     ],
                     [
                         "MAG",
-                        "max(0,(game.get_unit('Bread').get_stat('MAG') - game.get_unit('Bread').stats['MAG']))//2"
+                        "max(0,(game.get_unit('Bread').stat_bonus('MAG')))//2"
                     ]
                 ]
             ]

@@ -2,7 +2,7 @@
     {
         "nid": "SmokeKunai",
         "name": "Smoke Kunai",
-        "desc": "Smoke only. Inflicts LCK/DEF/RES-2.",
+        "desc": "Smoke only. Inflicts LCK/DEF/RES-2 on foe on hit\nand foes within 2 spaces of target after combat.",
         "icon_nid": "Knife",
         "icon_index": [
             2,
@@ -47,7 +47,7 @@
             ],
             [
                 "uses",
-                40
+                30
             ],
             [
                 "uses_options",
@@ -68,10 +68,6 @@
                 "Knife"
             ],
             [
-                "weapon_rank",
-                "E"
-            ],
-            [
                 "prf_unit",
                 [
                     "Smoke"
@@ -80,6 +76,10 @@
             [
                 "status_on_hit",
                 "Kunai"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global SmokeKunai"
             ]
         ]
     }

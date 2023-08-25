@@ -2,7 +2,7 @@
     {
         "nid": "Ward",
         "name": "Ward",
-        "desc": "Raises ally's resistance.",
+        "desc": "Grants ally RES+7, decreases 1/turn.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

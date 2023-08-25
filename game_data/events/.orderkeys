@@ -152,5 +152,7 @@
     "6B_TalkHyper.json": 150,
     "6B_TalkPykroe.json": 151,
     "6B_MorshuShop.json": 152,
-    "DEBUG_MorshuShop.json": 153
+    "DEBUG_MorshuShop.json": 153,
+    "global_SmokeKunai.json": 154,
+    "global_Revival.json": 155
 }

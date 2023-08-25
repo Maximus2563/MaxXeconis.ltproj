@@ -656,5 +656,13 @@
     "VerticalLightBlastSpell_Image": 654,
     "VolcanoSpell_Image": 655,
     "MonkFBlue": 656,
-    "MonkFRed": 657
+    "MonkFRed": 657,
+    "FortifyDust_Image": 658,
+    "FortifyOrbMini_Image": 659,
+    "FortifyOrb_Image": 660,
+    "HealDust_Image_1": 661,
+    "FortifyDust_Image_1": 662,
+    "FortifyGreenOrbMini_Image": 663,
+    "FortifyGreenOrb_Image": 664,
+    "HealDust_Image_2": 665
 }

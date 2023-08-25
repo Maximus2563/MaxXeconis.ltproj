@@ -342,6 +342,24 @@
         "use_frame_time": false
     },
     {
+        "nid": "MapTorch",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 17,
+        "speed": 68,
+        "frame_times": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapUnlock",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 22,
+        "speed": 44,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
         "nid": "MapSpiritbane",
         "frame_x": 5,
         "frame_y": 4,
@@ -477,6 +495,24 @@
         "use_frame_time": false
     },
     {
+        "nid": "MapFortify",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 17,
+        "speed": 68,
+        "frame_times": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapFortifyGreen",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 17,
+        "speed": 68,
+        "frame_times": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+        "use_frame_time": false
+    },
+    {
         "nid": "MapBerserk",
         "frame_x": 5,
         "frame_y": 2,
@@ -484,6 +520,15 @@
         "speed": 150,
         "frame_times": "9,9,9,9,9,9,9,9,9",
         "use_frame_time": false
+    },
+    {
+        "nid": "MapSurprise",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 10,
+        "speed": 44,
+        "frame_times": "1,1,1,1,2,2,2,2,2,30",
+        "use_frame_time": true
     },
     {
         "nid": "AOE_Blizzard",

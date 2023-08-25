@@ -110,7 +110,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    4,
+                    5,
                     14
                 ],
                 "starting_traveler": null,
@@ -188,8 +188,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    5,
-                    4
+                    4,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -294,17 +294,17 @@
                 "nid": "4",
                 "variant": null,
                 "level": 6,
-                "klass": "Monk",
+                "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    1,
-                    2
+                    6,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -341,7 +341,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    6,
                     14
                 ],
                 "starting_traveler": null,

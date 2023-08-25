@@ -229,16 +229,14 @@
                     "Pikno",
                     "MidRight",
                     "Boey",
-                    "FarRight"
+                    "FarLeft"
                 ]
             ],
             [
                 "add_portrait",
                 [
                     "Sages",
-                    "MidLeft",
-                    "normal",
-                    "FLAG(mirror)"
+                    "80,Bottom"
                 ]
             ],
             [
@@ -293,7 +291,10 @@
                 "move_unit",
                 [
                     "Boey",
-                    "9,13"
+                    "9,13",
+                    "normal",
+                    "giveup",
+                    "FLAG(no_follow)"
                 ]
             ],
             [
@@ -341,6 +342,13 @@
                 ]
             ],
             [
+                "change_roam_ai",
+                [
+                    "Boey",
+                    "BoeyEscape"
+                ]
+            ],
+            [
                 "add_talk",
                 [
                     "Sages",
@@ -351,7 +359,7 @@
                 "remove_talk",
                 [
                     "Sages",
-                    "SoldierPurple"
+                    "Guard"
                 ]
             ],
             [
@@ -368,6 +376,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;game.check_alive('Pikno')\n    multi_add_portrait;SoldierPurple;FarRight;Pikno;MidRight;Sages;Left\nelse\n    multi_add_portrait;SoldierPurple;Right;Sages;Left\nend\nif;game.check_alive('Pikno')\n    speak;Pikno;Good day, Lord Sages.\nend\nspeak;SoldierPurple;Welcome back, Lord Sages.\nspeak;Sages;Thank you both, someone in the holding cell?\nspeak;SoldierPurple;Some foolish mercenary.\nspeak;Sages;What did he do?\nif;game.check_alive('Pikno')\n    speak;Pikno;Public nuisance, attempted robbery.\nelse\n    speak;SoldierPurple;Distrubing the peace, attempted robbery.\nend\nspeak;Sages;Huh...\nspeak;SoldierPurple;He's a troublemaker alright.|Claims we're \"obsessed with him\", and that we're \"haters\".\nspeak;Sages;Sounds like a fun person to me!\nspeak;SoldierPurple;Uh, no, he isn't.\nspeak;Sages;Hang on, I want to see him!\nif;game.check_alive('Pikno')\n    speak;Pikno;I advise against this, Lord Sages.\nelse\n    speak;SoldierPurple;I must protest, Milord.\nend\nspeak;Sages;This is an order!\nspeak;SoldierPurple;Alright...\nmulti_remove_portrait;SoldierPurple;Pikno;Sages\nshow_layer;door\nsound;Unlock\nmusic;Strange People\nif;game.check_alive('Pikno')\n    multi_add_portrait;SoldierPurple;FarRight;Pikno;MidRight;Boey;FarRight\n    add_portrait;Sages;MidLeft;normal;FLAG(mirror)\nelse\n    multi_add_portrait;SoldierPurple;FarRight;Sages;MidRight;Boey;Left\nend\nspeak;Boey;Girl! I told you I didn't do anything!|It's not my fault!\nspeak;SoldierPurple;Quiet! The prince wishes to speak to you.\nspeak;Boey;Prince? Nah! I'm outta here!\nmove_portrait;Boey;OffscreenRight;FLAG(no_block)\nmove_unit;Boey;9,13\nif;game.check_alive('Pikno')\n    speak;Pikno;Great. We gotta chase him now.\nelse\n    speak;SoldierPurple;After him!\nend\nspeak;Sages;It's alright guys, I'll do it!\nmulti_remove_portrait;SoldierPurple;Pikno;Sages;Boey\nadd_talk;Sages;Boey\nremove_talk;Sages;SoldierPurple\nremove_talk;Sages;Pikno\nmusic_fade_back\n"
+        "source": "if;game.check_alive('Pikno')\n    multi_add_portrait;SoldierPurple;FarRight;Pikno;MidRight;Sages;Left\nelse\n    multi_add_portrait;SoldierPurple;Right;Sages;Left\nend\nif;game.check_alive('Pikno')\n    speak;Pikno;Good day, Lord Sages.\nend\nspeak;SoldierPurple;Welcome back, Lord Sages.\nspeak;Sages;Thank you both, someone in the holding cell?\nspeak;SoldierPurple;Some foolish mercenary.\nspeak;Sages;What did he do?\nif;game.check_alive('Pikno')\n    speak;Pikno;Public nuisance, attempted robbery.\nelse\n    speak;SoldierPurple;Distrubing the peace, attempted robbery.\nend\nspeak;Sages;Huh...\nspeak;SoldierPurple;He's a troublemaker alright.|Claims we're \"obsessed with him\", and that we're \"haters\".\nspeak;Sages;Sounds like a fun person to me!\nspeak;SoldierPurple;Uh, no, he isn't.\nspeak;Sages;Hang on, I want to see him!\nif;game.check_alive('Pikno')\n    speak;Pikno;I advise against this, Lord Sages.\nelse\n    speak;SoldierPurple;I must protest, Milord.\nend\nspeak;Sages;This is an order!\nspeak;SoldierPurple;Alright...\nmulti_remove_portrait;SoldierPurple;Pikno;Sages\nshow_layer;door\nsound;Unlock\nmusic;Strange People\nif;game.check_alive('Pikno')\n    multi_add_portrait;SoldierPurple;FarRight;Pikno;MidRight;Boey;FarLeft\n    add_portrait;Sages;80,Bottom;\nelse\n    multi_add_portrait;SoldierPurple;FarRight;Sages;MidRight;Boey;Left\nend\nspeak;Boey;Girl! I told you I didn't do anything!|It's not my fault!\nspeak;SoldierPurple;Quiet! The prince wishes to speak to you.\nspeak;Boey;Prince? Nah! I'm outta here!\nmove_portrait;Boey;OffscreenRight;FLAG(no_block)\nmove_unit;Boey;9,13;normal;giveup;FLAG(no_follow)\nif;game.check_alive('Pikno')\n    speak;Pikno;Great. We gotta chase him now.\nelse\n    speak;SoldierPurple;After him!\nend\nspeak;Sages;It's alright guys, I'll do it!\nmulti_remove_portrait;SoldierPurple;Pikno;Sages;Boey\nchange_roam_ai;Boey;BoeyEscape\nadd_talk;Sages;Boey\nremove_talk;Sages;Guard\nremove_talk;Sages;Pikno\nmusic_fade_back\n"
     }
 ]

@@ -1464,18 +1464,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Howai",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Sunii",
         "blinking_offset": [
             24,
@@ -1975,6 +1963,18 @@
         ],
         "smiling_offset": [
             16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Howai",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
             48
         ],
         "info_offset": 0

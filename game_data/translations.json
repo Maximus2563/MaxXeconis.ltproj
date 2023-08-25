@@ -292,11 +292,7 @@
         "text": "Your hands are full. {w}{clear}If you had a convoy, I could send it there... {w}{clear}Anything else I can do for you?"
     },
     {
-        "nid": "armory_no_money",
-        "text": "Sorry. You don't have enough money."
-    },
-    {
-        "nid": "vendor_no_money",
+        "nid": "shop_no_money",
         "text": "Sorry. You don't have enough money."
     },
     {
@@ -372,7 +368,7 @@
         "text": "Amount of mana to be used on skills."
     },
     {
-        "nid": "Kaga_Desc",
+        "nid": "Kaga_desc",
         "text": "Standard difficulty, but utilises classic 1RN RNG. Good for elitists!"
     },
     {

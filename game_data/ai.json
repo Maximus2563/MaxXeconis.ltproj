@@ -38,6 +38,44 @@
         "roam_ai": false
     },
     {
+        "nid": "NoneRoam",
+        "behaviours": [
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": null,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": true
+    },
+    {
         "nid": "Attack",
         "behaviours": [
             {
@@ -853,7 +891,27 @@
                 "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
-                "desired_proximity": -1,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
                 "condition": ""
             }
         ],
@@ -865,35 +923,25 @@
         "nid": "BoeyEscape",
         "behaviours": [
             {
-                "action": "Move_to",
-                "target": "Position",
+                "action": "Move_away_from",
+                "target": "Unit",
                 "target_spec": [
-                    22,
-                    4
+                    "ID",
+                    "Sages"
                 ],
                 "view_range": -4,
                 "invert_targeting": false,
-                "roam_speed": 125,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "Move_away_from",
-                "target": "Ally",
-                "target_spec": null,
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
+                "roam_speed": 120,
                 "desired_proximity": -1,
                 "condition": ""
             },
             {
-                "action": "None",
-                "target": "None",
+                "action": "Move_to",
+                "target": "Unit",
                 "target_spec": null,
-                "view_range": 0,
+                "view_range": -4,
                 "invert_targeting": false,
-                "roam_speed": 100,
+                "roam_speed": 110,
                 "desired_proximity": 0,
                 "condition": ""
             }

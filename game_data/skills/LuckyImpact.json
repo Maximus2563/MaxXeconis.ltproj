@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "LuckyImpact",
+        "name": "Lucky Impact",
+        "desc": "Unit has a LCK% chance to attack twice on a hit.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            51
+        ],
+        "components": [
+            [
+                "dynamic_multiattacks",
+                "1"
+            ]
+        ]
+    }
+]
