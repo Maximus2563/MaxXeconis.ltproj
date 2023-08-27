@@ -1,6 +1,6 @@
 {
     "0_Intro.json": 0,
-    "global_DeathSal.json": 1,
+    "global_DeathSalEarly.json": 1,
     "global_DeathXerxesY.json": 2,
     "global_DeathMaxY.json": 3,
     "global_DeathEffY.json": 4,
@@ -154,5 +154,8 @@
     "6B_MorshuShop.json": 152,
     "DEBUG_MorshuShop.json": 153,
     "global_SmokeKunai.json": 154,
-    "global_Revival.json": 155
+    "global_Revival.json": 155,
+    "1_Rout.json": 156,
+    "DEBUG_reinsal.json": 157,
+    "global_Blindside.json": 158
 }

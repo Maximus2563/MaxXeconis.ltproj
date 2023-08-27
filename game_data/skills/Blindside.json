@@ -2,7 +2,7 @@
     {
         "nid": "Blindside",
         "name": "Blindside",
-        "desc": "If unit initiates combat and an ally is on the \nopposite side of the target, grants Canter (2).",
+        "desc": "If an ally is on the opposite side of the target\nto unit, grants Crit+10 and Canter (2).",
         "icon_nid": "Skills (1)",
         "icon_index": [
             3,
@@ -14,12 +14,16 @@
                 null
             ],
             [
-                "canter",
-                2
+                "combat_condition",
+                "unit_funcs.check_flanked(target)"
             ],
             [
-                "combat_condition",
-                "unit_funcs.check_flanked(target) == True"
+                "crit",
+                10
+            ],
+            [
+                "event_before_combat",
+                "Global Blindside"
             ]
         ]
     }

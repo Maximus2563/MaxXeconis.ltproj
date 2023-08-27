@@ -521,13 +521,29 @@
                 "change_stats",
                 [
                     "114",
-                    "HP,-1",
+                    "HP,1",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "change_stats",
+                [
+                    "102",
+                    "HP,1",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "change_stats",
+                [
+                    "103",
+                    "HP,1",
                     "FLAG(immediate)"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "game_var;_supports;True\nadd_lore;Sal\nadd_lore;Landros\nadd_lore;Roag\nadd_lore;Aerial\nadd_lore;Smoke\nremove_group;EnemyRein;immediate\nremove_group;Player;immediate\nadd_weather;light\nchapter_title\n# Fade in\ntransition;Open\nmusic;042 - Eyes Of Rage\nmove_cursor;4,1\n# Flicker cursor\ndisp_cursor;1\nwait;1000\ndisp_cursor;0\n# Fade to inside castle\ntransition;Close\nchange_background;VillageGate\ntransition;Open\nadd_portrait;Man3;Left;no_block\nadd_portrait;Grinst;Right\nspeak;Man3;You... Monster!\nspeak;Grinst;'EY! You callin' me ugly, HUH?\nspeak;Man3;You destroyed our entire village...|Have you no heart?\nspeak;Grinst;Ya shouldn'ta had so much food!|Times are hard for everyone, better me than you, eh?|Oh, I know! Let's play a game! You stand still, and I beat ya to a PULP!|Can't leave any witnesses ya know?\nspeak;Man3;ARGH!\nsound;Final Hit;1\nremove_portrait;Man3\nspeak;Grinst;Huehuehue! Your meats are mine... MINE!\ntransition;Close\nchange_background\nend_skip\ntransition;Open\nadd_portrait;Bandit1;Left;no_block\nadd_portrait;Grinst;Right\nspeak;Bandit1;Hey! Grinst!|Whadda we do now?\nspeak;Grinst;Hmph.|Maybe... A break...|All this exercise is making me... tired...\nspeak;Bandit1;Are you mad? What if the knights are sent after us?\nspeak;Grinst;Ha! I'll just... Crush em...|Like a cashew!\nspeak;Bandit1;Aight then... What about the others?\nspeak;Grinst;Just have them... Huff... go for the south village...|That'll buy me some time...\nspeak;Bandit1;On it boss!\nremove_portrait;Grinst;no_block\nremove_portrait;Bandit1\nmove_group;Enemy1;Enemy1;;stack\n# Eirika and Seth arrive\nwait;300\nspawn_group;Player;west;Player;normal;closest\nmove_cursor;Sal\ndisp_cursor;1\nwait;1000\ndisp_cursor;0\nadd_portrait;Sal;CenterLeft;no_block\nadd_portrait;Roag;FarLeft;no_block\nadd_portrait;Aerial;Right;no_block\nadd_portrait;Landros;Left;no_block\nadd_portrait;Smoke;FarRight\nspeak;Sal;Well squad, here we are.\nspeak;Smoke;I see 'em, not much to look at, are they?\nspeak;Landros;Ugh. I would much rather be back home.|These slimeballs are an insult to my eyes.\nspeak;Aerial;But we can't undermine them yet... See.|That village is a goner...\nspeak;Roag;Girl... I don't see why they're doin' this...\nspeak;Landros;They're bandits... That's just what they do, right?|Create a storm and leave a wake of sorrow...\nspeak;Smoke;\"Bandits?\"|Who is Ditz and why is he being banned?|Did he Land on your head?\nspeak;Landros;Please... Become funny.\nspeak;Aerial;All right, Sal. We're all ready... Well, at least I am.|Though, wasn't there supposed to be six of us?\nspeak;Sal;Obviously the rookie overslept... Shameful!\nspeak;Aerial;What're your orders boss?\nspeak;Sal;Form up! Surround them all! Don't let a single one escape!|For Lord Sages!\nremove_portrait;Landros;no_block\nremove_portrait;Roag;no_block\nremove_portrait;Smoke;no_block\nremove_portrait;Aerial;no_block\nremove_portrait;Sal\nchange_stats;114;HP,1;FLAG(immediate)\nchange_stats;102;HP,1;FLAG(immediate)\nchange_stats;103;HP,1;FLAG(immediate)\n"
     }
 ]

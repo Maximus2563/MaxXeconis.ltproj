@@ -2,7 +2,7 @@
     {
         "name": "Rout",
         "trigger": "combat_end",
-        "level_nid": "2",
+        "level_nid": "1",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [
             [

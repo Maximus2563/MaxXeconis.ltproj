@@ -3,7 +3,7 @@
         "name": "EnemyRein",
         "trigger": "turn_change",
         "level_nid": "1",
-        "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Sal').position)",
+        "condition": "get_units_in_region('EnemyRein', nid='Sal')",
         "commands": [
             [
                 "spawn_group",

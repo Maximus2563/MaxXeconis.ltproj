@@ -1,0 +1,26 @@
+[
+    {
+        "name": "reinsal",
+        "trigger": "turn_change",
+        "level_nid": "DEBUG",
+        "condition": "get_units_in_region('EnemyRein', nid='Sal')",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#add_portrait;Sal"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "hello"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "#add_portrait;Sal\nspeak;Sal;hello\n"
+    }
+]

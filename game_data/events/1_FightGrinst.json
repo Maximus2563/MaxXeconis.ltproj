@@ -28,6 +28,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": ""
+        "source": "add_portrait;Grinst;Left\nspeak;Grinst;I'll eat ya for dinner! Huehue!|Whew... hoo... Cramps...\nremove_portrait;Grinst\n"
     }
 ]

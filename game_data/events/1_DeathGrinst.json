@@ -35,6 +35,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "add_portrait;Grinst;Left\nspeak;Grinst;My tummy...|Urgh...\nexpression;Grinst;CloseEyes\nremove_portrait;Grinst\n"
     }
 ]

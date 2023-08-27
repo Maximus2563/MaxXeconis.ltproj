@@ -1,15 +1,15 @@
 [
     {
-        "name": "DeathSal",
+        "name": "DeathSalEarly",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "unit.nid == 'Sal'",
+        "condition": "unit.nid == 'Sal' ",
         "commands": [
             [
                 "add_portrait",
                 [
                     "Sal",
-                    "FarRight"
+                    "Right"
                 ]
             ],
             [
@@ -45,12 +45,6 @@
                 ]
             ],
             [
-                "remove_unit",
-                [
-                    "Sal"
-                ]
-            ],
-            [
                 "lose_game",
                 []
             ],
@@ -64,10 +58,14 @@
                     "Sal",
                     "Grr... I'll fall back for now...."
                 ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Sal;FarRight\nif;game.level.nid in ['1', '2', '3', '4', '5']\n    music;108 Lament\n    speak;Sal;Is it time for me... To rest...?\n    expression;Sal;CloseEyes\n    remove_portrait;Sal\n    remove_unit;Sal\n    lose_game\nelse\n    speak;Sal;Grr... I'll fall back for now....\n"
+        "source": "add_portrait;Sal;Right\nif;game.level.nid in ['1', '2', '3', '4', '5']\n    music;108 Lament\n    speak;Sal;Is it time for me... To rest...?\n    expression;Sal;CloseEyes\n    remove_portrait;Sal\n    lose_game\nelse\n    speak;Sal;Grr... I'll fall back for now....\nend"
     }
 ]

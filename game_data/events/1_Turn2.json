@@ -120,6 +120,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "spawn_group;PlayerRein;west;PlayerRein;normal;closest\nmove_cursor;Maro\ndisp_cursor;1\nwait;1000\ndisp_cursor;0\nmulti_add_portrait;Maro;OffscreenLeft;Sal;Right\nmove_portrait;Maro;Left\nspeak;Maro;Huff... H-Here!\nspeak;Sal;Why are you so late? Did you... Not get enough sleep...?\nspeak;Maro;Ah! No... Wait... Yes! I was polishing my lance!|Neat, huh?\nspeak;Sal;Why? You'll just get it bloody anyway...\nspeak;Maro;A soldier is only as good as his equipment!|That's what my father always said!\nspeak;Sal;Well then, move out and make him proud!\nspeak;Maro;Sir, yes si- I mean, yes ma'am!\nadd_lore;Maro\nmulti_remove_portrait;Maro;Sal\n"
     }
 ]
