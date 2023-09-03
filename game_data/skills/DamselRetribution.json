@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "DamselRetribution",
+        "name": "Damsel's Retribution",
+        "desc": "When unarmed, 50% of foe's damage is dealt back to them.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "skill_before_combat",
+                {
+                    "skill": "DamselRetributionChild",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ],
+            [
+                "condition",
+                "not unit.get_weapon()"
+            ]
+        ]
+    }
+]

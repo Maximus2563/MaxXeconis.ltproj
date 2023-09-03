@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "game.turncount == 6",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "14,0"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Reinforcement3",
+                    "Reinforcement3",
+                    "warp",
+                    "closest"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "center_cursor;14,0\nadd_group;Reinforcement3;Reinforcement3;warp;closest\n"
+    }
+]

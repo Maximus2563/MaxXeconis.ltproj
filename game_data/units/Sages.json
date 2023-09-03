@@ -69,7 +69,16 @@
                 "NobleCharmSword"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Goofing off,Company"
+            ],
+            [
+                "Dislikes:",
+                "Being serious"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

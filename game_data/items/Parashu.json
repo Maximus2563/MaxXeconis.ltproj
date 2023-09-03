@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Parashu",
+        "name": "Parashu",
+        "desc": "STR+3. Effective against monsters.",
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "status_on_equip",
+                "Strength_plus3"
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_multiplier",
+                3
+            ],
+            [
+                "effective_tag",
+                [
+                    "Monster"
+                ]
+            ]
+        ]
+    }
+]

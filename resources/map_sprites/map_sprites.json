@@ -6,6 +6,7 @@
     "Ephraim_Lord",
     "Ephraim_Great_Lord",
     "SagesLord",
+    "SagesLordOther",
     "Dancer",
     "Myrmidon",
     "MyrmidonShort",
@@ -84,6 +85,7 @@
     "Knight (M) Bow {flasuban}-stand",
     "MageHoodless",
     "Servant",
+    "ServantOther",
     "Knight (U) Lance {SALVAGED}-stand",
     "Knight (U) Sword {SALVAGED}-stand",
     "Knight (U) Axe {SALVAGED}-stand",
@@ -144,5 +146,7 @@
     "Noble",
     "LupinTamer",
     "Emeline",
-    "MonkFemale"
+    "MonkFemale",
+    "Wolf",
+    "LupinTamerOther"
 ]

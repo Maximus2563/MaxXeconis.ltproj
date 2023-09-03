@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CorrodedHeartChild",
+        "name": "Corroded Heart",
+        "desc": "Grants +2 DMG received.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            57
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist",
+                -2
+            ]
+        ]
+    }
+]

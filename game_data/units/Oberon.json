@@ -14,9 +14,9 @@
             "SKL": 15,
             "SPD": 14,
             "LCK": 8,
-            "DEF": 16,
+            "DEF": 20,
             "RES": 5,
-            "CON": 11,
+            "CON": 13,
             "MOV": 8
         },
         "growths": {
@@ -43,18 +43,28 @@
             "SKL": 0,
             "SPD": 0
         },
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "Parashu",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "RobustPower"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                121,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                0,
+                31,
                 251
             ],
             "Axe": [

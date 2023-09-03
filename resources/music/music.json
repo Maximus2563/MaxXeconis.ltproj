@@ -368,5 +368,15 @@
         "HummingTreasures",
         true,
         false
+    ],
+    [
+        "Land Below",
+        false,
+        true
+    ],
+    [
+        "Dark Wastes",
+        false,
+        true
     ]
 ]

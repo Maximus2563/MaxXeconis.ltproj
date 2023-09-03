@@ -10,10 +10,10 @@
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": null,
-            "enemy_battle": null,
+            "player_battle": "A Mighty Foe",
+            "enemy_battle": "A Mighty Foe",
             "other_battle": null,
-            "enemy2_battle": null
+            "enemy2_battle": "A Mighty Foe"
         },
         "objective": {
             "simple": "Defeat Boss",
@@ -238,7 +238,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -257,7 +257,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -276,7 +276,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -295,7 +295,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Mage",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -314,7 +314,7 @@
                 "variant": "Female",
                 "level": 6,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -333,7 +333,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -372,6 +372,144 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Oberon",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 7,
+                "klass": "Ranger",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 7,
+                "klass": "Ranger",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 7,
+                "klass": "Holy Knight",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 7,
+                "klass": "Holy Knight",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 7,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 7,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 7,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 7,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -393,7 +531,87 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "EnemyOutro",
+                "units": [
+                    "Oberon",
+                    "115",
+                    "116",
+                    "117",
+                    "118",
+                    "119",
+                    "120",
+                    "121",
+                    "122"
+                ],
+                "positions": {
+                    "Oberon": [
+                        13,
+                        5
+                    ],
+                    "115": [
+                        12,
+                        7
+                    ],
+                    "116": [
+                        14,
+                        7
+                    ],
+                    "117": [
+                        11,
+                        6
+                    ],
+                    "118": [
+                        15,
+                        6
+                    ],
+                    "119": [
+                        10,
+                        7
+                    ],
+                    "120": [
+                        16,
+                        7
+                    ],
+                    "121": [
+                        11,
+                        8
+                    ],
+                    "122": [
+                        15,
+                        8
+                    ]
+                }
+            },
+            {
+                "nid": "OtherOutro",
+                "units": [
+                    "1",
+                    "2",
+                    "3",
+                    "Guard"
+                ],
+                "positions": {
+                    "1": [
+                        12,
+                        4
+                    ],
+                    "2": [
+                        14,
+                        4
+                    ],
+                    "3": [
+                        11,
+                        4
+                    ],
+                    "Guard": [
+                        15,
+                        4
+                    ]
+                }
+            }
+        ],
         "ai_groups": []
     }
 ]

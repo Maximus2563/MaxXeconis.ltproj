@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RobustPower",
+        "name": "Robust Power",
+        "desc": "Doubles units STR bonuses during combat.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_damage",
+                "unit.stat_bonus('STR')"
+            ]
+        ]
+    }
+]

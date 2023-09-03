@@ -8,8 +8,8 @@
         "klass": "MercFemale",
         "tags": [],
         "bases": {
-            "HP": 19,
-            "STR": 4,
+            "HP": 18,
+            "STR": 5,
             "MAG": 2,
             "SKL": 7,
             "SPD": 8,
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Iron Sword",
+                "Bronze_Sword",
                 false
             ],
             [
@@ -53,7 +53,7 @@
                 false
             ],
             [
-                "Lightning",
+                "Flux",
                 false
             ],
             [
@@ -136,6 +136,34 @@
             [
                 "DeathQuote",
                 "This wasn't... how it was supposed to end..."
+            ],
+            [
+                "RetreatQuote",
+                "I live... whew..."
+            ],
+            [
+                "PromoQuote",
+                "The start of a new chapter!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'll pen this as a huge success!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I think this is alright... right?"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Hm, not sure if I like this..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Oh no... I'm in agony!"
+            ],
+            [
+                "MaxStatQuote",
+                "I'm just doing my best."
             ]
         ]
     }

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Wagon2Death",
+        "trigger": "unit_death",
+        "level_nid": "7",
+        "condition": "unit.nid='Wagon2'",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Mizt",
+                    "Wagon2",
+                    "fade",
+                    "stack",
+                    "fade"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Mizt",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mizt",
+                    "Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_unit;Mizt;Wagon2;fade;stack;fade\nadd_portrait;Mizt;Right\nspeak;Mizt;Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!\n"
+    }
+]

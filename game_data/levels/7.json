@@ -1,0 +1,624 @@
+[
+    {
+        "nid": "7",
+        "name": "Chapter 7: Stand and Deliver!",
+        "tilemap": "Ch7",
+        "bg_tilemap": null,
+        "party": "LeapGroup",
+        "music": {
+            "boss_battle": "50 Wild Outlaw",
+            "player_phase": "Dark Wastes",
+            "enemy_phase": "Dark Wastes",
+            "other_phase": "Dark Wastes",
+            "player_battle": "Dark Wastes",
+            "enemy_battle": "Dark Wastes",
+            "other_battle": "Dark Wastes"
+        },
+        "objective": {
+            "simple": "Deliver Wagons",
+            "win": "Deliver Wagons",
+            "loss": "Leap dies, Wagons die"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Leap",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Prof",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Liz",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Mizt",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Wagon1",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporter",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "CH7Wagon",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Wagon2",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporter",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "CH7Wagon",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Wagon3",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporter",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "CH7Wagon",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Aspl",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Bread",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Maurice",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Maurice",
+                "starting_position": [
+                    7,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Maurice",
+                "starting_position": [
+                    8,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 2,
+                "klass": "Deserter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 3,
+                "klass": "Deserter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Bronze_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 3,
+                "klass": "Thief",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Dagger",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 2,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 2,
+                "klass": "Merc",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 2,
+                "klass": "Merc",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "Maurice",
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 2,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Bronze_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 2,
+                "klass": "Merc",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 2,
+                "klass": "Deserter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "EnemyRein",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    7,
+                    9
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Player",
+                "units": [
+                    "Leap",
+                    "Prof",
+                    "Liz",
+                    "Wagon1",
+                    "Wagon2",
+                    "Wagon3"
+                ],
+                "positions": {
+                    "Leap": [
+                        15,
+                        7
+                    ],
+                    "Prof": [
+                        16,
+                        6
+                    ],
+                    "Liz": [
+                        16,
+                        8
+                    ],
+                    "Wagon1": [
+                        16,
+                        5
+                    ],
+                    "Wagon2": [
+                        16,
+                        7
+                    ],
+                    "Wagon3": [
+                        16,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "CavDuo",
+                "units": [
+                    "Aspl",
+                    "Bread"
+                ],
+                "positions": {
+                    "Aspl": [
+                        1,
+                        1
+                    ],
+                    "Bread": [
+                        1,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "Enemy",
+                "units": [
+                    "Maurice",
+                    "102",
+                    "101",
+                    "104",
+                    "103",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109"
+                ],
+                "positions": {
+                    "Maurice": [
+                        7,
+                        7
+                    ],
+                    "102": [
+                        8,
+                        7
+                    ],
+                    "101": [
+                        13,
+                        4
+                    ],
+                    "104": [
+                        11,
+                        9
+                    ],
+                    "103": [
+                        9,
+                        6
+                    ],
+                    "106": [
+                        6,
+                        3
+                    ],
+                    "107": [
+                        8,
+                        9
+                    ],
+                    "105": [
+                        5,
+                        6
+                    ],
+                    "109": [
+                        2,
+                        5
+                    ],
+                    "108": [
+                        11,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyRein",
+                "units": [
+                    "110",
+                    "111",
+                    "112"
+                ],
+                "positions": {
+                    "110": [
+                        7,
+                        1
+                    ],
+                    "111": [
+                        8,
+                        1
+                    ],
+                    "112": [
+                        7,
+                        2
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "Maurice",
+                "trigger_threshold": 2
+            }
+        ]
+    }
+]

@@ -62,7 +62,7 @@
                 "variant": "Female",
                 "level": 5,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -86,7 +86,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -110,7 +110,7 @@
                 "variant": "Female",
                 "level": 5,
                 "klass": "Mage",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Fire",
@@ -134,7 +134,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Priest",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Heal",
@@ -158,7 +158,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Priest",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Heal",
@@ -182,7 +182,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Fighter",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -206,7 +206,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -230,7 +230,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Myrmidon",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -254,7 +254,7 @@
                 "variant": "Female",
                 "level": 5,
                 "klass": "Monk",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Lightning",
@@ -278,7 +278,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Fighter",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -302,7 +302,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -326,7 +326,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Myrmidon",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -350,7 +350,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Bow",
@@ -374,7 +374,7 @@
                 "variant": "Female",
                 "level": 5,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Bow",
@@ -398,7 +398,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "KnightL",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Javelin",
@@ -422,7 +422,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "KnightL",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Javelin",
@@ -446,7 +446,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Hand Axe",
@@ -467,7 +467,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Hand Axe",
@@ -488,7 +488,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Monk",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Lightning",
@@ -512,7 +512,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "AxeCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Hammer",
@@ -536,7 +536,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "SwordCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Zanbato",
@@ -560,7 +560,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "LanceCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Toxin Lance",
@@ -584,7 +584,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "BowCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Bow",
@@ -605,7 +605,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "BowCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Bronze_Bow",
@@ -626,7 +626,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "LanceCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Lance",
@@ -647,7 +647,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "AxeCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Bronze_Axe",

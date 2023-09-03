@@ -115,6 +115,23 @@
         "alternate_classes": [],
         "portrait_nid": "EffYoung",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "HighLevelUpQuote",
+                "Turning a new page!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "Decent growth."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Could do better..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Hmph, I'm not proud of this."
+            ]
+        ]
     }
 ]

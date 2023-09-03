@@ -2,7 +2,7 @@
     {
         "nid": "HonourableDuel",
         "name": "Honourable Duel",
-        "desc": "Gain +30 hit/-30 avo if this unit attacks an enemy who can counterattack.",
+        "desc": "Gain +30 Hit/-30 Avoid if this unit attacks an enemy who can counterattack.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             2,

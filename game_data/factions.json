@@ -1,8 +1,28 @@
 [
     {
+        "nid": "Monsdor",
+        "name": "Monsdor",
+        "desc": "The army of Monsdor, a fierce fighting country.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Aurelia",
+        "name": "Aurelia",
+        "desc": "The army of Aurelia, the largest nation on the entire continent.",
+        "icon_nid": "TemplarEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Soldier",
         "name": "Soldier",
-        "desc": "The army of Grado, the largest nation on the entire continent",
+        "desc": "A soldier, but in service to who?",
         "icon_nid": "KnightEmblem",
         "icon_index": [
             0,
@@ -54,6 +74,16 @@
         "name": "Monster",
         "desc": "A grotesque creature created by magic and born in darkness.",
         "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Villager",
+        "name": "Villager",
+        "desc": "A commoner, who just wants to live in peace.",
+        "icon_nid": "NeutralEmblem",
         "icon_index": [
             0,
             0

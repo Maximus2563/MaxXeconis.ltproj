@@ -2,17 +2,13 @@
     {
         "nid": "Nudge",
         "name": "Nudge",
-        "desc": "Restores (User's MAG + 15) HP then shoves ally 1 space.\nLeap only.",
+        "desc": "Restores (User's MAG + 7) HP then shoves ally 1 space.\nLeap only.",
         "icon_nid": "Staff",
         "icon_index": [
             1,
             3
         ],
         "components": [
-            [
-                "shove_flex_stops",
-                1
-            ],
             [
                 "target_ally",
                 null
@@ -73,7 +69,7 @@
             ],
             [
                 "magic_heal",
-                15
+                7
             ],
             [
                 "map_cast_anim",
@@ -84,6 +80,10 @@
                 [
                     "Leap"
                 ]
+            ],
+            [
+                "shove_flexible_on_end_combat_initiate",
+                1
             ]
         ]
     }

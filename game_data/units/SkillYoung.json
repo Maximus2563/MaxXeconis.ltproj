@@ -115,6 +115,23 @@
         "alternate_classes": [],
         "portrait_nid": "SkillYoung",
         "affinity": "Dark",
-        "fields": []
+        "fields": [
+            [
+                "HighLevelUpQuote",
+                "For the Draqon family!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "This is fine, I guess."
+            ],
+            [
+                "LowLevelUpQuote",
+                "I'll do better, just you wait!"
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Grr... This isn't fair!"
+            ]
+        ]
     }
 ]

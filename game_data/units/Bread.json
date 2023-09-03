@@ -123,6 +123,30 @@
             [
                 "EscapeQuote",
                 "Yay! I made it!"
+            ],
+            [
+                "MaxStatQuote",
+                "I'm the cutest thing ever!"
+            ],
+            [
+                "PromoQuote",
+                "Woopie! A new outfit! Cute!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Yay! I'm so happy!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "My friends helped me so much!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Aw, can't I have a do-over?"
+            ],
+            [
+                "WorstLevelUpQuote",
+                "*Sniff* This isn't cute at all!"
             ]
         ]
     }

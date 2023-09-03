@@ -6,6 +6,12 @@
         "condition": "len(game.get_enemy_units()) == 1",
         "commands": [
             [
+                "if",
+                [
+                    "game.check_alive('MaxYoung')"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "MaxYoung",
@@ -24,10 +30,14 @@
                 [
                     "MaxYoung"
                 ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;MaxYoung;Left\nspeak;MaxYoung;Only one left! Stay sharp!\nremove_portrait;MaxYoung\n"
+        "source": "if;game.check_alive('MaxYoung')\nadd_portrait;MaxYoung;Left\nspeak;MaxYoung;Only one left! Stay sharp!\nremove_portrait;MaxYoung\nend"
     }
 ]

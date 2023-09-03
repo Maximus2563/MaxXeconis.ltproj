@@ -1,0 +1,149 @@
+[
+    {
+        "name": "TalkSal",
+        "trigger": "on_talk",
+        "level_nid": "6B",
+        "condition": "unit2.nid == 'Sal'",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Sal",
+                    "Right",
+                    "Sages",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Sal, thanks again..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "You still seem tired."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "ME? N-No!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "You really should sleep better."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "C'mon, no lectures!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "I'm here to support you.|That includes some hard truths."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Sheesh..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Just remember, I can knock you unconscious if that is easier."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "WAH! NO!"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Sal",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Hahaha!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "What? Is this a joke?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Of course, even I can have fun."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Really? I did not know that!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I mean, woohoo! Haha! Later!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sal",
+                    "Sages"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Sages",
+                    "Sal"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "multi_add_portrait;Sal;Right;Sages;Left\nspeak;Sages;Sal, thanks again...\nspeak;Sal;You still seem tired.\nspeak;Sages;ME? N-No!\nspeak;Sal;You really should sleep better.\nspeak;Sages;C'mon, no lectures!\nspeak;Sal;I'm here to support you.|That includes some hard truths.\nspeak;Sages;Sheesh...\nspeak;Sal;Just remember, I can knock you unconscious if that is easier.\nspeak;Sages;WAH! NO!\nexpression;Sal;Smile\nspeak;Sal;Hahaha!\nspeak;Sages;What? Is this a joke?\nspeak;Sal;Of course, even I can have fun.\nspeak;Sages;Really? I did not know that!\nspeak;Sal;...;FLAG(no_talk)\nspeak;Sages;I mean, woohoo! Haha! Later!\nmulti_remove_portrait;Sal;Sages\nremove_talk;Sages;Sal\n"
+    }
+]

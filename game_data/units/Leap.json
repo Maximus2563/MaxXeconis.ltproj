@@ -2,7 +2,7 @@
     {
         "nid": "Leap",
         "name": "Leap",
-        "desc": "",
+        "desc": "A servant to their towns mayor, loves flights of whimsy.",
         "variant": "Female",
         "level": 1,
         "klass": "Servant",
@@ -51,13 +51,13 @@
             [
                 "Nudge",
                 false
-            ],
-            [
-                "Pure Water",
-                false
             ]
         ],
         "learned_skills": [
+            [
+                1,
+                "DamselRetribution"
+            ],
             [
                 1,
                 "Deluge Balm"

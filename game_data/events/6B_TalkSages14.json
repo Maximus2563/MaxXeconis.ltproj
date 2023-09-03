@@ -1,0 +1,17 @@
+[
+    {
+        "name": "TalkSages14",
+        "trigger": "on_talk",
+        "level_nid": "6B",
+        "condition": "unit2.nid == 'Sages14' ",
+        "commands": [
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "win_game\n"
+    }
+]

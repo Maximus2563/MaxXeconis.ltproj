@@ -2,11 +2,11 @@
     {
         "nid": "Peruser",
         "name": "Peruser",
-        "desc": "During combat, grants +10/2/2 hit/ATK/PRT for every anima/light/dark \ntome in the unit's inventory respectively (maximum of +30/6/6).",
-        "icon_nid": "Skills",
+        "desc": "During combat, grants +10/2/2 hit/ATK/PRT for every anima/dark/light \ntome in the unit's inventory respectively (maximum of +30/6/6).",
+        "icon_nid": "Skills (1)",
         "icon_index": [
-            6,
-            1
+            4,
+            32
         ],
         "components": [
             [

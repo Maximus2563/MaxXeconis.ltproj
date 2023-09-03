@@ -1,0 +1,56 @@
+[
+    {
+        "name": "DeathLeap",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Leap'",
+        "commands": [
+            [
+                "music",
+                [
+                    "108 Lament"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Leap",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "N-no... How could this happen... Prof..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Leap",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Leap"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Leap"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "music;108 Lament\nadd_portrait;Leap;Right\nspeak;Leap;N-no... How could this happen... Prof...\nexpression;Leap;CloseEyes\nremove_portrait;Leap\nremove_unit;Leap\nlose_game\n"
+    }
+]

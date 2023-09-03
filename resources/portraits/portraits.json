@@ -1128,18 +1128,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Moox",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "SkillYoung",
         "blinking_offset": [
             24,
@@ -1824,7 +1812,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Shaman",
+        "nid": "Septimus",
         "blinking_offset": [
             24,
             24
@@ -1976,6 +1964,54 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Emmanuel",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Skarm",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Moox",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Maurice",
+        "blinking_offset": [
+            14,
+            24
+        ],
+        "smiling_offset": [
+            14,
+            40
         ],
         "info_offset": 0
     }

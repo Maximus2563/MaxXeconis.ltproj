@@ -3,38 +3,38 @@
         "name": "DeathONeill",
         "trigger": "unit_death",
         "level_nid": "0",
-        "condition": "unit.nid == \"O'Neill\"",
+        "condition": "unit.nid == \"Pierre\"",
         "commands": [
             [
                 "add_portrait",
                 [
-                    "O'Neill",
+                    "Pierre",
                     "Left"
                 ]
             ],
             [
                 "speak",
                 [
-                    "O'Neill",
-                    "What? How?"
+                    "Pierre",
+                    "Vot... How can zis be..."
                 ]
             ],
             [
                 "expression",
                 [
-                    "O'Neill",
+                    "Pierre",
                     "CloseEyes"
                 ]
             ],
             [
                 "remove_portrait",
                 [
-                    "O'Neill"
+                    "Pierre"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "add_portrait;Pierre;Left\nspeak;Pierre;Vot... How can zis be...\nexpression;Pierre;CloseEyes\nremove_portrait;Pierre\n"
     }
 ]

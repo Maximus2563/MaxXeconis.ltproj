@@ -29,6 +29,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "if;not unit.get_field(\"AttackedThisTurn\")\n    give_skill;Guy;Relaxed;;FLAG(no_banner)\n    sound;Rally\n"
     }
 ]

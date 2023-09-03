@@ -20,10 +20,6 @@
             [
                 "crit",
                 10
-            ],
-            [
-                "event_before_combat",
-                "Global Blindside"
             ]
         ]
     }

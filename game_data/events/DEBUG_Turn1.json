@@ -18,6 +18,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "spawn_group;New Group;north;New Group;normal;closest\n"
     }
 ]

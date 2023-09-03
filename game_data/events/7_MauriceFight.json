@@ -1,0 +1,33 @@
+[
+    {
+        "name": "MauriceFight",
+        "trigger": "combat_start",
+        "level_nid": "7",
+        "condition": "check_default('Maurice', ['Leap'])",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Maurice",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maurice",
+                    "Look, it's not personal.|I just need to survive, hm?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Maurice"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Maurice;Left\nspeak;Maurice;Look, it's not personal.|I just need to survive, hm?\nremove_portrait;Maurice\n"
+    }
+]

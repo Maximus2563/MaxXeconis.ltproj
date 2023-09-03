@@ -191,7 +191,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "LanceCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Javelin",
@@ -215,7 +215,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "LanceCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -239,7 +239,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "SwordCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Sword",
@@ -263,7 +263,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "AxeCavalier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -287,7 +287,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Lance",
@@ -311,7 +311,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -335,7 +335,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Bow",
@@ -359,7 +359,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Longbow",
@@ -383,7 +383,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Bow",
@@ -407,7 +407,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "KnightS",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Lancereaver",
@@ -431,7 +431,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "KnightS",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Lancereaver",
@@ -455,7 +455,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "KnightA",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -479,7 +479,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Myrmidon",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Slim Sword",
@@ -503,7 +503,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Myrmidon",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -527,7 +527,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Fighter",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -551,7 +551,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Thief",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Dagger",
@@ -575,7 +575,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -599,7 +599,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Hand Axe",
@@ -623,7 +623,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Hand Axe",
@@ -647,7 +647,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Mage",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Fire",
@@ -671,7 +671,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Monk",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Lightning",
@@ -695,7 +695,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Monk",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Lightning",

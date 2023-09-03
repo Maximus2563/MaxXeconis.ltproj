@@ -97,10 +97,12 @@
     "Bow_Wight.json": 95,
     "Mogall.json": 96,
     "Arch_Mogall.json": 97,
-    "Wall25.json": 98,
-    "Snag20.json": 99,
-    "Transporter.json": 100,
-    "Courier.json": 101,
-    "Fleet.json": 102,
-    "Ballistician.json": 103
+    "Wolf.json": 98,
+    "Wall25.json": 99,
+    "Pillar25.json": 100,
+    "Snag20.json": 101,
+    "Transporter.json": 102,
+    "Courier.json": 103,
+    "Fleet.json": 104,
+    "Ballistician.json": 105
 }

@@ -516,7 +516,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Merc",
-                "faction": "Soldier",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -527,7 +527,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     18,
                     4
@@ -540,7 +540,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Merc",
-                "faction": "Soldier",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -551,7 +551,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     11,
                     6
@@ -564,7 +564,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Merc",
-                "faction": "Soldier",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -575,7 +575,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     7,
                     5
@@ -588,7 +588,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Thief",
-                "faction": "Soldier",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Iron Dagger",
@@ -612,7 +612,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Thief",
-                "faction": "Soldier",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Iron Knife ",
@@ -623,7 +623,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     19,
                     8
@@ -636,7 +636,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Merc",
-                "faction": "Soldier",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -647,7 +647,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     19,
                     5

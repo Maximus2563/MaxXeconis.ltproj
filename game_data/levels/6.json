@@ -1,24 +1,25 @@
 [
     {
         "nid": "6",
-        "name": "Ch. 6: Sage Advice",
-        "tilemap": "SageCastle",
+        "name": "Ch. 6: Monster and Monsdor",
+        "tilemap": "Ch6",
         "bg_tilemap": null,
-        "party": "MaxYoungGroup",
+        "party": "SalGroup",
         "music": {
-            "player_phase": null,
-            "enemy_phase": null,
+            "player_phase": "Land Below",
+            "enemy_phase": "Land Below",
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": null,
-            "enemy_battle": null,
+            "player_battle": "Land Below",
+            "enemy_battle": "Land Below",
             "other_battle": null,
-            "enemy2_battle": null
+            "enemy2_battle": null,
+            "boss_battle": "43 Squirm in the Dark"
         },
         "objective": {
             "simple": "Defeat Boss",
-            "win": "Defeat the Boss",
-            "loss": "Eirika dies"
+            "win": "Defeat Boss",
+            "loss": "Sages dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -26,40 +27,97 @@
         "should_record": true,
         "units": [
             {
-                "nid": "Sal",
+                "nid": "Sages",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    19,
-                    25
+                    2,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Frost",
-                "team": "enemy",
-                "ai": "Heal",
+                "nid": "Sal",
+                "team": "player",
+                "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    13,
-                    8
+                    3,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Byron",
+                "nid": "Pillar1",
+                "variant": null,
+                "level": 1,
+                "klass": "Pillar25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    13,
-                    3
+                    4,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pillar2",
+                "variant": null,
+                "level": 1,
+                "klass": "Pillar25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pillar3",
+                "variant": null,
+                "level": 1,
+                "klass": "Pillar25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Septimus",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -67,23 +125,23 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 3,
-                "klass": "Soldier",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Bow_Bonewalker",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Iron Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    11,
-                    15
+                    13,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -91,119 +149,23 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 5,
-                "klass": "Mage",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Bow_Bonewalker",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Fire",
+                        "Poison Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    18,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
-                "variant": null,
-                "level": 5,
-                "klass": "Mage",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Fire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     15,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "132",
-                "variant": null,
-                "level": 5,
-                "klass": "Mage",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Wind",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    7,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "123",
-                "variant": null,
-                "level": 5,
-                "klass": "Monk",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Lightning",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "124",
-                "variant": null,
-                "level": 5,
-                "klass": "Monk",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Shine",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    11,
-                    10
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -211,12 +173,12 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 4,
-                "klass": "Fighter",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Mogall",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Evil Eye",
                         false
                     ]
                 ],
@@ -224,10 +186,10 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    22,
-                    18
+                    9,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -236,46 +198,22 @@
                 "nid": "104",
                 "variant": null,
                 "level": 6,
-                "klass": "Merc",
-                "faction": "Soldier",
+                "klass": "Mogall",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Evil Eye",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    13,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
-                "variant": null,
-                "level": 6,
-                "klass": "Merc",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    17,
-                    18
+                    15,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -283,36 +221,60 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 7,
-                "klass": "KnightA",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Hand Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    7,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "126",
-                "variant": null,
                 "level": 5,
-                "klass": "KnightA",
-                "faction": "Soldier",
+                "klass": "Mogall",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Hand Axe",
+                        "Evil Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "A",
+                "starting_position": [
+                    3,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 6,
+                "klass": "Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Evil Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 6,
+                "klass": "Bow_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -320,20 +282,44 @@
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    19,
-                    20
+                    5,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "122",
+                "nid": "108",
                 "variant": null,
                 "level": 7,
-                "klass": "KnightL",
-                "faction": "Soldier",
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 7,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Javelin",
@@ -342,46 +328,22 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    6,
-                    6
+                    3,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "125",
+                "nid": "110",
                 "variant": null,
-                "level": 5,
-                "klass": "KnightS",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Light Brand",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    20,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 5,
-                "klass": "Archer",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Bow_Bonewalker",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron Longbow",
@@ -392,106 +354,10 @@
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "A",
                 "starting_position": [
-                    7,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 7,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Horseslayer",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    13,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    14,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 4,
-                "klass": "Fighter",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Hammer",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    8,
-                    15
+                    3,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -499,129 +365,64 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 4,
-                "klass": "Fighter",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Mogall",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Evil Eye",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    5,
-                    5
-                ],
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "112",
                 "variant": null,
-                "level": 5,
-                "klass": "Soldier",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Mogall",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Evil Eye",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    11
-                ],
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Emmanuel",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "E",
+                "starting_position": [
+                    6,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": false
             },
             {
                 "nid": "113",
                 "variant": null,
-                "level": 5,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    20,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
-                "variant": null,
-                "level": 4,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    19,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 4,
-                "klass": "Fighter",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "129",
-                "variant": null,
-                "level": 4,
-                "klass": "Fighter",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -630,104 +431,129 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "E",
                 "starting_position": [
-                    16,
-                    10
+                    8,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "Sages",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "128",
+                "nid": "114",
                 "variant": null,
-                "level": 5,
-                "klass": "Priest",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Heal",
+                        "Steel Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Heal",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    10,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 5,
-                "klass": "Priest",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Heal",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Heal",
-                "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "E",
                 "starting_position": [
                     4,
-                    3
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "Sages14",
-                "team": "other",
-                "ai": "None",
+                "nid": "115",
+                "variant": null,
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    14
+                    14,
+                    2
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             },
             {
-                "nid": "131",
+                "nid": "116",
                 "variant": null,
-                "level": 5,
-                "klass": "KnightB",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Short Bow",
+                        "Rotten Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Fetid Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
                 "starting_position": [
                     14,
                     16
@@ -736,56 +562,146 @@
                 "generic": true
             },
             {
-                "nid": "134",
+                "nid": "119",
                 "variant": null,
-                "level": 6,
-                "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Poison Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Poison Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "135",
+                "nid": "122",
                 "variant": null,
-                "level": 6,
-                "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Poison Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "136",
+                "nid": "123",
                 "variant": null,
-                "level": 6,
-                "klass": "Wyvern Rider",
-                "faction": "Soldier",
+                "level": 8,
+                "klass": "Bow_Bonewalker",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Bronze_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 8,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -793,8 +709,35 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
+                "ai_group": "B",
+                "starting_position": [
+                    11,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "B",
+                "starting_position": [
+                    12,
+                    13
+                ],
                 "starting_traveler": null,
                 "generic": true
             }
@@ -804,8 +747,8 @@
                 "nid": "1",
                 "region_type": "formation",
                 "position": [
-                    18,
-                    25
+                    3,
+                    2
                 ],
                 "size": [
                     1,
@@ -821,8 +764,8 @@
                 "nid": "2",
                 "region_type": "formation",
                 "position": [
-                    18,
-                    24
+                    2,
+                    1
                 ],
                 "size": [
                     1,
@@ -838,8 +781,8 @@
                 "nid": "3",
                 "region_type": "formation",
                 "position": [
-                    19,
-                    24
+                    1,
+                    2
                 ],
                 "size": [
                     1,
@@ -855,8 +798,8 @@
                 "nid": "4",
                 "region_type": "formation",
                 "position": [
-                    20,
-                    24
+                    2,
+                    3
                 ],
                 "size": [
                     1,
@@ -872,8 +815,8 @@
                 "nid": "5",
                 "region_type": "formation",
                 "position": [
-                    20,
-                    25
+                    0,
+                    1
                 ],
                 "size": [
                     1,
@@ -889,8 +832,8 @@
                 "nid": "6",
                 "region_type": "formation",
                 "position": [
-                    6,
-                    17
+                    0,
+                    3
                 ],
                 "size": [
                     1,
@@ -906,8 +849,8 @@
                 "nid": "7",
                 "region_type": "formation",
                 "position": [
-                    5,
-                    16
+                    1,
+                    0
                 ],
                 "size": [
                     1,
@@ -923,8 +866,8 @@
                 "nid": "8",
                 "region_type": "formation",
                 "position": [
-                    5,
-                    16
+                    4,
+                    3
                 ],
                 "size": [
                     1,
@@ -941,7 +884,7 @@
                 "region_type": "formation",
                 "position": [
                     5,
-                    16
+                    2
                 ],
                 "size": [
                     1,
@@ -954,170 +897,34 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Village1",
-                "region_type": "event",
+                "nid": "RevRein",
+                "region_type": "normal",
                 "position": [
-                    12,
-                    19
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage1",
-                "region_type": "event",
-                "position": [
-                    12,
-                    19
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village2",
-                "region_type": "event",
-                "position": [
-                    12,
-                    10
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage2",
-                "region_type": "event",
-                "position": [
-                    12,
-                    10
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village3",
-                "region_type": "event",
-                "position": [
-                    5,
+                    0,
                     6
                 ],
                 "size": [
-                    1,
-                    1
+                    18,
+                    3
                 ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage3",
-                "region_type": "event",
-                "position": [
-                    5,
-                    6
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village4",
-                "region_type": "event",
-                "position": [
-                    5,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage4",
-                "region_type": "event",
-                "position": [
-                    5,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Vendor",
-                "region_type": "event",
-                "position": [
-                    6,
-                    10
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Vendor",
+                "sub_nid": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "Armory",
-                "region_type": "event",
+                "nid": "Vision",
+                "region_type": "vision",
                 "position": [
-                    2,
-                    1
+                    14,
+                    17
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Armory",
+                "sub_nid": "2",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1126,41 +933,92 @@
         ],
         "unit_groups": [
             {
-                "nid": "Wyvern1",
+                "nid": "Reinforcement",
                 "units": [
-                    "134",
-                    "135",
-                    "136"
+                    "111",
+                    "112"
                 ],
-                "positions": {}
+                "positions": {
+                    "111": [
+                        3,
+                        17
+                    ],
+                    "112": [
+                        6,
+                        17
+                    ]
+                }
             },
             {
                 "nid": "EnemyTeam",
-                "units": [
-                    "101",
-                    "Byron",
-                    "102",
-                    "103",
-                    "104",
-                    "105",
-                    "106",
-                    "107",
-                    "108",
-                    "109",
-                    "113",
-                    "114",
-                    "115"
-                ],
+                "units": [],
                 "positions": {}
             },
             {
                 "nid": "Sag",
                 "units": [
-                    "Sages"
+                    "Sages",
+                    "Sal"
                 ],
-                "positions": {}
+                "positions": {
+                    "Sages": [
+                        2,
+                        2
+                    ],
+                    "Sal": [
+                        3,
+                        2
+                    ]
+                }
+            },
+            {
+                "nid": "Reinforcement2",
+                "units": [
+                    "121",
+                    "122"
+                ],
+                "positions": {
+                    "121": [
+                        0,
+                        7
+                    ],
+                    "122": [
+                        16,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "Reinforcement3",
+                "units": [
+                    "123",
+                    "124"
+                ],
+                "positions": {
+                    "123": [
+                        3,
+                        2
+                    ],
+                    "124": [
+                        15,
+                        2
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "A",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "E",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "B",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

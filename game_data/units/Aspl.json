@@ -134,6 +134,22 @@
             [
                 "LowLevelUpQuote",
                 "I get better, I promise."
+            ],
+            [
+                "MidLevelUpQuote",
+                "Obviously, I'm great."
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'm a God, it's true."
+            ],
+            [
+                "MaxStatQuote",
+                "I've reached the pinnacle of luck."
+            ],
+            [
+                "PromoQuote",
+                "I'm cooler than anyone else here."
             ]
         ]
     }

@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "Strength_plus3",
+        "name": "Strength +3",
+        "desc": "Grants STR +2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            13
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

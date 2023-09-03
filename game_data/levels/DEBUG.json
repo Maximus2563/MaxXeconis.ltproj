@@ -123,144 +123,31 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    3
+                    10,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Bread",
-                "team": "player",
+                "nid": "Emmanuel",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Pikno",
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Noble",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "Noble",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Dark",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Demonic",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
+                    9,
                     8
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Swordmaster",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Killing Edge",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "NimbleCombo"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Kidnapper",
                 "variant": null,
                 "level": 1,
                 "klass": "Merc",
-                "faction": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -293,22 +180,85 @@
                 "generic": false
             },
             {
-                "nid": "Javi",
+                "nid": "Sal",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    8
+                    10,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Smoke",
+                "nid": "113",
+                "variant": null,
+                "level": 7,
+                "klass": "Revenant",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Oberon",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Javi",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 2,
+                "klass": "Merc",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "AnimalFriend"
+                ],
+                "team": "player",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -316,33 +266,7 @@
                     10
                 ],
                 "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Aspl",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Sal",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
+                "generic": true
             }
         ],
         "regions": [

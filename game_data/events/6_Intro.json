@@ -19,7 +19,7 @@
             [
                 "change_background",
                 [
-                    "Outside Castle Day"
+                    "Temple"
                 ]
             ],
             [
@@ -29,228 +29,96 @@
                 ]
             ],
             [
-                "add_portrait",
+                "music",
+                [
+                    "72 The Wistful Wilds"
+                ]
+            ],
+            [
+                "multi_add_portrait",
                 [
                     "Sal",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Alright, we should be here, but with a lack of Arcein troops...|I hope his Majesty is alright..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "center_cursor",
-                [
-                    "13,3"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Byron"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Throne Room 2 Day"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Byron",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "The King is dealt with?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "He's locked away, he won't be a nuisance to us, sir."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Good, the defences of this place were meagre...|I suspect troops may be returning soon..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "No problem sir, we have fortified our position."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Excellent! Now, you, girl! Over there!"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Frost",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Frost",
+                    "MidLeft",
+                    "Sages",
                     "FarLeft"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Frost",
-                    "Yes, sir?"
+                    "Sal",
+                    "I'm sorry, your highness.|But your fathers orders..."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Byron",
-                    "Remember what I told you, no funny business."
+                    "Sages",
+                    "...",
+                    "FLAG(no_talk)"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Frost",
-                    "Yes, sir."
+                    "Sal",
+                    "Don't pout at me..."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Byron",
-                    "I did not appreciate your attitude on the way here."
+                    "Sages",
+                    "If he told you to burn yourself alive, would you?"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Frost",
-                    "Apologies sir, but I find being forcibly taken from my village to be deserving of backlash."
+                    "Sal",
+                    "Look, I'd rather minimise any danger to you..."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Byron",
-                    "Look, your village is hard to find.|Your people have great magical talent that would be wasted in isolation."
+                    "Sages",
+                    "Hmph, where are we anyway?"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Frost",
-                    "..."
+                    "Sal",
+                    "The underground passage, our escape."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Byron",
-                    "Be prepared to help us out, missy!|Mutineers will be dead!|Soldier, you keep a close eye on her."
+                    "Sages",
+                    "If it's an escape route, then it should be empty, right?"
                 ]
             ],
             [
                 "speak",
                 [
-                    "SoldierRed",
-                    "Of course, boss."
+                    "Sal",
+                    "Safety is the idea, yes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Then, what is THAT!"
                 ]
             ],
             [
                 "multi_remove_portrait",
                 [
-                    "Byron",
-                    "SoldierRed"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Frost",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "This is exactly the reason we don't associate with outsiders..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Frost"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
+                    "Sages",
+                    "Sal"
                 ]
             ],
             [
@@ -258,8 +126,60 @@
                 []
             ],
             [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
                 "change_background",
                 []
+            ],
+            [
+                "spawn_group",
+                [
+                    "Sag",
+                    "north",
+                    "Sag",
+                    "normal"
+                ]
+            ],
+            [
+                "pair_up",
+                [
+                    "Sages",
+                    "Sal"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "separate",
+                [
+                    "Sal"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Sages",
+                    "3,2",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Sages",
+                    "2,2",
+                    "normal",
+                    "stack"
+                ]
             ],
             [
                 "transition",
@@ -270,900 +190,293 @@
             [
                 "center_cursor",
                 [
-                    "1,14"
+                    "14,2"
                 ]
             ],
             [
                 "flicker_cursor",
                 [
-                    "1,14"
+                    "14,2"
                 ]
             ],
             [
-                "add_portrait",
+                "multi_add_portrait",
                 [
-                    "Sages14",
-                    "Left"
+                    "Sages",
+                    "Left",
+                    "Sal",
+                    "Right"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Sages14",
-                    "Urk... *COUGH* Help me... Anyone?|Ugh, I'm not nearly as strong as I was... Blasted illness..."
+                    "Sages",
+                    "Ew! Gross!"
                 ]
             ],
             [
-                "remove_portrait",
+                "if",
                 [
-                    "Sages14"
+                    "game.check_alive('Pykroe')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Pykroe",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pykroe",
+                    "Haha! A most foul revenant!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "A revenant?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pykroe",
+                    "Indeed, a foul miscreation!|But how on earth could it be here...|Revenants are born of foul dark magic!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "But... that would be forbidden necromancy!"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Looks like a monster..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "A monster!?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "But... those are made by forbidden dark magic!"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sages",
+                    "Sal",
+                    "Pykroe"
                 ]
             ],
             [
                 "move_cursor",
                 [
-                    "19,25"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Looks like this is a welcoming party!|No matter, I'll play pin the sword on the donkey!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Saar",
-                    "Yes, sir, General Glen!|If she resists, do we have permission to execute her?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Glen",
-                    "...Yes. Permission granted."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Saar",
-                    "Understood! Grado's will be done.|The Grado Empire will repay the debt of betrayal with blood!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Glen",
-                    "...His Majesty relies upon you, Captain. Be sure his trust is not misplaced.|That is all."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Saar",
-                    "Yes, sir!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Saar",
-                    "no_block"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Glen"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# (Saar leaves, Cormag comes)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Saar",
-                    "9,2",
-                    "no_follow"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Saar",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Cormag",
-                    "8,9"
+                    "10,17"
                 ]
             ],
             [
                 "flicker_cursor",
                 [
-                    "Glen"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Village"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
+                    "Septimus"
                 ]
             ],
             [
                 "add_portrait",
                 [
-                    "Cormag",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Glen",
+                    "Septimus",
                     "Right"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Glen",
-                    "Such loyalty to the crown.|If only I could hold such conviction in the righteousness of our emperor."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Cormag",
-                    "Something troubling you, Brother?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Glen",
-                    "No...Pay no mind to me.|Come, Cormag. Let's go.|From here, we ride northeast, back to the fort."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Cormag",
-                    "Very well."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Cormag",
-                    "Glen"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# (They fly off, replaces by Seth and Eirika, outside the town)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Glen",
-                    "14,5",
-                    "no_block",
-                    "no_follow"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Cormag",
-                    "14,4",
-                    "no_follow"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Glen"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Cormag"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "VillageGate"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Eirika",
-                    "Left",
-                    "Seth",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "It's been so long since I last visited Serafew.|My brother and I used to pass through here en route to Grado.|I remember the harmony in which the people of both countries lived.|No walls divided our borders. No soldiers stood guard in high towers.|The border town... It was to me a symbol of the trust between Grado and Renais."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Seth",
-                    "...And now, it is firmly under the thumb of Grado's emperor."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "The peace I remember in this city...|It seems like something from another time. It seems lost now... Forever."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Seth",
-                    "...The city doesn't seem to be very heavily patrolled.|They must feel it's not worth guarding with Castle Renais under their control.|We must try to not draw attention to ourselves. The west gate is undermanned...."
+                    "Septimus",
+                    "Hmph, childs play.|Your secrets are poorly kept."
                 ]
             ],
             [
                 "add_portrait",
                 [
-                    "Saleh",
-                    "OffscreenRight",
-                    "immediate"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Saleh",
-                    "Pardon me, may I ask you a question?"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# (Saleh appears)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Seth"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Eirika",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Seth",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Saleh",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "What is it?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Saleh",
-                    "I'm looking for someone.|Have you seen a young girl with indigo hair?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "Indigo hair?|No...Sorry."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Saleh",
-                    "Hmmm...|Thank you. Sorry to intrude."
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# (Saleh leaves)"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Saleh",
-                    "Eirika",
-                    "Seth"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Seth",
-                    "FarLeft",
-                    "Eirika",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "There was something very odd about that man, wouldn't you say?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Seth",
-                    "He did seem unusual. He didn't strike me as a Grado spy, but..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "OffscreenRight",
-                    "immediate"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Catch her! Don't let her escape!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "That way! She went that way!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "What's that?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Seth",
-                    "It's coming from over there."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "Let's see what the commotion is."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Seth",
-                    "Eirika"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "end_skip",
-                []
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Natasha",
-                    "10,3",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Natasha",
-                    "9,12"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "9,10"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "ThreeEnemies",
-                    "ThreeEnemies",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_group",
-                [
-                    "ThreeEnemies",
-                    "Starting",
-                    "no_follow"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Natasha",
-                    "Left",
-                    "SoldierRed",
-                    "Right"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# (Screen goes to town, there are some soldiers surrounding Natasha)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Traitor Natasha!{br}Surrender peacefully.|Come quietly, and you may have the chance to explain yourself before His Majesty."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Natasha",
-                    "Wait, please.{br}You must listen to me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Take her."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Natasha",
-                    "No, you must believe me!|The emperor is not himself. You MUST be able to see that!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Impugn the emperor at your peril!|We've been ordered to execute you if you offer any resistance.|But your words condemn you!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Natasha",
-                    "SoldierRed"
-                ]
-            ],
-            [
-                "end_skip",
-                []
-            ],
-            [
-                "spawn_group",
-                [
-                    "EnemyTeam",
-                    "North",
-                    "Starting",
-                    "",
-                    "stack"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "7,14"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Eirika",
-                    "0,16",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Seth",
-                    "0,15",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Seth",
-                    "5,15",
-                    "no_block"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Eirika",
-                    "6,16"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Seth"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Seth",
-                    "FarLeft",
-                    "Eirika",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "That cleric is a traitor to the throne of Grado?|What madness is this?"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Seth",
-                    "Eirika"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# (Natasha runs up to Eirika)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Natasha",
-                    "6,15"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Eirika"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Natasha",
-                    "Left",
-                    "Eirika",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Natasha",
-                    "Ah..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "Are you all right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Natasha",
-                    "Who are you?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "I'm from Renais. Why are these Grado men after you?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Natasha",
-                    "You're from Renais... Oh!|I have something I must tell you. It's about Grado--"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "Wait--Grado soldiers are coming this way.|We'll have to talk later.{br}Now we must fight!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Natasha",
-                    "Eirika"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Eirika",
-                    "",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Natasha",
-                    "",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Seth",
-                    "immediate"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Eirika",
-                    "immediate"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "end_skip",
-                []
-            ],
-            [
-                "prep",
-                [
-                    "1"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# After prep, have Joshua appear"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "13,8"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "13,8"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Frost",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "The fighting is about to begin, but I can't even fight...|Perhaps it will be best to plant my roots with the enemy to get away from these brutes..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
+                    "Emmanuel",
                     "Left"
                 ]
             ],
             [
                 "speak",
                 [
-                    "SoldierRed",
-                    "You there! Quit yacking!"
+                    "Emmanuel",
+                    "A tactical stroke of genius, from yours truly.|I told brother that there'd be stragglers."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Frost",
-                    "As you wish."
+                    "Septimus",
+                    "Yet, you would not have found this, without me."
                 ]
             ],
             [
                 "speak",
                 [
-                    "SoldierRed",
-                    "I'm reporting you to the captain if you don't do your job!|Heal our wounds, or I'll er... pick your petals flowergirl!|Hah! I'm so smart."
+                    "Emmanuel",
+                    "Fine, you win. Team effort."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Septimus",
+                    "You! Prince! Down here, nobody will hear you scream."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Emmanuel",
+                    "Hehehe... I'll leave this to you.|I needn't worry myself with this easy pickings."
                 ]
             ],
             [
                 "remove_portrait",
                 [
-                    "SoldierRed"
+                    "Emmanuel"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Emmanuel",
+                    "11,17",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Emmanuel",
+                    "immediate",
+                    "south"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Frost",
-                    "The uncivilised outside world...|What a nuisance."
+                    "Septimus",
+                    "Good, nobody in my way.|Scurry onward, my beautiful creations!"
                 ]
             ],
             [
-                "add_talk",
+                "move_cursor",
+                [
+                    "Sages"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Sages",
+                    "Left",
+                    "Sal",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Man, we need to take that guy out...|But how are we going to reach him?"
+                ]
+            ],
+            [
+                "speak",
                 [
                     "Sal",
-                    "Frost"
+                    "These pillars are the key, if we break them, it'll open up a path."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sages",
+                    "Sal"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Pillar1"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Pillar2"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Pillar3"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Sages",
+                    "Left",
+                    "Sal",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Hm, alright. Let's do this!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sages",
+                    "Sal"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "true",
+                    "Logic Trinity"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "remove_tag;Sal;Required\nchapter_title\nchange_background;Outside Castle Day\ntransition;Open\nadd_portrait;Sal;Left\nspeak;Sal;Alright, we should be here, but with a lack of Arcein troops...|I hope his Majesty is alright...\nremove_portrait;Sal\ntransition;Close\nchange_background\ncenter_cursor;13,3\ntransition;Open\nflicker_cursor;Byron\ntransition;Close\nchange_background;Throne Room 2 Day\ntransition;Open\nadd_portrait;Byron;Right\nadd_portrait;SoldierRed;MidLeft\nspeak;Byron;The King is dealt with?\nspeak;SoldierRed;He's locked away, he won't be a nuisance to us, sir.\nspeak;Byron;Good, the defences of this place were meagre...|I suspect troops may be returning soon...\nspeak;SoldierRed;No problem sir, we have fortified our position.\nspeak;Byron;Excellent! Now, you, girl! Over there!\nadd_portrait;Frost;OffscreenLeft\nmove_portrait;Frost;FarLeft\nspeak;Frost;Yes, sir?\nspeak;Byron;Remember what I told you, no funny business.\nspeak;Frost;Yes, sir.\nspeak;Byron;I did not appreciate your attitude on the way here.\nspeak;Frost;Apologies sir, but I find being forcibly taken from my village to be deserving of backlash.\nspeak;Byron;Look, your village is hard to find.|Your people have great magical talent that would be wasted in isolation.\nspeak;Frost;...\nspeak;Byron;Be prepared to help us out, missy!|Mutineers will be dead!|Soldier, you keep a close eye on her.\nspeak;SoldierRed;Of course, boss.\nmulti_remove_portrait;Byron;SoldierRed\nexpression;Frost;CloseEyes\nspeak;Frost;This is exactly the reason we don't associate with outsiders...\nremove_portrait;Frost\ntransition;Close\nend_skip\nchange_background\ntransition;open\ncenter_cursor;1,14\nflicker_cursor;1,14\nadd_portrait;Sages14;Left\nspeak;Sages14;Urk... *COUGH* Help me... Anyone?|Ugh, I'm not nearly as strong as I was... Blasted illness...\nremove_portrait;Sages14\nmove_cursor;19,25\nadd_portrait;Sal;Right\nspeak;Sal;Looks like this is a welcoming party!|No matter, I'll play pin the sword on the donkey!\nspeak;Saar;Yes, sir, General Glen!|If she resists, do we have permission to execute her?\nspeak;Glen;...Yes. Permission granted.\nspeak;Saar;Understood! Grado's will be done.|The Grado Empire will repay the debt of betrayal with blood!\nspeak;Glen;...His Majesty relies upon you, Captain. Be sure his trust is not misplaced.|That is all.\nspeak;Saar;Yes, sir!\nremove_portrait;Saar;no_block\nremove_portrait;Glen\ntransition;Close\nchange_background\ntransition;Open\n# (Saar leaves, Cormag comes)\nmove_unit;Saar;9,2;no_follow\nremove_unit;Saar;immediate\nmove_unit;Cormag;8,9\nflicker_cursor;Glen\ntransition;Close\nchange_background;Village\ntransition;Open\nadd_portrait;Cormag;Left;no_block\nadd_portrait;Glen;Right\nspeak;Glen;Such loyalty to the crown.|If only I could hold such conviction in the righteousness of our emperor.\nspeak;Cormag;Something troubling you, Brother?\nspeak;Glen;No...Pay no mind to me.|Come, Cormag. Let's go.|From here, we ride northeast, back to the fort.\nspeak;Cormag;Very well.\nmulti_remove_portrait;Cormag;Glen\ntransition;Close\nchange_background\ntransition;Open\n# (They fly off, replaces by Seth and Eirika, outside the town)\nmove_unit;Glen;14,5;no_block;no_follow\nmove_unit;Cormag;14,4;no_follow\nremove_unit;Glen\nremove_unit;Cormag\ntransition;Close\nchange_background;VillageGate\ntransition;Open\nmulti_add_portrait;Eirika;Left;Seth;Right\nspeak;Eirika;It's been so long since I last visited Serafew.|My brother and I used to pass through here en route to Grado.|I remember the harmony in which the people of both countries lived.|No walls divided our borders. No soldiers stood guard in high towers.|The border town... It was to me a symbol of the trust between Grado and Renais.\nspeak;Seth;...And now, it is firmly under the thumb of Grado's emperor.\nspeak;Eirika;The peace I remember in this city...|It seems like something from another time. It seems lost now... Forever.\nspeak;Seth;...The city doesn't seem to be very heavily patrolled.|They must feel it's not worth guarding with Castle Renais under their control.|We must try to not draw attention to ourselves. The west gate is undermanned....\nadd_portrait;Saleh;OffscreenRight;immediate\nspeak;Saleh;Pardon me, may I ask you a question?\n# (Saleh appears)\nremove_portrait;Seth\nmove_portrait;Eirika;FarLeft\nadd_portrait;Seth;MidLeft\nmove_portrait;Saleh;Right\nspeak;Eirika;What is it?\nspeak;Saleh;I'm looking for someone.|Have you seen a young girl with indigo hair?\nspeak;Eirika;Indigo hair?|No...Sorry.\nspeak;Saleh;Hmmm...|Thank you. Sorry to intrude.\n# (Saleh leaves)\nmulti_remove_portrait;Saleh;Eirika;Seth\nmulti_add_portrait;Seth;FarLeft;Eirika;MidLeft\nspeak;Eirika;There was something very odd about that man, wouldn't you say?\nspeak;Seth;He did seem unusual. He didn't strike me as a Grado spy, but...\nadd_portrait;SoldierRed;OffscreenRight;immediate\nspeak;SoldierRed;Catch her! Don't let her escape!\nspeak;SoldierRed;That way! She went that way!\nspeak;Eirika;What's that?\nspeak;Seth;It's coming from over there.\nspeak;Eirika;Let's see what the commotion is.\nmulti_remove_portrait;Seth;Eirika\ntransition;Close\nend_skip\nchange_background\nremove_all_units\ntransition;Open\nadd_unit;Natasha;10,3;immediate\nmove_unit;Natasha;9,12\ncenter_cursor;9,10\nadd_group;ThreeEnemies;ThreeEnemies;immediate\nmove_group;ThreeEnemies;Starting;no_follow\nmulti_add_portrait;Natasha;Left;SoldierRed;Right\n# (Screen goes to town, there are some soldiers surrounding Natasha)\nspeak;SoldierRed;Traitor Natasha!{br}Surrender peacefully.|Come quietly, and you may have the chance to explain yourself before His Majesty.\nspeak;Natasha;Wait, please.{br}You must listen to me!\nspeak;SoldierRed;Take her.\nspeak;Natasha;No, you must believe me!|The emperor is not himself. You MUST be able to see that!\nspeak;SoldierRed;Impugn the emperor at your peril!|We've been ordered to execute you if you offer any resistance.|But your words condemn you!\nmulti_remove_portrait;Natasha;SoldierRed\nend_skip\nspawn_group;EnemyTeam;North;Starting;;stack\ncenter_cursor;7,14\nadd_unit;Eirika;0,16;immediate\nadd_unit;Seth;0,15;immediate\nmove_unit;Seth;5,15;no_block\nmove_unit;Eirika;6,16\nflicker_cursor;Seth\nmulti_add_portrait;Seth;FarLeft;Eirika;MidLeft\nspeak;Eirika;That cleric is a traitor to the throne of Grado?|What madness is this?\nmulti_remove_portrait;Seth;Eirika\n# (Natasha runs up to Eirika)\nmove_unit;Natasha;6,15\nflicker_cursor;Eirika\nmulti_add_portrait;Natasha;Left;Eirika;Right\nspeak;Natasha;Ah...\nspeak;Eirika;Are you all right?\nspeak;Natasha;Who are you?\nspeak;Eirika;I'm from Renais. Why are these Grado men after you?\nspeak;Natasha;You're from Renais... Oh!|I have something I must tell you. It's about Grado--\nspeak;Eirika;Wait--Grado soldiers are coming this way.|We'll have to talk later.{br}Now we must fight!\nmulti_remove_portrait;Natasha;Eirika\ntransition;Close\nmove_unit;Eirika;;immediate\nmove_unit;Natasha;;immediate\nremove_unit;Seth;immediate\ncenter_cursor;Eirika;immediate\ntransition;Open\nend_skip\nprep;1\n# After prep, have Joshua appear\ncenter_cursor;13,8\nflicker_cursor;13,8\nadd_portrait;Frost;MidRight\nspeak;Frost;The fighting is about to begin, but I can't even fight...|Perhaps it will be best to plant my roots with the enemy to get away from these brutes...\nadd_portrait;SoldierRed;Left\nspeak;SoldierRed;You there! Quit yacking!\nspeak;Frost;As you wish.\nspeak;SoldierRed;I'm reporting you to the captain if you don't do your job!|Heal our wounds, or I'll er... pick your petals flowergirl!|Hah! I'm so smart.\nremove_portrait;SoldierRed\nspeak;Frost;The uncivilised outside world...|What a nuisance.\nadd_talk;Sal;Frost\n"
+        "source": "remove_tag;Sal;Required\nchapter_title\nchange_background;Temple\ntransition;Open\nmusic;72 The Wistful Wilds\nmulti_add_portrait;Sal;MidLeft;Sages;FarLeft\nspeak;Sal;I'm sorry, your highness.|But your fathers orders...\nspeak;Sages;...;FLAG(no_talk)\nspeak;Sal;Don't pout at me...\nspeak;Sages;If he told you to burn yourself alive, would you?\nspeak;Sal;Look, I'd rather minimise any danger to you...\nspeak;Sages;Hmph, where are we anyway?\nspeak;Sal;The underground passage, our escape.\nspeak;Sages;If it's an escape route, then it should be empty, right?\nspeak;Sal;Safety is the idea, yes.\nspeak;Sages;Then, what is THAT!\nmulti_remove_portrait;Sages;Sal\nend_skip\ntransition;close\nchange_background\nspawn_group;Sag;north;Sag;normal\npair_up;Sages;Sal\ntransition;open\nseparate;Sal\nadd_unit;Sages;3,2;fade;stack\nmove_unit;Sages;2,2;normal;stack\ntransition;open\ncenter_cursor;14,2\nflicker_cursor;14,2\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Ew! Gross!\nif;game.check_alive('Pykroe')\n    add_portrait;Pykroe;FarLeft\n    speak;Pykroe;Haha! A most foul revenant!\n    speak;Sages;A revenant?\n    speak;Pykroe;Indeed, a foul miscreation!|But how on earth could it be here...|Revenants are born of foul dark magic!\n    speak;Sal;But... that would be forbidden necromancy!\nelse\n    speak;Sal;Looks like a monster...\n    speak;Sages;A monster!?\n    speak;Sal;But... those are made by forbidden dark magic!\nend\nmulti_remove_portrait;Sages;Sal;Pykroe\nmove_cursor;10,17\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;Hmph, childs play.|Your secrets are poorly kept.\nadd_portrait;Emmanuel;Left\nspeak;Emmanuel;A tactical stroke of genius, from yours truly.|I told brother that there'd be stragglers.\nspeak;Septimus;Yet, you would not have found this, without me.\nspeak;Emmanuel;Fine, you win. Team effort.\nspeak;Septimus;You! Prince! Down here, nobody will hear you scream.\nspeak;Emmanuel;Hehehe... I'll leave this to you.|I needn't worry myself with this easy pickings.\nremove_portrait;Emmanuel\nmove_unit;Emmanuel;11,17;FLAG(no_follow)\nremove_unit;Emmanuel;immediate;south\nspeak;Septimus;Good, nobody in my way.|Scurry onward, my beautiful creations!\nmove_cursor;Sages\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Man, we need to take that guy out...|But how are we going to reach him?\nspeak;Sal;These pillars are the key, if we break them, it'll open up a path.\nmulti_remove_portrait;Sages;Sal\nflicker_cursor;Pillar1\nflicker_cursor;Pillar2\nflicker_cursor;Pillar3\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Hm, alright. Let's do this!\nmulti_remove_portrait;Sages;Sal\nprep;true;Logic Trinity\n"
     }
 ]

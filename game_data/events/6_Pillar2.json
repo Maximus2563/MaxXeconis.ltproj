@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Pillar2",
+        "trigger": "unit_death",
+        "level_nid": "6",
+        "condition": "unit.nid == 'Pillar2'",
+        "commands": [
+            [
+                "sound",
+                [
+                    "WaterTileUp"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Pillar2",
+                    "fade"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Septimus"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Septimus"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Septimus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Septimus",
+                    "You're meddling with power beyond your ken.|But how well will you do, if you cannot see?|Hahaha!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Septimus"
+                ]
+            ],
+            [
+                "set_fog_of_war",
+                [
+                    "gba",
+                    "3",
+                    "3",
+                    "3"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "sound;WaterTileUp\nshow_layer;Pillar2;fade\nwait;100\nmove_cursor;Septimus\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;You're meddling with power beyond your ken.|But how well will you do, if you cannot see?|Hahaha!\nremove_portrait;Septimus\nset_fog_of_war;gba;3;3;3\n"
+    }
+]

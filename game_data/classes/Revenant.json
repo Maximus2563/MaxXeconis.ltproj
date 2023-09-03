@@ -15,10 +15,10 @@
         "max_level": 20,
         "bases": {
             "HP": 25,
-            "STR": 2,
+            "STR": 5,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 3,
+            "SPD": 2,
             "LCK": 0,
             "DEF": 0,
             "RES": 0,
@@ -95,6 +95,11 @@
                 0,
                 251
             ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
             "Staff": [
                 false,
                 0,
@@ -127,7 +132,7 @@
             0
         ],
         "map_sprite_nid": "Revenant",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Revenant",
         "fields": []
     }
 ]

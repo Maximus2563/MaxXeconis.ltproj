@@ -5,8 +5,8 @@
         "desc": "Unit cannot trade.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            5,
-            50
+            0,
+            57
         ],
         "components": [
             [

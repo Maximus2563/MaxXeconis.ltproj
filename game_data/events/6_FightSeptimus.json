@@ -1,0 +1,33 @@
+[
+    {
+        "name": "FightSeptimus",
+        "trigger": "combat_start",
+        "level_nid": "6",
+        "condition": "unit.nid == \"Septimus\" or unit2.nid == \"Septimus\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Septimus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Septimus",
+                    "You're just vile. Hideous... die!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Septimus"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "add_portrait;Septimus;Left\nspeak;Septimus;You're just vile. Hideous... die!\nremove_portrait;Septimus\n"
+    }
+]

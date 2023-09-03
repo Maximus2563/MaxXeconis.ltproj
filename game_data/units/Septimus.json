@@ -1,0 +1,113 @@
+[
+    {
+        "nid": "Septimus",
+        "name": "Septimus",
+        "desc": "A mysterious shaman, aiding Monsdor.",
+        "variant": "",
+        "level": 8,
+        "klass": "Shaman",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 25,
+            "STR": 0,
+            "MAG": 7,
+            "SKL": 10,
+            "SPD": 8,
+            "LCK": 2,
+            "DEF": 4,
+            "CON": 7,
+            "MOV": 5,
+            "RES": 7
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 0,
+            "MAG": 20,
+            "SKL": 40,
+            "SPD": 32,
+            "LCK": 30,
+            "DEF": 18,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 30
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "FiendishBlow"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                71,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Septimus",
+        "affinity": "None",
+        "fields": []
+    }
+]

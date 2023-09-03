@@ -8,7 +8,7 @@
         "klass": "Spartan",
         "tags": [],
         "bases": {
-            "HP": 32,
+            "HP": 34,
             "STR": 14,
             "MAG": 5,
             "SKL": 11,

@@ -129,7 +129,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Servant",
+        "map_sprite_nid": "ServantOther",
         "combat_anim_nid": "Servant",
         "fields": []
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Prof",
         "name": "Prof",
-        "desc": "",
+        "desc": "A teacher of his towns children.",
         "variant": "",
         "level": 7,
         "klass": "KnightB",
@@ -46,6 +46,10 @@
         "starting_items": [
             [
                 "Steel Bow",
+                false
+            ],
+            [
+                "Short Bow",
                 false
             ],
             [

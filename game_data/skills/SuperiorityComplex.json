@@ -5,8 +5,8 @@
         "desc": "Grants +1 ATK per stat unit has higher than foe.",
         "icon_nid": "Skills",
         "icon_index": [
-            10,
-            9
+            4,
+            4
         ],
         "components": [
             [

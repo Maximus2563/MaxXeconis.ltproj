@@ -1,0 +1,1656 @@
+[
+    {
+        "nid": "Ch7",
+        "size": [
+            17,
+            12
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "0,8": "21",
+                    "0,9": "21",
+                    "0,10": "21",
+                    "0,11": "21",
+                    "1,10": "21",
+                    "1,9": "21",
+                    "1,8": "21",
+                    "1,11": "21",
+                    "2,11": "21",
+                    "2,10": "21",
+                    "2,9": "21",
+                    "3,11": "21",
+                    "0,7": "20",
+                    "1,7": "2",
+                    "3,9": "2",
+                    "3,10": "2",
+                    "4,10": "2",
+                    "4,9": "2",
+                    "6,10": "2",
+                    "7,10": "2",
+                    "7,9": "2",
+                    "7,11": "2",
+                    "8,11": "2",
+                    "8,10": "2",
+                    "11,9": "2",
+                    "12,10": "2",
+                    "12,11": "2",
+                    "13,11": "2",
+                    "14,11": "2",
+                    "14,10": "2",
+                    "14,8": "2",
+                    "13,6": "2",
+                    "12,6": "2",
+                    "12,1": "2",
+                    "11,0": "2",
+                    "14,1": "2",
+                    "6,5": "2",
+                    "5,5": "2",
+                    "3,1": "2",
+                    "3,2": "2",
+                    "5,2": "2",
+                    "3,0": "20",
+                    "4,0": "20",
+                    "4,11": "20",
+                    "6,11": "20",
+                    "10,10": "20",
+                    "11,10": "20",
+                    "9,11": "21",
+                    "10,11": "21",
+                    "15,11": "21",
+                    "16,11": "21",
+                    "16,1": "21",
+                    "16,0": "21",
+                    "15,0": "21",
+                    "14,0": "21",
+                    "0,1": "0",
+                    "0,0": "0",
+                    "1,0": "0",
+                    "2,0": "0",
+                    "2,1": "0",
+                    "1,1": "35",
+                    "5,0": "22",
+                    "5,1": "22",
+                    "4,1": "22",
+                    "4,2": "22",
+                    "5,3": "22",
+                    "8,3": "22",
+                    "9,2": "22",
+                    "10,2": "22",
+                    "11,1": "22",
+                    "10,0": "22",
+                    "6,7": "1",
+                    "6,6": "1",
+                    "5,6": "1",
+                    "4,8": "1",
+                    "4,7": "1",
+                    "4,6": "1",
+                    "4,5": "1",
+                    "3,5": "1",
+                    "3,6": "1",
+                    "3,7": "1",
+                    "3,8": "1",
+                    "2,8": "1",
+                    "2,7": "1",
+                    "2,6": "1",
+                    "2,5": "1",
+                    "1,5": "1",
+                    "0,5": "1",
+                    "0,6": "1",
+                    "1,6": "1",
+                    "2,4": "1",
+                    "3,4": "1",
+                    "4,4": "1",
+                    "5,4": "1",
+                    "6,4": "1",
+                    "7,4": "1",
+                    "7,3": "1",
+                    "6,3": "1",
+                    "6,2": "1",
+                    "6,1": "1",
+                    "6,0": "1",
+                    "7,1": "1",
+                    "7,2": "1",
+                    "7,0": "1",
+                    "8,0": "1",
+                    "8,1": "1",
+                    "8,2": "1",
+                    "9,0": "1",
+                    "9,1": "1",
+                    "10,1": "1",
+                    "11,2": "1",
+                    "15,1": "1",
+                    "15,2": "1",
+                    "16,2": "1",
+                    "16,3": "1",
+                    "16,4": "1",
+                    "14,3": "1",
+                    "14,2": "1",
+                    "13,3": "1",
+                    "12,5": "1",
+                    "11,5": "1",
+                    "11,6": "1",
+                    "14,7": "1",
+                    "15,8": "1",
+                    "16,8": "1",
+                    "8,6": "1",
+                    "8,7": "1",
+                    "8,8": "1",
+                    "9,8": "1",
+                    "9,9": "1",
+                    "8,9": "1",
+                    "9,10": "1",
+                    "11,11": "1",
+                    "9,6": "1",
+                    "10,6": "1",
+                    "10,5": "1",
+                    "11,7": "1",
+                    "10,8": "1",
+                    "16,10": "1",
+                    "11,8": "1",
+                    "10,7": "1",
+                    "12,7": "1",
+                    "15,9": "1",
+                    "16,9": "1",
+                    "15,10": "1",
+                    "13,7": "1",
+                    "12,9": "1",
+                    "12,8": "1",
+                    "13,8": "1",
+                    "13,9": "1",
+                    "14,9": "1",
+                    "13,10": "1",
+                    "10,9": "1",
+                    "9,7": "1",
+                    "5,9": "12",
+                    "6,9": "12",
+                    "16,6": "7",
+                    "14,4": "7",
+                    "13,4": "7",
+                    "7,7": "12",
+                    "9,4": "12",
+                    "15,5": "7",
+                    "10,3": "12",
+                    "8,5": "12",
+                    "5,8": "12",
+                    "16,7": "7",
+                    "12,2": "12",
+                    "14,5": "7",
+                    "7,6": "12",
+                    "15,4": "7",
+                    "12,3": "12",
+                    "11,4": "12",
+                    "10,4": "Ruins",
+                    "13,2": "12",
+                    "5,11": "12",
+                    "15,3": "7",
+                    "9,3": "12",
+                    "14,6": "7",
+                    "7,5": "12",
+                    "15,7": "7",
+                    "13,1": "12",
+                    "5,10": "12",
+                    "6,8": "12",
+                    "16,5": "7",
+                    "12,0": "12",
+                    "5,7": "12",
+                    "11,3": "12",
+                    "13,5": "7",
+                    "15,6": "7",
+                    "12,4": "7",
+                    "9,5": "12",
+                    "7,8": "12",
+                    "13,0": "12",
+                    "8,4": "12",
+                    "1,2": "7",
+                    "1,3": "7",
+                    "3,3": "7",
+                    "2,2": "7",
+                    "1,4": "7",
+                    "2,3": "7",
+                    "4,3": "7",
+                    "0,4": "7",
+                    "0,3": "7",
+                    "0,2": "7"
+                },
+                "sprite_grid": {
+                    "15,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "16,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            21
+                        ]
+                    ],
+                    "16,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "0,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            25
+                        ]
+                    ],
+                    "0,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            26
+                        ]
+                    ],
+                    "0,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            7
+                        ]
+                    ],
+                    "0,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            13,
+                            8
+                        ]
+                    ],
+                    "0,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            9
+                        ]
+                    ],
+                    "0,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "0,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            1
+                        ]
+                    ],
+                    "0,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            21
+                        ]
+                    ],
+                    "0,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "0,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            13
+                        ]
+                    ],
+                    "0,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            14
+                        ]
+                    ],
+                    "0,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            18
+                        ]
+                    ],
+                    "1,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            11,
+                            25
+                        ]
+                    ],
+                    "1,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            11,
+                            26
+                        ]
+                    ],
+                    "1,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            19,
+                            12
+                        ]
+                    ],
+                    "1,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            4
+                        ]
+                    ],
+                    "1,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "1,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            2
+                        ]
+                    ],
+                    "1,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            3
+                        ]
+                    ],
+                    "1,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            24
+                        ]
+                    ],
+                    "1,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            16
+                        ]
+                    ],
+                    "1,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "1,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            15
+                        ]
+                    ],
+                    "1,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            5,
+                            17
+                        ]
+                    ],
+                    "2,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            25
+                        ]
+                    ],
+                    "2,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            26
+                        ]
+                    ],
+                    "2,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            9,
+                            8
+                        ]
+                    ],
+                    "2,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            5
+                        ]
+                    ],
+                    "2,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "2,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            2
+                        ]
+                    ],
+                    "2,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "2,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "2,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    "2,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            16
+                        ]
+                    ],
+                    "2,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            14
+                        ]
+                    ],
+                    "2,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "3,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            21
+                        ]
+                    ],
+                    "3,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            26
+                        ]
+                    ],
+                    "3,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            26
+                        ]
+                    ],
+                    "3,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            10
+                        ]
+                    ],
+                    "3,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "3,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            4
+                        ]
+                    ],
+                    "3,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "3,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "3,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "3,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            25
+                        ]
+                    ],
+                    "3,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            29
+                        ]
+                    ],
+                    "3,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            17
+                        ]
+                    ],
+                    "4,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            13,
+                            21
+                        ]
+                    ],
+                    "4,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "4,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            1,
+                            23
+                        ]
+                    ],
+                    "4,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "4,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "4,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            13,
+                            4
+                        ]
+                    ],
+                    "4,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            2
+                        ]
+                    ],
+                    "4,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "4,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "4,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            27
+                        ]
+                    ],
+                    "4,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            26
+                        ]
+                    ],
+                    "4,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            21
+                        ]
+                    ],
+                    "5,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            0,
+                            21
+                        ]
+                    ],
+                    "5,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            20
+                        ]
+                    ],
+                    "5,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "5,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            3,
+                            24
+                        ]
+                    ],
+                    "5,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "5,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "5,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "5,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            28,
+                            17
+                        ]
+                    ],
+                    "5,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            28,
+                            19
+                        ]
+                    ],
+                    "5,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            28,
+                            19
+                        ]
+                    ],
+                    "5,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            24,
+                            21
+                        ]
+                    ],
+                    "5,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            24,
+                            19
+                        ]
+                    ],
+                    "6,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            5,
+                            6
+                        ]
+                    ],
+                    "6,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            19,
+                            15
+                        ]
+                    ],
+                    "6,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            5,
+                            6
+                        ]
+                    ],
+                    "6,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "6,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    "6,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            19,
+                            29
+                        ]
+                    ],
+                    "6,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "6,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "6,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            19,
+                            18
+                        ]
+                    ],
+                    "6,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "6,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            25
+                        ]
+                    ],
+                    "6,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            20
+                        ]
+                    ],
+                    "7,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            5
+                        ]
+                    ],
+                    "7,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            3
+                        ]
+                    ],
+                    "7,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "7,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "7,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "7,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            23,
+                            19
+                        ]
+                    ],
+                    "7,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            24,
+                            18
+                        ]
+                    ],
+                    "7,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            0
+                        ]
+                    ],
+                    "7,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            22,
+                            18
+                        ]
+                    ],
+                    "7,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            25
+                        ]
+                    ],
+                    "7,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            28
+                        ]
+                    ],
+                    "7,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            29
+                        ]
+                    ],
+                    "8,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            2
+                        ]
+                    ],
+                    "8,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            3
+                        ]
+                    ],
+                    "8,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "8,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            20,
+                            20
+                        ]
+                    ],
+                    "8,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            20,
+                            16
+                        ]
+                    ],
+                    "8,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            21,
+                            16
+                        ]
+                    ],
+                    "8,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            3
+                        ]
+                    ],
+                    "8,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "8,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "8,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "8,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            27
+                        ]
+                    ],
+                    "8,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            29
+                        ]
+                    ],
+                    "9,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            2
+                        ]
+                    ],
+                    "9,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            9,
+                            3
+                        ]
+                    ],
+                    "9,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            22
+                        ]
+                    ],
+                    "9,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            27,
+                            21
+                        ]
+                    ],
+                    "9,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            29,
+                            18
+                        ]
+                    ],
+                    "9,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            21,
+                            19
+                        ]
+                    ],
+                    "9,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            15,
+                            2
+                        ]
+                    ],
+                    "9,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            3
+                        ]
+                    ],
+                    "9,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            5
+                        ]
+                    ],
+                    "9,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "9,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "9,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            24
+                        ]
+                    ],
+                    "10,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            1,
+                            20
+                        ]
+                    ],
+                    "10,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    "10,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            1,
+                            21
+                        ]
+                    ],
+                    "10,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            27,
+                            17
+                        ]
+                    ],
+                    "10,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            3,
+                            28
+                        ]
+                    ],
+                    "10,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            2
+                        ]
+                    ],
+                    "10,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "10,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "10,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "10,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "10,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            21
+                        ]
+                    ],
+                    "10,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            8,
+                            24
+                        ]
+                    ],
+                    "11,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "11,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            24
+                        ]
+                    ],
+                    "11,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "11,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            19,
+                            21
+                        ]
+                    ],
+                    "11,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            31,
+                            0
+                        ]
+                    ],
+                    "11,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            15,
+                            0
+                        ]
+                    ],
+                    "11,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            2
+                        ]
+                    ],
+                    "11,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            15,
+                            3
+                        ]
+                    ],
+                    "11,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "11,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "11,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            13,
+                            21
+                        ]
+                    ],
+                    "11,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            9,
+                            24
+                        ]
+                    ],
+                    "12,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            23,
+                            18
+                        ]
+                    ],
+                    "12,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            24
+                        ]
+                    ],
+                    "12,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            20,
+                            18
+                        ]
+                    ],
+                    "12,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            22,
+                            18
+                        ]
+                    ],
+                    "12,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            10
+                        ]
+                    ],
+                    "12,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "12,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "12,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            2
+                        ]
+                    ],
+                    "12,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "12,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    "12,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            24
+                        ]
+                    ],
+                    "12,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            26
+                        ]
+                    ],
+                    "13,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            23,
+                            16
+                        ]
+                    ],
+                    "13,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            29,
+                            18
+                        ]
+                    ],
+                    "13,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            22,
+                            18
+                        ]
+                    ],
+                    "13,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "13,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            8
+                        ]
+                    ],
+                    "13,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "13,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "13,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "13,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            2
+                        ]
+                    ],
+                    "13,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            14,
+                            3
+                        ]
+                    ],
+                    "13,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "13,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            15,
+                            25
+                        ]
+                    ],
+                    "14,0": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            21
+                        ]
+                    ],
+                    "14,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "14,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "14,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "14,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "14,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            13
+                        ]
+                    ],
+                    "14,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            12,
+                            9
+                        ]
+                    ],
+                    "14,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "14,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "14,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "14,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "14,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            26
+                        ]
+                    ],
+                    "15,1": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "15,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "15,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            11,
+                            6
+                        ]
+                    ],
+                    "15,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            11,
+                            7
+                        ]
+                    ],
+                    "15,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            8
+                        ]
+                    ],
+                    "15,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "15,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            10,
+                            9
+                        ]
+                    ],
+                    "15,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "15,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "15,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "15,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "16,2": [
+                        "Super Fields Compiled Image",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "16,3": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "16,4": [
+                        "Super Fields Compiled Image",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "16,5": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            4
+                        ]
+                    ],
+                    "16,6": [
+                        "Super Fields Compiled Image",
+                        [
+                            17,
+                            12
+                        ]
+                    ],
+                    "16,7": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            9
+                        ]
+                    ],
+                    "16,8": [
+                        "Super Fields Compiled Image",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "16,9": [
+                        "Super Fields Compiled Image",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "16,10": [
+                        "Super Fields Compiled Image",
+                        [
+                            6,
+                            24
+                        ]
+                    ],
+                    "16,11": [
+                        "Super Fields Compiled Image",
+                        [
+                            18,
+                            21
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "Super Fields Compiled Image"
+        ]
+    }
+]

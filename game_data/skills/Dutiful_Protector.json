@@ -2,7 +2,7 @@
     {
         "nid": "Dutiful Protector",
         "name": "Dutiful Protector",
-        "desc": "Unit gains +2 MOV if any allied unit has is below half HP.",
+        "desc": "Unit gains +2 MOV if any allied unit has below half HP.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

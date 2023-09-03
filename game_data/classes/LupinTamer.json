@@ -135,7 +135,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "LupinTamer",
+        "map_sprite_nid": "LupinTamerOther",
         "combat_anim_nid": "LupinTamer",
         "fields": []
     }
