@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.check_alive('Shoop')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shoop",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Leap."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Hey Shoop!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "You really ought to learn better makeup skills."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Wait, what?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "It's okay, not everyone can look as good as a warthog :3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I don't understand..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Duh. You wouldn't get style, there's no books on it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I think my style is fine... It's... practical!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Keep telling yourself that, teehee."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shoop"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Crazy, who else but Shoop?"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "if;game.check_alive('Shoop')\n    add_portrait;Shoop;Right\n    speak;Shoop;Leap.\n    speak;Leap;Hey Shoop!\n    speak;Shoop;You really ought to learn better makeup skills.\n    speak;Leap;Wait, what?\n    speak;Shoop;It's okay, not everyone can look as good as a warthog :3\n    speak;Prof;I don't understand...\n    speak;Shoop;Duh. You wouldn't get style, there's no books on it.\n    speak;Prof;I think my style is fine... It's... practical!\n    speak;Shoop;Keep telling yourself that, teehee.\n    remove_portrait;Shoop\n    speak;Leap;Crazy, who else but Shoop?\nend\ntransition;close\n"
+    }
+]

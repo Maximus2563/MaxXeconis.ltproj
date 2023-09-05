@@ -5,8 +5,8 @@
         "desc": "Unit gains +4 ATK against the weapon type they defeated last.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            1,
-            8
+            2,
+            54
         ],
         "components": [
             [

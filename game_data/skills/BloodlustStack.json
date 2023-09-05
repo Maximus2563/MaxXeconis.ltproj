@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "BloodlustStack",
+        "name": "Bloodlust",
+        "desc": "Exchange 5 stacks for +1 AoE.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            55
+        ],
+        "components": [
+            [
+                "combat_art",
+                "BloodlustRampage"
+            ],
+            [
+                "condition",
+                "len([skill for skill in unit.skills if skill.nid == 'BloodlustStack']) == 5"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "event_on_remove",
+                "Global BloodRemove"
+            ],
+            [
+                "stack",
+                5
+            ]
+        ]
+    }
+]

@@ -708,7 +708,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Maro ",
+        "nid": "SoldierWhite2",
         "blinking_offset": [
             24,
             32
@@ -788,18 +788,6 @@
         "smiling_offset": [
             16,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "ShoopRain",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
         ],
         "info_offset": 0
     },
@@ -944,18 +932,6 @@
         "smiling_offset": [
             16,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "ShoopNoMakeup",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
         ],
         "info_offset": 0
     },
@@ -2012,6 +1988,30 @@
         "smiling_offset": [
             14,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "MaroOther",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ShoopFeral",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
         ],
         "info_offset": 0
     }

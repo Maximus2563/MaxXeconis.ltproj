@@ -1,0 +1,62 @@
+[
+    {
+        "name": "ShoopTalk",
+        "trigger": "on_talk",
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Shoop",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Horses."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "...Shoopy!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "I wonder how well these goons conduct heat..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Yay! What cuteness!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "I want to see their charred corpses :3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Uhm, yay!"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Shoop;Left\nspeak;Shoop;Horses.\nspeak;Bread;...Shoopy!\nspeak;Shoop;I wonder how well these goons conduct heat...\nspeak;Bread;Yay! What cuteness!\nspeak;Shoop;I want to see their charred corpses :3\nspeak;Bread;Uhm, yay!\n"
+    }
+]

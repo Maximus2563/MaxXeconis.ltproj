@@ -775,7 +775,40 @@
                     "Maro",
                     "Aerial"
                 ],
-                "positions": {}
+                "positions": {
+                    "Sal": [
+                        2,
+                        12
+                    ],
+                    "Roag": [
+                        1,
+                        12
+                    ],
+                    "Pikno": [
+                        2,
+                        10
+                    ],
+                    "Smoke": [
+                        2,
+                        11
+                    ],
+                    "Nako": [
+                        2,
+                        13
+                    ],
+                    "Landros": [
+                        3,
+                        12
+                    ],
+                    "Maro": [
+                        3,
+                        13
+                    ],
+                    "Aerial": [
+                        3,
+                        11
+                    ]
+                }
             }
         ],
         "ai_groups": []

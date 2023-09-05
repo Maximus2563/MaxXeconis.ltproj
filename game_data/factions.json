@@ -88,5 +88,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Resistance",
+        "name": "Resistance",
+        "desc": "Fighters who want emancipation from occupiers.",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

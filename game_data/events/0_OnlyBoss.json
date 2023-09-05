@@ -38,6 +38,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": "if;game.check_alive('MaxYoung')\nadd_portrait;MaxYoung;Left\nspeak;MaxYoung;Only one left! Stay sharp!\nremove_portrait;MaxYoung\nend"
+        "source": "if;game.check_alive('MaxYoung')\n    add_portrait;MaxYoung;Left\n    speak;MaxYoung;Only one left! Stay sharp!\n    remove_portrait;MaxYoung\nend\n"
     }
 ]

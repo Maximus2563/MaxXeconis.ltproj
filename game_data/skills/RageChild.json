@@ -5,8 +5,8 @@
         "desc": "Can release stacks of rage to add +1 ATK/5 Crit per stack.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            0,
-            8
+            1,
+            57
         ],
         "components": [
             [
@@ -16,6 +16,10 @@
             [
                 "combat_art",
                 "RageArt"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }

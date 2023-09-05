@@ -2,7 +2,7 @@
     {
         "nid": "Shoop",
         "name": "Shoop",
-        "desc": "A strange mage who likes makeup and tomfoolery.",
+        "desc": "A strange mage who likes makeup, tomfoolery and murder.",
         "variant": "Female",
         "level": 3,
         "klass": "MageF",
@@ -56,7 +56,7 @@
         "learned_skills": [
             [
                 1,
-                "Retribution"
+                "Bloodlust"
             ]
         ],
         "unit_notes": [
@@ -132,7 +132,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "Gah! This... is... Ack!"
+                "Avenge me... spill their blood..."
             ],
             [
                 "EscapeQuote",
@@ -156,7 +156,7 @@
             ],
             [
                 "PromoQuote",
-                "I've got new tricks! Hahaha!"
+                "New ways to kill... Kehahaha!"
             ],
             [
                 "MaxStatQuote",

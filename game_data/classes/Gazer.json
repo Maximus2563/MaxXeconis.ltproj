@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Arch_Mogall",
-        "name": "Arch Mogall",
+        "nid": "Gazer",
+        "name": "Gazer",
         "desc": "A summoned phantom.",
         "tier": 2,
         "movement_group": "Fliers",
@@ -130,7 +130,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Arch_Mogall",
+        "map_sprite_nid": "Gazer",
         "combat_anim_nid": null,
         "fields": []
     }

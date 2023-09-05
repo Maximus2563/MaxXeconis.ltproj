@@ -1,0 +1,43 @@
+[
+    {
+        "name": "ShoopSwitch",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "len([skill for skill in unit.skills if skill.nid == 'BloodlustStack']) == 5"
+                ]
+            ],
+            [
+                "change_portrait",
+                [
+                    "Shoop",
+                    "ShoopFeral"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "len([skill for skill in unit2.skills if skill.nid == 'BloodlustStack']) == 5"
+                ]
+            ],
+            [
+                "change_portrait",
+                [
+                    "Shoop",
+                    "ShoopFeral"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "if;len([skill for skill in unit.skills if skill.nid == 'BloodlustStack']) == 5\n    change_portrait;Shoop;ShoopFeral\nelif;len([skill for skill in unit2.skills if skill.nid == 'BloodlustStack']) == 5\n    change_portrait;Shoop;ShoopFeral\nend\n"
+    }
+]

@@ -70,7 +70,7 @@
     "Necromancer",
     "Revenant",
     "Entombed",
-    "Sword_Bonewalker",
+    "Bonewalker",
     "Sword_Wight",
     "Bow_Bonewalker",
     "Bow_Wight",
@@ -148,5 +148,7 @@
     "Emeline",
     "MonkFemale",
     "Wolf",
-    "LupinTamerOther"
+    "LupinTamerOther",
+    "BonewalkerLance",
+    "Gazer"
 ]

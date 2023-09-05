@@ -7,7 +7,7 @@
         "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [
-            "Arch_Mogall"
+            "Gazer"
         ],
         "tags": [
             "Flying",

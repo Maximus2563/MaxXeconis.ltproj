@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ShoopSwitchBack",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "change_portrait",
+                [
+                    "Shoop",
+                    "Shoop"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "change_portrait;Shoop;Shoop\n"
+    }
+]

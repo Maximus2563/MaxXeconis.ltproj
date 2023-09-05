@@ -2,7 +2,7 @@
     {
         "nid": "Blindside",
         "name": "Blindside",
-        "desc": "If an ally is on the opposite side of the target\nto unit, grants Crit+10 and Canter (2).",
+        "desc": "If an ally is on the opposite side of the target\nto unit, grants Hit/Crit+10.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             3,
@@ -19,6 +19,10 @@
             ],
             [
                 "crit",
+                10
+            ],
+            [
+                "hit",
                 10
             ]
         ]

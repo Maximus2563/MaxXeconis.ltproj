@@ -82,7 +82,7 @@
                 ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "source": "add_portrait;Maurice;Left\nadd_portrait;Leap;Right\nspeak;Maurice;How bizarre...\nspeak;Leap;Excuse me?\nspeak;Maurice;A fine young lady as yourself...|Yet so bold...\nspeak;Leap;Uhm, well...\nspeak;Maurice;Such a shame to hurt you.|Hand over your things, and I might be... {c:expression;Maurice;Smile}more than merciful.\nbop_portrait;Leap\nspeak;Leap;Ew! You're so gross!\nexpression;Maurice;NoSmile\nspeak;Maurice;Gross? I'll leave you looking gross!\n"
     }

@@ -16,7 +16,7 @@
                 "speak",
                 [
                     "Maurice",
-                    "Look, it's not personal.|I just need to survive, hm?"
+                    "Look, it's not personal. I just want your money!"
                 ]
             ],
             [
@@ -26,8 +26,8 @@
                 ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Maurice;Left\nspeak;Maurice;Look, it's not personal.|I just need to survive, hm?\nremove_portrait;Maurice\n"
+        "source": "add_portrait;Maurice;Left\nspeak;Maurice;Look, it's not personal. I just want your money!\nremove_portrait;Maurice\n"
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Maro",
         "name": "Maro",
-        "desc": "A soldier who enjoys keeping his weaponry refined.",
+        "desc": "A new soldier who is a stickler for weapon maintenance.",
         "variant": "",
         "level": 1,
         "klass": "Soldier",
@@ -117,7 +117,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Maro ",
+        "portrait_nid": "MaroOther",
         "affinity": "Wind",
         "fields": [
             [

@@ -72,6 +72,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Landros;Left\nspeak;Landros;I'm sure it's nothing, but those guys look pretty antsy.\nremove_portrait;Landros\nmove_cursor;7,6\nflicker_cursor;Bandit (116)\nflicker_cursor;Bandit (108)\nflicker_cursor;Bandit (110)\nadd_portrait;Landros;Left\nspeak;Landros;I'll put an arrow between their eyes, if you want.|Better them than the villagers.\nremove_portrait;Landros\n\n"
+        "source": "add_portrait;Landros;Left\nspeak;Landros;I'm sure it's nothing, but those guys look pretty antsy.\nremove_portrait;Landros\nmove_cursor;7,6\nflicker_cursor;Bandit (116)\nflicker_cursor;Bandit (108)\nflicker_cursor;Bandit (110)\nadd_portrait;Landros;Left\nspeak;Landros;I'll put an arrow between their eyes, if you want.|Better them than the villagers.\nremove_portrait;Landros\n"
     }
 ]

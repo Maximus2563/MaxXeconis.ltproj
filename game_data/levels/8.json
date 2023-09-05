@@ -1,0 +1,732 @@
+[
+    {
+        "nid": "8",
+        "name": "Chapter 8: Thou Doth Protest",
+        "tilemap": "Ch8",
+        "bg_tilemap": null,
+        "party": "LeapGroup",
+        "music": {
+            "boss_battle": "50 Wild Outlaw",
+            "player_phase": "Dark Wastes",
+            "enemy_phase": "Dark Wastes",
+            "other_phase": "Dark Wastes",
+            "player_battle": "Dark Wastes",
+            "enemy_battle": "Dark Wastes",
+            "other_battle": "Dark Wastes"
+        },
+        "objective": {
+            "simple": "Deliver Wagons",
+            "win": "Deliver Wagons",
+            "loss": "Leap dies, Wagons die"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Leap",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Prof",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Liz",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Mizt",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Aspl",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Bread",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Scout",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Scout2",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 4,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Zanbato",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "Top",
+                "starting_position": [
+                    5,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 4,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Left",
+                "starting_position": [
+                    1,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 4,
+                "klass": "KnightS",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Armorslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 4,
+                "klass": "KnightL",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Left",
+                "starting_position": [
+                    1,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 4,
+                "klass": "KnightA",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Left",
+                "starting_position": [
+                    2,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 4,
+                "klass": "KnightB",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 4,
+                "klass": "LanceCavalier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 4,
+                "klass": "AxeCavalier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Bronze_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top",
+                "starting_position": [
+                    7,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Wind",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "Top",
+                "starting_position": [
+                    8,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Shoop",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Bronze_Lance",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Bronze_Lance",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 3,
+                "klass": "Merc",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 3,
+                "klass": "Merc",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Fighter",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 3,
+                "klass": "Fighter",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "EnemyRein",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    7,
+                    9
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Player",
+                "units": [
+                    "Leap",
+                    "Prof",
+                    "Liz"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "CavDuo",
+                "units": [
+                    "Aspl",
+                    "Bread"
+                ],
+                "positions": {
+                    "Aspl": [
+                        1,
+                        1
+                    ],
+                    "Bread": [
+                        1,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "Enemy",
+                "units": [],
+                "positions": {}
+            },
+            {
+                "nid": "EnemyRein",
+                "units": [],
+                "positions": {}
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "Left",
+                "trigger_threshold": 3
+            },
+            {
+                "nid": "Top",
+                "trigger_threshold": 3
+            }
+        ]
+    }
+]

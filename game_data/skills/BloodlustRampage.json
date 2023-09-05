@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BloodlustRampage",
+        "name": "Rampage",
+        "desc": "Unit adds +1 AoE to attacks.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            55
+        ],
+        "components": [
+            [
+                "event_after_combat",
+                "Global BloodRemove"
+            ],
+            [
+                "enemy_oversplash",
+                1
+            ]
+        ]
+    }
+]

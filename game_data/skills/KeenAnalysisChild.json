@@ -5,8 +5,8 @@
         "desc": "Boosts damage against weapon types the unit has defeated this map.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            1,
-            8
+            2,
+            54
         ],
         "components": [
             [

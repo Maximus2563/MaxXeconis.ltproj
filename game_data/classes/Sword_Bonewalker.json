@@ -131,7 +131,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Sword_Bonewalker",
+        "map_sprite_nid": "Bonewalker",
         "combat_anim_nid": "Bonewalker",
         "fields": []
     }
