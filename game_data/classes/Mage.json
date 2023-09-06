@@ -15,7 +15,7 @@
         "bases": {
             "HP": 16,
             "STR": 0,
-            "MAG": 3,
+            "MAG": 4,
             "SKL": 3,
             "SPD": 4,
             "LCK": 0,
@@ -25,12 +25,12 @@
             "MOV": 5
         },
         "growths": {
-            "HP": 55,
+            "HP": 50,
             "STR": 5,
             "MAG": 50,
             "SKL": 40,
             "SPD": 35,
-            "LCK": 20,
+            "LCK": 25,
             "DEF": 5,
             "RES": 40,
             "CON": 0,

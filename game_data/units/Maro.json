@@ -16,7 +16,7 @@
             "LCK": 4,
             "DEF": 6,
             "RES": 2,
-            "CON": 10,
+            "CON": 9,
             "MOV": 5
         },
         "growths": {
@@ -45,11 +45,11 @@
         },
         "starting_items": [
             [
-                "Steel Lance",
+                "Bronze_Lance",
                 false
             ],
             [
-                "Bronze_Lance",
+                "Steel Lance",
                 false
             ]
         ],

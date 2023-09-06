@@ -17,12 +17,12 @@
         "bases": {
             "HP": 15,
             "STR": 0,
-            "MAG": 2,
-            "SKL": 1,
-            "SPD": 2,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 4,
             "LCK": 0,
             "DEF": 2,
-            "RES": 4,
+            "RES": 5,
             "CON": 4,
             "MOV": 5
         },

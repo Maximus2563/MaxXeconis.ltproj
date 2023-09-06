@@ -8,11 +8,11 @@
         "music": {
             "player_phase": "A Battle and a Beginning",
             "enemy_phase": "A Battle and a Beginning",
-            "other_phase": null,
+            "other_phase": "A Battle and a Beginning",
             "enemy2_phase": null,
             "player_battle": "014 - Dawn Brigade",
             "enemy_battle": "015 - March",
-            "other_battle": null,
+            "other_battle": "016 - On Glory's Wings",
             "enemy2_battle": null,
             "boss_battle": "43 Squirm in the Dark"
         },
@@ -213,7 +213,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "LanceCavalier",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -237,7 +237,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "SwordCavalier",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -412,13 +412,17 @@
                     [
                         "Lancereaver",
                         false
+                    ],
+                    [
+                        "Antitoxin",
+                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     8,
                     18
@@ -477,7 +481,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Myrmidon",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -490,7 +494,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
                     4
@@ -501,7 +505,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Myrmidon",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -514,7 +518,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     7,
                     8
@@ -525,12 +529,12 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Fighter",
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Bronze_Axe",
                         false
                     ]
                 ],
@@ -538,7 +542,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     5,
                     3
@@ -597,7 +601,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Wyvern Rider",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -610,7 +614,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     3,
                     11
@@ -621,7 +625,7 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Wyvern Rider",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -634,7 +638,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     8,
                     15
@@ -645,7 +649,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 5,
+                "level": 6,
                 "klass": "Mage",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -658,7 +662,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     12,
                     17
@@ -682,7 +686,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     17,
                     6
@@ -700,13 +704,17 @@
                     [
                         "Lightning",
                         false
+                    ],
+                    [
+                        "Goddess Icon",
+                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     2,
                     16
@@ -837,16 +845,6 @@
             }
         ],
         "unit_groups": [
-            {
-                "nid": "Turn2Rein",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "RevenantRein",
-                "units": [],
-                "positions": {}
-            },
             {
                 "nid": "PlayerTeam",
                 "units": [

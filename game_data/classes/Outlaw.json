@@ -13,7 +13,7 @@
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 18,
+            "HP": 19,
             "STR": 3,
             "MAG": 0,
             "SKL": 3,
@@ -25,11 +25,11 @@
             "MOV": 5
         },
         "growths": {
-            "HP": 70,
-            "STR": 30,
+            "HP": 60,
+            "STR": 35,
             "MAG": 0,
             "SKL": 38,
-            "SPD": 42,
+            "SPD": 50,
             "LCK": 35,
             "DEF": 15,
             "RES": 20,

@@ -151,6 +151,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "spawn_group;Player2;west;starting;swoosh;closest\nmove_group;Player2;starting\nmusic;Strange People\nadd_portrait;SkillYoung;Right;no_block\nadd_portrait;SalYoung;CenterLeft;no_block\nadd_portrait;CherryYoung;FarLeft\nspeak;CherryYoung;Ugh... See! Lost! Where are w-we going?\nspeak;SkillYoung;Well I'd be able to know where I'm going if you gave me the map!\nspeak;CherryYoung;Because that went so well earlier...\nspeak;SalYoung;Uhm, can we stop arguing?{br}Cherry, I have something to tell you...\nspeak;CherryYoung;Hm? What is it?\nspeak;SalYoung;Well-\nspeak;SkillYoung;Sorry ladies, but that can wait. Look over there! We should save them!\nspeak;CherryYoung;Seems too dangerous...\nspeak;SalYoung;Well, I suppose we should help... Honestly, who is causing trouble at this time?\nremove_portrait;SalYoung;no_block\nremove_portrait;CherryYoung;no_block\nremove_portrait;SkillYoung\nadd_talk;CherryYoung;MaxYoung\nadd_talk;SkillYoung;EffYoung\n"
     }
 ]

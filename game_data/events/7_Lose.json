@@ -3,15 +3,25 @@
         "name": "Lose",
         "trigger": "unit_death",
         "level_nid": "7",
-        "condition": "game.check_dead('Wagon1') and game.check_dead('Wagon2') and game.check_dead('Wagon3')",
+        "condition": "True",
         "commands": [
             [
+                "if",
+                [
+                    "game.check_dead('Wagon1') and game.check_dead('Wagon2') and game.check_dead('Wagon3')"
+                ]
+            ],
+            [
                 "lose_game",
+                []
+            ],
+            [
+                "end",
                 []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "lose_game\n"
+        "source": "if;game.check_dead('Wagon1') and game.check_dead('Wagon2') and game.check_dead('Wagon3')\nlose_game\nend\n"
     }
 ]

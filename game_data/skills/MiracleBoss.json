@@ -12,6 +12,10 @@
             [
                 "TrueMiracle",
                 null
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     }

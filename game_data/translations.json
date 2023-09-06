@@ -390,5 +390,25 @@
     {
         "nid": "morshushop_no_money",
         "text": "Sorry, I don't give credit!"
+    },
+    {
+        "nid": "repair_buy",
+        "text": "Want me to fix anything?"
+    },
+    {
+        "nid": "repair_opener",
+        "text": "Welcome, I'll fix your stuff, for a cost."
+    },
+    {
+        "nid": "repair_back",
+        "text": "Want me to look at something else?"
+    },
+    {
+        "nid": "repair_leave",
+        "text": "Take care of your weapons!"
+    },
+    {
+        "nid": "repair_no_money",
+        "text": "I'm afraid I don't work for free..."
     }
 ]

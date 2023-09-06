@@ -3,7 +3,7 @@
         "name": "SpawnF",
         "trigger": "on_region_interact",
         "level_nid": "3",
-        "condition": "any(game.level.regions.get('SpawnF').contains(unit.position) for unit in game.get_units_in_party())",
+        "condition": "get_units_in_region('SpawnF', team='Player')",
         "commands": [
             [
                 "move_cursor",
@@ -22,6 +22,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": ""
+        "source": "move_cursor;30,7\nspawn_group;GroupF;South;GroupF\n"
     }
 ]

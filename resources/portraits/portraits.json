@@ -1560,18 +1560,6 @@
         "info_offset": 0
     },
     {
-        "nid": "EmelineQueen",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Emeline",
         "blinking_offset": [
             24,
@@ -2012,6 +2000,18 @@
         "smiling_offset": [
             16,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "EmelinePrincess",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
         ],
         "info_offset": 0
     }

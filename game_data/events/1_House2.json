@@ -42,7 +42,7 @@
                 "speak",
                 [
                     "Man2",
-                    "Lucky that maniac targetted our neighboring village.|The Lord does indeed shine on me... And you too!|Here, let's spread the luck around!"
+                    "Lucky that maniac targetted our neighboring village.|The herbs help me... And now, you too!|Here, let's spread the love around!"
                 ]
             ],
             [
@@ -65,7 +65,7 @@
                 "give_item",
                 [
                     "{unit}",
-                    "Goddess Icon"
+                    "Vulnerary"
                 ]
             ],
             [
@@ -83,6 +83,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;House\ntransition;Open\nadd_portrait;Man2;Left;no_block\nadd_portrait;{unit};Right\nspeak;Man2;Lucky that maniac targetted our neighboring village.|The Lord does indeed shine on me... And you too!|Here, let's spread the luck around!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;{unit};Goddess Icon\nshow_layer;DoorSouth\nhas_traded;{unit}\n"
+        "source": "transition;Close\nchange_background;House\ntransition;Open\nadd_portrait;Man2;Left;no_block\nadd_portrait;{unit};Right\nspeak;Man2;Lucky that maniac targetted our neighboring village.|The herbs help me... And now, you too!|Here, let's spread the love around!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;{unit};Vulnerary\nshow_layer;DoorSouth\nhas_traded;{unit}\n"
     }
 ]

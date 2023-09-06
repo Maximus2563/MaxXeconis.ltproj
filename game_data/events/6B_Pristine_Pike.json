@@ -8,12 +8,72 @@
             [
                 "music",
                 [
-                    "74 Dance in the Dark"
+                    "Raiten Menimemo ~ One Journo's Menimemoism"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Maro",
+                    "80,Bottom"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maro",
+                    "Hm... yup.|This will do...|Yeah, yeah! This is awesome!"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Maro"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Maro",
+                    "Yippee!"
+                ]
+            ],
+            [
+                "ignore_base_convo",
+                [
+                    "Pristine Pike"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Maro",
+                    "Slim Lance"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "music_fade_back",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "music;74 Dance in the Dark\n"
+        "source": "music;Raiten Menimemo ~ One Journo's Menimemoism\nadd_portrait;Maro;80,Bottom\nspeak;Maro;Hm... yup.|This will do...|Yeah, yeah! This is awesome!\nbop_portrait;Maro\nspeak;Maro;Yippee!\nignore_base_convo;Pristine Pike\ntransition;close\ngive_item;Maro;Slim Lance\nchange_background\nmusic_fade_back\ntransition;open\n"
     }
 ]

@@ -50,6 +50,10 @@
             [
                 "self_status_on_hit",
                 "Poisoned"
+            ],
+            [
+                "map_hit_sfx",
+                "Poison"
             ]
         ]
     }

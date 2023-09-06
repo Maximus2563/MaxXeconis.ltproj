@@ -49,6 +49,10 @@
             [
                 "Flux",
                 false
+            ],
+            [
+                "Sketchy_Salve",
+                false
             ]
         ],
         "learned_skills": [

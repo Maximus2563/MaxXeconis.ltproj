@@ -12,10 +12,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "condition",
-                "if;not unit.get_field(\"AttackedThisTurn\")"
             ]
         ]
     }

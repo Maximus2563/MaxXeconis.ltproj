@@ -12,6 +12,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "lose_game"
+        "source": "lose_game\n"
     }
 ]

@@ -14,7 +14,7 @@
             "STR": 0,
             "MAG": 4,
             "SKL": 5,
-            "SPD": 4,
+            "SPD": 5,
             "LCK": 0,
             "DEF": 3,
             "RES": 9,
@@ -26,8 +26,8 @@
             "STR": 0,
             "MAG": 35,
             "SKL": 25,
-            "SPD": 22,
-            "LCK": 40,
+            "SPD": 30,
+            "LCK": 55,
             "DEF": 8,
             "RES": 50,
             "CON": 0,
@@ -69,12 +69,7 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                1,
-                "Slayer"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -92,6 +87,11 @@
                 251
             ],
             "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
                 false,
                 0,
                 251

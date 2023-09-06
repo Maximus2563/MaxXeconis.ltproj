@@ -3,7 +3,7 @@
         "name": "Escape",
         "trigger": "Escape",
         "level_nid": "3",
-        "condition": "unit.nid =! \"Sal\" and region.nid == 'Escape'",
+        "condition": "region.nid == 'EscapeZone'",
         "commands": [
             [
                 "if",
@@ -22,7 +22,7 @@
                 "speak",
                 [
                     "{eval:unit.nid}",
-                    "{eval:unit.get_field('RetreatQuote')}"
+                    "{eval:unit.get_field('EscapeQuote')}"
                 ]
             ],
             [
@@ -40,12 +40,12 @@
                 [
                     "{unit}",
                     "",
-                    "East"
+                    "West"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit.get_field('EscapeQuote')\n    add_portrait;{eval:unit.nid};Left\n    speak;{eval:unit.nid};{eval:unit.get_field('RetreatQuote')}\n    remove_portrait;{eval:unit.nid}\nend\nremove_unit;{unit};;East\n"
+        "source": "if;unit.get_field('EscapeQuote')\n    add_portrait;{eval:unit.nid};Left\n    speak;{eval:unit.nid};{eval:unit.get_field('EscapeQuote')}\n    remove_portrait;{eval:unit.nid}\nend\nremove_unit;{unit};;West\n"
     }
 ]

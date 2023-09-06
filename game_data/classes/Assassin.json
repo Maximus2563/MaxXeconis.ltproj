@@ -25,12 +25,12 @@
         },
         "growths": {
             "HP": 50,
-            "STR": 5,
+            "STR": 30,
             "MAG": 5,
             "SKL": 45,
             "SPD": 40,
             "LCK": 40,
-            "DEF": 5,
+            "DEF": 10,
             "RES": 20,
             "CON": 0,
             "MOV": 0

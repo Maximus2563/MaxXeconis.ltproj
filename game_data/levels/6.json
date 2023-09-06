@@ -475,6 +475,10 @@
                     [
                         "Rotten Claw",
                         false
+                    ],
+                    [
+                        "Torch",
+                        false
                     ]
                 ],
                 "starting_skills": [],

@@ -83,13 +83,13 @@
             [
                 "remove_talk",
                 [
-                    "MaxYoung",
-                    "CherryYoung"
+                    "CherryYoung",
+                    "MaxYoung"
                 ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
-        "source": "add_portrait;CherryYoung;Left;no_block\nadd_portrait;MaxYoung;Right\nspeak;CherryYoung;H-hey, we're here to help.|Cherry is the name, you'd best remember it...!|Please.\nspeak;MaxYoung;All right, thanks. Max, by the way.|You can heal right?\nspeak;CherryYoung;Yes... Fighting is too barbaric...|That's why I leave it to the commoners.\nspeak;MaxYoung;Commoners, right...|Anyway, we kind of needed a healer to save our hide...|Just don't tell the others I said that, or I'll be surely lectured...\nspeak;CherryYoung;So long as we're rewarded, heal staves don't grow on trees! Heehee...\nremove_portrait;CherryYoung\nbop_portrait;MaxYoung\nspeak;MaxYoung;W-wait! I didn't agree to that!\nremove_portrait;MaxYoung\nremove_talk;MaxYoung;CherryYoung"
+        "source": "add_portrait;CherryYoung;Left;no_block\nadd_portrait;MaxYoung;Right\nspeak;CherryYoung;H-hey, we're here to help.|Cherry is the name, you'd best remember it...!|Please.\nspeak;MaxYoung;All right, thanks. Max, by the way.|You can heal right?\nspeak;CherryYoung;Yes... Fighting is too barbaric...|That's why I leave it to the commoners.\nspeak;MaxYoung;Commoners, right...|Anyway, we kind of needed a healer to save our hide...|Just don't tell the others I said that, or I'll be surely lectured...\nspeak;CherryYoung;So long as we're rewarded, heal staves don't grow on trees! Heehee...\nremove_portrait;CherryYoung\nbop_portrait;MaxYoung\nspeak;MaxYoung;W-wait! I didn't agree to that!\nremove_portrait;MaxYoung\nremove_talk;CherryYoung;MaxYoung\n"
     }
 ]

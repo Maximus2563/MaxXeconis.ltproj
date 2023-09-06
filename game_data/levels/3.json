@@ -195,11 +195,11 @@
                 "nid": "103",
                 "variant": "Female",
                 "level": 4,
-                "klass": "Archer",
+                "klass": "Mage",
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Iron Bow",
+                        "Wind",
                         false
                     ]
                 ],
@@ -375,7 +375,11 @@
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Armorslayer",
+                        false
+                    ],
+                    [
+                        "Zanbato",
                         false
                     ]
                 ],
@@ -395,11 +399,11 @@
                 "nid": "111",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Mage",
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Hand Axe",
+                        "Thunder",
                         false
                     ]
                 ],
@@ -464,158 +468,24 @@
                 "generic": true
             },
             {
-                "nid": "Elias",
-                "team": "other",
-                "ai": "None",
+                "nid": "SkillCH3",
+                "team": "enemy",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Skill",
-                "team": "other",
-                "ai": "None",
+                "nid": "Esteban",
+                "team": "enemy",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "EmelinePrincess",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Jeremiah",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Oberon",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Jevil",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Cres",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Priest1",
-                "variant": null,
-                "level": 1,
-                "klass": "Priest",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Priest2",
-                "variant": null,
-                "level": 1,
-                "klass": "Priest",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Argento",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Cornelius",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Bishop",
-                "variant": "Female",
-                "level": 1,
-                "klass": "Bishop",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "GreatKnight",
-                "variant": "",
-                "level": 1,
-                "klass": "Great_Knight",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
             },
             {
                 "nid": "114",
@@ -877,18 +747,35 @@
                 "interrupt_move": false
             },
             {
-                "nid": "EscapeBlank",
+                "nid": "EscapeZone",
                 "region_type": "event",
                 "position": [
                     0,
-                    0
+                    11
                 ],
                 "size": [
                     1,
-                    1
+                    3
                 ],
                 "sub_nid": "Escape",
-                "condition": "True",
+                "condition": "unit.nid != 'Sal'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "EscapeSal",
+                "region_type": "event",
+                "position": [
+                    0,
+                    11
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Escape",
+                "condition": "len(game.get_player_units()) == 1",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -956,75 +843,83 @@
                     "108",
                     "109",
                     "110",
-                    "111"
-                ],
-                "positions": {}
-            },
-            {
-                "nid": "GREEN",
-                "units": [
-                    "Elias",
-                    "Jeremiah",
-                    "Oberon",
-                    "Argento",
-                    "Priest2",
-                    "Priest1",
-                    "Jevil",
-                    "Bishop",
-                    "GreatKnight"
+                    "111",
+                    "112",
+                    "113"
                 ],
                 "positions": {
-                    "Elias": [
+                    "Sanjay": [
                         7,
+                        14
+                    ],
+                    "101": [
+                        8,
+                        1
+                    ],
+                    "102": [
+                        28,
+                        7
+                    ],
+                    "103": [
+                        25,
+                        15
+                    ],
+                    "104": [
+                        17,
+                        8
+                    ],
+                    "105": [
+                        17,
+                        14
+                    ],
+                    "106": [
+                        7,
+                        0
+                    ],
+                    "107": [
+                        15,
                         2
                     ],
-                    "Jeremiah": [
-                        6,
-                        3
+                    "108": [
+                        17,
+                        13
                     ],
-                    "Argento": [
-                        8,
-                        3
+                    "109": [
+                        18,
+                        14
                     ],
-                    "Skill": [
-                        3,
-                        5
+                    "110": [
+                        14,
+                        7
                     ],
-                    "Priest2": [
-                        5,
-                        8
-                    ],
-                    "Priest1": [
-                        9,
-                        8
-                    ],
-                    "Oberon": [
-                        1,
-                        12
-                    ],
-                    "Jevil": [
-                        3,
-                        12
-                    ],
-                    "Cres": [
+                    "111": [
                         13,
-                        12
+                        8
                     ],
-                    "Cornelius": [
-                        11,
-                        7
+                    "112": [
+                        6,
+                        11
                     ],
-                    "Bishop": [
-                        3,
-                        7
-                    ],
-                    "GreatKnight": [
-                        11,
-                        5
-                    ],
-                    "EmelinePrincess": [
+                    "113": [
                         4,
-                        5
+                        10
+                    ]
+                }
+            },
+            {
+                "nid": "SkillEstebam",
+                "units": [
+                    "SkillCH3",
+                    "Esteban"
+                ],
+                "positions": {
+                    "Esteban": [
+                        30,
+                        1
+                    ],
+                    "SkillCH3": [
+                        29,
+                        1
                     ]
                 }
             },

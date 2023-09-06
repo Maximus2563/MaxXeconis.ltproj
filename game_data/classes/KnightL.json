@@ -19,7 +19,7 @@
             "STR": 6,
             "MAG": 0,
             "SKL": 4,
-            "SPD": 2,
+            "SPD": 4,
             "LCK": 0,
             "DEF": 9,
             "CON": 13,
@@ -27,13 +27,13 @@
             "RES": 2
         },
         "growths": {
-            "HP": 80,
+            "HP": 90,
             "STR": 42,
             "MAG": 0,
             "SKL": 30,
             "SPD": 18,
             "LCK": 25,
-            "DEF": 32,
+            "DEF": 40,
             "CON": 0,
             "MOV": 0,
             "RES": 20

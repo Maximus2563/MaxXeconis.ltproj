@@ -205,7 +205,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "Mid",
                 "starting_position": [
                     12,
                     5
@@ -279,9 +279,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "AttackHeal",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     12,
                     9
@@ -302,14 +302,14 @@
                     ],
                     [
                         "Vulnerary",
-                        true
+                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "AttackHeal",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
                     3
@@ -333,10 +333,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    6,
-                    11
+                    7,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -344,7 +344,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 1,
+                "level": 2,
                 "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -355,9 +355,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     15,
                     3
@@ -368,7 +368,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 1,
+                "level": 3,
                 "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -379,9 +379,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     3,
                     5
@@ -403,9 +403,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     0,
                     6
@@ -453,7 +453,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "Right",
                 "starting_position": [
                     19,
                     3
@@ -525,9 +525,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Right",
                 "starting_position": [
                     18,
                     4
@@ -551,7 +551,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Mid",
                 "starting_position": [
                     11,
                     6
@@ -592,7 +592,7 @@
                 "starting_items": [
                     [
                         "Iron Dagger",
-                        true
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -632,6 +632,30 @@
                 "generic": true
             },
             {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Thief",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Knife ",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "108",
                 "variant": null,
                 "level": 2,
@@ -647,7 +671,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Right",
                 "starting_position": [
                     19,
                     5
@@ -811,6 +835,19 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Right",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "Mid",
+                "trigger_threshold": 2
+            }
+        ]
     }
 ]

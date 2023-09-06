@@ -6,9 +6,7 @@
         "variant": "Sword",
         "level": 5,
         "klass": "Paladin",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 44,
             "STR": 19,

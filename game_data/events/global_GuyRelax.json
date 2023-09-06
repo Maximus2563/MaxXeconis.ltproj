@@ -3,14 +3,8 @@
         "name": "GuyRelax",
         "trigger": "unit_wait",
         "level_nid": null,
-        "condition": "unit.nid == 'Guy'",
+        "condition": "unit.nid == 'Guy' and actively_chosen",
         "commands": [
-            [
-                "if",
-                [
-                    "not unit.get_field(\"AttackedThisTurn\")"
-                ]
-            ],
             [
                 "give_skill",
                 [
@@ -29,6 +23,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;not unit.get_field(\"AttackedThisTurn\")\n    give_skill;Guy;Relaxed;;FLAG(no_banner)\n    sound;Rally\n"
+        "source": "give_skill;Guy;Relaxed;;FLAG(no_banner)\nsound;Rally\n"
     }
 ]

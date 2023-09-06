@@ -66,6 +66,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Sal;Right\nif;game.level.nid in ['1', '2', '3', '4', '5']\n    music;108 Lament\n    speak;Sal;Is it time for me... To rest...?\n    expression;Sal;CloseEyes\n    remove_portrait;Sal\n    lose_game\nelse\n    speak;Sal;Grr... I'll fall back for now....\nend"
+        "source": "add_portrait;Sal;Right\nif;game.level.nid in ['1', '2', '3', '4', '5']\n    music;108 Lament\n    speak;Sal;Is it time for me... To rest...?\n    expression;Sal;CloseEyes\n    remove_portrait;Sal\n    lose_game\nelse\n    speak;Sal;Grr... I'll fall back for now....\nend\n"
     }
 ]

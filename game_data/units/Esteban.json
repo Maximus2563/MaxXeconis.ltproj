@@ -6,9 +6,7 @@
         "variant": "",
         "level": 1,
         "klass": "Great_Knight",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 36,
             "STR": 12,

@@ -41,30 +41,10 @@
         "nid": "NoneRoam",
         "behaviours": [
             {
-                "action": "Wait",
-                "target": "Time",
-                "target_spec": null,
-                "view_range": -5,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
                 "action": "None",
                 "target": "None",
                 "target_spec": null,
-                "view_range": -5,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": -5,
+                "view_range": -1,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -96,6 +76,44 @@
                     "MaxYoung"
                 ],
                 "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "AttackHeal",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -957,21 +975,21 @@
         "nid": "BoeyEscape",
         "behaviours": [
             {
-                "action": "Move_away_from",
-                "target": "Unit",
+                "action": "Move_to",
+                "target": "Position",
                 "target_spec": [
-                    "ID",
-                    "Sages"
+                    23,
+                    14
                 ],
                 "view_range": -4,
                 "invert_targeting": false,
-                "roam_speed": 120,
-                "desired_proximity": -1,
+                "roam_speed": 130,
+                "desired_proximity": 0,
                 "condition": ""
             },
             {
-                "action": "Move_to",
-                "target": "Unit",
+                "action": "Wait",
+                "target": "Time",
                 "target_spec": null,
                 "view_range": -4,
                 "invert_targeting": false,

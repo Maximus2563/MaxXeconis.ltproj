@@ -95,11 +95,6 @@
         false
     ],
     [
-        "037 - Tension",
-        false,
-        false
-    ],
-    [
         "19 - Moving Up",
         false,
         false
@@ -193,11 +188,6 @@
         "Scarlet Blaze Camp 1",
         true,
         false
-    ],
-    [
-        "Thorn in You",
-        false,
-        true
     ],
     [
         "Wonderful Pirates",
@@ -376,6 +366,16 @@
     ],
     [
         "Dark Wastes",
+        false,
+        true
+    ],
+    [
+        "Tension",
+        true,
+        false
+    ],
+    [
+        "Thorn in You",
         false,
         true
     ]
