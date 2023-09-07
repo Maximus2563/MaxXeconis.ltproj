@@ -1,0 +1,106 @@
+[
+    {
+        "nid": "Dawn",
+        "name": "Dawn",
+        "desc": "A hedonistic noblewoman who is related to the royals.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Sage",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 5,
+            "SKL": 6,
+            "SPD": 6,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 6,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 0,
+            "MAG": 40,
+            "SKL": 30,
+            "SPD": 32,
+            "LCK": 15,
+            "DEF": 15,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                71,
+                251
+            ],
+            "Light": [
+                false,
+                121,
+                251
+            ],
+            "Anima": [
+                false,
+                71,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Dawn",
+        "affinity": null,
+        "fields": []
+    }
+]

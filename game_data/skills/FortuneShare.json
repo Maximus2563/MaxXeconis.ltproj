@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Fortunate",
-        "name": "Fortunate ",
-        "desc": "Grants dodge+10.\nGrants dodge+5 to allies within 2 spaces.",
+        "nid": "FortuneShare",
+        "name": "Fortune Share",
+        "desc": "Grants LCK+3 to allies within 2 spaces.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             4,
@@ -14,12 +14,8 @@
                 null
             ],
             [
-                "crit_avoid",
-                10
-            ],
-            [
                 "aura",
-                "FortunateChild"
+                "Luck_Plus3"
             ],
             [
                 "aura_range",

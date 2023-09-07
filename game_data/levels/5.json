@@ -6,7 +6,15 @@
         "bg_tilemap": null,
         "party": "SalGroup",
         "music": {
-            "boss_battle": "43 Squirm in the Dark"
+            "boss_battle": "43 Squirm in the Dark",
+            "player_phase": "Dark Traveler",
+            "enemy_phase": "Dark Traveler",
+            "enemy2_phase": "Dark Traveler",
+            "other_phase": "Dark Traveler",
+            "player_battle": "016 - On Glory's Wings",
+            "enemy_battle": "015 - March",
+            "enemy2_battle": "015 - March",
+            "other_battle": "016 - On Glory's Wings"
         },
         "objective": {
             "simple": "Defend Sages,{eval:game.turncount}/8 Turns",
@@ -49,7 +57,7 @@
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": "Byron",
+                "ai_group": "",
                 "starting_position": [
                     21,
                     6
@@ -121,7 +129,7 @@
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": "Byron",
+                "ai_group": "",
                 "starting_position": [
                     21,
                     7
@@ -444,7 +452,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "Wyvern Rider",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -465,7 +473,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "Wyvern Rider",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -629,7 +637,7 @@
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -671,7 +679,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -874,6 +882,23 @@
                 "position": [
                     5,
                     6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "8_19",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    8
                 ],
                 "size": [
                     1,
@@ -1169,7 +1194,7 @@
                 }
             },
             {
-                "nid": "CavReinforcements",
+                "nid": "CavReinforcement",
                 "units": [
                     "123",
                     "124",
@@ -1231,7 +1256,7 @@
                 "trigger_threshold": 2
             },
             {
-                "nid": "Byron",
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

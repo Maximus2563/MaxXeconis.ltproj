@@ -1,12 +1,12 @@
 [
     {
         "nid": "8",
-        "name": "Chapter 8: Thou Doth Protest",
+        "name": "Chapter 8: Murder 101",
         "tilemap": "Ch8",
         "bg_tilemap": null,
         "party": "LeapGroup",
         "music": {
-            "boss_battle": "50 Wild Outlaw",
+            "boss_battle": "025 - Stalking Menace",
             "player_phase": "Dark Wastes",
             "enemy_phase": "Dark Wastes",
             "other_phase": "Dark Wastes",
@@ -15,9 +15,9 @@
             "other_battle": "Dark Wastes"
         },
         "objective": {
-            "simple": "Deliver Wagons",
-            "win": "Deliver Wagons",
-            "loss": "Leap dies, Wagons die"
+            "simple": "Defeat enemy,Left {eval:len(game.get_enemy_units())}",
+            "win": "Rout Enemy",
+            "loss": "Leap or Dean die"
         },
         "roam": false,
         "roam_unit": null,
@@ -30,10 +30,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    14
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -43,10 +40,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    13
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -56,10 +50,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    14
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -69,10 +60,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    7,
-                    14
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -82,10 +70,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    13
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -95,10 +80,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    11,
-                    14
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -116,7 +98,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillage",
+                "ai": "Visitor",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -140,7 +122,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillage",
+                "ai": "Visitor",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -159,7 +141,7 @@
                 "starting_items": [
                     [
                         "Zanbato",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -182,7 +164,7 @@
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -249,7 +231,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "KnightS",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -273,7 +255,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 4,
+                "level": 3,
                 "klass": "KnightL",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -297,7 +279,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "KnightA",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -463,9 +445,22 @@
                 "generic": true
             },
             {
+                "nid": "Dean",
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Shoop",
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -642,6 +637,68 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Resistance",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Humphrey",
+                "team": "enemy",
+                "ai": "Humphrey",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ShoopVictim",
+                "variant": null,
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Bronze_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -663,17 +720,85 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Village",
-                "region_type": "normal",
+                "nid": "House1",
+                "region_type": "event",
                 "position": [
-                    1,
+                    4,
                     1
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House2",
+                "region_type": "event",
+                "position": [
+                    1,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House3",
+                "region_type": "event",
+                "position": [
+                    11,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House4",
+                "region_type": "event",
+                "position": [
+                    13,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    14
+                ],
+                "size": [
+                    15,
+                    1
+                ],
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -686,24 +811,35 @@
                 "units": [
                     "Leap",
                     "Prof",
-                    "Liz"
-                ],
-                "positions": {}
-            },
-            {
-                "nid": "CavDuo",
-                "units": [
+                    "Liz",
+                    "Mizt",
                     "Aspl",
                     "Bread"
                 ],
                 "positions": {
+                    "Leap": [
+                        8,
+                        14
+                    ],
+                    "Prof": [
+                        8,
+                        13
+                    ],
+                    "Mizt": [
+                        7,
+                        14
+                    ],
+                    "Liz": [
+                        9,
+                        14
+                    ],
                     "Aspl": [
-                        1,
-                        1
+                        10,
+                        13
                     ],
                     "Bread": [
-                        1,
-                        1
+                        11,
+                        14
                     ]
                 }
             },
@@ -713,9 +849,16 @@
                 "positions": {}
             },
             {
-                "nid": "EnemyRein",
-                "units": [],
-                "positions": {}
+                "nid": "OtherRein",
+                "units": [
+                    "121"
+                ],
+                "positions": {
+                    "121": [
+                        1,
+                        5
+                    ]
+                }
             }
         ],
         "ai_groups": [

@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Luck Siphon",
-        "name": "Luck Siphon",
-        "desc": "Grants +1 LCK after defeating a foe (stackable).",
+        "nid": "Lucktaker",
+        "name": "Lucktaker",
+        "desc": "Grants +2 LCK after defeating a foe (max +10).\nResets on end chapter.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             2,
@@ -15,7 +15,7 @@
             ],
             [
                 "gain_skill_after_kill",
-                "Luck Siphon Child"
+                "LucktakerChild"
             ]
         ]
     }

@@ -1,0 +1,88 @@
+[
+    {
+        "name": "House1P",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid == 'House1' and unit.team == 'player'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Inside House 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "OldMan1",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "OldMan1",
+                    "Oh...|What? Monsters?|I've tangoed with a few, take this.|It could be useful for you...|It's tricky to wield, so don't beat yourself up about it..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "House1"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Purity_Edge"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;OldMan1;Right\nspeak;OldMan1;Oh...|What? Monsters?|I've tangoed with a few, take this.|It could be useful for you...|It's tricky to wield, so don't beat yourself up about it...\ntransition;Close\nshow_layer;House1\nchange_background\ntransition;Open\ngive_item;{unit};Purity_Edge\nhas_traded;{unit}\n"
+    }
+]

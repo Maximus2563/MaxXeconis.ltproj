@@ -12,7 +12,7 @@
             "STR": 7,
             "MAG": 2,
             "SKL": 4,
-            "SPD": 3,
+            "SPD": 5,
             "LCK": 8,
             "DEF": 6,
             "CON": 8,
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Iron Lance",
+                "Bronze_Lance",
                 false
             ],
             [
@@ -67,7 +67,16 @@
                 "LuckyWallopProc"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Himself"
+            ],
+            [
+                "Dislikes:",
+                "Unknown"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,

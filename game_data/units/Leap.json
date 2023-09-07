@@ -63,7 +63,16 @@
                 "Deluge Balm"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Fashion,Prof"
+            ],
+            [
+                "Dislikes:",
+                "Their dad,Mushrooms"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

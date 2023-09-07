@@ -1,0 +1,145 @@
+[
+    {
+        "name": "DeanTalk",
+        "trigger": "on_talk",
+        "level_nid": "8",
+        "condition": "check_pair('Prof', 'Dean') ",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Dean",
+                    "Left",
+                    "Prof",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "Son."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Father."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "This is all madness, isn't it?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Agreed. Monsdor is trying to appease Aurelia.|They really are gasping for any semblance of power."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "And yet, we suffer, not Arcei."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I don't know if that's true, Arcei isn't doing so well."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "Hmph, either way, we shouldn't get involved."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Is this not getting involved?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "Well, our problem is with Monsdor.|I'm sure Aurelia sees no threat here.|Which is good, Aurelia is the mightiest nation on the continent."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "...I don't really know what to think."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "It doesn't matter, Grahment comes first."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Indeed..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dean",
+                    "Take this, son.|You might need it some day."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Thank you, father."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Prof",
+                    "Dean"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Prof",
+                    "Elixir"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Prof",
+                    "Dean"
+                ]
+            ],
+            [
+                "music_fade_back",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "multi_add_portrait;Dean;Left;Prof;Right\nspeak;Dean;Son.\nspeak;Prof;Father.\nspeak;Dean;This is all madness, isn't it?\nspeak;Prof;Agreed. Monsdor is trying to appease Aurelia.|They really are gasping for any semblance of power.\nspeak;Dean;And yet, we suffer, not Arcei.\nspeak;Prof;I don't know if that's true, Arcei isn't doing so well.\nspeak;Dean;Hmph, either way, we shouldn't get involved.\nspeak;Prof;Is this not getting involved?\nspeak;Dean;Well, our problem is with Monsdor.|I'm sure Aurelia sees no threat here.|Which is good, Aurelia is the mightiest nation on the continent.\nspeak;Prof;...I don't really know what to think.\nspeak;Dean;It doesn't matter, Grahment comes first.\nspeak;Prof;Indeed...\nspeak;Dean;Take this, son.|You might need it some day.\nspeak;Prof;Thank you, father.\nmulti_remove_portrait;Prof;Dean\ngive_item;Prof;Elixir\nremove_talk;Prof;Dean\nmusic_fade_back\n"
+    }
+]

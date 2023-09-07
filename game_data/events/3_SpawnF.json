@@ -1,7 +1,7 @@
 [
     {
         "name": "SpawnF",
-        "trigger": "on_region_interact",
+        "trigger": "turn_change",
         "level_nid": "3",
         "condition": "get_units_in_region('SpawnF', team='Player')",
         "commands": [

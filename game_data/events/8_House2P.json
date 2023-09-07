@@ -1,0 +1,101 @@
+[
+    {
+        "name": "House2P",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid == 'House2' and unit.team == 'player'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Inside House 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierGreen",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierGreen",
+                    "I'm supposed to be out there, but I have kids, dude!|...|Don't look at me like that...|...|Okay, I'll go. But if I die, you tell my wife!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "House2"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "121",
+                    "{unit}",
+                    "fade",
+                    "stack",
+                    "fade"
+                ]
+            ],
+            [
+                "move_group",
+                [
+                    "OtherRein",
+                    "OtherRein",
+                    "normal",
+                    "closest",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;SoldierGreen;Right\nspeak;SoldierGreen;I'm supposed to be out there, but I have kids, dude!|...|Don't look at me like that...|...|Okay, I'll go. But if I die, you tell my wife!\ntransition;Close\nshow_layer;House2\nchange_background\ntransition;Open\nadd_unit;121;{unit};fade;stack;fade\nmove_group;OtherRein;OtherRein;normal;closest;FLAG(no_follow)\nhas_traded;{unit}\n"
+    }
+]

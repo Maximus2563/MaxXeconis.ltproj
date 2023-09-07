@@ -3,7 +3,7 @@
         "name": "EnemyRein",
         "trigger": "turn_change",
         "level_nid": "7",
-        "condition": "any_unit_in_region('EnemyRein', team='player')",
+        "condition": "game.turncount == 4",
         "commands": [
             [
                 "spawn_group",

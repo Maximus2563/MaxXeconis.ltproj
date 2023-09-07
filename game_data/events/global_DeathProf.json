@@ -1,0 +1,43 @@
+[
+    {
+        "name": "DeathProf",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Prof' ",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Prof",
+                    "Right"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level.nid in ['7', '8']"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I must step back, for now..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Prof"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Prof;Right\nif;game.level.nid in ['7', '8']\n    speak;Prof;I must step back, for now...\n    remove_portrait;Prof\nend\n"
+    }
+]

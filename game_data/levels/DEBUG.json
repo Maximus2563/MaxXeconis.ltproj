@@ -39,19 +39,6 @@
                 "generic": false
             },
             {
-                "nid": "Angel",
-                "team": "player",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Talia",
                 "team": "enemy2",
                 "ai": "None",
@@ -250,32 +237,6 @@
                 "generic": false
             },
             {
-                "nid": "108",
-                "variant": null,
-                "level": 2,
-                "klass": "Merc",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "AnimalFriend"
-                ],
-                "team": "player",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Shoop",
                 "team": "player",
                 "ai": "None",
@@ -294,9 +255,19 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Dean",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
                 "starting_position": [
-                    16,
-                    12
+                    15,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -357,9 +328,16 @@
         ],
         "unit_groups": [
             {
-                "nid": "New Group",
-                "units": [],
-                "positions": {}
+                "nid": "Guy",
+                "units": [
+                    "Guy"
+                ],
+                "positions": {
+                    "Guy": [
+                        13,
+                        13
+                    ]
+                }
             }
         ],
         "ai_groups": []

@@ -90,6 +90,10 @@
             [
                 "status_on_equip",
                 "ManaflaerDefences"
+            ],
+            [
+                "value",
+                1000
             ]
         ]
     }

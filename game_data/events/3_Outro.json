@@ -235,23 +235,11 @@
                 []
             ],
             [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "change_tilemap",
-                [
-                    "EmelineRoom"
-                ]
-            ],
-            [
                 "load_unit",
                 [
                     "Emeline",
-                    "Enemy",
-                    "FLAG(no_warn)"
+                    "enemy",
+                    "None"
                 ]
             ],
             [
@@ -297,42 +285,45 @@
                 "load_unit",
                 [
                     "Cornelius",
-                    "Enemy"
+                    "enemy",
+                    "None"
                 ]
             ],
             [
                 "load_unit",
                 [
                     "Oberon",
-                    "Enemy"
+                    "enemy",
+                    "None"
                 ]
             ],
             [
                 "load_unit",
                 [
                     "Skill",
-                    "Enemy"
+                    "enemy",
+                    "None"
                 ]
             ],
             [
                 "add_unit",
                 [
                     "Cornelius",
-                    "8,10"
+                    "8,9"
                 ]
             ],
             [
                 "add_unit",
                 [
                     "Oberon",
-                    "7,10"
+                    "7,9"
                 ]
             ],
             [
                 "add_unit",
                 [
                     "Skill",
-                    "6,10"
+                    "6,9"
                 ]
             ],
             [
@@ -494,7 +485,7 @@
                 "move_unit",
                 [
                     "Oberon",
-                    "8,10"
+                    "8,9"
                 ]
             ],
             [
@@ -599,7 +590,7 @@
                 "move_unit",
                 [
                     "Skill",
-                    "6,10"
+                    "6,9"
                 ]
             ],
             [
@@ -664,14 +655,10 @@
                     "Emeline",
                     "Cornelius"
                 ]
-            ],
-            [
-                "force_chapter_clean_up",
-                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nremove_tag;Skill;Boss\nremove_all_units\nmusic;Tension\nchange_background;Forest 6 Day\ntransition;Open\nadd_portrait;Sal;Right\nspeak;Sal;Huff... Whew!|They're really making me sweat...|We need to get to Grahment quickly... But we need to go through Monsdor to do it.|I don't think it'll be easy, but we have to push onward.\nadd_portrait;Blazing;Left\nspeak;Blazing;Did I happen to hear you say Grahment?\nbop_portrait;Sal\nspeak;Sal;Ah! Who are you?!\nbop_portrait;Blazing\nspeak;Blazing;Oh! Sorry! Sorry!|I am Blazing, son of Count Ignatius of Grahment...|I was supposed to be on my way to Aurelia but...|Well, my sense of direction is awful!|The Goddess did not heed my prayers no matter how much I tried...|Now I am late to see the post-coronation festivities...\nspeak;Sal;I see, sure, coronation... Sure, we'll help you back to Grahment.\nspeak;Blazing;Oh thank you so much!|My father would be besides himself if anything were to happen to me.|Oh! I never asked your name?\nspeak;Sal;Erm, Sal...|Of Arcei.\nspeak;Blazing;Oh, I see. On your way home and wanted a stay in Grahment first?|I must say, good choice!|Now let's hurry!\nremove_portrait;Blazing\nspeak;Sal;Hm, saving the son of a Count?|This could definitely help us call in a few favors!\nif;game.check_alive('Maro')\n    add_portrait;Maro;FarRight\n    speak;Maro;I see, ma'am... How shrewd!\n    speak;Sal;Quite, but best to not let the kid catch on.\n    speak;Maro;Right you are, commander.|Now, let me clean that sword...\n    speak;Sal;Why?\n    speak;Maro;W-well, it IS covered in Aurelian blood...|Might look less than admirable to the young sir and his religious side.\n    speak;Sal;Right, good thinking greenie.|Now let's go on!\n    speak;Maro;Forward, march!\n    multi_remove_portrait;Sal;Maro\nend\nend_skip\ntransition;Close\n# Eirika and Seth talk\nchange_tilemap;EmelineRoom\nchange_background\ntransition;Open\nchange_tilemap;EmelineRoom\nload_unit;Emeline;Enemy;FLAG(no_warn)\nadd_unit;Emeline;7,2\ntransition;open\nlocation_card;Aurelia Palace\nmusic;294. False Love [Serious Event 10]\nadd_portrait;Emeline;MidLeft\nspeak;Emeline;It is done...\nload_unit;Cornelius;Enemy\nload_unit;Oberon;Enemy\nload_unit;Skill;Enemy\nadd_unit;Cornelius;8,10\nadd_unit;Oberon;7,10\nadd_unit;Skill;6,10\nmove_unit;Cornelius;8,3;FLAG(no_block);FLAG(no_follow)\nmove_unit;Oberon;7,3;FLAG(no_block);FLAG(no_follow)\nmove_unit;Skill;6,3;FLAG(no_follow)\nmulti_add_portrait;Cornelius;MidRight;Oberon;FarRight;Skill;FarLeft\nspeak;Oberon;Your Highness, no. Your Majesty, now?\nspeak;Cornelius;Sir Argento has dealt with the... burial.\nspeak;Emeline;Right...|Now I am Queen, yet all I can do is hide in my room...\nspeak;Oberon;Know that Monsdor will grant you its full support.|We too know the desecration of life that has occured here today... is unholy.\nspeak;Skill;I will do whatever it takes to expunge those Arcein scum...|They alluded me...|GAH! I cannot believe I failed...\nspeak;Cornelius;A failure it was, indeed.\nspeak;Emeline;It's alright, father Cornelius.|He tried...\nspeak;Skill;You are too merciful, your Majesty.|You're the image of the Goddess's grace.\nspeak;Emeline;...\nspeak;Cornelius;In other news, it seems Cres of Grahment was very... chummy with the intruder...\nspeak;Emeline;Trying to convince us of Lord Sages' innocence...|Thinking a fool of me... I can see through their blaspehmy.\nspeak;Oberon;Already sorted.|I know they will attempt to pass through Monsdor, if they are allied with Grahment.|They will be sorely surprised with what awaits them.\nspeak;Emeline;As for Cres...\nspeak;Cornelius;I have dealt with that.|I have eyes and ears tracking them.\nspeak;Oberon;I best take my leave...|I wish you the best... and my condolences...\nspeak;Emeline;Farewell...\nremove_portrait;Oberon\nmove_unit;Oberon;8,10\nremove_unit;Oberon;;south\nexpression;Emeline;HalfCloseEyes\nspeak;Skill;It appears we need to steel ourselves for a war...|No... exacting justice, right your Majesty?\nspeak;Emeline;Of course...\nspeak;Cornelius;Why the troubled face, your Majesty?\nspeak;Emeline;Elias...|So much blood.\nspeak;Skill;Father Cornelius! How could you be so careless?!\nspeak;Emeline;I-it's okay...\nspeak;Cornelius;Remember, iron heart.|Arcei is but a sacrilegious rodent, tarnishing the Goddess's world.\nspeak;Emeline;Yes, of course, you're right.\nspeak;Skill;The Goddess couldn't have stopped this madness herself?|Allowing for Elias to-\nspeak;Cornelius;Hold your tongue.|You know she has no corporeal form to obstruct our free will.|Her plan lives through the light, which we must follow.\nspeak;Skill;...|Now, I must get to mobilising a squad, Arcei will rue the day they killed Elias...\nremove_portrait;Skill\nmove_unit;Skill;6,10\nremove_unit;Skill;;south\nspeak;Cornelius;You trust him?|He appears to have strayed from the Goddess's path.\nspeak;Emeline;I know that he will do as I say.|Though I too find it harder to believe in her every day, father Cornelius.\nspeak;Cornelius;Doubt can only cloud your judgement.|I am afraid one who wields the authority you do should not be so blind.\nspeak;Emeline;Remember Cornelius, I am the Queen now.|You cannot speak to me that way.\nspeak;Cornelius;My apologies, my ferver for the Goddess trumps even my devotion to you.|I'm sure you can understand seeking a higher goal.\nspeak;Emeline;Indeed...\ntransition;Close\nmulti_remove_portrait;Emeline;Cornelius\nforce_chapter_clean_up\n"
+        "source": "transition;close\nremove_tag;Skill;Boss\nremove_all_units\nmusic;Tension\nchange_background;Forest 6 Day\ntransition;Open\nadd_portrait;Sal;Right\nspeak;Sal;Huff... Whew!|They're really making me sweat...|We need to get to Grahment quickly... But we need to go through Monsdor to do it.|I don't think it'll be easy, but we have to push onward.\nadd_portrait;Blazing;Left\nspeak;Blazing;Did I happen to hear you say Grahment?\nbop_portrait;Sal\nspeak;Sal;Ah! Who are you?!\nbop_portrait;Blazing\nspeak;Blazing;Oh! Sorry! Sorry!|I am Blazing, son of Count Ignatius of Grahment...|I was supposed to be on my way to Aurelia but...|Well, my sense of direction is awful!|The Goddess did not heed my prayers no matter how much I tried...|Now I am late to see the post-coronation festivities...\nspeak;Sal;I see, sure, coronation... Sure, we'll help you back to Grahment.\nspeak;Blazing;Oh thank you so much!|My father would be besides himself if anything were to happen to me.|Oh! I never asked your name?\nspeak;Sal;Erm, Sal...|Of Arcei.\nspeak;Blazing;Oh, I see. On your way home and wanted a stay in Grahment first?|I must say, good choice!|Now let's hurry!\nremove_portrait;Blazing\nspeak;Sal;Hm, saving the son of a Count?|This could definitely help us call in a few favors!\nif;game.check_alive('Maro')\n    add_portrait;Maro;FarRight\n    speak;Maro;I see, ma'am... How shrewd!\n    speak;Sal;Quite, but best to not let the kid catch on.\n    speak;Maro;Right you are, commander.|Now, let me clean that sword...\n    speak;Sal;Why?\n    speak;Maro;W-well, it IS covered in Aurelian blood...|Might look less than admirable to the young sir and his religious side.\n    speak;Sal;Right, good thinking greenie.|Now let's go on!\n    speak;Maro;Forward, march!\n    multi_remove_portrait;Sal;Maro\nend\nend_skip\ntransition;Close\n# Eirika and Seth talk\nchange_tilemap;EmelineRoom\nchange_background\nload_unit;Emeline;enemy;None\nadd_unit;Emeline;7,2\ntransition;open\nlocation_card;Aurelia Palace\nmusic;294. False Love [Serious Event 10]\nadd_portrait;Emeline;MidLeft\nspeak;Emeline;It is done...\nload_unit;Cornelius;enemy;None\nload_unit;Oberon;enemy;None\nload_unit;Skill;enemy;None\nadd_unit;Cornelius;8,9\nadd_unit;Oberon;7,9\nadd_unit;Skill;6,9\nmove_unit;Cornelius;8,3;FLAG(no_block);FLAG(no_follow)\nmove_unit;Oberon;7,3;FLAG(no_block);FLAG(no_follow)\nmove_unit;Skill;6,3;FLAG(no_follow)\nmulti_add_portrait;Cornelius;MidRight;Oberon;FarRight;Skill;FarLeft\nspeak;Oberon;Your Highness, no. Your Majesty, now?\nspeak;Cornelius;Sir Argento has dealt with the... burial.\nspeak;Emeline;Right...|Now I am Queen, yet all I can do is hide in my room...\nspeak;Oberon;Know that Monsdor will grant you its full support.|We too know the desecration of life that has occured here today... is unholy.\nspeak;Skill;I will do whatever it takes to expunge those Arcein scum...|They alluded me...|GAH! I cannot believe I failed...\nspeak;Cornelius;A failure it was, indeed.\nspeak;Emeline;It's alright, father Cornelius.|He tried...\nspeak;Skill;You are too merciful, your Majesty.|You're the image of the Goddess's grace.\nspeak;Emeline;...\nspeak;Cornelius;In other news, it seems Cres of Grahment was very... chummy with the intruder...\nspeak;Emeline;Trying to convince us of Lord Sages' innocence...|Thinking a fool of me... I can see through their blaspehmy.\nspeak;Oberon;Already sorted.|I know they will attempt to pass through Monsdor, if they are allied with Grahment.|They will be sorely surprised with what awaits them.\nspeak;Emeline;As for Cres...\nspeak;Cornelius;I have dealt with that.|I have eyes and ears tracking them.\nspeak;Oberon;I best take my leave...|I wish you the best... and my condolences...\nspeak;Emeline;Farewell...\nremove_portrait;Oberon\nmove_unit;Oberon;8,9\nremove_unit;Oberon;;south\nexpression;Emeline;HalfCloseEyes\nspeak;Skill;It appears we need to steel ourselves for a war...|No... exacting justice, right your Majesty?\nspeak;Emeline;Of course...\nspeak;Cornelius;Why the troubled face, your Majesty?\nspeak;Emeline;Elias...|So much blood.\nspeak;Skill;Father Cornelius! How could you be so careless?!\nspeak;Emeline;I-it's okay...\nspeak;Cornelius;Remember, iron heart.|Arcei is but a sacrilegious rodent, tarnishing the Goddess's world.\nspeak;Emeline;Yes, of course, you're right.\nspeak;Skill;The Goddess couldn't have stopped this madness herself?|Allowing for Elias to-\nspeak;Cornelius;Hold your tongue.|You know she has no corporeal form to obstruct our free will.|Her plan lives through the light, which we must follow.\nspeak;Skill;...|Now, I must get to mobilising a squad, Arcei will rue the day they killed Elias...\nremove_portrait;Skill\nmove_unit;Skill;6,9\nremove_unit;Skill;;south\nspeak;Cornelius;You trust him?|He appears to have strayed from the Goddess's path.\nspeak;Emeline;I know that he will do as I say.|Though I too find it harder to believe in her every day, father Cornelius.\nspeak;Cornelius;Doubt can only cloud your judgement.|I am afraid one who wields the authority you do should not be so blind.\nspeak;Emeline;Remember Cornelius, I am the Queen now.|You cannot speak to me that way.\nspeak;Cornelius;My apologies, my ferver for the Goddess trumps even my devotion to you.|I'm sure you can understand seeking a higher goal.\nspeak;Emeline;Indeed...\ntransition;Close\nmulti_remove_portrait;Emeline;Cornelius\n"
     }
 ]

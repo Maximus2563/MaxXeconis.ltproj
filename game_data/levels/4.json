@@ -290,7 +290,7 @@
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -433,7 +433,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "KnightS",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -446,7 +446,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     12,
                     6
@@ -558,7 +558,7 @@
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Steel Dagger",
+                        "Iron Knife ",
                         true
                     ]
                 ],
@@ -678,7 +678,7 @@
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Lightning",
+                        "Shine",
                         false
                     ]
                 ],
@@ -690,6 +690,30 @@
                 "starting_position": [
                     17,
                     6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 5,
+                "klass": "Monk",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -718,6 +742,30 @@
                 "starting_position": [
                     2,
                     16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 5,
+                "klass": "Monk",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Ray",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -900,17 +948,17 @@
                     "Hyper"
                 ],
                 "positions": {
-                    "Pykroe": [
-                        2,
-                        1
-                    ],
                     "Guy": [
-                        1,
-                        1
+                        2,
+                        3
                     ],
                     "Hyper": [
-                        2,
-                        0
+                        4,
+                        2
+                    ],
+                    "Pykroe": [
+                        3,
+                        2
                     ]
                 }
             }

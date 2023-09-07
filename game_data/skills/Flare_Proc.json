@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Flare_Proc",
+        "name": "Flare ",
+        "desc": "Unit has a LCK% chance to add 50% of RES to damage dealt.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            54
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "CRIT_AVOID"
+            ],
+            [
+                "attack_proc",
+                "Flare"
+            ]
+        ]
+    }
+]

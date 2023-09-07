@@ -1,0 +1,130 @@
+[
+    {
+        "name": "House2E",
+        "trigger": "on_region_interact",
+        "level_nid": "8",
+        "condition": "region.nid == 'House2' and unit.team == 'enemy'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Inside House 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierGreen",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierGreen",
+                    "I'm supposed to be out there...|B-but I won't bother you! Please!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "You will fight for us, or I'll kill you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierGreen",
+                    "I have a family!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "They'll die too."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierGreen",
+                    "Bastards! Fine... I'll go..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "House2"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "121",
+                    "{unit}",
+                    "fade",
+                    "stack",
+                    "fade"
+                ]
+            ],
+            [
+                "move_group",
+                [
+                    "OtherRein",
+                    "OtherRein",
+                    "normal",
+                    "closest",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "121",
+                    "enemy"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;SoldierRed;Left;no_block\nadd_portrait;SoldierGreen;Right\nspeak;SoldierGreen;I'm supposed to be out there...|B-but I won't bother you! Please!\nspeak;SoldierRed;You will fight for us, or I'll kill you.\nspeak;SoldierGreen;I have a family!\nspeak;SoldierRed;They'll die too.\nspeak;SoldierGreen;Bastards! Fine... I'll go...\ntransition;Close\nshow_layer;House2\nchange_background\ntransition;Open\nadd_unit;121;{unit};fade;stack;fade\nmove_group;OtherRein;OtherRein;normal;closest;FLAG(no_follow)\nchange_team;121;enemy\n"
+    }
+]

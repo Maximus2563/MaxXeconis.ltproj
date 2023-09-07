@@ -61,7 +61,7 @@
                 "speak",
                 [
                     "Pykroe",
-                    "I see a cool looking warrior with an eyepatch!|Is she tackling these vicious foes?|Well, lady luck, ME, has come to save her!|At a fee... of course."
+                    "I see a cool looking warrior with an eyepatch!|Is she tackling these vicious foes?|Well, 'tis I who has come to save her!|At a fee... of course."
                 ]
             ],
             [
@@ -82,7 +82,7 @@
                 "speak",
                 [
                     "Pykroe",
-                    "Hyper that's amazing! Of course! You two demonstrate our superiority!|Then I can negotiate higher!"
+                    "Hyper that's amazing! Of course!|You two demonstrate our superiority!|Then I can negotiate higher!"
                 ]
             ],
             [
@@ -128,6 +128,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;1,1\nspawn_group;LGang;west;LGang\nmulti_add_portrait;Pykroe;Right;Guy;FarLeft;Hyper;MidLeft\nmusic;Boisterous Folk\nspeak;Pykroe;Nyaha! We have found a scuffle!\nspeak;Guy;Oh. Wonderful.|Couldn't we be doing anything else?\nspeak;Hyper;Let me show my skills! Hyah!\nspeak;Pykroe;I see a cool looking warrior with an eyepatch!|Is she tackling these vicious foes?|Well, lady luck, ME, has come to save her!|At a fee... of course.\nspeak;Guy;Well, at least this time you remembered the coin.|Last time we got zilch, because you forgot to negotiate terms.\nspeak;Hyper;No! We can't just waltz up and bargain!|We should demonstrate our prowess!|Then let them approach US!\nspeak;Pykroe;Hyper that's amazing! Of course! You two demonstrate our superiority!|Then I can negotiate higher!\nspeak;Guy;What if they don't? That's just a target on our backs...|What a bother.\nspeak;Pykroe;Hush, Guy!|I am the boss and I say you fight!|I will barter with their leader, huzzah!\nspeak;Guy;So much for a quiet afternoon...\nadd_talk;Sal;Pykroe\nmulti_remove_portrait;Guy;Pykroe;Hyper\nmusic_fade_back\n"
+        "source": "move_cursor;1,1\nspawn_group;LGang;west;LGang\nmulti_add_portrait;Pykroe;Right;Guy;FarLeft;Hyper;MidLeft\nmusic;Boisterous Folk\nspeak;Pykroe;Nyaha! We have found a scuffle!\nspeak;Guy;Oh. Wonderful.|Couldn't we be doing anything else?\nspeak;Hyper;Let me show my skills! Hyah!\nspeak;Pykroe;I see a cool looking warrior with an eyepatch!|Is she tackling these vicious foes?|Well, 'tis I who has come to save her!|At a fee... of course.\nspeak;Guy;Well, at least this time you remembered the coin.|Last time we got zilch, because you forgot to negotiate terms.\nspeak;Hyper;No! We can't just waltz up and bargain!|We should demonstrate our prowess!|Then let them approach US!\nspeak;Pykroe;Hyper that's amazing! Of course!|You two demonstrate our superiority!|Then I can negotiate higher!\nspeak;Guy;What if they don't? That's just a target on our backs...|What a bother.\nspeak;Pykroe;Hush, Guy!|I am the boss and I say you fight!|I will barter with their leader, huzzah!\nspeak;Guy;So much for a quiet afternoon...\nadd_talk;Sal;Pykroe\nmulti_remove_portrait;Guy;Pykroe;Hyper\nmusic_fade_back\n"
     }
 ]

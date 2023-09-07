@@ -3,41 +3,49 @@
         "name": "ShoopTalk",
         "trigger": "on_talk",
         "level_nid": "8",
-        "condition": "True",
+        "condition": "check_pair('Leap', 'Shoop') ",
         "commands": [
             [
-                "add_portrait",
+                "music",
                 [
-                    "Shoop",
-                    "Left"
+                    "Guest of Shade"
                 ]
             ],
             [
-                "speak",
+                "multi_add_portrait",
                 [
                     "Shoop",
-                    "Horses."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bread",
-                    "...Shoopy!"
+                    "Left",
+                    "Leap",
+                    "Right"
                 ]
             ],
             [
                 "speak",
                 [
                     "Shoop",
-                    "I wonder how well these goons conduct heat..."
+                    "Oh, hello Leap."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Bread",
-                    "Yay! What cuteness!"
+                    "Leap",
+                    "Shoopy! Fighting the good fight against these occupiers?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Occupiers...? I'm just experimenting!|I wish to see how well these goons conduct heat..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Huh..."
                 ]
             ],
             [
@@ -50,13 +58,52 @@
             [
                 "speak",
                 [
-                    "Bread",
-                    "Uhm, yay!"
+                    "Leap",
+                    "Uhm, we'll you help out!"
                 ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Alright, just leave the good ones to me...{c:bop_portrait;Shoop} Kehahaha!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Uhm, can do!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "Shoop"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Leap",
+                    "Shoop"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Shoop",
+                    "player"
+                ]
+            ],
+            [
+                "music_fade_back",
+                []
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Shoop;Left\nspeak;Shoop;Horses.\nspeak;Bread;...Shoopy!\nspeak;Shoop;I wonder how well these goons conduct heat...\nspeak;Bread;Yay! What cuteness!\nspeak;Shoop;I want to see their charred corpses :3\nspeak;Bread;Uhm, yay!\n"
+        "source": "music;Guest of Shade\nmulti_add_portrait;Shoop;Left;Leap;Right\nspeak;Shoop;Oh, hello Leap.\nspeak;Leap;Shoopy! Fighting the good fight against these occupiers?\nspeak;Shoop;Occupiers...? I'm just experimenting!|I wish to see how well these goons conduct heat...\nspeak;Leap;Huh...\nspeak;Shoop;I want to see their charred corpses :3\nspeak;Leap;Uhm, we'll you help out!\nspeak;Shoop;Alright, just leave the good ones to me...{c:bop_portrait;Shoop} Kehahaha!\nspeak;Leap;Uhm, can do!\nmulti_remove_portrait;Leap;Shoop\nremove_talk;Leap;Shoop\nchange_team;Shoop;player\nmusic_fade_back\n"
     }
 ]

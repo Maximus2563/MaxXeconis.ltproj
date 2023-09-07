@@ -562,7 +562,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 2,
+                "level": 3,
                 "klass": "Merc",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -836,10 +836,6 @@
             }
         ],
         "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            },
             {
                 "nid": "Right",
                 "trigger_threshold": 2

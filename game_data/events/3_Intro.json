@@ -6,18 +6,6 @@
         "condition": "True",
         "commands": [
             [
-                "music",
-                [
-                    "62 Prelude to Dispute"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "30,0"
-                ]
-            ],
-            [
                 "remove_all_units",
                 []
             ],
@@ -30,32 +18,31 @@
                 ]
             ],
             [
+                "music",
+                [
+                    "62 Prelude to Dispute"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "30,0"
+                ]
+            ],
+            [
                 "add_weather",
                 [
                     "rain"
                 ]
             ],
             [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "PlayerTeam",
-                    "PlayerTeam",
-                    "immediate"
-                ]
-            ],
-            [
                 "spawn_group",
                 [
                     "PlayerTeam",
-                    "south",
+                    "north",
                     "PlayerTeam",
-                    "normal"
+                    "normal",
+                    "stack"
                 ]
             ],
             [
@@ -160,7 +147,7 @@
                 "speak",
                 [
                     "Nako",
-                    "I can hardly believe him to do such wrongs either...|But poor Elias... If only his wounds were not so servere we could have saved him..."
+                    "I can hardly believe him to do such wrongs either...|But, poor Prince Elias...|If only his wounds were not so servere we could have saved him..."
                 ]
             ],
             [
@@ -231,48 +218,10 @@
                     "",
                     "convo-red"
                 ]
-            ],
-            [
-                "add_weather",
-                [
-                    "switch_tile",
-                    "0,11"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "switch_tile",
-                    "0,12"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "switch_tile",
-                    "0,13"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "Escape",
-                    "26,1",
-                    "2,2",
-                    "event",
-                    "Escape"
-                ]
-            ],
-            [
-                "region_condition",
-                [
-                    "Escape",
-                    "unit.nid =! 'Sal'"
-                ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "music;62 Prelude to Dispute\nmove_cursor;30,0\nremove_all_units\nadd_group;EnemyTeam;starting;immediate\nadd_weather;rain\ntransition;open\nadd_group;PlayerTeam;PlayerTeam;immediate\nspawn_group;PlayerTeam;south;PlayerTeam;normal\nadd_portrait;Sal;MidRight\nend\nif;game.check_alive('Nako')\nadd_portrait;Nako;FarRight\nend\nspeak;Sal;Gah! We need to make a break for it...|There!\nmove_cursor;0,12\nflicker_cursor;0,11\nflicker_cursor;0,12\nflicker_cursor;0,13\nspeak;Sal;That way should help us get back...|It may be guarded, but it's the way home alright.|Whoever that assassin was, clearly tipped someone off...\nmove_cursor;Sal\nif;game.check_alive('Aerial')\nadd_portrait;Aerial;Left\nspeak;Aerial;Seems weird, right?|But like, who would frame Sages?\nif;game.check_alive('Nako')\n    speak;Nako;I can hardly believe him to do such wrongs either...|But poor Elias... If only his wounds were not so servere we could have saved him...\nend\nif;game.check_alive('Smoke')\n    add_portrait;Smoke;OffscreenLeft\n    move_portrait;Smoke;FarLeft\n    speak;Smoke;I guess we need Sage advice right now to get out of this mess...|Eh? Eh?\n    speak;Sal;Not now.\n    speak;Smoke;Sorry. Let's make our move...|Though I smell enemies in hiding...|Best be careful, huh?\nend\nspeak;Sal;Onward everyone, quickly now!\nspeak;Sal;I will leave last, I won't leave anyone behind!;;;;;;convo-red\nadd_weather;switch_tile;0,11\nadd_weather;switch_tile;0,12\nadd_weather;switch_tile;0,13\nadd_region;Escape;26,1;2,2;event;Escape\nregion_condition;Escape;unit.nid =! 'Sal'\n"
+        "source": "remove_all_units\nadd_group;EnemyTeam;starting;immediate\nmusic;62 Prelude to Dispute\nmove_cursor;30,0\nadd_weather;rain\nspawn_group;PlayerTeam;north;PlayerTeam;normal;stack\nadd_portrait;Sal;MidRight\nend\nif;game.check_alive('Nako')\nadd_portrait;Nako;FarRight\nend\nspeak;Sal;Gah! We need to make a break for it...|There!\nmove_cursor;0,12\nflicker_cursor;0,11\nflicker_cursor;0,12\nflicker_cursor;0,13\nspeak;Sal;That way should help us get back...|It may be guarded, but it's the way home alright.|Whoever that assassin was, clearly tipped someone off...\nmove_cursor;Sal\nif;game.check_alive('Aerial')\nadd_portrait;Aerial;Left\nspeak;Aerial;Seems weird, right?|But like, who would frame Sages?\nif;game.check_alive('Nako')\n    speak;Nako;I can hardly believe him to do such wrongs either...|But, poor Prince Elias...|If only his wounds were not so servere we could have saved him...\nend\nif;game.check_alive('Smoke')\n    add_portrait;Smoke;OffscreenLeft\n    move_portrait;Smoke;FarLeft\n    speak;Smoke;I guess we need Sage advice right now to get out of this mess...|Eh? Eh?\n    speak;Sal;Not now.\n    speak;Smoke;Sorry. Let's make our move...|Though I smell enemies in hiding...|Best be careful, huh?\nend\nspeak;Sal;Onward everyone, quickly now!\nspeak;Sal;I will leave last, I won't leave anyone behind!;;;;;;convo-red\n"
     }
 ]

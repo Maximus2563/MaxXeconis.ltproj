@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Zanbato",
+                "Slim Sword",
                 false
             ],
             [
@@ -59,7 +59,16 @@
                 "OrchidsLove"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Animals,Flowers,Friends,Cute things"
+            ],
+            [
+                "Dislikes:",
+                "Rules"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

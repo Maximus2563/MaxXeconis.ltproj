@@ -3,7 +3,7 @@
         "name": "BattleByron",
         "trigger": "combat_start",
         "level_nid": "5",
-        "condition": "(unit.nid == \"Byron\" and unit2.team == 'player') or (unit2.nid == \"Byron\" and unit.team == 'player')",
+        "condition": "check_default('Byron', ['Sages'])",
         "commands": [
             [
                 "add_portrait",

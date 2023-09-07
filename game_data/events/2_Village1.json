@@ -71,7 +71,7 @@
                 "give_item",
                 [
                     "{unit}",
-                    "Steel Lance"
+                    "Iron Blade"
                 ]
             ],
             [
@@ -83,6 +83,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Town\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;OldMan1;Right\nspeak;OldMan1;Oh why thank you.{w}{clear}As you can see, the fangled bandihoobs are causing strife.|I would like to help, but I have passed my prime...|I was a bold, gallant knight once...|Ah! Where was I?|Take this, from my youth. You need it more than I.\ntransition;Close\nshow_layer;VILLAGECLOSED\nchange_background\ntransition;Open\ngive_item;{unit};Steel Lance\nhas_traded;{unit}\n"
+        "source": "transition;Close\nchange_background;Town\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;OldMan1;Right\nspeak;OldMan1;Oh why thank you.{w}{clear}As you can see, the fangled bandihoobs are causing strife.|I would like to help, but I have passed my prime...|I was a bold, gallant knight once...|Ah! Where was I?|Take this, from my youth. You need it more than I.\ntransition;Close\nshow_layer;VILLAGECLOSED\nchange_background\ntransition;Open\ngive_item;{unit};Iron Blade\nhas_traded;{unit}\n"
     }
 ]

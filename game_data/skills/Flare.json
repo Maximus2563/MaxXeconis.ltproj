@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Flare",
+        "name": "Flare",
+        "desc": "Add 50% of RES to damage dealt.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            54
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "(unit.get_stat('RES') // 2)"
+            ]
+        ]
+    }
+]

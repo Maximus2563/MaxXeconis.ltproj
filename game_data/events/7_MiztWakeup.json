@@ -117,6 +117,13 @@
                 ]
             ],
             [
+                "change_team",
+                [
+                    "Mizt",
+                    "Player"
+                ]
+            ],
+            [
                 "add_unit",
                 [
                     "Mizt",
@@ -146,6 +153,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": "multi_add_portrait;Leap;Left;Man4;Right\nspeak;Leap;Hey, Mizt is still sleeping in here, right?\nspeak;Man4;Seems so.\nspeak;Leap;Crazy...|MIZT WAKEUP!\nspeak;Man4;No need to be so... loud...\nadd_portrait;Mizt;FarRight\nmusic;Guest of Shade\nspeak;Mizt;Ugh... What's going on?\nspeak;Leap;We need your help, some mean guys are after us!|They want to steal our stuff!\nspeak;Mizt;Alright... If I have to bloody my axe more, I will...\nspeak;Man4;Please, this'll lighten my wagons load too.\nspeak;Leap;Now, throw down with those bandits!\nmusic_fade_back\nmulti_remove_portrait;Mizt;Leap;Man4\nseparate;Wagon2\nremove_skill;Wagon2;Rescue;FLAG(no_banner)\nadd_unit;Mizt;Wagon2;fade;stack;fade\nmove_unit;Mizt;Wagon2;normal;closest;FLAG(no_follow)\nremove_talk;Leap;Wagon2\n"
+        "source": "multi_add_portrait;Leap;Left;Man4;Right\nspeak;Leap;Hey, Mizt is still sleeping in here, right?\nspeak;Man4;Seems so.\nspeak;Leap;Crazy...|MIZT WAKEUP!\nspeak;Man4;No need to be so... loud...\nadd_portrait;Mizt;FarRight\nmusic;Guest of Shade\nspeak;Mizt;Ugh... What's going on?\nspeak;Leap;We need your help, some mean guys are after us!|They want to steal our stuff!\nspeak;Mizt;Alright... If I have to bloody my axe more, I will...\nspeak;Man4;Please, this'll lighten my wagons load too.\nspeak;Leap;Now, throw down with those bandits!\nmusic_fade_back\nmulti_remove_portrait;Mizt;Leap;Man4\nseparate;Wagon2\nremove_skill;Wagon2;Rescue;FLAG(no_banner)\nchange_team;Mizt;Player\nadd_unit;Mizt;Wagon2;fade;stack;fade\nmove_unit;Mizt;Wagon2;normal;closest;FLAG(no_follow)\nremove_talk;Leap;Wagon2\n"
     }
 ]

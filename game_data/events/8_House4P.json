@@ -1,0 +1,88 @@
+[
+    {
+        "name": "House4P",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid == 'House4' and unit.team == 'player'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Inside House 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit1",
+                    "Hey, nice to have a visitor.|...|Why you lookin' at me funny? Can't a guy change?|Anyway, I'm a reformed man! Consider this as proof."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "House4"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Iron Axe"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;Bandit1;Right\nspeak;Bandit1;Hey, nice to have a visitor.|...|Why you lookin' at me funny? Can't a guy change?|Anyway, I'm a reformed man! Consider this as proof.\ntransition;Close\nshow_layer;House4\nchange_background\ntransition;Open\ngive_item;{unit};Iron Axe\nhas_traded;{unit}\n"
+    }
+]

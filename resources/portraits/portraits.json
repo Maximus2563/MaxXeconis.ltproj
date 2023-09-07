@@ -792,18 +792,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Speedy ",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Varley",
         "blinking_offset": [
             16,
@@ -1140,18 +1128,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Lanii",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Nako",
         "blinking_offset": [
             16,
@@ -1201,18 +1177,6 @@
     },
     {
         "nid": "Shoop",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Leap",
         "blinking_offset": [
             24,
             32
@@ -1561,18 +1525,6 @@
     },
     {
         "nid": "Emeline",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Siri",
         "blinking_offset": [
             24,
             24
@@ -2012,6 +1964,102 @@
         "smiling_offset": [
             24,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Leap",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lanii",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Siri",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Speedy",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Walter",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Humphrey",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Helia",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dawn",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
         ],
         "info_offset": 0
     }

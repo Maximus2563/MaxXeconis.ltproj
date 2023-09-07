@@ -2,7 +2,7 @@
     {
         "nid": "Relaxation",
         "name": "Relaxation",
-        "desc": "If unit waits, grants DEF+3 during unit's next combat and restores 5 HP at the start of turns.",
+        "desc": "If unit waits, grants DEF+3 for the rest of turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,

@@ -1,7 +1,7 @@
 [
     {
         "name": "Turn6",
-        "trigger": "enemy_turn_change",
+        "trigger": "turn_change",
         "level_nid": "5",
         "condition": "game.turncount == 6",
         "commands": [

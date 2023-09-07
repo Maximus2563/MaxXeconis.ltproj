@@ -29,10 +29,14 @@
             [
                 "win_game",
                 []
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "remove_unit;Wagon2;fade;fade\nlevel_var;Wagon2Arrive;True\nif;not any(unit.team == 'other' for unit in game.units if unit.position)\n    win_game"
+        "source": "remove_unit;Wagon2;fade;fade\nlevel_var;Wagon2Arrive;True\nif;not any(unit.team == 'other' for unit in game.units if unit.position)\n    win_game\nend"
     }
 ]

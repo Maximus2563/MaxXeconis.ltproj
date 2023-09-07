@@ -9,7 +9,7 @@
         "tags": [],
         "bases": {
             "HP": 18,
-            "STR": 5,
+            "STR": 6,
             "MAG": 2,
             "SKL": 7,
             "SPD": 8,
@@ -45,19 +45,19 @@
         },
         "starting_items": [
             [
-                "Bronze_Sword",
+                "Iron Sword",
                 false
             ],
             [
-                "Fire",
+                "Iron Blade",
+                false
+            ],
+            [
+                "Thunder",
                 false
             ],
             [
                 "Flux",
-                false
-            ],
-            [
-                "Antitoxin",
                 false
             ]
         ],
@@ -80,7 +80,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                1,
+                31,
                 251
             ],
             "Lance": [

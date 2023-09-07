@@ -123,7 +123,7 @@
                     "7,5": "1",
                     "9,4": "1",
                     "8,3": "1",
-                    "7,12": "35",
+                    "7,12": "0",
                     "0,7": "7",
                     "1,6": "7",
                     "1,11": "7",
@@ -221,7 +221,7 @@
                     "14,2": "7",
                     "5,9": "7",
                     "6,9": "7",
-                    "5,8": "35",
+                    "5,8": "0",
                     "7,9": "7"
                 },
                 "sprite_grid": {
@@ -809,8 +809,8 @@
                     "5,8": [
                         "Village v2 - Alternate Tileset",
                         [
-                            28,
-                            3
+                            31,
+                            1
                         ]
                     ],
                     "5,9": [
@@ -1047,7 +1047,7 @@
                     "7,12": [
                         "Village v2 - Alternate Tileset",
                         [
-                            27,
+                            25,
                             3
                         ]
                     ],
@@ -1858,23 +1858,6 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "5,8": "0"
-                },
-                "sprite_grid": {
-                    "5,8": [
-                        "Village v2 - Alternate Tileset",
-                        [
-                            31,
-                            1
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "House5",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
                     "13,11": "0"
                 },
                 "sprite_grid": {
@@ -1883,23 +1866,6 @@
                         [
                             31,
                             0
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "House6",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "7,12": "0"
-                },
-                "sprite_grid": {
-                    "7,12": [
-                        "Village v2 - Alternate Tileset",
-                        [
-                            25,
-                            3
                         ]
                     ]
                 }

@@ -8,7 +8,7 @@
             [
                 "if",
                 [
-                    "unit2.nid == 'Sal'"
+                    "unit2.team == 'player'"
                 ]
             ],
             [
@@ -86,106 +86,6 @@
                 "multi_remove_portrait",
                 [
                     "Sal",
-                    "Frost"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Frost",
-                    "player"
-                ]
-            ],
-            [
-                "reset",
-                [
-                    "Frost"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "unit2.nid != 'Sal' and unit2.team == 'player'"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "With Us!"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Frost",
-                    "Left",
-                    "Sal",
-                    "FarRight",
-                    "{unit2}",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Oh my! Thank you so much!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "{unit2}",
-                    "Of course, glad to help."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "However can I repay you?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We're in a predicament here, could you lend us a hand?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Oh... I, well...|I can't fight, but I can heal your injured."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Good enough for me, I didn't catch your name?|I am Sal, knight of Arcei."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Frost, a pleasure to meet you, Sal.|I will lend Arcei my aid for the time being."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "{Unit2}",
-                    "Welcome aboard!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sal",
-                    "{unit2}",
                     "Frost"
                 ]
             ],
@@ -372,6 +272,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit2.nid == 'Sal'\n    music;With Us!\n    multi_add_portrait;Frost;Left;Sal;Right\n    speak;Frost;Oh my! Thank you so much!\n    speak;Sal;Of course, glad to help.\n    speak;Frost;However can I repay you?\n    speak;Sal;We're in a predicament here, could you lend us a hand?\n    speak;Frost;Oh... I, well...|I can't fight, but I can heal your injured.\n    speak;Sal;Good enough for me, I didn't catch your name?|I am Sal, knight of Arcei.\n    speak;Frost;Frost, a pleasure to meet you, Sal.|I will lend Arcei my aid for the time being.\n    speak;Sal;Welcome aboard!\n    multi_remove_portrait;Sal;Frost\n    change_team;Frost;player\n    reset;Frost\nelif;unit2.nid != 'Sal' and unit2.team == 'player'\n    music;With Us!\n    multi_add_portrait;Frost;Left;Sal;FarRight;{unit2};MidRight\n    speak;Frost;Oh my! Thank you so much!\n    speak;{unit2};Of course, glad to help.\n    speak;Frost;However can I repay you?\n    speak;Sal;We're in a predicament here, could you lend us a hand?\n    speak;Frost;Oh... I, well...|I can't fight, but I can heal your injured.\n    speak;Sal;Good enough for me, I didn't catch your name?|I am Sal, knight of Arcei.\n    speak;Frost;Frost, a pleasure to meet you, Sal.|I will lend Arcei my aid for the time being.\n    speak;{Unit2};Welcome aboard!\n    multi_remove_portrait;Sal;{unit2};Frost\n    change_team;Frost;player\n    reset;Frost\nelif;unit2.team == 'other'\n    multi_add_portrait;Frost;Left;Sal;FarRight;Sages;Right\n    music;With Us!\n    speak;Frost;Oh my! Thank you so much!\n    speak;Sages;Of course, fair maiden!|A true noble always offers his aid to one as sweet as thee!\n    speak;Frost;Uhm, oh. Well that's...\n    speak;Sal;Forgive my Lords... quirks.|We need help right now, so could you return us the favour, please?\n    speak;Frost;Oh... I, well...|I can't fight, but I can heal your injured!\n    speak;Sal;Good enough for me, I didn't catch your name?|I am Sal, knight of Arcei.\n    speak;Sages;And I, Sages, prince of Arcei.\n    speak;Frost;Wow, a real life prince... I am Frost, glad to offer my aid.\n    speak;Sages;Welcome aboard, my dearest sunflower-{c:bop_portrait;Sages;FLAG(no_block)}|Yeowch!\n    speak;Sal;Sh! A pleasure to have you, Frost.\n    multi_remove_portrait;Sal;Sages;Frost\n    change_team;Frost;player\nelse\n    multi_add_portrait;Frost;Left;SoldierRed;Right\n    speak;Frost;Oh my! Thank you so much!\n    speak;SoldierRed;Of course, Ma'am.|Could you help our army fight these violent fugitives?\n    speak;Frost;I can't fight, but I will help heal your injured.\n    speak;SoldierRed;Thank you, Ma'am.\n    multi_remove_portrait;Frost;SoldierRed\n    change_team;Frost;enemy\nend\n"
+        "source": "if;unit2.team == 'player'\n    music;With Us!\n    multi_add_portrait;Frost;Left;Sal;Right\n    speak;Frost;Oh my! Thank you so much!\n    speak;Sal;Of course, glad to help.\n    speak;Frost;However can I repay you?\n    speak;Sal;We're in a predicament here, could you lend us a hand?\n    speak;Frost;Oh... I, well...|I can't fight, but I can heal your injured.\n    speak;Sal;Good enough for me, I didn't catch your name?|I am Sal, knight of Arcei.\n    speak;Frost;Frost, a pleasure to meet you, Sal.|I will lend Arcei my aid for the time being.\n    speak;Sal;Welcome aboard!\n    multi_remove_portrait;Sal;Frost\n    change_team;Frost;player\n    reset;Frost\nelif;unit2.team == 'other'\n    multi_add_portrait;Frost;Left;Sal;FarRight;Sages;Right\n    music;With Us!\n    speak;Frost;Oh my! Thank you so much!\n    speak;Sages;Of course, fair maiden!|A true noble always offers his aid to one as sweet as thee!\n    speak;Frost;Uhm, oh. Well that's...\n    speak;Sal;Forgive my Lords... quirks.|We need help right now, so could you return us the favour, please?\n    speak;Frost;Oh... I, well...|I can't fight, but I can heal your injured!\n    speak;Sal;Good enough for me, I didn't catch your name?|I am Sal, knight of Arcei.\n    speak;Sages;And I, Sages, prince of Arcei.\n    speak;Frost;Wow, a real life prince... I am Frost, glad to offer my aid.\n    speak;Sages;Welcome aboard, my dearest sunflower-{c:bop_portrait;Sages;FLAG(no_block)}|Yeowch!\n    speak;Sal;Sh! A pleasure to have you, Frost.\n    multi_remove_portrait;Sal;Sages;Frost\n    change_team;Frost;player\nelse\n    multi_add_portrait;Frost;Left;SoldierRed;Right\n    speak;Frost;Oh my! Thank you so much!\n    speak;SoldierRed;Of course, Ma'am.|Could you help our army fight these violent fugitives?\n    speak;Frost;I can't fight, but I will help heal your injured.\n    speak;SoldierRed;Thank you, Ma'am.\n    multi_remove_portrait;Frost;SoldierRed\n    change_team;Frost;enemy\nend\n"
     }
 ]

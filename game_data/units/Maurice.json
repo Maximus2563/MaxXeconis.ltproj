@@ -2,7 +2,7 @@
     {
         "nid": "Maurice",
         "name": "Maurice",
-        "desc": "A Monsdorian deserter who has started a bandit group.",
+        "desc": "A highwayman whose greed is insurmountable.",
         "variant": "",
         "level": 4,
         "klass": "Outlaw",
@@ -11,7 +11,7 @@
         ],
         "bases": {
             "HP": 31,
-            "STR": 7,
+            "STR": 6,
             "MAG": 0,
             "SKL": 6,
             "SPD": 10,

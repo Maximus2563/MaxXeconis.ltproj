@@ -14,8 +14,8 @@
             "SKL": 8,
             "SPD": 5,
             "LCK": 2,
-            "DEF": 13,
-            "RES": 3,
+            "DEF": 10,
+            "RES": 1,
             "CON": 13,
             "MOV": 4
         },
@@ -52,7 +52,7 @@
         "learned_skills": [
             [
                 1,
-                "WardingStance"
+                "FierceStance"
             ]
         ],
         "unit_notes": [],

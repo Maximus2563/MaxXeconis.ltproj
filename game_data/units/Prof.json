@@ -63,7 +63,16 @@
                 "Tutelage"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Teaching,Strategising"
+            ],
+            [
+                "Dislikes:",
+                "Oppression,Ignorance"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

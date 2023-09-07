@@ -65,7 +65,7 @@
             },
             {
                 "nid": "Mizt",
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -262,7 +262,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Thief",
                 "faction": "Bandit",
                 "starting_items": [
@@ -277,8 +277,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    6
+                    7,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -358,12 +358,12 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Merc",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Bronze_Sword",
                         false
                     ]
                 ],
@@ -373,7 +373,7 @@
                 "roam_ai": null,
                 "ai_group": "Maurice",
                 "starting_position": [
-                    2,
+                    4,
                     5
                 ],
                 "starting_traveler": null,
@@ -570,8 +570,8 @@
                         6
                     ],
                     "105": [
-                        5,
-                        6
+                        7,
+                        10
                     ],
                     "106": [
                         6,
@@ -586,7 +586,7 @@
                         7
                     ],
                     "109": [
-                        2,
+                        4,
                         5
                     ]
                 }

@@ -4,18 +4,18 @@
         "name": "Blazing",
         "desc": "Son of a Grahment Count. His faith is a source of strength.",
         "variant": "",
-        "level": 3,
+        "level": 4,
         "klass": "Monk",
         "tags": [],
         "bases": {
-            "HP": 18,
+            "HP": 19,
             "STR": 0,
-            "MAG": 5,
+            "MAG": 7,
             "SKL": 7,
             "SPD": 8,
             "LCK": 5,
             "DEF": 3,
-            "RES": 6,
+            "RES": 7,
             "CON": 6,
             "MOV": 5
         },
@@ -56,7 +56,7 @@
         "learned_skills": [
             [
                 1,
-                "FlamingFaith"
+                "Flare_Proc"
             ]
         ],
         "unit_notes": [

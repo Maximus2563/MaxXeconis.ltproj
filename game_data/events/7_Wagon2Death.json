@@ -6,6 +6,12 @@
         "condition": "unit.nid='Wagon2'",
         "commands": [
             [
+                "if",
+                [
+                    "unit.team('Mizt') == 'other'"
+                ]
+            ],
+            [
                 "add_unit",
                 [
                     "Mizt",
@@ -23,6 +29,13 @@
                 ]
             ],
             [
+                "change_team",
+                [
+                    "Mizt",
+                    "Player"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Mizt",
@@ -32,6 +45,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_unit;Mizt;Wagon2;fade;stack;fade\nadd_portrait;Mizt;Right\nspeak;Mizt;Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!\n"
+        "source": "if;unit.team('Mizt') == 'other'\nadd_unit;Mizt;Wagon2;fade;stack;fade\nadd_portrait;Mizt;Right\nchange_team;Mizt;Player\nspeak;Mizt;Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!\n"
     }
 ]

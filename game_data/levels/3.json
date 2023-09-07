@@ -201,6 +201,10 @@
                     [
                         "Wind",
                         false
+                    ],
+                    [
+                        "Vulnerary",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -253,7 +257,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
@@ -357,7 +361,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
@@ -429,11 +433,15 @@
                     [
                         "Iron Bow",
                         false
+                    ],
+                    [
+                        "Talisman",
+                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
@@ -451,7 +459,7 @@
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Iron Blade",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -459,7 +467,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
                     10
@@ -580,7 +588,7 @@
                 "starting_items": [
                     [
                         "Heal",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -621,7 +629,7 @@
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Iron Blade",
                         false
                     ]
                 ],
@@ -652,6 +660,30 @@
                 "roam_ai": null,
                 "ai_group": "G",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": "",
+                "level": 3,
+                "klass": "KnightL",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": true
             },

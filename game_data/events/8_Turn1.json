@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Turn1",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "game.turncount == 1",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.check_alive('Aspl')"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "Left",
+                    "Aspl",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Wanna know something cool?|Sure you do.|See those soldiers?"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Aspl",
+                    "Leap"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "0,11"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "0,11"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "14,3"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "14,3"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "Left",
+                    "Aspl",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Those guys are gonna try and visit the open houses."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "How can you be sure, Aspl?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "I've never been wrong in my life."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Crazy! Well, let's get those guys before they do something mean!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Aspl",
+                    "Leap"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "if;game.check_alive('Aspl')\n    multi_add_portrait;Leap;Left;Aspl;Right\n    speak;Aspl;Wanna know something cool?|Sure you do.|See those soldiers?\n    multi_remove_portrait;Aspl;Leap\n    move_cursor;0,11\n    flicker_cursor;0,11\n    move_cursor;14,3\n    flicker_cursor;14,3\n    multi_add_portrait;Leap;Left;Aspl;Right\n    speak;Aspl;Those guys are gonna try and visit the open houses.\n    speak;Leap;How can you be sure, Aspl?\n    speak;Aspl;I've never been wrong in my life.\n    speak;Leap;Crazy! Well, let's get those guys before they do something mean!\n    multi_remove_portrait;Aspl;Leap\nend\n"
+    }
+]

@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Luck Siphon Child",
-        "name": "Luck Siphon",
-        "desc": "Stackable LCK.",
+        "nid": "Luck_Plus3",
+        "name": "Luck +3",
+        "desc": "Grants LCK +3.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            2,
-            8
+            1,
+            17
         ],
         "components": [
             [
@@ -14,13 +14,9 @@
                 [
                     [
                         "LCK",
-                        1
+                        3
                     ]
                 ]
-            ],
-            [
-                "stack",
-                10
             ]
         ]
     }

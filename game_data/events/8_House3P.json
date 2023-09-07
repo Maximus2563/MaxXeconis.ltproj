@@ -1,0 +1,88 @@
+[
+    {
+        "name": "House3P",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid == 'House3' and unit.team == 'player'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Inside House 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "YoungBoy",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "YoungBoy",
+                    "Time to play? No? Aw...|Well, okay... How about you take this for me?|Ma tells me I shouldn't play with it... Hmph!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "House3"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Ridersbane"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;YoungBoy;Right\nspeak;YoungBoy;Time to play? No? Aw...|Well, okay... How about you take this for me?|Ma tells me I shouldn't play with it... Hmph!\ntransition;Close\nshow_layer;House3\nchange_background\ntransition;Open\ngive_item;{unit};Ridersbane\nhas_traded;{unit}\n"
+    }
+]

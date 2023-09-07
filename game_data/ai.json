@@ -100,20 +100,20 @@
         "nid": "AttackHeal",
         "behaviours": [
             {
-                "action": "Attack",
-                "target": "Enemy",
-                "target_spec": null,
-                "view_range": -3,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
                 "action": "Support",
                 "target": "Ally",
                 "target_spec": null,
                 "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() < (unit.stat['HP'] // 2)"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -852,10 +852,10 @@
                 "condition": ""
             },
             {
-                "action": "None",
-                "target": "None",
-                "target_spec": "",
-                "view_range": 0,
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Talk",
+                "view_range": -1,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -950,7 +950,7 @@
                 "action": "Support",
                 "target": "Ally",
                 "target_spec": null,
-                "view_range": 0,
+                "view_range": -5,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -1001,5 +1001,122 @@
         "priority": 20,
         "offense_bias": 2,
         "roam_ai": true
+    },
+    {
+        "nid": "Humphrey",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "ID",
+                    "Dean"
+                ],
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "HumphreyEscape",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_away_from",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "Visitor",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Event",
+                "target_spec": "Visit",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Visit",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
     }
 ]

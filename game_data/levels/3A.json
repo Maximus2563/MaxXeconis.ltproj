@@ -41,49 +41,10 @@
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     7,
                     2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "SkillCH3",
-                "team": "other",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "EmelinePrincess",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Jeremiah",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    6,
-                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -93,7 +54,7 @@
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     1,
                     12
@@ -106,7 +67,7 @@
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     3,
                     12
@@ -119,61 +80,10 @@
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     13,
                     12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Priest1",
-                "variant": null,
-                "level": 1,
-                "klass": "Priest",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    5,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Priest2",
-                "variant": null,
-                "level": 1,
-                "klass": "Priest",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Argento",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    8,
-                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -183,41 +93,146 @@
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    11,
-                    7
+                    4,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Bishop",
+                "nid": "101",
                 "variant": "Female",
                 "level": 1,
                 "klass": "Bishop",
-                "faction": "Monsdor",
-                "starting_items": [],
+                "faction": "Aurelia",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    3,
-                    7
+                    10,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "Esteban",
+                "nid": "102",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Aurelia",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
                 "team": "other",
-                "ai": "Pursue",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
+                    5,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Priest",
+                "faction": "Aurelia",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Jeremiah",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Argento",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "SkillCH3",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Esteban",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "EmelinePrincess",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
                     5
                 ],
                 "starting_traveler": null,
@@ -253,78 +268,6 @@
                     "Sal": [
                         11,
                         12
-                    ]
-                }
-            },
-            {
-                "nid": "GREEN",
-                "units": [
-                    "Elias",
-                    "Jeremiah",
-                    "Oberon",
-                    "Argento",
-                    "Priest2",
-                    "Priest1",
-                    "Jevil",
-                    "Bishop",
-                    "SkillCH3",
-                    "EmelinePrincess",
-                    "Cres",
-                    "Cornelius",
-                    "Esteban"
-                ],
-                "positions": {
-                    "Elias": [
-                        7,
-                        2
-                    ],
-                    "Jeremiah": [
-                        6,
-                        3
-                    ],
-                    "Argento": [
-                        8,
-                        3
-                    ],
-                    "Priest2": [
-                        5,
-                        8
-                    ],
-                    "Priest1": [
-                        9,
-                        8
-                    ],
-                    "Oberon": [
-                        1,
-                        12
-                    ],
-                    "Jevil": [
-                        3,
-                        12
-                    ],
-                    "Cres": [
-                        13,
-                        12
-                    ],
-                    "Cornelius": [
-                        11,
-                        7
-                    ],
-                    "Bishop": [
-                        3,
-                        7
-                    ],
-                    "EmelinePrincess": [
-                        4,
-                        5
-                    ],
-                    "SkillCH3": [
-                        3,
-                        5
-                    ],
-                    "Esteban": [
-                        11,
-                        5
                     ]
                 }
             }

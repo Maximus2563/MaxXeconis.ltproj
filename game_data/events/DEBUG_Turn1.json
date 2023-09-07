@@ -1,23 +1,23 @@
 [
     {
         "name": "Turn1",
-        "trigger": "enemy_turn_change",
+        "trigger": "turn_change",
         "level_nid": "DEBUG",
         "condition": "True",
         "commands": [
             [
                 "spawn_group",
                 [
-                    "New Group",
-                    "north",
-                    "New Group",
+                    "Guy",
+                    "south",
+                    "Guy",
                     "normal",
-                    "closest"
+                    "stack"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "spawn_group;New Group;north;New Group;normal;closest\n"
+        "source": "spawn_group;Guy;south;Guy;normal;stack\n"
     }
 ]
