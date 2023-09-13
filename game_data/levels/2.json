@@ -155,9 +155,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     18,
                     13
@@ -843,6 +843,10 @@
             {
                 "nid": "Mid",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }
