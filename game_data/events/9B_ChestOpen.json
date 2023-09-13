@@ -1,0 +1,29 @@
+[
+    {
+        "name": "ChestOpen",
+        "trigger": "on_region_interact",
+        "level_nid": "9B",
+        "condition": "region.nid == 'Chest'",
+        "commands": [
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "ChestOpen"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "sound;Unlock\nshow_layer;ChestOpen\nwin_game\n"
+    }
+]

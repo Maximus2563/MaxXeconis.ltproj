@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Turn1",
+        "trigger": "turn_change",
+        "level_nid": "11",
+        "condition": "game.turncount == 1",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.check_alive('Speedy')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Speedy",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Speedy",
+                    "We need to escape, above all.|Don't bother sending me to pick those locks, I would rather stay focused."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Speedy"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "if;game.check_alive('Speedy')\nadd_portrait;Speedy;Right\nspeak;Speedy;We need to escape, above all.|Don't bother sending me to pick those locks, I would rather stay focused.\nremove_portrait;Speedy"
+    }
+]

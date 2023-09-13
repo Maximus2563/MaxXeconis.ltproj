@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Inn",
+        "trigger": "Visit",
+        "level_nid": "9",
+        "condition": "region.nid == 'Inn'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Tavern 2"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "Hey, there's monsters outside, you might want to keep indoors!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Siri",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Siri",
+                    "Hello?|Monsters... like... revenants..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "Sure, we're fighting them."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Siri",
+                    "Oh... Mind if I tag along...|Oh yes... This'll be good..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "Sure..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Siri",
+                    "Siri, at your service...|Sorry if I get... lost in my own world out there."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Inn"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Siri",
+                    "10,4",
+                    "fade",
+                    "stack",
+                    "fade"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Siri",
+                    "10,5",
+                    "normal",
+                    "closest",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Siri",
+                    "player"
+                ]
+            ],
+            [
+                "reset",
+                [
+                    "Siri"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Tavern 2\ntransition;Open\nadd_portrait;{unit};Left\nspeak;{unit};Hey, there's monsters outside, you might want to keep indoors!\nadd_portrait;Siri;Right\nspeak;Siri;Hello?|Monsters... like... revenants...\nspeak;{unit};Sure, we're fighting them.\nspeak;Siri;Oh... Mind if I tag along...|Oh yes... This'll be good...\nspeak;{unit};Sure...\nspeak;Siri;Siri, at your service...|Sorry if I get... lost in my own world out there.\ntransition;Close\nshow_layer;Inn\nchange_background\ntransition;Open\nadd_unit;Siri;10,4;fade;stack;fade\nmove_unit;Siri;10,5;normal;closest;FLAG(no_follow)\nchange_team;Siri;player\nreset;Siri\n"
+    }
+]

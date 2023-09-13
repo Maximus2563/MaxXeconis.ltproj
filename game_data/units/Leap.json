@@ -6,7 +6,9 @@
         "variant": "Female",
         "level": 1,
         "klass": "Servant",
-        "tags": [],
+        "tags": [
+            "Required"
+        ],
         "bases": {
             "HP": 17,
             "STR": 4,

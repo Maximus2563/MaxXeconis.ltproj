@@ -1,0 +1,52 @@
+[
+    {
+        "name": "WarpZashar",
+        "trigger": "unit_wait",
+        "level_nid": "9",
+        "condition": "get_units_in_region('WarpZashar', team='player')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Zashar",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zashar",
+                    "Hehehe! Catch me if you can!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Zashar"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Zashar",
+                    "18,5",
+                    "warp",
+                    "closest"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "116",
+                    "6,1",
+                    "warp",
+                    "push",
+                    "fade"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "add_portrait;Zashar;Right\nspeak;Zashar;Hehehe! Catch me if you can!\nremove_portrait;Zashar\nmove_unit;Zashar;18,5;warp;closest\nadd_unit;116;6,1;warp;push;fade\n"
+    }
+]

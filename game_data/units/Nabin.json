@@ -9,14 +9,14 @@
         "tags": [],
         "bases": {
             "HP": 30,
-            "STR": 12,
-            "MAG": 7,
-            "SKL": 18,
-            "SPD": 14,
+            "STR": 10,
+            "MAG": 4,
+            "SKL": 16,
+            "SPD": 15,
             "LCK": 10,
             "DEF": 6,
             "RES": 10,
-            "CON": 9,
+            "CON": 10,
             "MOV": 6
         },
         "growths": {
@@ -45,22 +45,18 @@
         },
         "starting_items": [
             [
-                "Shamshir",
+                "Wind Sword",
                 false
             ],
             [
-                "Light Brand",
+                "Epee",
                 false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "Mystic Power"
-            ],
-            [
-                1,
-                "MYSTIC CRIT"
+                "FlashingBlade"
             ]
         ],
         "unit_notes": [],

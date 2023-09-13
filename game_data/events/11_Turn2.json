@@ -1,0 +1,277 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "11",
+        "condition": "game.turncount == 2",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "Gang2",
+                    "south",
+                    "Gang2",
+                    "normal",
+                    "stack"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.team('Siri') == player"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Siri",
+                    "player",
+                    "None"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Siri",
+                    "5,29",
+                    "fade",
+                    "stack",
+                    "south"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "music",
+                [
+                    "Guest of Shade"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Liz')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Liz",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Liz",
+                    "This was where they went...|I'm comin' for you guys!|Even if I'm terrified..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Liz"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Mizt')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Mizt",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mizt",
+                    "Have no fear, Leap and Prof, I'll guide us all to safety..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Mizt"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Aspl') and game.check_alive('Bread')"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Aspl",
+                    "Left",
+                    "Bread",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Looks a piece of cake."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "This place is HUGE!|But not cute at all..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Guards will be easy for us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Yay!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Aspl",
+                    "Bread"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Siri') and unit.team('Siri') == player and game.check_alive('Shoop')"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Siri",
+                    "Left",
+                    "Shoop",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "So many fresh test subjects for my new spell...|Kehahaha!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Siri",
+                    "No monsters sadly...|A shame, I wanted more."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Monsters don't quite make the same noises when you set them on fire.|But they're fine, I guess."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Siri",
+                    "Alright, let's go.|But you'll have to teach me how to do makeup like you soon!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Siri"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shoop",
+                    "Like you'd be able to pull of this look..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Siri"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "len(game.get_player_units()) > 3"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Leap"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Leap",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Looks like we have help!|Let's get moving!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Leap"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "music_fade_back",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "spawn_group;Gang2;south;Gang2;normal;stack\nif;unit.team('Siri') == player\n    load_unit;Siri;player;None\n    add_unit;Siri;5,29;fade;stack;south\nend\nmusic;Guest of Shade\nif;game.check_alive('Liz')\n    add_portrait;Liz;Left\n    speak;Liz;This was where they went...|I'm comin' for you guys!|Even if I'm terrified...\n    remove_portrait;Liz\nend\nif;game.check_alive('Mizt')\n    add_portrait;Mizt;Left\n    speak;Mizt;Have no fear, Leap and Prof, I'll guide us all to safety...\n    remove_portrait;Mizt\nend\nif;game.check_alive('Aspl') and game.check_alive('Bread')\n    multi_add_portrait;Aspl;Left;Bread;Right\n    speak;Aspl;Looks a piece of cake.\n    speak;Bread;This place is HUGE!|But not cute at all...\n    speak;Aspl;Guards will be easy for us.\n    speak;Bread;Yay!\n    multi_remove_portrait;Aspl;Bread\nend\nif;game.check_alive('Siri') and unit.team('Siri') == player and game.check_alive('Shoop')\n    multi_add_portrait;Siri;Left;Shoop;Right\n    speak;Shoop;So many fresh test subjects for my new spell...|Kehahaha!\n    speak;Siri;No monsters sadly...|A shame, I wanted more.\n    speak;Shoop;Monsters don't quite make the same noises when you set them on fire.|But they're fine, I guess.\n    speak;Siri;Alright, let's go.|But you'll have to teach me how to do makeup like you soon!\n    remove_portrait;Siri\n    speak;Shoop;Like you'd be able to pull of this look...\n    remove_portrait;Siri\nend\nif;len(game.get_player_units()) > 3\n    move_cursor;Leap\n    add_portrait;Leap;Right\n    speak;Leap;Looks like we have help!|Let's get moving!\n    remove_portrait;Leap\nend\nmusic_fade_back\n"
+    }
+]

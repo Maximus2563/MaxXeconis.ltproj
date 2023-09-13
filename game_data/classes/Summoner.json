@@ -2,7 +2,7 @@
     {
         "nid": "Summoner",
         "name": "Summoner",
-        "desc": "Advanced wielders of the natural magics.",
+        "desc": "Dark mages who summon vile monsters.",
         "tier": 2,
         "movement_group": "Mages",
         "promotes_from": "Shaman",
@@ -122,7 +122,7 @@
                 251
             ]
         },
-        "icon_nid": "[MAG] Druid (M) Magic {IS}",
+        "icon_nid": "[MAG] Summoner (M) {Unknown}",
         "icon_index": [
             0,
             0

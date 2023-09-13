@@ -12,9 +12,9 @@
         "bases": {
             "HP": 29,
             "STR": 8,
-            "MAG": 5,
+            "MAG": 0,
             "SKL": 8,
-            "SPD": 11,
+            "SPD": 10,
             "LCK": 2,
             "DEF": 7,
             "CON": 9,

@@ -24,7 +24,7 @@
                 ]
             ],
             [
-                "add_portrait",
+                "multi_add_portrait",
                 [
                     "{unit}",
                     "Left",
@@ -71,6 +71,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nadd_portrait;{unit};Left;Maxime;Right\nexpression;Maxime;HalfCloseEyes\nspeak;Maxime;What's with all the... noise...|A fight? No thanks, I want no part of it.|Bye...\ntransition;Close\nchange_background\ntransition;Open\nhas_traded;{unit}\n"
+        "source": "transition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nmulti_add_portrait;{unit};Left;Maxime;Right\nexpression;Maxime;HalfCloseEyes\nspeak;Maxime;What's with all the... noise...|A fight? No thanks, I want no part of it.|Bye...\ntransition;Close\nchange_background\ntransition;Open\nhas_traded;{unit}\n"
     }
 ]

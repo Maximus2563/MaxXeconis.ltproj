@@ -2,7 +2,7 @@
     {
         "nid": "Reckless_Axe",
         "name": "Reckless Axe",
-        "desc": "Inflicts dodge -20 to user.",
+        "desc": "Inflicts Dodge -20 to user.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
             13,

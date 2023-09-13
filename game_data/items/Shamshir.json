@@ -2,7 +2,7 @@
     {
         "nid": "Shamshir",
         "name": "Shamshir",
-        "desc": "For light swordfighters only",
+        "desc": "For myrmidon classes only.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -76,10 +76,10 @@
                 [
                     "Myrmidon",
                     "Swordmaster",
-                    "Eirika_Lord",
                     "Assassin",
                     "Sword_Bonewalker",
-                    "Sword_Wight"
+                    "Sword_Wight",
+                    "Citizen"
                 ]
             ],
             [

@@ -1,0 +1,235 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "9",
+        "condition": "True",
+        "commands": [
+            [
+                "chapter_title",
+                []
+            ],
+            [
+                "change_background",
+                [
+                    "Village 6 Day"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "The Waxwork Museum"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "Left",
+                    "Prof",
+                    "Right"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Whew, we're on Ilkrest territory."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Through this town is the estate of the Duke.|The waterways are rather nice..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Almost makes me want a dip...|But now's hardly the time, of course."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Quite, but it's eerily quiet for this time of day..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Yeah, you're right...|Let's go onward!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "Prof"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "move_cursor",
+                [
+                    "7,13"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "Player",
+                    "south",
+                    "Player",
+                    "normal",
+                    "stack"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "MidRight",
+                    "Prof",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "This town is rather nice...|Hang on, am I imagining... a floating eye...?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Is someone playing tricks on us...?|Gah! Another goopy! thing!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "This is awful..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Looks like there's one man amongst them..."
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Zashar"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Zashar"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "62 Prelude to Dispute"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zashar",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zashar",
+                    "Feeble travellers! Feel the might of Arcei's mightiest magic!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Arcei..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "It all feels so strange...|You think if Arcei were involved they'd be more... discreet."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Well... yeah...|Who'd want that kind of attention?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zashar",
+                    "Quake in fear as my monsters sever your limbs!|Hahaha!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Screaming like a lunatic is not discreet at all.|Let us put an end to this freak before he does anything..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Yes... Let's do it!"
+                ]
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "music",
+                [
+                    "ResolveDark"
+                ]
+            ],
+            [
+                "prep",
+                []
+            ],
+            [
+                "music_fade_back",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "chapter_title\nchange_background;Village 6 Day\nmusic;The Waxwork Museum\nmulti_add_portrait;Leap;Left;Prof;Right\ntransition;open\nspeak;Leap;Whew, we're on Ilkrest territory.\nspeak;Prof;Through this town is the estate of the Duke.|The waterways are rather nice...\nspeak;Leap;Almost makes me want a dip...|But now's hardly the time, of course.\nspeak;Prof;Quite, but it's eerily quiet for this time of day...\nspeak;Leap;Yeah, you're right...|Let's go onward!\nmulti_remove_portrait;Leap;Prof\nchange_background\nmove_cursor;7,13\nspawn_group;Player;south;Player;normal;stack\nmulti_add_portrait;Leap;MidRight;Prof;FarRight\nspeak;Prof;This town is rather nice...|Hang on, am I imagining... a floating eye...?\nspeak;Leap;Is someone playing tricks on us...?|Gah! Another goopy! thing!\nspeak;Leap;This is awful...\nspeak;Prof;Looks like there's one man amongst them...\nmove_cursor;Zashar\nflicker_cursor;Zashar\nmusic;62 Prelude to Dispute\nadd_portrait;Zashar;Left\nspeak;Zashar;Feeble travellers! Feel the might of Arcei's mightiest magic!\nspeak;Leap;Arcei...\nspeak;Prof;It all feels so strange...|You think if Arcei were involved they'd be more... discreet.\nspeak;Leap;Well... yeah...|Who'd want that kind of attention?\nspeak;Zashar;Quake in fear as my monsters sever your limbs!|Hahaha!\nspeak;Prof;Screaming like a lunatic is not discreet at all.|Let us put an end to this freak before he does anything...\nspeak;Leap;Yes... Let's do it!\nmusic_clear\nmusic;ResolveDark\nprep\nmusic_fade_back\n"
+    }
+]

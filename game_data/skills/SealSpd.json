@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SealSpd",
+        "name": "Seal Speed",
+        "desc": "Lowers target's SPD by 6 after combat.\n(Recovers 1/turn).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            30
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_combat",
+                "SealSpdStatus"
+            ]
+        ]
+    }
+]

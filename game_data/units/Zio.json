@@ -12,11 +12,11 @@
             "STR": 9,
             "MAG": 11,
             "SKL": 7,
-            "SPD": 16,
+            "SPD": 14,
             "LCK": 14,
             "DEF": 7,
             "RES": 13,
-            "CON": 6,
+            "CON": 7,
             "MOV": 8
         },
         "growths": {
@@ -45,11 +45,20 @@
         },
         "starting_items": [
             [
-                "Thunder",
+                "Thoron",
+                false
+            ],
+            [
+                "Bronze_Lance",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "FlightorFlight"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

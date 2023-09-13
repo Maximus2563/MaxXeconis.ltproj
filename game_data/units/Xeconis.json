@@ -14,9 +14,9 @@
             "SKL": 12,
             "SPD": 11,
             "LCK": 6,
-            "DEF": 8,
-            "RES": 5,
-            "CON": 7,
+            "DEF": 7,
+            "RES": 3,
+            "CON": 9,
             "MOV": 5
         },
         "growths": {

@@ -43,6 +43,10 @@
                 [
                     "Sleepwalker"
                 ]
+            ],
+            [
+                "unit_anim",
+                "MapStun"
             ]
         ]
     }

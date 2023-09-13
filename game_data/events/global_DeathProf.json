@@ -15,14 +15,48 @@
             [
                 "if",
                 [
-                    "game.level.nid in ['7', '8']"
+                    "game.level.nid in ['7', '8', '9']"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "108 Lament"
                 ]
             ],
             [
                 "speak",
                 [
                     "Prof",
-                    "I must step back, for now..."
+                    "Argh.. Leap..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Prof",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Prof"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I'll have to back off, for now..."
                 ]
             ],
             [
@@ -38,6 +72,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Prof;Right\nif;game.level.nid in ['7', '8']\n    speak;Prof;I must step back, for now...\n    remove_portrait;Prof\nend\n"
+        "source": "add_portrait;Prof;Right\nif;game.level.nid in ['7', '8', '9']\n    music;108 Lament\n    speak;Prof;Argh.. Leap...\n    expression;Prof;CloseEyes\n    remove_portrait;Prof\n    lose_game\nelse\n    speak;Prof;I'll have to back off, for now...\n    remove_portrait;Prof\nend\n"
     }
 ]

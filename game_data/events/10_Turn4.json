@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "10",
+        "condition": "game.turncount == 4",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "Rein1",
+                    "north",
+                    "Rein1",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierWhite",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierWhite",
+                    "What is going on here?!|Cease this immediately!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SoldierWhite"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "spawn_group;Rein1;north;Rein1;normal;closest\nadd_portrait;SoldierWhite;Left\nspeak;SoldierWhite;What is going on here?!|Cease this immediately!\nremove_portrait;SoldierWhite\n"
+    }
+]

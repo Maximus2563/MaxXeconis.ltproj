@@ -10,11 +10,11 @@
         ],
         "components": [
             [
-                "class_skill",
+                "close_counter",
                 null
             ],
             [
-                "close_counter",
+                "class_skill",
                 null
             ]
         ]

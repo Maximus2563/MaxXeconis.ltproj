@@ -17,7 +17,7 @@
         "objective": {
             "simple": "Deliver Wagons",
             "win": "Deliver Wagons",
-            "loss": "Leap dies, Wagons die"
+            "loss": "Leap, Prof die, All Wagons die"
         },
         "roam": false,
         "roam_unit": null,

@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "SpeedPlus3",
+        "name": "Speed +3",
+        "desc": "Grants SPD +2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            16
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

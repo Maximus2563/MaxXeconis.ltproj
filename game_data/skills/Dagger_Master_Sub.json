@@ -2,7 +2,7 @@
     {
         "nid": "Dagger Master Sub",
         "name": "Dagger Master",
-        "desc": "Grants +1 dmg dealt for every stat the enemy has debuffed.",
+        "desc": "Grants +1 ATK for every stat the enemy has debuffed.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

@@ -2,7 +2,7 @@
     {
         "nid": "Typhoon Balm",
         "name": "Typhoon Balm",
-        "desc": "Grants SPD+2/LCK+4 when healing an ally.",
+        "desc": "Grants SPD+2/LCK+4 when healing a single ally.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -14,12 +14,16 @@
                 null
             ],
             [
-                "combat_condition",
-                "target.team == unit.team"
+                "combat_art",
+                "TyphoonBalmProc"
             ],
             [
-                "give_status_after_attack",
-                "Typhoon Balm Child   "
+                "drain_charge",
+                5
+            ],
+            [
+                "allowed_weapons",
+                "item.nid == 'Heal' or 'Mend' or 'Recover' or 'Physic' or 'Patch'"
             ]
         ]
     }

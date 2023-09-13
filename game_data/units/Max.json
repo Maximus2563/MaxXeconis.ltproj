@@ -14,7 +14,7 @@
             "SKL": 15,
             "SPD": 15,
             "LCK": 5,
-            "DEF": 10,
+            "DEF": 9,
             "RES": 8,
             "CON": 9,
             "MOV": 7
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Thunder",
+                "Elthunder",
                 false
             ],
             [

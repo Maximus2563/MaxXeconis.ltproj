@@ -1,0 +1,285 @@
+[
+    {
+        "nid": "9B",
+        "name": "Roam: Ilkrest Manor",
+        "tilemap": "OtherCastle",
+        "bg_tilemap": null,
+        "party": "LeapGroup",
+        "music": {
+            "player_phase": "The Defendants' Antechamber"
+        },
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Leap",
+        "go_to_overworld": false,
+        "should_record": false,
+        "units": [
+            {
+                "nid": "Leap",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Prof",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nabin",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Hogarth",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Soldier1",
+                "variant": null,
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Merc1",
+                "variant": null,
+                "level": 1,
+                "klass": "Merc",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Mage",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Ballista",
+                "variant": null,
+                "level": 1,
+                "klass": "Ballistician",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Ballista2",
+                "variant": null,
+                "level": 1,
+                "klass": "Ballistician",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Cleric",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Cleric2",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Knight",
+                "variant": null,
+                "level": 1,
+                "klass": "KnightS",
+                "faction": "Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Chest",
+                "region_type": "event",
+                "position": [
+                    9,
+                    0
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House",
+                "region_type": "event",
+                "position": [
+                    22,
+                    30
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "LeapProf",
+                "units": [
+                    "Leap",
+                    "Prof"
+                ],
+                "positions": {
+                    "Leap": [
+                        23,
+                        11
+                    ],
+                    "Prof": [
+                        22,
+                        11
+                    ],
+                    "Speedy": [
+                        24,
+                        11
+                    ],
+                    "Nabin": [
+                        23,
+                        12
+                    ]
+                }
+            }
+        ],
+        "ai_groups": []
+    }
+]

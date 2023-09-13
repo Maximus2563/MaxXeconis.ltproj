@@ -57,17 +57,23 @@
                 ]
             ],
             [
+                "enable_fog_of_war",
+                [
+                    "true"
+                ]
+            ],
+            [
                 "set_fog_of_war",
                 [
                     "gba",
                     "3",
-                    "3",
+                    "7",
                     "3"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "sound;WaterTileUp\nshow_layer;Pillar2;fade\nwait;100\nmove_cursor;Septimus\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;You're meddling with power beyond your ken.|But how well will you do, if you cannot see?|Hahaha!\nremove_portrait;Septimus\nset_fog_of_war;gba;3;3;3\n"
+        "source": "sound;WaterTileUp\nshow_layer;Pillar2;fade\nwait;100\nmove_cursor;Septimus\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;You're meddling with power beyond your ken.|But how well will you do, if you cannot see?|Hahaha!\nremove_portrait;Septimus\nenable_fog_of_war;true\nset_fog_of_war;gba;3;7;3"
     }
 ]

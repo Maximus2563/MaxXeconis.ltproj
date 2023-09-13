@@ -615,6 +615,21 @@
         "status": null
     },
     {
+        "nid": "412",
+        "name": "Ice",
+        "color": [
+            142,
+            217,
+            232
+        ],
+        "minimap": "Dark_Snow",
+        "platform": "Snow",
+        "background": "Cliff",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "42",
         "name": "Edifice",
         "color": [

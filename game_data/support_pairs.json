@@ -672,7 +672,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 29,
+                "requirement": 27,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -685,7 +685,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 51,
+                "requirement": 48,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,

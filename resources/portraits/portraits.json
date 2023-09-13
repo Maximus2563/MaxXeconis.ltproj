@@ -2016,7 +2016,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Walter",
+        "nid": "Dean",
         "blinking_offset": [
             16,
             24
@@ -2060,6 +2060,42 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zashar",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZasharMonster",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Eustace",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
         ],
         "info_offset": 0
     }

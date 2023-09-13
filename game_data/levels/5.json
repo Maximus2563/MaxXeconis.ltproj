@@ -247,9 +247,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "North",
+                "ai_group": "",
                 "starting_position": [
                     17,
                     5
@@ -349,6 +349,30 @@
                 "starting_position": [
                     17,
                     10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 5,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Bronze_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "South",
+                "starting_position": [
+                    13,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -492,6 +516,48 @@
                 "generic": true
             },
             {
+                "nid": "132",
+                "variant": null,
+                "level": 4,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Poison Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 4,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "118",
                 "variant": null,
                 "level": 5,
@@ -529,7 +595,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "Cavalry",
                 "starting_position": [
@@ -553,7 +619,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "Cavalry",
                 "starting_position": [
@@ -577,7 +643,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "Cavalry",
                 "starting_position": [
@@ -609,27 +675,6 @@
                 "generic": true
             },
             {
-                "nid": "129",
-                "variant": null,
-                "level": 4,
-                "klass": "BowCavalier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "124",
                 "variant": null,
                 "level": 5,
@@ -638,27 +683,6 @@
                 "starting_items": [
                     [
                         "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 5,
-                "klass": "AxeCavalier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Axe",
                         false
                     ]
                 ],
@@ -1197,9 +1221,7 @@
                 "nid": "CavReinforcement",
                 "units": [
                     "123",
-                    "124",
-                    "129",
-                    "130"
+                    "124"
                 ],
                 "positions": {
                     "123": [
@@ -1209,14 +1231,6 @@
                     "124": [
                         6,
                         15
-                    ],
-                    "129": [
-                        6,
-                        13
-                    ],
-                    "130": [
-                        5,
-                        12
                     ]
                 }
             },
@@ -1234,6 +1248,23 @@
                     "128": [
                         0,
                         5
+                    ]
+                }
+            },
+            {
+                "nid": "WyvernReinforcement2",
+                "units": [
+                    "132",
+                    "133"
+                ],
+                "positions": {
+                    "132": [
+                        21,
+                        3
+                    ],
+                    "133": [
+                        21,
+                        10
                     ]
                 }
             }
@@ -1254,10 +1285,6 @@
             {
                 "nid": "Cavalry",
                 "trigger_threshold": 2
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }

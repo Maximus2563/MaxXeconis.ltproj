@@ -24,7 +24,7 @@
                 ]
             ],
             [
-                "add_portrait",
+                "multi_add_portrait",
                 [
                     "Sal",
                     "Left",
@@ -134,6 +134,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nadd_portrait;Sal;Left;Maxime;Right\nexpression;Maxime;HalfCloseEyes\nspeak;Maxime;What's with all the... noise...\nspeak;Sal;Ah, you! Could you give us a hand?\nspeak;Maxime;Huh? Mademoiselle, I'm afraid I don't work for nothing.|Plus I really need my... *yawn* beauty sleep...\nspeak;Sal;Come on, our lord foreited a lot of money to you earlier.\nspeak;Maxime;His error, no?|Though if this will take that frown off your pretty face-\nspeak;Sal;Watch your tongue.\nspeak;Maxime;Just take this, it's good for playing dirty...\nspeak;Sal;Well, thanks, I guess.\nspeak;Maxime;Now if you don't mind, I'd love to go back to bed, ta-ta!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;Sal;Poison Sword (Poison Sword)\nhas_traded;{unit}\n"
+        "source": "transition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nmulti_add_portrait;Sal;Left;Maxime;Right\nexpression;Maxime;HalfCloseEyes\nspeak;Maxime;What's with all the... noise...\nspeak;Sal;Ah, you! Could you give us a hand?\nspeak;Maxime;Huh? Mademoiselle, I'm afraid I don't work for nothing.|Plus I really need my... *yawn* beauty sleep...\nspeak;Sal;Come on, our lord foreited a lot of money to you earlier.\nspeak;Maxime;His error, no?|Though if this will take that frown off your pretty face-\nspeak;Sal;Watch your tongue.\nspeak;Maxime;Just take this, it's good for playing dirty...\nspeak;Sal;Well, thanks, I guess.\nspeak;Maxime;Now if you don't mind, I'd love to go back to bed, ta-ta!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;Sal;Poison Sword (Poison Sword)\nhas_traded;{unit}\n"
     }
 ]

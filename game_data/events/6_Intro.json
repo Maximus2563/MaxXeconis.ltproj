@@ -143,6 +143,12 @@
                 []
             ],
             [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
                 "spawn_group",
                 [
                     "Sag",
@@ -156,12 +162,6 @@
                 [
                     "Sages",
                     "Sal"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
                 ]
             ],
             [
@@ -204,6 +204,12 @@
                 "flicker_cursor",
                 [
                     "14,2"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Suspicious Folk"
                 ]
             ],
             [
@@ -386,7 +392,7 @@
                 "remove_unit",
                 [
                     "Emmanuel",
-                    "immediate",
+                    "fade",
                     "south"
                 ]
             ],
@@ -395,6 +401,12 @@
                 [
                     "Septimus",
                     "Good, nobody in my way.|Scurry onward, my beautiful creations!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Septimus"
                 ]
             ],
             [
@@ -484,6 +496,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "remove_tag;Sal;Required\nremove_tag;Sal;Convoy\nchapter_title\nchange_background;Temple\ntransition;Open\nmusic;72 The Wistful Wilds\nmulti_add_portrait;Sal;MidLeft;Sages;FarLeft\nspeak;Sal;I'm sorry, your highness.|But your fathers orders...\nspeak;Sages;...;FLAG(no_talk)\nspeak;Sal;Don't pout at me...\nspeak;Sages;If he told you to burn yourself alive, would you?\nspeak;Sal;Look, I'd rather minimise any danger to you...\nspeak;Sages;Hmph, where are we anyway?\nspeak;Sal;The underground passage, our escape.\nspeak;Sages;If it's an escape route, then it should be empty, right?\nspeak;Sal;Safety is the idea, yes.\nspeak;Sages;Then, what is THAT!\nmulti_remove_portrait;Sages;Sal\nend_skip\ntransition;close\nchange_background\nspawn_group;Sag;north;Sag;normal\npair_up;Sages;Sal\ntransition;open\nseparate;Sal\nadd_unit;Sages;3,2;fade;stack\nmove_unit;Sages;2,2;normal;stack\ntransition;open\ncenter_cursor;14,2\nflicker_cursor;14,2\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Ew! Gross!\nif;game.check_alive('Pykroe')\n    add_portrait;Pykroe;FarLeft\n    speak;Pykroe;Haha! A most foul revenant!\n    speak;Sages;A revenant?\n    speak;Pykroe;Indeed, a foul miscreation!|But how on earth could it be here...|Revenants are born of foul dark magic!\n    speak;Sal;But... that would be forbidden necromancy!\nelse\n    speak;Sal;Looks like a monster...\n    speak;Sages;A monster!?\n    speak;Sal;But... those are made by forbidden dark magic!\nend\nmulti_remove_portrait;Sages;Sal;Pykroe\nmove_cursor;10,17\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;Hmph, childs play.|Your secrets are poorly kept.\nadd_portrait;Emmanuel;Left\nspeak;Emmanuel;A tactical stroke of genius, from yours truly.|I told brother that there'd be stragglers.\nspeak;Septimus;Yet, Emmanuel, you would not have found this without me.\nspeak;Emmanuel;Fine, you win. Team effort.\nspeak;Septimus;You! Prince Sages! Down here, nobody will hear you scream.\nspeak;Emmanuel;Hehehe... I'll leave this to you.|I needn't worry myself with this easy pickings.\nremove_portrait;Emmanuel\nmove_unit;Emmanuel;11,17;FLAG(no_follow)\nremove_unit;Emmanuel;immediate;south\nspeak;Septimus;Good, nobody in my way.|Scurry onward, my beautiful creations!\nmove_cursor;Sages\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Man, we need to take that guy out...|But how are we going to reach him?\nspeak;Sal;These pillars are the key, if we break them, it'll open up a path.\nmulti_remove_portrait;Sages;Sal\nflicker_cursor;Pillar1\nflicker_cursor;Pillar2\nflicker_cursor;Pillar3\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Hm, alright. Let's do this!\nmulti_remove_portrait;Sages;Sal\nprep;true;Logic Trinity\n"
+        "source": "remove_tag;Sal;Required\nremove_tag;Sal;Convoy\nchapter_title\nchange_background;Temple\ntransition;Open\nmusic;72 The Wistful Wilds\nmulti_add_portrait;Sal;MidLeft;Sages;FarLeft\nspeak;Sal;I'm sorry, your highness.|But your fathers orders...\nspeak;Sages;...;FLAG(no_talk)\nspeak;Sal;Don't pout at me...\nspeak;Sages;If he told you to burn yourself alive, would you?\nspeak;Sal;Look, I'd rather minimise any danger to you...\nspeak;Sages;Hmph, where are we anyway?\nspeak;Sal;The underground passage, our escape.\nspeak;Sages;If it's an escape route, then it should be empty, right?\nspeak;Sal;Safety is the idea, yes.\nspeak;Sages;Then, what is THAT!\nmulti_remove_portrait;Sages;Sal\nend_skip\ntransition;close\nchange_background\ntransition;open\nspawn_group;Sag;north;Sag;normal\npair_up;Sages;Sal\nseparate;Sal\nadd_unit;Sages;3,2;fade;stack\nmove_unit;Sages;2,2;normal;stack\ntransition;open\ncenter_cursor;14,2\nflicker_cursor;14,2\nmusic;Suspicious Folk\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Ew! Gross!\nif;game.check_alive('Pykroe')\n    add_portrait;Pykroe;FarLeft\n    speak;Pykroe;Haha! A most foul revenant!\n    speak;Sages;A revenant?\n    speak;Pykroe;Indeed, a foul miscreation!|But how on earth could it be here...|Revenants are born of foul dark magic!\n    speak;Sal;But... that would be forbidden necromancy!\nelse\n    speak;Sal;Looks like a monster...\n    speak;Sages;A monster!?\n    speak;Sal;But... those are made by forbidden dark magic!\nend\nmulti_remove_portrait;Sages;Sal;Pykroe\nmove_cursor;10,17\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;Hmph, childs play.|Your secrets are poorly kept.\nadd_portrait;Emmanuel;Left\nspeak;Emmanuel;A tactical stroke of genius, from yours truly.|I told brother that there'd be stragglers.\nspeak;Septimus;Yet, Emmanuel, you would not have found this without me.\nspeak;Emmanuel;Fine, you win. Team effort.\nspeak;Septimus;You! Prince Sages! Down here, nobody will hear you scream.\nspeak;Emmanuel;Hehehe... I'll leave this to you.|I needn't worry myself with this easy pickings.\nremove_portrait;Emmanuel\nmove_unit;Emmanuel;11,17;FLAG(no_follow)\nremove_unit;Emmanuel;fade;south\nspeak;Septimus;Good, nobody in my way.|Scurry onward, my beautiful creations!\nremove_portrait;Septimus\nmove_cursor;Sages\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Man, we need to take that guy out...|But how are we going to reach him?\nspeak;Sal;These pillars are the key, if we break them, it'll open up a path.\nmulti_remove_portrait;Sages;Sal\nflicker_cursor;Pillar1\nflicker_cursor;Pillar2\nflicker_cursor;Pillar3\nmulti_add_portrait;Sages;Left;Sal;Right\nspeak;Sages;Hm, alright. Let's do this!\nmulti_remove_portrait;Sages;Sal\nprep;true;Logic Trinity\n"
     }
 ]

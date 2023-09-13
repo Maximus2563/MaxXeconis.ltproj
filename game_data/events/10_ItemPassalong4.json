@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ItemPassalong4",
+        "trigger": "unit_death",
+        "level_nid": "10",
+        "condition": "unit.nid == '108'",
+        "commands": [
+            [
+                "move_item",
+                [
+                    "108",
+                    "Leap"
+                ]
+            ],
+            [
+                "move_item",
+                [
+                    "108",
+                    "Leap"
+                ]
+            ],
+            [
+                "move_item",
+                [
+                    "108",
+                    "Leap"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "move_item;108;Leap;\nmove_item;108;Leap;\nmove_item;108;Leap;\n"
+    }
+]

@@ -2,10 +2,10 @@
     {
         "nid": "Dawn",
         "name": "Dawn",
-        "desc": "A hedonistic noblewoman who is related to the royals.",
+        "desc": "Emeline's cousin, youthful and full of energy.",
         "variant": "Female",
         "level": 1,
-        "klass": "Sage",
+        "klass": "Priestess",
         "tags": [],
         "bases": {
             "HP": 20,

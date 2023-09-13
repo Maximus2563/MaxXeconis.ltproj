@@ -2,10 +2,10 @@
     {
         "nid": "Helia",
         "name": "Helia",
-        "desc": "A caring noblewoman who is related to the royals.",
-        "variant": "",
+        "desc": "Emeline's cousin, dutiful and caring, but diffident.",
+        "variant": "Female",
         "level": 3,
-        "klass": "Priestess",
+        "klass": "Valkyrie",
         "tags": [],
         "bases": {
             "HP": 19,

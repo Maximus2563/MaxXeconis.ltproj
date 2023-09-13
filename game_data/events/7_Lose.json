@@ -22,6 +22,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;game.check_dead('Wagon1') and game.check_dead('Wagon2') and game.check_dead('Wagon3')\nlose_game\nend\n"
+        "source": "if;game.check_dead('Wagon1') and game.check_dead('Wagon2') and game.check_dead('Wagon3')\n    lose_game\nend\n"
     }
 ]

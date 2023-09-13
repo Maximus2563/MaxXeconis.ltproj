@@ -4,7 +4,7 @@
         "name": "Roam: Castle Nords",
         "tilemap": "SageCastleRoam",
         "bg_tilemap": null,
-        "party": "MaxYoungGroup",
+        "party": "SalGroup",
         "music": {
             "player_phase": "74 Dance in the Dark",
             "enemy_phase": null,

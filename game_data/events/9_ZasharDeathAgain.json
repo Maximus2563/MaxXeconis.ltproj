@@ -1,0 +1,50 @@
+[
+    {
+        "name": "ZasharDeathAgain",
+        "trigger": "unit_death",
+        "level_nid": "9",
+        "condition": "unit.nid == 'ZasharCyclops'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "ZasharMonster",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "ZasharMonster",
+                    "Grr... Gaurgh..."
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "CyclopsCrit"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "ZasharMonster",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "ZasharMonster"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;ZasharMonster;Right\nspeak;ZasharMonster;Grr... Gaurgh...\nsound;CyclopsCrit\nexpression;ZasharMonster;CloseEyes\nremove_portrait;ZasharMonster\nwin_game"
+    }
+]

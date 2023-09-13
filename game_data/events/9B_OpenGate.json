@@ -1,0 +1,119 @@
+[
+    {
+        "name": "OpenGate",
+        "trigger": "on_talk",
+        "level_nid": "9B",
+        "condition": "unit2.nid == 'Soldier'",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "Left",
+                    "SoldierWhite",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Uhm, hello!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierWhite",
+                    "State your purpose."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "I er, seek an audience with Duke Hogarth."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierWhite",
+                    "Don't we all."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "It's urgent, regarding the state of the war..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierWhite",
+                    "Fine, you may speak to him.|Open the gate!"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "Outergate",
+                    "fade"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "WaterTileUp"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierWhite",
+                    "On the left, don't wander, that clear?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Thank you so much!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "SoldierWhite"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Leap",
+                    "Nabin"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Leap",
+                    "Knight"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Leap",
+                    "Soldier1"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "multi_add_portrait;Leap;Left;SoldierWhite;Right\nspeak;Leap;Uhm, hello!\nspeak;SoldierWhite;State your purpose.\nspeak;Leap;I er, seek an audience with Duke Hogarth.\nspeak;SoldierWhite;Don't we all.\nspeak;Leap;It's urgent, regarding the state of the war...\nspeak;SoldierWhite;Fine, you may speak to him.|Open the gate!\nhide_layer;Outergate;fade\nsound;WaterTileUp\nspeak;SoldierWhite;On the left, don't wander, that clear?\nspeak;Leap;Thank you so much!\nmulti_remove_portrait;Leap;SoldierWhite\nadd_talk;Leap;Nabin\nadd_talk;Leap;Knight\nremove_talk;Leap;Soldier1\n"
+    }
+]

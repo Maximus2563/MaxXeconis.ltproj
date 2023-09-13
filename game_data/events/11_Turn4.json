@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "11",
+        "condition": "game.turncount == 4",
+        "commands": [
+            [
+                "move_cursor",
+                [
+                    "Hogarth"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Hogarth",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hogarth",
+                    "Son, you won't continue this tomfoolery. Hah!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Hogarth"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Hogarth",
+                    "Nabin",
+                    "hit1,end",
+                    "Entrap"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Hogarth",
+                    "Left",
+                    "Nabin",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "You..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hogarth",
+                    "How dare you do this to me?!|You short sighted simpleton, you know nothing!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "I don't want to hurt you..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hogarth",
+                    "You're already dead to me, so I needn't care about your life."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hogarth",
+                    "Prepare yourself.|If you think so low of me, show me how poor of a father I was."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "Oh, I will."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Hogarth",
+                    "Nabin"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Leap",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Nabin..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Leap"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;Son, you won't continue this tomfoolery. Hah!\nremove_portrait;Hogarth\ninteract_unit;Hogarth;Nabin;hit1,end;Entrap\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;You...\nspeak;Hogarth;How dare you do this to me?!|You short sighted simpleton, you know nothing!\nspeak;Nabin;I don't want to hurt you...\nspeak;Hogarth;You're already dead to me, so I needn't care about your life.\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Prepare yourself.|If you think so low of me, show me how poor of a father I was.\nspeak;Nabin;Oh, I will.\nmulti_remove_portrait;Hogarth;Nabin\nadd_portrait;Leap;Right\nspeak;Leap;Nabin...\nremove_portrait;Leap\n"
+    }
+]

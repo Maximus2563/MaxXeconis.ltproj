@@ -2,7 +2,7 @@
     {
         "nid": "Wind Sword",
         "name": "Wind Sword",
-        "desc": "Uses MAG to determine damage. Effective against fliers.",
+        "desc": "Uses MAG to determine damage. Grants SPD+3.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                9
+                6
             ],
             [
                 "hit",
@@ -68,17 +68,20 @@
                 2
             ],
             [
-                "effective_multiplier",
-                3
-            ],
-            [
                 "magic",
                 null
             ],
             [
-                "effective_tag",
+                "battle_cast_anim",
+                "Shaver"
+            ],
+            [
+                "stat_change",
                 [
-                    "Flying"
+                    [
+                        "SPD",
+                        3
+                    ]
                 ]
             ]
         ]

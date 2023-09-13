@@ -1,0 +1,236 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "chapter_title",
+                []
+            ],
+            [
+                "music",
+                [
+                    "Plight!"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "sunset"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "LibraryRoof"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "Gang1",
+                    "east",
+                    "Gang1",
+                    "normal",
+                    "stack"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "MidRight",
+                    "Prof",
+                    "FarRight",
+                    "Nabin",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "This is bad...|Father will never forive me for this..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Thank you for this..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Much appreciated, I didn't want to starve down there..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "Don't thank me too soon, we're not out of the woods yet."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "We're gonna need to escape..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "Prof",
+                    "Nabin"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "2,32"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "MidRight",
+                    "Prof",
+                    "FarRight",
+                    "Nabin",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "Down here, this would be good."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "We need to get you out of here first, Leap."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Why me...?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Cause, I said so...|Don't look at me like that!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Teehee..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "Save the lovers quarrel for later, we need to move."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "As you say."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "If anything happens to me, just run.|I'm quite capable."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "But..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "Save your words, I won't let any more innocents suffer.|This is my burden to bear."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "Prof",
+                    "Nabin"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Hogarth"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Hogarth"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Hogarth",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hogarth",
+                    "How sad, it seems today I become heirless.|Seems I'll have to find someone else.|Troops, show no mercy!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Hogarth"
+                ]
+            ],
+            [
+                "music_fade_back",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "chapter_title\nmusic;Plight!\nadd_weather;sunset\nshow_layer;LibraryRoof\ntransition;open\nspawn_group;Gang1;east;Gang1;normal;stack\nmulti_add_portrait;Leap;MidRight;Prof;FarRight;Nabin;Left\nspeak;Nabin;This is bad...|Father will never forive me for this...\nspeak;Leap;Thank you for this...\nspeak;Prof;Much appreciated, I didn't want to starve down there...\nspeak;Nabin;Don't thank me too soon, we're not out of the woods yet.\nspeak;Leap;We're gonna need to escape...\nmulti_remove_portrait;Leap;Prof;Nabin\nmove_cursor;2,32\nmulti_add_portrait;Leap;MidRight;Prof;FarRight;Nabin;Left\nspeak;Nabin;Down here, this would be good.\nspeak;Prof;We need to get you out of here first, Leap.\nspeak;Leap;Why me...?\nspeak;Prof;Cause, I said so...|Don't look at me like that!\nspeak;Leap;Teehee...\nspeak;Nabin;Save the lovers quarrel for later, we need to move.\nspeak;Prof;As you say.\nspeak;Nabin;If anything happens to me, just run.|I'm quite capable.\nspeak;Leap;But...\nspeak;Nabin;Save your words, I won't let any more innocents suffer.|This is my burden to bear.\nmulti_remove_portrait;Leap;Prof;Nabin\nmove_cursor;Hogarth\nflicker_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;How sad, it seems today I become heirless.|Seems I'll have to find someone else.|Troops, show no mercy!\nremove_portrait;Hogarth\nmusic_fade_back"
+    }
+]

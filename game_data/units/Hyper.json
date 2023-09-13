@@ -16,7 +16,7 @@
             "LCK": 4,
             "DEF": 3,
             "RES": 4,
-            "CON": 7,
+            "CON": 8,
             "MOV": 5
         },
         "growths": {
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Slim Sword",
+                "Shamshir",
                 false
             ],
             [

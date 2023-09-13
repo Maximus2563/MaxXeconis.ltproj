@@ -790,7 +790,7 @@
                     3
                 ],
                 "sub_nid": "Escape",
-                "condition": "unit.nid != 'Sal'",
+                "condition": "c",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false

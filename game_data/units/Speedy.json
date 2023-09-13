@@ -2,21 +2,21 @@
     {
         "nid": "Speedy",
         "name": "Speedy",
-        "desc": "",
+        "desc": "A mysterious thief, donning a shady mask.",
         "variant": "",
-        "level": 5,
+        "level": 6,
         "klass": "Thief",
         "tags": [],
         "bases": {
-            "HP": 16,
+            "HP": 20,
             "STR": 7,
             "MAG": 3,
-            "SKL": 1,
-            "SPD": 9,
-            "LCK": 0,
+            "SKL": 8,
+            "SPD": 11,
+            "LCK": 6,
             "DEF": 2,
             "RES": 0,
-            "CON": 6,
+            "CON": 7,
             "MOV": 6
         },
         "growths": {
@@ -47,6 +47,10 @@
             [
                 "Iron Dagger",
                 false
+            ],
+            [
+                "CaltropKnife",
+                false
             ]
         ],
         "learned_skills": [
@@ -55,7 +59,16 @@
                 "Dagger Master"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "?"
+            ],
+            [
+                "Dislikes:",
+                "?"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -79,7 +92,7 @@
             ],
             "Knife": [
                 false,
-                31,
+                71,
                 251
             ],
             "Staff": [
@@ -115,6 +128,34 @@
             [
                 "DeathQuote",
                 "..."
+            ],
+            [
+                "PromoQuote",
+                "I will celebrate. I guess."
+            ],
+            [
+                "MaxStatQuote",
+                "No more?"
+            ],
+            [
+                "EscapeQuote",
+                "Mission completed."
+            ],
+            [
+                "HighLevelUpQuote",
+                "Expertly done."
+            ],
+            [
+                "MidLevelUpQuote",
+                "Objective, success."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Average results, fine."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Failure. Redoubling efforts."
             ]
         ]
     }

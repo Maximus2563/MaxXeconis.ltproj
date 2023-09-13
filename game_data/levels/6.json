@@ -32,10 +32,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    2,
-                    2
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -45,10 +42,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    3,
-                    2
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -701,8 +695,8 @@
                 "nid": "125",
                 "variant": null,
                 "level": 7,
-                "klass": "Pegasus_Knight",
-                "faction": "Monsdor",
+                "klass": "Gargoyle",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -725,11 +719,11 @@
                 "nid": "126",
                 "variant": null,
                 "level": 7,
-                "klass": "Pegasus_Knight",
-                "faction": "Monsdor",
+                "klass": "Gargoyle",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Toxin Lance",
                         false
                     ]
                 ],

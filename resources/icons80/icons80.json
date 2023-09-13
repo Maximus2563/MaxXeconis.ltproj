@@ -306,5 +306,25 @@
     {
         "nid": "[BOW] Hunter (M) {Spud}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "[MON] Gargoyle Lance {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[MON] Mogall (Gazer) {Seal}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[MAG] Summoner (M) {Unknown}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[MON] Cyclops Axe {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[SWD] Dread Fighter (M) (T2) Sword {Nuramon}",
+        "subicon_dict": {}
     }
 ]

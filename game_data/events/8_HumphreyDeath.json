@@ -1,0 +1,40 @@
+[
+    {
+        "name": "HumphreyDeath",
+        "trigger": "unit_death",
+        "level_nid": "8",
+        "condition": "unit.nid == 'Humphrey'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Humphrey",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Humphrey",
+                    "I lived... a long life..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Humphrey",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Humphrey"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Humphrey;Right\nspeak;Humphrey;I lived... a long life...\nexpression;Humphrey;CloseEyes\nremove_portrait;Humphrey\n"
+    }
+]

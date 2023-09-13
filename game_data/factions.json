@@ -31,8 +31,8 @@
     },
     {
         "nid": "Guard",
-        "name": "Town Guard",
-        "desc": "The army of Grado, the largest nation on the entire continent",
+        "name": "Guard",
+        "desc": "A soldier protecting their territory.",
         "icon_nid": "KnightEmblem",
         "icon_index": [
             0,
@@ -73,6 +73,16 @@
         "nid": "Monster",
         "name": "Monster",
         "desc": "A grotesque creature created by magic and born in darkness.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Feral",
+        "name": "Feral",
+        "desc": "A wild creature, fueled by instinct.",
         "icon_nid": "MonsterEmblem",
         "icon_index": [
             0,

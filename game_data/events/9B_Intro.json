@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "combat_start",
+        "level_nid": "9B",
+        "condition": "True",
+        "commands": [
+            [
+                "chapter_title",
+                []
+            ],
+            [
+                "show_layer",
+                [
+                    "LibraryRoof"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Outergate"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Leap",
+                    "Soldier"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "LeapProf",
+                    "south",
+                    "LeapProf",
+                    "normal",
+                    "stack"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Prof",
+                    "Left",
+                    "Leap",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Well, seems we're here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Great! We better speak to any of the guards, so they don't attack us..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Good idea.|Lead the way."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Aw, too shy to take the front?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Shush..."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Leap"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Haha! Just like when I had to speak to the shopkeep for you!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "C'mon..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Sorry... Teehee..."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "chapter_title\nshow_layer;LibraryRoof\nshow_layer;Outergate\nadd_talk;Leap;Soldier\ntransition;open\nspawn_group;LeapProf;south;LeapProf;normal;stack\nmulti_add_portrait;Prof;Left;Leap;Right\nspeak;Prof;Well, seems we're here.\nspeak;Leap;Great! We better speak to any of the guards, so they don't attack us...\nspeak;Prof;Good idea.|Lead the way.\nspeak;Leap;Aw, too shy to take the front?\nspeak;Prof;Shush...\nbop_portrait;Leap\nspeak;Leap;Haha! Just like when I had to speak to the shopkeep for you!\nspeak;Prof;C'mon...\nspeak;Leap;Sorry... Teehee...\n"
+    }
+]

@@ -275,11 +275,6 @@
         false
     ],
     [
-        "Resolve (Dark)",
-        true,
-        false
-    ],
-    [
         "Guest of Shade",
         true,
         false
@@ -383,5 +378,40 @@
         "Sorrowful Prince Pelleas",
         true,
         false
+    ],
+    [
+        "ResolveDark",
+        true,
+        false
+    ],
+    [
+        "Doctor Sithe ~ Untouchable Coroner",
+        false,
+        false
+    ],
+    [
+        "Quiet Days",
+        false,
+        false
+    ],
+    [
+        "Road Of Sorrow",
+        true,
+        false
+    ],
+    [
+        "The Waxwork Museum",
+        false,
+        false
+    ],
+    [
+        "Lord Chief Justice Stronghart ~ Time-Keeper of the Law",
+        true,
+        false
+    ],
+    [
+        "Far Away",
+        false,
+        true
     ]
 ]

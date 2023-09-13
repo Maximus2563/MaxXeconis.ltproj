@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "MovementMinus3",
+        "name": "Movement -3",
+        "desc": "Inflicts -3 MOV.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            22
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ]
+        ]
+    }
+]

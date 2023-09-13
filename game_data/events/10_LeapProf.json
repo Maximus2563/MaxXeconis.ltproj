@@ -1,0 +1,36 @@
+[
+    {
+        "name": "LeapProf",
+        "trigger": "on_talk",
+        "level_nid": "10",
+        "condition": "check_pair('Leap', 'Prof')",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "Right",
+                    "Prof",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Prof!"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Leap",
+                    "Prof"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "multi_add_portrait;Leap;Right;Prof;Left\nspeak;Leap;Prof!\nremove_talk;Leap;Prof\n"
+    }
+]

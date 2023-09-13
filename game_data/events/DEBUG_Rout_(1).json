@@ -12,6 +12,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "win_game\n"
     }
 ]

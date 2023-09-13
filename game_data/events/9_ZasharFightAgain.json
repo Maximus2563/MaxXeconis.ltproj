@@ -1,0 +1,33 @@
+[
+    {
+        "name": "ZasharFightAgain",
+        "trigger": "combat_start",
+        "level_nid": "9",
+        "condition": "(unit.nid == \"ZasharCyclops\" and unit2.team == 'player') or (unit2.nid == \"ZasharCyclops\" and unit.team == 'player')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "ZasharMonster",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "ZasharMonster",
+                    "Roar! GRAH! HMURRRRGH!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "ZasharMonster"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "add_portrait;ZasharMonster;Right\nspeak;ZasharMonster;Roar! GRAH! HMURRRRGH!\nremove_portrait;ZasharMonster\n"
+    }
+]

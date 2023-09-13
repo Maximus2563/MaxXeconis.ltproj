@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "TyphoonBalmProc",
+        "name": "Typhoon Balm",
+        "desc": "Grants SPD+2/LCK+4 when healing a single ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            37
+        ],
+        "components": [
+            [
+                "give_ally_status_after_combat",
+                "Typhoon Balm Child   "
+            ]
+        ]
+    }
+]

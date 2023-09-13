@@ -3,7 +3,7 @@
         "name": "SpawnG",
         "trigger": "turn_change",
         "level_nid": "3",
-        "condition": "get_units_in_region('SpawnG', team='Player')",
+        "condition": "get_units_in_region('SpawnG', team='player')",
         "commands": [
             [
                 "move_cursor",

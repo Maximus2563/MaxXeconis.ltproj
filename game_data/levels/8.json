@@ -17,7 +17,7 @@
         "objective": {
             "simple": "Defeat enemy,Left {eval:len(game.get_enemy_units())}",
             "win": "Rout Enemy",
-            "loss": "Leap or Dean die"
+            "loss": "Leap, Prof or Dean dies"
         },
         "roam": false,
         "roam_unit": null,

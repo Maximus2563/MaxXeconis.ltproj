@@ -40,12 +40,12 @@
                 [
                     "{unit}",
                     "",
-                    "West"
+                    "west"
                 ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit.get_field('EscapeQuote')\n    add_portrait;{eval:unit.nid};Left\n    speak;{eval:unit.nid};{eval:unit.get_field('EscapeQuote')}\n    remove_portrait;{eval:unit.nid}\nend\nremove_unit;{unit};;West\n"
+        "source": "if;unit.get_field('EscapeQuote')\n    add_portrait;{eval:unit.nid};Left\n    speak;{eval:unit.nid};{eval:unit.get_field('EscapeQuote')}\n    remove_portrait;{eval:unit.nid}\nend\nremove_unit;{unit};;west\n"
     }
 ]

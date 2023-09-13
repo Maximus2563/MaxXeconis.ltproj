@@ -107,7 +107,7 @@
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": "unit.get_hp() < (unit.stat['HP'] // 2)"
+                "condition": "unit.get_hp() < (unit.stats['HP'] // 2)"
             },
             {
                 "action": "Attack",
@@ -1109,6 +1109,91 @@
                 "target": "Enemy",
                 "target_spec": null,
                 "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "FollowLeap",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": [
+                    "ID",
+                    "Leap"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 90,
+                "desired_proximity": -1,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
+    },
+    {
+        "nid": "AttackLeap",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "ID",
+                    "Leap"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "ID",
+                    "Leap"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,

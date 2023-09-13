@@ -1,0 +1,51 @@
+[
+    {
+        "name": "LeapEscape",
+        "trigger": "Escape",
+        "level_nid": "11",
+        "condition": "region.nid == 'LeapEscape'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Leap",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Come on everyone, with me!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Leap"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Leap",
+                    "fade",
+                    "south"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "EscapeOther",
+                    "0,32",
+                    "6,1",
+                    "event",
+                    "Escape"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Leap;Left\nspeak;Leap;Come on everyone, with me!\nremove_portrait;Leap\nremove_unit;Leap;fade;south\nadd_region;EscapeOther;0,32;6,1;event;Escape\n"
+    }
+]

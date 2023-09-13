@@ -9,14 +9,14 @@
         "tags": [],
         "bases": {
             "HP": 44,
-            "STR": 13,
-            "MAG": 16,
+            "STR": 14,
+            "MAG": 17,
             "SKL": 10,
-            "SPD": 11,
+            "SPD": 12,
             "LCK": 6,
             "DEF": 10,
             "RES": 13,
-            "CON": 10,
+            "CON": 13,
             "MOV": 6
         },
         "growths": {
@@ -51,9 +51,18 @@
             [
                 "Silence",
                 false
+            ],
+            [
+                "Entrap",
+                false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "SealSpd"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

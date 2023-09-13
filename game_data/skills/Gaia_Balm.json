@@ -2,7 +2,7 @@
     {
         "nid": "Gaia Balm",
         "name": "Gaia Balm",
-        "desc": "Grants DEF+2/CON+3 when healing an ally.",
+        "desc": "Grants DEF+2/CON+3 when healing a single ally.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,
@@ -14,12 +14,16 @@
                 null
             ],
             [
-                "combat_condition",
-                "target.team == unit.team"
+                "combat_art",
+                "GaiaBalmProc"
             ],
             [
-                "give_status_after_attack",
-                "Gaia Balm Child  "
+                "allowed_weapons",
+                "item.nid == 'Heal' or 'Mend' or 'Recover' or 'Physic' or 'Patch'"
+            ],
+            [
+                "drain_charge",
+                5
             ]
         ]
     }
