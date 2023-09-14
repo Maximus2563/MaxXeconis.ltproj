@@ -65,7 +65,7 @@
                 "generic": false
             },
             {
-                "nid": "Soldier1",
+                "nid": "Soldier",
                 "variant": null,
                 "level": 1,
                 "klass": "Soldier",
@@ -262,12 +262,12 @@
                 ],
                 "positions": {
                     "Leap": [
-                        23,
-                        11
+                        4,
+                        32
                     ],
                     "Prof": [
-                        22,
-                        11
+                        3,
+                        32
                     ],
                     "Speedy": [
                         24,

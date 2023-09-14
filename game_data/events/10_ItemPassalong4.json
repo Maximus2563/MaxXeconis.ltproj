@@ -29,6 +29,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "move_item;108;Leap;\nmove_item;108;Leap;\nmove_item;108;Leap;\n"
+        "source": "move_item;108;Leap\nmove_item;108;Leap\nmove_item;108;Leap\n"
     }
 ]

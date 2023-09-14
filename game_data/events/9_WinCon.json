@@ -1,0 +1,17 @@
+[
+    {
+        "name": "WinCon",
+        "trigger": "unit_wait",
+        "level_nid": "9",
+        "condition": "game.check_dead('ZasharCyclops')",
+        "commands": [
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "win_game\n"
+    }
+]

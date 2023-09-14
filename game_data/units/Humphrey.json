@@ -4,7 +4,7 @@
         "name": "Humphrey",
         "desc": "A Monsdor general wishing to seize the town.",
         "variant": "",
-        "level": 5,
+        "level": 4,
         "klass": "LanceCavalier",
         "tags": [
             "Boss"
@@ -47,7 +47,7 @@
         },
         "starting_items": [
             [
-                "Heavy Spear",
+                "Axereaver",
                 false
             ]
         ],

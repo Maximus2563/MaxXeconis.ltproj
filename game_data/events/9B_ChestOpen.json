@@ -1,7 +1,7 @@
 [
     {
         "name": "ChestOpen",
-        "trigger": "on_region_interact",
+        "trigger": "Chest",
         "level_nid": "9B",
         "condition": "region.nid == 'Chest'",
         "commands": [

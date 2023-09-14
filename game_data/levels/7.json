@@ -244,7 +244,7 @@
                 "starting_items": [
                     [
                         "Bronze_Lance",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -364,7 +364,7 @@
                 "starting_items": [
                     [
                         "Bronze_Sword",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],

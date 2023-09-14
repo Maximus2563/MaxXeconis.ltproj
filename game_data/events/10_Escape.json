@@ -1,7 +1,7 @@
 [
     {
         "name": "Escape",
-        "trigger": "on_region_interact",
+        "trigger": "Escape",
         "level_nid": "10",
         "condition": "region.nid == 'EscapeZone'",
         "commands": [

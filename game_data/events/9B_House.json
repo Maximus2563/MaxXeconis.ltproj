@@ -1,7 +1,7 @@
 [
     {
         "name": "House",
-        "trigger": "on_region_interact",
+        "trigger": "Visit",
         "level_nid": "9B",
         "condition": "region.nid == 'House'",
         "commands": [

@@ -1131,8 +1131,8 @@
                 ],
                 "view_range": -4,
                 "invert_targeting": false,
-                "roam_speed": 90,
-                "desired_proximity": -1,
+                "roam_speed": 80,
+                "desired_proximity": 1,
                 "condition": ""
             },
             {

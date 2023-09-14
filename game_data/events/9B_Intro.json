@@ -1,13 +1,25 @@
 [
     {
         "name": "Intro",
-        "trigger": "combat_start",
+        "trigger": "level_start",
         "level_nid": "9B",
         "condition": "True",
         "commands": [
             [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
                 "chapter_title",
                 []
+            ],
+            [
+                "change_background",
+                [
+                    "Forest 2 Day"
+                ]
             ],
             [
                 "show_layer",
@@ -22,6 +34,12 @@
                 ]
             ],
             [
+                "show_layer",
+                [
+                    "RoamForeground"
+                ]
+            ],
+            [
                 "add_talk",
                 [
                     "Leap",
@@ -29,10 +47,74 @@
                 ]
             ],
             [
+                "move_cursor",
+                [
+                    "3,31"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Quiet Days"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Prof",
+                    "Left",
+                    "Leap",
+                    "Right"
+                ]
+            ],
+            [
                 "transition",
                 [
                     "open"
                 ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Almost there, we'd best get our affairs in order before we go in."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "True, in case anything goes wrong..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I find it unlikely, but who knows?"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "Prof"
+                ]
+            ],
+            [
+                "end_skip",
+                []
+            ],
+            [
+                "base",
+                [
+                    "Forest 2 Day",
+                    "Quiet Days"
+                ]
+            ],
+            [
+                "change_background",
+                []
             ],
             [
                 "spawn_group",
@@ -114,10 +196,17 @@
                     "Leap",
                     "Sorry... Teehee..."
                 ]
+            ],
+            [
+                "change_roam_ai",
+                [
+                    "Prof",
+                    "FollowLeap"
+                ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "chapter_title\nshow_layer;LibraryRoof\nshow_layer;Outergate\nadd_talk;Leap;Soldier\ntransition;open\nspawn_group;LeapProf;south;LeapProf;normal;stack\nmulti_add_portrait;Prof;Left;Leap;Right\nspeak;Prof;Well, seems we're here.\nspeak;Leap;Great! We better speak to any of the guards, so they don't attack us...\nspeak;Prof;Good idea.|Lead the way.\nspeak;Leap;Aw, too shy to take the front?\nspeak;Prof;Shush...\nbop_portrait;Leap\nspeak;Leap;Haha! Just like when I had to speak to the shopkeep for you!\nspeak;Prof;C'mon...\nspeak;Leap;Sorry... Teehee...\n"
+        "source": "transition;close\nchapter_title\nchange_background;Forest 2 Day\nshow_layer;LibraryRoof\nshow_layer;Outergate\nshow_layer;RoamForeground\nadd_talk;Leap;Soldier\nmove_cursor;3,31\nmusic;Quiet Days\nmulti_add_portrait;Prof;Left;Leap;Right\ntransition;open\nspeak;Prof;Almost there, we'd best get our affairs in order before we go in.\nspeak;Leap;True, in case anything goes wrong...\nspeak;Prof;I find it unlikely, but who knows?\nmulti_remove_portrait;Leap;Prof\nend_skip\nbase;Forest 2 Day;Quiet Days\nchange_background\nspawn_group;LeapProf;south;LeapProf;normal;stack\nmulti_add_portrait;Prof;Left;Leap;Right\nspeak;Prof;Well, seems we're here.\nspeak;Leap;Great! We better speak to any of the guards, so they don't attack us...\nspeak;Prof;Good idea.|Lead the way.\nspeak;Leap;Aw, too shy to take the front?\nspeak;Prof;Shush...\nbop_portrait;Leap\nspeak;Leap;Haha! Just like when I had to speak to the shopkeep for you!\nspeak;Prof;C'mon...\nspeak;Leap;Sorry... Teehee...\nchange_roam_ai;Prof;FollowLeap\n"
     }
 ]

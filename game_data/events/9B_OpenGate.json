@@ -108,12 +108,12 @@
                 "remove_talk",
                 [
                     "Leap",
-                    "Soldier1"
+                    "Soldier"
                 ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
-        "source": "multi_add_portrait;Leap;Left;SoldierWhite;Right\nspeak;Leap;Uhm, hello!\nspeak;SoldierWhite;State your purpose.\nspeak;Leap;I er, seek an audience with Duke Hogarth.\nspeak;SoldierWhite;Don't we all.\nspeak;Leap;It's urgent, regarding the state of the war...\nspeak;SoldierWhite;Fine, you may speak to him.|Open the gate!\nhide_layer;Outergate;fade\nsound;WaterTileUp\nspeak;SoldierWhite;On the left, don't wander, that clear?\nspeak;Leap;Thank you so much!\nmulti_remove_portrait;Leap;SoldierWhite\nadd_talk;Leap;Nabin\nadd_talk;Leap;Knight\nremove_talk;Leap;Soldier1\n"
+        "source": "multi_add_portrait;Leap;Left;SoldierWhite;Right\nspeak;Leap;Uhm, hello!\nspeak;SoldierWhite;State your purpose.\nspeak;Leap;I er, seek an audience with Duke Hogarth.\nspeak;SoldierWhite;Don't we all.\nspeak;Leap;It's urgent, regarding the state of the war...\nspeak;SoldierWhite;Fine, you may speak to him.|Open the gate!\nhide_layer;Outergate;fade\nsound;WaterTileUp\nspeak;SoldierWhite;On the left, don't wander, that clear?\nspeak;Leap;Thank you so much!\nmulti_remove_portrait;Leap;SoldierWhite\nadd_talk;Leap;Nabin\nadd_talk;Leap;Knight\nremove_talk;Leap;Soldier\n"
     }
 ]

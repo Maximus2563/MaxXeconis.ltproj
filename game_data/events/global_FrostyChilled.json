@@ -34,13 +34,13 @@
             [
                 "if",
                 [
-                    "len([skill for skill in unit2.skills if skill.nid == 'Chilled']) > 2"
+                    "len([skill for skill in target.skills if skill.nid == 'Chilled']) > 2"
                 ]
             ],
             [
                 "give_skill",
                 [
-                    "{unit2}",
+                    "{target}",
                     "Frozen",
                     "FLAG(no_banner)"
                 ]
@@ -48,7 +48,7 @@
             [
                 "remove_skill",
                 [
-                    "{unit2}",
+                    "{target}",
                     "Chilled",
                     "FLAG(no_banner)"
                 ]
@@ -60,6 +60,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "if;len([skill for skill in unit.skills if skill.nid == 'Chilled']) > 2\n    give_skill;{unit};Frozen;FLAG(no_banner)\n    remove_skill;{unit};Chilled;FLAG(no_banner)\nend\nif;len([skill for skill in target.skills if skill.nid == 'Chilled']) > 2\n    give_skill;{target};Frozen;FLAG(no_banner)\n    remove_skill;{target};Chilled;FLAG(no_banner)\nend\n"
     }
 ]

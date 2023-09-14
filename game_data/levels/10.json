@@ -32,7 +32,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    4
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -111,7 +111,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "KnightS",
                 "faction": "Guard",
                 "starting_items": [
@@ -135,7 +135,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "KnightL",
                 "faction": "Guard",
                 "starting_items": [
@@ -207,7 +207,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Guard",
                 "starting_items": [
@@ -283,7 +283,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 5,
+                "level": 2,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -307,7 +307,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Fighter",
                 "faction": "Guard",
                 "starting_items": [
@@ -384,34 +384,34 @@
                 "nid": "DoorA",
                 "region_type": "event",
                 "position": [
-                    11,
+                    10,
                     4
                 ],
                 "size": [
-                    1,
+                    3,
                     1
                 ],
                 "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             },
             {
                 "nid": "DoorB",
                 "region_type": "event",
                 "position": [
-                    8,
+                    7,
                     5
                 ],
                 "size": [
-                    1,
+                    3,
                     1
                 ],
                 "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             },
             {

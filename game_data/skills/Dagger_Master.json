@@ -15,7 +15,7 @@
             ],
             [
                 "condition",
-                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Knife'"
+                "item_system.weapon_type(target, target.get_weapon()) == 'Knife'"
             ],
             [
                 "reflect_status",

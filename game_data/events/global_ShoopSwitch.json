@@ -3,7 +3,7 @@
         "name": "ShoopSwitch",
         "trigger": "combat_end",
         "level_nid": null,
-        "condition": "True",
+        "condition": "has_skill(unit,'BloodlustStack') or has_skill(unit2,'BloodlustStack')",
         "commands": [
             [
                 "if",
@@ -19,7 +19,11 @@
                 ]
             ],
             [
-                "elif",
+                "end",
+                []
+            ],
+            [
+                "if",
                 [
                     "len([skill for skill in unit2.skills if skill.nid == 'BloodlustStack']) == 5"
                 ]
@@ -38,6 +42,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;len([skill for skill in unit.skills if skill.nid == 'BloodlustStack']) == 5\n    change_portrait;Shoop;ShoopFeral\nelif;len([skill for skill in unit2.skills if skill.nid == 'BloodlustStack']) == 5\n    change_portrait;Shoop;ShoopFeral\nend\n"
+        "source": "if;len([skill for skill in unit.skills if skill.nid == 'BloodlustStack']) == 5\n    change_portrait;Shoop;ShoopFeral\nend\nif;len([skill for skill in unit2.skills if skill.nid == 'BloodlustStack']) == 5\n    change_portrait;Shoop;ShoopFeral\nend\n"
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "CaltropKnife",
         "name": "Caltrop Knife",
-        "desc": "Inflicts MOV-1 on hit.",
+        "desc": "Inflicts MOV-3 on hit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
             15,
@@ -73,7 +73,7 @@
             ],
             [
                 "status_on_hit",
-                "MovementMinus1"
+                "MovementMinus3"
             ]
         ]
     }

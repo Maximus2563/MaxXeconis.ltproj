@@ -57,8 +57,8 @@
             },
             {
                 "nid": "Nabin",
-                "team": "other",
-                "ai": "Attack",
+                "team": "player",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -310,9 +310,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Left",
                 "starting_position": [
                     2,
                     10
@@ -358,7 +358,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -384,9 +384,9 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Left",
                 "starting_position": [
-                    2,
+                    1,
                     13
                 ],
                 "starting_traveler": null,
@@ -492,11 +492,11 @@
                 "nid": "107",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "Fighter",
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Dragonspear",
+                        "Dragon Axe",
                         false
                     ]
                 ],
@@ -550,9 +550,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "A",
                 "starting_position": [
                     11,
                     25
@@ -648,7 +648,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "A",
                 "starting_position": [
                     14,
                     26
@@ -694,9 +694,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Left",
                 "starting_position": [
                     7,
                     11
@@ -953,6 +953,14 @@
             },
             {
                 "nid": "Mountain",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "A",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "Left",
                 "trigger_threshold": 1
             }
         ]

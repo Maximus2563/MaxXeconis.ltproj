@@ -19,7 +19,7 @@
             ],
             [
                 "allowed_weapons",
-                "item.nid == 'Heal' or 'Mend' or 'Recover' or 'Physic' or 'Patch'"
+                "item.nid in ['Heal', 'Mend', 'Recover', 'Physic', 'Patch', 'Nudge']"
             ],
             [
                 "drain_charge",

@@ -68,16 +68,16 @@
                 ]
             ],
             [
-                "magic_heal",
-                10
-            ],
-            [
                 "map_cast_anim",
                 "MapSmallHealTrans"
             ],
             [
                 "map_hit_sfx",
                 "MapHeal"
+            ],
+            [
+                "heal",
+                7
             ]
         ]
     }

@@ -11,7 +11,7 @@
             "HP": 20,
             "STR": 7,
             "MAG": 2,
-            "SKL": 4,
+            "SKL": 5,
             "SPD": 5,
             "LCK": 8,
             "DEF": 6,
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Bronze_Lance",
+                "Iron Lance",
                 false
             ],
             [

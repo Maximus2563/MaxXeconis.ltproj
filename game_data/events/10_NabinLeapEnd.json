@@ -108,21 +108,21 @@
                 "speak",
                 [
                     "Leap",
-                    "Then we won't be so useless... Woop!"
+                    "Then we won't be so useless... Woop!|Better let you handle those guards!"
                 ]
             ],
             [
                 "change_team",
                 [
                     "Nabin",
-                    "other"
+                    "player"
                 ]
             ],
             [
                 "change_ai",
                 [
                     "Nabin",
-                    "Attack"
+                    "None"
                 ]
             ],
             [
@@ -136,6 +136,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": "if;game.check_alive('Leap')\n    music;Theme of Deduction\n    multi_add_portrait;Leap;Right;Nabin;Left\n    speak;Nabin;...;FLAG(no_talk)\n    speak;Leap;Well?\n    speak;Nabin;You survived...\n    speak;Leap;Seems so, my head's still intact...\n    speak;Nabin;It seems fate has brought me to this point.|I must carve away from father.\n    speak;Leap;The Duke? Won't he be angry?\n    speak;Nabin;Very, but it's the right thing.|You've probably figured it out, but he's ruthless...|He's also run in with bad people, who have him round their finger.\n    speak;Leap;Like the monster guy?\n    speak;Nabin;I wouldn't be surprised...|Now, let me make this all easier for you.\n    speak;Leap;Thank you...\n    speak;Nabin;If any of these guards have your things, I'll pass them back to you!|And more...\n    speak;Leap;Then we won't be so useless... Woop!\n    change_team;Nabin;other\n    change_ai;Nabin;Attack\n    music_fade_back\nend\n"
+        "source": "if;game.check_alive('Leap')\n    music;Theme of Deduction\n    multi_add_portrait;Leap;Right;Nabin;Left\n    speak;Nabin;...;FLAG(no_talk)\n    speak;Leap;Well?\n    speak;Nabin;You survived...\n    speak;Leap;Seems so, my head's still intact...\n    speak;Nabin;It seems fate has brought me to this point.|I must carve away from father.\n    speak;Leap;The Duke? Won't he be angry?\n    speak;Nabin;Very, but it's the right thing.|You've probably figured it out, but he's ruthless...|He's also run in with bad people, who have him round their finger.\n    speak;Leap;Like the monster guy?\n    speak;Nabin;I wouldn't be surprised...|Now, let me make this all easier for you.\n    speak;Leap;Thank you...\n    speak;Nabin;If any of these guards have your things, I'll pass them back to you!|And more...\n    speak;Leap;Then we won't be so useless... Woop!|Better let you handle those guards!\n    change_team;Nabin;player\n    change_ai;Nabin;None\n    music_fade_back\nend\n"
     }
 ]

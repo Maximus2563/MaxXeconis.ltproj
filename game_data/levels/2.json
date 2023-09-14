@@ -843,10 +843,6 @@
             {
                 "nid": "Mid",
                 "trigger_threshold": 2
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }

@@ -6618,7 +6618,7 @@
             },
             {
                 "nid": "ChestOpen",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
@@ -9903,6 +9903,168 @@
                         [
                             27,
                             20
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "RoamForeground",
+                "visible": true,
+                "foreground": true,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "10,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "11,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "12,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "13,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "19,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "20,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "21,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            4,
+                            15
+                        ]
+                    ],
+                    "18,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            4,
+                            15
+                        ]
+                    ],
+                    "5,16": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "4,16": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "3,16": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            0,
+                            13
+                        ]
+                    ],
+                    "2,16": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "1,16": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "0,16": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "9,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            4,
+                            15
+                        ]
+                    ],
+                    "14,17": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            4,
+                            15
+                        ]
+                    ],
+                    "8,15": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            19,
+                            17
+                        ]
+                    ],
+                    "7,15": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            19,
+                            17
+                        ]
+                    ],
+                    "22,15": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            21,
+                            17
+                        ]
+                    ],
+                    "23,15": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            21,
+                            17
+                        ]
+                    ],
+                    "24,15": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            21,
+                            17
+                        ]
+                    ],
+                    "21,15": [
+                        "Improved Castle Tileset Palette 2 (1)",
+                        [
+                            4,
+                            15
                         ]
                     ]
                 }

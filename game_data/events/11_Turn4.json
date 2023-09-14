@@ -22,7 +22,7 @@
                 "speak",
                 [
                     "Hogarth",
-                    "Son, you won't continue this tomfoolery. Hah!"
+                    "Son, you won't continue this tomfoolery. Come here!"
                 ]
             ],
             [
@@ -32,12 +32,17 @@
                 ]
             ],
             [
-                "interact_unit",
+                "move_cursor",
                 [
-                    "Hogarth",
+                    "Nabin"
+                ]
+            ],
+            [
+                "move_unit",
+                [
                     "Nabin",
-                    "hit1,end",
-                    "Entrap"
+                    "2,4",
+                    "warp"
                 ]
             ],
             [
@@ -107,6 +112,13 @@
                 ]
             ],
             [
+                "change_team",
+                [
+                    "Nabin",
+                    "other"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "Leap",
@@ -117,7 +129,7 @@
                 "speak",
                 [
                     "Leap",
-                    "Nabin..."
+                    "Nabin...|We'll have to leave you... as you said...|But it hurts to be so cruel..."
                 ]
             ],
             [
@@ -129,6 +141,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;Son, you won't continue this tomfoolery. Hah!\nremove_portrait;Hogarth\ninteract_unit;Hogarth;Nabin;hit1,end;Entrap\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;You...\nspeak;Hogarth;How dare you do this to me?!|You short sighted simpleton, you know nothing!\nspeak;Nabin;I don't want to hurt you...\nspeak;Hogarth;You're already dead to me, so I needn't care about your life.\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Prepare yourself.|If you think so low of me, show me how poor of a father I was.\nspeak;Nabin;Oh, I will.\nmulti_remove_portrait;Hogarth;Nabin\nadd_portrait;Leap;Right\nspeak;Leap;Nabin...\nremove_portrait;Leap\n"
+        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;Son, you won't continue this tomfoolery. Come here!\nremove_portrait;Hogarth\nmove_cursor;Nabin\nmove_unit;Nabin;2,4;warp\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;You...\nspeak;Hogarth;How dare you do this to me?!|You short sighted simpleton, you know nothing!\nspeak;Nabin;I don't want to hurt you...\nspeak;Hogarth;You're already dead to me, so I needn't care about your life.\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Prepare yourself.|If you think so low of me, show me how poor of a father I was.\nspeak;Nabin;Oh, I will.\nmulti_remove_portrait;Hogarth;Nabin\nchange_team;Nabin;other\nadd_portrait;Leap;Right\nspeak;Leap;Nabin...|We'll have to leave you... as you said...|But it hurts to be so cruel...\nremove_portrait;Leap\n"
     }
 ]

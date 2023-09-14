@@ -111,7 +111,7 @@
                 ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "source": "multi_add_portrait;Leap;Left;SoldierWhite;Right\nspeak;Leap;Here to see Duke Hogarth, sir!\nspeak;SoldierWhite;You are...\nspeak;Leap;A commoner who has something to ask of him...\nspeak;SoldierWhite;You don't seem from around here.\nspeak;Leap;Well, I'm from Moonglade, but...\nspeak;SoldierWhite;Well, I'm sure Marquess Zio would make more se-\nspeak;Leap;Please, I've already been let in by the guards.|I'll make this quick.\nspeak;SoldierWhite;Alright.|Duke Hogarth! A visitor is here for you!\nshow_layer;ThroneDoorOpen\nsound;Unlock\nmulti_remove_portrait;Leap;SoldierWhite\nmove_unit;Knight;0,10\nremove_talk;Leap;Knight\nadd_talk;Leap;Hogarth\n"
     }

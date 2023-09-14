@@ -87,7 +87,7 @@
             {
                 "nid": "Scout",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -111,7 +111,7 @@
             {
                 "nid": "Scout2",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -127,7 +127,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    11
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -135,7 +135,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Myrmidon",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -148,10 +148,10 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "Top",
+                "ai_group": "",
                 "starting_position": [
-                    5,
-                    5
+                    11,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -159,7 +159,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Myrmidon",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -181,9 +181,33 @@
                 "generic": true
             },
             {
+                "nid": "112",
+                "variant": null,
+                "level": 2,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top",
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "103",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Fighter",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -207,7 +231,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Fighter",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -231,7 +255,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "KnightS",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -255,7 +279,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "KnightL",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -303,7 +327,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "KnightB",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -327,7 +351,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "LanceCavalier",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -351,7 +375,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 4,
+                "level": 3,
                 "klass": "AxeCavalier",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -367,7 +391,7 @@
                 "ai_group": "",
                 "starting_position": [
                     14,
-                    8
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -375,7 +399,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Archer",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -390,7 +414,7 @@
                 "roam_ai": null,
                 "ai_group": "Top",
                 "starting_position": [
-                    7,
+                    5,
                     6
                 ],
                 "starting_traveler": null,
@@ -399,7 +423,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Mage",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -423,7 +447,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 4,
+                "level": 2,
                 "klass": "Mage",
                 "faction": "Monsdor",
                 "starting_items": [
@@ -438,7 +462,7 @@
                 "roam_ai": null,
                 "ai_group": "Top",
                 "starting_position": [
-                    8,
+                    6,
                     4
                 ],
                 "starting_traveler": null,
@@ -447,7 +471,7 @@
             {
                 "nid": "Dean",
                 "team": "other",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
