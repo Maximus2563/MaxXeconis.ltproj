@@ -131,7 +131,7 @@
     },
     {
         "nid": "Knife",
-        "name": "Knife",
+        "name": "Dagger",
         "force_melee_anim": true,
         "rank_bonus": [],
         "advantage": [],

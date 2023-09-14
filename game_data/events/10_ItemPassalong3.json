@@ -29,6 +29,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "move_item;109;Prof;\nmove_item;109;Prof;\nmove_item;109;Prof;\n"
+        "source": "move_item;109;Prof\nmove_item;109;Prof\nmove_item;109;Prof\n"
     }
 ]

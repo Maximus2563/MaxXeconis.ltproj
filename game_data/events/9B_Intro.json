@@ -18,7 +18,7 @@
             [
                 "change_background",
                 [
-                    "Forest 2 Day"
+                    "Village 1 Daytime"
                 ]
             ],
             [
@@ -77,7 +77,7 @@
                 "speak",
                 [
                     "Prof",
-                    "Almost there, we'd best get our affairs in order before we go in."
+                    "Well, since we're off soon, we'd best get our affairs in order before we go onwards."
                 ]
             ],
             [
@@ -97,9 +97,86 @@
             [
                 "multi_remove_portrait",
                 [
-                    "Leap",
-                    "Prof"
+                    "Prof",
+                    "Leap"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "_base_market",
+                    "True"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Iron Sword"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Iron Lance"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Iron Axe"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Iron Bow"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Iron Dagger"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Fire"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Heal"
+                ]
+            ],
+            [
+                "add_market_item",
+                [
+                    "Vulnerary"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "?"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Aspl') and game.check_alive('Bread')"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Basic Training"
+                ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "end_skip",
@@ -108,7 +185,7 @@
             [
                 "base",
                 [
-                    "Forest 2 Day",
+                    "Village 1 Daytime",
                     "Quiet Days"
                 ]
             ],
@@ -146,14 +223,28 @@
                 "speak",
                 [
                     "Leap",
-                    "Great! We better speak to any of the guards, so they don't attack us..."
+                    "The water is so clear and pretty..."
                 ]
             ],
             [
                 "speak",
                 [
                     "Prof",
-                    "Good idea.|Lead the way."
+                    "We better speak to any of the guards, so they don't attack us..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "We'll need to speak to the moat guard anyway."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Good idea. Lead the way."
                 ]
             ],
             [
@@ -180,14 +271,14 @@
                 "speak",
                 [
                     "Leap",
-                    "Haha! Just like when I had to speak to the shopkeep for you!"
+                    "Haha!"
                 ]
             ],
             [
                 "speak",
                 [
                     "Prof",
-                    "C'mon..."
+                    "C'mon... I had to speak to that weird shopkeeper."
                 ]
             ],
             [
@@ -207,6 +298,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nchapter_title\nchange_background;Forest 2 Day\nshow_layer;LibraryRoof\nshow_layer;Outergate\nshow_layer;RoamForeground\nadd_talk;Leap;Soldier\nmove_cursor;3,31\nmusic;Quiet Days\nmulti_add_portrait;Prof;Left;Leap;Right\ntransition;open\nspeak;Prof;Almost there, we'd best get our affairs in order before we go in.\nspeak;Leap;True, in case anything goes wrong...\nspeak;Prof;I find it unlikely, but who knows?\nmulti_remove_portrait;Leap;Prof\nend_skip\nbase;Forest 2 Day;Quiet Days\nchange_background\nspawn_group;LeapProf;south;LeapProf;normal;stack\nmulti_add_portrait;Prof;Left;Leap;Right\nspeak;Prof;Well, seems we're here.\nspeak;Leap;Great! We better speak to any of the guards, so they don't attack us...\nspeak;Prof;Good idea.|Lead the way.\nspeak;Leap;Aw, too shy to take the front?\nspeak;Prof;Shush...\nbop_portrait;Leap\nspeak;Leap;Haha! Just like when I had to speak to the shopkeep for you!\nspeak;Prof;C'mon...\nspeak;Leap;Sorry... Teehee...\nchange_roam_ai;Prof;FollowLeap\n"
+        "source": "transition;close\nchapter_title\nchange_background;Village 1 Daytime\nshow_layer;LibraryRoof\nshow_layer;Outergate\nshow_layer;RoamForeground\nadd_talk;Leap;Soldier\nmove_cursor;3,31\nmusic;Quiet Days\nmulti_add_portrait;Prof;Left;Leap;Right\ntransition;open\nspeak;Prof;Well, since we're off soon, we'd best get our affairs in order before we go onwards.\nspeak;Leap;True, in case anything goes wrong...\nspeak;Prof;I find it unlikely, but who knows?\nmulti_remove_portrait;Prof;Leap\ngame_var;_base_market;True\nadd_market_item;Iron Sword\nadd_market_item;Iron Lance\nadd_market_item;Iron Axe\nadd_market_item;Iron Bow\nadd_market_item;Iron Dagger\nadd_market_item;Fire\nadd_market_item;Heal\nadd_market_item;Vulnerary\nadd_base_convo;?\nif;game.check_alive('Aspl') and game.check_alive('Bread')\n    add_base_convo;Basic Training\nend\nend_skip\nbase;Village 1 Daytime;Quiet Days\nchange_background\nspawn_group;LeapProf;south;LeapProf;normal;stack\nmulti_add_portrait;Prof;Left;Leap;Right\nspeak;Prof;Well, seems we're here.\nspeak;Leap;The water is so clear and pretty...\nspeak;Prof;We better speak to any of the guards, so they don't attack us...\nspeak;Leap;We'll need to speak to the moat guard anyway.\nspeak;Prof;Good idea. Lead the way.\nspeak;Leap;Aw, too shy to take the front?\nspeak;Prof;Shush...\nbop_portrait;Leap\nspeak;Leap;Haha!\nspeak;Prof;C'mon... I had to speak to that weird shopkeeper.\nspeak;Leap;Sorry... Teehee...\nchange_roam_ai;Prof;FollowLeap\n"
     }
 ]

@@ -2,11 +2,11 @@
     {
         "nid": "Iron Dagger",
         "name": "Iron Dagger",
-        "desc": "Inflicts DEF/RES -3 on hit.",
-        "icon_nid": "Knife",
+        "desc": "Inflicts MAG -1, DEF/RES -2 on hit.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            0,
-            1
+            1,
+            6
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                460
+                550
             ],
             [
                 "target_enemy",
@@ -27,7 +27,7 @@
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
                 "damage",
@@ -35,11 +35,11 @@
             ],
             [
                 "hit",
-                95
+                90
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
@@ -73,7 +73,7 @@
             ],
             [
                 "status_on_hit",
-                "Dagger 1"
+                "IronDaggerDebuff"
             ]
         ]
     }

@@ -1,0 +1,70 @@
+[
+    {
+        "name": "House",
+        "trigger": "Visit",
+        "level_nid": "11",
+        "condition": "region.nid == 'House'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Inside House 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "Man3",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man3",
+                    "It's all so loud... Please, LEAVE!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Leap",
+                    "Man3"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;close\nchange_background;Daytime Inside House 1\ntransition;open\nmulti_add_portrait;{unit};Left;Man3;Right\nspeak;Man3;It's all so loud... Please, LEAVE!\ntransition;close\nchange_background\nmulti_remove_portrait;Leap;Man3\ntransition;open\n\n"
+    }
+]

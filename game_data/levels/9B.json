@@ -215,6 +215,26 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Bread",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Aspl",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -263,11 +283,11 @@
                 "positions": {
                     "Leap": [
                         4,
-                        32
+                        30
                     ],
                     "Prof": [
                         3,
-                        32
+                        30
                     ],
                     "Speedy": [
                         24,

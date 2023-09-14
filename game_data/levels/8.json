@@ -362,11 +362,11 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "AvoidDean",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
+                    3,
                     4
                 ],
                 "starting_traveler": null,
@@ -720,6 +720,30 @@
                 "starting_position": [
                     4,
                     11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": true

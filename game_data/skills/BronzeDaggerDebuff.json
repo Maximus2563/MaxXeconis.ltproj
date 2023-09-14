@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Knife 2",
-        "name": "Steel Knife",
-        "desc": "Inflicts SKL/LCK-3, SPD-2.",
-        "icon_nid": "Skills (1)",
+        "nid": "BronzeDaggerDebuff",
+        "name": "Bronze Dagger",
+        "desc": "Inflicts SKL/DEF/RES -1.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            6,
-            29
+            0,
+            6
         ],
         "components": [
             [
@@ -18,15 +18,15 @@
                 [
                     [
                         "SKL",
-                        -3
+                        -1
                     ],
                     [
-                        "LCK",
-                        -3
+                        "DEF",
+                        -1
                     ],
                     [
-                        "SPD",
-                        -2
+                        "RES",
+                        -1
                     ]
                 ]
             ],

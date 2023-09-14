@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "10",
+        "condition": "True",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Castle Interior 5 Evening"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Leap",
+                    "MidRight",
+                    "Prof",
+                    "Right",
+                    "Nabin",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "We're gonna need to get out of here, quickly."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Leap",
+                    "Why did you save us?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "It was what my blade decided."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Hardly a great way of making decisions...|Not that you made the wrong one, of course."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nabin",
+                    "Hmph, let's carry on, if your armor doesn't slow us down, hm?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "I deserved that..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "change_background;Castle Interior 5 Evening\nmulti_add_portrait;Leap;MidRight;Prof;Right;Nabin;Left\nspeak;Nabin;We're gonna need to get out of here, quickly.\nspeak;Leap;Why did you save us?\nspeak;Nabin;It was what my blade decided.\nspeak;Prof;Hardly a great way of making decisions...|Not that you made the wrong one, of course.\nspeak;Nabin;Hmph, let's carry on, if your armor doesn't slow us down, hm?\nspeak;Prof;I deserved that...\ntransition;close\n"
+    }
+]

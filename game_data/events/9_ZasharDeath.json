@@ -40,10 +40,16 @@
                     "stack",
                     "fade"
                 ]
+            ],
+            [
+                "wait",
+                [
+                    "ZasharCyclops"
+                ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Zashar;Right\nspeak;Zashar;As if I could make such a mistake...|Another contingency...|I have to... take my tincture...|GRAAAAAAAAAAA!\nsound;CyclopsCrit\nremove_portrait;Zashar\nadd_unit;ZasharCyclops;Zashar;fade;stack;fade\n"
+        "source": "add_portrait;Zashar;Right\nspeak;Zashar;As if I could make such a mistake...|Another contingency...|I have to... take my tincture...|GRAAAAAAAAAAA!\nsound;CyclopsCrit\nremove_portrait;Zashar\nadd_unit;ZasharCyclops;Zashar;fade;stack;fade\nwait;ZasharCyclops\n"
     }
 ]

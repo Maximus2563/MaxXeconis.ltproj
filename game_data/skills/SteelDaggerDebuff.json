@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Knife 1",
-        "name": "Iron Knfie",
-        "desc": "Inflicts SKL/LCK-2.",
-        "icon_nid": "Skills (1)",
+        "nid": "SteelDaggerDebuff",
+        "name": "Steel Dagger",
+        "desc": "Inflicts STR/DEF/RES -2.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            5,
-            29
+            2,
+            6
         ],
         "components": [
             [
@@ -17,11 +17,15 @@
                 "stat_change",
                 [
                     [
-                        "SKL",
+                        "STR",
                         -2
                     ],
                     [
-                        "LCK",
+                        "DEF",
+                        -2
+                    ],
+                    [
+                        "RES",
                         -2
                     ]
                 ]

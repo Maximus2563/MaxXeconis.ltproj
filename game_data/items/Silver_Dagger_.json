@@ -2,11 +2,11 @@
     {
         "nid": "Silver Dagger ",
         "name": "Silver Dagger ",
-        "desc": "Inflicts DEF/RES-5, SPD-3 on hit.",
-        "icon_nid": "Knife",
+        "desc": "Inflicts STR/MAG/DEF/RES -3 on hit.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            2,
-            1
+            3,
+            6
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                1200
+                1500
             ],
             [
                 "target_enemy",
@@ -35,7 +35,7 @@
             ],
             [
                 "hit",
-                90
+                85
             ],
             [
                 "crit",
@@ -73,7 +73,7 @@
             ],
             [
                 "status_on_hit",
-                "Dagger 3"
+                "SilverDaggerDebuff"
             ]
         ]
     }

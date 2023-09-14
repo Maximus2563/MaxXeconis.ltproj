@@ -18,6 +18,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "spawn_group;WyvernReinforcement;east;WyvernReinforcement;normal;closest"
+        "source": "spawn_group;WyvernReinforcement;east;WyvernReinforcement;normal;closest\n"
     }
 ]

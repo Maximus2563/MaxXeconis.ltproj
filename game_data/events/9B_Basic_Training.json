@@ -1,0 +1,249 @@
+[
+    {
+        "name": "Basic Training",
+        "trigger": "on_base_convo",
+        "level_nid": "9B",
+        "condition": "unit == 'Basic Training'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Tavern 1"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Funny Footsteps"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Aspl",
+                    "Left",
+                    "Bread",
+                    "Right"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Look, I'm just way stronger.|You should stay behind me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "No! I'm not gonna let that happen, silly!|I want to keep you safe!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Who doesn't?|But you should really be more careful."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Says you, meanie!"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Prof",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "What's happening here?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bread"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bread",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Prof",
+                    "Right"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Aspl",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "C'mon teach, you know I'm the better student."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Bread"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Nuh-uh."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Uhm, yuh-uh."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Prof",
+                    "Well.."
+                ]
+            ],
+            [
+                "end_skip",
+                []
+            ],
+            [
+                "choice",
+                [
+                    "Student",
+                    "Who is the better student?",
+                    "Aspl,Bread",
+                    "",
+                    "v",
+                    "center",
+                    "",
+                    "",
+                    "type_unit",
+                    "",
+                    "left"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:_last_choice}' == 'Aspl'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Hah! Prof is smart, obviously he'd choose the best."
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "Aspl",
+                    "50"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Aw...|Well played Aspl..."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Bread"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bread",
+                    "Yay! Go me!"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "Bread",
+                    "50"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aspl",
+                    "Don't let it go to your head.|I'll beat you next time."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Aspl",
+                    "Bread",
+                    "Prof"
+                ]
+            ],
+            [
+                "music_fade_back",
+                []
+            ],
+            [
+                "ignore_base_convo",
+                [
+                    "Basic Training"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "transition;close\nchange_background;Daytime Tavern 1\nmusic;Funny Footsteps\nmulti_add_portrait;Aspl;Left;Bread;Right\ntransition;open\nspeak;Aspl;Look, I'm just way stronger.|You should stay behind me.\nspeak;Bread;No! I'm not gonna let that happen, silly!|I want to keep you safe!\nspeak;Aspl;Who doesn't?|But you should really be more careful.\nspeak;Bread;Says you, meanie!\nadd_portrait;Prof;OffscreenRight\nspeak;Prof;What's happening here?\nremove_portrait;Bread\nadd_portrait;Bread;FarLeft\nmove_portrait;Prof;Right\nmove_portrait;Aspl;MidLeft\nspeak;Aspl;C'mon teach, you know I'm the better student.\nbop_portrait;Bread\nspeak;Bread;Nuh-uh.\nspeak;Aspl;Uhm, yuh-uh.\nspeak;Prof;Well..\nend_skip\nchoice;Student;Who is the better student?;Aspl,Bread;;v;center;;;type_unit;;left\nif;'{v:_last_choice}' == 'Aspl'\n    speak;Aspl;Hah! Prof is smart, obviously he'd choose the best.\n    give_exp;Aspl;50\n    speak;Bread;Aw...|Well played Aspl...\nelse\n    bop_portrait;Bread\n    speak;Bread;Yay! Go me!\n    give_exp;Bread;50\n    speak;Aspl;Don't let it go to your head.|I'll beat you next time.\nend\nmulti_remove_portrait;Aspl;Bread;Prof\nmusic_fade_back\nignore_base_convo;Basic Training\n"
+    }
+]

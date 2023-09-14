@@ -2,7 +2,7 @@
     {
         "nid": "Bronze_Dagger",
         "name": "Bronze Dagger",
-        "desc": "Cannot crit.",
+        "desc": "Inflicts SKL/DEF/RES -1 on hit. Cannot crit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
             0,
@@ -35,7 +35,7 @@
             ],
             [
                 "hit",
-                105
+                100
             ],
             [
                 "weight",
@@ -70,6 +70,10 @@
             [
                 "wexp",
                 2
+            ],
+            [
+                "status_on_hit",
+                "BronzeDaggerDebuff"
             ]
         ]
     }

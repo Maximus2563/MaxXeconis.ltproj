@@ -47,14 +47,14 @@
         },
         "starting_items": [
             [
-                "Steel Bow",
+                "Short Bow",
                 false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "SealSkl"
+                "SealDef"
             ]
         ],
         "unit_notes": [],

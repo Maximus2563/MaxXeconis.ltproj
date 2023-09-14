@@ -318,10 +318,37 @@
                     "Leap",
                     "Wagon2"
                 ]
+            ],
+            [
+                "change_stats",
+                [
+                    "102",
+                    "SPD,-1",
+                    "FLAG(no_warn)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "change_stats",
+                [
+                    "106",
+                    "SPD,-1",
+                    "FLAG(no_warn)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "change_stats",
+                [
+                    "103",
+                    "SPD,-1",
+                    "FLAG(no_warn)",
+                    "FLAG(immediate)"
+                ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "chapter_title\nremove_all_units\nchange_background;Mountainside Day\nmusic;The Defendants' Antechamber\ntransition;open\nmulti_add_portrait;Leap;MidLeft;Prof;FarLeft;Liz;MidRight;Man4;FarRight\nlocation_card;Moonglade, Grahment\nspeak;Prof;So, it seems all the wagons are in good condition.|All supplies are secured.\nspeak;Liz;If only you could have put in an order for some more books...\nspeak;Leap;Oh Liz! Always lost in your books!\nspeak;Liz;Look, I'm dying for some new ones.|All mine are old hand-me-downs...\nspeak;Prof;Soon, once we're out of this... hardship.\nspeak;Man4;Aye, times are tough.|All this war, infighting...|Unlawful types have every opportunity to run amok!\nspeak;Leap;We're almost home,{c:bop_portrait;Leap} I can't wait!\nspeak;Prof;Wonder if Miz will wake up before then...\ntransition;close\nchange_background\nmulti_remove_portrait;Leap;Prof;Liz;Man4\ntransition;open\npair_up;Mizt;Wagon2\ngive_skill;Wagon2;Rescue;;FLAG(no_banner)\nspawn_group;Player;east;Player;normal;stack\nmove_cursor;1,1\nflicker_cursor;1,1\nadd_portrait;Man4;Right\nspeak;Man4;We jus' need to get there, aye?|Not far at all!\nremove_portrait;Man4\nmusic;On Black Wings\nspawn_group;Enemy;west;Enemy\nmove_unit;Maurice;13,7\nmulti_add_portrait;Leap;80,Bottom;Maurice;FarLeft;Liz;FarRight;Prof;MidRight\nexpression;Maurice;Smile\nspeak;Maurice;Stand and deliver!|Your money, or your life!\nspeak;Leap;Oh noes!\nspeak;Prof;Stand aside, we don't have time for this.\nspeak;Maurice;Perhaps I have't made myself clear.|Your money, or your life!\nspeak;Prof;I am adept at language comprehension.|I just refuse to comply.\nspeak;Liz;Y-yeah. What he said!\nspeak;Maurice;How disappointing...|Lads! Kill these fools and raid their wagons!\nspeak;Leap;Nah. We won't let you.\nspeak;Maurice;We'll see how long you persist, huh?\nmulti_remove_portrait;Leap;Prof;Liz;Maurice\nmove_unit;Maurice;7,7;normal;stack;FLAG(no_follow)\nadd_talk;Leap;Wagon2\n"
+        "source": "chapter_title\nremove_all_units\nchange_background;Mountainside Day\nmusic;The Defendants' Antechamber\ntransition;open\nmulti_add_portrait;Leap;MidLeft;Prof;FarLeft;Liz;MidRight;Man4;FarRight\nlocation_card;Moonglade, Grahment\nspeak;Prof;So, it seems all the wagons are in good condition.|All supplies are secured.\nspeak;Liz;If only you could have put in an order for some more books...\nspeak;Leap;Oh Liz! Always lost in your books!\nspeak;Liz;Look, I'm dying for some new ones.|All mine are old hand-me-downs...\nspeak;Prof;Soon, once we're out of this... hardship.\nspeak;Man4;Aye, times are tough.|All this war, infighting...|Unlawful types have every opportunity to run amok!\nspeak;Leap;We're almost home,{c:bop_portrait;Leap} I can't wait!\nspeak;Prof;Wonder if Miz will wake up before then...\ntransition;close\nchange_background\nmulti_remove_portrait;Leap;Prof;Liz;Man4\ntransition;open\npair_up;Mizt;Wagon2\ngive_skill;Wagon2;Rescue;;FLAG(no_banner)\nspawn_group;Player;east;Player;normal;stack\nmove_cursor;1,1\nflicker_cursor;1,1\nadd_portrait;Man4;Right\nspeak;Man4;We jus' need to get there, aye?|Not far at all!\nremove_portrait;Man4\nmusic;On Black Wings\nspawn_group;Enemy;west;Enemy\nmove_unit;Maurice;13,7\nmulti_add_portrait;Leap;80,Bottom;Maurice;FarLeft;Liz;FarRight;Prof;MidRight\nexpression;Maurice;Smile\nspeak;Maurice;Stand and deliver!|Your money, or your life!\nspeak;Leap;Oh noes!\nspeak;Prof;Stand aside, we don't have time for this.\nspeak;Maurice;Perhaps I have't made myself clear.|Your money, or your life!\nspeak;Prof;I am adept at language comprehension.|I just refuse to comply.\nspeak;Liz;Y-yeah. What he said!\nspeak;Maurice;How disappointing...|Lads! Kill these fools and raid their wagons!\nspeak;Leap;Nah. We won't let you.\nspeak;Maurice;We'll see how long you persist, huh?\nmulti_remove_portrait;Leap;Prof;Liz;Maurice\nmove_unit;Maurice;7,7;normal;stack;FLAG(no_follow)\nadd_talk;Leap;Wagon2\nchange_stats;102;SPD,-1;FLAG(no_warn);FLAG(immediate)\nchange_stats;106;SPD,-1;FLAG(no_warn);FLAG(immediate)\nchange_stats;103;SPD,-1;FLAG(no_warn);FLAG(immediate)\n"
     }
 ]

@@ -15,7 +15,7 @@
             [
                 "if",
                 [
-                    "game.level.nid in ['7', '8', '9']"
+                    "game.level.nid in ['7', '8', '9', '10']"
                 ]
             ],
             [
@@ -72,6 +72,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Prof;Right\nif;game.level.nid in ['7', '8', '9']\n    music;108 Lament\n    speak;Prof;Argh.. Leap...\n    expression;Prof;CloseEyes\n    remove_portrait;Prof\n    lose_game\nelse\n    speak;Prof;I'll have to back off, for now...\n    remove_portrait;Prof\nend\n"
+        "source": "add_portrait;Prof;Right\nif;game.level.nid in ['7', '8', '9', '10']\n    music;108 Lament\n    speak;Prof;Argh.. Leap...\n    expression;Prof;CloseEyes\n    remove_portrait;Prof\n    lose_game\nelse\n    speak;Prof;I'll have to back off, for now...\n    remove_portrait;Prof\nend\n"
     }
 ]

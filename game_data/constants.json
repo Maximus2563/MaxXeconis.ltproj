@@ -289,7 +289,7 @@
     ],
     [
         "double_wexp",
-        true
+        false
     ],
     [
         "miss_wexp",

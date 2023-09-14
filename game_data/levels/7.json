@@ -153,7 +153,7 @@
             {
                 "nid": "Maurice",
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "Maurice",
                 "starting_position": [
@@ -215,11 +215,11 @@
                 "nid": "103",
                 "variant": null,
                 "level": 2,
-                "klass": "Deserter",
+                "klass": "Brigand",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -229,8 +229,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    6
+                    11,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -253,8 +253,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    9
+                    9,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -382,7 +382,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Brigand",
                 "faction": "Bandit",
                 "starting_items": [
@@ -562,12 +562,12 @@
                         4
                     ],
                     "104": [
-                        11,
-                        9
-                    ],
-                    "103": [
                         9,
                         6
+                    ],
+                    "103": [
+                        11,
+                        9
                     ],
                     "105": [
                         7,
@@ -617,7 +617,7 @@
         "ai_groups": [
             {
                 "nid": "Maurice",
-                "trigger_threshold": 2
+                "trigger_threshold": 1
             }
         ]
     }

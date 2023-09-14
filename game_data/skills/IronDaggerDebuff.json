@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Dagger 2",
-        "name": "Steel Dagger",
-        "desc": "Inflicts STR/MAG-2, DEF/RES-4.",
-        "icon_nid": "Skills (1)",
+        "nid": "IronDaggerDebuff",
+        "name": "Iron Dagger",
+        "desc": "Inflicts MAG -1, DEF/RES-2.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            5,
-            28
+            1,
+            6
         ],
         "components": [
             [
@@ -17,20 +17,16 @@
                 "stat_change",
                 [
                     [
-                        "STR",
+                        "DEF",
+                        -2
+                    ],
+                    [
+                        "RES",
                         -2
                     ],
                     [
                         "MAG",
-                        -2
-                    ],
-                    [
-                        "DEF",
-                        -4
-                    ],
-                    [
-                        "RES",
-                        -4
+                        -1
                     ]
                 ]
             ],

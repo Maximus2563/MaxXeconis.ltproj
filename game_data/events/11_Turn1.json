@@ -34,6 +34,6 @@
         ],
         "only_once": true,
         "priority": 20,
-        "source": "if;game.check_alive('Speedy')\nadd_portrait;Speedy;Right\nspeak;Speedy;We need to escape, above all.|Don't bother sending me to pick those locks, I would rather stay focused.\nremove_portrait;Speedy"
+        "source": "if;game.check_alive('Speedy')\n    add_portrait;Speedy;Right\n    speak;Speedy;We need to escape, above all.|Don't bother sending me to pick those locks, I would rather stay focused.\n    remove_portrait;Speedy\n"
     }
 ]

@@ -277,10 +277,33 @@
                 [
                     "close"
                 ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "Nabin",
+                    "MiracleBoss"
+                ]
+            ],
+            [
+                "remove_item_component",
+                [
+                    "Nabin",
+                    "Wind Sword",
+                    "locked"
+                ]
+            ],
+            [
+                "remove_item_component",
+                [
+                    "Nabin",
+                    "Epee",
+                    "locked"
+                ]
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;You're all useless!|No matter, they'll see retribution some day...\ntransition;close\nchange_background;Forest 2 Evening\nmusic;Reminiscences ~ Killers' Crossroads\ntransition;open\nmulti_add_portrait;Leap;Left;Prof;Right\nspeak;Leap;That was...\nspeak;Prof;Horrible.\nspeak;Leap;The Duke truly is a demon!\nspeak;Prof;Seems like he's wrapped around the finger of Aurelia.\nspeak;Leap;I wish that this would all end...\nspeak;Prof;Even if Arcei did those things...|I doubt Aurelia are perfect either. Allying with Monsdor...|Influencing cretins, such as the Duke...|What can we even do...?\nspeak;Leap;We need to go to Aurelia. Fight them if we have to.\nspeak;Prof;We may need to speak to them, not fight.\nspeak;Leap;Because talking to people worked so well this time...\nspeak;Prof;We can't just fight our way through, even if that's how things have been...\nspeak;Leap;Hmph, fine.|Though I hope Nabin is alright...\ntransition;close\nremove_all_units\nadd_unit;Hogarth;2,2;immediate;stack;fade\nadd_unit;Nabin;2,4;immediate;stack;fade\ntransition;open\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Why do you have to do these things to me?|Now they'll squeak about how awful they think I am.\nspeak;Nabin;How awful you are, more like.\nspeak;Hogarth;You ingrate...|You have to make this up to me.|You must realise your errors.\nspeak;Nabin;Father, you've changed.|I don't know who these people you're speaking to are...|But they aren't good for you!\nspeak;Hogarth;Nonsense.|The Goddess adores gold... that's what I am obeying!\nspeak;Nabin;G-Gold?! That's what this is about?!\nspeak;Hogarth;We will take to Aurelia.|I must make you see the light, the golden light...\nspeak;Nabin;Do I have a choice...?\nspeak;Hogarth;Suffer eternal damnation if you don't.\nspeak;Nabin;Alright...\nspeak;Hogarth;Our boat leaves tomorrow.|Now, rest up.|I- I mean, WE will have a great time.\nspeak;Nabin;Alright, father...\ntransition;close\n"
+        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;You're all useless!|No matter, they'll see retribution some day...\ntransition;close\nchange_background;Forest 2 Evening\nmusic;Reminiscences ~ Killers' Crossroads\ntransition;open\nmulti_add_portrait;Leap;Left;Prof;Right\nspeak;Leap;That was...\nspeak;Prof;Horrible.\nspeak;Leap;The Duke truly is a demon!\nspeak;Prof;Seems like he's wrapped around the finger of Aurelia.\nspeak;Leap;I wish that this would all end...\nspeak;Prof;Even if Arcei did those things...|I doubt Aurelia are perfect either. Allying with Monsdor...|Influencing cretins, such as the Duke...|What can we even do...?\nspeak;Leap;We need to go to Aurelia. Fight them if we have to.\nspeak;Prof;We may need to speak to them, not fight.\nspeak;Leap;Because talking to people worked so well this time...\nspeak;Prof;We can't just fight our way through, even if that's how things have been...\nspeak;Leap;Hmph, fine.|Though I hope Nabin is alright...\ntransition;close\nremove_all_units\nadd_unit;Hogarth;2,2;immediate;stack;fade\nadd_unit;Nabin;2,4;immediate;stack;fade\ntransition;open\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Why do you have to do these things to me?|Now they'll squeak about how awful they think I am.\nspeak;Nabin;How awful you are, more like.\nspeak;Hogarth;You ingrate...|You have to make this up to me.|You must realise your errors.\nspeak;Nabin;Father, you've changed.|I don't know who these people you're speaking to are...|But they aren't good for you!\nspeak;Hogarth;Nonsense.|The Goddess adores gold... that's what I am obeying!\nspeak;Nabin;G-Gold?! That's what this is about?!\nspeak;Hogarth;We will take to Aurelia.|I must make you see the light, the golden light...\nspeak;Nabin;Do I have a choice...?\nspeak;Hogarth;Suffer eternal damnation if you don't.\nspeak;Nabin;Alright...\nspeak;Hogarth;Our boat leaves tomorrow.|Now, rest up.|I- I mean, WE will have a great time.\nspeak;Nabin;Alright, father...\ntransition;close\nremove_skill;Nabin;MiracleBoss\nremove_item_component;Nabin;Wind Sword;locked\nremove_item_component;Nabin;Epee;locked"
     }
 ]

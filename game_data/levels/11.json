@@ -883,6 +883,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "NabinCross",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    24
+                ],
+                "size": [
+                    25,
+                    9
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

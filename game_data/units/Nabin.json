@@ -2,7 +2,7 @@
     {
         "nid": "Nabin",
         "name": "Nabin",
-        "desc": "",
+        "desc": "Son of Duke Hogarth von Ilkrest.\nDisagrees with his fathers worldview.",
         "variant": "Short",
         "level": 1,
         "klass": "Swordmaster",
@@ -57,9 +57,22 @@
             [
                 1,
                 "FlashingBlade"
+            ],
+            [
+                1,
+                "MiracleBoss"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Swordplay,Training"
+            ],
+            [
+                "Dislikes:",
+                "Uncertainty"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -115,6 +128,35 @@
         "alternate_classes": [],
         "portrait_nid": "Nabin",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "The only certainty in life... is death..."
+            ],
+            [
+                "EscapeQuote",
+                "Apologies, I'll be ahead waiting."
+            ],
+            [
+                "MaxStatQuote",
+                "Seems I've mastered something..."
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'm glad I can still learn new things."
+            ],
+            [
+                "MidLevelUpQuote",
+                "Steady progress, what more can you ask for?"
+            ],
+            [
+                "LowLevelUpQuote",
+                "I should start training again."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "What would father say about this..."
+            ]
+        ]
     }
 ]

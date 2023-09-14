@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Steel Knife",
-        "name": "Steel Knife",
-        "desc": "Inflicts SKL/LCK-3, SPD-2 on hit.",
-        "icon_nid": "Knife",
+        "nid": "Lethal_Dagger",
+        "name": "Lethal Dagger",
+        "desc": "Inflicts STR -2, DEF/RES -3 on hit.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            1,
-            0
+            2,
+            6
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                1000
+                720
             ],
             [
                 "target_enemy",
@@ -27,27 +27,27 @@
             ],
             [
                 "max_range",
-                2
+                1
             ],
             [
                 "damage",
-                4
+                7
             ],
             [
                 "hit",
-                70
+                80
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
-                3
+                5
             ],
             [
                 "uses",
-                20
+                30
             ],
             [
                 "uses_options",
@@ -69,11 +69,11 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "C"
             ],
             [
                 "status_on_hit",
-                "Knife 2"
+                "SteelDaggerDebuff"
             ]
         ]
     }

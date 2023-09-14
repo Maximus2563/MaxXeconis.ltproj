@@ -12,9 +12,9 @@
             "STR": 9,
             "MAG": 12,
             "SKL": 9,
-            "SPD": 7,
+            "SPD": 5,
             "LCK": 8,
-            "DEF": 11,
+            "DEF": 10,
             "RES": 6,
             "CON": 13,
             "MOV": 5
@@ -45,14 +45,14 @@
         },
         "starting_items": [
             [
-                "Arcwind",
+                "Elwind",
                 false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "CertainBlow"
+                "FortressDef"
             ]
         ],
         "unit_notes": [],

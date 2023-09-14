@@ -53,6 +53,10 @@
             [
                 "Steel Axe",
                 false
+            ],
+            [
+                "Red Gem",
+                true
             ]
         ],
         "learned_skills": [

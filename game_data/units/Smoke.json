@@ -13,7 +13,7 @@
             "MAG": 3,
             "SKL": 7,
             "SPD": 9,
-            "LCK": 6,
+            "LCK": 8,
             "DEF": 2,
             "RES": 2,
             "CON": 6,
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Iron Dagger",
+                "Bronze_Dagger",
                 false
             ],
             [

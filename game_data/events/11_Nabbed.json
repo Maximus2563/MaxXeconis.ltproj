@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn4",
-        "trigger": "turn_change",
+        "name": "Nabbed",
+        "trigger": "unit_wait",
         "level_nid": "11",
-        "condition": "game.turncount == 4",
+        "condition": "get_units_in_region('NabinCross', nid='Nabin')",
         "commands": [
             [
                 "move_cursor",
@@ -42,7 +42,8 @@
                 [
                     "Nabin",
                     "2,4",
-                    "warp"
+                    "warp",
+                    "closest"
                 ]
             ],
             [
@@ -139,8 +140,8 @@
                 ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
-        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;Son, you won't continue this tomfoolery. Come here!\nremove_portrait;Hogarth\nmove_cursor;Nabin\nmove_unit;Nabin;2,4;warp\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;You...\nspeak;Hogarth;How dare you do this to me?!|You short sighted simpleton, you know nothing!\nspeak;Nabin;I don't want to hurt you...\nspeak;Hogarth;You're already dead to me, so I needn't care about your life.\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Prepare yourself.|If you think so low of me, show me how poor of a father I was.\nspeak;Nabin;Oh, I will.\nmulti_remove_portrait;Hogarth;Nabin\nchange_team;Nabin;other\nadd_portrait;Leap;Right\nspeak;Leap;Nabin...|We'll have to leave you... as you said...|But it hurts to be so cruel...\nremove_portrait;Leap\n"
+        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;Son, you won't continue this tomfoolery. Come here!\nremove_portrait;Hogarth\nmove_cursor;Nabin\nmove_unit;Nabin;2,4;warp;closest\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;You...\nspeak;Hogarth;How dare you do this to me?!|You short sighted simpleton, you know nothing!\nspeak;Nabin;I don't want to hurt you...\nspeak;Hogarth;You're already dead to me, so I needn't care about your life.\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Prepare yourself.|If you think so low of me, show me how poor of a father I was.\nspeak;Nabin;Oh, I will.\nmulti_remove_portrait;Hogarth;Nabin\nchange_team;Nabin;other\nadd_portrait;Leap;Right\nspeak;Leap;Nabin...|We'll have to leave you... as you said...|But it hurts to be so cruel...\nremove_portrait;Leap\n"
     }
 ]

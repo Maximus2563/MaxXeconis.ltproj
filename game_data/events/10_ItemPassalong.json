@@ -36,6 +36,6 @@
         ],
         "only_once": false,
         "priority": 20,
-        "source": "move_item;101;Prof;\nmove_item;101;Prof;\nmove_item;101;Prof;\nmove_item;101;Prof;\n"
+        "source": "move_item;101;Prof\nmove_item;101;Prof\nmove_item;101;Prof\nmove_item;101;Prof\n"
     }
 ]

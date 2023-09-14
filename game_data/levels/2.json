@@ -615,7 +615,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Knife ",
+                        "Bronze_Dagger",
                         false
                     ]
                 ],
@@ -639,7 +639,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Knife ",
+                        "Bronze_Dagger",
                         false
                     ]
                 ],

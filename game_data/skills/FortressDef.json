@@ -1,34 +1,34 @@
 [
     {
-        "nid": "Dagger 1",
-        "name": "Iron Dagger",
-        "desc": "Inflicts DEF/RES-3.",
+        "nid": "FortressDef",
+        "name": "Fortress Defense",
+        "desc": "Grants DEF +5. Inflicts STR/MAG -3.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             4,
-            28
+            47
         ],
         "components": [
-            [
-                "negative",
-                null
-            ],
             [
                 "stat_change",
                 [
                     [
                         "DEF",
+                        5
+                    ],
+                    [
+                        "STR",
                         -3
                     ],
                     [
-                        "RES",
+                        "MAG",
                         -3
                     ]
                 ]
             ],
             [
-                "combined_time",
-                1
+                "class_skill",
+                null
             ]
         ]
     }

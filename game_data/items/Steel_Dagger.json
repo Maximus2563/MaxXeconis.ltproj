@@ -2,11 +2,11 @@
     {
         "nid": "Steel Dagger",
         "name": "Steel Dagger",
-        "desc": "Inflicts STR/MAG-2, DEF/RES-4 on hit.",
-        "icon_nid": "Knife",
+        "desc": "Inflicts STR -2, DEF/RES -3 on hit.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            1,
-            1
+            2,
+            6
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                600
+                740
             ],
             [
                 "target_enemy",
@@ -47,7 +47,7 @@
             ],
             [
                 "uses",
-                35
+                30
             ],
             [
                 "uses_options",
@@ -73,7 +73,7 @@
             ],
             [
                 "status_on_hit",
-                "Dagger 2"
+                "SteelDaggerDebuff"
             ]
         ]
     }

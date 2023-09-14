@@ -133,7 +133,7 @@
                 "generic": true
             },
             {
-                "nid": "102",
+                "nid": "108",
                 "variant": null,
                 "level": 4,
                 "klass": "KnightL",
@@ -157,7 +157,7 @@
                 "generic": true
             },
             {
-                "nid": "108",
+                "nid": "102",
                 "variant": null,
                 "level": 4,
                 "klass": "KnightA",
@@ -427,6 +427,23 @@
                 ],
                 "sub_nid": "Escape",
                 "condition": "len(game.get_player_units()) == 1",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "EscapeZone",
+                "region_type": "event",
+                "position": [
+                    1,
+                    0
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.nid != 'Prof'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false

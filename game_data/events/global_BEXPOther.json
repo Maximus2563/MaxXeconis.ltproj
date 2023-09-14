@@ -1,0 +1,20 @@
+[
+    {
+        "name": "BEXPOther",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.team == 'enemy' or 'enemy2' and unit2.team == 'other'",
+        "commands": [
+            [
+                "give_bexp",
+                [
+                    "10",
+                    "FLAG(no_banner)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "give_bexp;10;FLAG(no_banner)"
+    }
+]

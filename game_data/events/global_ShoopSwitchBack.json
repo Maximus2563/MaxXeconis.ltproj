@@ -1,7 +1,7 @@
 [
     {
         "name": "ShoopSwitchBack",
-        "trigger": null,
+        "trigger": "level_end",
         "level_nid": null,
         "condition": "True",
         "commands": [
