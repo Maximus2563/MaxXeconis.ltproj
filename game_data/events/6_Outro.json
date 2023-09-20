@@ -354,14 +354,14 @@
                 "speak",
                 [
                     "Sal",
-                    "It's okay, Javi.|I'm sure you tried your best..."
+                    "It's okay, Javi.|I'm sure you tried your best...|We might need to lie low in Grahment..."
                 ]
             ],
             [
                 "speak",
                 [
                     "Sages",
-                    "Quickly now!"
+                    "Good idea, Sal, quickly now!"
                 ]
             ],
             [
@@ -384,10 +384,26 @@
                 [
                     "false"
                 ]
+            ],
+            [
+                "if",
+                [
+                    "game.turncount < 12"
+                ]
+            ],
+            [
+                "give_bexp",
+                [
+                    "200"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Temple\nmusic;72 The Wistful Wilds\ntransition;Open\nmulti_add_portrait;Sal;MidLeft;Sages;FarLeft;Septimus;Right\nspeak;Sal;You! Talk!|What is going on here?|Monsters, Mondsorians?\nspeak;Sages;Hardly a difference between the two, if you ask me.\nspeak;Septimus;Heh, you have... no clue?|Good, I can die in... peace...\nspeak;Sal;Speak!\nspeak;Septimus;Maybe.. I too will become a... revenant...\nsound;Death\nremove_portrait;Septimus\nspeak;Sal;Rats...|RATS!\nspeak;Sages;I guess in all the excitement... we ignored the sewer stench...\nspeak;Sal;Right, now we should be able to exit around here.\nif;game.check_alive('Sal')\n    speak;Sages;Don't you wanna take this tome first?\n    speak;Sal;Use dark magic?|It's been so long...\n    speak;Sages;I'm sure the whole 'evil' magic thing is nonsense.|It's the user who is really good or evil.\n    speak;Sal;I suppose you're right...|I'll give it a go.\n    give_item;Sal;Flux\nend\ntransition;Close\nmulti_remove_portrait;Sages;Sal\nchange_background;DeepForest\ntransition;Open\nmulti_add_portrait;Sal;Right;Sages;Left\nspeak;Sages;Whew! Fresh air...\nspeak;Sal;I didn't want to see... those things again.\nspeak;Sages;Sal?\nspeak;Sal;My father fled Aurelia for... dabbling in necromancy.\nspeak;Sages;And you were accepted here, right?\nspeak;Sal;Well, not exactly.|He was still hunted down and killed.|Really, I'm not surprised. It's a crime against life itself!\nspeak;Sages;Hm, do they think, or feel, like we do?\nspeak;Sal;I don't know...|But I don't care to know, just thinking about it...\nspeak;Sages;You don't think pops...\nspeak;Sal;Oh! Your father...|I don't think they'd debase his Majesty like that... for now.\nsound;WarpEnd\nspeak;Sages;Is that...\nadd_portrait;Javi;OffscreenRight\nexpression;Javi;HalfCloseEyes\nspeak;Javi;Urgh...{c:move_portrait;Javi;FarRight}|Lord Sages...\nspeak;Sages;Jav! What did they do to you... to pops?\nspeak;Javi;King Oberon... Hurting...\nspeak;Sal;We ought to get you to somewhere to recuperate, quick!\nif;game.check_alive('Frost')\n    add_portrait;Frost;FarLeft\n    speak;Frost;I will heal him, but we need to find shelter soon.|I forsee rain...\n    speak;Sages;Good idea, we need to find a town, posthaste!\nend\nspeak;Javi;King... Unsafe...\nspeak;Sal;It's okay, Javi.|I'm sure you tried your best...\nspeak;Sages;Quickly now!\ntransition;close\nmulti_remove_portrait;Sages;Sal;Javi;Frost\nenable_fog_of_war;false\n"
+        "source": "transition;Close\nchange_background;Temple\nmusic;72 The Wistful Wilds\ntransition;Open\nmulti_add_portrait;Sal;MidLeft;Sages;FarLeft;Septimus;Right\nspeak;Sal;You! Talk!|What is going on here?|Monsters, Mondsorians?\nspeak;Sages;Hardly a difference between the two, if you ask me.\nspeak;Septimus;Heh, you have... no clue?|Good, I can die in... peace...\nspeak;Sal;Speak!\nspeak;Septimus;Maybe.. I too will become a... revenant...\nsound;Death\nremove_portrait;Septimus\nspeak;Sal;Rats...|RATS!\nspeak;Sages;I guess in all the excitement... we ignored the sewer stench...\nspeak;Sal;Right, now we should be able to exit around here.\nif;game.check_alive('Sal')\n    speak;Sages;Don't you wanna take this tome first?\n    speak;Sal;Use dark magic?|It's been so long...\n    speak;Sages;I'm sure the whole 'evil' magic thing is nonsense.|It's the user who is really good or evil.\n    speak;Sal;I suppose you're right...|I'll give it a go.\n    give_item;Sal;Flux\nend\ntransition;Close\nmulti_remove_portrait;Sages;Sal\nchange_background;DeepForest\ntransition;Open\nmulti_add_portrait;Sal;Right;Sages;Left\nspeak;Sages;Whew! Fresh air...\nspeak;Sal;I didn't want to see... those things again.\nspeak;Sages;Sal?\nspeak;Sal;My father fled Aurelia for... dabbling in necromancy.\nspeak;Sages;And you were accepted here, right?\nspeak;Sal;Well, not exactly.|He was still hunted down and killed.|Really, I'm not surprised. It's a crime against life itself!\nspeak;Sages;Hm, do they think, or feel, like we do?\nspeak;Sal;I don't know...|But I don't care to know, just thinking about it...\nspeak;Sages;You don't think pops...\nspeak;Sal;Oh! Your father...|I don't think they'd debase his Majesty like that... for now.\nsound;WarpEnd\nspeak;Sages;Is that...\nadd_portrait;Javi;OffscreenRight\nexpression;Javi;HalfCloseEyes\nspeak;Javi;Urgh...{c:move_portrait;Javi;FarRight}|Lord Sages...\nspeak;Sages;Jav! What did they do to you... to pops?\nspeak;Javi;King Oberon... Hurting...\nspeak;Sal;We ought to get you to somewhere to recuperate, quick!\nif;game.check_alive('Frost')\n    add_portrait;Frost;FarLeft\n    speak;Frost;I will heal him, but we need to find shelter soon.|I forsee rain...\n    speak;Sages;Good idea, we need to find a town, posthaste!\nend\nspeak;Javi;King... Unsafe...\nspeak;Sal;It's okay, Javi.|I'm sure you tried your best...|We might need to lie low in Grahment...\nspeak;Sages;Good idea, Sal, quickly now!\ntransition;close\nmulti_remove_portrait;Sages;Sal;Javi;Frost\nenable_fog_of_war;false\nif;game.turncount < 12\n    give_bexp;200\nend"
     }
 ]

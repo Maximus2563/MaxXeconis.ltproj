@@ -1,0 +1,72 @@
+[
+    {
+        "name": "PeteAngel",
+        "trigger": "combat_start",
+        "level_nid": "12",
+        "condition": "check_pair('Pete', 'Angel')",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Pete",
+                    "Left",
+                    "Angel",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pete",
+                    "Glasses, you traitor!|I won't stand for mutiny!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "I'm under new management, girl.|Plus, take a bath. You reek..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pete",
+                    "Yar har! The only thing I smell of, is victory!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Is that what we're calling it now..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pete",
+                    "You won't be laughin' when me axe is lodged in your skull, har!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Pete",
+                    "Angel"
+                ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "multi_add_portrait;Pete;Left;Angel;Right\nspeak;Pete;Glasses, you traitor!|I won't stand for mutiny!\nspeak;Angel;I'm under new management, girl.|Plus, take a bath. You reek...\nspeak;Pete;Yar har! The only thing I smell of, is victory!\nspeak;Angel;Is that what we're calling it now...\nspeak;Pete;You won't be laughin' when me axe is lodged in your skull, har!\nmulti_remove_portrait;Pete;Angel\n\n"
+    }
+]

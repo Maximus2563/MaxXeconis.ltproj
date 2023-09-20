@@ -120,6 +120,21 @@
         "status": null
     },
     {
+        "nid": "62",
+        "name": "Deck",
+        "color": [
+            150,
+            101,
+            53
+        ],
+        "minimap": "Pier",
+        "platform": "Deck",
+        "background": null,
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "7",
         "name": "Road",
         "color": [
@@ -637,7 +652,22 @@
             142,
             123
         ],
-        "minimap": "Grass",
+        "minimap": "Wall",
+        "platform": "Arena",
+        "background": "Cliff",
+        "mtype": "Wall",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "49",
+        "name": "Boat",
+        "color": [
+            170,
+            142,
+            123
+        ],
+        "minimap": "Wall",
         "platform": "Arena",
         "background": "Cliff",
         "mtype": "Wall",

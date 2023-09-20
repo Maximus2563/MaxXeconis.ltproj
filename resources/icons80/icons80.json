@@ -326,5 +326,13 @@
     {
         "nid": "[SWD] Dread Fighter (M) (T2) Sword {Nuramon}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "[FLY] Nephilim (F) Magic {Melia}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[FLY] Falcoknight (F) Sword {Flasuban, ArcaneEli}",
+        "subicon_dict": {}
     }
 ]

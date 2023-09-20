@@ -24,7 +24,7 @@
         "roam": false,
         "roam_unit": null,
         "go_to_overworld": false,
-        "should_record": true,
+        "should_record": false,
         "units": [
             {
                 "nid": "Sal",

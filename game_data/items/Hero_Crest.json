@@ -2,7 +2,7 @@
     {
         "nid": "Hero Crest",
         "name": "Hero Crest",
-        "desc": "Promotes infantry classes.",
+        "desc": "Promotes physical infantry classes.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -52,7 +52,8 @@
                 [
                     "Myrmidon",
                     "Mercenary",
-                    "Fighter"
+                    "Fighter",
+                    "Soldier"
                 ]
             ]
         ]

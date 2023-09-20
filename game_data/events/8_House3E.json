@@ -1,7 +1,7 @@
 [
     {
         "name": "House3E",
-        "trigger": "on_region_interact",
+        "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid == 'House3' and unit.team == 'enemy'",
         "commands": [
@@ -112,10 +112,18 @@
                 [
                     "Open"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;SoldierRed;Left;no_block\nadd_portrait;YoungBoy;Right\nspeak;YoungBoy;Time to play?\nspeak;SoldierRed;Where are your parents?\nspeak;YoungBoy;They're out, fighting, I think...|Say... red armour...|Ma said you people are bad men.\nspeak;SoldierRed;Fighting... Hmph, they deserve this!\nspeak;YoungBoy;Eeek!\ntransition;Close\nsound;Final Hit\nwait;200\nsound;Death\nshow_layer;House3\nchange_background\ntransition;Open\n"
+        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;SoldierRed;Left;no_block\nadd_portrait;YoungBoy;Right\nspeak;YoungBoy;Time to play?\nspeak;SoldierRed;Where are your parents?\nspeak;YoungBoy;They're out, fighting, I think...|Say... red armour...|Ma said you people are bad men.\nspeak;SoldierRed;Fighting... Hmph, they deserve this!\nspeak;YoungBoy;Eeek!\ntransition;Close\nsound;Final Hit\nwait;200\nsound;Death\nshow_layer;House3\nchange_background\ntransition;Open\n\n"
     }
 ]

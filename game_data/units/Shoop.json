@@ -5,7 +5,7 @@
         "desc": "A strange mage who likes makeup, tomfoolery and murder.",
         "variant": "Female",
         "level": 2,
-        "klass": "MageF",
+        "klass": "Mage",
         "tags": [],
         "bases": {
             "HP": 17,

@@ -1,0 +1,82 @@
+[
+    {
+        "nid": "Cannon",
+        "name": "Cannon",
+        "desc": "Attacks AoE of 1. Cannot Crit.",
+        "icon_nid": "{Seal} (SacredWar) Ballista 3",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                7
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Ballistician"
+                ]
+            ],
+            [
+                "weapon_type",
+                "Default"
+            ],
+            [
+                "enemy_blast_aoe",
+                1
+            ],
+            [
+                "map_cast_sfx",
+                "AnimeExplosion"
+            ],
+            [
+                "target_tile",
+                null
+            ]
+        ]
+    }
+]

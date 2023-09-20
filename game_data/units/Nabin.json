@@ -8,14 +8,14 @@
         "klass": "Swordmaster",
         "tags": [],
         "bases": {
-            "HP": 30,
+            "HP": 34,
             "STR": 10,
             "MAG": 4,
-            "SKL": 16,
+            "SKL": 17,
             "SPD": 15,
-            "LCK": 10,
+            "LCK": 11,
             "DEF": 6,
-            "RES": 10,
+            "RES": 11,
             "CON": 10,
             "MOV": 6
         },

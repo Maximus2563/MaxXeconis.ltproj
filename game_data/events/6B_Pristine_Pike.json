@@ -6,6 +6,12 @@
         "condition": "unit == 'Pristine Pike'",
         "commands": [
             [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
                 "music",
                 [
                     "Raiten Menimemo ~ One Journo's Menimemoism"
@@ -16,6 +22,12 @@
                 [
                     "Maro",
                     "80,Bottom"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
                 ]
             ],
             [
@@ -70,10 +82,14 @@
                 [
                     "open"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "music;Raiten Menimemo ~ One Journo's Menimemoism\nadd_portrait;Maro;80,Bottom\nspeak;Maro;Hm... yup.|This will do...|Yeah, yeah! This is awesome!\nbop_portrait;Maro\nspeak;Maro;Yippee!\nignore_base_convo;Pristine Pike\ntransition;close\ngive_item;Maro;Slim Lance\nchange_background\nmusic_fade_back\ntransition;open\n"
+        "source": "transition;close\nmusic;Raiten Menimemo ~ One Journo's Menimemoism\nadd_portrait;Maro;80,Bottom\ntransition;open\nspeak;Maro;Hm... yup.|This will do...|Yeah, yeah! This is awesome!\nbop_portrait;Maro\nspeak;Maro;Yippee!\nignore_base_convo;Pristine Pike\ntransition;close\ngive_item;Maro;Slim Lance\nchange_background\nmusic_fade_back\ntransition;open\n"
     }
 ]

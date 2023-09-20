@@ -215,10 +215,36 @@
                     "Leap",
                     "Yeah... Any more and they might get antsy..."
                 ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.turncount < 11"
+                ]
+            ],
+            [
+                "give_bexp",
+                [
+                    "150"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "change_background;Village 6 Day\nmulti_add_portrait;Leap;Left;Prof;Right\nspeak;Prof;Looks like the monsters are all disintegrating...\nspeak;Leap;What on earth was that...\nspeak;Prof;I don't know...|But, I feel like I'm going to throw up...\nspeak;Leap;It was so... wrong.\nspeak;Prof;He did that to himself.|What the fuck..?\nspeak;Leap;He claimed to be from Arcei... but I don't believe it...\nspeak;Prof;Sadly, we have no evidence to suggest any true motive.\nspeak;Leap;I guess not...\nif;game.check_alive('Siri')\n    add_portrait;Siri;OffscreenLeft\n    move_portrait;Siri;FarLeft\n    speak;Siri;Woah, that was all so exhilerating!\n    speak;Prof;You... liked that...?\n    speak;Siri;Obviously.|The feeling of the revenants claws... Ohh!\n    speak;Prof;Please... Stop...\n    speak;Siri;Oh! The mogalls too...|Their gaze is so bone-chilling! Woo!\n    speak;Leap;At least someone had fun...\n    speak;Siri;Anyway, if this is what I'm in store for...|Consider me up for whatever ride you're on!\n    speak;Prof;Thanks, we might need someone crazy enough to make it out of this...\n    speak;Siri;Crazy good, right?\n    speak;Prof;Sure.\n    speak;Siri;Anyway, let's go do... whatever it is!\n    speak;Leap;Onwards!\nelse\n    speak;Prof;Anyway, we should get going.\n    speak;Leap;Let's.\nend\nspeak;Prof;We'll have to go in with just us, better to not cause a scene.\nspeak;Leap;Yeah... Any more and they might get antsy...\n"
+        "source": "change_background;Village 6 Day\nmulti_add_portrait;Leap;Left;Prof;Right\nspeak;Prof;Looks like the monsters are all disintegrating...\nspeak;Leap;What on earth was that...\nspeak;Prof;I don't know...|But, I feel like I'm going to throw up...\nspeak;Leap;It was so... wrong.\nspeak;Prof;He did that to himself.|What the fuck..?\nspeak;Leap;He claimed to be from Arcei... but I don't believe it...\nspeak;Prof;Sadly, we have no evidence to suggest any true motive.\nspeak;Leap;I guess not...\nif;game.check_alive('Siri')\n    add_portrait;Siri;OffscreenLeft\n    move_portrait;Siri;FarLeft\n    speak;Siri;Woah, that was all so exhilerating!\n    speak;Prof;You... liked that...?\n    speak;Siri;Obviously.|The feeling of the revenants claws... Ohh!\n    speak;Prof;Please... Stop...\n    speak;Siri;Oh! The mogalls too...|Their gaze is so bone-chilling! Woo!\n    speak;Leap;At least someone had fun...\n    speak;Siri;Anyway, if this is what I'm in store for...|Consider me up for whatever ride you're on!\n    speak;Prof;Thanks, we might need someone crazy enough to make it out of this...\n    speak;Siri;Crazy good, right?\n    speak;Prof;Sure.\n    speak;Siri;Anyway, let's go do... whatever it is!\n    speak;Leap;Onwards!\nelse\n    speak;Prof;Anyway, we should get going.\n    speak;Leap;Let's.\nend\nspeak;Prof;We'll have to go in with just us, better to not cause a scene.\nspeak;Leap;Yeah... Any more and they might get antsy...\ntransition;close\nif;game.turncount < 11\n    give_bexp;150\nend\n"
     }
 ]

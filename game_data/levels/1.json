@@ -471,7 +471,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "Left",
                 "starting_position": [
@@ -679,7 +679,7 @@
         "ai_groups": [
             {
                 "nid": "left",
-                "trigger_threshold": 1
+                "trigger_threshold": 2
             },
             {
                 "nid": "Grinst",

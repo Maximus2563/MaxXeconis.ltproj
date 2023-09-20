@@ -1,0 +1,76 @@
+[
+    {
+        "name": "CactiDeath",
+        "trigger": "unit_death",
+        "level_nid": "12",
+        "condition": "unit.nid == 'Cacti'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Cacti",
+                    "Right"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "108 Lament"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "No... I can't even... explore..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Cacti",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Cacti"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sages",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Oh no, there goes our ride to Aurelia!"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Cacti;Right\nmusic;108 Lament\nspeak;Cacti;No... I can't even... explore...\nexpression;Cacti;CloseEyes\nremove_portrait;Cacti\nadd_portrait;Sages;Left\nspeak;Sages;Oh no, there goes our ride to Aurelia!\nlose_game\n\n\n"
+    }
+]

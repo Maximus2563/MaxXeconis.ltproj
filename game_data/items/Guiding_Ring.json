@@ -47,10 +47,12 @@
                 "prf_class",
                 [
                     "Monk",
-                    "Cleric",
+                    "Priest",
                     "Mage",
                     "Shaman",
-                    "Troubadour"
+                    "Troubadour",
+                    "Cleric",
+                    "Diviner"
                 ]
             ],
             [

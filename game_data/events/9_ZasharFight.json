@@ -24,10 +24,22 @@
                 [
                     "Zashar"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Zashar;Right\nspeak;Zashar;You're not running away? More fool you!\nremove_portrait;Zashar\n"
+        "source": "add_portrait;Zashar;Right\nspeak;Zashar;You're not running away? More fool you!\nremove_portrait;Zashar\n\n\n"
     }
 ]

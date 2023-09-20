@@ -229,7 +229,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     17,
                     7
@@ -325,7 +325,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Bow",
+                        "Iron Longbow",
                         false
                     ]
                 ],

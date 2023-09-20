@@ -24,10 +24,26 @@
                 [
                     "ZasharMonster"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;ZasharMonster;Right\nspeak;ZasharMonster;Roar! GRAH! HMURRRRGH!\nremove_portrait;ZasharMonster\n"
+        "source": "add_portrait;ZasharMonster;Right\nspeak;ZasharMonster;Roar! GRAH! HMURRRRGH!\nremove_portrait;ZasharMonster\n\n\n\n"
     }
 ]

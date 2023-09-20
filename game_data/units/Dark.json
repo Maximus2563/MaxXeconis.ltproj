@@ -117,7 +117,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "W-wah! I can't... do it..."
+                "I can't... do it..."
             ],
             [
                 "RetreatQuote",
@@ -146,6 +146,10 @@
             [
                 "MaxStatQuote",
                 "I'm king of the world! Go me!"
+            ],
+            [
+                "EscapeQuote",
+                "Smell ya later!"
             ]
         ]
     }

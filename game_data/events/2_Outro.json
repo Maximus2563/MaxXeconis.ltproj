@@ -376,9 +376,25 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "game.turncount < 11"
+                ]
+            ],
+            [
+                "give_bexp",
+                [
+                    "150"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
                 "wait",
                 [
-                    "1000"
+                    "750"
                 ]
             ],
             [
@@ -590,7 +606,9 @@
                 "speak",
                 [
                     "EmelinePrincess",
-                    "..."
+                    "...",
+                    "",
+                    "FLAG(no_talk)"
                 ]
             ],
             [
@@ -605,10 +623,14 @@
                     "EmelinePrincess",
                     "Elias"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Forest 5 Day\nmusic;74 Dance in the Dark\ntransition;Open\nadd_portrait;Sal;Left;no_block\nif;game.check_alive('Pikno')\n    add_portrait;Pikno;Right;no_block\n    speak;Sal;Whew, that should be all. They didn't even stand a chance!|Just a little further, right Pikno?\n    speak;Pikno;Ah, well...|That seems to be the case...\n    speak;Sal;Let's go on! We can make it!\nelse\n    speak;Sal;Well, thankfully that's over.|I see Aurelia ahead, let's go!\nend\nmulti_remove_portrait;Sal;Pikno\ntransition;Close\nchange_background;Village 1 Daytime\ntransition;Open\nlocation_card;Theowa, Aurelia\nif;game.check_alive('Roag') or game.check_alive('Nako')\n    add_portrait;Sal;Left;no_block\n    if;game.check_dead('Roag')\n        add_portrait;Nako;FarLeft\n    elif;game.check_dead('Nako')\n        add_portrait;Roag;FarLeft\n    else\n        add_portrait;Nako;MidLeft;no_block\n        add_portrait;Roag;FarLeft\n    end\nelse\n    add_portrait;Sal;Left\nend\nif;game.check_alive('Roag')\n    speak;Sal;Seems like the streets are quiet...|The coronation serves as a time of reflection, as well as celebration afterwards for the Aurelians...|But, I am not glad to be back...\n    speak;Roag;How BORING! They should be celeberatin' right now, girl!\nelse\n    speak;Sal;Ah, Aurelia...|I am not glad to be back...\nend\nif;game.check_alive('Nako')\n    speak;Nako;Oh! But, I find this cultural event to be exciting!|I can hardly wait!;low_priority\nend\nadd_portrait;SoldierBlue;Right\nspeak;SoldierBlue;Halt!|You are the envoy of Lord Sages, correct?\nif;game.check_alive('Roag')\n    speak;Roag;Ya! We're here to party!\nelse\n    speak;Sal;Why, yes, it is.|Sal here, in his stead.\nend\nif;game.check_alive('Roag') or game.check_alive('Nako')\n    speak;SoldierBlue;Well, follow me to the service, you're almost late.|Also, I'm afraid only one of you may enter, it's tradition to only have one representative at the coronation.\n    if;game.check_alive('Roag')\n        speak;Roag;Well, Sally! We'll wait for ya.\n    end\n    if;game.check_alive('Nako')\n        speak;Nako;I wish I could see it with my own eyes...|Oh well, wish the prince... no, king my regards!\n    end\nelse\n    speak;SoldierBlue;Well, follow me to the service, you're almost late.\nend\nspeak;Sal;Oh I see...|Well, I best hurry!\nmulti_remove_portrait;Sal;Roag;SoldierBlue;Nako\ntransition;Close\nwait;1000\nchange_tilemap;EmelineRoom\ntransition;open\nlocation_card;Aurelia Palace\nmusic;Sorrowful Prince Pelleas\nload_unit;EmelinePrincess;other\nadd_unit;EmelinePrincess;7,2\nadd_portrait;EmelinePrincess;Left\nspeak;EmelinePrincess;*Sigh*\nload_unit;Elias;other\nadd_unit;Elias;7,9\nload_unit;Argento;other\nadd_unit;Argento;8,9\nmove_unit;Elias;7,3;FLAG(no_follow)\nmove_unit;Argento;8,3;FLAG(no_follow)\nmulti_add_portrait;Elias;MidRight;Argento;FarRight\nspeak;Elias;Sister, is everything alright?\nspeak;EmelinePrincess;Oh, brother!|I'm just... Uncertain.\nspeak;Argento;Right... Things are changing...|With father being with the Goddess...\nspeak;Elias;But Sir Argento, change can be for the better, of course.|I swear that I will ensure the prosperity of all nations.|Aurelia is my home, a land of golden rays.|I wish for every man, woman and child to bask in the wonders of the world.\nspeak;EmelinePrincess;In the light...|I just feel as though I am lost in a cloud...\nspeak;Argento;The Goddess works in strange ways.|This too, will pass.\nspeak;Elias;I wish for you to help me, every step of the way, Emmie.|I know I cannot do this alone.\nspeak;EmelinePrincess;I will do whatever I can.\nspeak;Argento;Now, we must prepare your speech, Elias.|Time is of the essence, we only have a few hours left!\nspeak;Elias;We'll speak soon, Emmie, with me as king!|I can hardly believe the time has come...\nremove_unit;Elias;;south\nremove_unit;Argento;;south\nmulti_remove_portrait;Elias;Argento\nexpression;EmelinePrincess;CloseEyes\nspeak;EmelinePrincess;...\ntransition;Close\nmulti_remove_portrait;EmelinePrincess;Elias\n"
+        "source": "transition;Close\nchange_background;Forest 5 Day\nmusic;74 Dance in the Dark\ntransition;Open\nadd_portrait;Sal;Left;no_block\nif;game.check_alive('Pikno')\n    add_portrait;Pikno;Right;no_block\n    speak;Sal;Whew, that should be all. They didn't even stand a chance!|Just a little further, right Pikno?\n    speak;Pikno;Ah, well...|That seems to be the case...\n    speak;Sal;Let's go on! We can make it!\nelse\n    speak;Sal;Well, thankfully that's over.|I see Aurelia ahead, let's go!\nend\nmulti_remove_portrait;Sal;Pikno\ntransition;Close\nchange_background;Village 1 Daytime\ntransition;Open\nlocation_card;Theowa, Aurelia\nif;game.check_alive('Roag') or game.check_alive('Nako')\n    add_portrait;Sal;Left;no_block\n    if;game.check_dead('Roag')\n        add_portrait;Nako;FarLeft\n    elif;game.check_dead('Nako')\n        add_portrait;Roag;FarLeft\n    else\n        add_portrait;Nako;MidLeft;no_block\n        add_portrait;Roag;FarLeft\n    end\nelse\n    add_portrait;Sal;Left\nend\nif;game.check_alive('Roag')\n    speak;Sal;Seems like the streets are quiet...|The coronation serves as a time of reflection, as well as celebration afterwards for the Aurelians...|But, I am not glad to be back...\n    speak;Roag;How BORING! They should be celeberatin' right now, girl!\nelse\n    speak;Sal;Ah, Aurelia...|I am not glad to be back...\nend\nif;game.check_alive('Nako')\n    speak;Nako;Oh! But, I find this cultural event to be exciting!|I can hardly wait!;low_priority\nend\nadd_portrait;SoldierBlue;Right\nspeak;SoldierBlue;Halt!|You are the envoy of Lord Sages, correct?\nif;game.check_alive('Roag')\n    speak;Roag;Ya! We're here to party!\nelse\n    speak;Sal;Why, yes, it is.|Sal here, in his stead.\nend\nif;game.check_alive('Roag') or game.check_alive('Nako')\n    speak;SoldierBlue;Well, follow me to the service, you're almost late.|Also, I'm afraid only one of you may enter, it's tradition to only have one representative at the coronation.\n    if;game.check_alive('Roag')\n        speak;Roag;Well, Sally! We'll wait for ya.\n    end\n    if;game.check_alive('Nako')\n        speak;Nako;I wish I could see it with my own eyes...|Oh well, wish the prince... no, king my regards!\n    end\nelse\n    speak;SoldierBlue;Well, follow me to the service, you're almost late.\nend\nspeak;Sal;Oh I see...|Well, I best hurry!\nmulti_remove_portrait;Sal;Roag;SoldierBlue;Nako\ntransition;Close\nif;game.turncount < 11\n    give_bexp;150\nend\nwait;750\nchange_tilemap;EmelineRoom\ntransition;open\nlocation_card;Aurelia Palace\nmusic;Sorrowful Prince Pelleas\nload_unit;EmelinePrincess;other\nadd_unit;EmelinePrincess;7,2\nadd_portrait;EmelinePrincess;Left\nspeak;EmelinePrincess;*Sigh*\nload_unit;Elias;other\nadd_unit;Elias;7,9\nload_unit;Argento;other\nadd_unit;Argento;8,9\nmove_unit;Elias;7,3;FLAG(no_follow)\nmove_unit;Argento;8,3;FLAG(no_follow)\nmulti_add_portrait;Elias;MidRight;Argento;FarRight\nspeak;Elias;Sister, is everything alright?\nspeak;EmelinePrincess;Oh, brother!|I'm just... Uncertain.\nspeak;Argento;Right... Things are changing...|With father being with the Goddess...\nspeak;Elias;But Sir Argento, change can be for the better, of course.|I swear that I will ensure the prosperity of all nations.|Aurelia is my home, a land of golden rays.|I wish for every man, woman and child to bask in the wonders of the world.\nspeak;EmelinePrincess;In the light...|I just feel as though I am lost in a cloud...\nspeak;Argento;The Goddess works in strange ways.|This too, will pass.\nspeak;Elias;I wish for you to help me, every step of the way, Emmie.|I know I cannot do this alone.\nspeak;EmelinePrincess;I will do whatever I can.\nspeak;Argento;Now, we must prepare your speech, Elias.|Time is of the essence, we only have a few hours left!\nspeak;Elias;We'll speak soon, Emmie, with me as king!|I can hardly believe the time has come...\nremove_unit;Elias;;south\nremove_unit;Argento;;south\nmulti_remove_portrait;Elias;Argento\nexpression;EmelinePrincess;CloseEyes\nspeak;EmelinePrincess;...;;FLAG(no_talk)\ntransition;Close\nmulti_remove_portrait;EmelinePrincess;Elias\n"
     }
 ]

@@ -105,10 +105,18 @@
             [
                 "end",
                 []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;game.check_alive('Aspl')\n    multi_add_portrait;Leap;Left;Aspl;Right\n    speak;Aspl;Wanna know something cool?|Sure you do.|See those soldiers?\n    multi_remove_portrait;Aspl;Leap\n    move_cursor;0,11\n    flicker_cursor;0,11\n    move_cursor;14,3\n    flicker_cursor;14,3\n    multi_add_portrait;Leap;Left;Aspl;Right\n    speak;Aspl;Those guys are gonna try and visit the open houses.\n    speak;Leap;How can you be sure, Aspl?\n    speak;Aspl;I've never been wrong in my life.\n    speak;Leap;Crazy! Well, let's get those guys before they do something mean!\n    multi_remove_portrait;Aspl;Leap\nend\n"
+        "source": "if;game.check_alive('Aspl')\n    multi_add_portrait;Leap;Left;Aspl;Right\n    speak;Aspl;Wanna know something cool?|Sure you do.|See those soldiers?\n    multi_remove_portrait;Aspl;Leap\n    move_cursor;0,11\n    flicker_cursor;0,11\n    move_cursor;14,3\n    flicker_cursor;14,3\n    multi_add_portrait;Leap;Left;Aspl;Right\n    speak;Aspl;Those guys are gonna try and visit the open houses.\n    speak;Leap;How can you be sure, Aspl?\n    speak;Aspl;I've never been wrong in my life.\n    speak;Leap;Crazy! Well, let's get those guys before they do something mean!\n    multi_remove_portrait;Aspl;Leap\nend\n\n"
     }
 ]

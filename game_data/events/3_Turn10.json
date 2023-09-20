@@ -93,10 +93,18 @@
                     "Skill",
                     "Esteban"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "spawn_group;SkillEstebam;north;SkillEstebam;normal;stack\nadd_tag;SkillCH3;Boss\nadd_tag;Esteban;Boss\nchange_ai;SkillCH3;Pursue\nchange_ai;Esteban;Pursue\nmulti_add_portrait;Skill;Left;Esteban;Right\nspeak;Skill;Now we have put his highness to rest...|Where are they... WHERE ARE THEY?\nspeak;Esteban;It appears these people are trying to flee, huh.\nspeak;Skill;Grr...GAH!|I will have their heads!|Nobody makes her highness cry and lives to tell the tale!\nspeak;Esteban;Oh look, the Goddess is crying...|Sir Skill, try to keep your cool, eh?|If these guys are dangerous, we want to be ready.\nspeak;Skill;Arcein scum...|I'll show them who's dangerous!\nmulti_remove_portrait;Skill;Esteban\n"
+        "source": "spawn_group;SkillEstebam;north;SkillEstebam;normal;stack\nadd_tag;SkillCH3;Boss\nadd_tag;Esteban;Boss\nchange_ai;SkillCH3;Pursue\nchange_ai;Esteban;Pursue\nmulti_add_portrait;Skill;Left;Esteban;Right\nspeak;Skill;Now we have put his highness to rest...|Where are they... WHERE ARE THEY?\nspeak;Esteban;It appears these people are trying to flee, huh.\nspeak;Skill;Grr...GAH!|I will have their heads!|Nobody makes her highness cry and lives to tell the tale!\nspeak;Esteban;Oh look, the Goddess is crying...|Sir Skill, try to keep your cool, eh?|If these guys are dangerous, we want to be ready.\nspeak;Skill;Arcein scum...|I'll show them who's dangerous!\nmulti_remove_portrait;Skill;Esteban\n\n"
     }
 ]

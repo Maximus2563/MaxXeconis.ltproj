@@ -1,0 +1,2462 @@
+[
+    {
+        "nid": "Ch12",
+        "size": [
+            20,
+            15
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "16,6": "39",
+                    "18,1": "11",
+                    "16,7": "39",
+                    "17,7": "39",
+                    "18,2": "11",
+                    "18,3": "11",
+                    "18,4": "11",
+                    "17,4": "11",
+                    "16,4": "11",
+                    "16,3": "11",
+                    "16,2": "11",
+                    "16,1": "11",
+                    "16,0": "11",
+                    "17,0": "11",
+                    "17,1": "11",
+                    "17,2": "11",
+                    "17,3": "11",
+                    "18,0": "11",
+                    "19,0": "11",
+                    "19,1": "11",
+                    "19,2": "11",
+                    "19,3": "11",
+                    "19,4": "11",
+                    "17,5": "11",
+                    "15,0": "11",
+                    "14,0": "11",
+                    "13,0": "11",
+                    "12,0": "11",
+                    "11,0": "11",
+                    "9,0": "11",
+                    "8,0": "11",
+                    "7,0": "11",
+                    "6,0": "11",
+                    "5,0": "11",
+                    "4,0": "11",
+                    "3,0": "11",
+                    "2,0": "11",
+                    "1,0": "11",
+                    "0,0": "11",
+                    "0,1": "11",
+                    "1,1": "11",
+                    "2,1": "11",
+                    "3,1": "11",
+                    "4,1": "11",
+                    "5,1": "11",
+                    "6,1": "11",
+                    "7,1": "11",
+                    "8,1": "11",
+                    "9,1": "11",
+                    "10,1": "11",
+                    "11,1": "11",
+                    "12,1": "11",
+                    "13,1": "11",
+                    "14,1": "11",
+                    "10,0": "11",
+                    "12,10": "9",
+                    "12,11": "9",
+                    "13,11": "9",
+                    "13,10": "9",
+                    "14,11": "9",
+                    "15,11": "9",
+                    "15,10": "9",
+                    "14,10": "9",
+                    "15,9": "9",
+                    "15,8": "9",
+                    "15,4": "9",
+                    "15,3": "9",
+                    "15,2": "9",
+                    "15,1": "9",
+                    "15,7": "5",
+                    "15,6": "5",
+                    "15,5": "5",
+                    "16,5": "39",
+                    "17,6": "39",
+                    "18,6": "39",
+                    "18,5": "39",
+                    "19,5": "39",
+                    "19,6": "39",
+                    "19,7": "39",
+                    "18,7": "39",
+                    "18,8": "39",
+                    "19,8": "39",
+                    "19,9": "39",
+                    "18,9": "39",
+                    "17,8": "39",
+                    "17,9": "39",
+                    "18,10": "39",
+                    "18,11": "39",
+                    "18,12": "39",
+                    "19,12": "39",
+                    "19,11": "39",
+                    "19,10": "39",
+                    "19,13": "39",
+                    "11,11": "1",
+                    "11,12": "1",
+                    "11,13": "1",
+                    "11,14": "1",
+                    "10,14": "1",
+                    "12,12": "1",
+                    "12,14": "1",
+                    "13,14": "1",
+                    "14,14": "1",
+                    "14,13": "1",
+                    "15,13": "1",
+                    "15,12": "1",
+                    "16,13": "1",
+                    "17,13": "1",
+                    "18,13": "1",
+                    "18,14": "1",
+                    "17,14": "1",
+                    "17,12": "1",
+                    "17,11": "1",
+                    "16,11": "1",
+                    "16,10": "1",
+                    "16,9": "1",
+                    "16,8": "1",
+                    "17,10": "1",
+                    "16,12": "22",
+                    "19,14": "22",
+                    "12,13": "2",
+                    "13,13": "2",
+                    "13,12": "2",
+                    "14,12": "2",
+                    "14,9": "2",
+                    "15,14": "2",
+                    "16,14": "2",
+                    "1,14": "2",
+                    "0,14": "2",
+                    "3,11": "2",
+                    "4,11": "2",
+                    "4,12": "2",
+                    "3,12": "2",
+                    "7,8": "2",
+                    "7,9": "2",
+                    "8,9": "2",
+                    "8,8": "2",
+                    "13,9": "1",
+                    "14,8": "1",
+                    "12,9": "1",
+                    "5,10": "1",
+                    "4,10": "1",
+                    "3,10": "1",
+                    "3,9": "1",
+                    "2,9": "1",
+                    "1,9": "1",
+                    "0,9": "1",
+                    "1,8": "1",
+                    "2,8": "1",
+                    "5,11": "1",
+                    "4,13": "7",
+                    "2,12": "7",
+                    "0,12": "1",
+                    "0,13": "1",
+                    "1,13": "1",
+                    "2,14": "1",
+                    "3,14": "1",
+                    "4,14": "1",
+                    "5,14": "1",
+                    "1,12": "7",
+                    "2,13": "7",
+                    "3,13": "7",
+                    "5,13": "7",
+                    "6,13": "7",
+                    "6,14": "7",
+                    "7,14": "7",
+                    "8,14": "7",
+                    "9,14": "7",
+                    "9,13": "7",
+                    "10,13": "7",
+                    "10,12": "7",
+                    "10,11": "7",
+                    "10,10": "7",
+                    "10,9": "7",
+                    "10,8": "7",
+                    "10,7": "7",
+                    "9,7": "7",
+                    "11,10": "7",
+                    "11,9": "7",
+                    "11,8": "7",
+                    "11,7": "7",
+                    "12,7": "7",
+                    "12,8": "7",
+                    "13,8": "7",
+                    "13,7": "7",
+                    "13,6": "7",
+                    "14,6": "7",
+                    "14,7": "7",
+                    "12,5": "1",
+                    "12,6": "1",
+                    "8,5": "1",
+                    "8,6": "7",
+                    "9,8": "1",
+                    "9,9": "1",
+                    "7,10": "1",
+                    "7,7": "1",
+                    "8,7": "7",
+                    "7,6": "7",
+                    "6,7": "7",
+                    "5,7": "7",
+                    "4,7": "7",
+                    "3,7": "7",
+                    "2,7": "7",
+                    "1,7": "7",
+                    "0,7": "7",
+                    "0,8": "7",
+                    "3,8": "7",
+                    "4,8": "7",
+                    "4,9": "7",
+                    "5,9": "7",
+                    "5,8": "7",
+                    "6,8": "7",
+                    "6,9": "7",
+                    "6,10": "7",
+                    "6,11": "7",
+                    "6,12": "7",
+                    "5,12": "7",
+                    "7,13": "7",
+                    "7,12": "7",
+                    "7,11": "7",
+                    "8,11": "7",
+                    "8,12": "7",
+                    "8,13": "7",
+                    "8,10": "7",
+                    "9,10": "7",
+                    "9,11": "7",
+                    "9,12": "7",
+                    "5,6": "Fence",
+                    "4,6": "Fence",
+                    "3,6": "Fence",
+                    "2,6": "Fence",
+                    "1,6": "Fence",
+                    "0,6": "Fence",
+                    "12,4": "Fence",
+                    "11,4": "Fence",
+                    "10,4": "Fence",
+                    "9,3": "62",
+                    "8,3": "62",
+                    "8,4": "Fence",
+                    "9,4": "Fence",
+                    "0,5": "25",
+                    "1,5": "62",
+                    "1,4": "62",
+                    "2,4": "62",
+                    "2,5": "62",
+                    "3,5": "62",
+                    "4,5": "62",
+                    "5,5": "62",
+                    "6,5": "62",
+                    "6,6": "62",
+                    "7,5": "62",
+                    "7,4": "62",
+                    "7,3": "62",
+                    "7,2": "62",
+                    "6,2": "62",
+                    "6,3": "62",
+                    "6,4": "62",
+                    "5,4": "62",
+                    "4,4": "62",
+                    "4,3": "62",
+                    "5,3": "62",
+                    "5,2": "62",
+                    "3,4": "62",
+                    "10,3": "62",
+                    "8,2": "62",
+                    "9,2": "62",
+                    "10,2": "62",
+                    "11,2": "62",
+                    "12,2": "62",
+                    "13,2": "62",
+                    "13,3": "62",
+                    "14,3": "62",
+                    "14,2": "62",
+                    "11,3": "62",
+                    "12,3": "62",
+                    "13,4": "62",
+                    "14,4": "62",
+                    "13,5": "62",
+                    "14,5": "62",
+                    "0,4": "25",
+                    "3,2": "25",
+                    "3,3": "25",
+                    "4,2": "26",
+                    "0,3": "0",
+                    "0,2": "0",
+                    "1,2": "0",
+                    "2,2": "0",
+                    "2,3": "0",
+                    "1,3": "31",
+                    "9,6": "0",
+                    "9,5": "0",
+                    "10,5": "0",
+                    "11,5": "0",
+                    "11,6": "0",
+                    "0,11": "0",
+                    "0,10": "0",
+                    "1,10": "0",
+                    "2,10": "0",
+                    "2,11": "0",
+                    "1,11": "30",
+                    "10,6": "30"
+                },
+                "sprite_grid": {
+                    "0,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            22,
+                            12
+                        ]
+                    ],
+                    "1,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            2
+                        ]
+                    ],
+                    "2,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            12
+                        ]
+                    ],
+                    "3,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "4,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "5,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "6,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "5,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "4,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "3,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            25
+                        ]
+                    ],
+                    "2,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            13
+                        ]
+                    ],
+                    "1,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            3
+                        ]
+                    ],
+                    "0,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            22,
+                            13
+                        ]
+                    ],
+                    "7,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "8,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "7,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "6,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "8,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "9,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "10,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "11,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "11,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "12,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "13,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "14,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "14,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "15,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            18
+                        ]
+                    ],
+                    "15,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            18
+                        ]
+                    ],
+                    "9,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "10,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "12,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "13,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "14,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "15,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "13,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "12,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            11
+                        ]
+                    ],
+                    "11,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "10,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "9,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "8,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            22,
+                            11
+                        ]
+                    ],
+                    "7,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "6,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "1,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "0,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            14,
+                            24
+                        ]
+                    ],
+                    "2,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "3,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "4,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "5,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "0,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "1,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "2,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "3,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "4,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "5,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "6,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "7,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "8,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "9,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "10,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "11,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "12,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "13,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "14,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "15,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "15,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            21,
+                            27
+                        ]
+                    ],
+                    "14,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "13,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "12,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "11,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "10,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "9,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "8,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "7,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "6,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "5,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "4,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "2,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "1,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "0,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "3,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "16,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "16,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "16,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "16,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            21,
+                            27
+                        ]
+                    ],
+                    "16,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "17,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "18,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "18,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "17,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "19,0": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "19,1": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "18,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            27
+                        ]
+                    ],
+                    "19,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            27
+                        ]
+                    ],
+                    "19,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "19,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "18,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "18,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            27
+                        ]
+                    ],
+                    "17,2": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            21,
+                            27
+                        ]
+                    ],
+                    "17,3": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "17,4": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "17,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            26
+                        ]
+                    ],
+                    "7,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            26
+                        ]
+                    ],
+                    "6,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "5,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "4,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "3,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "2,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "1,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            27
+                        ]
+                    ],
+                    "0,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            14,
+                            26
+                        ]
+                    ],
+                    "0,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "1,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "2,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "3,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "4,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "5,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            24,
+                            11
+                        ]
+                    ],
+                    "6,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            26
+                        ]
+                    ],
+                    "16,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            28,
+                            25
+                        ]
+                    ],
+                    "17,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            25
+                        ]
+                    ],
+                    "18,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            29,
+                            25
+                        ]
+                    ],
+                    "18,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            28
+                        ]
+                    ],
+                    "18,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            27
+                        ]
+                    ],
+                    "19,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            27,
+                            31
+                        ]
+                    ],
+                    "19,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            29,
+                            30
+                        ]
+                    ],
+                    "19,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            29,
+                            29
+                        ]
+                    ],
+                    "19,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            27,
+                            25
+                        ]
+                    ],
+                    "16,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "16,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "15,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            19,
+                            10
+                        ]
+                    ],
+                    "15,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            19,
+                            10
+                        ]
+                    ],
+                    "15,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            19,
+                            8
+                        ]
+                    ],
+                    "17,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            27,
+                            27
+                        ]
+                    ],
+                    "18,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "17,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "16,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "15,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "15,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            20,
+                            18
+                        ]
+                    ],
+                    "15,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "15,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "16,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "16,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "16,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "16,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            23,
+                            14
+                        ]
+                    ],
+                    "16,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "16,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            2,
+                            13
+                        ]
+                    ],
+                    "17,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "17,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            7
+                        ]
+                    ],
+                    "17,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            12,
+                            6
+                        ]
+                    ],
+                    "17,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            6
+                        ]
+                    ],
+                    "17,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "17,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            9
+                        ]
+                    ],
+                    "18,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "18,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "18,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "18,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "18,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "18,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "19,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            26,
+                            18
+                        ]
+                    ],
+                    "19,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "19,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "19,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "19,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            29,
+                            27
+                        ]
+                    ],
+                    "19,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "0,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            13
+                        ]
+                    ],
+                    "0,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "0,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            17,
+                            7
+                        ]
+                    ],
+                    "0,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            26,
+                            0
+                        ]
+                    ],
+                    "0,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            26,
+                            1
+                        ]
+                    ],
+                    "0,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "0,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "0,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "1,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            13
+                        ]
+                    ],
+                    "1,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            12
+                        ]
+                    ],
+                    "1,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "1,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            30,
+                            2
+                        ]
+                    ],
+                    "1,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            30,
+                            3
+                        ]
+                    ],
+                    "1,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            12,
+                            6
+                        ]
+                    ],
+                    "1,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            7
+                        ]
+                    ],
+                    "1,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            2,
+                            10
+                        ]
+                    ],
+                    "2,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "2,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            15
+                        ]
+                    ],
+                    "2,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "2,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            2
+                        ]
+                    ],
+                    "2,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            3
+                        ]
+                    ],
+                    "2,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            5,
+                            4
+                        ]
+                    ],
+                    "2,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            7
+                        ]
+                    ],
+                    "2,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "3,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "3,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "3,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "3,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "3,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "3,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            19
+                        ]
+                    ],
+                    "3,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            5,
+                            8
+                        ]
+                    ],
+                    "3,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "4,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "4,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "4,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "4,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            7
+                        ]
+                    ],
+                    "4,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "4,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            2,
+                            12
+                        ]
+                    ],
+                    "4,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "4,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            14,
+                            7
+                        ]
+                    ],
+                    "5,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "5,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "5,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "5,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            5
+                        ]
+                    ],
+                    "5,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    "5,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            13
+                        ]
+                    ],
+                    "5,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "5,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            11,
+                            7
+                        ]
+                    ],
+                    "6,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "6,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "6,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            6
+                        ]
+                    ],
+                    "6,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "6,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "6,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "6,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "6,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "7,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "7,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "7,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            18
+                        ]
+                    ],
+                    "7,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            19
+                        ]
+                    ],
+                    "7,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            12,
+                            16
+                        ]
+                    ],
+                    "7,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "7,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "7,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "7,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "8,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "8,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            7,
+                            6
+                        ]
+                    ],
+                    "8,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            7
+                        ]
+                    ],
+                    "8,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "8,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            19
+                        ]
+                    ],
+                    "8,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            13
+                        ]
+                    ],
+                    "8,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "8,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "8,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "8,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "9,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            26,
+                            2
+                        ]
+                    ],
+                    "9,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            26,
+                            3
+                        ]
+                    ],
+                    "9,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            13
+                        ]
+                    ],
+                    "9,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "9,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            12,
+                            7
+                        ]
+                    ],
+                    "9,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "9,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "9,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "9,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "9,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "10,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            28,
+                            2
+                        ]
+                    ],
+                    "10,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            28,
+                            3
+                        ]
+                    ],
+                    "10,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "10,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "10,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "10,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "10,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "10,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "10,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "10,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "11,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            29,
+                            2
+                        ]
+                    ],
+                    "11,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            29,
+                            3
+                        ]
+                    ],
+                    "11,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            13
+                        ]
+                    ],
+                    "11,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "11,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "11,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "11,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "11,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "11,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "11,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "12,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            15
+                        ]
+                    ],
+                    "12,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            8,
+                            10
+                        ]
+                    ],
+                    "12,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "12,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "12,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "12,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "12,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "12,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "12,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            12
+                        ]
+                    ],
+                    "12,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "13,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            26
+                        ]
+                    ],
+                    "13,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "13,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "13,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "13,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            11,
+                            7
+                        ]
+                    ],
+                    "13,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            14,
+                            18
+                        ]
+                    ],
+                    "13,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            14,
+                            19
+                        ]
+                    ],
+                    "13,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "13,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "13,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "14,5": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            15,
+                            26
+                        ]
+                    ],
+                    "14,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "14,7": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "14,8": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            12,
+                            17
+                        ]
+                    ],
+                    "14,9": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            3,
+                            13
+                        ]
+                    ],
+                    "14,10": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            18
+                        ]
+                    ],
+                    "14,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "14,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            2,
+                            13
+                        ]
+                    ],
+                    "14,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "14,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "15,12": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "15,13": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "15,14": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            0,
+                            13
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "House1",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "10,6": "0"
+                },
+                "sprite_grid": {
+                    "10,6": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "House2",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "1,11": "0",
+                    "18,5": "11",
+                    "19,5": "11",
+                    "16,5": "11"
+                },
+                "sprite_grid": {
+                    "1,11": [
+                        "Village v2 - Alternate Tileset",
+                        [
+                            31,
+                            0
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "Village v2 - Alternate Tileset",
+            "Desert2"
+        ]
+    }
+]

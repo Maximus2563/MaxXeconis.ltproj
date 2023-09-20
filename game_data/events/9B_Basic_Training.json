@@ -240,6 +240,10 @@
                 [
                     "Basic Training"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,

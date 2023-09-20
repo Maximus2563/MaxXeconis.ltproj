@@ -18,6 +18,10 @@
                     "East",
                     "GroupE"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,

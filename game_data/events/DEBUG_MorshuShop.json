@@ -30,6 +30,10 @@
                 [
                     "Open"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SkilltakerChild",
+        "name": "Skilltaker",
+        "desc": "Grants +2 LCK per stack.\nLost on end of chapter.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

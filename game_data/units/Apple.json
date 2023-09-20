@@ -8,19 +8,19 @@
         "klass": "Trickster",
         "tags": [],
         "bases": {
-            "HP": 28,
-            "STR": 7,
-            "MAG": 10,
+            "HP": 29,
+            "STR": 10,
+            "MAG": 8,
             "SKL": 13,
-            "SPD": 14,
+            "SPD": 16,
             "LCK": 10,
             "DEF": 8,
-            "RES": 12,
+            "RES": 10,
             "CON": 8,
             "MOV": 6
         },
         "growths": {
-            "HP": 35,
+            "HP": 40,
             "STR": 30,
             "MAG": 35,
             "SKL": 45,
@@ -38,31 +38,41 @@
             "CON": 0,
             "STR": 0,
             "RES": 0,
-            "DEF": 0,
+            "DEF": -1,
             "LCK": 0,
             "SKL": 0,
-            "SPD": 0
+            "SPD": 1
         },
         "starting_items": [
             [
-                "Steel Knife",
+                "Steel Dagger",
                 false
             ],
             [
-                "Recover",
+                "Elthunder",
                 false
             ],
             [
-                "Physic",
-                false
-            ],
-            [
-                "Barrier",
+                "Arcwind",
                 false
             ]
         ],
-        "learned_skills": [],
-        "unit_notes": [],
+        "learned_skills": [
+            [
+                1,
+                "Hexblade"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Fashion,Money"
+            ],
+            [
+                "Dislikes:",
+                "Bad hygeine,Ugly people"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -91,7 +101,7 @@
             ],
             "Staff": [
                 false,
-                71,
+                0,
                 251
             ],
             "Light": [
@@ -101,7 +111,7 @@
             ],
             "Anima": [
                 false,
-                0,
+                71,
                 251
             ],
             "Dark": [
@@ -122,6 +132,30 @@
             [
                 "DeathQuote",
                 "At least I'm better dressed than you..."
+            ],
+            [
+                "EscapeQuote",
+                "Aight, I'm done here."
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'm doin' good, yeah?"
+            ],
+            [
+                "MidLevelUpQuote",
+                "Sure, sure."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Uhm, anyways..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "This ain't funny, ya hear?"
+            ],
+            [
+                "MaxStatQuote",
+                "Nobody bests the best."
             ]
         ]
     }

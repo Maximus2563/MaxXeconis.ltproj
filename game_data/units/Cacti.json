@@ -2,20 +2,20 @@
     {
         "nid": "Cacti",
         "name": "Cacti",
-        "desc": "",
+        "desc": "A prickly mage who yearns for adventure.",
         "variant": "",
-        "level": 5,
-        "klass": "Diviner",
+        "level": 7,
+        "klass": "Brightwing",
         "tags": [],
         "bases": {
             "HP": 20,
             "STR": 0,
-            "MAG": 10,
-            "SKL": 6,
+            "MAG": 9,
+            "SKL": 9,
             "SPD": 6,
             "LCK": 7,
             "DEF": 1,
-            "RES": 6,
+            "RES": 7,
             "CON": 6,
             "MOV": 5
         },
@@ -47,10 +47,28 @@
             [
                 "Shine",
                 false
+            ],
+            [
+                "Vulnerary",
+                false
             ]
         ],
-        "learned_skills": [],
-        "unit_notes": [],
+        "learned_skills": [
+            [
+                1,
+                "AirSuperiority"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "The ocean"
+            ],
+            [
+                "Dislikes:",
+                "Pirates"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -84,7 +102,7 @@
             ],
             "Light": [
                 false,
-                31,
+                61,
                 251
             ],
             "Anima": [
@@ -106,6 +124,39 @@
         "alternate_classes": [],
         "portrait_nid": "Cacti",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "In the end, I was so foolish..."
+            ],
+            [
+                "EscapeQuote",
+                "Made it, another day for adventures!"
+            ],
+            [
+                "PromoQuote",
+                "I'm glad it all worked out. I'm itching to use this power!"
+            ],
+            [
+                "MaxStatQuote",
+                "No more?"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Hah! This is how I work!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I'm pleased with this, I'd say."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Hmph, well, sure."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "What happened?! I cannot believe this!"
+            ]
+        ]
     }
 ]

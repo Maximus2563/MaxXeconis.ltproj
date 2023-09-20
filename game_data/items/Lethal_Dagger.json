@@ -2,10 +2,10 @@
     {
         "nid": "Lethal_Dagger",
         "name": "Lethal Dagger",
-        "desc": "Inflicts STR -2, DEF/RES -3 on hit.",
+        "desc": "",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            2,
+            13,
             6
         ],
         "components": [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                720
+                1420
             ],
             [
                 "target_enemy",
@@ -31,15 +31,15 @@
             ],
             [
                 "damage",
-                7
+                5
             ],
             [
                 "hit",
-                80
+                85
             ],
             [
                 "crit",
-                5
+                30
             ],
             [
                 "weight",
@@ -47,7 +47,7 @@
             ],
             [
                 "uses",
-                30
+                20
             ],
             [
                 "uses_options",
@@ -70,10 +70,6 @@
             [
                 "weapon_rank",
                 "C"
-            ],
-            [
-                "status_on_hit",
-                "SteelDaggerDebuff"
             ]
         ]
     }

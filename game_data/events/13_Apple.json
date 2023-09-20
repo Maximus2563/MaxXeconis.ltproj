@@ -1,0 +1,490 @@
+[
+    {
+        "name": "Apple",
+        "trigger": "Visit",
+        "level_nid": "13",
+        "condition": "region.nid == 'House1'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Ship Interior Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.nid == 'Boey'"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Boey",
+                    "Left",
+                    "Apple",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Haha! Time to relax down here, while those flops fight it out!|Boey, you are a genius!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "I wouldn't be so sure about that."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Is that... HUH?"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Apple",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "C'mon, we both know that's a lie."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Apple?!"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Guest of Shade"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Who else could pull off this hat?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "I wasn't slacking off, I swear!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Ahuh, right...|Anyway, I was supposed to be hiding in here.|I heard this ship was heading straight to Aurelia."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "On the run, huh?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "I wasn't gonna let them catch me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Well, we're fighting for the prince."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Girl. Really?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Yeah, I know, not cool..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Nah, it's good.|Easy money, new life, what else can be better?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Well, uh...|I'd like it if you fought out there with us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Sure, sure.|Y'all need me anyway, like old times."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boey",
+                    "Apple"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Apple",
+                    "15,7",
+                    "fade",
+                    "closest",
+                    "fade"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Apple",
+                    "player"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "House1"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid == 'Angel'"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Angel",
+                    "Left",
+                    "Apple",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Hm..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "You're hiding, aren't you..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "I guess I'll just tell the boss there's an ugly fatty on board..."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Apple",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "C'mon, no slander!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Apple, I knew it."
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Guest of Shade"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Look, I was hiding from Pete and that nasty ass crew."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "But, where were you during the battle?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Oh, I was hiding under the boardwalk."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Man. Wish I thought of it..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "I wasn't gonna let them force me to fight.|I'd rather die than be near their sweaty, gross... Urk..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Well, girl, we're fighting for the prince."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Girl. Really?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Yeah, weird times..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Easy money, new life...|I was hiding here, because I heard we were off to Aurelia.|They're much more fashionable..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Well, uh... I think we're going there...?|Anyways, you'll need to give us a hand, freeloader."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Sure, sure. I'll help out.|I feel bad for leaving you with smelly shanty man before..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Yeah, my nostrils may never recover..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Angel",
+                    "Apple"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Apple",
+                    "15,7",
+                    "fade",
+                    "closest",
+                    "fade"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Apple",
+                    "player"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "House1"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "Apple",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "Anyone down here?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "Hm... Seems empty."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "{unit}",
+                    "Apple"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;close\nchange_background;Ship Interior Day\ntransition;open\nif;unit.nid == 'Boey'\n    multi_add_portrait;Boey;Left;Apple;OffscreenRight\n    speak;Boey;Haha! Time to relax down here, while those flops fight it out!|Boey, you are a genius!\n    speak;Apple;I wouldn't be so sure about that.\n    speak;Boey;Is that... HUH?\n    move_portrait;Apple;Right\n    speak;Apple;C'mon, we both know that's a lie.\n    speak;Boey;Apple?!\n    music;Guest of Shade\n    speak;Apple;Who else could pull off this hat?\n    speak;Boey;I wasn't slacking off, I swear!\n    speak;Apple;Ahuh, right...|Anyway, I was supposed to be hiding in here.|I heard this ship was heading straight to Aurelia.\n    speak;Boey;On the run, huh?\n    speak;Apple;I wasn't gonna let them catch me.\n    speak;Boey;Well, we're fighting for the prince.\n    speak;Apple;Girl. Really?\n    speak;Boey;Yeah, I know, not cool...\n    speak;Apple;Nah, it's good.|Easy money, new life, what else can be better?\n    speak;Boey;Well, uh...|I'd like it if you fought out there with us.\n    speak;Apple;Sure, sure.|Y'all need me anyway, like old times.\n    multi_remove_portrait;Boey;Apple\n    transition;close\n    change_background\n    transition;open\n    add_unit;Apple;15,7;fade;closest;fade\n    change_team;Apple;player\n    remove_region;House1\nelif;unit.nid == 'Angel'\n    multi_add_portrait;Angel;Left;Apple;OffscreenRight\n    speak;Angel;Hm...\n    speak;Apple;...\n    speak;Angel;You're hiding, aren't you...\n    speak;Apple;...\n    speak;Angel;I guess I'll just tell the boss there's an ugly fatty on board...\n    move_portrait;Apple;Right\n    speak;Apple;C'mon, no slander!\n    speak;Angel;Apple, I knew it.\n    music;Guest of Shade\n    speak;Apple;Look, I was hiding from Pete and that nasty ass crew.\n    speak;Angel;But, where were you during the battle?\n    speak;Apple;Oh, I was hiding under the boardwalk.\n    speak;Angel;Man. Wish I thought of it...\n    speak;Apple;I wasn't gonna let them force me to fight.|I'd rather die than be near their sweaty, gross... Urk...\n    speak;Angel;Well, girl, we're fighting for the prince.\n    speak;Apple;Girl. Really?\n    speak;Angel;Yeah, weird times...\n    speak;Apple;Easy money, new life...|I was hiding here, because I heard we were off to Aurelia.|They're much more fashionable...\n    speak;Angel;Well, uh... I think we're going there...?|Anyways, you'll need to give us a hand, freeloader.\n    speak;Apple;Sure, sure. I'll help out.|I feel bad for leaving you with smelly shanty man before...\n    speak;Angel;Yeah, my nostrils may never recover...\n    multi_remove_portrait;Angel;Apple\n    transition;close\n    change_background\n    transition;open\n    add_unit;Apple;15,7;fade;closest;fade\n    change_team;Apple;player\n    remove_region;House1\nelse\n    multi_add_portrait;{unit};Left;Apple;OffscreenRight\n    speak;{unit};Anyone down here?\n    speak;Apple;...;FLAG(no_talk)\n    speak;{unit};Hm... Seems empty.\n    multi_remove_portrait;{unit};Apple\nend\n\n\n\n\n"
+    }
+]

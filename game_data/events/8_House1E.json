@@ -1,7 +1,7 @@
 [
     {
         "name": "House1E",
-        "trigger": "on_region_interact",
+        "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid == 'House1' and unit.team == 'enemy'",
         "commands": [
@@ -119,6 +119,10 @@
                 [
                     "Open"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

@@ -345,6 +345,10 @@
                     "FLAG(no_warn)",
                     "FLAG(immediate)"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

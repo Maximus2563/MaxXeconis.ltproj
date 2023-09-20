@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "InsultToInjury",
+        "name": "Insult to Injury",
+        "desc": "If foe has 4 or more stats debuffed, unit makes a guaranteed follow-up attack.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "(max(0,min(1,target.stats['STR'] - target.get_stat('STR'))) + max(0,min(1,target.stats['MAG'] - target.get_stat('MAG'))) +max(0,min(1,target.stats['SKL'] - target.get_stat('SKL'))) +max(0,min(1,target.stats['SPD'] - target.get_stat('SPD'))) +max(0,min(1,target.stats['LCK'] - target.get_stat('LCK'))) +max(0,min(1,target.stats['DEF'] - target.get_stat('DEF'))) +max(0,min(1,target.stats['RES'] - target.get_stat('RES')))) > 3"
+            ],
+            [
+                "attack_speed",
+                999
+            ]
+        ]
+    }
+]

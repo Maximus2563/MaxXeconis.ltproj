@@ -44,10 +44,18 @@
             [
                 "end",
                 []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,
         "priority": 20,
-        "source": "if;False\n    if;True\n        speak;Joshua;Wow, such wait.\n    elif;False\n        speak;Joshua;No\n    end\nend\n"
+        "source": "if;False\n    if;True\n        speak;Joshua;Wow, such wait.\n    elif;False\n        speak;Joshua;No\n    end\nend\n\n"
     }
 ]

@@ -61,10 +61,18 @@
                 [
                     "Dreams of Home"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "change_background;Castle Interior 6 Rainy\nmulti_add_portrait;Emeline;FarLeft;Dawn;30,Bottom;Helia;60,Bottom\nmulti_add_portrait;Lucian;84,Bottom;Elias;130,Bottom;Argento;FarRight\nspeak;Emeline;Kill yourself.\nmulti_remove_portrait;Skill;Max;Leap;Dark\nmulti_remove_portrait;Shoop;Pikno\nignore_base_convo;Dreams of Home\n"
+        "source": "change_background;Castle Interior 6 Rainy\nmulti_add_portrait;Emeline;FarLeft;Dawn;30,Bottom;Helia;60,Bottom\nmulti_add_portrait;Lucian;84,Bottom;Elias;130,Bottom;Argento;FarRight\nspeak;Emeline;Kill yourself.\nmulti_remove_portrait;Skill;Max;Leap;Dark\nmulti_remove_portrait;Shoop;Pikno\nignore_base_convo;Dreams of Home\n\n"
     }
 ]

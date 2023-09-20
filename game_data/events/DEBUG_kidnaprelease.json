@@ -32,10 +32,78 @@
             [
                 "end",
                 []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit2.team == 'player'\n    change_team;Frost;player\nelse\n    change_team;Frost;enemy\nend\n"
+        "source": "if;unit2.team == 'player'\n    change_team;Frost;player\nelse\n    change_team;Frost;enemy\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     }
 ]

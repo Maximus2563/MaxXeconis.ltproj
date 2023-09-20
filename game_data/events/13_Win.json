@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Win",
+        "trigger": "unit_wait",
+        "level_nid": "13",
+        "condition": "game.check_dead('Brug')",
+        "commands": [
+            [
+                "win_game",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "win_game\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+]

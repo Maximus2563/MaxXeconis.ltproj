@@ -1,0 +1,146 @@
+[
+    {
+        "nid": "SeraphKnight",
+        "name": "Seraph Knight",
+        "desc": "Flying pegasus knight with mastery over light.",
+        "tier": 2,
+        "movement_group": "Fliers",
+        "promotes_from": "Brightwing",
+        "turns_into": [],
+        "tags": [
+            "Mounted",
+            "Flying"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 5,
+            "SKL": 7,
+            "SPD": 8,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 4,
+            "CON": 6,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 30,
+            "SKL": 28,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 12,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 5,
+            "STR": 2,
+            "MAG": 1,
+            "SKL": 0,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 22,
+            "MAG": 24,
+            "SKL": 25,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 21,
+            "RES": 27,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Flying"
+            ],
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                true,
+                21,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                41,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "[FLY] Falcoknight (F) Sword {Flasuban, ArcaneEli}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Seraphknight",
+        "combat_anim_nid": "SeraphKnight",
+        "fields": []
+    }
+]

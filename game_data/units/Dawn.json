@@ -5,7 +5,7 @@
         "desc": "Emeline's cousin, youthful and full of energy.",
         "variant": "Female",
         "level": 1,
-        "klass": "Priestess",
+        "klass": "SeraphKnight",
         "tags": [],
         "bases": {
             "HP": 20,
@@ -100,7 +100,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Dawn",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     }
 ]

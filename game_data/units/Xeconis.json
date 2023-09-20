@@ -4,11 +4,11 @@
         "name": "Xeconis",
         "desc": "A soldier in training whose shrewd demeanour keeps him sharp.",
         "variant": "",
-        "level": 6,
+        "level": 9,
         "klass": "Soldier",
         "tags": [],
         "bases": {
-            "HP": 24,
+            "HP": 25,
             "STR": 8,
             "MAG": 0,
             "SKL": 12,
@@ -33,15 +33,15 @@
         },
         "stat_cap_modifiers": {
             "HP": 0,
-            "MAG": 0,
+            "MAG": -10,
             "MOV": 0,
             "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
+            "STR": -1,
+            "RES": -1,
+            "DEF": -1,
             "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
+            "SKL": 3,
+            "SPD": 1
         },
         "starting_items": [
             [
@@ -53,7 +53,7 @@
                 false
             ],
             [
-                "Vulnerary",
+                "Hero Crest",
                 false
             ]
         ],

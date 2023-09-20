@@ -30,10 +30,50 @@
                 [
                     "Open"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nmusic;Valiant Illusion\nshop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow;armory\ntransition;Open\n"
+        "source": "transition;Close\nmusic;Valiant Illusion\nshop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow;armory\ntransition;Open\n\n\n\n\n\n\n\n\n\n"
     }
 ]

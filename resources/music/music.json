@@ -413,5 +413,25 @@
         "Far Away",
         false,
         true
+    ],
+    [
+        "No Justice",
+        false,
+        true
+    ],
+    [
+        "ResolveLight",
+        true,
+        false
+    ],
+    [
+        "Dusk Falls",
+        false,
+        true
+    ],
+    [
+        "Sea Winds and Travelers",
+        true,
+        false
     ]
 ]

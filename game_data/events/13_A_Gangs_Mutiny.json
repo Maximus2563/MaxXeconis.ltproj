@@ -1,0 +1,288 @@
+[
+    {
+        "name": "A Gangs Mutiny",
+        "trigger": "on_base_convo",
+        "level_nid": "13",
+        "condition": "unit == 'A Gangs Mutiny'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Ship Interior Day"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Funny Footsteps"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Angel",
+                    "FarRight",
+                    "Roag",
+                    "MidRight",
+                    "Boey",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "How strange, I'm brought back to you flops!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Why're you being so mean?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "You both betrayed me!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "I wasn't about that lifestyle, girl.|I cleaned myself up, yup, yup!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Well, sure! But he didn't!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Not my fault you got caught."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "So, whose fault was it?! Mine?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "I see how it is...|Look, I'm sorry..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Thanks."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Go you, girl!|You learnt how to apologise!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "I'm sorry... that you two are delulu!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "WOAH!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Look, we're back together again.|Can we stop this crap?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Please..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Okay, okay.|But, this time, we stick together, okay?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Sure.|Even if Apple's not here..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Oh! I have a gift for you!|Consider it a apology!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Uhm, Roag..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Yeah?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "What am I going to do with A LANCE?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Uh, you can spearfish with it..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Fish?! Gross!|Huh, this does seem... fishy.|Like the way you smell!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Roag, did you get that for yourself...?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "I don't know what you mean...|But, I'll take it if you don't want it!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Anyways..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Roag",
+                    "Axereaver"
+                ]
+            ],
+            [
+                "music_fade_back",
+                []
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "ignore_base_convo",
+                [
+                    "A Gangs Mutiny"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;close\nchange_background;Ship Interior Day\nmusic;Funny Footsteps\ntransition;open\nmulti_add_portrait;Angel;FarRight;Roag;MidRight;Boey;Left\nspeak;Boey;How strange, I'm brought back to you flops!\nspeak;Roag;Why're you being so mean?\nspeak;Boey;You both betrayed me!\nspeak;Roag;I wasn't about that lifestyle, girl.|I cleaned myself up, yup, yup!\nspeak;Boey;Well, sure! But he didn't!\nspeak;Angel;Not my fault you got caught.\nspeak;Boey;So, whose fault was it?! Mine?!\nspeak;Angel;...;FLAG(no_talk)\nspeak;Roag;...;FLAG(no_talk)\nspeak;Boey;I see how it is...|Look, I'm sorry...\nspeak;Angel;Thanks.\nspeak;Roag;Go you, girl!|You learnt how to apologise!\nspeak;Boey;I'm sorry... that you two are delulu!\nspeak;Roag;WOAH!\nspeak;Angel;Look, we're back together again.|Can we stop this crap?\nspeak;Roag;Please...\nspeak;Boey;Okay, okay.|But, this time, we stick together, okay?\nspeak;Angel;Sure.|Even if Apple's not here...\nspeak;Roag;Oh! I have a gift for you!|Consider it a apology!\nspeak;Boey;Uhm, Roag...\nspeak;Roag;Yeah?\nspeak;Boey;What am I going to do with A LANCE?!\nspeak;Roag;Uh, you can spearfish with it...\nspeak;Boey;Fish?! Gross!|Huh, this does seem... fishy.|Like the way you smell!\nspeak;Angel;Roag, did you get that for yourself...?\nspeak;Roag;I don't know what you mean...|But, I'll take it if you don't want it!\nspeak;Boey;Anyways...\ntransition;close\ngive_item;Roag;Axereaver\nmusic_fade_back\nchange_background\nignore_base_convo;A Gangs Mutiny\ntransition;open\n\n\n\n"
+    }
+]

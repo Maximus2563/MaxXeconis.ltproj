@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Inn",
+        "trigger": "Visit",
+        "level_nid": "12",
+        "condition": "region.nid == 'Inn'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Daytime Tavern 1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man3",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man3",
+                    "You here for a pint?|No? Really?|Well, uh, take this instead if you're fighting those pirates."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Concoction"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;Close\nchange_background;Daytime Tavern 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;Man3;Right\nspeak;Man3;You here for a pint?|No? Really?|Well, uh, take this instead if you're fighting those pirates.\ntransition;Close\nchange_background\ntransition;Open\ngive_item;{unit};Concoction\nhas_traded;{unit}\n"
+    }
+]

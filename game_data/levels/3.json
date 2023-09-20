@@ -204,7 +204,7 @@
                     ],
                     [
                         "Vulnerary",
-                        true
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -233,7 +233,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "C",
                 "starting_position": [
@@ -454,7 +454,7 @@
             {
                 "nid": "113",
                 "variant": "",
-                "level": 3,
+                "level": 5,
                 "klass": "SwordCavalier",
                 "faction": "Guard",
                 "starting_items": [
@@ -467,7 +467,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Sanjay",
                 "starting_position": [
                     4,
                     10
@@ -551,7 +551,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "E",
                 "starting_position": null,
@@ -572,7 +572,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "E",
                 "starting_position": null,
@@ -614,7 +614,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "F",
                 "starting_position": null,
@@ -624,7 +624,7 @@
             {
                 "nid": "120",
                 "variant": "",
-                "level": 2,
+                "level": 3,
                 "klass": "KnightS",
                 "faction": "Guard",
                 "starting_items": [
@@ -666,18 +666,22 @@
             {
                 "nid": "123",
                 "variant": "",
-                "level": 3,
+                "level": 4,
                 "klass": "KnightL",
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Axereaver",
+                        "Short Spear",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
                         true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -690,7 +694,7 @@
             {
                 "nid": "122",
                 "variant": "",
-                "level": 2,
+                "level": 3,
                 "klass": "KnightA",
                 "faction": "Guard",
                 "starting_items": [
@@ -714,12 +718,12 @@
                 "nid": "SpawnE",
                 "region_type": "normal",
                 "position": [
-                    18,
-                    4
+                    10,
+                    5
                 ],
                 "size": [
-                    10,
-                    8
+                    21,
+                    11
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -766,11 +770,11 @@
                 "region_type": "normal",
                 "position": [
                     12,
-                    6
+                    0
                 ],
                 "size": [
-                    6,
-                    10
+                    7,
+                    16
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -1044,7 +1048,7 @@
             },
             {
                 "nid": "Sanjay",
-                "trigger_threshold": 1
+                "trigger_threshold": 2
             },
             {
                 "nid": "A",
@@ -1060,7 +1064,7 @@
             },
             {
                 "nid": "C",
-                "trigger_threshold": 1
+                "trigger_threshold": 2
             }
         ]
     }

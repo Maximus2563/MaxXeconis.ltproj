@@ -18,6 +18,10 @@
                     "EirikaSupport",
                     "True"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

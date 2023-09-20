@@ -1,0 +1,210 @@
+[
+    {
+        "name": "BoeyAngel",
+        "trigger": "on_talk",
+        "level_nid": "12",
+        "condition": "check_pair('Boey', 'Angel')",
+        "commands": [
+            [
+                "music",
+                [
+                    "Wonderful Pirates"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Boey",
+                    "Left",
+                    "Angel",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Wait, YOU!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Shit."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Girl, how could you leave me to get caught by myself!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "I told you that holdup was a bad gig, you didn't listen!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "WOW!|You're accusing me of not listening, is it because I'm beautiful?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Ahuh, not with that 'fro."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Boey"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Stop dissin' me!? Like, what the fuck man!?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Anyways, what are you doin' here?|This isn't your style..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Prince dude is letting me walk free, so long as I help him."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Ahuh, I see what you're tryna do..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "What? No!|Not that!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Listen, I understand, make that bag."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Well, I'm basically gettin' paid to be a soldier, you know?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Hm, I'm coming with."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Uhm, we don't need your fatass here!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Look, I get you're obsessed, but you can do your own thing now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Nah, I insist.|This pirate group is so flop...|I think Apple ran away..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boey",
+                    "Girl... Apple really did that...?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Anyways, time to make some money!"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Angel",
+                    "player"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Angel",
+                    "None"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Sages",
+                    "Angel"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Boey",
+                    "Angel"
+                ]
+            ],
+            [
+                "music_fade_back",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "music;Wonderful Pirates\nmulti_add_portrait;Boey;Left;Angel;Right\nspeak;Boey;Wait, YOU!\nspeak;Angel;Shit.\nspeak;Boey;Girl, how could you leave me to get caught by myself!\nspeak;Angel;I told you that holdup was a bad gig, you didn't listen!\nspeak;Boey;WOW!|You're accusing me of not listening, is it because I'm beautiful?\nspeak;Angel;Ahuh, not with that 'fro.\nbop_portrait;Boey\nspeak;Boey;Stop dissin' me!? Like, what the fuck man!?\nspeak;Angel;Anyways, what are you doin' here?|This isn't your style...\nspeak;Boey;Prince dude is letting me walk free, so long as I help him.\nspeak;Angel;Ahuh, I see what you're tryna do...\nspeak;Boey;What? No!|Not that!\nspeak;Angel;Listen, I understand, make that bag.\nspeak;Boey;Well, I'm basically gettin' paid to be a soldier, you know?\nspeak;Angel;Hm, I'm coming with.\nspeak;Boey;Uhm, we don't need your fatass here!\nspeak;Angel;?!\nspeak;Boey;Look, I get you're obsessed, but you can do your own thing now.\nspeak;Angel;Nah, I insist.|This pirate group is so flop...|I think Apple ran away...\nspeak;Boey;Girl... Apple really did that...?\nspeak;Angel;Anyways, time to make some money!\nchange_team;Angel;player\nchange_ai;Angel;None\nremove_talk;Sages;Angel\nremove_talk;Boey;Angel\nmusic_fade_back\n"
+    }
+]

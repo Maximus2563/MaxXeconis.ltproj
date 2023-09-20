@@ -22,10 +22,18 @@
                 [
                     "500"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "flicker_cursor;17,1\nshow_layer;villagesouthdestroy\nwait;500\n"
+        "source": "flicker_cursor;17,1\nshow_layer;villagesouthdestroy\nwait;500\n\n"
     }
 ]

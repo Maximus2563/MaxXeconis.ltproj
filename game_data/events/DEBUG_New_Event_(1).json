@@ -26,10 +26,22 @@
                     "Angel",
                     "(Insert racism here)."
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "source": "add_portrait;Angel;Left;no_block\nadd_portrait;Boey;Right\nspeak;Angel;(Insert racism here).\n\n\n"
     }
 ]

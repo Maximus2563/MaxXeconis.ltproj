@@ -6,21 +6,9 @@
         "condition": "True",
         "commands": [
             [
-                "comment",
+                "enable_supports",
                 [
-                    "#level_var;_fog_of_war;1"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#level_var;_fog_of_war_radius;3"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#level_var;_ai_fog_of_war_radius;5"
+                    "t"
                 ]
             ],
             [
@@ -108,6 +96,13 @@
                 ]
             ],
             [
+                "give_bexp",
+                [
+                    "100",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
                 "base",
                 [
                     "Estate Evening"
@@ -172,10 +167,46 @@
                 [
                     "#wait;5000"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "#level_var;_fog_of_war;1\n#level_var;_fog_of_war_radius;3\n#level_var;_ai_fog_of_war_radius;5\nadd_lore;Eirika\nadd_lore;Landros\nadd_lore;Leap\nadd_lore;Sal\nadd_lore;Prof\npair_up;Frost;Kidnapper\nadd_base_convo;Dreams of Home\nadd_weather;smoke\ngame_var;_supports;True\nunlock_support_rank;Leap;Prof;C\nadd_talk;Prof;Pykroe\nadd_talk;Boey;Angel\n#trigger_script;Trigger\nbase;Estate Evening\n#music;Attack;2000\n#wait;5000\n#music;Armory;2000\n#wait;5000\n#music;Attack;2000\n#wait;5000\n#music;None;2000\n#wait;5000\n#music;Attack;2000\n#wait;5000\n"
+        "source": "enable_supports;t\nadd_lore;Eirika\nadd_lore;Landros\nadd_lore;Leap\nadd_lore;Sal\nadd_lore;Prof\npair_up;Frost;Kidnapper\nadd_base_convo;Dreams of Home\nadd_weather;smoke\ngame_var;_supports;True\nunlock_support_rank;Leap;Prof;C\nadd_talk;Prof;Pykroe\nadd_talk;Boey;Angel\n#trigger_script;Trigger\ngive_bexp;100;FLAG(no_banner)\nbase;Estate Evening\n#music;Attack;2000\n#wait;5000\n#music;Armory;2000\n#wait;5000\n#music;Attack;2000\n#wait;5000\n#music;None;2000\n#wait;5000\n#music;Attack;2000\n#wait;5000\n\n\n\n\n\n\n\n\n"
     }
 ]

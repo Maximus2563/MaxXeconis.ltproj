@@ -37,10 +37,18 @@
                 [
                     "ZasharMonster"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;ZasharMonster;Right\nspeak;ZasharMonster;Grr... Gaurgh...\nsound;CyclopsCrit\nexpression;ZasharMonster;CloseEyes\nremove_portrait;ZasharMonster\n"
+        "source": "add_portrait;ZasharMonster;Right\nspeak;ZasharMonster;Grr... Gaurgh...\nsound;CyclopsCrit\nexpression;ZasharMonster;CloseEyes\nremove_portrait;ZasharMonster\n\n"
     }
 ]

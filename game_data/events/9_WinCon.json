@@ -8,10 +8,18 @@
             [
                 "win_game",
                 []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "win_game\n"
+        "source": "win_game\n\n"
     }
 ]

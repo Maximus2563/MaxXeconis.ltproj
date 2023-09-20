@@ -31,10 +31,26 @@
                 [
                     "Grinst"
                 ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Grinst;Left\nspeak;Grinst;My tummy...|Urgh...\nexpression;Grinst;CloseEyes\nremove_portrait;Grinst\n"
+        "source": "add_portrait;Grinst;Left\nspeak;Grinst;My tummy...|Urgh...\nexpression;Grinst;CloseEyes\nremove_portrait;Grinst\n\n\n\n"
     }
 ]

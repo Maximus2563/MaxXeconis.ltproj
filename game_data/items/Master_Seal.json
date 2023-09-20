@@ -2,7 +2,7 @@
     {
         "nid": "Master Seal",
         "name": "Master Seal",
-        "desc": "Promotes all normal classes",
+        "desc": "Promotes all normal classes.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -40,46 +40,47 @@
                 20000
             ],
             [
-                "prf_class",
-                [
-                    "Myrmidon",
-                    "Mercenary",
-                    "Thief",
-                    "Cavalier",
-                    "Pegasus_Knight",
-                    "Knight",
-                    "Fighter",
-                    "Pirate",
-                    "Archer",
-                    "Monk",
-                    "Cleric",
-                    "Mage",
-                    "Shaman",
-                    "Troubadour",
-                    "Wyvern Rider",
-                    "Bard",
-                    "Soldier",
-                    "SwordCavalierBread",
-                    "LanceCavalier",
-                    "AxeCavalier",
-                    "BowCavalier",
-                    "KnightL",
-                    "KnightA",
-                    "KnightB",
-                    "Diviner",
-                    "Priest",
-                    "Servant",
-                    "MageF",
-                    "Pupil"
-                ]
-            ],
-            [
                 "promote",
                 null
             ],
             [
                 "eval_target_restrict",
                 "unit.level >= 10"
+            ],
+            [
+                "prf_class",
+                [
+                    "Myrmidon",
+                    "Merc",
+                    "MercFemale",
+                    "Bard",
+                    "Thief",
+                    "Soldier",
+                    "SwordCavalier",
+                    "SwordCavalierBread",
+                    "LanceCavalier",
+                    "AxeCavalier",
+                    "BowCavalier",
+                    "Pegasus_Knight",
+                    "KnightS",
+                    "KnightL",
+                    "KnightA",
+                    "KnightB",
+                    "Fighter",
+                    "Pirate",
+                    "Brigand",
+                    "Archer",
+                    "Outlaw",
+                    "Monk",
+                    "Diviner",
+                    "Cleric",
+                    "Priest",
+                    "Mage",
+                    "MageF",
+                    "Shaman",
+                    "Troubadour",
+                    "Wyvern Rider"
+                ]
             ]
         ]
     }

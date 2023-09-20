@@ -8,6 +8,10 @@
             [
                 "win_game",
                 []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

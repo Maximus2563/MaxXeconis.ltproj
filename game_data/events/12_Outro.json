@@ -1,0 +1,381 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Left",
+                    "Cacti"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "All is clear! Father is here too! Nicely done, guys!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Cacti"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Victory United 1"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Sea Port Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Sages",
+                    "MidLeft",
+                    "Cacti",
+                    "FarLeft",
+                    "Timothy",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Timothy",
+                    "Smile"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Cacti",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Ah, Cacti.|How nice of you to wait for me... Oh!|Are those bodies?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "Father, these pirate freaks were holding the town hostage!|Luckily, some new friends and I vanquished the evil!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "New friends? Oh, how wonderful!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I'm a new friend!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Could it be? Prince Sages?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Of course!"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Timothy",
+                    "NoSmile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Cacti",
+                    "NoSmile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "Father?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Apologies, lost my composure for a second.|It's just that, Arcei is hardly doing well..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Father's been taken to Aurelia...|They think themselves judge, jury, and executioner."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "So we'll need your boat."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "I'll allow it.|No child should have to experience loss, so soon...|Wait, 'we'?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "I must venture with the prince."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Cacti's been a great deal of help here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "Plus, I always wanted to see Aurelia..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "But..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "Come on, father. I'm not a delicate flower."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Well, I suppose..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "Thanks father! Now, let's prepare for our voyage!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Cacti"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "So, where did you sail from?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "I'm not sure I can say...|But, I doubt you'd be allowed there."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Shady..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Oh! Nothing like that.|Just, particular."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Alright, thank you for your aid, sir!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Anything my girl asks of me."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sages",
+                    "Timothy"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Angel') and unit.team('Angel') == player"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Sages",
+                    "Left",
+                    "Angel",
+                    "Right"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "So, we're goin' on a ship journey?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Yup! We need to rescue my father, before it's too late..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Well, uh, I'll use my wind magic to make the wind helpful."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Thank you, Angel."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Angel",
+                    "Not used to hearing thanks from some fancy flop noble...|But, I'll do whatever."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "game.turncount < 10"
+                ]
+            ],
+            [
+                "give_bexp",
+                [
+                    "150"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_portrait;Left;Cacti\nspeak;Cacti;All is clear! Father is here too! Nicely done, guys!\nremove_portrait;Cacti\ntransition;close\nmusic;Victory United 1\nchange_background;Sea Port Day\ntransition;open\nmulti_add_portrait;Sages;MidLeft;Cacti;FarLeft;Timothy;Right\nexpression;Timothy;Smile\nexpression;Cacti;Smile\nspeak;Timothy;Ah, Cacti.|How nice of you to wait for me... Oh!|Are those bodies?\nspeak;Cacti;Father, these pirate freaks were holding the town hostage!|Luckily, some new friends and I vanquished the evil!\nspeak;Timothy;New friends? Oh, how wonderful!\nspeak;Sages;I'm a new friend!\nspeak;Timothy;Could it be? Prince Sages?\nspeak;Sages;Of course!\nexpression;Timothy;NoSmile\nspeak;Timothy;...;FLAG(no_talk)\nexpression;Cacti;NoSmile\nspeak;Cacti;Father?\nspeak;Timothy;Apologies, lost my composure for a second.|It's just that, Arcei is hardly doing well...\nspeak;Sages;Father's been taken to Aurelia...|They think themselves judge, jury, and executioner.\nspeak;Cacti;So we'll need your boat.\nspeak;Timothy;I'll allow it.|No child should have to experience loss, so soon...|Wait, 'we'?\nspeak;Cacti;I must venture with the prince.\nspeak;Sages;Cacti's been a great deal of help here.\nspeak;Cacti;Plus, I always wanted to see Aurelia...\nspeak;Timothy;But...\nspeak;Cacti;Come on, father. I'm not a delicate flower.\nspeak;Timothy;Well, I suppose...\nspeak;Cacti;Thanks father! Now, let's prepare for our voyage!\nremove_portrait;Cacti\nspeak;Sages;So, where did you sail from?\nspeak;Timothy;I'm not sure I can say...|But, I doubt you'd be allowed there.\nspeak;Sages;Shady...\nspeak;Timothy;Oh! Nothing like that.|Just, particular.\nspeak;Sages;Alright, thank you for your aid, sir!\nspeak;Timothy;Anything my girl asks of me.\ntransition;close\nmulti_remove_portrait;Sages;Timothy\nif;game.check_alive('Angel') and unit.team('Angel') == player\n    multi_add_portrait;Sages;Left;Angel;Right\n    transition;open\n    speak;Angel;So, we're goin' on a ship journey?\n    speak;Sages;Yup! We need to rescue my father, before it's too late...\n    speak;Angel;Well, uh, I'll use my wind magic to make the wind helpful.\n    speak;Sages;Thank you, Angel.\n    speak;Angel;Not used to hearing thanks from some fancy flop noble...|But, I'll do whatever.\n    transition;close\nend\nif;game.turncount < 10\n    give_bexp;150\nend\n\n"
+    }
+]

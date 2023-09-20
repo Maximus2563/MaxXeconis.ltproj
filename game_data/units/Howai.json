@@ -2,7 +2,7 @@
     {
         "nid": "Howai",
         "name": "Howai",
-        "desc": "",
+        "desc": "An orphaned boy who likes to paint.",
         "variant": "",
         "level": 1,
         "klass": "Priest",
@@ -12,7 +12,7 @@
             "STR": 0,
             "MAG": 4,
             "SKL": 2,
-            "SPD": 8,
+            "SPD": 7,
             "LCK": 9,
             "DEF": 0,
             "RES": 7,
@@ -32,13 +32,13 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "HP": -2,
+            "HP": 0,
             "MAG": 2,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
             "RES": 0,
-            "DEF": -1,
+            "DEF": -3,
             "LCK": 0,
             "SKL": -2,
             "SPD": 3
@@ -55,7 +55,16 @@
                 "Inferno Balm"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Painting,Roaming"
+            ],
+            [
+                "Dislikes:",
+                "Restrictions,Boring tasks"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -116,6 +125,39 @@
         "alternate_classes": [],
         "portrait_nid": "Howai",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "PromoQuote",
+                "Oh! This is so cool!"
+            ],
+            [
+                "EscapeQuote",
+                "Yippee!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Yay! This is a lovely scene!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I'll make a self portrait to celebrate!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Wait, what?"
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Oh no... I let everyone down..."
+            ],
+            [
+                "MaxStatQuote",
+                "Anywhere else left to grow? Hm..."
+            ],
+            [
+                "DeathQuote",
+                "My blood...? Painting the floor..."
+            ]
+        ]
     }
 ]

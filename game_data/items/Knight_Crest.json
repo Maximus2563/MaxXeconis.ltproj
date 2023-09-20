@@ -42,8 +42,15 @@
             [
                 "prf_class",
                 [
-                    "Knight",
-                    "Cavalier"
+                    "SwordCavalierBread",
+                    "SwordCavalier",
+                    "LanceCavalier",
+                    "AxeCavalier",
+                    "BowCavalier",
+                    "KnightS",
+                    "KnightL",
+                    "KnightA",
+                    "KnightB"
                 ]
             ],
             [

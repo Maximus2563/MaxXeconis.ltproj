@@ -1,0 +1,368 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "13",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Sky Evening"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Cacti')"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Timothy",
+                    "Left",
+                    "Sages",
+                    "MidRight",
+                    "Cacti",
+                    "FarRight"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "We did it... whew!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Thanks for the help.|Should be smooth sailing from here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I do feel slightly bad...|That guy cared about his leader..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Cacti",
+                    "Then he ought to have realised how stupid attacking us was.|If he really cared, he should have just lived."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "I believe you two should rest, we might have trouble when we arrive..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Thank you, sir."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Timothy",
+                    "Left",
+                    "Sages",
+                    "Right"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Timothy",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Sir..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "I... Couldn't..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "I'm very sorry... It's my fault for dragging her into this..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "Yes, it is.|But, she was her own girl...|I couldn't stop her seeking adventure."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Will you turn back?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Timothy",
+                    "I'll see you to Aurelia, lest this be for nothing...|I'll bury her in her mother's homeland...|However will I explain this..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "...",
+                    "FLAG(no_talk)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sages",
+                    "Cacti",
+                    "Timothy"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Apple') and unit.team('Apple') == player"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Apple",
+                    "Right",
+                    "Sages",
+                    "Left"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "So, you're the leader?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "You were out there helping us, how did you...?"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.team('Boey') == player and unit.team('Angel') == player"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Long story, but I've known Boey and Angel for a while."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.team('Angel') != player"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Long story, but I've known Boey for a while."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Long story, but I've known Angel for a while."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Well, glad you're with us.|Nice hat!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Ha! You know the finer things in life.|I'll work as hard as will keep trouble off our backs."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Glad to hear."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Apple's the name."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Like the fruit...?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "My parents were hardly creative.|Probably just named me after the first thing they had on the table."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sages",
+                    "Well, we should be landing soon, so get ready!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Apple",
+                    "Sure thing. Later."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "game.turncount < 11"
+                ]
+            ],
+            [
+                "give_bexp",
+                [
+                    "150"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "transition;close\nchange_background;Sky Evening\nif;game.check_alive('Cacti')\n    multi_add_portrait;Timothy;Left;Sages;MidRight;Cacti;FarRight\n    transition;open\n    speak;Cacti;We did it... whew!\n    speak;Timothy;Thanks for the help.|Should be smooth sailing from here.\n    speak;Sages;I do feel slightly bad...|That guy cared about his leader...\n    speak;Cacti;Then he ought to have realised how stupid attacking us was.|If he really cared, he should have just lived.\n    speak;Sages;...;FLAG(no_talk)\n    speak;Timothy;I believe you two should rest, we might have trouble when we arrive...\n    speak;Sages;Thank you, sir.\nelse\n    multi_add_portrait;Timothy;Left;Sages;Right\n    expression;Timothy;CloseEyes\n    speak;Sages;Sir...\n    speak;Timothy;I... Couldn't...\n    speak;Sages;I'm very sorry... It's my fault for dragging her into this...\n    speak;Timothy;Yes, it is.|But, she was her own girl...|I couldn't stop her seeking adventure.\n    speak;Sages;Will you turn back?\n    speak;Timothy;I'll see you to Aurelia, lest this be for nothing...|I'll bury her in her mother's homeland...|However will I explain this...\n    speak;Sages;...;FLAG(no_talk)\nend\ntransition;close\nmulti_remove_portrait;Sages;Cacti;Timothy\nif;game.check_alive('Apple') and unit.team('Apple') == player\n    multi_add_portrait;Apple;Right;Sages;Left\n    transition;open\n    speak;Apple;So, you're the leader?\n    speak;Sages;You were out there helping us, how did you...?\n    if;unit.team('Boey') == player and unit.team('Angel') == player\n        speak;Apple;Long story, but I've known Boey and Angel for a while.\n    elif;unit.team('Angel') != player\n        speak;Apple;Long story, but I've known Boey for a while.\n    else\n        speak;Apple;Long story, but I've known Angel for a while.\n    end\n    speak;Sages;Well, glad you're with us.|Nice hat!\n    speak;Apple;Ha! You know the finer things in life.|I'll work as hard as will keep trouble off our backs.\n    speak;Sages;Glad to hear.\n    speak;Apple;Apple's the name.\n    speak;Sages;Like the fruit...?\n    speak;Apple;My parents were hardly creative.|Probably just named me after the first thing they had on the table.\n    speak;Sages;Well, we should be landing soon, so get ready!\n    speak;Apple;Sure thing. Later.\n    transition;close\nend\nif;game.turncount < 11\n    give_bexp;150\nend\n\n\n\n\n\n"
+    }
+]

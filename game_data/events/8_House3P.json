@@ -79,6 +79,10 @@
                 [
                     "{unit}"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

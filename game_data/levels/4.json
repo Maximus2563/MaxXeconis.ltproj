@@ -202,7 +202,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "B",
+                "ai_group": "C",
                 "starting_position": [
                     15,
                     14
@@ -274,7 +274,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "B",
+                "ai_group": "C",
                 "starting_position": [
                     14,
                     14
@@ -300,8 +300,8 @@
                 "roam_ai": null,
                 "ai_group": "A",
                 "starting_position": [
-                    15,
-                    10
+                    14,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -348,7 +348,7 @@
                 "roam_ai": null,
                 "ai_group": "A",
                 "starting_position": [
-                    16,
+                    15,
                     10
                 ],
                 "starting_traveler": null,
@@ -422,7 +422,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "B",
                 "starting_position": [
                     8,
                     18
@@ -470,7 +470,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "D",
                 "starting_position": [
                     13,
                     16
@@ -566,10 +566,34 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "B",
+                "ai_group": "C",
                 "starting_position": [
                     13,
                     13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 6,
+                "klass": "Thief",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Dagger",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -588,9 +612,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "E",
                 "starting_position": [
                     16,
                     19
@@ -614,7 +638,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "F",
                 "starting_position": [
                     3,
                     11
@@ -638,7 +662,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "F",
                 "starting_position": [
                     8,
                     15
@@ -662,7 +686,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "D",
                 "starting_position": [
                     12,
                     17
@@ -686,10 +710,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "G",
                 "starting_position": [
                     17,
-                    6
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -698,11 +722,11 @@
                 "nid": "123",
                 "variant": null,
                 "level": 5,
-                "klass": "Monk",
+                "klass": "Mage",
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Lightning",
+                        "Fire",
                         false
                     ]
                 ],
@@ -760,13 +784,121 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "E",
                 "starting_position": [
                     13,
                     20
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 5,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G",
+                "starting_position": [
+                    17,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Rein",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Rein",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 4,
+                "klass": "Brightwing",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Rein",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 4,
+                "klass": "Brightwing",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Shine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Rein",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -890,6 +1022,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Reinforcement",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    15
+                ],
+                "size": [
+                    12,
+                    6
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -961,6 +1110,33 @@
                         2
                     ]
                 }
+            },
+            {
+                "nid": "Reinforcement",
+                "units": [
+                    "127",
+                    "130",
+                    "128",
+                    "129"
+                ],
+                "positions": {
+                    "127": [
+                        4,
+                        11
+                    ],
+                    "130": [
+                        4,
+                        13
+                    ],
+                    "128": [
+                        5,
+                        12
+                    ],
+                    "129": [
+                        3,
+                        12
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -970,7 +1146,31 @@
             },
             {
                 "nid": "B",
-                "trigger_threshold": 1
+                "trigger_threshold": 3
+            },
+            {
+                "nid": "C",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "D",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "E",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "F",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "G",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "Rein",
+                "trigger_threshold": 2
             }
         ]
     }

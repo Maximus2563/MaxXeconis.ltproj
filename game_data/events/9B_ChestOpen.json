@@ -20,10 +20,18 @@
             [
                 "win_game",
                 []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,
         "priority": 20,
-        "source": "sound;Unlock\nshow_layer;ChestOpen\nwin_game\n"
+        "source": "sound;Unlock\nshow_layer;ChestOpen\nwin_game\n\n"
     }
 ]

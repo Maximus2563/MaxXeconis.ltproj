@@ -4,7 +4,7 @@
         "name": "Frost",
         "desc": "A cleric far from her home in the isolated forest country of Arborst.",
         "variant": "Female",
-        "level": 6,
+        "level": 5,
         "klass": "Cleric",
         "tags": [],
         "bases": {

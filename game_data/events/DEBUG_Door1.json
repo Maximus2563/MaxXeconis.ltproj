@@ -22,10 +22,14 @@
                 [
                     "DoorNorth"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,
         "priority": 20,
-        "source": ""
+        "source": "unlock;{unit}\nsound;Unlock\nshow_layer;DoorNorth\n"
     }
 ]

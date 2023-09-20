@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "PoisonKnifeDebuff",
+        "name": "Poison Knife",
+        "desc": "Inflicts STR/MAG -2.",
+        "icon_nid": "Knife",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "MAG",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

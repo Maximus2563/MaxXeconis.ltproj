@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "13",
+        "condition": "game.turncount == 5",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "Mages",
+                    "Mages",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20,
+        "source": "add_group;Mages;Mages;fade;closest\n\n\n"
+    }
+]

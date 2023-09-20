@@ -1,0 +1,31 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "get_units_in_region('Reinforcement', team='player')",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "Reinforcement",
+                    "west",
+                    "Reinforcement",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "comment",
+                []
+            ],
+            [
+                "comment",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20,
+        "source": "spawn_group;Reinforcement;west;Reinforcement;normal;closest\n\n"
+    }
+]

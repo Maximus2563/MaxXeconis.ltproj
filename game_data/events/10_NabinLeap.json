@@ -55,6 +55,10 @@
                     "Nabin",
                     "Leap"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": true,

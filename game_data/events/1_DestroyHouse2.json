@@ -28,6 +28,10 @@
                 [
                     "500"
                 ]
+            ],
+            [
+                "comment",
+                []
             ]
         ],
         "only_once": false,

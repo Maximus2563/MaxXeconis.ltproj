@@ -1031,7 +1031,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy' or 'enemy2'",
+                "condition": "unit.team == 'enemy' or unit.team == 'enemy2' ",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1048,7 +1048,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy' or 'enemy2'",
+                "condition": "unit.team == 'enemy' or unit.team == 'enemy2' ",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
