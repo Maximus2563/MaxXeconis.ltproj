@@ -4,85 +4,22 @@
         "trigger": "Visit",
         "level_nid": "12",
         "condition": "region.nid == 'House1'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Daytime Inside House 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit}",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Boy1",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Boy1",
-                    "Things are always so weird.|These guys wanted me to join their crew, but no way!|I don't think these pirates know basic hygeine!|Uh, take this please... They smell so bad..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "House1"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Ray"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;Boy1;Right\nspeak;Boy1;Things are always so weird.|These guys wanted me to join their crew, but no way!|I don't think these pirates know basic hygeine!|Uh, take this please... They smell so bad...\ntransition;Close\nshow_layer;House1\nchange_background\ntransition;Open\ngive_item;{unit};Ray\nhas_traded;{unit}\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Daytime Inside House 1",
+            "transition;Open",
+            "add_portrait;{unit};Left;no_block",
+            "add_portrait;Boy1;Right",
+            "speak;Boy1;Things are always so weird.|These guys wanted me to join their crew, but no way!|I don't think these pirates know basic hygeine!|Uh, take this please... They smell so bad...",
+            "transition;Close",
+            "show_layer;House1",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Ray",
+            "has_traded;{unit}"
+        ]
     }
 ]

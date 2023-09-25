@@ -4,455 +4,77 @@
         "trigger": "level_start",
         "level_nid": "0",
         "condition": "True",
-        "commands": [
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "change_background",
-                [
-                    "ForestDark"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "72 The Wistful Wilds"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "MaxYoung",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "XeconisYoung",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "Max, there's still no sign of anything.|Is there any point still hanging around in the dark and cold if we yield no results?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "But... There has to be something...|The book definitely said there were magic weeds that bloom in this area at night!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "Please tell me you were not in the fiction section."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "Of course not! I think...|But the excerpt said it would grant anyone immense magical power!|You'd finally be able to cast magic!|Is that not a dream come true?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "Dreaming... Well, at the moment I would rather be sleeping."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "Hmph, I guess you're right.|We'd be toast if we couldn't make it home...|Where's Eff?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "He'll just bored of this fruitless search, like I am."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "I don't know, he's probably just lost in his books, as always.|Wait, here he comes!"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "EffYoung",
-                    "OffscreenRight"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "EffYoung",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "So, Eff, are you ready to head home?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "Not just yet, there's a lady being harassed by bandits headed this way!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "We should help, right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "...|Not really our problem, is it?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "Xec! How could you..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "But, what if she gets hurt?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "No skin off our backs.|Besides, we're no militia."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "Tch! Fine. What about a potential reward?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "...|I'm listening."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "Rewards?|A noble's duty is to help the commoners... That should be enough!|...And the praise of my family!"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "MaxYoung",
-                    "7,8",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "XeconisYoung",
-                    "8,8",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "EffYoung",
-                    "8,9",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "MaxYoung"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "XeconisYoung"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "EffYoung"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "night"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "051 - No Word For Defeat"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "100"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Sunii"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sunii",
-                    "7,5"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "100"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "Enemy1",
-                    "starting"
-                ]
-            ],
-            [
-                "move_group",
-                [
-                    "Enemy1",
-                    "Enemy1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "350"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Pierre"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "Pierre"
-                ]
-            ],
-            [
-                "disp_cursor",
-                [
-                    "1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1000"
-                ]
-            ],
-            [
-                "disp_cursor",
-                [
-                    "0"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Pierre",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sunii",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pierre",
-                    "You 'zere! Cease your running!|You know zat you cannot escape!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sunii",
-                    "Huff... Huff...|Please... I don't know what you want from me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pierre",
-                    "Likely excuse.|Hand yourself over now and 'zen ve'll give you a merciful death!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sunii",
-                    "No...|I won't give in..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pierre",
-                    "Hoho!'Zen we'll have to beat you down, for the boss!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Pierre"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sunii"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "MaxYoung",
-                    "MidLeft",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "XeconisYoung",
-                    "MidRight"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "EffYoung",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "Sounds serious...|But I'm certain they're no match for us!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XeconisYoung",
-                    "Best be careful...|I have an hunch that they're no bandits."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "Agreed.|They seem too composed...|Stay prudent!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "MaxYoung",
-                    "no_block"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "XeconisYoung"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "EffYoung"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "XeconisYoung",
-                    "Sunii"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "remove_all_units\nchange_background;ForestDark\ntransition;open\nmusic;72 The Wistful Wilds\nadd_portrait;MaxYoung;Left\nadd_portrait;XeconisYoung;Right\nspeak;XeconisYoung;Max, there's still no sign of anything.|Is there any point still hanging around in the dark and cold if we yield no results?\nspeak;MaxYoung;But... There has to be something...|The book definitely said there were magic weeds that bloom in this area at night!\nspeak;XeconisYoung;Please tell me you were not in the fiction section.\nspeak;MaxYoung;Of course not! I think...|But the excerpt said it would grant anyone immense magical power!|You'd finally be able to cast magic!|Is that not a dream come true?\nspeak;XeconisYoung;Dreaming... Well, at the moment I would rather be sleeping.\nspeak;MaxYoung;Hmph, I guess you're right.|We'd be toast if we couldn't make it home...|Where's Eff?\nspeak;XeconisYoung;He'll just bored of this fruitless search, like I am.\nspeak;MaxYoung;I don't know, he's probably just lost in his books, as always.|Wait, here he comes!\nadd_portrait;EffYoung;OffscreenRight\nmove_portrait;EffYoung;FarRight\nspeak;XeconisYoung;So, Eff, are you ready to head home?\nspeak;EffYoung;Not just yet, there's a lady being harassed by bandits headed this way!\nspeak;MaxYoung;We should help, right?\nspeak;XeconisYoung;...|Not really our problem, is it?\nspeak;EffYoung;Xec! How could you...\nspeak;MaxYoung;But, what if she gets hurt?\nspeak;XeconisYoung;No skin off our backs.|Besides, we're no militia.\nspeak;MaxYoung;Tch! Fine. What about a potential reward?\nspeak;XeconisYoung;...|I'm listening.\nspeak;EffYoung;Rewards?|A noble's duty is to help the commoners... That should be enough!|...And the praise of my family!\nadd_unit;MaxYoung;7,8;immediate\nadd_unit;XeconisYoung;8,8;immediate\nadd_unit;EffYoung;8,9;immediate\nremove_portrait;MaxYoung\nremove_portrait;XeconisYoung\nremove_portrait;EffYoung\nadd_weather;night\nchange_background\ntransition;open\nmusic;051 - No Word For Defeat\nwait;100\nadd_unit;Sunii\nmove_unit;Sunii;7,5\nwait;100\nadd_group;Enemy1;starting\nmove_group;Enemy1;Enemy1\nwait;350\nadd_unit;Pierre\nmove_cursor;Pierre\ndisp_cursor;1\nwait;1000\ndisp_cursor;0\nadd_portrait;Pierre;Right\nadd_portrait;Sunii;Left\nspeak;Pierre;You 'zere! Cease your running!|You know zat you cannot escape!\nspeak;Sunii;Huff... Huff...|Please... I don't know what you want from me!\nspeak;Pierre;Likely excuse.|Hand yourself over now and 'zen ve'll give you a merciful death!\nspeak;Sunii;No...|I won't give in...\nspeak;Pierre;Hoho!'Zen we'll have to beat you down, for the boss!\nremove_portrait;Pierre\nremove_portrait;Sunii\nadd_portrait;MaxYoung;MidLeft;no_block\nadd_portrait;XeconisYoung;MidRight\nadd_portrait;EffYoung;FarRight\nspeak;MaxYoung;Sounds serious...|But I'm certain they're no match for us!\nspeak;XeconisYoung;Best be careful...|I have an hunch that they're no bandits.\nspeak;EffYoung;Agreed.|They seem too composed...|Stay prudent!\nremove_portrait;MaxYoung;no_block\nremove_portrait;XeconisYoung\nremove_portrait;EffYoung\nadd_talk;XeconisYoung;Sunii\n"
+        "_source": [
+            "remove_all_units",
+            "change_background;ForestDark",
+            "transition;open",
+            "music;72 The Wistful Wilds",
+            "add_portrait;MaxYoung;Left",
+            "add_portrait;XeconisYoung;Right",
+            "speak;XeconisYoung;Max, there's still no sign of anything.|Is there any point still hanging around in the dark and cold if we yield no results?",
+            "speak;MaxYoung;But... There has to be something...|The book definitely said there were magic weeds that bloom in this area at night!",
+            "speak;XeconisYoung;Please tell me you were not in the fiction section.",
+            "speak;MaxYoung;Of course not! I think...|But the excerpt said it would grant anyone immense magical power!|You'd finally be able to cast magic!|Is that not a dream come true?",
+            "speak;XeconisYoung;Dreaming... Well, at the moment I would rather be sleeping.",
+            "speak;MaxYoung;Hmph, I guess you're right.|We'd be toast if we couldn't make it home...|Where's Eff?",
+            "speak;XeconisYoung;He'll just bored of this fruitless search, like I am.",
+            "speak;MaxYoung;I don't know, he's probably just lost in his books, as always.|Wait, here he comes!",
+            "add_portrait;EffYoung;OffscreenRight",
+            "move_portrait;EffYoung;FarRight",
+            "speak;XeconisYoung;So, Eff, are you ready to head home?",
+            "speak;EffYoung;Not just yet, there's a lady being harassed by bandits headed this way!",
+            "speak;MaxYoung;We should help, right?",
+            "speak;XeconisYoung;...|Not really our problem, is it?",
+            "speak;EffYoung;Xec! How could you...",
+            "speak;MaxYoung;But, what if she gets hurt?",
+            "speak;XeconisYoung;No skin off our backs.|Besides, we're no militia.",
+            "speak;MaxYoung;Tch! Fine. What about a potential reward?",
+            "speak;XeconisYoung;...|I'm listening.",
+            "speak;EffYoung;Rewards?|A noble's duty is to help the commoners... That should be enough!|...And the praise of my family!",
+            "add_unit;MaxYoung;7,8;immediate",
+            "add_unit;XeconisYoung;8,8;immediate",
+            "add_unit;EffYoung;8,9;immediate",
+            "remove_portrait;MaxYoung",
+            "remove_portrait;XeconisYoung",
+            "remove_portrait;EffYoung",
+            "add_weather;night",
+            "change_background",
+            "transition;open",
+            "music;051 - No Word For Defeat",
+            "wait;100",
+            "add_unit;Sunii",
+            "move_unit;Sunii;7,5",
+            "wait;100",
+            "add_group;Enemy1;starting",
+            "move_group;Enemy1;Enemy1",
+            "wait;350",
+            "add_unit;Pierre",
+            "move_cursor;Pierre",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
+            "add_portrait;Pierre;Right",
+            "add_portrait;Sunii;Left",
+            "speak;Pierre;You 'zere! Cease your running!|You know zat you cannot escape!",
+            "speak;Sunii;Huff... Huff...|Please... I don't know what you want from me!",
+            "speak;Pierre;Likely excuse.|Hand yourself over now and 'zen ve'll give you a merciful death!",
+            "speak;Sunii;No...|I won't give in...",
+            "speak;Pierre;Hoho!'Zen we'll have to beat you down, for the boss!",
+            "remove_portrait;Pierre",
+            "remove_portrait;Sunii",
+            "add_portrait;MaxYoung;MidLeft;no_block",
+            "add_portrait;XeconisYoung;MidRight",
+            "add_portrait;EffYoung;FarRight",
+            "speak;MaxYoung;Sounds serious...|But I'm certain they're no match for us!",
+            "speak;XeconisYoung;Best be careful...|I have an hunch that they're no bandits.",
+            "speak;EffYoung;Agreed.|They seem too composed...|Stay prudent!",
+            "remove_portrait;MaxYoung;no_block",
+            "remove_portrait;XeconisYoung",
+            "remove_portrait;EffYoung",
+            "add_talk;XeconisYoung;Sunii"
+        ]
     }
 ]

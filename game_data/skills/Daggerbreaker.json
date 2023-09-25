@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Daggerbreaker",
+        "name": "Daggerbreaker",
+        "desc": "Grants Hit/Avoid+20 if unit is using a bow vs a dagger foe.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            31
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "combat_condition",
+                "item_system.weapon_type(unit, unit.get_weapon()) == 'Bow' and item_system.weapon_type(target, target.get_weapon()) == 'Knife' "
+            ]
+        ]
+    }
+]

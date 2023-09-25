@@ -4,126 +4,29 @@
         "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid == 'House3' and unit.team == 'enemy'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Daytime Inside House 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "YoungBoy",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "YoungBoy",
-                    "Time to play?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Where are your parents?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "YoungBoy",
-                    "They're out, fighting, I think...|Say... red armour...|Ma said you people are bad men."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Fighting... Hmph, they deserve this!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "YoungBoy",
-                    "Eeek!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Final Hit"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "200"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Death"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "House3"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;SoldierRed;Left;no_block\nadd_portrait;YoungBoy;Right\nspeak;YoungBoy;Time to play?\nspeak;SoldierRed;Where are your parents?\nspeak;YoungBoy;They're out, fighting, I think...|Say... red armour...|Ma said you people are bad men.\nspeak;SoldierRed;Fighting... Hmph, they deserve this!\nspeak;YoungBoy;Eeek!\ntransition;Close\nsound;Final Hit\nwait;200\nsound;Death\nshow_layer;House3\nchange_background\ntransition;Open\n\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Daytime Inside House 1",
+            "transition;Open",
+            "add_portrait;SoldierRed;Left;no_block",
+            "add_portrait;YoungBoy;Right",
+            "speak;YoungBoy;Time to play?",
+            "speak;SoldierRed;Where are your parents?",
+            "speak;YoungBoy;They're out, fighting, I think...|Say... red armour...|Ma said you people are bad men.",
+            "speak;SoldierRed;Fighting... Hmph, they deserve this!",
+            "speak;YoungBoy;Eeek!",
+            "transition;Close",
+            "sound;Final Hit",
+            "wait;200",
+            "sound;Death",
+            "show_layer;House3",
+            "change_background",
+            "transition;Open",
+            "",
+            ""
+        ]
     }
 ]

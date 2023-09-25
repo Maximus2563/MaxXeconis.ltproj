@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "RendHeaven",
+        "name": "Rend Heaven",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            40
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "target.get_stat('MAG')//2 if item_funcs.is_magic(unit, unit.get_weapon()) else target.get_stat('STR')//2"
+            ]
+        ]
+    }
+]

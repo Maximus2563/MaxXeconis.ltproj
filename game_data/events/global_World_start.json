@@ -7,6 +7,6 @@
         "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "_source": []
     }
 ]

@@ -4,49 +4,17 @@
         "trigger": "unit_death",
         "level_nid": "13",
         "condition": "unit.nid == 'Timothy'",
-        "commands": [
-            [
-                "music",
-                [
-                    "108 Lament"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Right",
-                    "Timothy"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Timothy",
-                    "Well, this isn't... Where are you, Cact-"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Timothy",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "lose_game",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "music;108 Lament\nadd_portrait;Right;Timothy\nspeak;Timothy;Well, this isn't... Where are you, Cact-\nexpression;Timothy;CloseEyes\nlose_game\n\n"
+        "_source": [
+            "music;108 Lament",
+            "add_portrait;Right;Timothy",
+            "speak;Timothy;Well, this isn't... Where are you, Cact-",
+            "expression;Timothy;CloseEyes",
+            "lose_game",
+            "",
+            ""
+        ]
     }
 ]

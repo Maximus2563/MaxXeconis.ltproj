@@ -4,85 +4,22 @@
         "trigger": "Visit",
         "level_nid": "9",
         "condition": "region.nid == 'Cafe'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Tavern 2"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit}",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "YoungGirl",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "YoungGirl",
-                    "Huh? Monsters? Scary!|Be careful! Uhm...|Try this, I stole it from daddy.|But he doesn't fight no more, so take it!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "Cafe"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Swordreaver"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Tavern 2\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;YoungGirl;Right\nspeak;YoungGirl;Huh? Monsters? Scary!|Be careful! Uhm...|Try this, I stole it from daddy.|But he doesn't fight no more, so take it!\ntransition;Close\nshow_layer;Cafe\nchange_background\ntransition;Open\ngive_item;{unit};Swordreaver\nhas_traded;{unit}\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Tavern 2",
+            "transition;Open",
+            "add_portrait;{unit};Left;no_block",
+            "add_portrait;YoungGirl;Right",
+            "speak;YoungGirl;Huh? Monsters? Scary!|Be careful! Uhm...|Try this, I stole it from daddy.|But he doesn't fight no more, so take it!",
+            "transition;Close",
+            "show_layer;Cafe",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Swordreaver",
+            "has_traded;{unit}"
+        ]
     }
 ]

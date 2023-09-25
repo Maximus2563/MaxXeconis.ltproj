@@ -4,220 +4,41 @@
         "trigger": "on_talk",
         "level_nid": "4",
         "condition": "check_pair('Sal', 'Guy')",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Sal",
-                    "Right",
-                    "Guy",
-                    "Left"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Pykroe') and game.check_alive('Hyper')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Guy. Cavalier. I'll work no more or less than's needed."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Keeping it simple, I like it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Thank you, finally... someone who gets me.|Those two live to fight, I fight to live, but they at least keep things interesting."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I see.|Anyway, I hope you're comfortable in this army."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "I'll sure try."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "game.check_alive('Pykroe') and game.check_dead('Hyper')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I'm so sorry... Your friend..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "It's fine. Well, not fine. But...|That's life... I guess.|Guy, by the way."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "If I can do anything..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "The boss is still here, at least.|Make sure they make it at least..."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "game.check_dead('Pykroe') and game.check_alive('Hyper')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I'm so sorry... Your leader..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "They'd want us to stay.|Relying on luck... why, Pyk?|Though, at least Hyper's here..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "If I can do anything..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Just, give me time. Oh, er, also... Guy. That's my name."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Guy, I promise to keep you safe!"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "expression",
-                [
-                    "Guy",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I'm so sorry... Your friends..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "If I can do anything..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "I doubt it...|But, I guess I have to stay with you... Or else I have nobody."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "..."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sal",
-                    "Guy"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sal",
-                    "Guy"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "multi_add_portrait;Sal;Right;Guy;Left\nif;game.check_alive('Pykroe') and game.check_alive('Hyper')\n    speak;Guy;Guy. Cavalier. I'll work no more or less than's needed.\n    speak;Sal;Keeping it simple, I like it.\n    speak;Guy;Thank you, finally... someone who gets me.|Those two live to fight, I fight to live, but they at least keep things interesting.\n    speak;Sal;I see.|Anyway, I hope you're comfortable in this army.\n    speak;Guy;I'll sure try.\nelif;game.check_alive('Pykroe') and game.check_dead('Hyper')\n    speak;Guy;...\n    speak;Sal;I'm so sorry... Your friend...\n    speak;Guy;It's fine. Well, not fine. But...|That's life... I guess.|Guy, by the way.\n    speak;Sal;If I can do anything...\n    speak;Guy;The boss is still here, at least.|Make sure they make it at least...\nelif;game.check_dead('Pykroe') and game.check_alive('Hyper')\n    speak;Guy;...\n    speak;Sal;I'm so sorry... Your leader...\n    speak;Guy;They'd want us to stay.|Relying on luck... why, Pyk?|Though, at least Hyper's here...\n    speak;Sal;If I can do anything...\n    speak;Guy;Just, give me time. Oh, er, also... Guy. That's my name.\n    speak;Sal;Guy, I promise to keep you safe!\nelse\n    expression;Guy;CloseEyes\n    speak;Guy;...\n    speak;Sal;I'm so sorry... Your friends...\n    speak;Guy;...\n    speak;Sal;If I can do anything...\n    speak;Guy;I doubt it...|But, I guess I have to stay with you... Or else I have nobody.\n    speak;Sal;...\nend\nmulti_remove_portrait;Sal;Guy\nremove_talk;Sal;Guy\n"
+        "_source": [
+            "multi_add_portrait;Sal;Right;Guy;Left",
+            "if;game.check_alive('Pykroe') and game.check_alive('Hyper')",
+            "speak;Guy;Guy. Cavalier. I'll work no more or less than's needed.",
+            "speak;Sal;Keeping it simple, I like it.",
+            "speak;Guy;Thank you, finally... someone who gets me.|Those two live to fight, I fight to live, but they at least keep things interesting.",
+            "speak;Sal;I see.|Anyway, I hope you're comfortable in this army.",
+            "speak;Guy;I'll sure try.",
+            "elif;game.check_alive('Pykroe') and game.check_dead('Hyper')",
+            "speak;Guy;...",
+            "speak;Sal;I'm so sorry... Your friend...",
+            "speak;Guy;It's fine. Well, not fine. But...|That's life... I guess.|Guy, by the way.",
+            "speak;Sal;If I can do anything...",
+            "speak;Guy;The boss is still here, at least.|Make sure they make it at least...",
+            "elif;game.check_dead('Pykroe') and game.check_alive('Hyper')",
+            "speak;Guy;...",
+            "speak;Sal;I'm so sorry... Your leader...",
+            "speak;Guy;They'd want us to stay.|Relying on luck... why, Pyk?|Though, at least Hyper's here...",
+            "speak;Sal;If I can do anything...",
+            "speak;Guy;Just, give me time. Oh, er, also... Guy. That's my name.",
+            "speak;Sal;Guy, I promise to keep you safe!",
+            "else",
+            "expression;Guy;CloseEyes",
+            "speak;Guy;...",
+            "speak;Sal;I'm so sorry... Your friends...",
+            "speak;Guy;...",
+            "speak;Sal;If I can do anything...",
+            "speak;Guy;I doubt it...|But, I guess I have to stay with you... Or else I have nobody.",
+            "speak;Sal;...",
+            "end",
+            "multi_remove_portrait;Sal;Guy",
+            "remove_talk;Sal;Guy"
+        ]
     }
 ]

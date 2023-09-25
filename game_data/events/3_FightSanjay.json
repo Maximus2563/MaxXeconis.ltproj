@@ -4,30 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "3",
         "condition": "(unit.nid == \"Sanjay\" and unit2.team == 'player') or (unit2.nid == \"Sanjay\" and unit.team == 'player')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Sanjay",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sanjay",
-                    "I'm the head of this guard, Sanjay!{w}{clear}Desist in your actions, then offer yourself to holy retribution!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sanjay"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Sanjay;Left\nspeak;Sanjay;I'm the head of this guard, Sanjay!{w}{clear}Desist in your actions, then offer yourself to holy retribution!\nremove_portrait;Sanjay\n"
+        "_source": [
+            "add_portrait;Sanjay;Left",
+            "speak;Sanjay;I'm the head of this guard, Sanjay!{w}{clear}Desist in your actions, then offer yourself to holy retribution!",
+            "remove_portrait;Sanjay"
+        ]
     }
 ]

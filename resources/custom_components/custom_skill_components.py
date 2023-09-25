@@ -7,10 +7,10 @@ from app.engine import (action, banner, combat_calcs, engine, equations,
                         image_mods, item_funcs, item_system, skill_system,
                         target_system)
 from app.engine.game_state import game
-from app.utilities import static_random
 from app.engine.objects.unit import UnitObject
-from app.utilities import utils
-
+from app.utilities import utils, static_random
+from app.engine.combat import playback as pb
+from app.utilities.enums import Strike
 
 class DoNothing(SkillComponent):
     nid = 'do_nothing'
@@ -245,3 +245,43 @@ class LostOnTakeHit(SkillComponent):
 
     def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info):
         action.do(action.RemoveSkill(unit, self.skill))
+class GiveStatusOnTakeHit(SkillComponent):
+    nid = 'give_status_on_take_hit'
+    desc = "When receiving an attack, give a status to the attacker"
+    tag = SkillTags.CUSTOM
+    author = 'Lord_Tweed'
+    
+    expose = ComponentType.Skill
+
+    def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info, strike):
+        if target:
+            actions.append(action.AddSkill(target, self.value, unit))
+            actions.append(action.TriggerCharge(unit, self.skill))
+class SavageStatus(SkillComponent):
+    nid = 'savage_status'
+    desc = 'Inflicts the given status to enemies within the given number of spaces from target.'
+    tag = SkillTags.CUSTOM
+    author = 'Lord_Tweed'
+
+    expose = (ComponentType.NewMultipleOptions)
+    options = {
+        "status": ComponentType.Skill,
+        "range": ComponentType.Int,
+    }
+    
+    def __init__(self, value=None):
+        self.value = {
+            "status": 'Canto',
+            "range": 1,
+        }
+        if value:
+            self.value.update(value)
+
+    def end_combat(self, playback, unit, item, target, mode):
+        if target and skill_system.check_enemy(unit, target):
+            r = set(range(self.value.get('range') + 1))
+            locations = target_system.get_shell({target.position}, r, game.board.bounds)
+            for loc in locations:
+                target2 = game.board.get_unit(loc)
+                if target2 and target2 is not target and skill_system.check_enemy(unit, target2):
+                    action.do(action.AddSkill(target2, self.value.get('status'), unit))

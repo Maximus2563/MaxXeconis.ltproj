@@ -2,7 +2,7 @@
     {
         "nid": "SkilltakerChild",
         "name": "Skilltaker",
-        "desc": "Grants +2 LCK per stack.\nLost on end of chapter.",
+        "desc": "Grants +2 SKL per stack.\nLost on end of chapter.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             1,

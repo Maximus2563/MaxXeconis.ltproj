@@ -4,30 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "2",
         "condition": "(unit.nid == \"Lentz\" and unit2.team == 'player') or (unit2.nid == \"Lentz\" and unit.team == 'player')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Lentz",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lentz",
-                    "You really come onto my turf?|THEN try to run the show?!{br}You need to learn the rules with a beatdown!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Lentz"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Lentz;Left\nspeak;Lentz;You really come onto my turf?|THEN try to run the show?!{br}You need to learn the rules with a beatdown!\nremove_portrait;Lentz\n"
+        "_source": [
+            "add_portrait;Lentz;Left",
+            "speak;Lentz;You really come onto my turf?|THEN try to run the show?!{br}You need to learn the rules with a beatdown!",
+            "remove_portrait;Lentz"
+        ]
     }
 ]

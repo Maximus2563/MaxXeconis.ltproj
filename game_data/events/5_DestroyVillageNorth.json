@@ -4,32 +4,14 @@
         "trigger": "Destructible",
         "level_nid": "5",
         "condition": "region.nid == 'DestroyVillageNorth'",
-        "commands": [
-            [
-                "flicker_cursor",
-                [
-                    "17,1"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "villagenorthdestroy"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "flicker_cursor;17,1\nshow_layer;villagenorthdestroy\nwait;500\n"
+        "_source": [
+            "flicker_cursor;17,1",
+            "show_layer;villagenorthdestroy",
+            "wait;500",
+            ""
+        ]
     }
 ]

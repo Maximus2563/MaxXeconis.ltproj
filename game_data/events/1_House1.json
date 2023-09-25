@@ -4,79 +4,21 @@
         "trigger": "Visit",
         "level_nid": "1",
         "condition": "region.nid == 'House1'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "House"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Man1",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit}",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man1",
-                    "Experience is everything, you know...|You look a little green, maybe this ought do some good..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "give_exp",
-                [
-                    "{unit}",
-                    "20"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;House\ntransition;Open\nadd_portrait;Man1;Left;no_block\nadd_portrait;{unit};Right\nspeak;Man1;Experience is everything, you know...|You look a little green, maybe this ought do some good...\ntransition;Close\nchange_background\ntransition;Open\ngive_exp;{unit};20\nhas_traded;{unit}\n"
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Man1;Left;no_block",
+            "add_portrait;{unit};Right",
+            "speak;Man1;Experience is everything, you know...|You look a little green, maybe this ought do some good...",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_exp;{unit};20",
+            "has_traded;{unit}"
+        ]
     }
 ]

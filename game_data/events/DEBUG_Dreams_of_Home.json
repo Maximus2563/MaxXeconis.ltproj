@@ -4,75 +4,19 @@
         "trigger": "on_base_convo",
         "level_nid": "DEBUG",
         "condition": "unit == 'Dreams of Home'",
-        "commands": [
-            [
-                "change_background",
-                [
-                    "Castle Interior 6 Rainy"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Emeline",
-                    "FarLeft",
-                    "Dawn",
-                    "30,Bottom",
-                    "Helia",
-                    "60,Bottom"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Lucian",
-                    "84,Bottom",
-                    "Elias",
-                    "130,Bottom",
-                    "Argento",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Kill yourself."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Skill",
-                    "Max",
-                    "Leap",
-                    "Dark"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Shoop",
-                    "Pikno"
-                ]
-            ],
-            [
-                "ignore_base_convo",
-                [
-                    "Dreams of Home"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "change_background;Castle Interior 6 Rainy\nmulti_add_portrait;Emeline;FarLeft;Dawn;30,Bottom;Helia;60,Bottom\nmulti_add_portrait;Lucian;84,Bottom;Elias;130,Bottom;Argento;FarRight\nspeak;Emeline;Kill yourself.\nmulti_remove_portrait;Skill;Max;Leap;Dark\nmulti_remove_portrait;Shoop;Pikno\nignore_base_convo;Dreams of Home\n\n"
+        "_source": [
+            "change_background;Castle Interior 6 Rainy",
+            "multi_add_portrait;Emeline;FarLeft;Dawn;30,Bottom;Helia;60,Bottom",
+            "multi_add_portrait;Lucian;84,Bottom;Elias;130,Bottom;Argento;FarRight",
+            "speak;Emeline;Kill yourself.",
+            "multi_remove_portrait;Skill;Max;Leap;Dark",
+            "multi_remove_portrait;Shoop;Pikno",
+            "ignore_base_convo;Dreams of Home",
+            "",
+            ""
+        ]
     }
 ]

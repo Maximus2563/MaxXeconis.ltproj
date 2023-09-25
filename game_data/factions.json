@@ -20,6 +20,16 @@
         ]
     },
     {
+        "nid": "Khonsu",
+        "name": "Khonsu",
+        "desc": "A tribesperson of Khonsu, the desert region.",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Soldier",
         "name": "Soldier",
         "desc": "A soldier, but in service to who?",

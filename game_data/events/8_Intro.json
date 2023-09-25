@@ -4,409 +4,67 @@
         "trigger": "level_start",
         "level_nid": "8",
         "condition": "True",
-        "commands": [
-            [
-                "chapter_title",
-                []
-            ],
-            [
-                "music",
-                [
-                    "62 Prelude to Dispute"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Village 2 Rainy"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "rain"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "SoldierGreen",
-                    "FarLeft",
-                    "Dean",
-                    "MidLeft",
-                    "Humphrey",
-                    "Right"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "You Monsdorians..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Your regions noble, Zio?|Assisting Arcein troops?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I had no involvement in any of this...|I just want our people to live in peace.|I care not an iota about your petty squabbles."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Petty squabbles? That is absurd!|Prince Elias, dead."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Look, why not take this up with Zio?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Hmph, about as evasive as a roach!|With damages to their territory, they'll have to come back!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierGreen",
-                    "Monster! We will not stand for this invasion!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Rightly said.|My apologies, but you're dealing with me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Ha! My years of experience will trump you!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Dean",
-                    "Humphrey",
-                    "SoldierGreen"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "10,14"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "Player",
-                    "south",
-                    "Player",
-                    "normal",
-                    "stack"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Leap"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "MidRight",
-                    "Prof",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "What is happening?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Looks like Monsdor have finally lost it...|Such a stupid state of affairs."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Look, your dad!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Prof"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "Dean"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Dean"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "200"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "Leap"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "MidRight",
-                    "Prof",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Father can handle himself, we need to help the townsfolk!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Of course, wait, isn't that..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Prof"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "Shoop"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Shoop"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Shoop",
-                    "Right",
-                    "SoldierRed",
-                    "Left"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Shoop",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Oh! You look like my next crush!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "O-oh, heh! Aren't we supposed to be fighting, ma'am?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Kehahaha! Whoopsie!|I meant I'm going to CRUSH YOU!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "What? No!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Shoop",
-                    "SoldierRed"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "Shoop",
-                    "ShoopVictim",
-                    "crit1",
-                    "Fire"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Shoop",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Aw, over already..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Shoop"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "MidRight",
-                    "Prof",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Better talk to Shoop, let them know we're good."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I'm more scared of her than the Monsdorians, to be frank..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Prof"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Prof",
-                    "Dean"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Leap",
-                    "Shoop"
-                ]
-            ],
-            [
-                "change_stats",
-                [
-                    "Scout",
-                    "MOV,-1",
-                    "FLAG(no_warn)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "change_stats",
-                [
-                    "Scout2",
-                    "MOV,-1",
-                    "FLAG(no_warn)",
-                    "FLAG(immediate)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "chapter_title\nmusic;62 Prelude to Dispute\nchange_background;Village 2 Rainy\nadd_weather;rain\ntransition;open\nmulti_add_portrait;SoldierGreen;FarLeft;Dean;MidLeft;Humphrey;Right\ntransition;open\nspeak;Dean;You Monsdorians...\nspeak;Humphrey;Your regions noble, Zio?|Assisting Arcein troops?\nspeak;Dean;I had no involvement in any of this...|I just want our people to live in peace.|I care not an iota about your petty squabbles.\nspeak;Humphrey;Petty squabbles? That is absurd!|Prince Elias, dead.\nspeak;Dean;Look, why not take this up with Zio?\nspeak;Humphrey;Hmph, about as evasive as a roach!|With damages to their territory, they'll have to come back!\nspeak;SoldierGreen;Monster! We will not stand for this invasion!\nspeak;Dean;Rightly said.|My apologies, but you're dealing with me.\nspeak;Humphrey;Ha! My years of experience will trump you!\ntransition;close\nchange_background\nmulti_remove_portrait;Dean;Humphrey;SoldierGreen\ntransition;open\nmove_cursor;10,14\nspawn_group;Player;south;Player;normal;stack\nflicker_cursor;Leap\nmulti_add_portrait;Leap;MidRight;Prof;FarRight\nspeak;Leap;What is happening?\nspeak;Prof;Looks like Monsdor have finally lost it...|Such a stupid state of affairs.\nspeak;Leap;Look, your dad!\nmulti_remove_portrait;Leap;Prof\nmove_cursor;Dean\nflicker_cursor;Dean\nwait;200\nmove_cursor;Leap\nmulti_add_portrait;Leap;MidRight;Prof;FarRight\nspeak;Prof;Father can handle himself, we need to help the townsfolk!\nspeak;Leap;Of course, wait, isn't that...\nmulti_remove_portrait;Leap;Prof\nmove_cursor;Shoop\nflicker_cursor;Shoop\nmulti_add_portrait;Shoop;Right;SoldierRed;Left\nexpression;Shoop;Smile\nspeak;Shoop;Oh! You look like my next crush!\nspeak;SoldierRed;O-oh, heh! Aren't we supposed to be fighting, ma'am?\nspeak;Shoop;Kehahaha! Whoopsie!|I meant I'm going to CRUSH YOU!\nspeak;SoldierRed;What? No!\nmulti_remove_portrait;Shoop;SoldierRed\ninteract_unit;Shoop;ShoopVictim;crit1;Fire\nadd_portrait;Shoop;Right\nspeak;Shoop;Aw, over already...\nremove_portrait;Shoop\nmulti_add_portrait;Leap;MidRight;Prof;FarRight\nspeak;Leap;Better talk to Shoop, let them know we're good.\nspeak;Prof;I'm more scared of her than the Monsdorians, to be frank...\nmulti_remove_portrait;Leap;Prof\nadd_talk;Prof;Dean\nadd_talk;Leap;Shoop\nchange_stats;Scout;MOV,-1;FLAG(no_warn);FLAG(immediate)\nchange_stats;Scout2;MOV,-1;FLAG(no_warn);FLAG(immediate)\n"
+        "_source": [
+            "chapter_title",
+            "music;62 Prelude to Dispute",
+            "change_background;Village 2 Rainy",
+            "add_weather;rain",
+            "transition;open",
+            "multi_add_portrait;SoldierGreen;FarLeft;Dean;MidLeft;Humphrey;Right",
+            "transition;open",
+            "speak;Dean;You Monsdorians...",
+            "speak;Humphrey;Your regions noble, Zio?|Assisting Arcein troops?",
+            "speak;Dean;I had no involvement in any of this...|I just want our people to live in peace.|I care not an iota about your petty squabbles.",
+            "speak;Humphrey;Petty squabbles? That is absurd!|Prince Elias, dead.",
+            "speak;Dean;Look, why not take this up with Zio?",
+            "speak;Humphrey;Hmph, about as evasive as a roach!|With damages to their territory, they'll have to come back!",
+            "speak;SoldierGreen;Monster! We will not stand for this invasion!",
+            "speak;Dean;Rightly said.|My apologies, but you're dealing with me.",
+            "speak;Humphrey;Ha! My years of experience will trump you!",
+            "transition;close",
+            "change_background",
+            "multi_remove_portrait;Dean;Humphrey;SoldierGreen",
+            "transition;open",
+            "move_cursor;10,14",
+            "spawn_group;Player;south;Player;normal;stack",
+            "flicker_cursor;Leap",
+            "multi_add_portrait;Leap;MidRight;Prof;FarRight",
+            "speak;Leap;What is happening?",
+            "speak;Prof;Looks like Monsdor have finally lost it...|Such a stupid state of affairs.",
+            "speak;Leap;Look, your dad!",
+            "multi_remove_portrait;Leap;Prof",
+            "move_cursor;Dean",
+            "flicker_cursor;Dean",
+            "wait;200",
+            "move_cursor;Leap",
+            "multi_add_portrait;Leap;MidRight;Prof;FarRight",
+            "speak;Prof;Father can handle himself, we need to help the townsfolk!",
+            "speak;Leap;Of course, wait, isn't that...",
+            "multi_remove_portrait;Leap;Prof",
+            "move_cursor;Shoop",
+            "flicker_cursor;Shoop",
+            "multi_add_portrait;Shoop;Right;SoldierRed;Left",
+            "expression;Shoop;Smile",
+            "speak;Shoop;Oh! You look like my next crush!",
+            "speak;SoldierRed;O-oh, heh! Aren't we supposed to be fighting, ma'am?",
+            "speak;Shoop;Kehahaha! Whoopsie!|I meant I'm going to CRUSH YOU!",
+            "speak;SoldierRed;What? No!",
+            "multi_remove_portrait;Shoop;SoldierRed",
+            "interact_unit;Shoop;ShoopVictim;crit1;Fire",
+            "add_portrait;Shoop;Right",
+            "speak;Shoop;Aw, over already...",
+            "remove_portrait;Shoop",
+            "multi_add_portrait;Leap;MidRight;Prof;FarRight",
+            "speak;Leap;Better talk to Shoop, let them know we're good.",
+            "speak;Prof;I'm more scared of her than the Monsdorians, to be frank...",
+            "multi_remove_portrait;Leap;Prof",
+            "add_talk;Prof;Dean",
+            "add_talk;Leap;Shoop",
+            "change_stats;Scout;MOV,-1;FLAG(no_warn);FLAG(immediate)",
+            "change_stats;Scout2;MOV,-1;FLAG(no_warn);FLAG(immediate)"
+        ]
     }
 ]

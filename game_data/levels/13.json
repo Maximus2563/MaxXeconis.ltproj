@@ -1020,10 +1020,6 @@
                 "trigger_threshold": 3
             },
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "LeftBottom",
                 "trigger_threshold": 2
             }

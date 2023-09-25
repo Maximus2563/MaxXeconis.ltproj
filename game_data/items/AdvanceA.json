@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "AdvanceA",
+        "name": "Advance",
+        "desc": "Unit moves with target ally 1 space forward.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            42
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "draw_back",
+                -1
+            ],
+            [
+                "draw_back_target_restrict",
+                -1
+            ]
+        ]
+    }
+]

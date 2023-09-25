@@ -4,32 +4,13 @@
         "trigger": "unit_death",
         "level_nid": "6",
         "condition": "unit.nid == 'Pillar3'",
-        "commands": [
-            [
-                "sound",
-                [
-                    "WaterTileUp"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "Pillar3",
-                    "fade"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "Reinforcement",
-                    "south",
-                    "Reinforcement",
-                    "warp"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "sound;WaterTileUp\nshow_layer;Pillar3;fade\nspawn_group;Reinforcement;south;Reinforcement;warp\n"
+        "_source": [
+            "sound;WaterTileUp",
+            "show_layer;Pillar3;fade",
+            "spawn_group;Reinforcement;south;Reinforcement;warp"
+        ]
     }
 ]

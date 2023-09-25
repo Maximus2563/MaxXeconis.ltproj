@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Beastbane",
+        "name": "Beastbane",
+        "desc": "Units attacks are effective vs monsters.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            35
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "item_override",
+                "EffectiveMonster"
+            ],
+            [
+                "combat_condition",
+                "'Monster' in target.tags"
+            ]
+        ]
+    }
+]

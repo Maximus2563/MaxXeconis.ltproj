@@ -4,7 +4,7 @@
         "name": "Speedy",
         "desc": "A mysterious thief, donning a shady mask.",
         "variant": "",
-        "level": 6,
+        "level": 5,
         "klass": "Thief",
         "tags": [],
         "bases": {

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AxeGuard",
+        "name": "Axe Guard",
+        "desc": "Grants -3 damage received vs axe foes.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            59
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "item_system.weapon_type(target, target.get_weapon()) == 'Axe' "
+            ],
+            [
+                "resist",
+                3
+            ]
+        ]
+    }
+]

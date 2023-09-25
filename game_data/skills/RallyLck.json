@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RallyLck",
+        "name": "Rally Luck",
+        "desc": "Use \"Rally\" to grants LCK+5 to allies within 2 spaces.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "RallyLckA"
+            ]
+        ]
+    }
+]

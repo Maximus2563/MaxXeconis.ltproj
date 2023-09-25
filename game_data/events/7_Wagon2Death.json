@@ -4,47 +4,15 @@
         "trigger": "unit_death",
         "level_nid": "7",
         "condition": "unit.nid='Wagon2'",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.team('Mizt') == 'other'"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Mizt",
-                    "Wagon2",
-                    "fade",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Mizt",
-                    "Right"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Mizt",
-                    "player"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mizt",
-                    "Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit.team('Mizt') == 'other'\n    add_unit;Mizt;Wagon2;fade;stack;fade\n    add_portrait;Mizt;Right\n    change_team;Mizt;player\n    speak;Mizt;Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!\n"
+        "_source": [
+            "if;unit.team('Mizt') == 'other'",
+            "add_unit;Mizt;Wagon2;fade;stack;fade",
+            "add_portrait;Mizt;Right",
+            "change_team;Mizt;player",
+            "speak;Mizt;Ugh... What's going on?|The wagon... Robbers?|You'll pay for this!"
+        ]
     }
 ]

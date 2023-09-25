@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pivot",
+        "name": "Pivot",
+        "desc": "Moves unit to the opposite side of target ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "PivotA"
+            ]
+        ]
+    }
+]

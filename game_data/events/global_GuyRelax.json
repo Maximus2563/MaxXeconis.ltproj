@@ -4,25 +4,12 @@
         "trigger": "unit_wait",
         "level_nid": null,
         "condition": "unit.nid == 'Guy' and actively_chosen",
-        "commands": [
-            [
-                "give_skill",
-                [
-                    "Guy",
-                    "Relaxed",
-                    "",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Rally"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "give_skill;Guy;Relaxed;;FLAG(no_banner)\nsound;Rally\n"
+        "_source": [
+            "give_skill;Guy;Relaxed;;FLAG(no_banner)",
+            "sound;Rally"
+        ]
     }
 ]

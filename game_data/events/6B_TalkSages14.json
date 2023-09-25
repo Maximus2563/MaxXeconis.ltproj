@@ -4,14 +4,11 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Sages14' ",
-        "commands": [
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "win_game\n"
+        "_source": [
+            "win_game"
+        ]
     }
 ]

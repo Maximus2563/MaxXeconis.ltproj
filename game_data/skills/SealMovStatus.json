@@ -1,0 +1,40 @@
+[
+    {
+        "nid": "SealMovStatus",
+        "name": "Seal Movement",
+        "desc": "Inflicts MOV-6 (Recovers 1/turn).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            30
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                6
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -6
+                    ]
+                ]
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

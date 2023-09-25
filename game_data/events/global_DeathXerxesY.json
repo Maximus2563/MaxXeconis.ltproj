@@ -4,30 +4,13 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.nid == 'XerxesYoung'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "XerxesYoung",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "XerxesYoung",
-                    "Urgh...|How foolish, I must retreat..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "XerxesYoung"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;XerxesYoung;Right\nspeak;XerxesYoung;Urgh...|How foolish, I must retreat...\nremove_portrait;XerxesYoung\n"
+        "_source": [
+            "add_portrait;XerxesYoung;Right",
+            "speak;XerxesYoung;Urgh...|How foolish, I must retreat...",
+            "remove_portrait;XerxesYoung"
+        ]
     }
 ]

@@ -4,58 +4,17 @@
         "trigger": "on_region_interact",
         "level_nid": "10",
         "condition": "region.nid == 'DoorB'",
-        "commands": [
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "DoorB"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Prof",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Thanks, now let's get the hell outta here!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Prof"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "1,0"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "EscapeZone",
-                    "1,0",
-                    "2,1",
-                    "event",
-                    "Escape"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "sound;Unlock\nshow_layer;DoorB\nadd_portrait;Prof;Left\nspeak;Prof;Thanks, now let's get the hell outta here!\nremove_portrait;Prof\nmove_cursor;1,0\nadd_region;EscapeZone;1,0;2,1;event;Escape\n"
+        "_source": [
+            "sound;Unlock",
+            "show_layer;DoorB",
+            "add_portrait;Prof;Left",
+            "speak;Prof;Thanks, now let's get the hell outta here!",
+            "remove_portrait;Prof",
+            "move_cursor;1,0",
+            "add_region;EscapeZone;1,0;2,1;event;Escape"
+        ]
     }
 ]

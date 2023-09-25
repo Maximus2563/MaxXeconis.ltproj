@@ -4,53 +4,19 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.get_field('DeathQuote')"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Seperation"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{eval:unit.nid}",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "{eval:unit.nid}",
-                    "{eval:unit.get_field('DeathQuote')}"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "{eval:unit.nid}",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "{eval:unit.nid}"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit.get_field('DeathQuote')\n    music;Seperation\n    add_portrait;{eval:unit.nid};Right\n    speak;{eval:unit.nid};{eval:unit.get_field('DeathQuote')}\n    expression;{eval:unit.nid};CloseEyes\n    remove_portrait;{eval:unit.nid}\nend\n"
+        "_source": [
+            "if;unit.get_field('DeathQuote')",
+            "music;Seperation",
+            "add_portrait;{eval:unit.nid};Right",
+            "speak;{eval:unit.nid};{eval:unit.get_field('DeathQuote')}",
+            "expression;{eval:unit.nid};CloseEyes",
+            "remove_portrait;{eval:unit.nid}",
+            "end",
+            "",
+            ""
+        ]
     }
 ]

@@ -5,8 +5,8 @@
         "desc": "Grants +15 crit if unit has WTA.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            0,
-            38
+            5,
+            44
         ],
         "components": [
             [

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "New Event_1",
+        "trigger": null,
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_background;Forest 6 Night",
+            "multi_add_portrait;MageMother;Right;HatTip;Right,Top;Xeconis;Left",
+            "speak;Xeconis;Why she ourple.",
+            ""
+        ]
+    }
+]

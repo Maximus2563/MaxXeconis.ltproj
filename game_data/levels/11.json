@@ -155,7 +155,7 @@
             {
                 "nid": "Merc1",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -203,7 +203,7 @@
             {
                 "nid": "Ballista",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Ballistician",
                 "faction": "Guard",
                 "starting_items": [
@@ -227,7 +227,7 @@
             {
                 "nid": "Ballista2",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Ballistician",
                 "faction": "Guard",
                 "starting_items": [
@@ -299,7 +299,7 @@
             {
                 "nid": "Knight",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "KnightS",
                 "faction": "Guard",
                 "starting_items": [
@@ -323,7 +323,7 @@
             {
                 "nid": "101",
                 "variant": "Female",
-                "level": 6,
+                "level": 4,
                 "klass": "Mage",
                 "faction": "Guard",
                 "starting_items": [
@@ -347,7 +347,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Mage",
                 "faction": "Guard",
                 "starting_items": [
@@ -371,7 +371,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Mage",
                 "faction": "Guard",
                 "starting_items": [
@@ -395,7 +395,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Monk",
                 "faction": "Guard",
                 "starting_items": [
@@ -419,7 +419,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Monk",
                 "faction": "Guard",
                 "starting_items": [
@@ -443,7 +443,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Guard",
                 "starting_items": [
@@ -467,7 +467,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Guard",
                 "starting_items": [
@@ -491,7 +491,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "Guard",
                 "starting_items": [
@@ -515,7 +515,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "Guard",
                 "starting_items": [
@@ -539,7 +539,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -563,7 +563,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -587,7 +587,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -611,7 +611,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -635,7 +635,7 @@
             {
                 "nid": "112",
                 "variant": "Female",
-                "level": 6,
+                "level": 4,
                 "klass": "Myrmidon",
                 "faction": "Guard",
                 "starting_items": [
@@ -659,7 +659,7 @@
             {
                 "nid": "113",
                 "variant": "Female",
-                "level": 6,
+                "level": 5,
                 "klass": "Archer",
                 "faction": "Guard",
                 "starting_items": [
@@ -683,7 +683,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Archer",
                 "faction": "Guard",
                 "starting_items": [
@@ -707,7 +707,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "Guard",
                 "starting_items": [
@@ -731,7 +731,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Fighter",
                 "faction": "Guard",
                 "starting_items": [
@@ -755,7 +755,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "KnightA",
                 "faction": "Guard",
                 "starting_items": [
@@ -779,7 +779,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "KnightL",
                 "faction": "Guard",
                 "starting_items": [
@@ -808,7 +808,7 @@
                 "faction": "Guard",
                 "starting_items": [
                     [
-                        "Purge",
+                        "Hex",
                         false
                     ]
                 ],
@@ -827,7 +827,7 @@
             {
                 "nid": "122",
                 "variant": "",
-                "level": 7,
+                "level": 5,
                 "klass": "Priest",
                 "faction": "Guard",
                 "starting_items": [
@@ -978,6 +978,10 @@
             },
             {
                 "nid": "Left",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

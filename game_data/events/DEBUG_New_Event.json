@@ -4,18 +4,12 @@
         "trigger": "on_talk",
         "level_nid": "DEBUG",
         "condition": "unit.nid == 'Prof' and unit2.nid == 'Pykroe'",
-        "commands": [
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "\n"
+        "_source": [
+            "",
+            ""
+        ]
     }
 ]

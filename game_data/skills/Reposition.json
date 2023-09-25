@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reposition",
+        "name": "Reposition",
+        "desc": "Moves target ally to the opposite side of unit.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "RepositionA"
+            ]
+        ]
+    }
+]

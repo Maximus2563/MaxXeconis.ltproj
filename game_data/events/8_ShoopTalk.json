@@ -4,129 +4,29 @@
         "trigger": "on_talk",
         "level_nid": "8",
         "condition": "check_pair('Leap', 'Shoop') ",
-        "commands": [
-            [
-                "music",
-                [
-                    "Guest of Shade"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Shoop",
-                    "Left",
-                    "Leap",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Oh, hello Leap."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Shoopy! Fighting the good fight against these occupiers?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Occupiers...? I'm just experimenting!|I wish to see how well these goons conduct heat..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Huh..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "I want to see their charred corpses :3"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Uhm, we'll you help out!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Alright, just leave the good ones to me...{c:bop_portrait;Shoop} Kehahaha!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Uhm, can do!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Shoop"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Leap",
-                    "Shoop"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Shoop",
-                    "player"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "Shoop",
-                    "None"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "music;Guest of Shade\nmulti_add_portrait;Shoop;Left;Leap;Right\nspeak;Shoop;Oh, hello Leap.\nspeak;Leap;Shoopy! Fighting the good fight against these occupiers?\nspeak;Shoop;Occupiers...? I'm just experimenting!|I wish to see how well these goons conduct heat...\nspeak;Leap;Huh...\nspeak;Shoop;I want to see their charred corpses :3\nspeak;Leap;Uhm, we'll you help out!\nspeak;Shoop;Alright, just leave the good ones to me...{c:bop_portrait;Shoop} Kehahaha!\nspeak;Leap;Uhm, can do!\nmulti_remove_portrait;Leap;Shoop\nremove_talk;Leap;Shoop\nchange_team;Shoop;player\nchange_ai;Shoop;None\nmusic_fade_back\n\n\n\n"
+        "_source": [
+            "music;Guest of Shade",
+            "multi_add_portrait;Shoop;Left;Leap;Right",
+            "speak;Shoop;Oh, hello Leap.",
+            "speak;Leap;Shoopy! Fighting the good fight against these occupiers?",
+            "speak;Shoop;Occupiers...? I'm just experimenting!|I wish to see how well these goons conduct heat...",
+            "speak;Leap;Huh...",
+            "speak;Shoop;I want to see their charred corpses :3",
+            "speak;Leap;Uhm, we'll you help out!",
+            "speak;Shoop;Alright, just leave the good ones to me...{c:bop_portrait;Shoop} Kehahaha!",
+            "speak;Leap;Uhm, can do!",
+            "multi_remove_portrait;Leap;Shoop",
+            "remove_talk;Leap;Shoop",
+            "change_team;Shoop;player",
+            "change_ai;Shoop;None",
+            "music_fade_back",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

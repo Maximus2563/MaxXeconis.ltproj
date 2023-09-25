@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ReciprocityChild",
+        "name": "Reciprocity",
+        "desc": "If unit is healed by an ally, ally restores 50% of amount healed.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            11
+        ],
+        "components": [
+            [
+                "live_to_serve",
+                0.5
+            ]
+        ]
+    }
+]

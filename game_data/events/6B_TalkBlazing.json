@@ -4,131 +4,27 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Blazing'",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Blazing",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Blazing, what are you doing?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Hey, Sagemeister!|I'm just running."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Indoors?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "I wanted to keep an eye on his Majesty.|Why not do both?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "C'mon, he's fine!|Sal's with him anyway."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Well, if anyone needs to lift him, I've got muscle to spare."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Look, there was something I wanted to ask."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Sure, what's up?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Your revealed physique is taking all the attention from me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "That ain't much of a question...|But, I can teach you my regimen, if you'd like."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Too much work, I think putting on a bigger shirt is easier."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "I'm sure you're plenty eye-catching enough, boss."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Really? Woo!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Now, I better keep at my training, peace."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Blazing",
-                    "Sages"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Blazing"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "multi_add_portrait;Blazing;Right;Sages;Left\nspeak;Sages;Blazing, what are you doing?\nspeak;Blazing;Hey, Sagemeister!|I'm just running.\nspeak;Sages;Indoors?\nspeak;Blazing;I wanted to keep an eye on his Majesty.|Why not do both?\nspeak;Sages;C'mon, he's fine!|Sal's with him anyway.\nspeak;Blazing;Well, if anyone needs to lift him, I've got muscle to spare.\nspeak;Sages;Look, there was something I wanted to ask.\nspeak;Blazing;Sure, what's up?\nspeak;Sages;Your revealed physique is taking all the attention from me!\nspeak;Blazing;That ain't much of a question...|But, I can teach you my regimen, if you'd like.\nspeak;Sages;Too much work, I think putting on a bigger shirt is easier.\nspeak;Blazing;I'm sure you're plenty eye-catching enough, boss.\nspeak;Sages;Really? Woo!\nspeak;Blazing;Now, I better keep at my training, peace.\nmulti_remove_portrait;Blazing;Sages\nremove_talk;Sages;Blazing\n"
+        "_source": [
+            "multi_add_portrait;Blazing;Right;Sages;Left",
+            "speak;Sages;Blazing, what are you doing?",
+            "speak;Blazing;Hey, Sagemeister!|I'm just running.",
+            "speak;Sages;Indoors?",
+            "speak;Blazing;I wanted to keep an eye on his Majesty.|Why not do both?",
+            "speak;Sages;C'mon, he's fine!|Sal's with him anyway.",
+            "speak;Blazing;Well, if anyone needs to lift him, I've got muscle to spare.",
+            "speak;Sages;Look, there was something I wanted to ask.",
+            "speak;Blazing;Sure, what's up?",
+            "speak;Sages;Your revealed physique is taking all the attention from me!",
+            "speak;Blazing;That ain't much of a question...|But, I can teach you my regimen, if you'd like.",
+            "speak;Sages;Too much work, I think putting on a bigger shirt is easier.",
+            "speak;Blazing;I'm sure you're plenty eye-catching enough, boss.",
+            "speak;Sages;Really? Woo!",
+            "speak;Blazing;Now, I better keep at my training, peace.",
+            "multi_remove_portrait;Blazing;Sages",
+            "remove_talk;Sages;Blazing"
+        ]
     }
 ]

@@ -4,256 +4,44 @@
         "trigger": "turn_change",
         "level_nid": "5",
         "condition": "game.turncount == 4",
-        "commands": [
-            [
-                "move_cursor",
-                [
-                    "6,15"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "CavReinforcement",
-                    "south",
-                    "CavReinforcement",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Now we've got you!|Sneak attack!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SoldierRed"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "0,4"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "SouthBanditReinforcement",
-                    "south",
-                    "SouthBanditReinforcement",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "WestBanditReinforcement",
-                    "west",
-                    "WestBanditReinforcement",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Frost",
-                    "other"
-                ]
-            ],
-            [
-                "pair_up",
-                [
-                    "Frost",
-                    "125"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "125",
-                    "Rescue",
-                    "",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Bandit1",
-                    "Left",
-                    "Bandit2",
-                    "Right"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Wonderful Pirates"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Guffah! Time ta loot in the darkness of night!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit2",
-                    "Guffah! Time ta steal rum in the darkness of night!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Guffah! Time ta drink 'til we forget..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Frost",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Can you let me go now?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Silence wench!|You'll be worth a pretty penny."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit2",
-                    "Guffah! I'm sure one of them noble types would pay a boatload for an Arborstian wife!|You types are hard to pin down, after all!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "I don't want any of this!|Help! Anyone!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Shut yer trap!|If you don't, I'll jus' kill ya!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit2",
-                    "Guffah!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Bandit1",
-                    "Bandit2",
-                    "Frost"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sal",
-                    "Left",
-                    "Sages",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Eugh... More trouble to worry about..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I wouldn't be so pessimistic.|Those bandits might cause more trouble for those ambushers too.|Plus, they seem to have kidnapped a fine maiden! How putrid!|We must save her and not let our enemy do so, or she may ally with them..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Hm, how perceptive of you.|I suppose we have to pick our battles well."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "How kind of you to say Sal!|It's cooler when you're not on my case..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Oh, I will be later."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Now I wish those bandits were kidnapping me instead..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sages",
-                    "Sal"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;6,15\nspawn_group;CavReinforcement;south;CavReinforcement;normal;closest\nadd_portrait;SoldierRed;Left\nspeak;SoldierRed;Now we've got you!|Sneak attack!\nremove_portrait;SoldierRed\nmove_cursor;0,4\nspawn_group;SouthBanditReinforcement;south;SouthBanditReinforcement;normal;closest\nspawn_group;WestBanditReinforcement;west;WestBanditReinforcement;normal;closest\nload_unit;Frost;other\npair_up;Frost;125\ngive_skill;125;Rescue;;FLAG(no_banner)\nmulti_add_portrait;Bandit1;Left;Bandit2;Right\nmusic;Wonderful Pirates\nspeak;Bandit1;Guffah! Time ta loot in the darkness of night!\nspeak;Bandit2;Guffah! Time ta steal rum in the darkness of night!\nspeak;Bandit1;Guffah! Time ta drink 'til we forget...\nadd_portrait;Frost;FarLeft\nspeak;Frost;Can you let me go now?\nspeak;Bandit1;Silence wench!|You'll be worth a pretty penny.\nspeak;Bandit2;Guffah! I'm sure one of them noble types would pay a boatload for an Arborstian wife!|You types are hard to pin down, after all!\nspeak;Frost;I don't want any of this!|Help! Anyone!\nspeak;Bandit1;Shut yer trap!|If you don't, I'll jus' kill ya!\nspeak;Bandit2;Guffah!\nmulti_remove_portrait;Bandit1;Bandit2;Frost\nmove_cursor;Sal\nmulti_add_portrait;Sal;Left;Sages;Right\nspeak;Sal;Eugh... More trouble to worry about...\nspeak;Sages;I wouldn't be so pessimistic.|Those bandits might cause more trouble for those ambushers too.|Plus, they seem to have kidnapped a fine maiden! How putrid!|We must save her and not let our enemy do so, or she may ally with them...\nspeak;Sal;Hm, how perceptive of you.|I suppose we have to pick our battles well.\nspeak;Sages;How kind of you to say Sal!|It's cooler when you're not on my case...\nspeak;Sal;Oh, I will be later.\nspeak;Sages;Now I wish those bandits were kidnapping me instead...\nmulti_remove_portrait;Sages;Sal\nmusic_fade_back\n"
+        "_source": [
+            "move_cursor;6,15",
+            "spawn_group;CavReinforcement;south;CavReinforcement;normal;closest",
+            "add_portrait;SoldierRed;Left",
+            "speak;SoldierRed;Now we've got you!|Sneak attack!",
+            "remove_portrait;SoldierRed",
+            "move_cursor;0,4",
+            "spawn_group;SouthBanditReinforcement;south;SouthBanditReinforcement;normal;closest",
+            "spawn_group;WestBanditReinforcement;west;WestBanditReinforcement;normal;closest",
+            "load_unit;Frost;other",
+            "pair_up;Frost;125",
+            "give_skill;125;Rescue;;FLAG(no_banner)",
+            "multi_add_portrait;Bandit1;Left;Bandit2;Right",
+            "music;Wonderful Pirates",
+            "speak;Bandit1;Guffah! Time ta loot in the darkness of night!",
+            "speak;Bandit2;Guffah! Time ta steal rum in the darkness of night!",
+            "speak;Bandit1;Guffah! Time ta drink 'til we forget...",
+            "add_portrait;Frost;FarLeft",
+            "speak;Frost;Can you let me go now?",
+            "speak;Bandit1;Silence wench!|You'll be worth a pretty penny.",
+            "speak;Bandit2;Guffah! I'm sure one of them noble types would pay a boatload for an Arborstian wife!|You types are hard to pin down, after all!",
+            "speak;Frost;I don't want any of this!|Help! Anyone!",
+            "speak;Bandit1;Shut yer trap!|If you don't, I'll jus' kill ya!",
+            "speak;Bandit2;Guffah!",
+            "multi_remove_portrait;Bandit1;Bandit2;Frost",
+            "move_cursor;Sal",
+            "multi_add_portrait;Sal;Left;Sages;Right",
+            "speak;Sal;Eugh... More trouble to worry about...",
+            "speak;Sages;I wouldn't be so pessimistic.|Those bandits might cause more trouble for those ambushers too.|Plus, they seem to have kidnapped a fine maiden! How putrid!|We must save her and not let our enemy do so, or she may ally with them...",
+            "speak;Sal;Hm, how perceptive of you.|I suppose we have to pick our battles well.",
+            "speak;Sages;How kind of you to say Sal!|It's cooler when you're not on my case...",
+            "speak;Sal;Oh, I will be later.",
+            "speak;Sages;Now I wish those bandits were kidnapping me instead...",
+            "multi_remove_portrait;Sages;Sal",
+            "music_fade_back"
+        ]
     }
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "MagictakerChild",
+        "name": "Magictaker",
+        "desc": "Grants +2 MAG per stack.\nLost on end of chapter.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

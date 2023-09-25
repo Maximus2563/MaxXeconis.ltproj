@@ -603,6 +603,15 @@
         "use_frame_time": false
     },
     {
+        "nid": "Square",
+        "frame_x": 1,
+        "frame_y": 1,
+        "num_frames": 1,
+        "speed": 1,
+        "frame_times": "0",
+        "use_frame_time": false
+    },
+    {
         "nid": "NoDamagePurple",
         "frame_x": 5,
         "frame_y": 5,

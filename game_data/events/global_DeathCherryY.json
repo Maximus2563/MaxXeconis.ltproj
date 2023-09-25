@@ -4,30 +4,13 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.nid == 'CherryYoung'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "CherryYoung",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "CherryYoung",
-                    "AH!|You brute... I'm going to fall back..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "CherryYoung"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;CherryYoung;Right\nspeak;CherryYoung;AH!|You brute... I'm going to fall back...\nremove_portrait;CherryYoung\n"
+        "_source": [
+            "add_portrait;CherryYoung;Right",
+            "speak;CherryYoung;AH!|You brute... I'm going to fall back...",
+            "remove_portrait;CherryYoung"
+        ]
     }
 ]

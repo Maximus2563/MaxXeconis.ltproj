@@ -4,53 +4,18 @@
         "trigger": "unit_death",
         "level_nid": "1",
         "condition": "unit.nid == \"Grinst\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Grinst",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Grinst",
-                    "My tummy...|Urgh..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Grinst",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Grinst"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Grinst;Left\nspeak;Grinst;My tummy...|Urgh...\nexpression;Grinst;CloseEyes\nremove_portrait;Grinst\n\n\n\n"
+        "_source": [
+            "add_portrait;Grinst;Left",
+            "speak;Grinst;My tummy...|Urgh...",
+            "expression;Grinst;CloseEyes",
+            "remove_portrait;Grinst",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

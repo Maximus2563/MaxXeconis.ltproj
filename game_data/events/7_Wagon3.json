@@ -4,39 +4,15 @@
         "trigger": "unit_wait",
         "level_nid": "7",
         "condition": "any_unit_in_region('Village', nid='Wagon3')",
-        "commands": [
-            [
-                "remove_unit",
-                [
-                    "Wagon3",
-                    "fade",
-                    "fade"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "Wagon3Arrive",
-                    "True"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "not any(unit.team == 'other' for unit in game.units if unit.position)"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "remove_unit;Wagon3;fade;fade\nlevel_var;Wagon3Arrive;True\nif;not any(unit.team == 'other' for unit in game.units if unit.position)\n    win_game\nend\n"
+        "_source": [
+            "remove_unit;Wagon3;fade;fade",
+            "level_var;Wagon3Arrive;True",
+            "if;not any(unit.team == 'other' for unit in game.units if unit.position)",
+            "win_game",
+            "end"
+        ]
     }
 ]

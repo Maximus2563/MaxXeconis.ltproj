@@ -4,54 +4,17 @@
         "trigger": "unit_wait",
         "level_nid": "8",
         "condition": "any_unit_in_region('Escape', nid='Humphrey')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Humphrey",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Haha! I made it... Bye!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Humphrey"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Dean",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "No, he'll wreck more of our country..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Dean"
-                ]
-            ],
-            [
-                "lose_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Humphrey;Left\nspeak;Humphrey;Haha! I made it... Bye!\nremove_portrait;Humphrey\nadd_portrait;Dean;Right\nspeak;Dean;No, he'll wreck more of our country...\nremove_portrait;Dean\nlose_game\n"
+        "_source": [
+            "add_portrait;Humphrey;Left",
+            "speak;Humphrey;Haha! I made it... Bye!",
+            "remove_portrait;Humphrey",
+            "add_portrait;Dean;Right",
+            "speak;Dean;No, he'll wreck more of our country...",
+            "remove_portrait;Dean",
+            "lose_game"
+        ]
     }
 ]

@@ -4,347 +4,60 @@
         "trigger": "on_base_convo",
         "level_nid": "6B",
         "condition": "unit == 'Wandering Maidens'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Lingering Clouds"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Lakeside 2 Day"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sages",
-                    "Left",
-                    "Frost",
-                    "MidRight",
-                    "Hyper",
-                    "FarRight"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Frost",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Oh, Milord Sages!|What a pleasant surprise!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Hello, fair maidens from foreign lands!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "Oh, it's Mr. Fancy-Pants!|You gonna stand there? Or train with me?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Not at the moment, dear."
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Hyper"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "Why not?! Underestimating me, 'cus I'm a girl?|I'm way stronger than I look!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "No, of course not!|I didn't want to damage your lovely face!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "Erm... Lovely... face?|Stop kiddin' around!|I've got my sword on me, AND I WILL USE IT!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Please, Hyper.|Remember, we were here to be *calm*."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "Dammit!|I was just getting into your meditation gig..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "May I join?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Of course...|Close your eyes, and breathe deeply. No talking!"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Sages",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Frost",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Hyper",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Man, this is boring."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Lord Sages!"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Sages",
-                    "NormalBlink"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Frost",
-                    "NormalBlink"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Hyper",
-                    "NormalBlink"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hyper",
-                    "Gah! I'm outta here!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Hyper",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Hyper"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Sages"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ow! She pushed me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Milord, uhm..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I know, I know.|I'm sorry..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "I think it'll blow over.|She's happy one minute, angry the next.|Don't take it personally."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I'll have to make it up to you both somehow..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "It's all okay...|Though I might need some space while I continue to meditate..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Of course, see ya!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Frost",
-                    "Sages"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "ignore_base_convo",
-                [
-                    "Wandering Maidens"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nmusic;Lingering Clouds\nchange_background;Lakeside 2 Day\ntransition;open\nmulti_add_portrait;Sages;Left;Frost;MidRight;Hyper;FarRight\nexpression;Frost;Smile\nspeak;Frost;Oh, Milord Sages!|What a pleasant surprise!\nspeak;Sages;Hello, fair maidens from foreign lands!\nspeak;Hyper;Oh, it's Mr. Fancy-Pants!|You gonna stand there? Or train with me?\nspeak;Sages;Not at the moment, dear.\nbop_portrait;Hyper\nspeak;Hyper;Why not?! Underestimating me, 'cus I'm a girl?|I'm way stronger than I look!\nspeak;Sages;No, of course not!|I didn't want to damage your lovely face!\nspeak;Hyper;Erm... Lovely... face?|Stop kiddin' around!|I've got my sword on me, AND I WILL USE IT!\nspeak;Frost;Please, Hyper.|Remember, we were here to be *calm*.\nspeak;Hyper;Dammit!|I was just getting into your meditation gig...\nspeak;Sages;May I join?\nspeak;Frost;Of course...|Close your eyes, and breathe deeply. No talking!\nexpression;Sages;CloseEyes\nexpression;Frost;CloseEyes\nexpression;Hyper;CloseEyes\nspeak;Frost;...;FLAG(no_talk)\nspeak;Hyper;...;FLAG(no_talk)\nspeak;Sages;...;FLAG(no_talk)\nspeak;Frost;...;FLAG(no_talk)\nspeak;Hyper;...;FLAG(no_talk)\nspeak;Sages;Man, this is boring.\nspeak;Frost;Lord Sages!\nexpression;Sages;NormalBlink\nexpression;Frost;NormalBlink\nexpression;Hyper;NormalBlink\nspeak;Hyper;Gah! I'm outta here!\nmove_portrait;Hyper;OffscreenLeft\nremove_portrait;Hyper\nbop_portrait;Sages\nspeak;Sages;Ow! She pushed me!\nspeak;Frost;Milord, uhm...\nspeak;Sages;I know, I know.|I'm sorry...\nspeak;Frost;I think it'll blow over.|She's happy one minute, angry the next.|Don't take it personally.\nspeak;Sages;I'll have to make it up to you both somehow...\nspeak;Frost;It's all okay...|Though I might need some space while I continue to meditate...\nspeak;Sages;Of course, see ya!\ntransition;close\nmulti_remove_portrait;Frost;Sages\nchange_background\nignore_base_convo;Wandering Maidens\nmusic_fade_back\ntransition;open\n\n"
+        "_source": [
+            "transition;close",
+            "music;Lingering Clouds",
+            "change_background;Lakeside 2 Day",
+            "transition;open",
+            "multi_add_portrait;Sages;Left;Frost;MidRight;Hyper;FarRight",
+            "expression;Frost;Smile",
+            "speak;Frost;Oh, Milord Sages!|What a pleasant surprise!",
+            "speak;Sages;Hello, fair maidens from foreign lands!",
+            "speak;Hyper;Oh, it's Mr. Fancy-Pants!|You gonna stand there? Or train with me?",
+            "speak;Sages;Not at the moment, dear.",
+            "bop_portrait;Hyper",
+            "speak;Hyper;Why not?! Underestimating me, 'cus I'm a girl?|I'm way stronger than I look!",
+            "speak;Sages;No, of course not!|I didn't want to damage your lovely face!",
+            "speak;Hyper;Erm... Lovely... face?|Stop kiddin' around!|I've got my sword on me, AND I WILL USE IT!",
+            "speak;Frost;Please, Hyper.|Remember, we were here to be *calm*.",
+            "speak;Hyper;Dammit!|I was just getting into your meditation gig...",
+            "speak;Sages;May I join?",
+            "speak;Frost;Of course...|Close your eyes, and breathe deeply. No talking!",
+            "expression;Sages;CloseEyes",
+            "expression;Frost;CloseEyes",
+            "expression;Hyper;CloseEyes",
+            "speak;Frost;...;FLAG(no_talk)",
+            "speak;Hyper;...;FLAG(no_talk)",
+            "speak;Sages;...;FLAG(no_talk)",
+            "speak;Frost;...;FLAG(no_talk)",
+            "speak;Hyper;...;FLAG(no_talk)",
+            "speak;Sages;Man, this is boring.",
+            "speak;Frost;Lord Sages!",
+            "expression;Sages;NormalBlink",
+            "expression;Frost;NormalBlink",
+            "expression;Hyper;NormalBlink",
+            "speak;Hyper;Gah! I'm outta here!",
+            "move_portrait;Hyper;OffscreenLeft",
+            "remove_portrait;Hyper",
+            "bop_portrait;Sages",
+            "speak;Sages;Ow! She pushed me!",
+            "speak;Frost;Milord, uhm...",
+            "speak;Sages;I know, I know.|I'm sorry...",
+            "speak;Frost;I think it'll blow over.|She's happy one minute, angry the next.|Don't take it personally.",
+            "speak;Sages;I'll have to make it up to you both somehow...",
+            "speak;Frost;It's all okay...|Though I might need some space while I continue to meditate...",
+            "speak;Sages;Of course, see ya!",
+            "transition;close",
+            "multi_remove_portrait;Frost;Sages",
+            "change_background",
+            "ignore_base_convo;Wandering Maidens",
+            "music_fade_back",
+            "transition;open",
+            "",
+            ""
+        ]
     }
 ]

@@ -4,20 +4,11 @@
         "trigger": "turn_change",
         "level_nid": "5",
         "condition": "game.turncount == 2",
-        "commands": [
-            [
-                "spawn_group",
-                [
-                    "WyvernReinforcement",
-                    "east",
-                    "WyvernReinforcement",
-                    "normal",
-                    "closest"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "spawn_group;WyvernReinforcement;east;WyvernReinforcement;normal;closest\n"
+        "_source": [
+            "spawn_group;WyvernReinforcement;east;WyvernReinforcement;normal;closest"
+        ]
     }
 ]

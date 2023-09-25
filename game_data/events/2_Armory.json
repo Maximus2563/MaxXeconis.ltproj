@@ -4,37 +4,14 @@
         "trigger": "Armory",
         "level_nid": "2",
         "condition": "region.nid == 'Armory'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Valiant Illusion"
-                ]
-            ],
-            [
-                "shop",
-                [
-                    "{unit}",
-                    "Iron Sword,Bronze_Sword,Iron Lance,Bronze_Lance,Iron Axe,Bronze_Axe,Iron Bow,Bronze_Bow,Bronze_Dagger",
-                    "Iron Dagger",
-                    "armory"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nmusic;Valiant Illusion\nshop;{unit};Iron Sword,Bronze_Sword,Iron Lance,Bronze_Lance,Iron Axe,Bronze_Axe,Iron Bow,Bronze_Bow,Bronze_Dagger;Iron Dagger;armory\ntransition;Open\n"
+        "_source": [
+            "transition;Close",
+            "music;Valiant Illusion",
+            "shop;{unit};Iron Sword,Bronze_Sword,Iron Lance,Bronze_Lance,Iron Axe,Bronze_Axe,Iron Bow,Bronze_Bow,Bronze_Dagger;Iron Dagger;armory",
+            "transition;Open"
+        ]
     }
 ]

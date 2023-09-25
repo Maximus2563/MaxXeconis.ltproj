@@ -70,6 +70,10 @@
             [
                 "status_on_hit",
                 "FlyingTemp"
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Flying' not in target.tags"
             ]
         ]
     }

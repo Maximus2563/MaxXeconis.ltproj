@@ -4,30 +4,13 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.nid == 'SalYoung'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "SalYoung",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SalYoung",
-                    "Yeowch...|Feeling kind of tired..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SalYoung"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;SalYoung;Right\nspeak;SalYoung;Yeowch...|Feeling kind of tired...\nremove_portrait;SalYoung\n"
+        "_source": [
+            "add_portrait;SalYoung;Right",
+            "speak;SalYoung;Yeowch...|Feeling kind of tired...",
+            "remove_portrait;SalYoung"
+        ]
     }
 ]

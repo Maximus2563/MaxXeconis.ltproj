@@ -80,6 +80,10 @@
             [
                 "event_after_combat_on_hit",
                 "Global SmokeKunai"
+            ],
+            [
+                "status_on_equip",
+                "KunaiProc"
             ]
         ]
     }

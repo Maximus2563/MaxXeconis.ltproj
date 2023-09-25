@@ -4,24 +4,12 @@
         "trigger": "turn_change",
         "level_nid": "3",
         "condition": "get_units_in_region('SpawnF', team='player')",
-        "commands": [
-            [
-                "move_cursor",
-                [
-                    "30,7"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "GroupF",
-                    "South",
-                    "GroupF"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "move_cursor;30,7\nspawn_group;GroupF;South;GroupF\n"
+        "_source": [
+            "move_cursor;30,7",
+            "spawn_group;GroupF;South;GroupF"
+        ]
     }
 ]

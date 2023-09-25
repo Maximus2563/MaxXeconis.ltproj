@@ -4,131 +4,27 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Aerial'",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Aerial",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Aerial, what are you doing?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "Hey, Sagemeister!|I'm just running."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Indoors?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "I wanted to keep an eye on his Majesty.|Why not do both?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "C'mon, he's fine!|Sal's with him anyway."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "Well, if anyone needs to lift him, I've got muscle to spare."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Look, there was something I wanted to ask."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "Sure, what's up?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Your revealed physique is taking all the attention from me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "That ain't much of a question...|But, I can teach you my regimen, if you'd like."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Too much work, I think putting on a bigger shirt is easier."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "I'm sure you're plenty eye-catching enough, boss."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Really? Woo!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aerial",
-                    "Now, I better keep at my training, peace."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Aerial",
-                    "Sages"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Aerial"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "multi_add_portrait;Aerial;Right;Sages;Left\nspeak;Sages;Aerial, what are you doing?\nspeak;Aerial;Hey, Sagemeister!|I'm just running.\nspeak;Sages;Indoors?\nspeak;Aerial;I wanted to keep an eye on his Majesty.|Why not do both?\nspeak;Sages;C'mon, he's fine!|Sal's with him anyway.\nspeak;Aerial;Well, if anyone needs to lift him, I've got muscle to spare.\nspeak;Sages;Look, there was something I wanted to ask.\nspeak;Aerial;Sure, what's up?\nspeak;Sages;Your revealed physique is taking all the attention from me!\nspeak;Aerial;That ain't much of a question...|But, I can teach you my regimen, if you'd like.\nspeak;Sages;Too much work, I think putting on a bigger shirt is easier.\nspeak;Aerial;I'm sure you're plenty eye-catching enough, boss.\nspeak;Sages;Really? Woo!\nspeak;Aerial;Now, I better keep at my training, peace.\nmulti_remove_portrait;Aerial;Sages\nremove_talk;Sages;Aerial\n"
+        "_source": [
+            "multi_add_portrait;Aerial;Right;Sages;Left",
+            "speak;Sages;Aerial, what are you doing?",
+            "speak;Aerial;Hey, Sagemeister!|I'm just running.",
+            "speak;Sages;Indoors?",
+            "speak;Aerial;I wanted to keep an eye on his Majesty.|Why not do both?",
+            "speak;Sages;C'mon, he's fine!|Sal's with him anyway.",
+            "speak;Aerial;Well, if anyone needs to lift him, I've got muscle to spare.",
+            "speak;Sages;Look, there was something I wanted to ask.",
+            "speak;Aerial;Sure, what's up?",
+            "speak;Sages;Your revealed physique is taking all the attention from me!",
+            "speak;Aerial;That ain't much of a question...|But, I can teach you my regimen, if you'd like.",
+            "speak;Sages;Too much work, I think putting on a bigger shirt is easier.",
+            "speak;Aerial;I'm sure you're plenty eye-catching enough, boss.",
+            "speak;Sages;Really? Woo!",
+            "speak;Aerial;Now, I better keep at my training, peace.",
+            "multi_remove_portrait;Aerial;Sages",
+            "remove_talk;Sages;Aerial"
+        ]
     }
 ]

@@ -97,8 +97,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    8
+                    11,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -121,8 +121,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    10
+                    4,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -145,8 +145,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    10
+                    4,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -306,21 +306,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Angel",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    12
+                    13,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -332,8 +319,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    10
+                    11,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -345,34 +332,73 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    10
+                    12,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Leap",
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporter",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Trapper"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
+                    13,
                     13
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             },
             {
-                "nid": "Prof",
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Warrior",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "TacticalMind"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    13
+                    6,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Smoke",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -381,7 +407,7 @@
         "regions": [
             {
                 "nid": "MorshuShop",
-                "region_type": "event",
+                "region_type": "status",
                 "position": [
                     6,
                     9
@@ -390,7 +416,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Shop",
+                "sub_nid": "FortressDef",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -438,11 +464,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

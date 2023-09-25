@@ -4,58 +4,19 @@
         "trigger": "unit_wait",
         "level_nid": "DEBUG",
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "False"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "True"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Joshua",
-                    "Wow, such wait."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "False"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Joshua",
-                    "No"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "if;False\n    if;True\n        speak;Joshua;Wow, such wait.\n    elif;False\n        speak;Joshua;No\n    end\nend\n\n"
+        "_source": [
+            "if;False",
+            "if;True",
+            "speak;Joshua;Wow, such wait.",
+            "elif;False",
+            "speak;Joshua;No",
+            "end",
+            "end",
+            "",
+            ""
+        ]
     }
 ]

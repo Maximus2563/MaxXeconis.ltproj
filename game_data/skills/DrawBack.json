@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DrawBack",
+        "name": "Draw Back",
+        "desc": "Unit and target ally move 1 space backwards.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "DrawBackA"
+            ]
+        ]
+    }
+]

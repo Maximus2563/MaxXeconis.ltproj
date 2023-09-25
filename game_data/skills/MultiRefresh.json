@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "MultiRefresh",
+        "name": "Multi Refresh",
+        "desc": "Refresh all adjacent allies.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "RefreshOmni"
+            ]
+        ]
+    }
+]

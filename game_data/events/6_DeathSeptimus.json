@@ -4,45 +4,16 @@
         "trigger": "unit_death",
         "level_nid": "6",
         "condition": "unit.nid == \"Septimus\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Septimus",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Septimus",
-                    "All my beautiful... Monsters!"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Septimus",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Septimus"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Septimus;Left\nspeak;Septimus;All my beautiful... Monsters!\nexpression;Septimus;CloseEyes\nremove_portrait;Septimus\n\n"
+        "_source": [
+            "add_portrait;Septimus;Left",
+            "speak;Septimus;All my beautiful... Monsters!",
+            "expression;Septimus;CloseEyes",
+            "remove_portrait;Septimus",
+            "",
+            ""
+        ]
     }
 ]

@@ -4,76 +4,19 @@
         "trigger": "turn_change",
         "level_nid": "1",
         "condition": "get_units_in_region('EnemyRein', nid='Sal')",
-        "commands": [
-            [
-                "spawn_group",
-                [
-                    "EnemyRein",
-                    "east",
-                    "EnemyRein",
-                    "normal",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "EnemyRein2",
-                    "west",
-                    "EnemyRein2",
-                    "normal",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "107"
-                ]
-            ],
-            [
-                "disp_cursor",
-                [
-                    "1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1000"
-                ]
-            ],
-            [
-                "disp_cursor",
-                [
-                    "0"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Bandit2",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit2",
-                    "Filthy knights, this is OURS!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Bandit2"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "spawn_group;EnemyRein;east;EnemyRein;normal;stack;FLAG(no_follow)\nspawn_group;EnemyRein2;west;EnemyRein2;normal;stack;FLAG(no_follow)\nmove_cursor;107\ndisp_cursor;1\nwait;1000\ndisp_cursor;0\nadd_portrait;Bandit2;Left\nspeak;Bandit2;Filthy knights, this is OURS!\nremove_portrait;Bandit2\n"
+        "_source": [
+            "spawn_group;EnemyRein;east;EnemyRein;normal;stack;FLAG(no_follow)",
+            "spawn_group;EnemyRein2;west;EnemyRein2;normal;stack;FLAG(no_follow)",
+            "move_cursor;107",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
+            "add_portrait;Bandit2;Left",
+            "speak;Bandit2;Filthy knights, this is OURS!",
+            "remove_portrait;Bandit2"
+        ]
     }
 ]

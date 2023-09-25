@@ -4,36 +4,14 @@
         "trigger": "Shop",
         "level_nid": "6B",
         "condition": "region.nid == 'MorshuShop'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Suspicious Folk"
-                ]
-            ],
-            [
-                "shop",
-                [
-                    "{unit}",
-                    "Reckless_Sword,Reckless_Lance,Reckless_Axe,Torch,Sketchy_Salve",
-                    "morshushop"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nmusic;Suspicious Folk\nshop;{unit};Reckless_Sword,Reckless_Lance,Reckless_Axe,Torch,Sketchy_Salve;morshushop\ntransition;Open\n"
+        "_source": [
+            "transition;Close",
+            "music;Suspicious Folk",
+            "shop;{unit};Reckless_Sword,Reckless_Lance,Reckless_Axe,Torch,Sketchy_Salve;morshushop",
+            "transition;Open"
+        ]
     }
 ]

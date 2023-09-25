@@ -4,454 +4,77 @@
         "trigger": "level_end",
         "level_nid": "5",
         "condition": "True",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Sages",
-                    "player"
-                ]
-            ],
-            [
-                "change_party",
-                [
-                    "Sages",
-                    "Sal's Platoon (SalGroup)"
-                ]
-            ],
-            [
-                "remove_tag",
-                [
-                    "Sal",
-                    "Required",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "unit.team('Frost') != 'Player'"
-                ]
-            ],
-            [
-                "kill_unit",
-                [
-                    "Frost",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "change_background",
-                [
-                    "Night Village"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Victory United 1"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sal",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We made it out the other side, at last.|Now we can sleep..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sleep? I'm so pumped, I'm not even tired."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "...|No, you will sleep."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Aww... You're no fun."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I trust that when we wake, you'll travel with us home?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I take it that I'll have to face all this harassment alone otherwise.|So, what choice do I really have?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Good, your father will be relieved."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I'm telling you, there's no need to be worried!|I can handle myself, normally, and he's a real go-getter too!"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Frost') and unit.team('Frost') == 'player'"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Frost",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "What of me?|I am far from home and... I do wish to help you.|I can sense you have pure intentions..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ah! Fair maiden of flowers!|Do come with us, you'll be able to witness the grandeur of castle Nordz!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Far from home, where would that be?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Arborst, we don't often leave or let in outsiders...|This whole vast world is so... new to me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Arborst, ah yes.|Many intruders leave in stitches... or dead."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "I just wanted to see anything beyond our borders...|But I was kidnapped shortly after..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Indeed in this world there is a mixture of good and bad people.|It's just up to you to discern which the people you meet are!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "I just... don't want to go through that again..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We'll keep you safe, I promise."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Now, night-night!"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Smoke')"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "Knight-knight?|I'm more of a thief actually..."
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Sages"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Hahaha! Smoke, you're too good!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Please don't support this madness, Milord..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "I have royal approval, I'll do whatever I please!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "Er, I'll just sleep instead... Toodles!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Good, now be quiet!"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Smoke",
-                    "Sal"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Frost') and unit.team('Frost') == 'player'"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Frost",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Uhm, if I may, Milord?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Go ahead, my dear madam."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "I forsee troubles in your path ahead..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Come again?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "I don't think times will get much easier for a while...|I... We Arborstians have great magical power, that's why we don't often mingle outside.|I often have premonitions of the future..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Cool! Can you tell me what cards my opponent will have in the future?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Sadly, I can't choose.|It just overtakes me, my mind, sees it..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Still, that sounds fairly cool-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Not always, I see a lot of blood..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "...|Is any of it your own?|Oh dear, did you see yourself DIE?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Not yet, but I fear for when I do.|It makes everything seem so pointless..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I'm here to listen to your troubles, whenever you wish."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Thank you... Milord."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Now, best I hit the hay before Sal lectures me!|Night!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Frost",
-                    "Goodnight..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sages",
-                    "Frost"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Best I hit the hay before Sal lectures me..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_team;Sages;player\nchange_party;Sages;Sal's Platoon (SalGroup)\nremove_tag;Sal;Required;FLAG(no_warn)\nif;unit.team('Frost') != 'Player'\n    kill_unit;Frost;FLAG(no_warn)\nend\nremove_all_units\nchange_background;Night Village\ntransition;Open\nmusic;Victory United 1\nmulti_add_portrait;Sal;Right;Sages;Left\nspeak;Sal;We made it out the other side, at last.|Now we can sleep...\nspeak;Sages;Sleep? I'm so pumped, I'm not even tired.\nspeak;Sal;...|No, you will sleep.\nspeak;Sages;Aww... You're no fun.\nspeak;Sal;I trust that when we wake, you'll travel with us home?\nspeak;Sages;I take it that I'll have to face all this harassment alone otherwise.|So, what choice do I really have?\nspeak;Sal;Good, your father will be relieved.\nspeak;Sages;I'm telling you, there's no need to be worried!|I can handle myself, normally, and he's a real go-getter too!\nif;game.check_alive('Frost') and unit.team('Frost') == 'player'\n    add_portrait;Frost;FarRight\n    speak;Frost;What of me?|I am far from home and... I do wish to help you.|I can sense you have pure intentions...\n    speak;Sages;Ah! Fair maiden of flowers!|Do come with us, you'll be able to witness the grandeur of castle Nordz!\n    speak;Sal;Far from home, where would that be?\n    speak;Frost;Arborst, we don't often leave or let in outsiders...|This whole vast world is so... new to me.\n    speak;Sal;Arborst, ah yes.|Many intruders leave in stitches... or dead.\n    speak;Frost;I just wanted to see anything beyond our borders...|But I was kidnapped shortly after...\n    speak;Sages;Indeed in this world there is a mixture of good and bad people.|It's just up to you to discern which the people you meet are!\n    speak;Frost;I just... don't want to go through that again...\n    speak;Sal;We'll keep you safe, I promise.\nend\nspeak;Sal;Now, night-night!\nif;game.check_alive('Smoke')\n    add_portrait;Sal;FarLeft\n    speak;Smoke;Knight-knight?|I'm more of a thief actually...\n    bop_portrait;Sages\n    speak;Sages;Hahaha! Smoke, you're too good!\n    speak;Sal;Please don't support this madness, Milord...\n    speak;Smoke;I have royal approval, I'll do whatever I please!\n    speak;Sal;...\n    speak;Smoke;Er, I'll just sleep instead... Toodles!\n    speak;Sal;Good, now be quiet!\nend\nmulti_remove_portrait;Smoke;Sal\nif;game.check_alive('Frost') and unit.team('Frost') == 'player'\n    move_portrait;Frost;Left\n    speak;Frost;Uhm, if I may, Milord?\n    speak;Sages;Go ahead, my dear madam.\n    speak;Frost;I forsee troubles in your path ahead...\n    speak;Sages;Come again?\n    speak;Frost;I don't think times will get much easier for a while...|I... We Arborstians have great magical power, that's why we don't often mingle outside.|I often have premonitions of the future...\n    speak;Sages;Cool! Can you tell me what cards my opponent will have in the future?\n    speak;Frost;Sadly, I can't choose.|It just overtakes me, my mind, sees it...\n    speak;Sages;Still, that sounds fairly cool-\n    speak;Frost;Not always, I see a lot of blood...\n    speak;Sages;...|Is any of it your own?|Oh dear, did you see yourself DIE?\n    speak;Frost;Not yet, but I fear for when I do.|It makes everything seem so pointless...\n    speak;Sages;I'm here to listen to your troubles, whenever you wish.\n    speak;Frost;Thank you... Milord.\n    speak;Sages;Now, best I hit the hay before Sal lectures me!|Night!\n    speak;Frost;Goodnight...\n    multi_remove_portrait;Sages;Frost\nelse\n    speak;Sages;Best I hit the hay before Sal lectures me...\n    transition;close\nend\n"
+        "_source": [
+            "transition;Close",
+            "change_team;Sages;player",
+            "change_party;Sages;Sal's Platoon (SalGroup)",
+            "remove_tag;Sal;Required;FLAG(no_warn)",
+            "if;unit.team('Frost') != 'Player'",
+            "kill_unit;Frost;FLAG(no_warn)",
+            "end",
+            "remove_all_units",
+            "change_background;Night Village",
+            "transition;Open",
+            "music;Victory United 1",
+            "multi_add_portrait;Sal;Right;Sages;Left",
+            "speak;Sal;We made it out the other side, at last.|Now we can sleep...",
+            "speak;Sages;Sleep? I'm so pumped, I'm not even tired.",
+            "speak;Sal;...|No, you will sleep.",
+            "speak;Sages;Aww... You're no fun.",
+            "speak;Sal;I trust that when we wake, you'll travel with us home?",
+            "speak;Sages;I take it that I'll have to face all this harassment alone otherwise.|So, what choice do I really have?",
+            "speak;Sal;Good, your father will be relieved.",
+            "speak;Sages;I'm telling you, there's no need to be worried!|I can handle myself, normally, and he's a real go-getter too!",
+            "if;game.check_alive('Frost') and unit.team('Frost') == 'player'",
+            "add_portrait;Frost;FarRight",
+            "speak;Frost;What of me?|I am far from home and... I do wish to help you.|I can sense you have pure intentions...",
+            "speak;Sages;Ah! Fair maiden of flowers!|Do come with us, you'll be able to witness the grandeur of castle Nordz!",
+            "speak;Sal;Far from home, where would that be?",
+            "speak;Frost;Arborst, we don't often leave or let in outsiders...|This whole vast world is so... new to me.",
+            "speak;Sal;Arborst, ah yes.|Many intruders leave in stitches... or dead.",
+            "speak;Frost;I just wanted to see anything beyond our borders...|But I was kidnapped shortly after...",
+            "speak;Sages;Indeed in this world there is a mixture of good and bad people.|It's just up to you to discern which the people you meet are!",
+            "speak;Frost;I just... don't want to go through that again...",
+            "speak;Sal;We'll keep you safe, I promise.",
+            "end",
+            "speak;Sal;Now, night-night!",
+            "if;game.check_alive('Smoke')",
+            "add_portrait;Sal;FarLeft",
+            "speak;Smoke;Knight-knight?|I'm more of a thief actually...",
+            "bop_portrait;Sages",
+            "speak;Sages;Hahaha! Smoke, you're too good!",
+            "speak;Sal;Please don't support this madness, Milord...",
+            "speak;Smoke;I have royal approval, I'll do whatever I please!",
+            "speak;Sal;...",
+            "speak;Smoke;Er, I'll just sleep instead... Toodles!",
+            "speak;Sal;Good, now be quiet!",
+            "end",
+            "multi_remove_portrait;Smoke;Sal",
+            "if;game.check_alive('Frost') and unit.team('Frost') == 'player'",
+            "move_portrait;Frost;Left",
+            "speak;Frost;Uhm, if I may, Milord?",
+            "speak;Sages;Go ahead, my dear madam.",
+            "speak;Frost;I forsee troubles in your path ahead...",
+            "speak;Sages;Come again?",
+            "speak;Frost;I don't think times will get much easier for a while...|I... We Arborstians have great magical power, that's why we don't often mingle outside.|I often have premonitions of the future...",
+            "speak;Sages;Cool! Can you tell me what cards my opponent will have in the future?",
+            "speak;Frost;Sadly, I can't choose.|It just overtakes me, my mind, sees it...",
+            "speak;Sages;Still, that sounds fairly cool-",
+            "speak;Frost;Not always, I see a lot of blood...",
+            "speak;Sages;...|Is any of it your own?|Oh dear, did you see yourself DIE?",
+            "speak;Frost;Not yet, but I fear for when I do.|It makes everything seem so pointless...",
+            "speak;Sages;I'm here to listen to your troubles, whenever you wish.",
+            "speak;Frost;Thank you... Milord.",
+            "speak;Sages;Now, best I hit the hay before Sal lectures me!|Night!",
+            "speak;Frost;Goodnight...",
+            "multi_remove_portrait;Sages;Frost",
+            "else",
+            "speak;Sages;Best I hit the hay before Sal lectures me...",
+            "transition;close",
+            "end"
+        ]
     }
 ]

@@ -4,23 +4,12 @@
         "trigger": "unit_death",
         "level_nid": "6",
         "condition": "unit.nid == 'Pillar1'",
-        "commands": [
-            [
-                "sound",
-                [
-                    "WaterTileUp"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "Pillar1",
-                    "fade"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "sound;WaterTileUp\nshow_layer;Pillar1;fade\n"
+        "_source": [
+            "sound;WaterTileUp",
+            "show_layer;Pillar1;fade"
+        ]
     }
 ]

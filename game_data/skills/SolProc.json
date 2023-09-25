@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SolProc",
+        "name": "Sol",
+        "desc": "Heal half of damage dealt (Trigger% = SKL).\n",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            40
+        ],
+        "components": [
+            [
+                "attack_proc",
+                "Sol"
+            ],
+            [
+                "proc_rate",
+                "SOMNUS"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -4,73 +4,20 @@
         "trigger": "Visit",
         "level_nid": "5",
         "condition": "region.nid == 'Inn' and unit.nid != 'Sal'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Nighttime Tavern 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "{unit}",
-                    "Left",
-                    "Maxime",
-                    "Right"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Maxime",
-                    "HalfCloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Maxime",
-                    "What's with all the... noise...|A fight? No thanks, I want no part of it.|Bye..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nmulti_add_portrait;{unit};Left;Maxime;Right\nexpression;Maxime;HalfCloseEyes\nspeak;Maxime;What's with all the... noise...|A fight? No thanks, I want no part of it.|Bye...\ntransition;Close\nchange_background\ntransition;Open\nhas_traded;{unit}\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Nighttime Tavern 1",
+            "transition;Open",
+            "multi_add_portrait;{unit};Left;Maxime;Right",
+            "expression;Maxime;HalfCloseEyes",
+            "speak;Maxime;What's with all the... noise...|A fight? No thanks, I want no part of it.|Bye...",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "has_traded;{unit}"
+        ]
     }
 ]

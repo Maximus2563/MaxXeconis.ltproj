@@ -4,76 +4,24 @@
         "trigger": "Armory",
         "level_nid": "9",
         "condition": "region.nid == 'Armory'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Valiant Illusion"
-                ]
-            ],
-            [
-                "shop",
-                [
-                    "{unit}",
-                    "Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow",
-                    "armory"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nmusic;Valiant Illusion\nshop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow;armory\ntransition;Open\n\n\n\n\n\n\n\n\n\n"
+        "_source": [
+            "transition;Close",
+            "music;Valiant Illusion",
+            "shop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow;armory",
+            "transition;Open",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

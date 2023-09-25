@@ -4,38 +4,15 @@
         "trigger": "Destructible",
         "level_nid": "1",
         "condition": "region.nid == 'House2'",
-        "commands": [
-            [
-                "flicker_cursor",
-                [
-                    "{position}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "DestroyedVillage"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "VillageDestroyed"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "flicker_cursor;{position}\nshow_layer;DestroyedVillage\nsound;VillageDestroyed\nwait;500\n"
+        "_source": [
+            "flicker_cursor;{position}",
+            "show_layer;DestroyedVillage",
+            "sound;VillageDestroyed",
+            "wait;500",
+            ""
+        ]
     }
 ]

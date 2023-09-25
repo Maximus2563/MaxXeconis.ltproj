@@ -3,10 +3,10 @@
         "nid": "SuperiorityComplex",
         "name": "Superiority Complex",
         "desc": "Grants +1 ATK per stat unit has higher than foe.",
-        "icon_nid": "Skills",
+        "icon_nid": "Skills (1)",
         "icon_index": [
-            4,
-            4
+            3,
+            55
         ],
         "components": [
             [

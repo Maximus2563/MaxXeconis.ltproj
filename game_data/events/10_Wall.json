@@ -4,17 +4,11 @@
         "trigger": "unit_death",
         "level_nid": "10",
         "condition": "unit.nid == 'Wall'",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "WallBroken",
-                    "fade"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "show_layer;WallBroken;fade\n"
+        "_source": [
+            "show_layer;WallBroken;fade"
+        ]
     }
 ]

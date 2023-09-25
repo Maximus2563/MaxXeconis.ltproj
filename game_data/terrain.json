@@ -207,7 +207,7 @@
         "background": null,
         "mtype": "Sea",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "AvoidMinus10Terrain"
     },
     {
         "nid": "11",
@@ -222,7 +222,7 @@
         "background": null,
         "mtype": "Sea",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "AvoidMinus10Terrain"
     },
     {
         "nid": "12",

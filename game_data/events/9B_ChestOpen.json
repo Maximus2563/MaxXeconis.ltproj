@@ -4,34 +4,15 @@
         "trigger": "Chest",
         "level_nid": "9B",
         "condition": "region.nid == 'Chest'",
-        "commands": [
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "ChestOpen"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "sound;Unlock\nshow_layer;ChestOpen\nwin_game\n\n"
+        "_source": [
+            "sound;Unlock",
+            "show_layer;ChestOpen",
+            "win_game",
+            "",
+            ""
+        ]
     }
 ]

@@ -4,38 +4,15 @@
         "trigger": "combat_start",
         "level_nid": "12",
         "condition": "(unit.nid == \"Pete\" and unit2.team == 'player') or (unit2.nid == \"Pete\" and unit.team == 'player')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Pete",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pete",
-                    "Yar har!|Do you think you can stand up to Shanty Pete?"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Pete"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Pete;Left\nspeak;Pete;Yar har!|Do you think you can stand up to Shanty Pete?\nremove_portrait;Pete\n\n"
+        "_source": [
+            "add_portrait;Pete;Left",
+            "speak;Pete;Yar har!|Do you think you can stand up to Shanty Pete?",
+            "remove_portrait;Pete",
+            "",
+            ""
+        ]
     }
 ]

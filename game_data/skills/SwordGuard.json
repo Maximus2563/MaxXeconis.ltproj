@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SwordGuard",
+        "name": "Sword Guard",
+        "desc": "Grants -3 damage received vs sword foes.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            59
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "item_system.weapon_type(target, target.get_weapon()) == 'Sword' "
+            ],
+            [
+                "resist",
+                3
+            ]
+        ]
+    }
+]

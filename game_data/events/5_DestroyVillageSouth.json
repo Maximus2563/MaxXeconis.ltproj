@@ -4,36 +4,15 @@
         "trigger": "Destructible",
         "level_nid": "5",
         "condition": "region.nid == 'DestroyVillageSouth'",
-        "commands": [
-            [
-                "flicker_cursor",
-                [
-                    "17,1"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "villagesouthdestroy"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "flicker_cursor;17,1\nshow_layer;villagesouthdestroy\nwait;500\n\n"
+        "_source": [
+            "flicker_cursor;17,1",
+            "show_layer;villagesouthdestroy",
+            "wait;500",
+            "",
+            ""
+        ]
     }
 ]

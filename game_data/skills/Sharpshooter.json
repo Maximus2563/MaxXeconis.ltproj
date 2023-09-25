@@ -2,7 +2,7 @@
     {
         "nid": "Sharpshooter",
         "name": "Sharpshooter",
-        "desc": "Gain +35 hit if the unit has not moved.",
+        "desc": "Gain Hit+35 and Range+1 if the unit has not moved.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             3,
@@ -20,6 +20,10 @@
             [
                 "condition",
                 "unit.movement_left == unit.stats['MOV']"
+            ],
+            [
+                "modify_maximum_range",
+                1
             ]
         ]
     }

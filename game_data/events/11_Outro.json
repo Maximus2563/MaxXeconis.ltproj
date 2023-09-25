@@ -4,340 +4,58 @@
         "trigger": "level_end",
         "level_nid": "11",
         "condition": "True",
-        "commands": [
-            [
-                "move_cursor",
-                [
-                    "Hogarth"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Hogarth",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "You're all useless!|No matter, they'll see retribution some day..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Forest 2 Evening"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Reminiscences ~ Killers' Crossroads"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "Left",
-                    "Prof",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "That was..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Horrible."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "The Duke truly is a demon!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Seems like he's wrapped around the finger of Aurelia."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I wish that this would all end..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Even if Arcei did those things...|I doubt Aurelia are perfect either. Allying with Monsdor...|Influencing cretins, such as the Duke...|What can we even do...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "We need to go to Aurelia. Fight them if we have to."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "We may need to speak to them, not fight."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Because talking to people worked so well this time..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Besides, Aurelia are too strong for us.|Their numbers dwarf our group..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Gah! It's so dumb!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "C'mon Leap, let's get out of here."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Hmph, fine.|Though I hope Nabin is alright..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "add_unit",
-                [
-                    "Hogarth",
-                    "2,2",
-                    "immediate",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Nabin",
-                    "2,4",
-                    "immediate",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Hogarth",
-                    "Left",
-                    "Nabin",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Why do you have to say these things about me?|Now they'll squeak about how awful they think I am."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "How awful you are, more like."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "You ingrate...|You have to make this up to me.|You must realise your errors."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Father, you've changed.|I don't know who these people you're speaking to are...|But they aren't good for you!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Nonsense.|The Goddess adores gold... that's what I am obeying!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "G-Gold?! That's what this is about?!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "We will take to Aurelia.|I must make you see the light, the golden light..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Do I have a choice...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Suffer eternal damnation if you don't."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Alright..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Our boat leaves tomorrow.|Now, rest up.|I- I mean, WE will have a great time."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Alright, father..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "remove_skill",
-                [
-                    "Nabin",
-                    "MiracleBoss"
-                ]
-            ],
-            [
-                "remove_item_component",
-                [
-                    "Nabin",
-                    "Wind Sword",
-                    "locked"
-                ]
-            ],
-            [
-                "remove_item_component",
-                [
-                    "Nabin",
-                    "Epee",
-                    "locked"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.turncount < 15"
-                ]
-            ],
-            [
-                "give_bexp",
-                [
-                    "150"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;Hogarth\nadd_portrait;Hogarth;Left\nspeak;Hogarth;You're all useless!|No matter, they'll see retribution some day...\ntransition;close\nchange_background;Forest 2 Evening\nmusic;Reminiscences ~ Killers' Crossroads\ntransition;open\nmulti_add_portrait;Leap;Left;Prof;Right\nspeak;Leap;That was...\nspeak;Prof;Horrible.\nspeak;Leap;The Duke truly is a demon!\nspeak;Prof;Seems like he's wrapped around the finger of Aurelia.\nspeak;Leap;I wish that this would all end...\nspeak;Prof;Even if Arcei did those things...|I doubt Aurelia are perfect either. Allying with Monsdor...|Influencing cretins, such as the Duke...|What can we even do...?\nspeak;Leap;We need to go to Aurelia. Fight them if we have to.\nspeak;Prof;We may need to speak to them, not fight.\nspeak;Leap;Because talking to people worked so well this time...\nspeak;Prof;Besides, Aurelia are too strong for us.|Their numbers dwarf our group...\nspeak;Leap;Gah! It's so dumb!\nspeak;Prof;C'mon Leap, let's get out of here.\nspeak;Leap;Hmph, fine.|Though I hope Nabin is alright...\ntransition;close\nremove_all_units\nadd_unit;Hogarth;2,2;immediate;stack;fade\nadd_unit;Nabin;2,4;immediate;stack;fade\ntransition;open\nmulti_add_portrait;Hogarth;Left;Nabin;Right\nspeak;Nabin;...;FLAG(no_talk)\nspeak;Hogarth;Why do you have to say these things about me?|Now they'll squeak about how awful they think I am.\nspeak;Nabin;How awful you are, more like.\nspeak;Hogarth;You ingrate...|You have to make this up to me.|You must realise your errors.\nspeak;Nabin;Father, you've changed.|I don't know who these people you're speaking to are...|But they aren't good for you!\nspeak;Hogarth;Nonsense.|The Goddess adores gold... that's what I am obeying!\nspeak;Nabin;G-Gold?! That's what this is about?!\nspeak;Hogarth;We will take to Aurelia.|I must make you see the light, the golden light...\nspeak;Nabin;Do I have a choice...?\nspeak;Hogarth;Suffer eternal damnation if you don't.\nspeak;Nabin;Alright...\nspeak;Hogarth;Our boat leaves tomorrow.|Now, rest up.|I- I mean, WE will have a great time.\nspeak;Nabin;Alright, father...\ntransition;close\nremove_skill;Nabin;MiracleBoss\nremove_item_component;Nabin;Wind Sword;locked\nremove_item_component;Nabin;Epee;locked\nif;game.turncount < 15\n    give_bexp;150\nend\n"
+        "_source": [
+            "move_cursor;Hogarth",
+            "add_portrait;Hogarth;Left",
+            "speak;Hogarth;You're all useless!|No matter, they'll see retribution some day...",
+            "transition;close",
+            "change_background;Forest 2 Evening",
+            "music;Reminiscences ~ Killers' Crossroads",
+            "transition;open",
+            "multi_add_portrait;Leap;Left;Prof;Right",
+            "speak;Leap;That was...",
+            "speak;Prof;Horrible.",
+            "speak;Leap;The Duke truly is a demon!",
+            "speak;Prof;Seems like he's wrapped around the finger of Aurelia.",
+            "speak;Leap;I wish that this would all end...",
+            "speak;Prof;Even if Arcei did those things...|I doubt Aurelia are perfect either. Allying with Monsdor...|Influencing cretins, such as the Duke...|What can we even do...?",
+            "speak;Leap;We need to go to Aurelia. Fight them if we have to.",
+            "speak;Prof;We may need to speak to them, not fight.",
+            "speak;Leap;Because talking to people worked so well this time...",
+            "speak;Prof;Besides, Aurelia are too strong for us.|Their numbers dwarf our group...",
+            "speak;Leap;Gah! It's so dumb!",
+            "speak;Prof;C'mon Leap, let's get out of here.",
+            "speak;Leap;Hmph, fine.|Though I hope Nabin is alright...",
+            "transition;close",
+            "remove_all_units",
+            "add_unit;Hogarth;2,2;immediate;stack;fade",
+            "add_unit;Nabin;2,4;immediate;stack;fade",
+            "transition;open",
+            "multi_add_portrait;Hogarth;Left;Nabin;Right",
+            "speak;Nabin;...;FLAG(no_talk)",
+            "speak;Hogarth;Why do you have to say these things about me?|Now they'll squeak about how awful they think I am.",
+            "speak;Nabin;How awful you are, more like.",
+            "speak;Hogarth;You ingrate...|You have to make this up to me.|You must realise your errors.",
+            "speak;Nabin;Father, you've changed.|I don't know who these people you're speaking to are...|But they aren't good for you!",
+            "speak;Hogarth;Nonsense.|The Goddess adores gold... that's what I am obeying!",
+            "speak;Nabin;G-Gold?! That's what this is about?!",
+            "speak;Hogarth;We will take to Aurelia.|I must make you see the light, the golden light...",
+            "speak;Nabin;Do I have a choice...?",
+            "speak;Hogarth;Suffer eternal damnation if you don't.",
+            "speak;Nabin;Alright...",
+            "speak;Hogarth;Our boat leaves tomorrow.|Now, rest up.|I- I mean, WE will have a great time.",
+            "speak;Nabin;Alright, father...",
+            "transition;close",
+            "remove_skill;Nabin;MiracleBoss",
+            "remove_item_component;Nabin;Wind Sword;locked",
+            "remove_item_component;Nabin;Epee;locked",
+            "if;game.turncount < 15",
+            "give_bexp;150",
+            "end",
+            ""
+        ]
     }
 ]

@@ -4,694 +4,108 @@
         "trigger": "level_end",
         "level_nid": "6B",
         "condition": "True",
-        "commands": [
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "clean_up_roaming",
-                []
-            ],
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "add_unit",
-                [
-                    "Sal",
-                    "14,3"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Sages14",
-                    "13,3"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Sages",
-                    "13,5"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Lingering Clouds"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sages (Sages)",
-                    "13,5",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sal",
-                    "14,3",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sages",
-                    "Left",
-                    "Sages14",
-                    "MidRight",
-                    "Sal",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ok, pops. You better tell me what's up."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "I feel you ought to... *COUGH*|Urk... be more responsible."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I'm sure that you understand our concerns."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Hm...|I don't see the point!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Come on, Milord!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "La! LA!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Son... I-"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Javi",
-                    "9,13"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Javi",
-                    "13,7"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Puzzling Truth"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Javi",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Your Majesty, there appears to be Monsdorian wyverns breaching the perimeter!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Huh, those goons?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Oh dear...|Their commander?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "One can only assume King Oberon himself."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We have to stand our ground, right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Your Majesty?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "I don't know if we can handle their might..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Pfft! Wyverns are no match for my bow!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "You would stand no match.|King Oberon of Monsdor, he raised his own siblings.|But, despite being a caring family man, he is fiercely dangerous..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "You suggest we... flee?|But, this is our home!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "I can't believe it..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Okay, Sal. You take the boy... and your platoon.|Go through the underground passage..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "But, pops!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "As you wish."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sal",
-                    "13,4"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Sal",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sages",
-                    "13,4",
-                    "normal",
-                    "stack"
-                ]
-            ],
-            [
-                "pair_up",
-                [
-                    "Sages",
-                    "Sal"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Let go!|I want to...{c:bop_portrait;Sages} GAH!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "My apologies, your highness."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sal",
-                    "Sages"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sal",
-                    "23,4",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "I refuse to leave you.|My group will stand strong!|Come!"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "OtherOutro",
-                    "south",
-                    "OtherOutro",
-                    "normal",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Alright, Javi. I will stand with you..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Javi",
-                    "Sages14"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "EnemyOutro",
-                    "south",
-                    "EnemyOutro",
-                    "normal",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Oberon",
-                    "Left",
-                    "Sages14",
-                    "MidRight",
-                    "Javi",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "So, we finally meet."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Indeed, though... why?|Why go through such lengths to attack us?|Based on... *COUGH* baseless conjecture?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Oh, it appears you're not as sharp as I thought."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Do not taunt his Majesty!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "I do not recall speaking to you.|Now, where was I? Ah, yes. It should be obvious.|Aurelia is powerful, they have plentiful resources.|Resources that my people would appreciate.|I have much to gain by siding with Aurelia..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "You'd kill all those innocents..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "I can't know for certain if you ordered for prince Elias to be killed.|But I'd like to take my chances.|My soul would be cleansed if I resolve this unholy transgression."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Why would I want him dead?|Aurelia and Arcei were on peaceful terms!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Look. The assassin praised to you.|Clearly you believe yourself as a false God."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Sages14",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Sages14"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "*COUGH* Hnrgh..."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Javi",
-                    "13,4"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Sages14",
-                    "FarRight"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Javi",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "You... You should leave.|Please, we can resolve this without fighting..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Hmph, you trust your liege?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Always."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Well, let's see if you're willing to die for him!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sages14",
-                    "Oberon",
-                    "Javi"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "Oberon",
-                    "Javi",
-                    "hit1,miss2",
-                    "Parashu,TacticalEdge",
-                    "FLAG(force_animation)"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Oberon",
-                    "Left",
-                    "Sages14",
-                    "FarRight",
-                    "Javi",
-                    "MidRight"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Javi",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Still standing? Impressive.|Most crumble to dust."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "I... I would..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Excuse me?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "You wondered... if I would die for... King Sages...|I would, in a heartbeat..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Javi...|Please, I'll hand myself over to you, after all...|Wouldn't Aurelia want to deal with me personally?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "I suppose, I would still get credit for bringing you in..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "N-no..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Silence!|Or I'll swing again!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Don't... go..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "I am afraid I have to do this, I'm sorry..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Put... put the warp staff down..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "Thank you... for your service..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Javi"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Javi",
-                    "warp"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "OtherOutro",
-                    "warp"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "How honourable..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages14",
-                    "*COUGH* Just... get this over with.|I'll accept anything, so long as my people are safe..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oberon",
-                    "Good, away we go!"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "Boey",
-                    "None"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nclean_up_roaming\nremove_all_units\nadd_unit;Sal;14,3\nadd_unit;Sages14;13,3\nadd_unit;Sages;13,5\nmusic;Lingering Clouds\ntransition;open\nmove_unit;Sages (Sages);13,5;FLAG(no_block);FLAG(no_follow)\nmove_unit;Sal;14,3;FLAG(no_follow)\nmulti_add_portrait;Sages;Left;Sages14;MidRight;Sal;FarRight\nspeak;Sages;Ok, pops. You better tell me what's up.\nspeak;Sages14;I feel you ought to... *COUGH*|Urk... be more responsible.\nspeak;Sal;I'm sure that you understand our concerns.\nspeak;Sages;Hm...|I don't see the point!\nspeak;Sal;Come on, Milord!\nspeak;Sages;La! LA!\nspeak;Sages14;Son... I-\nadd_unit;Javi;9,13\nmove_unit;Javi;13,7\nmusic;Puzzling Truth\nadd_portrait;Javi;FarRight\nspeak;Javi;Your Majesty, there appears to be Monsdorian wyverns breaching the perimeter!\nspeak;Sages;Huh, those goons?\nspeak;Sages14;Oh dear...|Their commander?\nspeak;Javi;One can only assume King Oberon himself.\nspeak;Sal;We have to stand our ground, right?\nspeak;Sages14;...;FLAG(no_talk)\nspeak;Sal;Your Majesty?\nspeak;Sages14;I don't know if we can handle their might...\nspeak;Sages;Pfft! Wyverns are no match for my bow!\nspeak;Sages14;You would stand no match.|King Oberon of Monsdor, he raised his own siblings.|But, despite being a caring family man, he is fiercely dangerous...\nspeak;Sal;You suggest we... flee?|But, this is our home!\nspeak;Javi;I can't believe it...\nspeak;Sages14;Okay, Sal. You take the boy... and your platoon.|Go through the underground passage...\nspeak;Sages;But, pops!\nspeak;Sal;As you wish.\nmove_unit;Sal;13,4\nmove_portrait;Sal;MidLeft\nmove_unit;Sages;13,4;normal;stack\npair_up;Sages;Sal\nspeak;Sages;Let go!|I want to...{c:bop_portrait;Sages} GAH!\nspeak;Sal;My apologies, your highness.\nmulti_remove_portrait;Sal;Sages\nmove_unit;Sal;23,4;FLAG(no_follow)\nspeak;Javi;I refuse to leave you.|My group will stand strong!|Come!\nspawn_group;OtherOutro;south;OtherOutro;normal;stack;FLAG(no_follow)\nspeak;Sages14;Alright, Javi. I will stand with you...\nmulti_remove_portrait;Javi;Sages14\nspawn_group;EnemyOutro;south;EnemyOutro;normal;stack;FLAG(no_follow)\nmulti_add_portrait;Oberon;Left;Sages14;MidRight;Javi;FarRight\nspeak;Oberon;So, we finally meet.\nspeak;Sages14;Indeed, though... why?|Why go through such lengths to attack us?|Based on... *COUGH* baseless conjecture?\nspeak;Oberon;Oh, it appears you're not as sharp as I thought.\nspeak;Javi;Do not taunt his Majesty!\nspeak;Oberon;I do not recall speaking to you.|Now, where was I? Ah, yes. It should be obvious.|Aurelia is powerful, they have plentiful resources.|Resources that my people would appreciate.|I have much to gain by siding with Aurelia...\nspeak;Sages14;You'd kill all those innocents...\nspeak;Oberon;I can't know for certain if you ordered for prince Elias to be killed.|But I'd like to take my chances.|My soul would be cleansed if I resolve this unholy transgression.\nspeak;Sages14;Why would I want him dead?|Aurelia and Arcei were on peaceful terms!\nspeak;Oberon;Look. The assassin praised to you.|Clearly you believe yourself as a false God.\nexpression;Sages14;CloseEyes\nbop_portrait;Sages14\nspeak;Sages14;*COUGH* Hnrgh...\nmove_unit;Javi;13,4\nmove_portrait;Sages14;FarRight\nmove_portrait;Javi;MidRight\nspeak;Javi;You... You should leave.|Please, we can resolve this without fighting...\nspeak;Oberon;Hmph, you trust your liege?\nspeak;Javi;Always.\nspeak;Oberon;Well, let's see if you're willing to die for him!\nmulti_remove_portrait;Sages14;Oberon;Javi\ninteract_unit;Oberon;Javi;hit1,miss2;Parashu,TacticalEdge;FLAG(force_animation)\nmulti_add_portrait;Oberon;Left;Sages14;FarRight;Javi;MidRight\nexpression;Javi;CloseEyes\nspeak;Javi;...;FLAG(no_talk)\nspeak;Oberon;Still standing? Impressive.|Most crumble to dust.\nspeak;Javi;I... I would...\nspeak;Oberon;Excuse me?\nspeak;Javi;You wondered... if I would die for... King Sages...|I would, in a heartbeat...\nspeak;Sages14;Javi...|Please, I'll hand myself over to you, after all...|Wouldn't Aurelia want to deal with me personally?\nspeak;Oberon;I suppose, I would still get credit for bringing you in...\nspeak;Javi;N-no...\nspeak;Oberon;Silence!|Or I'll swing again!\nspeak;Javi;Don't... go...\nspeak;Sages14;I am afraid I have to do this, I'm sorry...\nspeak;Javi;Put... put the warp staff down...\nspeak;Sages14;Thank you... for your service...\nremove_portrait;Javi\nremove_unit;Javi;warp\nremove_group;OtherOutro;warp\nspeak;Oberon;How honourable...\nspeak;Sages14;*COUGH* Just... get this over with.|I'll accept anything, so long as my people are safe...\nspeak;Oberon;Good, away we go!\nchange_ai;Boey;None\ntransition;close\n"
+        "_source": [
+            "transition;close",
+            "if;game.get_unit('Boey').team == 'enemy2'",
+            "kill_unit;Boey;no_warn",
+            "end",
+            "clean_up_roaming",
+            "remove_all_units",
+            "add_unit;Sal;14,3",
+            "add_unit;Sages14;13,3",
+            "add_unit;Sages;13,5",
+            "music;Lingering Clouds",
+            "transition;open",
+            "move_unit;Sages (Sages);13,5;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Sal;14,3;FLAG(no_follow)",
+            "multi_add_portrait;Sages;Left;Sages14;MidRight;Sal;FarRight",
+            "speak;Sages;Ok, pops. You better tell me what's up.",
+            "speak;Sages14;I feel you ought to... *COUGH*|Urk... be more responsible.",
+            "speak;Sal;I'm sure that you understand our concerns.",
+            "speak;Sages;Hm...|I don't see the point!",
+            "speak;Sal;Come on, Milord!",
+            "speak;Sages;La! LA!",
+            "speak;Sages14;Son... I-",
+            "add_unit;Javi;9,13",
+            "move_unit;Javi;13,7",
+            "music;Puzzling Truth",
+            "add_portrait;Javi;FarRight",
+            "speak;Javi;Your Majesty, there appears to be Monsdorian wyverns breaching the perimeter!",
+            "speak;Sages;Huh, those goons?",
+            "speak;Sages14;Oh dear...|Their commander?",
+            "speak;Javi;One can only assume King Oberon himself.",
+            "speak;Sal;We have to stand our ground, right?",
+            "speak;Sages14;...;FLAG(no_talk)",
+            "speak;Sal;Your Majesty?",
+            "speak;Sages14;I don't know if we can handle their might...",
+            "speak;Sages;Pfft! Wyverns are no match for my bow!",
+            "speak;Sages14;You would stand no match.|King Oberon of Monsdor, he raised his own siblings.|But, despite being a caring family man, he is fiercely dangerous...",
+            "speak;Sal;You suggest we... flee?|But, this is our home!",
+            "speak;Javi;I can't believe it...",
+            "speak;Sages14;Okay, Sal. You take the boy... and your platoon.|Go through the underground passage...",
+            "speak;Sages;But, pops!",
+            "speak;Sal;As you wish.",
+            "move_unit;Sal;13,4",
+            "move_portrait;Sal;MidLeft",
+            "move_unit;Sages;13,4;normal;stack",
+            "pair_up;Sages;Sal",
+            "speak;Sages;Let go!|I want to...{c:bop_portrait;Sages} GAH!",
+            "speak;Sal;My apologies, your highness.",
+            "multi_remove_portrait;Sal;Sages",
+            "move_unit;Sal;23,4;FLAG(no_follow)",
+            "speak;Javi;I refuse to leave you.|My group will stand strong!|Come!",
+            "spawn_group;OtherOutro;south;OtherOutro;normal;stack;FLAG(no_follow)",
+            "speak;Sages14;Alright, Javi. I will stand with you...",
+            "multi_remove_portrait;Javi;Sages14",
+            "spawn_group;EnemyOutro;south;EnemyOutro;normal;stack;FLAG(no_follow)",
+            "multi_add_portrait;Oberon;Left;Sages14;MidRight;Javi;FarRight",
+            "speak;Oberon;So, we finally meet.",
+            "speak;Sages14;Indeed, though... why?|Why go through such lengths to attack us?|Based on... *COUGH* baseless conjecture?",
+            "speak;Oberon;Oh, it appears you're not as sharp as I thought.",
+            "speak;Javi;Do not taunt his Majesty!",
+            "speak;Oberon;I do not recall speaking to you.|Now, where was I? Ah, yes. It should be obvious.|Aurelia is powerful, they have plentiful resources.|Resources that my people would appreciate.|I have much to gain by siding with Aurelia...",
+            "speak;Sages14;You'd kill all those innocents...",
+            "speak;Oberon;I can't know for certain if you ordered for prince Elias to be killed.|But I'd like to take my chances.|My soul would be cleansed if I resolve this unholy transgression.",
+            "speak;Sages14;Why would I want him dead?|Aurelia and Arcei were on peaceful terms!",
+            "speak;Oberon;Look. The assassin praised to you.|Clearly you believe yourself as a false God.",
+            "expression;Sages14;CloseEyes",
+            "bop_portrait;Sages14",
+            "speak;Sages14;*COUGH* Hnrgh...",
+            "move_unit;Javi;13,4",
+            "move_portrait;Sages14;FarRight",
+            "move_portrait;Javi;MidRight",
+            "speak;Javi;You... You should leave.|Please, we can resolve this without fighting...",
+            "speak;Oberon;Hmph, you trust your liege?",
+            "speak;Javi;Always.",
+            "speak;Oberon;Well, let's see if you're willing to die for him!",
+            "multi_remove_portrait;Sages14;Oberon;Javi",
+            "interact_unit;Oberon;Javi;hit1,miss2;Parashu,TacticalEdge;FLAG(force_animation)",
+            "multi_add_portrait;Oberon;Left;Sages14;FarRight;Javi;MidRight",
+            "expression;Javi;CloseEyes",
+            "speak;Javi;...;FLAG(no_talk)",
+            "speak;Oberon;Still standing? Impressive.|Most crumble to dust.",
+            "speak;Javi;I... I would...",
+            "speak;Oberon;Excuse me?",
+            "speak;Javi;You wondered... if I would die for... King Sages...|I would, in a heartbeat...",
+            "speak;Sages14;Javi...|Please, I'll hand myself over to you, after all...|Wouldn't Aurelia want to deal with me personally?",
+            "speak;Oberon;I suppose, I would still get credit for bringing you in...",
+            "speak;Javi;N-no...",
+            "speak;Oberon;Silence!|Or I'll swing again!",
+            "speak;Javi;Don't... go...",
+            "speak;Sages14;I am afraid I have to do this, I'm sorry...",
+            "speak;Javi;Put... put the warp staff down...",
+            "speak;Sages14;Thank you... for your service...",
+            "remove_portrait;Javi",
+            "remove_unit;Javi;warp",
+            "remove_group;OtherOutro;warp",
+            "speak;Oberon;How honourable...",
+            "speak;Sages14;*COUGH* Just... get this over with.|I'll accept anything, so long as my people are safe...",
+            "speak;Oberon;Good, away we go!",
+            "change_ai;Boey;None",
+            "transition;close"
+        ]
     }
 ]

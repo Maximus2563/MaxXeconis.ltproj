@@ -4,24 +4,12 @@
         "trigger": "level_start",
         "level_nid": "FOWDebug",
         "condition": "True",
-        "commands": [
-            [
-                "level_var",
-                [
-                    "_fog_of_war",
-                    "1"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "_fog_of_war_radius",
-                    "4"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "_source": [
+            "level_var;_fog_of_war;1",
+            "level_var;_fog_of_war_radius;4"
+        ]
     }
 ]

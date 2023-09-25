@@ -2,11 +2,11 @@
     {
         "nid": "Smite",
         "name": "Smite",
-        "desc": "Pushes target ally 2 spaces away.",
+        "desc": "Pushes target ally up to 2 spaces away.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             0,
-            34
+            38
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "ability",
-                "Smite"
+                "SmiteA"
             ]
         ]
     }

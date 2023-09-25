@@ -4,46 +4,16 @@
         "trigger": "combat_end",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "has_skill(unit, 'KeenAnalysis') and is_dead(target)"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "{unit}",
-                    "PreviousSlay",
-                    "item_system.weapon_type(target, target.get_weapon())"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "has_skill(target, 'KeenAnalysis') and is_dead(unit)"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "{target}",
-                    "PreviousSlay",
-                    "item_system.weapon_type(unit, unit.get_weapon())"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "if;has_skill(unit, 'KeenAnalysis') and is_dead(target)\n    set_unit_field;{unit};PreviousSlay;item_system.weapon_type(target, target.get_weapon())\nend\nif;has_skill(target, 'KeenAnalysis') and is_dead(unit)\n    set_unit_field;{target};PreviousSlay;item_system.weapon_type(unit, unit.get_weapon())\nend\n"
+        "_source": [
+            "if;has_skill(unit, 'KeenAnalysis') and is_dead(target)",
+            "set_unit_field;{unit};PreviousSlay;item_system.weapon_type(target, target.get_weapon())",
+            "end",
+            "if;has_skill(target, 'KeenAnalysis') and is_dead(unit)",
+            "set_unit_field;{target};PreviousSlay;item_system.weapon_type(unit, unit.get_weapon())",
+            "end"
+        ]
     }
 ]

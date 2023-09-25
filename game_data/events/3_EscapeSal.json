@@ -4,42 +4,15 @@
         "trigger": "Escape",
         "level_nid": "3",
         "condition": "region.nid == 'EscapeSal'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Whew... Now that everyone is here, let's hurry up!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Sal",
-                    "",
-                    "West"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Sal;Left\nspeak;Sal;Whew... Now that everyone is here, let's hurry up!\nremove_portrait;Sal\nremove_unit;Sal;;West\nwin_game\n"
+        "_source": [
+            "add_portrait;Sal;Left",
+            "speak;Sal;Whew... Now that everyone is here, let's hurry up!",
+            "remove_portrait;Sal",
+            "remove_unit;Sal;;West",
+            "win_game"
+        ]
     }
 ]

@@ -4,38 +4,14 @@
         "trigger": "unit_death",
         "level_nid": "10",
         "condition": "unit.nid == '102'",
-        "commands": [
-            [
-                "move_item",
-                [
-                    "102",
-                    "Leap"
-                ]
-            ],
-            [
-                "move_item",
-                [
-                    "102",
-                    "Leap"
-                ]
-            ],
-            [
-                "move_item",
-                [
-                    "102",
-                    "Leap"
-                ]
-            ],
-            [
-                "move_item",
-                [
-                    "102",
-                    "Leap"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "move_item;102;Leap\nmove_item;102;Leap\nmove_item;102;Leap\nmove_item;102;Leap\n"
+        "_source": [
+            "move_item;102;Leap",
+            "move_item;102;Leap",
+            "move_item;102;Leap",
+            "move_item;102;Leap"
+        ]
     }
 ]

@@ -4,44 +4,18 @@
         "trigger": "on_talk",
         "level_nid": "DEBUG",
         "condition": "unit.nid == 'Boey' and unit2.nid == 'Angel'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Angel",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Boey",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "(Insert racism here)."
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Angel;Left;no_block\nadd_portrait;Boey;Right\nspeak;Angel;(Insert racism here).\n\n\n"
+        "_source": [
+            "add_portrait;Angel;Left;no_block",
+            "add_portrait;Boey;Right",
+            "speak;Angel;(Insert racism here).",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

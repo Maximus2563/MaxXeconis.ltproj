@@ -4,602 +4,99 @@
         "trigger": "level_start",
         "level_nid": "5",
         "condition": "True",
-        "commands": [
-            [
-                "chapter_title",
-                []
-            ],
-            [
-                "change_background",
-                [
-                    "Lakeside Night"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "add_weather",
-                [
-                    "night"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Whew... A town.|One not on the border too... A place to catch some rest, finally!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Sal",
-                    "21,6"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sal",
-                    "8,4"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "8,4"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Nighttime Tavern 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Ok, time to get some rooms..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sages",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Maxime",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Strange People"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Now hang on! You cheated!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Maxime",
-                    "Is that what we're calling it, mhm?|Just admit you're bad at the game!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Is that..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "No WAY! These cards... They're rigged!|Or something...|Hah... Hahahaha!|Of course! You're right, my good fellow, I thought we were playing Go Fish!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Maxime",
-                    "Wh-Whahahaha!|You're an interesting one! But time for me to turn in for the night.|Maybe we'll meet again and I'll fleece you for more of your money!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ah, have a good one, sir!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Sages",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Maxime",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Y-Your Highness!?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Woah! Sal! That's crazy!|Crazy... wait, why are you here?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We had to attend the Aurelian coronation in place of your father, due to his health..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Well, the old man is kicking, right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Yes, but with the prince being assassinated and fingers pointed at Arcein...|Uh, who is your friend here?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Maxime",
-                    "Ah, forgive me mademoiselle. Maxime, but you can call me Max.|Look, I won't pry into your... complicated affairs.|Good night, my lady."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Maxime"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "So... Prince Elias... Murdered...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "The assassin praised Lord Sages in his last breath..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Man, those guys are not too bright are they?|As if any hired blade couldn't lie..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Precisely. But in our escape we may have uh... made things... delicate."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sounds tough...{c:wait;400} Oh well! Time to hit the hay and be off to a nicer place tomorrow!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "You don't sound too bothered, but we must make haste home to your father and plan our actions."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ugh, so stupid. The old man can handle it!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "You're the prince, and your fathers heir no less! You have to take some responsibility!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Nuh-uh!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Fine... Then I'll plan our course for tomorrow and we can part ways...|Now, sleep, your Highness."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Wahoo! See Sal, you get it!|See you on the flipside!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sages"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I weep for our country."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "end_skip",
-                []
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Aerial') and game.check_alive('Smoke') and game.check_alive('Landros')"
-                ]
-            ],
-            [
-                "add_base_convo",
-                [
-                    "Old Pals"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Roag') and game.check_alive('Pikno')"
-                ]
-            ],
-            [
-                "add_base_convo",
-                [
-                    "Pretty in Pink"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "base",
-                [
-                    "Nighttime Tavern 1",
-                    "Scarlet Blaze Camp 1"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Hm, I hear shouting outside. Someone fetch his Highness in case..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "music_clear",
-                []
-            ],
-            [
-                "add_unit",
-                [
-                    "Sal",
-                    "8,4",
-                    "fade",
-                    "stack"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Sages",
-                    "8,4",
-                    "fade",
-                    "stack"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "The Enemy Approaches"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sal",
-                    "8,5",
-                    "FLAG(no_follow)",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Sages",
-                    "8,6",
-                    "",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "21,6"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "Enemy",
-                    "east",
-                    "Enemy",
-                    "normal",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "21,6"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Byron",
-                    "Right",
-                    "Sal",
-                    "MidLeft",
-                    "Sages",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Surrender yourselves Arceini fools!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "They're persistent, it would be admirable if it weren't us they were after."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Buzz off already! This whole charade is foolish!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Well, well. The prince himself is here!|No doubt in kahoots with this plot."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ugh... This is all so stupid!|I had no such involvement!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Likely story! Why else would the prince be hiding away here?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I'm steadfast by your side, your Highness.|They won't listen to reason, but they might listen to our might."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ah, good show, Sal. You can handle this fine, hm?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "But! Hmph, the audacity!|I implore you to help us, your Highness."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Ehhh... If I feel like it...|This is all such a moodkiller, y'know?|Also, don't take that tone with me, you're my subordinate after all..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "So nonchalant! You will feel our fury, Arcein mutt!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I won't brook any insults to the prince!|Have at you!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "So it's fine when she does it..."
-                ]
-            ],
-            [
-                "prep",
-                [
-                    "1",
-                    "Logic Trinity"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "chapter_title\nchange_background;Lakeside Night\ntransition;open\nremove_all_units\nadd_weather;night\nadd_portrait;Sal;Right\nspeak;Sal;Whew... A town.|One not on the border too... A place to catch some rest, finally!\nremove_portrait;Sal\ntransition;Close\nchange_background\ntransition;Open\nadd_unit;Sal;21,6\nmove_unit;Sal;8,4\nflicker_cursor;8,4\ntransition;Close\nchange_background;Nighttime Tavern 1\ntransition;Open\nadd_portrait;Sal;Right\nspeak;Sal;Ok, time to get some rooms...\nadd_portrait;Sages;OffscreenLeft\nadd_portrait;Maxime;OffscreenLeft\nmusic;Strange People\nspeak;Sages;Now hang on! You cheated!\nspeak;Maxime;Is that what we're calling it, mhm?|Just admit you're bad at the game!\nspeak;Sal;Is that...\nspeak;Sages;No WAY! These cards... They're rigged!|Or something...|Hah... Hahahaha!|Of course! You're right, my good fellow, I thought we were playing Go Fish!\nspeak;Maxime;Wh-Whahahaha!|You're an interesting one! But time for me to turn in for the night.|Maybe we'll meet again and I'll fleece you for more of your money!\nspeak;Sages;Ah, have a good one, sir!\nmove_portrait;Sages;MidLeft\nmove_portrait;Maxime;FarLeft\nspeak;Sal;Y-Your Highness!?\nspeak;Sages;Woah! Sal! That's crazy!|Crazy... wait, why are you here?\nspeak;Sal;We had to attend the Aurelian coronation in place of your father, due to his health...\nspeak;Sages;Well, the old man is kicking, right?\nspeak;Sal;Yes, but with the prince being assassinated and fingers pointed at Arcein...|Uh, who is your friend here?\nspeak;Maxime;Ah, forgive me mademoiselle. Maxime, but you can call me Max.|Look, I won't pry into your... complicated affairs.|Good night, my lady.\nremove_portrait;Maxime\nspeak;Sages;So... Prince Elias... Murdered...?\nspeak;Sal;The assassin praised Lord Sages in his last breath...\nspeak;Sages;Man, those guys are not too bright are they?|As if any hired blade couldn't lie...\nspeak;Sal;Precisely. But in our escape we may have uh... made things... delicate.\nspeak;Sages;Sounds tough...{c:wait;400} Oh well! Time to hit the hay and be off to a nicer place tomorrow!\nspeak;Sal;You don't sound too bothered, but we must make haste home to your father and plan our actions.\nspeak;Sages;Ugh, so stupid. The old man can handle it!\nspeak;Sal;You're the prince, and your fathers heir no less! You have to take some responsibility!\nspeak;Sages;Nuh-uh!\nspeak;Sal;Fine... Then I'll plan our course for tomorrow and we can part ways...|Now, sleep, your Highness.\nspeak;Sages;Wahoo! See Sal, you get it!|See you on the flipside!\nremove_portrait;Sages\nspeak;Sal;I weep for our country.\nremove_portrait;Sal\nend_skip\nif;game.check_alive('Aerial') and game.check_alive('Smoke') and game.check_alive('Landros')\n    add_base_convo;Old Pals\nend\nif;game.check_alive('Roag') and game.check_alive('Pikno')\n    add_base_convo;Pretty in Pink\nend\nbase;Nighttime Tavern 1;Scarlet Blaze Camp 1\nadd_portrait;Sal;Right\nspeak;Sal;Hm, I hear shouting outside. Someone fetch his Highness in case...\nremove_portrait;Sal\ntransition;Close\nchange_background\nmusic_clear\nadd_unit;Sal;8,4;fade;stack\nadd_unit;Sages;8,4;fade;stack\ntransition;Open\nmusic;The Enemy Approaches\nmove_unit;Sal;8,5;FLAG(no_follow);FLAG(no_block)\nmove_unit;Sages;8,6;;stack;FLAG(no_follow)\nmove_cursor;21,6\nspawn_group;Enemy;east;Enemy;normal;stack;FLAG(no_follow)\nflicker_cursor;21,6\nmulti_add_portrait;Byron;Right;Sal;MidLeft;Sages;FarLeft\nspeak;Byron;Surrender yourselves Arceini fools!\nspeak;Sal;They're persistent, it would be admirable if it weren't us they were after.\nspeak;Sages;Buzz off already! This whole charade is foolish!\nspeak;Byron;Well, well. The prince himself is here!|No doubt in kahoots with this plot.\nspeak;Sages;Ugh... This is all so stupid!|I had no such involvement!\nspeak;Byron;Likely story! Why else would the prince be hiding away here?\nspeak;Sal;I'm steadfast by your side, your Highness.|They won't listen to reason, but they might listen to our might.\nspeak;Sages;Ah, good show, Sal. You can handle this fine, hm?\nspeak;Sal;But! Hmph, the audacity!|I implore you to help us, your Highness.\nspeak;Sages;Ehhh... If I feel like it...|This is all such a moodkiller, y'know?|Also, don't take that tone with me, you're my subordinate after all...\nspeak;Byron;So nonchalant! You will feel our fury, Arcein mutt!\nspeak;Sal;I won't brook any insults to the prince!|Have at you!\nspeak;Sages;So it's fine when she does it...\nprep;1;Logic Trinity\n"
+        "_source": [
+            "chapter_title",
+            "change_background;Lakeside Night",
+            "transition;open",
+            "remove_all_units",
+            "add_weather;night",
+            "add_portrait;Sal;Right",
+            "speak;Sal;Whew... A town.|One not on the border too... A place to catch some rest, finally!",
+            "remove_portrait;Sal",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "add_unit;Sal;21,6",
+            "move_unit;Sal;8,4",
+            "flicker_cursor;8,4",
+            "transition;Close",
+            "change_background;Nighttime Tavern 1",
+            "transition;Open",
+            "add_portrait;Sal;Right",
+            "speak;Sal;Ok, time to get some rooms...",
+            "add_portrait;Sages;OffscreenLeft",
+            "add_portrait;Maxime;OffscreenLeft",
+            "music;Strange People",
+            "speak;Sages;Now hang on! You cheated!",
+            "speak;Maxime;Is that what we're calling it, mhm?|Just admit you're bad at the game!",
+            "speak;Sal;Is that...",
+            "speak;Sages;No WAY! These cards... They're rigged!|Or something...|Hah... Hahahaha!|Of course! You're right, my good fellow, I thought we were playing Go Fish!",
+            "speak;Maxime;Wh-Whahahaha!|You're an interesting one! But time for me to turn in for the night.|Maybe we'll meet again and I'll fleece you for more of your money!",
+            "speak;Sages;Ah, have a good one, sir!",
+            "move_portrait;Sages;MidLeft",
+            "move_portrait;Maxime;FarLeft",
+            "speak;Sal;Y-Your Highness!?",
+            "speak;Sages;Woah! Sal! That's crazy!|Crazy... wait, why are you here?",
+            "speak;Sal;We had to attend the Aurelian coronation in place of your father, due to his health...",
+            "speak;Sages;Well, the old man is kicking, right?",
+            "speak;Sal;Yes, but with the prince being assassinated and fingers pointed at Arcein...|Uh, who is your friend here?",
+            "speak;Maxime;Ah, forgive me mademoiselle. Maxime, but you can call me Max.|Look, I won't pry into your... complicated affairs.|Good night, my lady.",
+            "remove_portrait;Maxime",
+            "speak;Sages;So... Prince Elias... Murdered...?",
+            "speak;Sal;The assassin praised Lord Sages in his last breath...",
+            "speak;Sages;Man, those guys are not too bright are they?|As if any hired blade couldn't lie...",
+            "speak;Sal;Precisely. But in our escape we may have uh... made things... delicate.",
+            "speak;Sages;Sounds tough...{c:wait;400} Oh well! Time to hit the hay and be off to a nicer place tomorrow!",
+            "speak;Sal;You don't sound too bothered, but we must make haste home to your father and plan our actions.",
+            "speak;Sages;Ugh, so stupid. The old man can handle it!",
+            "speak;Sal;You're the prince, and your fathers heir no less! You have to take some responsibility!",
+            "speak;Sages;Nuh-uh!",
+            "speak;Sal;Fine... Then I'll plan our course for tomorrow and we can part ways...|Now, sleep, your Highness.",
+            "speak;Sages;Wahoo! See Sal, you get it!|See you on the flipside!",
+            "remove_portrait;Sages",
+            "speak;Sal;I weep for our country.",
+            "remove_portrait;Sal",
+            "end_skip",
+            "if;game.check_alive('Aerial') and game.check_alive('Smoke') and game.check_alive('Landros')",
+            "add_base_convo;Old Pals",
+            "end",
+            "if;game.check_alive('Roag') and game.check_alive('Pikno')",
+            "add_base_convo;Pretty in Pink",
+            "end",
+            "base;Nighttime Tavern 1;Scarlet Blaze Camp 1",
+            "add_portrait;Sal;Right",
+            "speak;Sal;Hm, I hear shouting outside. Someone fetch his Highness in case...",
+            "remove_portrait;Sal",
+            "transition;Close",
+            "change_background",
+            "music_clear",
+            "add_unit;Sal;8,4;fade;stack",
+            "add_unit;Sages;8,4;fade;stack",
+            "transition;Open",
+            "music;The Enemy Approaches",
+            "move_unit;Sal;8,5;FLAG(no_follow);FLAG(no_block)",
+            "move_unit;Sages;8,6;;stack;FLAG(no_follow)",
+            "move_cursor;21,6",
+            "spawn_group;Enemy;east;Enemy;normal;stack;FLAG(no_follow)",
+            "flicker_cursor;21,6",
+            "multi_add_portrait;Byron;Right;Sal;MidLeft;Sages;FarLeft",
+            "speak;Byron;Surrender yourselves Arceini fools!",
+            "speak;Sal;They're persistent, it would be admirable if it weren't us they were after.",
+            "speak;Sages;Buzz off already! This whole charade is foolish!",
+            "speak;Byron;Well, well. The prince himself is here!|No doubt in kahoots with this plot.",
+            "speak;Sages;Ugh... This is all so stupid!|I had no such involvement!",
+            "speak;Byron;Likely story! Why else would the prince be hiding away here?",
+            "speak;Sal;I'm steadfast by your side, your Highness.|They won't listen to reason, but they might listen to our might.",
+            "speak;Sages;Ah, good show, Sal. You can handle this fine, hm?",
+            "speak;Sal;But! Hmph, the audacity!|I implore you to help us, your Highness.",
+            "speak;Sages;Ehhh... If I feel like it...|This is all such a moodkiller, y'know?|Also, don't take that tone with me, you're my subordinate after all...",
+            "speak;Byron;So nonchalant! You will feel our fury, Arcein mutt!",
+            "speak;Sal;I won't brook any insults to the prince!|Have at you!",
+            "speak;Sages;So it's fine when she does it...",
+            "prep;1;Logic Trinity"
+        ]
     }
 ]

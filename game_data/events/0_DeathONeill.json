@@ -4,37 +4,14 @@
         "trigger": "unit_death",
         "level_nid": "0",
         "condition": "unit.nid == \"Pierre\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Pierre",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pierre",
-                    "Vot... How can zis be..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Pierre",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Pierre"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Pierre;Left\nspeak;Pierre;Vot... How can zis be...\nexpression;Pierre;CloseEyes\nremove_portrait;Pierre\n"
+        "_source": [
+            "add_portrait;Pierre;Left",
+            "speak;Pierre;Vot... How can zis be...",
+            "expression;Pierre;CloseEyes",
+            "remove_portrait;Pierre"
+        ]
     }
 ]

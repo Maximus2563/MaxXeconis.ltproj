@@ -4,28 +4,13 @@
         "trigger": "turn_change",
         "level_nid": "13",
         "condition": "game.turncount == 7",
-        "commands": [
-            [
-                "spawn_group",
-                [
-                    "Pegasi",
-                    "north",
-                    "Pegasi",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "spawn_group;Pegasi;north;Pegasi;normal;closest\n\n"
+        "_source": [
+            "spawn_group;Pegasi;north;Pegasi;normal;closest",
+            "",
+            ""
+        ]
     }
 ]

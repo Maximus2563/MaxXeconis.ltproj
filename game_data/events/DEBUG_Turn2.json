@@ -3,29 +3,14 @@
         "name": "Turn2",
         "trigger": "turn_change",
         "level_nid": "DEBUG",
-        "condition": "game.turncount == 2",
-        "commands": [
-            [
-                "change_team",
-                [
-                    "Bone",
-                    "enemy2"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "EirikaSupport",
-                    "True"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "condition": "game.turncount == 1",
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "change_team;Bone;enemy2\ngame_var;EirikaSupport;True\n"
+        "_source": [
+            "if;game.get_unit.team('Apple') == 'player'",
+            "speak;meme;hahaha meme",
+            "end"
+        ]
     }
 ]

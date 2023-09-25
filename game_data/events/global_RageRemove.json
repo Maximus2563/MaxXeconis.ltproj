@@ -4,18 +4,11 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "remove_skill",
-                [
-                    "Joker",
-                    "RageChild",
-                    "FLAG(no_banner)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "remove_skill;Joker;RageChild;FLAG(no_banner)\n"
+        "_source": [
+            "remove_skill;Joker;RageChild;FLAG(no_banner)"
+        ]
     }
 ]

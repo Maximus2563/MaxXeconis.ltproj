@@ -4,65 +4,18 @@
         "trigger": "combat_start",
         "level_nid": "10",
         "condition": "check_pair('Leap', 'Nabin')",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Nabin",
-                    "Left",
-                    "Leap",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "I have to see for myself, are you worthy...?|I have to... clear all this doubt, the only way I know how."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Please! You don't have to do this..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "I'm sorry, but this will determine... what I have to do."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I understand doubt, fear...|Do what you must, but please be true to yourself..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "I'll try..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Nabin",
-                    "Leap"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "multi_add_portrait;Nabin;Left;Leap;Right\nspeak;Nabin;I have to see for myself, are you worthy...?|I have to... clear all this doubt, the only way I know how.\nspeak;Leap;Please! You don't have to do this...\nspeak;Nabin;I'm sorry, but this will determine... what I have to do.\nspeak;Leap;I understand doubt, fear...|Do what you must, but please be true to yourself...\nspeak;Nabin;I'll try...\nmulti_remove_portrait;Nabin;Leap\n"
+        "_source": [
+            "multi_add_portrait;Nabin;Left;Leap;Right",
+            "speak;Nabin;I have to see for myself, are you worthy...?|I have to... clear all this doubt, the only way I know how.",
+            "speak;Leap;Please! You don't have to do this...",
+            "speak;Nabin;I'm sorry, but this will determine... what I have to do.",
+            "speak;Leap;I understand doubt, fear...|Do what you must, but please be true to yourself...",
+            "speak;Nabin;I'll try...",
+            "multi_remove_portrait;Nabin;Leap",
+            ""
+        ]
     }
 ]

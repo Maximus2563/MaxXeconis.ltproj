@@ -2,7 +2,7 @@
     {
         "nid": "ShiftyManners",
         "name": "Shifty Manners",
-        "desc": "Grants +15 avoid when receiving terrain bonuses.",
+        "desc": "Grants +20 avoid when receiving positive terrain bonuses.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             1,
@@ -15,7 +15,7 @@
             ],
             [
                 "avoid",
-                15
+                20
             ],
             [
                 "condition",

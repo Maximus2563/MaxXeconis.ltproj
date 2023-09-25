@@ -4,67 +4,18 @@
         "trigger": "combat_end",
         "level_nid": "8",
         "condition": "unit.nid == 'Humphrey' and (unit.get_hp() / unit.stats['HP'] < 0.5)",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Humphrey",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Grr... I gotta run away from these vermin!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Humphrey"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "Humphrey",
-                    "HumphreyEscape"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Dean",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Do not let him escape!|He'll only harass more of our people!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Dean"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "EscapeBlank",
-                    "0,14",
-                    "1,15",
-                    "normal",
-                    "Escape"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Humphrey;Left\nspeak;Humphrey;Grr... I gotta run away from these vermin!\nremove_portrait;Humphrey\nchange_ai;Humphrey;HumphreyEscape\nadd_portrait;Dean;Right\nspeak;Dean;Do not let him escape!|He'll only harass more of our people!\nremove_portrait;Dean\nadd_region;EscapeBlank;0,14;1,15;normal;Escape\n"
+        "_source": [
+            "add_portrait;Humphrey;Left",
+            "speak;Humphrey;Grr... I gotta run away from these vermin!",
+            "remove_portrait;Humphrey",
+            "change_ai;Humphrey;HumphreyEscape",
+            "add_portrait;Dean;Right",
+            "speak;Dean;Do not let him escape!|He'll only harass more of our people!",
+            "remove_portrait;Dean",
+            "add_region;EscapeBlank;0,14;1,15;normal;Escape"
+        ]
     }
 ]

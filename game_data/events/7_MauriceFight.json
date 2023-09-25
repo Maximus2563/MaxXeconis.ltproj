@@ -4,30 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "7",
         "condition": "check_default('Maurice', ['Leap'])",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Maurice",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Maurice",
-                    "Look, it's not personal. I won't let you cross this bridge.|I need your money! Now!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Maurice"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Maurice;Left\nspeak;Maurice;Look, it's not personal. I won't let you cross this bridge.|I need your money! Now!\nremove_portrait;Maurice\n"
+        "_source": [
+            "add_portrait;Maurice;Left",
+            "speak;Maurice;Look, it's not personal. I won't let you cross this bridge.|I need your money! Now!",
+            "remove_portrait;Maurice"
+        ]
     }
 ]

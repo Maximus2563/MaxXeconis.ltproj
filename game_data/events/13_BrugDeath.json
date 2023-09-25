@@ -4,77 +4,22 @@
         "trigger": "unit_death",
         "level_nid": "13",
         "condition": "unit.nid == 'Brug'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Brug",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Brug",
-                    "I was... urgg...."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Brug",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Brug"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Bandit2",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit2",
-                    "We better scarper!|Retreat!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Bandit2"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Brug;Left\nspeak;Brug;I was... urgg....\nexpression;Brug;CloseEyes\nremove_portrait;Brug\nadd_portrait;Bandit2;Right\nspeak;Bandit2;We better scarper!|Retreat!\nremove_portrait;Bandit2\n\n\n\n\n"
+        "_source": [
+            "add_portrait;Brug;Left",
+            "speak;Brug;I was... urgg....",
+            "expression;Brug;CloseEyes",
+            "remove_portrait;Brug",
+            "add_portrait;Bandit2;Right",
+            "speak;Bandit2;We better scarper!|Retreat!",
+            "remove_portrait;Bandit2",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

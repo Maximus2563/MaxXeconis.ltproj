@@ -4,146 +4,29 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Landros'",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Landros",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Land, hey!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "LAAAAND!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "Oh, Lord Sages.|How are you?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I'm good! What are you reading?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "A primer on meteorology, storms are so fascinating..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Really? They just make you all wet and blustered!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "Well, sure, but it's also fascinating how it occurs."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Isn't it the will of the Goddess?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "Hmph, that fable?|I don't care if it's blasphemy, but I care about the truth."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "So, how does it happen?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "I can give you the long, or the short explanation."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "How about very short?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "Alright.|The air around us has differing press-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "On second thoughts, maybe I'll pass."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "Suit yourself, bye."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Landros",
-                    "Sages"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Landros"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "multi_add_portrait;Landros;Right;Sages;Left\nspeak;Sages;Land, hey!\nspeak;Landros;...;FLAG(no_talk)\nspeak;Sages;LAAAAND!\nspeak;Landros;Oh, Lord Sages.|How are you?\nspeak;Sages;I'm good! What are you reading?\nspeak;Landros;A primer on meteorology, storms are so fascinating...\nspeak;Sages;Really? They just make you all wet and blustered!\nspeak;Landros;Well, sure, but it's also fascinating how it occurs.\nspeak;Sages;Isn't it the will of the Goddess?\nspeak;Landros;Hmph, that fable?|I don't care if it's blasphemy, but I care about the truth.\nspeak;Sages;So, how does it happen?\nspeak;Landros;I can give you the long, or the short explanation.\nspeak;Sages;How about very short?\nspeak;Landros;Alright.|The air around us has differing press-\nspeak;Sages;On second thoughts, maybe I'll pass.\nspeak;Landros;Suit yourself, bye.\nmulti_remove_portrait;Landros;Sages\nremove_talk;Sages;Landros\n"
+        "_source": [
+            "multi_add_portrait;Landros;Right;Sages;Left",
+            "speak;Sages;Land, hey!",
+            "speak;Landros;...;FLAG(no_talk)",
+            "speak;Sages;LAAAAND!",
+            "speak;Landros;Oh, Lord Sages.|How are you?",
+            "speak;Sages;I'm good! What are you reading?",
+            "speak;Landros;A primer on meteorology, storms are so fascinating...",
+            "speak;Sages;Really? They just make you all wet and blustered!",
+            "speak;Landros;Well, sure, but it's also fascinating how it occurs.",
+            "speak;Sages;Isn't it the will of the Goddess?",
+            "speak;Landros;Hmph, that fable?|I don't care if it's blasphemy, but I care about the truth.",
+            "speak;Sages;So, how does it happen?",
+            "speak;Landros;I can give you the long, or the short explanation.",
+            "speak;Sages;How about very short?",
+            "speak;Landros;Alright.|The air around us has differing press-",
+            "speak;Sages;On second thoughts, maybe I'll pass.",
+            "speak;Landros;Suit yourself, bye.",
+            "multi_remove_portrait;Landros;Sages",
+            "remove_talk;Sages;Landros"
+        ]
     }
 ]

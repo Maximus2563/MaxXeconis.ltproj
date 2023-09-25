@@ -4,241 +4,44 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Guy'",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Guy",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Guy, you're a funny guy."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Huh? I guess."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "What are you doing here?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "It was quiet, I suppose."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I can appreciate some good peace and quiet, myself."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Well, doesn't feel like it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Wha-?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Look, I'm exhausted, I could hardly sleep after that battle."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Whereas I slept for far too long..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "I wish I coulda swapped with you, then."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sorry for disturbing your dozing, Guy."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Pykroe') and game.check_alive('Hyper')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Well, it's less earache than with my pals."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I see, they are somewhat animated, yes."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "That's generous.|I love 'em to bits, but man, the noise..."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "game.check_dead('Pykroe') and game.check_alive('Hyper')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "At least it's distracting me from the thoughts of Pykroes dead body..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sorry for your loss..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "I'll get over it, eventually."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "game.check_alive('Pykroe') and game.check_dead('Hyper')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "At least it's distracting me from the thoughts of my Hypers dead body..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sorry for your loss..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "I'll get over it, eventually."
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "At least it's distracting me from the thoughts of my friends dead bodies..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sorry for your loss..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "I'll get over it, eventually."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Alright, see ya, GuySir! Enjoy your nap!"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Guy",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Guy",
-                    "Zzz..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Guy",
-                    "Sages"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Guy"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "multi_add_portrait;Guy;Right;Sages;Left\nspeak;Sages;Guy, you're a funny guy.\nspeak;Guy;Huh? I guess.\nspeak;Sages;What are you doing here?\nspeak;Guy;It was quiet, I suppose.\nspeak;Sages;I can appreciate some good peace and quiet, myself.\nspeak;Guy;Well, doesn't feel like it.\nspeak;Sages;Wha-?\nspeak;Guy;Look, I'm exhausted, I could hardly sleep after that battle.\nspeak;Sages;Whereas I slept for far too long...\nspeak;Guy;I wish I coulda swapped with you, then.\nspeak;Sages;Sorry for disturbing your dozing, Guy.\nif;game.check_alive('Pykroe') and game.check_alive('Hyper')\n    speak;Guy;Well, it's less earache than with my pals.\n    speak;Sages;I see, they are somewhat animated, yes.\n    speak;Guy;That's generous.|I love 'em to bits, but man, the noise...\nelif;game.check_dead('Pykroe') and game.check_alive('Hyper')\n    speak;Guy;At least it's distracting me from the thoughts of Pykroes dead body...\n    speak;Sages;Sorry for your loss...\n    speak;Guy;I'll get over it, eventually.\nelif;game.check_alive('Pykroe') and game.check_dead('Hyper')\n    speak;Guy;At least it's distracting me from the thoughts of my Hypers dead body...\n    speak;Sages;Sorry for your loss...\n    speak;Guy;I'll get over it, eventually.\nelse\n    speak;Guy;At least it's distracting me from the thoughts of my friends dead bodies...\n    speak;Sages;Sorry for your loss...\n    speak;Guy;I'll get over it, eventually.\nend\nspeak;Sages;Alright, see ya, GuySir! Enjoy your nap!\nexpression;Guy;CloseEyes\nspeak;Guy;Zzz...\nmulti_remove_portrait;Guy;Sages\nremove_talk;Sages;Guy\n"
+        "_source": [
+            "multi_add_portrait;Guy;Right;Sages;Left",
+            "speak;Sages;Guy, you're a funny guy.",
+            "speak;Guy;Huh? I guess.",
+            "speak;Sages;What are you doing here?",
+            "speak;Guy;It was quiet, I suppose.",
+            "speak;Sages;I can appreciate some good peace and quiet, myself.",
+            "speak;Guy;Well, doesn't feel like it.",
+            "speak;Sages;Wha-?",
+            "speak;Guy;Look, I'm exhausted, I could hardly sleep after that battle.",
+            "speak;Sages;Whereas I slept for far too long...",
+            "speak;Guy;I wish I coulda swapped with you, then.",
+            "speak;Sages;Sorry for disturbing your dozing, Guy.",
+            "if;game.check_alive('Pykroe') and game.check_alive('Hyper')",
+            "speak;Guy;Well, it's less earache than with my pals.",
+            "speak;Sages;I see, they are somewhat animated, yes.",
+            "speak;Guy;That's generous.|I love 'em to bits, but man, the noise...",
+            "elif;game.check_dead('Pykroe') and game.check_alive('Hyper')",
+            "speak;Guy;At least it's distracting me from the thoughts of Pykroes dead body...",
+            "speak;Sages;Sorry for your loss...",
+            "speak;Guy;I'll get over it, eventually.",
+            "elif;game.check_alive('Pykroe') and game.check_dead('Hyper')",
+            "speak;Guy;At least it's distracting me from the thoughts of my Hypers dead body...",
+            "speak;Sages;Sorry for your loss...",
+            "speak;Guy;I'll get over it, eventually.",
+            "else",
+            "speak;Guy;At least it's distracting me from the thoughts of my friends dead bodies...",
+            "speak;Sages;Sorry for your loss...",
+            "speak;Guy;I'll get over it, eventually.",
+            "end",
+            "speak;Sages;Alright, see ya, GuySir! Enjoy your nap!",
+            "expression;Guy;CloseEyes",
+            "speak;Guy;Zzz...",
+            "multi_remove_portrait;Guy;Sages",
+            "remove_talk;Sages;Guy"
+        ]
     }
 ]

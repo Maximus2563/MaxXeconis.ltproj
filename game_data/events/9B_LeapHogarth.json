@@ -4,380 +4,62 @@
         "trigger": "on_talk",
         "level_nid": "9B",
         "condition": "unit2.nid == 'Hogarth'",
-        "commands": [
-            [
-                "music",
-                [
-                    "Lord Chief Justice Stronghart ~ Time-Keeper of the Law"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Prof",
-                    "FarLeft",
-                    "Leap",
-                    "MidLeft",
-                    "Hogarth",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Duke Hogarth!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Hm? I wasn't aware my appointment was pushed forward?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "We didn't make an appointment..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Precisely, what business do you have with me?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I'm Leap, from Moonglade-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Lucky you, to have Marquess Zio. Paragon of bravery.|Leap... What a strange name...|And you, glasses?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Prof. Please, we're asking you to change your mind about Aurelia."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "A Professor? Hm?|With all due respect, while your knowledge must be great...|I like having my good karma with the Goddess, it is more important than any information."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Well, Monsdor, their ally, is attacking our villages.|How's that for information?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "I see... That sounds rather belligerent.|However, I do like my good graces with Aurelia."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Perhaps you could at least make Aurelia denounce Monsdor..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Well, though Monsdor is brutal, I see no purity for Arcei."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "What do you mean?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "They attacked one of my villages! With monsters no less!|Sacrilege, I tell you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "But we don't think it was-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Hold on."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Hm? Hold on?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "You say there was a monster attack, right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Yes, just earlier."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "We dealt with that attack en rout to your manor."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Oh? Well, I am very thankful... But I really must stay true to-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "But, how would you know of the attacks?|I saw no messengers coming towards your manor on the way here."
-                ]
-            ],
-            [
-                "music_clear",
-                [
-                    "2000"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Now that I think about it...|You're right, Prof."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Leave now, my servants..."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Cleric",
-                    "1,14",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Cleric2",
-                    "3,14",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "On Black Wings"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Now, where were we? Ah yes.|What exactly are you trying to accuse me of, Professor?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Remember, I am the most powerful man in the Grahment Alliance.|Tread carefully, with your unholy conjecture."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "You'd let the other regions of your country die out...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "With all due respect, which is dwindling over time, yes.|My region comes first.|I would do anything for Ilkrest territory."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Including setting monsters on your own settlements?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Accusations, accusations.|As an intelligent man, I thought you'd know the importance of evidence.|Of which, you have none."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I suppose so..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Now, I appreciate your defense of my land.|I hope you will accept a token of my gratitude.|However, I am afraid I don't know if I can help you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Thank you, Duke."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "I think I didn't hear a certain persons gratitude?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Thank... you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hogarth",
-                    "Marvellous! Now, go into my library.|Take your reward from the chest, I thank you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Very generous of you, Milord."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Yeah, yeah. Thanks."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Prof",
-                    "Hogarth"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "LibraryRoof"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "LibraryDoorOpen",
-                    "fade"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Leap",
-                    "Hogarth"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "music;Lord Chief Justice Stronghart ~ Time-Keeper of the Law\nmulti_add_portrait;Prof;FarLeft;Leap;MidLeft;Hogarth;Right\nspeak;Leap;Duke Hogarth!\nspeak;Hogarth;Hm? I wasn't aware my appointment was pushed forward?\nspeak;Leap;We didn't make an appointment...\nspeak;Hogarth;Precisely, what business do you have with me?\nspeak;Leap;I'm Leap, from Moonglade-\nspeak;Hogarth;Lucky you, to have Marquess Zio. Paragon of bravery.|Leap... What a strange name...|And you, glasses?\nspeak;Prof;Prof. Please, we're asking you to change your mind about Aurelia.\nspeak;Hogarth;A Professor? Hm?|With all due respect, while your knowledge must be great...|I like having my good karma with the Goddess, it is more important than any information.\nspeak;Prof;Well, Monsdor, their ally, is attacking our villages.|How's that for information?\nspeak;Hogarth;I see... That sounds rather belligerent.|However, I do like my good graces with Aurelia.\nspeak;Leap;Perhaps you could at least make Aurelia denounce Monsdor...\nspeak;Hogarth;Well, though Monsdor is brutal, I see no purity for Arcei.\nspeak;Leap;What do you mean?\nspeak;Hogarth;They attacked one of my villages! With monsters no less!|Sacrilege, I tell you.\nspeak;Leap;But we don't think it was-\nspeak;Prof;Hold on.\nspeak;Hogarth;Hm? Hold on?\nspeak;Prof;You say there was a monster attack, right?\nspeak;Hogarth;Yes, just earlier.\nspeak;Prof;We dealt with that attack en rout to your manor.\nspeak;Hogarth;Oh? Well, I am very thankful... But I really must stay true to-\nspeak;Prof;But, how would you know of the attacks?|I saw no messengers coming towards your manor on the way here.\nmusic_clear;2000\nspeak;Hogarth;...;FLAG(no_talk)\nspeak;Leap;Now that I think about it...|You're right, Prof.\nspeak;Hogarth;Leave now, my servants...\nmove_unit;Cleric;1,14;FLAG(no_block);FLAG(no_follow)\nmove_unit;Cleric2;3,14;FLAG(no_follow)\nmusic;On Black Wings\nspeak;Hogarth;Now, where were we? Ah yes.|What exactly are you trying to accuse me of, Professor?\nspeak;Prof;...;FLAG(no_talk)\nspeak;Hogarth;Remember, I am the most powerful man in the Grahment Alliance.|Tread carefully, with your unholy conjecture.\nspeak;Leap;You'd let the other regions of your country die out...?\nspeak;Hogarth;With all due respect, which is dwindling over time, yes.|My region comes first.|I would do anything for Ilkrest territory.\nspeak;Prof;Including setting monsters on your own settlements?\nspeak;Hogarth;Accusations, accusations.|As an intelligent man, I thought you'd know the importance of evidence.|Of which, you have none.\nspeak;Prof;I suppose so...\nspeak;Hogarth;Now, I appreciate your defense of my land.|I hope you will accept a token of my gratitude.|However, I am afraid I don't know if I can help you.\nspeak;Prof;Thank you, Duke.\nspeak;Leap;...;FLAG(no_talk)\nspeak;Hogarth;I think I didn't hear a certain persons gratitude?\nspeak;Leap;Thank... you.\nspeak;Hogarth;Marvellous! Now, go into my library.|Take your reward from the chest, I thank you.\nspeak;Prof;Very generous of you, Milord.\nspeak;Leap;Yeah, yeah. Thanks.\nmulti_remove_portrait;Leap;Prof;Hogarth\nsound;Unlock\nhide_layer;LibraryRoof\nshow_layer;LibraryDoorOpen;fade\nremove_talk;Leap;Hogarth\n"
+        "_source": [
+            "music;Lord Chief Justice Stronghart ~ Time-Keeper of the Law",
+            "multi_add_portrait;Prof;FarLeft;Leap;MidLeft;Hogarth;Right",
+            "speak;Leap;Duke Hogarth!",
+            "speak;Hogarth;Hm? I wasn't aware my appointment was pushed forward?",
+            "speak;Leap;We didn't make an appointment...",
+            "speak;Hogarth;Precisely, what business do you have with me?",
+            "speak;Leap;I'm Leap, from Moonglade-",
+            "speak;Hogarth;Lucky you, to have Marquess Zio. Paragon of bravery.|Leap... What a strange name...|And you, glasses?",
+            "speak;Prof;Prof. Please, we're asking you to change your mind about Aurelia.",
+            "speak;Hogarth;A Professor? Hm?|With all due respect, while your knowledge must be great...|I like having my good karma with the Goddess, it is more important than any information.",
+            "speak;Prof;Well, Monsdor, their ally, is attacking our villages.|How's that for information?",
+            "speak;Hogarth;I see... That sounds rather belligerent.|However, I do like my good graces with Aurelia.",
+            "speak;Leap;Perhaps you could at least make Aurelia denounce Monsdor...",
+            "speak;Hogarth;Well, though Monsdor is brutal, I see no purity for Arcei.",
+            "speak;Leap;What do you mean?",
+            "speak;Hogarth;They attacked one of my villages! With monsters no less!|Sacrilege, I tell you.",
+            "speak;Leap;But we don't think it was-",
+            "speak;Prof;Hold on.",
+            "speak;Hogarth;Hm? Hold on?",
+            "speak;Prof;You say there was a monster attack, right?",
+            "speak;Hogarth;Yes, just earlier.",
+            "speak;Prof;We dealt with that attack en rout to your manor.",
+            "speak;Hogarth;Oh? Well, I am very thankful... But I really must stay true to-",
+            "speak;Prof;But, how would you know of the attacks?|I saw no messengers coming towards your manor on the way here.",
+            "music_clear;2000",
+            "speak;Hogarth;...;FLAG(no_talk)",
+            "speak;Leap;Now that I think about it...|You're right, Prof.",
+            "speak;Hogarth;Leave now, my servants...",
+            "move_unit;Cleric;1,14;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Cleric2;3,14;FLAG(no_follow)",
+            "music;On Black Wings",
+            "speak;Hogarth;Now, where were we? Ah yes.|What exactly are you trying to accuse me of, Professor?",
+            "speak;Prof;...;FLAG(no_talk)",
+            "speak;Hogarth;Remember, I am the most powerful man in the Grahment Alliance.|Tread carefully, with your unholy conjecture.",
+            "speak;Leap;You'd let the other regions of your country die out...?",
+            "speak;Hogarth;With all due respect, which is dwindling over time, yes.|My region comes first.|I would do anything for Ilkrest territory.",
+            "speak;Prof;Including setting monsters on your own settlements?",
+            "speak;Hogarth;Accusations, accusations.|As an intelligent man, I thought you'd know the importance of evidence.|Of which, you have none.",
+            "speak;Prof;I suppose so...",
+            "speak;Hogarth;Now, I appreciate your defense of my land.|I hope you will accept a token of my gratitude.|However, I am afraid I don't know if I can help you.",
+            "speak;Prof;Thank you, Duke.",
+            "speak;Leap;...;FLAG(no_talk)",
+            "speak;Hogarth;I think I didn't hear a certain persons gratitude?",
+            "speak;Leap;Thank... you.",
+            "speak;Hogarth;Marvellous! Now, go into my library.|Take your reward from the chest, I thank you.",
+            "speak;Prof;Very generous of you, Milord.",
+            "speak;Leap;Yeah, yeah. Thanks.",
+            "multi_remove_portrait;Leap;Prof;Hogarth",
+            "sound;Unlock",
+            "hide_layer;LibraryRoof",
+            "show_layer;LibraryDoorOpen;fade",
+            "remove_talk;Leap;Hogarth"
+        ]
     }
 ]

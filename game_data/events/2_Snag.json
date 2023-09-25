@@ -4,17 +4,11 @@
         "trigger": "unit_death",
         "level_nid": "2",
         "condition": "unit.nid == 'SNAG'",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "SnagBroken",
-                    "fade"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "show_layer;SnagBroken;fade\n"
+        "_source": [
+            "show_layer;SnagBroken;fade"
+        ]
     }
 ]

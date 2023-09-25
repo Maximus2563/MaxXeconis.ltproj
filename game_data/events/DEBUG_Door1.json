@@ -4,32 +4,15 @@
         "trigger": "Door",
         "level_nid": "DEBUG",
         "condition": "region.nid == 'Door1'",
-        "commands": [
-            [
-                "unlock",
-                [
-                    "{unit}"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "DoorNorth"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "unlock;{unit}\nsound;Unlock\nshow_layer;DoorNorth\n"
+        "_source": [
+            "unlock;{unit}",
+            "sound;Unlock",
+            "show_layer;DoorNorth",
+            "",
+            ""
+        ]
     }
 ]

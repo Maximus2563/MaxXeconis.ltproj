@@ -16,6 +16,10 @@
             [
                 "avoid",
                 10
+            ],
+            [
+                "is_terrain",
+                null
             ]
         ]
     }

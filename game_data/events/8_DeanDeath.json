@@ -4,56 +4,17 @@
         "trigger": "unit_death",
         "level_nid": "8",
         "condition": "unit.nid == 'Dean'",
-        "commands": [
-            [
-                "music",
-                [
-                    "108 Lament"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Dean",
-                    "Left",
-                    "Prof",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "How, awful..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Father! No! How could this happen..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Dean",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Dean"
-                ]
-            ],
-            [
-                "lose_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "music;108 Lament\nmulti_add_portrait;Dean;Left;Prof;Right\nspeak;Dean;How, awful...\nspeak;Prof;Father! No! How could this happen...\nexpression;Dean;CloseEyes\nremove_portrait;Dean\nlose_game\n"
+        "_source": [
+            "music;108 Lament",
+            "multi_add_portrait;Dean;Left;Prof;Right",
+            "speak;Dean;How, awful...",
+            "speak;Prof;Father! No! How could this happen...",
+            "expression;Dean;CloseEyes",
+            "remove_portrait;Dean",
+            "lose_game"
+        ]
     }
 ]

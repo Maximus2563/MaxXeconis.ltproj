@@ -4,74 +4,21 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.nid == 'Prof' ",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Prof",
-                    "Right"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.level.nid in ['7', '8', '9', '10']"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "108 Lament"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Argh.. Leap..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Prof",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Prof"
-                ]
-            ],
-            [
-                "lose_game",
-                []
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I'll have to back off, for now..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Prof"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Prof;Right\nif;game.level.nid in ['7', '8', '9', '10']\n    music;108 Lament\n    speak;Prof;Argh.. Leap...\n    expression;Prof;CloseEyes\n    remove_portrait;Prof\n    lose_game\nelse\n    speak;Prof;I'll have to back off, for now...\n    remove_portrait;Prof\nend\n"
+        "_source": [
+            "add_portrait;Prof;Right",
+            "if;game.level.nid in ['7', '8', '9', '10']",
+            "music;108 Lament",
+            "speak;Prof;Argh.. Leap...",
+            "expression;Prof;CloseEyes",
+            "remove_portrait;Prof",
+            "lose_game",
+            "else",
+            "speak;Prof;I'll have to back off, for now...",
+            "remove_portrait;Prof",
+            "end"
+        ]
     }
 ]

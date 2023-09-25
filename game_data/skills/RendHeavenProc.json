@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RendHeavenProc",
+        "name": "Rend Heaven",
+        "desc": "Add half of foe's STR/MAG to damage (Trigger% = SKL*1.5),\nif using physical/magical damage respectively.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            40
+        ],
+        "components": [
+            [
+                "attack_proc",
+                "RendHeaven"
+            ],
+            [
+                "proc_rate",
+                "REND_HEAVEN"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

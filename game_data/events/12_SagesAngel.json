@@ -4,233 +4,37 @@
         "trigger": "on_talk",
         "level_nid": "12",
         "condition": "check_pair('Sages', 'Angel')",
-        "commands": [
-            [
-                "music",
-                [
-                    "With Us!"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sages",
-                    "Left",
-                    "Angel",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Hm, you don't seem like the rest of these guys..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "What's that supposed to mean, huh?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Oh, well you seem more, stylish! Of course!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Ahuh, right. That's true."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Well, we don't need to fight..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Not much choice for me, y'know.|If I don't kill you, they'll kill me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Oh my... Why don't you join us?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Me?|Well, you fancy kind aren't exactly my scene..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Well, we do have gold to spare..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Hm, aight..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "You'll join us?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "I guess. I pledge allegiance to the bag."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Welcome aboard, I am Prince Sages of Arcei."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Angel.|I'm from Arcei, actually..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Really? What brings you here?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Well, y'know... nothing in particular..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Were you wanted..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Wanted? Who wouldn't want all of this?|...|But yeah."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Consider yourself pardoned!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Angel",
-                    "Cool, now if you'll excuse me, these mid guys are gonna pay."
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Angel",
-                    "player"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "Angel",
-                    "None"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Angel"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Boey",
-                    "Angel"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "music;With Us!\nmulti_add_portrait;Sages;Left;Angel;Right\nspeak;Sages;Hm, you don't seem like the rest of these guys...\nspeak;Angel;What's that supposed to mean, huh?\nspeak;Sages;Oh, well you seem more, stylish! Of course!\nspeak;Angel;Ahuh, right. That's true.\nspeak;Sages;Well, we don't need to fight...\nspeak;Angel;Not much choice for me, y'know.|If I don't kill you, they'll kill me.\nspeak;Sages;Oh my... Why don't you join us?\nspeak;Angel;Me?|Well, you fancy kind aren't exactly my scene...\nspeak;Sages;Well, we do have gold to spare...\nspeak;Angel;Hm, aight...\nspeak;Sages;You'll join us?\nspeak;Angel;I guess. I pledge allegiance to the bag.\nspeak;Sages;Welcome aboard, I am Prince Sages of Arcei.\nspeak;Angel;Angel.|I'm from Arcei, actually...\nspeak;Sages;Really? What brings you here?\nspeak;Angel;Well, y'know... nothing in particular...\nspeak;Sages;Were you wanted...\nspeak;Angel;Wanted? Who wouldn't want all of this?|...|But yeah.\nspeak;Sages;Consider yourself pardoned!\nspeak;Angel;Cool, now if you'll excuse me, these mid guys are gonna pay.\nchange_team;Angel;player\nchange_ai;Angel;None\nremove_talk;Sages;Angel\nremove_talk;Boey;Angel\nmusic_fade_back\n\n\n\n\n\n\n\n\n"
+        "_source": [
+            "music;With Us!",
+            "multi_add_portrait;Sages;Left;Angel;Right",
+            "speak;Sages;Hm, you don't seem like the rest of these guys...",
+            "speak;Angel;What's that supposed to mean, huh?",
+            "speak;Sages;Oh, well you seem more, stylish! Of course!",
+            "speak;Angel;Ahuh, right. That's true.",
+            "speak;Sages;Well, we don't need to fight...",
+            "speak;Angel;Not much choice for me, y'know.|If I don't kill you, they'll kill me.",
+            "speak;Sages;Oh my... Why don't you join us?",
+            "speak;Angel;Me?|Well, you fancy kind aren't exactly my scene...",
+            "speak;Sages;Well, we do have gold to spare...",
+            "speak;Angel;Hm, aight...",
+            "speak;Sages;You'll join us?",
+            "speak;Angel;I guess. I pledge allegiance to the bag.",
+            "speak;Sages;Welcome aboard, I am Prince Sages of Arcei.",
+            "speak;Angel;Angel.|I'm from Arcei, actually...",
+            "speak;Sages;Really? What brings you here?",
+            "speak;Angel;Well, y'know... nothing in particular...",
+            "speak;Sages;Were you wanted...",
+            "speak;Angel;Wanted? Who wouldn't want all of this?|...|But yeah.",
+            "speak;Sages;Consider yourself pardoned!",
+            "speak;Angel;Cool, now if you'll excuse me, these mid guys are gonna pay.",
+            "change_team;Angel;player",
+            "change_ai;Angel;None",
+            "remove_talk;Sages;Angel",
+            "remove_talk;Boey;Angel",
+            "music_fade_back"
+        ]
     }
 ]

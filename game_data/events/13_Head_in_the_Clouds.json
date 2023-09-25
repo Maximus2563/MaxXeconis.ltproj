@@ -4,304 +4,45 @@
         "trigger": "on_base_convo",
         "level_nid": "13",
         "condition": "unit == 'Head in the Clouds'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Sky Evening"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Sunlight Through the Trees"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sal",
-                    "FarRight",
-                    "Sages",
-                    "MidRight",
-                    "Land",
-                    "Left"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Landros",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "How strange, I'm brought back to you flops!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Why're you being so mean?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "You both betrayed me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I wasn't about that lifestyle, girl.|I cleaned myself up, yup, yup!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "Well, sure! But he didn't!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Not my fault you got caught."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "So, whose fault was it?! Mine?!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "I see how it is...|Look, I'm sorry..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Thanks."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Go you, girl!|You learnt how to apologise!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "I'm sorry... that you two are delulu!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "WOAH!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Look, we're back together again.|Can we stop this crap?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Please..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "Okay, okay.|But, this time, we stick together, okay?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Sure.|Even if Apple's not here..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Oh! I have a gift for you!|Consider it a apology!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "Uhm, Sages..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Yeah?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "What am I going to do with A LANCE?!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Uh, you can spearfish with it..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "Fish?! Gross!|Huh, this does seem... fishy.|Like the way you smell!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Sages, did you get that for yourself...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I don't know what you mean...|But, I'll take it if you don't want it!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Land",
-                    "Anyways..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Sages",
-                    "Axereaver"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "ignore_base_convo",
-                [
-                    "Head in the Clouds"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nchange_background;Sky Evening\nmusic;Sunlight Through the Trees\ntransition;open\nmulti_add_portrait;Sal;FarRight;Sages;MidRight;Land;Left\nexpression;Landros;Smile\nspeak;Land;How strange, I'm brought back to you flops!\nspeak;Sages;Why're you being so mean?\nspeak;Land;You both betrayed me!\nspeak;Sages;I wasn't about that lifestyle, girl.|I cleaned myself up, yup, yup!\nspeak;Land;Well, sure! But he didn't!\nspeak;Sal;Not my fault you got caught.\nspeak;Land;So, whose fault was it?! Mine?!\nspeak;Sal;...;FLAG(no_talk)\nspeak;Sages;...;FLAG(no_talk)\nspeak;Land;I see how it is...|Look, I'm sorry...\nspeak;Sal;Thanks.\nspeak;Sages;Go you, girl!|You learnt how to apologise!\nspeak;Land;I'm sorry... that you two are delulu!\nspeak;Sages;WOAH!\nspeak;Sal;Look, we're back together again.|Can we stop this crap?\nspeak;Sages;Please...\nspeak;Land;Okay, okay.|But, this time, we stick together, okay?\nspeak;Sal;Sure.|Even if Apple's not here...\nspeak;Sages;Oh! I have a gift for you!|Consider it a apology!\nspeak;Land;Uhm, Sages...\nspeak;Sages;Yeah?\nspeak;Land;What am I going to do with A LANCE?!\nspeak;Sages;Uh, you can spearfish with it...\nspeak;Land;Fish?! Gross!|Huh, this does seem... fishy.|Like the way you smell!\nspeak;Sal;Sages, did you get that for yourself...?\nspeak;Sages;I don't know what you mean...|But, I'll take it if you don't want it!\nspeak;Land;Anyways...\ntransition;close\ngive_item;Sages;Axereaver\nmusic_fade_back\nchange_background\nignore_base_convo;Head in the Clouds\ntransition;open\n\n\n\n\n\n\n"
+        "_source": [
+            "transition;close",
+            "change_background;Sky Evening",
+            "music;Sunlight Through the Trees",
+            "transition;open",
+            "multi_add_portrait;Sal;FarRight;Sages;MidRight;Landros;Left",
+            "expression;Landros;Smile",
+            "speak;Landros;The sky out here is so beautiful...",
+            "speak;Sages;Landros...?",
+            "speak;Landros;Hm, 5 Oktas of cloud...",
+            "speak;Sages;Earth to Landros!",
+            "speak;Landros;Huh? Oh, hello...",
+            "speak;Sal;Lost in the clouds, huh?",
+            "speak;Landros;Yup, I was inspired and thought of a new bow technique.",
+            "speak;Sages;You going to share it with me?",
+            "speak;Landros;Haha, sorry but no.|I'll have to surpass your abilities somehow.",
+            "speak;Sal;I didn't know you were so competitive...",
+            "speak;Landros;Well, I can try when I want to.",
+            "speak;Sages;Well, at least this new technique should help us in the future!",
+            "speak;Landros;Of course!|Watch out foes, my arrows will hit their mark!",
+            "transition;close",
+            "give_skill;Landros;Sharpshooter",
+            "music_fade_back",
+            "change_background",
+            "ignore_base_convo;Head in the Clouds",
+            "transition;open",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

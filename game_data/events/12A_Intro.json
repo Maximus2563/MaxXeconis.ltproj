@@ -4,556 +4,93 @@
         "trigger": "level_start",
         "level_nid": "12A",
         "condition": "True",
-        "commands": [
-            [
-                "chapter_title",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "SagesGang",
-                    "south",
-                    "SagesGang",
-                    "normal",
-                    "stack",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Dean",
-                    "Right",
-                    "Sages",
-                    "MidLeft",
-                    "Sal",
-                    "Left",
-                    "Javi",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Javi",
-                    "HalfCloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Please, we need your aid, kind Sir."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Those robes... Arcei?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "I know this is hasty, but we need somewhere to shelter our friend."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Argh..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "We're already targetted by Monsdor, this won't help."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Monsdor is still after you? Villains..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Though seeing you here, so dishevelled...|Hardly villains.|Though, my heartstrings aren't really enough to get aid."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Please, sir...|Zio wanted to support us, but...|We haven't seen her around."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Neither. The Marquess is... flighty."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Look, we need anyones help."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I..."
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Dean",
-                    "Sages",
-                    "Sal",
-                    "Javi"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "LeapGang",
-                    "west",
-                    "LeapGang",
-                    "normal",
-                    "stack"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Dean",
-                    "MidRight",
-                    "Sages",
-                    "MidLeft",
-                    "Sal",
-                    "Left",
-                    "Javi",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Prof",
-                    "Right",
-                    "Leap",
-                    "FarRight"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Javi",
-                    "HalfCloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Father!The Duke..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "He's in kahoots with some weird people...|The monsters, he was involved, I'm sure!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Monsters... Duke von Ilkrest?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We've also dealt with monsters, and Monsdor."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Seems we have a common foe."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "He also locked us in a cell, until his son..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "He locked you away...?|Nobody does that to my son, or you, Leap."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "How awful..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We need a plan."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "King... Aurelia..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "The King of Monsdor wants to take him to Aurelia, it seems."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Their pact...|So it wasn't purely their own volition?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I believe Grahment is collateral to get to us.|For Monsdor to display their strength, so Aurelia respects them."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "We're just some kind of spectacle?!|Our people have suffered, given their lives up!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Leap"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Oh, that's it!|Monsdor needs to learn a lesson!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Indeed..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Though your father will be unsafe in Aurelia, if we dawdle..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "We'll need to divide our forces."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "We're quite capable fighters."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I know this is a lot to ask, but can you handle Monsdor?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Oh, trust me, I sure will try!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "But how will we reach Aurelia quickly...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "We have several docks across the north.|I think you'll be able to seek passage."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sounds like a plan!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I apologise for doubting Arcei...|Dean Essar, at your service.|This is my son and his partner, Leap."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I, as you folk know, am Prince Sages of Arcei!|With my retainers, Sal and Javi!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Please... I'm..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I'll have my best clerics treat your friend here, in the meantime."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Thank... You..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "It's so nice to meet you all!|But, I'm sorry we have to part so soon..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "My good fellows, the game is afoot!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Sal",
-                    "Javi",
-                    "Prof"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sages",
-                    "Dean"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Blazing')"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Village 2 Daytime"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sages",
-                    "MidLeft",
-                    "Leap",
-                    "FarLeft",
-                    "Blazing",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Lord Sages, if I might have a moment?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sure, what's up?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Well, I appreciate working with your squad, truly.|However, I believe it'd be best for me to fight alongside our Grahment acquaintances here."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Makes sense, Leap, you wanna take him?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Sure! We need all the help we can!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Thank you for your understanding...|Take care on your trip, Lord Sages."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Alright, let's get moving!"
-                ]
-            ],
-            [
-                "change_party",
-                [
-                    "Blazing",
-                    "LeapGroup"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "skip_save",
-                [
-                    "true"
-                ]
-            ],
-            [
-                "set_next_chapter",
-                [
-                    "12"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "chapter_title\ntransition;open\nspawn_group;SagesGang;south;SagesGang;normal;stack;FLAG(no_follow)\nmulti_add_portrait;Dean;Right;Sages;MidLeft;Sal;Left;Javi;FarLeft\nexpression;Javi;HalfCloseEyes\nspeak;Sages;Please, we need your aid, kind Sir.\nspeak;Dean;Those robes... Arcei?\nspeak;Sal;I know this is hasty, but we need somewhere to shelter our friend.\nspeak;Javi;Argh...\nspeak;Dean;We're already targetted by Monsdor, this won't help.\nspeak;Sages;Monsdor is still after you? Villains...\nspeak;Dean;Though seeing you here, so dishevelled...|Hardly villains.|Though, my heartstrings aren't really enough to get aid.\nspeak;Sal;Please, sir...|Zio wanted to support us, but...|We haven't seen her around.\nspeak;Dean;Neither. The Marquess is... flighty.\nspeak;Sages;Look, we need anyones help.\nspeak;Dean;I...\nmulti_add_portrait;Dean;Sages;Sal;Javi\nspawn_group;LeapGang;west;LeapGang;normal;stack\nmulti_add_portrait;Dean;MidRight;Sages;MidLeft;Sal;Left;Javi;FarLeft\nmulti_add_portrait;Prof;Right;Leap;FarRight\nexpression;Javi;HalfCloseEyes\nspeak;Prof;Father!The Duke...\nspeak;Leap;He's in kahoots with some weird people...|The monsters, he was involved, I'm sure!\nspeak;Dean;Monsters... Duke von Ilkrest?\nspeak;Sal;We've also dealt with monsters, and Monsdor.\nspeak;Prof;Seems we have a common foe.\nspeak;Leap;He also locked us in a cell, until his son...\nspeak;Dean;He locked you away...?|Nobody does that to my son, or you, Leap.\nspeak;Sages;How awful...\nspeak;Sal;We need a plan.\nspeak;Javi;King... Aurelia...\nspeak;Sal;The King of Monsdor wants to take him to Aurelia, it seems.\nspeak;Dean;Their pact...|So it wasn't purely their own volition?\nspeak;Sages;I believe Grahment is collateral to get to us.|For Monsdor to display their strength, so Aurelia respects them.\nspeak;Leap;We're just some kind of spectacle?!|Our people have suffered, given their lives up!\nspeak;Prof;...;FLAG(no_talk)\nbop_portrait;Leap\nspeak;Leap;Oh, that's it!|Monsdor needs to learn a lesson!\nspeak;Sages;Indeed...\nspeak;Sal;Though your father will be unsafe in Aurelia, if we dawdle...\nspeak;Dean;We'll need to divide our forces.\nspeak;Prof;We're quite capable fighters.\nspeak;Sages;I know this is a lot to ask, but can you handle Monsdor?\nspeak;Leap;Oh, trust me, I sure will try!\nspeak;Sal;But how will we reach Aurelia quickly...?\nspeak;Dean;We have several docks across the north.|I think you'll be able to seek passage.\nspeak;Sages;Sounds like a plan!\nspeak;Dean;I apologise for doubting Arcei...|Dean Essar, at your service.|This is my son and his partner, Leap.\nspeak;Sages;I, as you folk know, am Prince Sages of Arcei!|With my retainers, Sal and Javi!\nspeak;Javi;Please... I'm...\nspeak;Dean;I'll have my best clerics treat your friend here, in the meantime.\nspeak;Javi;Thank... You...\nspeak;Leap;It's so nice to meet you all!|But, I'm sorry we have to part so soon...\nspeak;Sages;My good fellows, the game is afoot!\nmulti_remove_portrait;Leap;Sal;Javi;Prof\nmulti_remove_portrait;Sages;Dean\ntransition;close\nif;game.check_alive('Blazing')\n    change_background;Village 2 Daytime\n    transition;open\n    multi_add_portrait;Sages;MidLeft;Leap;FarLeft;Blazing;Right\n    speak;Blazing;Lord Sages, if I might have a moment?\n    speak;Sages;Sure, what's up?\n    speak;Blazing;Well, I appreciate working with your squad, truly.|However, I believe it'd be best for me to fight alongside our Grahment acquaintances here.\n    speak;Sages;Makes sense, Leap, you wanna take him?\n    speak;Leap;Sure! We need all the help we can!\n    speak;Blazing;Thank you for your understanding...|Take care on your trip, Lord Sages.\n    speak;Sages;Alright, let's get moving!\n    change_party;Blazing;LeapGroup\n    transition;close\nend\nskip_save;true\nset_next_chapter;12\nwin_game\n\n\n\n"
+        "_source": [
+            "chapter_title",
+            "transition;open",
+            "spawn_group;SagesGang;south;SagesGang;normal;stack;FLAG(no_follow)",
+            "multi_add_portrait;Dean;Right;Sages;MidLeft;Sal;Left;Javi;FarLeft",
+            "expression;Javi;HalfCloseEyes",
+            "speak;Sages;Please, we need your aid, kind Sir.",
+            "speak;Dean;Those robes... Arcei?",
+            "speak;Sal;I know this is hasty, but we need somewhere to shelter our friend.",
+            "speak;Javi;Argh...",
+            "speak;Dean;We're already targetted by Monsdor, this won't help.",
+            "speak;Sages;Monsdor is still after you? Villains...",
+            "speak;Dean;Though seeing you here, so dishevelled...|Hardly villains.|Though, my heartstrings aren't really enough to get aid.",
+            "speak;Sal;Please, sir...|Zio wanted to support us, but...|We haven't seen her around.",
+            "speak;Dean;Neither. The Marquess is... flighty.",
+            "speak;Sages;Look, we need anyones help.",
+            "speak;Dean;I...",
+            "multi_add_portrait;Dean;Sages;Sal;Javi",
+            "spawn_group;LeapGang;west;LeapGang;normal;stack",
+            "multi_add_portrait;Dean;MidRight;Sages;MidLeft;Sal;Left;Javi;FarLeft",
+            "multi_add_portrait;Prof;Right;Leap;FarRight",
+            "expression;Javi;HalfCloseEyes",
+            "speak;Prof;Father!The Duke...",
+            "speak;Leap;He's in kahoots with some weird people...|The monsters, he was involved, I'm sure!",
+            "speak;Dean;Monsters... Duke von Ilkrest?",
+            "speak;Sal;We've also dealt with monsters, and Monsdor.",
+            "speak;Prof;Seems we have a common foe.",
+            "speak;Leap;He also locked us in a cell, until his son...",
+            "speak;Dean;He locked you away...?|Nobody does that to my son, or you, Leap.",
+            "speak;Sages;How awful...",
+            "speak;Sal;We need a plan.",
+            "speak;Javi;King... Aurelia...",
+            "speak;Sal;The King of Monsdor wants to take him to Aurelia, it seems.",
+            "speak;Dean;Their pact...|So it wasn't purely their own volition?",
+            "speak;Sages;I believe Grahment is collateral to get to us.|For Monsdor to display their strength, so Aurelia respects them.",
+            "speak;Leap;We're just some kind of spectacle?!|Our people have suffered, given their lives up!",
+            "speak;Prof;...;FLAG(no_talk)",
+            "bop_portrait;Leap",
+            "speak;Leap;Oh, that's it!|Monsdor needs to learn a lesson!",
+            "speak;Sages;Indeed...",
+            "speak;Sal;Though your father will be unsafe in Aurelia, if we dawdle in Monsdor...",
+            "speak;Dean;We'll need to divide our forces.",
+            "speak;Prof;We're quite capable fighters.",
+            "speak;Sages;I know this is a lot to ask, but can you handle Monsdor?",
+            "speak;Leap;Oh, trust me, I sure will try!",
+            "speak;Prof;We're not quite that capable though... being realistic.",
+            "speak;Leap;Then what should we do?!",
+            "speak;Dean;I suggest the Khonsu desert.|Some of the tribes might offer help if you prove your might.",
+            "speak;Sal;Sounds like a plan, but how will we reach Aurelia quickly...?",
+            "speak;Dean;We have several docks across the north.|I think you'll be able to seek passage.",
+            "speak;Sages;Sounds like a plan!",
+            "speak;Dean;I apologise for doubting Arcei...|Dean Essar, at your service.|This is my son and his partner, Leap.",
+            "speak;Sages;I, as you folk know, am Prince Sages of Arcei!|With my retainers, Sal and Javi!",
+            "speak;Javi;Please... I'm...",
+            "speak;Dean;I'll have my best clerics treat your friend here, in the meantime.",
+            "speak;Javi;Thank... You...",
+            "speak;Leap;It's so nice to meet you all!|But, I'm sorry we have to part so soon...",
+            "speak;Sages;My good fellows, the game is afoot!",
+            "multi_remove_portrait;Leap;Sal;Javi;Prof",
+            "multi_remove_portrait;Sages;Dean",
+            "transition;close",
+            "if;game.check_alive('Blazing')",
+            "change_background;Village 2 Daytime",
+            "transition;open",
+            "multi_add_portrait;Sages;MidLeft;Leap;FarLeft;Blazing;Right",
+            "speak;Blazing;Lord Sages, if I might have a moment?",
+            "speak;Sages;Sure, what's up?",
+            "speak;Blazing;Well, I appreciate working with your squad, truly.|However, I believe it'd be best for me to fight alongside our Grahment acquaintances here.",
+            "speak;Sages;Makes sense, Leap, you wanna take him?",
+            "speak;Leap;Sure! We need all the help we can!",
+            "speak;Blazing;Thank you for your understanding...|Take care on your trip, Lord Sages.",
+            "speak;Sages;Alright, let's get moving!",
+            "change_party;Blazing;LeapGroup",
+            "transition;close",
+            "end",
+            "skip_save;true",
+            "set_next_chapter;12",
+            "win_game",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 ]

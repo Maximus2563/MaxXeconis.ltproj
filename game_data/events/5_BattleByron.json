@@ -4,30 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "5",
         "condition": "check_default('Byron', ['Sages'])",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Byron",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "I was hired to knock you guys down a peg.|May as well have fun with it too!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Byron"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Byron;Left\nspeak;Byron;I was hired to knock you guys down a peg.|May as well have fun with it too!\nremove_portrait;Byron\n"
+        "_source": [
+            "add_portrait;Byron;Left",
+            "speak;Byron;I was hired to knock you guys down a peg.|May as well have fun with it too!",
+            "remove_portrait;Byron"
+        ]
     }
 ]

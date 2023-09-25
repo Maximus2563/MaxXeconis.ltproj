@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Pushes target ally 1 space away.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "ShoveA"
+            ]
+        ]
+    }
+]

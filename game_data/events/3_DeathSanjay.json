@@ -4,37 +4,14 @@
         "trigger": "unit_death",
         "level_nid": "3",
         "condition": "unit.nid == \"Sanjay\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Sanjay",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sanjay",
-                    "No! This cannot be...!|The Goddess would never abandon the righteous..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Sanjay",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sanjay"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Sanjay;Left\nspeak;Sanjay;No! This cannot be...!|The Goddess would never abandon the righteous...\nexpression;Sanjay;CloseEyes\nremove_portrait;Sanjay\n"
+        "_source": [
+            "add_portrait;Sanjay;Left",
+            "speak;Sanjay;No! This cannot be...!|The Goddess would never abandon the righteous...",
+            "expression;Sanjay;CloseEyes",
+            "remove_portrait;Sanjay"
+        ]
     }
 ]

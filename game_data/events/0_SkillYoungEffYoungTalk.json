@@ -4,107 +4,24 @@
         "trigger": "on_talk",
         "level_nid": "0",
         "condition": "check_pair('SkillYoung', 'EffYoung') ",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "SkillYoung",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "EffYoung",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "A soldier, in blue? Might you be from the Kingdom...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SkillYoung",
-                    "Of course! You must know my of name... Skill Draqon!|Of the glorious Draqon household!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "I am afraid to say I've heard of neither you nor your house..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SkillYoung",
-                    "Bah! Who might you be anyway to besmirch the great Draqons?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "How rude of me, the name's Eff R. Vescence.|Younger brother of Oberon Vescence, charmed to meet you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SkillYoung",
-                    "...|There isn't a soul in Aurelia who hasn't heard the tales of Oberon in battle...|Though I had not heard of a third brother..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "I'm still inexperienced, but I will devote myself to the people.|Using any force, physical or mental, necessary to vanquish threats."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SkillYoung",
-                    "If only- No, excuse me...|But do remember my name, it will cross the lips of every Aurelian soon!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SkillYoung"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "EffYoung",
-                    "What a curious thing...|Best hope he steels his heart, lest he lose himself to the nobles' game."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "EffYoung"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "SkillYoung",
-                    "EffYoung"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;SkillYoung;Left;no_block\nadd_portrait;EffYoung;Right\nspeak;EffYoung;A soldier, in blue? Might you be from the Kingdom...?\nspeak;SkillYoung;Of course! You must know my of name... Skill Draqon!|Of the glorious Draqon household!\nspeak;EffYoung;I am afraid to say I've heard of neither you nor your house...\nspeak;SkillYoung;Bah! Who might you be anyway to besmirch the great Draqons?\nspeak;EffYoung;How rude of me, the name's Eff R. Vescence.|Younger brother of Oberon Vescence, charmed to meet you.\nspeak;SkillYoung;...|There isn't a soul in Aurelia who hasn't heard the tales of Oberon in battle...|Though I had not heard of a third brother...\nspeak;EffYoung;I'm still inexperienced, but I will devote myself to the people.|Using any force, physical or mental, necessary to vanquish threats.\nspeak;SkillYoung;If only- No, excuse me...|But do remember my name, it will cross the lips of every Aurelian soon!\nremove_portrait;SkillYoung\nspeak;EffYoung;What a curious thing...|Best hope he steels his heart, lest he lose himself to the nobles' game.\nremove_portrait;EffYoung\nremove_talk;SkillYoung;EffYoung\n"
+        "_source": [
+            "add_portrait;SkillYoung;Left;no_block",
+            "add_portrait;EffYoung;Right",
+            "speak;EffYoung;A soldier, in blue? Might you be from the Kingdom...?",
+            "speak;SkillYoung;Of course! You must know my of name... Skill Draqon!|Of the glorious Draqon household!",
+            "speak;EffYoung;I am afraid to say I've heard of neither you nor your house...",
+            "speak;SkillYoung;Bah! Who might you be anyway to besmirch the great Draqons?",
+            "speak;EffYoung;How rude of me, the name's Eff R. Vescence.|Younger brother of Oberon Vescence, charmed to meet you.",
+            "speak;SkillYoung;...|There isn't a soul in Aurelia who hasn't heard the tales of Oberon in battle...|Though I had not heard of a third brother...",
+            "speak;EffYoung;I'm still inexperienced, but I will devote myself to the people.|Using any force, physical or mental, necessary to vanquish threats.",
+            "speak;SkillYoung;If only- No, excuse me...|But do remember my name, it will cross the lips of every Aurelian soon!",
+            "remove_portrait;SkillYoung",
+            "speak;EffYoung;What a curious thing...|Best hope he steels his heart, lest he lose himself to the nobles' game.",
+            "remove_portrait;EffYoung",
+            "remove_talk;SkillYoung;EffYoung"
+        ]
     }
 ]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "GratitudeChild",
+        "name": "Gratitude",
+        "desc": "If unit is healed by an ally, grants them ",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            11
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -4,42 +4,15 @@
         "trigger": "Escape",
         "level_nid": "10",
         "condition": "region.nid == 'ProfEscape'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Prof",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Alright, let's get out of here."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Prof"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Prof",
-                    "fade",
-                    "north"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Prof;Left\nspeak;Prof;Alright, let's get out of here.\nremove_portrait;Prof\nremove_unit;Prof;fade;north\nwin_game\n"
+        "_source": [
+            "add_portrait;Prof;Left",
+            "speak;Prof;Alright, let's get out of here.",
+            "remove_portrait;Prof",
+            "remove_unit;Prof;fade;north",
+            "win_game"
+        ]
     }
 ]

@@ -142,5 +142,9 @@
     {
         "nid": "PREMONITION",
         "expression": "MAG//2"
+    },
+    {
+        "nid": "REND_HEAVEN",
+        "expression": "1.5*SKL"
     }
 ]

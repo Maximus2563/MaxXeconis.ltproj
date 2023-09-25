@@ -4,14 +4,11 @@
         "trigger": "unit_death",
         "level_nid": "0",
         "condition": "len(get_player_units()) == 0",
-        "commands": [
-            [
-                "lose_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "lose_game\n"
+        "_source": [
+            "lose_game"
+        ]
     }
 ]

@@ -4,78 +4,21 @@
         "trigger": "Visit",
         "level_nid": "5",
         "condition": "region.nid == 'House1'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Inside House 2 Nighttime"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit}",
-                    "Left",
-                    "OldMan1"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Damn Monsdorians...|Back in my day, riding a wyvern was tacky!|What is the world coming to...|Take this, it'll make mince meat of them lizard-brains!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Steel Bow (Steel Bow)"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "villagenorth"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Inside House 2 Nighttime\ntransition;Open\nadd_portrait;{unit};Left;OldMan1\nspeak;OldMan1;Damn Monsdorians...|Back in my day, riding a wyvern was tacky!|What is the world coming to...|Take this, it'll make mince meat of them lizard-brains!\ntransition;Close\nchange_background\ntransition;Open\ngive_item;{unit};Steel Bow (Steel Bow)\nhas_traded;{unit}\nshow_layer;villagenorth\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Inside House 2 Nighttime",
+            "transition;Open",
+            "add_portrait;{unit};Left;OldMan1",
+            "speak;OldMan1;Damn Monsdorians...|Back in my day, riding a wyvern was tacky!|What is the world coming to...|Take this, it'll make mince meat of them lizard-brains!",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Steel Bow (Steel Bow)",
+            "has_traded;{unit}",
+            "show_layer;villagenorth"
+        ]
     }
 ]

@@ -4,129 +4,29 @@
         "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid == 'House1' and unit.team == 'enemy'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Daytime Inside House 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "OldMan1",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "You!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Oh..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "Shut up! Fight for Monsdor, or else."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Ah... Please.."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "No mercy!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "N-no!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Final Hit"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "200"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Death"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "House1"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;SoldierRed;Left;no_block\nadd_portrait;OldMan1;Right\nspeak;SoldierRed;You!\nspeak;OldMan1;Oh...\nspeak;SoldierRed;Shut up! Fight for Monsdor, or else.\nspeak;OldMan1;Ah... Please..\nspeak;SoldierRed;No mercy!\nspeak;OldMan1;N-no!\ntransition;Close\nsound;Final Hit\nwait;200\nsound;Death\nshow_layer;House1\nchange_background\ntransition;Open\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Daytime Inside House 1",
+            "transition;Open",
+            "add_portrait;SoldierRed;Left;no_block",
+            "add_portrait;OldMan1;Right",
+            "speak;SoldierRed;You!",
+            "speak;OldMan1;Oh...",
+            "speak;SoldierRed;Shut up! Fight for Monsdor, or else.",
+            "speak;OldMan1;Ah... Please..",
+            "speak;SoldierRed;No mercy!",
+            "speak;OldMan1;N-no!",
+            "transition;Close",
+            "sound;Final Hit",
+            "wait;200",
+            "sound;Death",
+            "show_layer;House1",
+            "change_background",
+            "transition;Open",
+            ""
+        ]
     }
 ]

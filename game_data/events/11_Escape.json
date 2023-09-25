@@ -4,62 +4,19 @@
         "trigger": "Escape",
         "level_nid": "11",
         "condition": "region.nid == 'EscapeOther'",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.get_field('EscapeQuote')"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{eval:unit.nid}",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "{eval:unit.nid}",
-                    "{eval:unit.get_field('EscapeQuote')}"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "{eval:unit.nid}"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_unit",
-                [
-                    "{unit}",
-                    "",
-                    "south"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "len(game.get_player_units()) == 0"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "if;unit.get_field('EscapeQuote')\n    add_portrait;{eval:unit.nid};Left\n    speak;{eval:unit.nid};{eval:unit.get_field('EscapeQuote')}\n    remove_portrait;{eval:unit.nid}\nend\nremove_unit;{unit};;south\nif;len(game.get_player_units()) == 0\nwin_game\nend\n"
+        "_source": [
+            "if;unit.get_field('EscapeQuote')",
+            "add_portrait;{eval:unit.nid};Left",
+            "speak;{eval:unit.nid};{eval:unit.get_field('EscapeQuote')}",
+            "remove_portrait;{eval:unit.nid}",
+            "end",
+            "remove_unit;{unit};;south",
+            "if;len(game.get_player_units()) == 0",
+            "win_game",
+            "end"
+        ]
     }
 ]

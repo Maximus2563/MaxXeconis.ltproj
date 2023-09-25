@@ -159,6 +159,10 @@
             [
                 "PromoQuote",
                 "I'm cooler than anyone else here."
+            ],
+            [
+                "SkillA",
+                "Luck10"
             ]
         ]
     }

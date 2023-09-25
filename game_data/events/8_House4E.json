@@ -4,126 +4,29 @@
         "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid == 'House4' and unit.team == 'enemy'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Daytime Inside House 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Bandit1",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Hey, nice to have a visitor."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "You... Criminal scum!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Those days are behind me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "You will aid us, or die!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bandit1",
-                    "Guess I'm atoning for my past eventually..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Final Hit"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "200"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Death"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "House4"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;SoldierRed;Left;no_block\nadd_portrait;Bandit1;Right\nspeak;Bandit1;Hey, nice to have a visitor.\nspeak;SoldierRed;You... Criminal scum!\nspeak;Bandit1;Those days are behind me.\nspeak;SoldierRed;You will aid us, or die!\nspeak;Bandit1;Guess I'm atoning for my past eventually...\ntransition;Close\nsound;Final Hit\nwait;200\nsound;Death\nshow_layer;House4\nchange_background\ntransition;Open\n\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Daytime Inside House 1",
+            "transition;Open",
+            "add_portrait;SoldierRed;Left;no_block",
+            "add_portrait;Bandit1;Right",
+            "speak;Bandit1;Hey, nice to have a visitor.",
+            "speak;SoldierRed;You... Criminal scum!",
+            "speak;Bandit1;Those days are behind me.",
+            "speak;SoldierRed;You will aid us, or die!",
+            "speak;Bandit1;Guess I'm atoning for my past eventually...",
+            "transition;Close",
+            "sound;Final Hit",
+            "wait;200",
+            "sound;Death",
+            "show_layer;House4",
+            "change_background",
+            "transition;Open",
+            "",
+            ""
+        ]
     }
 ]

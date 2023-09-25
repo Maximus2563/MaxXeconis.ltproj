@@ -4,102 +4,24 @@
         "trigger": "Visit",
         "level_nid": "9B",
         "condition": "region.nid == 'House'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Daytime Inside House 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "Left",
-                    "Man3",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Hello?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man3",
-                    "Oh a visitor.|I'm the groundskeeper of the manor...|But nobody usually cares about me..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Oh.. that's very sad..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man3",
-                    "It is, but you seem very kind.|Please, take this, I insist!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Oh wow! Thanks!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "Man3"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Leap",
-                    "Iron Longbow"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nchange_background;Daytime Inside House 1\ntransition;open\nmulti_add_portrait;Leap;Left;Man3;Right\nspeak;Leap;Hello?\nspeak;Man3;Oh a visitor.|I'm the groundskeeper of the manor...|But nobody usually cares about me...\nspeak;Leap;Oh.. that's very sad...\nspeak;Man3;It is, but you seem very kind.|Please, take this, I insist!\nspeak;Leap;Oh wow! Thanks!\ntransition;close\nchange_background\nmulti_remove_portrait;Leap;Man3\ntransition;open\ngive_item;Leap;Iron Longbow\n"
+        "_source": [
+            "transition;close",
+            "change_background;Daytime Inside House 1",
+            "transition;open",
+            "multi_add_portrait;Leap;Left;Man3;Right",
+            "speak;Leap;Hello?",
+            "speak;Man3;Oh a visitor.|I'm the groundskeeper of the manor...|But nobody usually cares about me...",
+            "speak;Leap;Oh.. that's very sad...",
+            "speak;Man3;It is, but you seem very kind.|Please, take this, I insist!",
+            "speak;Leap;Oh wow! Thanks!",
+            "transition;close",
+            "change_background",
+            "multi_remove_portrait;Leap;Man3",
+            "transition;open",
+            "give_item;Leap;Iron Longbow"
+        ]
     }
 ]

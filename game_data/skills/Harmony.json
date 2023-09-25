@@ -5,7 +5,7 @@
         "desc": "Allies within 2 spaces heal 20% of their max HP at the start of each turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            4,
+            5,
             11
         ],
         "components": [

@@ -4,17 +4,11 @@
         "trigger": "level_end",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "change_portrait",
-                [
-                    "Shoop",
-                    "Shoop"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "change_portrait;Shoop;Shoop\n"
+        "_source": [
+            "change_portrait;Shoop;Shoop"
+        ]
     }
 ]

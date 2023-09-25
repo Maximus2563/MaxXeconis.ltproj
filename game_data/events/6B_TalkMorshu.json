@@ -4,98 +4,22 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Morshu'",
-        "commands": [
-            [
-                "music",
-                [
-                    "Suspicious Folk"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Morshu",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Uh, hello?|Who are you?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morshu",
-                    "I'm a seller of wares.|Though, I'm afraid my famous lamp oil is out of stock."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "You're selling to the castle...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morshu",
-                    "I was permitted entry by the guards."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Oh, that makes sense."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morshu",
-                    "I have a variety of items you might find interesting."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I'll have to have a look!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Morshu",
-                    "Sages"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Morshu"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "MorshuShop",
-                    "Morshu",
-                    "1,1",
-                    "event",
-                    "Shop"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "music;Suspicious Folk\nmulti_add_portrait;Morshu;Right;Sages;Left\nspeak;Sages;Uh, hello?|Who are you?\nspeak;Morshu;I'm a seller of wares.|Though, I'm afraid my famous lamp oil is out of stock.\nspeak;Sages;You're selling to the castle...?\nspeak;Morshu;I was permitted entry by the guards.\nspeak;Sages;Oh, that makes sense.\nspeak;Morshu;I have a variety of items you might find interesting.\nspeak;Sages;I'll have to have a look!\nmulti_remove_portrait;Morshu;Sages\nremove_talk;Sages;Morshu\nadd_region;MorshuShop;Morshu;1,1;event;Shop\n"
+        "_source": [
+            "music;Suspicious Folk",
+            "multi_add_portrait;Morshu;Right;Sages;Left",
+            "speak;Sages;Uh, hello?|Who are you?",
+            "speak;Morshu;I'm a seller of wares.|Though, I'm afraid my famous lamp oil is out of stock.",
+            "speak;Sages;You're selling to the castle...?",
+            "speak;Morshu;I was permitted entry by the guards.",
+            "speak;Sages;Oh, that makes sense.",
+            "speak;Morshu;I have a variety of items you might find interesting.",
+            "speak;Sages;I'll have to have a look!",
+            "multi_remove_portrait;Morshu;Sages",
+            "remove_talk;Sages;Morshu",
+            "add_region;MorshuShop;Morshu;1,1;event;Shop"
+        ]
     }
 ]

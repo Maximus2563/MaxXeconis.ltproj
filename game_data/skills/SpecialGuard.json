@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SpecialGuard",
+        "name": "Special Guard",
+        "desc": "Grants -3 damage received vs monster weapon foes.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            59
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.klass in ['Revenant','Entombed','Wolf']"
+            ],
+            [
+                "resist",
+                3
+            ]
+        ]
+    }
+]

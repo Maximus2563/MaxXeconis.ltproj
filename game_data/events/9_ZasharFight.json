@@ -4,42 +4,16 @@
         "trigger": "combat_start",
         "level_nid": "9",
         "condition": "(unit.nid == \"Zashar\" and unit2.team == 'player') or (unit2.nid == \"Zashar\" and unit.team == 'player')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Zashar",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zashar",
-                    "You're not running away? More fool you!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Zashar"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Zashar;Right\nspeak;Zashar;You're not running away? More fool you!\nremove_portrait;Zashar\n\n\n"
+        "_source": [
+            "add_portrait;Zashar;Right",
+            "speak;Zashar;You're not running away? More fool you!",
+            "remove_portrait;Zashar",
+            "",
+            "",
+            ""
+        ]
     }
 ]

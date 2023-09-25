@@ -4,210 +4,38 @@
         "trigger": "turn_change",
         "level_nid": "7",
         "condition": "game.turncount == 2",
-        "commands": [
-            [
-                "move_cursor",
-                [
-                    "1,1"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Boisterous Folk"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Bread",
-                    "1,1",
-                    "immediate",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Aspl",
-                    "1,1",
-                    "immediate",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Aspl",
-                    "1,3",
-                    "normal",
-                    "stack",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Bread",
-                    "2,2",
-                    "normal",
-                    "stack"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Bread",
-                    "Right",
-                    "Aspl",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bread",
-                    "Yay! My horsie is ready to massacre these no-good meanies!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aspl",
-                    "Yeah. They're like... lame, and stuff.|Obviously, no match for us."
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Bread"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bread",
-                    "Wahoo! Cute, cute, cute!|To protect our village from devastation!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aspl",
-                    "To unite all people within our nation!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bread",
-                    "To claim the goodness of cuteness and love!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aspl",
-                    "To extend our coolness to the stars above!"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Bread"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bread",
-                    "Bread!"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Aspl"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aspl",
-                    "Aspl!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Bread",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bread",
-                    "Team awesome is riding at the speed of light!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Aspl",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Aspl",
-                    "Give up already, or prepare to fight!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Bread",
-                    "Aspl"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "Leap"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Leap",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Alright! We have backup!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Leap"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;1,1\nmusic;Boisterous Folk\nadd_unit;Bread;1,1;immediate;stack;fade\nadd_unit;Aspl;1,1;immediate;stack;fade\nmove_unit;Aspl;1,3;normal;stack;FLAG(no_block);FLAG(no_follow)\nmove_unit;Bread;2,2;normal;stack\nmulti_add_portrait;Bread;Right;Aspl;Left\nspeak;Bread;Yay! My horsie is ready to massacre these no-good meanies!\nspeak;Aspl;Yeah. They're like... lame, and stuff.|Obviously, no match for us.\nbop_portrait;Bread\nspeak;Bread;Wahoo! Cute, cute, cute!|To protect our village from devastation!\nspeak;Aspl;To unite all people within our nation!\nspeak;Bread;To claim the goodness of cuteness and love!\nspeak;Aspl;To extend our coolness to the stars above!\nbop_portrait;Bread\nspeak;Bread;Bread!\nbop_portrait;Aspl\nspeak;Aspl;Aspl!\nmove_portrait;Bread;MidRight\nspeak;Bread;Team awesome is riding at the speed of light!\nmove_portrait;Aspl;MidLeft\nspeak;Aspl;Give up already, or prepare to fight!\nmulti_remove_portrait;Bread;Aspl\nmove_cursor;Leap\nadd_portrait;Leap;Right\nspeak;Leap;Alright! We have backup!\nremove_portrait;Leap\nmusic_fade_back\n"
+        "_source": [
+            "move_cursor;1,1",
+            "music;Boisterous Folk",
+            "add_unit;Bread;1,1;immediate;stack;fade",
+            "add_unit;Aspl;1,1;immediate;stack;fade",
+            "move_unit;Aspl;1,3;normal;stack;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Bread;2,2;normal;stack",
+            "multi_add_portrait;Bread;Right;Aspl;Left",
+            "speak;Bread;Yay! My horsie is ready to massacre these no-good meanies!",
+            "speak;Aspl;Yeah. They're like... lame, and stuff.|Obviously, no match for us.",
+            "bop_portrait;Bread",
+            "speak;Bread;Wahoo! Cute, cute, cute!|To protect our village from devastation!",
+            "speak;Aspl;To unite all people within our nation!",
+            "speak;Bread;To claim the goodness of cuteness and love!",
+            "speak;Aspl;To extend our coolness to the stars above!",
+            "bop_portrait;Bread",
+            "speak;Bread;Bread!",
+            "bop_portrait;Aspl",
+            "speak;Aspl;Aspl!",
+            "move_portrait;Bread;MidRight",
+            "speak;Bread;Team awesome is riding at the speed of light!",
+            "move_portrait;Aspl;MidLeft",
+            "speak;Aspl;Give up already, or prepare to fight!",
+            "multi_remove_portrait;Bread;Aspl",
+            "move_cursor;Leap",
+            "add_portrait;Leap;Right",
+            "speak;Leap;Alright! We have backup!",
+            "remove_portrait;Leap",
+            "music_fade_back"
+        ]
     }
 ]

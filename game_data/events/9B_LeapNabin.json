@@ -4,188 +4,35 @@
         "trigger": "on_talk",
         "level_nid": "9B",
         "condition": "unit2.nid == 'Nabin'",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "FarLeft",
-                    "Nabin",
-                    "MidLeft",
-                    "SoldierGreen",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Hyah!"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Nabin"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierGreen",
-                    "Gah!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Good, but not good enough."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierGreen",
-                    "You feeling alright M'Lord?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Heart's not in it today, I suppose."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierGreen",
-                    "Hm? We have company."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Nabin"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Nabin",
-                    "Right"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Leap",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Hello, how may I help you?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Oh, hi!|I'm Leap, I'm looking for the Duke."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Ah, you're looking for father?|Take the stairs on the left."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "You're his son? Oh wow!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Indeed I am, though it feels as thought I'm not these days..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "How'd you mean?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "I wouldn't wish to bore you with the details.|I'm sure your business with father is important."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Thank you... er..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Nabin. I forgot to introduce myself, didn't I?|Sorry, been so focused on my training..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Nice to meet you, and good luck training!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nabin",
-                    "Thank you, now, let's go!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierGreen",
-                    "More?!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Leap",
-                    "SoldierGreen",
-                    "Nabin"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Leap",
-                    "Nabin"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "multi_add_portrait;Leap;FarLeft;Nabin;MidLeft;SoldierGreen;FarRight\nspeak;Nabin;Hyah!\nbop_portrait;Nabin\nspeak;SoldierGreen;Gah!\nspeak;Nabin;Good, but not good enough.\nspeak;SoldierGreen;You feeling alright M'Lord?\nspeak;Nabin;Heart's not in it today, I suppose.\nspeak;SoldierGreen;Hm? We have company.\nremove_portrait;Nabin\nadd_portrait;Nabin;Right\nmove_portrait;Leap;Left\nspeak;Nabin;Hello, how may I help you?\nspeak;Leap;Oh, hi!|I'm Leap, I'm looking for the Duke.\nspeak;Nabin;Ah, you're looking for father?|Take the stairs on the left.\nspeak;Leap;You're his son? Oh wow!\nspeak;Nabin;Indeed I am, though it feels as thought I'm not these days...\nspeak;Leap;How'd you mean?\nspeak;Nabin;I wouldn't wish to bore you with the details.|I'm sure your business with father is important.\nspeak;Leap;Thank you... er...\nspeak;Nabin;Nabin. I forgot to introduce myself, didn't I?|Sorry, been so focused on my training...\nspeak;Leap;Nice to meet you, and good luck training!\nspeak;Nabin;Thank you, now, let's go!\nspeak;SoldierGreen;More?!\nmulti_remove_portrait;Leap;SoldierGreen;Nabin\nremove_talk;Leap;Nabin\n"
+        "_source": [
+            "multi_add_portrait;Leap;FarLeft;Nabin;MidLeft;SoldierGreen;FarRight",
+            "speak;Nabin;Hyah!",
+            "bop_portrait;Nabin",
+            "speak;SoldierGreen;Gah!",
+            "speak;Nabin;Good, but not good enough.",
+            "speak;SoldierGreen;You feeling alright M'Lord?",
+            "speak;Nabin;Heart's not in it today, I suppose.",
+            "speak;SoldierGreen;Hm? We have company.",
+            "remove_portrait;Nabin",
+            "add_portrait;Nabin;Right",
+            "move_portrait;Leap;Left",
+            "speak;Nabin;Hello, how may I help you?",
+            "speak;Leap;Oh, hi!|I'm Leap, I'm looking for the Duke.",
+            "speak;Nabin;Ah, you're looking for father?|Take the stairs on the left.",
+            "speak;Leap;You're his son? Oh wow!",
+            "speak;Nabin;Indeed I am, though it feels as thought I'm not these days...",
+            "speak;Leap;How'd you mean?",
+            "speak;Nabin;I wouldn't wish to bore you with the details.|I'm sure your business with father is important.",
+            "speak;Leap;Thank you... er...",
+            "speak;Nabin;Nabin. I forgot to introduce myself, didn't I?|Sorry, been so focused on my training...",
+            "speak;Leap;Nice to meet you, and good luck training!",
+            "speak;Nabin;Thank you, now, let's go!",
+            "speak;SoldierGreen;More?!",
+            "multi_remove_portrait;Leap;SoldierGreen;Nabin",
+            "remove_talk;Leap;Nabin"
+        ]
     }
 ]

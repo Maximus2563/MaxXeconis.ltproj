@@ -4,40 +4,15 @@
         "trigger": "Armory",
         "level_nid": "DEBUG",
         "condition": "region.nid == 'Armory'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Valiant Illusion"
-                ]
-            ],
-            [
-                "shop",
-                [
-                    "{unit}",
-                    "Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe",
-                    "armory"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nmusic;Valiant Illusion\nshop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe;armory\ntransition;Open\n"
+        "_source": [
+            "transition;Close",
+            "music;Valiant Illusion",
+            "shop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe;armory",
+            "transition;Open",
+            ""
+        ]
     }
 ]

@@ -4,44 +4,16 @@
         "trigger": "Vendor",
         "level_nid": "5",
         "condition": "region.nid == 'Vendor'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "HummingTreasures"
-                ]
-            ],
-            [
-                "shop",
-                [
-                    "{unit}",
-                    "Heal,Mend,Lightning,Shine,Vulnerary",
-                    "Vendor"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nmusic;HummingTreasures\nshop;{unit};Heal,Mend,Lightning,Shine,Vulnerary;Vendor\ntransition;Open\n\n"
+        "_source": [
+            "transition;Close",
+            "music;HummingTreasures",
+            "shop;{unit};Heal,Mend,Lightning,Shine,Vulnerary;Vendor",
+            "transition;Open",
+            "",
+            ""
+        ]
     }
 ]

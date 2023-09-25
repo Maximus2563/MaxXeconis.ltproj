@@ -4,74 +4,20 @@
         "trigger": "turn_change",
         "level_nid": "1",
         "condition": "game.turncount == 1",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Landros",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "I'm sure it's nothing, but those guys look pretty antsy."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Landros"
-                ]
-            ],
-            [
-                "move_cursor",
-                [
-                    "7,6"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Bandit (116)"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Bandit (108)"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Bandit (110)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Landros",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Landros",
-                    "I'll put an arrow between their eyes, if you want.|Better them than the villagers."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Landros"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Landros;Left\nspeak;Landros;I'm sure it's nothing, but those guys look pretty antsy.\nremove_portrait;Landros\nmove_cursor;7,6\nflicker_cursor;Bandit (116)\nflicker_cursor;Bandit (108)\nflicker_cursor;Bandit (110)\nadd_portrait;Landros;Left\nspeak;Landros;I'll put an arrow between their eyes, if you want.|Better them than the villagers.\nremove_portrait;Landros\n"
+        "_source": [
+            "add_portrait;Landros;Left",
+            "speak;Landros;I'm sure it's nothing, but those guys look pretty antsy.",
+            "remove_portrait;Landros",
+            "move_cursor;7,6",
+            "flicker_cursor;Bandit (116)",
+            "flicker_cursor;Bandit (108)",
+            "flicker_cursor;Bandit (110)",
+            "add_portrait;Landros;Left",
+            "speak;Landros;I'll put an arrow between their eyes, if you want.|Better them than the villagers.",
+            "remove_portrait;Landros"
+        ]
     }
 ]

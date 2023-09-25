@@ -4,808 +4,125 @@
         "trigger": "level_end",
         "level_nid": "8",
         "condition": "True",
-        "commands": [
-            [
-                "music",
-                [
-                    "79 How Can That Be"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Meeting Room"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "MidLeft",
-                    "Prof",
-                    "FarLeft",
-                    "Dean",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Thank you for helping out, Leap."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Of course!|I'm forever thankful for your kindness, Mr. Essar.|Ever since my mother and I came here, I've always felt welcomed."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Father, what will we do now?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I'm unsure...|I really don't want to drag our people into it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I can't stand Monsdor using us as a punching bag!|The war is about Arcei and Aurelia...|They're just doing this for fun!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I don't think it's for fun, Leap."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I'm just so... annoyed!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "It's understandable."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I just, want to do something about this! Anything!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Leap...|Father, I... I want to as well."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "If that's your wish, so be it.|I won't stop you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Thank you, father."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "I want to be able to unite Grahment... to end this craziness!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Well, our Duchess Zio is pro-Arcei, Count Phyron appears more swayed that way too.|However, Duke von Ilkrest is most vocal in opposition.|I suppose his religious nature would bias him a smidge."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I believe Marquess Cres is missing after their Aurelia trip, too."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Oh dear... We'll have to convince Duke von Ilkrest to change his mind."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I wish you the best, and son..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Yes, father?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "I will take over your teaching role, while you'e gone.|Can't be letting standards slip!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "Of course, thank you..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dean",
-                    "Do take this too, it's not much, but it'll help."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Dean"
-                ]
-            ],
-            [
-                "give_money",
-                [
-                    "3000"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Shoop')"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Strange People"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Shoop",
-                    "Right"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Leap."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Hey Shoop!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "You really ought to learn better makeup skills."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Wait, what?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "It's okay, not everyone can look as good as a warthog :3"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I don't understand..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Duh. You wouldn't get style, there's no books on it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Prof",
-                    "I think my style is fine... It's... practical!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shoop",
-                    "Keep telling yourself that, teehee."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Shoop"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Crazy, who else but Shoop?"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Shoop",
-                    "player"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.turncount < 10"
-                ]
-            ],
-            [
-                "give_bexp",
-                [
-                    "150"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "change_tilemap",
-                [
-                    "EmelineRoom"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "load_unit",
-                [
-                    "Emeline",
-                    "enemy",
-                    "None"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Emeline",
-                    "7,2"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "294. False Love [Serious Event 10]"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "location_card",
-                [
-                    "Aurelia Palace"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Emeline",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "..."
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Helia",
-                    "other",
-                    "None"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Helia",
-                    "8,9",
-                    "fade",
-                    "stack",
-                    "south"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Helia",
-                    "8,3",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Dawn",
-                    "other",
-                    "None"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Dawn",
-                    "6,9",
-                    "fade",
-                    "stack",
-                    "south"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Dawn",
-                    "6,3",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Helia",
-                    "FarRight",
-                    "Dawn",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Hey Emmie!|How's things been? Oh my Goddess!|Your crown is beautiful!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "My crown...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Please, Dawn, calm down.|How are you feeling? I extend my warmest condolences..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Thank you, Helia."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Oh, yeah, me too!|So sad... Elias..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "He was truly special... Taken so soon..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Yes, but I can't let it hold me back."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Father is withholding help, as of current.|My apologies..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "What'cha gonna do?|Monsdor is doing, like, so great at hunting the Arcei royalty."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Monsdor... Oh, yes, I'm due to be engaged to prince Emmanuel."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "This is... news to me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "As the eldest sister, it seems most of fathers plans involve me..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Uncle is pawning you off to gain influence in Monsdor?|Do you want this?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Well, I'm sure it'll work out alright.|I've never really been much good at anything else..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Ugh, sis, sound a little more enthusiastic!|He's a real dreamboat!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Well, I guess so...|Really, I'm fine with it!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Ohmygosh! What if he's king someday?!|You'll get the most gorg crown, like Emmies!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "It honestly sounds more a lifestyle for yourself, Dawn.|Sitting around in lavish outfits."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Hmph, daddy says I'm like, too precious for that.|Monsdor is growing in power, but like, Aurelian nobility is still way better!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "I see, he intends to cover multiple bases...|You don't see any issue with his behaviour?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "No? I'm his special girl!|He knows what makes me happy!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Uhm, I'm sure wants the best for us..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Monsdor also has much to gain from this..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "They're our biggest ally... I have to do this for all of us..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "What of Palushin and King Jevil?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "What a lame guy!|He saw what happened, didn't he?|He saw Elias... y'know, but still refuses to help."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Seems he needs some convincing."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Yeah, you should, like, totally get onto doing that..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "And the people of Khonsu?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "The desert rats? Ugh! Helia, you're so stupid!|Why would they ever get involved, do they even like, know about anything?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Oh! Right, you're right..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "The tribes are all seperate, I'm sure none would be a sizable force alone."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "I see...|What is the end goal, Emeline?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "What do you mean?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "All this fighting, I mean.|How much blood does it take to repay Elias' death...?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "No amount is too high for my dear, deceased brother.|But, my end goal is to carry out his wishes...|Expunge all darkness. I will shine the purifying light across all of these lands.|Arcei will pay for their crimes, along with any other reprobates who will stand in my way."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "Oh, that's, like, so cool!|I wanna help!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "...",
-                    "FLAG(no_talk)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "Good, I'm glad. Now, if you'll excuse me, I need time to think."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Helia",
-                    "Of course, goodbye, Emeline."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Dawn",
-                    "See ya, Emmie!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Dawn",
-                    "Helia"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Helia",
-                    "8,9",
-                    "FLAG(no_follow)",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Dawn",
-                    "6,9",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Dawn",
-                    "fade",
-                    "south"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Helia",
-                    "fade",
-                    "south"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Emeline",
-                    "She likes my crown, does she?|She... wants it?|Gah... and Helia, marrying into Monsdor too...|Uncle is trying to seek more power than me.|Those two... one subservient and one attention-seeker...|Easy to manipulate... But what if they want to manipulate me...?|What if they want the crown, I can't die yet...|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! The only Goddess that exists in this realm, is me!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "music;79 How Can That Be\nchange_background;Meeting Room\nmulti_add_portrait;Leap;MidLeft;Prof;FarLeft;Dean;Right\nspeak;Dean;Thank you for helping out, Leap.\nspeak;Leap;Of course!|I'm forever thankful for your kindness, Mr. Essar.|Ever since my mother and I came here, I've always felt welcomed.\nspeak;Prof;Father, what will we do now?\nspeak;Dean;I'm unsure...|I really don't want to drag our people into it.\nspeak;Leap;I can't stand Monsdor using us as a punching bag!|The war is about Arcei and Aurelia...|They're just doing this for fun!\nspeak;Prof;I don't think it's for fun, Leap.\nspeak;Leap;I'm just so... annoyed!\nspeak;Dean;It's understandable.\nspeak;Leap;I just, want to do something about this! Anything!\nspeak;Prof;Leap...|Father, I... I want to as well.\nspeak;Dean;If that's your wish, so be it.|I won't stop you.\nspeak;Prof;Thank you, father.\nspeak;Leap;I want to be able to unite Grahment... to end this craziness!\nspeak;Dean;Well, our Duchess Zio is pro-Arcei, Count Phyron appears more swayed that way too.|However, Duke von Ilkrest is most vocal in opposition.|I suppose his religious nature would bias him a smidge.\nspeak;Prof;I believe Marquess Cres is missing after their Aurelia trip, too.\nspeak;Leap;Oh dear... We'll have to convince Duke von Ilkrest to change his mind.\nspeak;Dean;I wish you the best, and son...\nspeak;Prof;Yes, father?\nspeak;Dean;I will take over your teaching role, while you'e gone.|Can't be letting standards slip!\nspeak;Prof;Of course, thank you...\nspeak;Dean;Do take this too, it's not much, but it'll help.\ntransition;close\nremove_portrait;Dean\ngive_money;3000\nif;game.check_alive('Shoop')\n    music;Strange People\n    add_portrait;Shoop;Right\n    transition;open\n    speak;Shoop;Leap.\n    speak;Leap;Hey Shoop!\n    speak;Shoop;You really ought to learn better makeup skills.\n    speak;Leap;Wait, what?\n    speak;Shoop;It's okay, not everyone can look as good as a warthog :3\n    speak;Prof;I don't understand...\n    speak;Shoop;Duh. You wouldn't get style, there's no books on it.\n    speak;Prof;I think my style is fine... It's... practical!\n    speak;Shoop;Keep telling yourself that, teehee.\n    remove_portrait;Shoop\n    speak;Leap;Crazy, who else but Shoop?\n    change_team;Shoop;player\nend\ntransition;close\nif;game.turncount < 10\n    give_bexp;150\nend\nchange_tilemap;EmelineRoom\nchange_background\nload_unit;Emeline;enemy;None\nadd_unit;Emeline;7,2\nmusic;294. False Love [Serious Event 10]\ntransition;open\nlocation_card;Aurelia Palace\nadd_portrait;Emeline;Left\nspeak;Emeline;...\nload_unit;Helia;other;None\nadd_unit;Helia;8,9;fade;stack;south\nmove_unit;Helia;8,3;FLAG(no_block);FLAG(no_follow)\nload_unit;Dawn;other;None\nadd_unit;Dawn;6,9;fade;stack;south\nmove_unit;Dawn;6,3;FLAG(no_follow)\nmulti_add_portrait;Helia;FarRight;Dawn;MidRight\nspeak;Dawn;Hey Emmie!|How's things been? Oh my Goddess!|Your crown is beautiful!\nspeak;Emeline;My crown...?\nspeak;Helia;Please, Dawn, calm down.|How are you feeling? I extend my warmest condolences...\nspeak;Emeline;Thank you, Helia.\nspeak;Dawn;Oh, yeah, me too!|So sad... Elias...\nspeak;Helia;He was truly special... Taken so soon...\nspeak;Emeline;Yes, but I can't let it hold me back.\nspeak;Helia;Father is withholding help, as of current.|My apologies...\nspeak;Dawn;What'cha gonna do?|Monsdor is doing, like, so great at hunting the Arcei royalty.\nspeak;Helia;Monsdor... Oh, yes, I'm due to be engaged to prince Emmanuel.\nspeak;Emeline;This is... news to me.\nspeak;Helia;As the eldest sister, it seems most of fathers plans involve me...\nspeak;Emeline;Uncle is pawning you off to gain influence in Monsdor?|Do you want this?\nspeak;Helia;Well, I'm sure it'll work out alright.|I've never really been much good at anything else...\nspeak;Dawn;Ugh, sis, sound a little more enthusiastic!|He's a real dreamboat!\nspeak;Emeline;...;FLAG(no_talk)\nspeak;Helia;Well, I guess so...|Really, I'm fine with it!\nspeak;Dawn;Ohmygosh! What if he's king someday?!|You'll get the most gorg crown, like Emmies!\nspeak;Emeline;It honestly sounds more a lifestyle for yourself, Dawn.|Sitting around in lavish outfits.\nspeak;Dawn;Hmph, daddy says I'm like, too precious for that.|Monsdor is growing in power, but like, Aurelian nobility is still way better!\nspeak;Emeline;I see, he intends to cover multiple bases...|You don't see any issue with his behaviour?\nspeak;Dawn;No? I'm his special girl!|He knows what makes me happy!\nspeak;Helia;Uhm, I'm sure wants the best for us...\nspeak;Emeline;Monsdor also has much to gain from this...\nspeak;Helia;They're our biggest ally... I have to do this for all of us...\nspeak;Emeline;What of Palushin and King Jevil?\nspeak;Dawn;What a lame guy!|He saw what happened, didn't he?|He saw Elias... y'know, but still refuses to help.\nspeak;Emeline;Seems he needs some convincing.\nspeak;Dawn;Yeah, you should, like, totally get onto doing that...\nspeak;Helia;And the people of Khonsu?\nspeak;Dawn;The desert rats? Ugh! Helia, you're so stupid!|Why would they ever get involved, do they even like, know about anything?\nspeak;Helia;Oh! Right, you're right...\nspeak;Emeline;The tribes are all seperate, I'm sure none would be a sizable force alone.\nspeak;Helia;I see...|What is the end goal, Emeline?\nspeak;Emeline;What do you mean?\nspeak;Helia;All this fighting, I mean.|How much blood does it take to repay Elias' death...?\nspeak;Emeline;No amount is too high for my dear, deceased brother.|But, my end goal is to carry out his wishes...|Expunge all darkness. I will shine the purifying light across all of these lands.|Arcei will pay for their crimes, along with any other reprobates who will stand in my way.\nspeak;Dawn;Oh, that's, like, so cool!|I wanna help!\nspeak;Helia;...;FLAG(no_talk)\nspeak;Emeline;Good, I'm glad. Now, if you'll excuse me, I need time to think.\nspeak;Helia;Of course, goodbye, Emeline.\nspeak;Dawn;See ya, Emmie!\nmulti_remove_portrait;Dawn;Helia\nmove_unit;Helia;8,9;FLAG(no_follow);FLAG(no_block)\nmove_unit;Dawn;6,9;FLAG(no_follow)\nremove_unit;Dawn;fade;south\nremove_unit;Helia;fade;south\nspeak;Emeline;She likes my crown, does she?|She... wants it?|Gah... and Helia, marrying into Monsdor too...|Uncle is trying to seek more power than me.|Those two... one subservient and one attention-seeker...|Easy to manipulate... But what if they want to manipulate me...?|What if they want the crown, I can't die yet...|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! The only Goddess that exists in this realm, is me!\ntransition;close\n\n"
+        "_source": [
+            "music;79 How Can That Be",
+            "change_background;Meeting Room",
+            "multi_add_portrait;Leap;MidLeft;Prof;FarLeft;Dean;Right",
+            "speak;Dean;Thank you for helping out, Leap.",
+            "speak;Leap;Of course!|I'm forever thankful for your kindness, Mr. Essar.|Ever since my mother and I came here, I've always felt welcomed.",
+            "speak;Prof;Father, what will we do now?",
+            "speak;Dean;I'm unsure...|I really don't want to drag our people into it.",
+            "speak;Leap;I can't stand Monsdor using us as a punching bag!|The war is about Arcei and Aurelia...|They're just doing this for fun!",
+            "speak;Prof;I don't think it's for fun, Leap.",
+            "speak;Leap;I'm just so... annoyed!",
+            "speak;Dean;It's understandable.",
+            "speak;Leap;I just, want to do something about this! Anything!",
+            "speak;Prof;Leap...|Father, I... I want to as well.",
+            "speak;Dean;If that's your wish, so be it.|I won't stop you.",
+            "speak;Prof;Thank you, father.",
+            "speak;Leap;I want to be able to unite Grahment... to end this craziness!",
+            "speak;Dean;Well, our Duchess Zio is pro-Arcei, Count Phyron appears more swayed that way too.|However, Duke von Ilkrest is most vocal in opposition.|I suppose his religious nature would bias him a smidge.",
+            "speak;Prof;I believe Marquess Cres is missing after their Aurelia trip, too.",
+            "speak;Leap;Oh dear... We'll have to convince Duke von Ilkrest to change his mind.",
+            "speak;Dean;I wish you the best, and son...",
+            "speak;Prof;Yes, father?",
+            "speak;Dean;I will take over your teaching role, while you'e gone.|Can't be letting standards slip!",
+            "speak;Prof;Of course, thank you...",
+            "speak;Dean;Do take this too, it's not much, but it'll help.",
+            "transition;close",
+            "remove_portrait;Dean",
+            "give_money;3000",
+            "if;game.check_alive('Shoop')",
+            "music;Strange People",
+            "add_portrait;Shoop;Right",
+            "transition;open",
+            "speak;Shoop;Leap.",
+            "speak;Leap;Hey Shoop!",
+            "speak;Shoop;You really ought to learn better makeup skills.",
+            "speak;Leap;Wait, what?",
+            "speak;Shoop;It's okay, not everyone can look as good as a warthog :3",
+            "speak;Prof;I don't understand...",
+            "speak;Shoop;Duh. You wouldn't get style, there's no books on it.",
+            "speak;Prof;I think my style is fine... It's... practical!",
+            "speak;Shoop;Keep telling yourself that, teehee.",
+            "remove_portrait;Shoop",
+            "speak;Leap;Crazy, who else but Shoop?",
+            "change_team;Shoop;player",
+            "end",
+            "transition;close",
+            "if;game.turncount < 10",
+            "give_bexp;150",
+            "end",
+            "change_tilemap;EmelineRoom",
+            "change_background",
+            "load_unit;Emeline;enemy;None",
+            "add_unit;Emeline;7,2",
+            "music;294. False Love [Serious Event 10]",
+            "transition;open",
+            "location_card;Aurelia Palace",
+            "add_portrait;Emeline;Left",
+            "speak;Emeline;...",
+            "load_unit;Helia;other;None",
+            "add_unit;Helia;8,9;fade;stack;south",
+            "move_unit;Helia;8,3;FLAG(no_block);FLAG(no_follow)",
+            "load_unit;Dawn;other;None",
+            "add_unit;Dawn;6,9;fade;stack;south",
+            "move_unit;Dawn;6,3;FLAG(no_follow)",
+            "multi_add_portrait;Helia;FarRight;Dawn;MidRight",
+            "speak;Dawn;Hey Emmie!|How's things been? Oh my Goddess!|Your crown is beautiful!",
+            "speak;Emeline;My crown...?",
+            "speak;Helia;Please, Dawn, calm down.|How are you feeling? I extend my warmest condolences...",
+            "speak;Emeline;Thank you, Helia.",
+            "speak;Dawn;Oh, yeah, me too!|So sad... Elias...",
+            "speak;Helia;He was truly special... Taken so soon...",
+            "speak;Emeline;Yes, but I can't let it hold me back.",
+            "speak;Helia;Father is withholding help, as of current.|My apologies...",
+            "speak;Dawn;What'cha gonna do?|Monsdor is doing, like, so great at hunting the Arcei royalty.",
+            "speak;Helia;Monsdor... Oh, yes, I'm due to be engaged to prince Emmanuel.",
+            "speak;Emeline;This is... news to me.",
+            "speak;Helia;As the eldest sister, it seems most of fathers plans involve me...",
+            "speak;Emeline;Uncle is pawning you off to gain influence in Monsdor?|Do you want this?",
+            "speak;Helia;Well, I'm sure it'll work out alright.|I've never really been much good at anything else...",
+            "speak;Dawn;Ugh, sis, sound a little more enthusiastic!|He's a real dreamboat!",
+            "speak;Emeline;...;FLAG(no_talk)",
+            "speak;Helia;Well, I guess so...|Really, I'm fine with it!",
+            "speak;Dawn;Ohmygosh! What if he's king someday?!|You'll get the most gorg crown, like Emmies!",
+            "speak;Emeline;It honestly sounds more a lifestyle for yourself, Dawn.|Sitting around in lavish outfits.",
+            "speak;Dawn;Hmph, daddy says I'm like, too precious for that.|Monsdor is growing in power, but like, Aurelian nobility is still way better!",
+            "speak;Emeline;I see, he intends to cover multiple bases...|You don't see any issue with his behaviour?",
+            "speak;Dawn;No? I'm his special girl!|He knows what makes me happy!",
+            "speak;Helia;Uhm, I'm sure wants the best for us...",
+            "speak;Emeline;Monsdor also has much to gain from this...",
+            "speak;Helia;They're our biggest ally... I have to do this for all of us...",
+            "speak;Emeline;What of Palushin and King Jevil?",
+            "speak;Dawn;What a lame guy!|He saw what happened, didn't he?|He saw Elias... y'know, but still refuses to help.",
+            "speak;Emeline;Seems he needs some convincing.",
+            "speak;Dawn;Yeah, you should, like, totally get onto doing that...",
+            "speak;Helia;And the people of Khonsu?",
+            "speak;Dawn;The desert rats? Ugh! Helia, you're so stupid!|Why would they ever get involved, do they even like, know about anything?",
+            "speak;Helia;Oh! Right, you're right...",
+            "speak;Emeline;The tribes are all seperate, I'm sure none would be a sizable force alone.",
+            "speak;Helia;I see...|What is the end goal, Emeline?",
+            "speak;Emeline;What do you mean?",
+            "speak;Helia;All this fighting, I mean.|How much blood does it take to repay Elias' death...?",
+            "speak;Emeline;No amount is too high for my dear, deceased brother.|But, my end goal is to carry out his wishes...|Expunge all darkness. I will shine the purifying light across all of these lands.|Arcei will pay for their crimes, along with any other reprobates who will stand in my way.",
+            "speak;Dawn;Oh, that's, like, so cool!|I wanna help!",
+            "speak;Helia;...;FLAG(no_talk)",
+            "speak;Emeline;Good, I'm glad. Now, if you'll excuse me, I need time to think.",
+            "speak;Helia;Of course, goodbye, Emeline.",
+            "speak;Dawn;See ya, Emmie!",
+            "multi_remove_portrait;Dawn;Helia",
+            "move_unit;Helia;8,9;FLAG(no_follow);FLAG(no_block)",
+            "move_unit;Dawn;6,9;FLAG(no_follow)",
+            "remove_unit;Dawn;fade;south",
+            "remove_unit;Helia;fade;south",
+            "speak;Emeline;She likes my crown, does she?|She... wants it?|Gah... and Helia, marrying into Monsdor too...|Uncle is trying to seek more power than me.|Those two... one subservient and one attention-seeker...|Easy to manipulate... But what if they want to manipulate me...?|What if they want the crown, I can't die yet...|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! The only Goddess that exists in this realm, is me!",
+            "transition;close",
+            "",
+            ""
+        ]
     }
 ]

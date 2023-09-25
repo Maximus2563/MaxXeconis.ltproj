@@ -4229,5 +4229,10 @@
         "nid": "FF2 Town 2.0 Tileset - OG",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Plains Tiles",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

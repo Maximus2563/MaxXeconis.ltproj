@@ -4,159 +4,32 @@
         "trigger": "on_talk",
         "level_nid": "6B",
         "condition": "unit2.nid == 'Javi' or unit2.nid == 'Maro'",
-        "commands": [
-            [
-                "if",
-                [
-                    "game.check_alive('Maro')"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Javi",
-                    "MidRight",
-                    "Maro",
-                    "FarRight",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Javi",
-                    "Right",
-                    "Sages",
-                    "Left"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Ah, Lord Sages, you're back!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Javi, still hard at work, I see."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Hah! Of course!|I was training these rookies to my standards!"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Maro')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Maro",
-                    "He's been putting us through the ringer, but it's all dandy!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "You'll get there one day!"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "At least you're encouraging, my friend."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Of course!|We can't fend off Aurelians without adequate morale!|A happy team is a strong team, I'm sure you know."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Lifes one true goal. Indeed."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Javi",
-                    "Care to join my training?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Sure, why not?"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Javi",
-                    "Maro",
-                    "Sages"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "give_exp",
-                [
-                    "Sages",
-                    "50"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Javi"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Sages",
-                    "Maro"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "if;game.check_alive('Maro')\n    multi_add_portrait;Javi;MidRight;Maro;FarRight;Sages;Left\nelse\n    multi_add_portrait;Javi;Right;Sages;Left\nend\nspeak;Javi;Ah, Lord Sages, you're back!\nspeak;Sages;Javi, still hard at work, I see.\nspeak;Javi;Hah! Of course!|I was training these rookies to my standards!\nif;game.check_alive('Maro')\n    speak;Maro;He's been putting us through the ringer, but it's all dandy!\n    speak;Javi;You'll get there one day!\nend\nspeak;Sages;At least you're encouraging, my friend.\nspeak;Javi;Of course!|We can't fend off Aurelians without adequate morale!|A happy team is a strong team, I'm sure you know.\nspeak;Sages;Lifes one true goal. Indeed.\nspeak;Javi;Care to join my training?\nspeak;Sages;Sure, why not?\nmulti_remove_portrait;Javi;Maro;Sages\ntransition;close\ngive_exp;Sages;50\nremove_talk;Sages;Javi\nremove_talk;Sages;Maro\n"
+        "_source": [
+            "if;game.check_alive('Maro')",
+            "multi_add_portrait;Javi;MidRight;Maro;FarRight;Sages;Left",
+            "else",
+            "multi_add_portrait;Javi;Right;Sages;Left",
+            "end",
+            "speak;Javi;Ah, Lord Sages, you're back!",
+            "speak;Sages;Javi, still hard at work, I see.",
+            "speak;Javi;Hah! Of course!|I was training these rookies to my standards!",
+            "if;game.check_alive('Maro')",
+            "speak;Maro;He's been putting us through the ringer, but it's all dandy!",
+            "speak;Javi;You'll get there one day!",
+            "end",
+            "speak;Sages;At least you're encouraging, my friend.",
+            "speak;Javi;Of course!|We can't fend off Aurelians without adequate morale!|A happy team is a strong team, I'm sure you know.",
+            "speak;Sages;Lifes one true goal. Indeed.",
+            "speak;Javi;Care to join my training?",
+            "speak;Sages;Sure, why not?",
+            "multi_remove_portrait;Javi;Maro;Sages",
+            "transition;close",
+            "give_exp;Sages;50",
+            "remove_talk;Sages;Javi",
+            "remove_talk;Sages;Maro"
+        ]
     }
 ]

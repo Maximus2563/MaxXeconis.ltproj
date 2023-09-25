@@ -4,53 +4,17 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.nid == 'Sages'",
-        "commands": [
-            [
-                "music",
-                [
-                    "108 Lament"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sages",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Eugh... Bye, nerds..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Sages",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sages"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Sages"
-                ]
-            ],
-            [
-                "lose_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "music;108 Lament\nadd_portrait;Sages;Right\nspeak;Sages;Eugh... Bye, nerds...\nexpression;Sages;CloseEyes\nremove_portrait;Sages\nremove_unit;Sages\nlose_game\n"
+        "_source": [
+            "music;108 Lament",
+            "add_portrait;Sages;Right",
+            "speak;Sages;Eugh... Bye, nerds...",
+            "expression;Sages;CloseEyes",
+            "remove_portrait;Sages",
+            "remove_unit;Sages",
+            "lose_game"
+        ]
     }
 ]

@@ -4,37 +4,14 @@
         "trigger": "unit_death",
         "level_nid": "5",
         "condition": "unit.nid == 'Byron'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Byron",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "How could you... Argh..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Byron",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Byron"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Byron;Left\nspeak;Byron;How could you... Argh...\nexpression;Byron;CloseEyes\nremove_portrait;Byron\n"
+        "_source": [
+            "add_portrait;Byron;Left",
+            "speak;Byron;How could you... Argh...",
+            "expression;Byron;CloseEyes",
+            "remove_portrait;Byron"
+        ]
     }
 ]

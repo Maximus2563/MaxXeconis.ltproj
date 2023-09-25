@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Smite",
-        "name": "Smite",
-        "desc": "Pushes target allies 2 spaces away.",
+        "nid": "PivotA",
+        "name": "Pivot",
+        "desc": "Moves unit to the opposite side of target ally.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            0,
+            3,
             38
         ],
         "components": [
@@ -22,12 +22,12 @@
                 1
             ],
             [
-                "shove_target_restrict",
-                2
+                "pivot",
+                1
             ],
             [
-                "shove",
-                2
+                "pivot_target_restrict",
+                1
             ]
         ]
     }

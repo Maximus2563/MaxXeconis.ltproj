@@ -4,52 +4,16 @@
         "trigger": null,
         "level_nid": "6",
         "condition": "any_unit_in_region('RevRein', team='player')",
-        "commands": [
-            [
-                "move_cursor",
-                [
-                    "Septimus"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Septimus"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Septimus",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Septimus",
-                    "You're putting me in a precarious situation...|Time for more of my beautiful constructs!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Septimus"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "Reinforcement2",
-                    "west",
-                    "Reinforcement2",
-                    "warp",
-                    "stack"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "move_cursor;Septimus\nflicker_cursor;Septimus\nadd_portrait;Septimus;Right\nspeak;Septimus;You're putting me in a precarious situation...|Time for more of my beautiful constructs!\nremove_portrait;Septimus\nspawn_group;Reinforcement2;west;Reinforcement2;warp;stack\n"
+        "_source": [
+            "move_cursor;Septimus",
+            "flicker_cursor;Septimus",
+            "add_portrait;Septimus;Right",
+            "speak;Septimus;You're putting me in a precarious situation...|Time for more of my beautiful constructs!",
+            "remove_portrait;Septimus",
+            "spawn_group;Reinforcement2;west;Reinforcement2;warp;stack"
+        ]
     }
 ]

@@ -4,30 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "8",
         "condition": "(unit.nid == \"Humphrey\" and unit2.team == 'player') or (unit2.nid == \"Humphrey\" and unit.team == 'player')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Humphrey",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Humphrey",
-                    "Gah! Give up!|You face a seasoned veteran!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Humphrey"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Humphrey;Right\nspeak;Humphrey;Gah! Give up!|You face a seasoned veteran!\nremove_portrait;Humphrey\n"
+        "_source": [
+            "add_portrait;Humphrey;Right",
+            "speak;Humphrey;Gah! Give up!|You face a seasoned veteran!",
+            "remove_portrait;Humphrey"
+        ]
     }
 ]

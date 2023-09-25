@@ -4,60 +4,19 @@
         "trigger": "on_support",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "item == 'C'"
-                ]
-            ],
-            [
-                "alert",
-                [
-                    "Reached rank C!"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "item == 'B'"
-                ]
-            ],
-            [
-                "alert",
-                [
-                    "Reached rank B!"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "item == 'A'"
-                ]
-            ],
-            [
-                "alert",
-                [
-                    "Reached rank A!"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "alert",
-                [
-                    "Support increased!"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "if;item == 'C'\n    alert;Reached rank C!\nelif;item == 'B'\n    alert;Reached rank B!\nelif;item == 'A'\n    alert;Reached rank A!\nelse\n    alert;Support increased!\nend\n"
+        "_source": [
+            "if;item == 'C'",
+            "alert;Reached rank C!",
+            "elif;item == 'B'",
+            "alert;Reached rank B!",
+            "elif;item == 'A'",
+            "alert;Reached rank A!",
+            "else",
+            "alert;Support increased!",
+            "end"
+        ]
     }
 ]

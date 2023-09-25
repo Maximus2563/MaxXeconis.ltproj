@@ -4,85 +4,22 @@
         "trigger": "Visit",
         "level_nid": "12",
         "condition": "region.nid == 'House2'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Daytime Inside House 1"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit}",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Girl2",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Girl2",
-                    "My boyfriend dumped me recently...|I'm just... done with it all...|Here, have this. Stab people in the back, like he did to me..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "House2"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Lethal_Dagger"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Daytime Inside House 1\ntransition;Open\nadd_portrait;{unit};Left;no_block\nadd_portrait;Girl2;Right\nspeak;Girl2;My boyfriend dumped me recently...|I'm just... done with it all...|Here, have this. Stab people in the back, like he did to me...\ntransition;Close\nshow_layer;House2\nchange_background\ntransition;Open\ngive_item;{unit};Lethal_Dagger\nhas_traded;{unit}\n"
+        "_source": [
+            "transition;Close",
+            "change_background;Daytime Inside House 1",
+            "transition;Open",
+            "add_portrait;{unit};Left;no_block",
+            "add_portrait;Girl2;Right",
+            "speak;Girl2;My boyfriend dumped me recently...|I'm just... done with it all...|Here, have this. Stab people in the back, like he did to me...",
+            "transition;Close",
+            "show_layer;House2",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Lethal_Dagger",
+            "has_traded;{unit}"
+        ]
     }
 ]

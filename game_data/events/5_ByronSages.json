@@ -4,59 +4,17 @@
         "trigger": "combat_start",
         "level_nid": "5",
         "condition": "check_pair('Byron', 'Sages')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Byron",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sages",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Here's the man of the hour, princeling."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I know. I am great."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Byron",
-                    "Your lack of awareness speaks volumes as to Arcein's idiocy.|Of course you'd ruin everything."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "The only thing I'm going to ruin, is your face! Ha!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sages",
-                    "Byron"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "add_portrait;Byron;Left\nadd_portrait;Sages;Right\nspeak;Byron;Here's the man of the hour, princeling.\nspeak;Sages;I know. I am great.\nspeak;Byron;Your lack of awareness speaks volumes as to Arcein's idiocy.|Of course you'd ruin everything.\nspeak;Sages;The only thing I'm going to ruin, is your face! Ha!\nmulti_remove_portrait;Sages;Byron\n"
+        "_source": [
+            "add_portrait;Byron;Left",
+            "add_portrait;Sages;Right",
+            "speak;Byron;Here's the man of the hour, princeling.",
+            "speak;Sages;I know. I am great.",
+            "speak;Byron;Your lack of awareness speaks volumes as to Arcein's idiocy.|Of course you'd ruin everything.",
+            "speak;Sages;The only thing I'm going to ruin, is your face! Ha!",
+            "multi_remove_portrait;Sages;Byron"
+        ]
     }
 ]

@@ -4,155 +4,30 @@
         "trigger": "on_talk",
         "level_nid": "7",
         "condition": "check_pair('Leap', 'Wagon2')",
-        "commands": [
-            [
-                "multi_add_portrait",
-                [
-                    "Leap",
-                    "Left",
-                    "Man4",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Hey, Mizt is still sleeping in here, right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man4",
-                    "Seems so."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Crazy...|MIZT WAKEUP!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man4",
-                    "No need to be so... loud..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Mizt",
-                    "FarRight"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Guest of Shade"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mizt",
-                    "Ugh... What's going on?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "We need your help, some mean guys are after us!|They want to steal our stuff!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mizt",
-                    "Alright... If I have to bloody my axe more, I will..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man4",
-                    "Please, this'll lighten my wagons load too."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Leap",
-                    "Now, throw down with those bandits!"
-                ]
-            ],
-            [
-                "music_fade_back",
-                []
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Mizt",
-                    "Leap",
-                    "Man4"
-                ]
-            ],
-            [
-                "separate",
-                [
-                    "Wagon2"
-                ]
-            ],
-            [
-                "remove_skill",
-                [
-                    "Wagon2",
-                    "Rescue",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Mizt",
-                    "player"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Mizt",
-                    "Wagon2",
-                    "fade",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Mizt",
-                    "Wagon2",
-                    "normal",
-                    "closest",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Leap",
-                    "Wagon2"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "multi_add_portrait;Leap;Left;Man4;Right\nspeak;Leap;Hey, Mizt is still sleeping in here, right?\nspeak;Man4;Seems so.\nspeak;Leap;Crazy...|MIZT WAKEUP!\nspeak;Man4;No need to be so... loud...\nadd_portrait;Mizt;FarRight\nmusic;Guest of Shade\nspeak;Mizt;Ugh... What's going on?\nspeak;Leap;We need your help, some mean guys are after us!|They want to steal our stuff!\nspeak;Mizt;Alright... If I have to bloody my axe more, I will...\nspeak;Man4;Please, this'll lighten my wagons load too.\nspeak;Leap;Now, throw down with those bandits!\nmusic_fade_back\nmulti_remove_portrait;Mizt;Leap;Man4\nseparate;Wagon2\nremove_skill;Wagon2;Rescue;FLAG(no_banner)\nchange_team;Mizt;player\nadd_unit;Mizt;Wagon2;fade;stack;fade\nmove_unit;Mizt;Wagon2;normal;closest;FLAG(no_follow)\nremove_talk;Leap;Wagon2\n"
+        "_source": [
+            "multi_add_portrait;Leap;Left;Man4;Right",
+            "speak;Leap;Hey, Mizt is still sleeping in here, right?",
+            "speak;Man4;Seems so.",
+            "speak;Leap;Crazy...|MIZT WAKEUP!",
+            "speak;Man4;No need to be so... loud...",
+            "add_portrait;Mizt;FarRight",
+            "music;Guest of Shade",
+            "speak;Mizt;Ugh... What's going on?",
+            "speak;Leap;We need your help, some mean guys are after us!|They want to steal our stuff!",
+            "speak;Mizt;Alright... If I have to bloody my axe more, I will...",
+            "speak;Man4;Please, this'll lighten my wagons load too.",
+            "speak;Leap;Now, throw down with those bandits!",
+            "music_fade_back",
+            "multi_remove_portrait;Mizt;Leap;Man4",
+            "separate;Wagon2",
+            "remove_skill;Wagon2;Rescue;FLAG(no_banner)",
+            "change_team;Mizt;player",
+            "add_unit;Mizt;Wagon2;fade;stack;fade",
+            "move_unit;Mizt;Wagon2;normal;closest;FLAG(no_follow)",
+            "remove_talk;Leap;Wagon2"
+        ]
     }
 ]

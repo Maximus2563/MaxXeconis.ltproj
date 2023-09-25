@@ -4,416 +4,70 @@
         "trigger": "on_base_convo",
         "level_nid": "6B",
         "condition": "unit == 'Fiery Family'",
-        "commands": [
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "74 Dance in the Dark"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Outside Castle 3 Day"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sages",
-                    "MidLeft",
-                    "Sal",
-                    "FarLeft",
-                    "Blazing",
-                    "Right"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Blazing",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Oh, thank you for accompanying me home!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "A pleasure, I'm glad we could work together, Blazing."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I trust we will meet the Count?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Oh, of course, come in!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Sages",
-                    "Sal",
-                    "Blazing"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Inside Castle 9 Day"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Sages",
-                    "MidLeft",
-                    "Sal",
-                    "FarLeft",
-                    "Blazing",
-                    "Left",
-                    "Ignatius",
-                    "FarRight"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Blazing",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Father!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Blazing",
-                    "Right"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Ignatius",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "Ah! Blazing, how is my boy?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Very well, father!|I may not have seen the festival, but I managed to meet new friends!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "And that would be... You two?|Oh! P-Prince Sages?!"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Blazing"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Blazing",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "The very same!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "And I, Sal, his loyal knight."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Ignatius",
-                    "NoSmile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "How rude of me not to introduce myself.|Count Ignatius Ogier Phyron, glad to be acquainted.|I wish circumstances were better for you.|But I do extend my welcomes, as well as my thanks."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Yes, things are rough.|But we'll pull through, with your aid, I assume?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "I cannot promise anything...|The acts committed that day are a spitting at the Goddess.|...Though I do not believe it to be your acts."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "I understand being shrewd, after all, Grahment is hardly unified, right?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "Exactly, Duke Hogarth von Ilkrest is most vocal in opposition.|While Marquess Zio is in support."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "What of Cres?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "Regrettably, unheard.|Nobody knows where they are...|You don't think..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "It's possible Aurelia did something."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "How barbaric..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "Either way, most of us are reluctant to take sides as of current.|Though given you guided my son home... I trust your morality."
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Blazing"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Please Father, allow me to travel with them!|I must uncover the truth myself, for the Goddess!"
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Ignatius",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "I raised a young man, with flickering conviction...|It's almost bringing a tear to my eyes..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "We will protect him with our lives, trust us."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "I cannot allow you to leave empty handed.|Since Blazing is your companion now, this is for you, son."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Father! Our family tome?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "Sadly not.|I'm afraid your old man hasn't given up yet.|I'll need it to defend our realm."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Aww... But, I understand.|I will become responsible enough for it, one day."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Thank you, Count Phyron, for your kind-of support."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ignatius",
-                    "Of course, I know the ramifications of my son aiding you...|So be it, I trust my family, always.|I bid you safe travels.|You might need it, with how those bloodhound Monsdorians operate."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sages",
-                    "Adieu!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Blazing",
-                    "Goodbye father!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "ignore_base_convo",
-                [
-                    "Fiery Family"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Blazing",
-                    "Shine"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Blazing",
-                    "Ignatius",
-                    "Sal",
-                    "Sages"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "music_fade_back",
-                []
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;close\nmusic;74 Dance in the Dark\nchange_background;Outside Castle 3 Day\ntransition;open\nmulti_add_portrait;Sages;MidLeft;Sal;FarLeft;Blazing;Right\nexpression;Blazing;Smile\nspeak;Blazing;Oh, thank you for accompanying me home!\nspeak;Sal;A pleasure, I'm glad we could work together, Blazing.\nspeak;Sages;I trust we will meet the Count?\nspeak;Blazing;Oh, of course, come in!\ntransition;close\nmulti_remove_portrait;Sages;Sal;Blazing\nchange_background;Inside Castle 9 Day\ntransition;open\nmulti_add_portrait;Sages;MidLeft;Sal;FarLeft;Blazing;Left;Ignatius;FarRight\nexpression;Blazing;Smile\nspeak;Blazing;Father!\nmove_portrait;Blazing;Right\nexpression;Ignatius;Smile\nspeak;Ignatius;Ah! Blazing, how is my boy?\nspeak;Blazing;Very well, father!|I may not have seen the festival, but I managed to meet new friends!\nspeak;Ignatius;And that would be... You two?|Oh! P-Prince Sages?!\nmirror_portrait;Blazing\nmove_portrait;Blazing;MidRight\nspeak;Sages;The very same!\nspeak;Sal;And I, Sal, his loyal knight.\nexpression;Ignatius;NoSmile\nspeak;Ignatius;How rude of me not to introduce myself.|Count Ignatius Ogier Phyron, glad to be acquainted.|I wish circumstances were better for you.|But I do extend my welcomes, as well as my thanks.\nspeak;Sal;Yes, things are rough.|But we'll pull through, with your aid, I assume?\nspeak;Ignatius;I cannot promise anything...|The acts committed that day are a spitting at the Goddess.|...Though I do not believe it to be your acts.\nspeak;Sages;I understand being shrewd, after all, Grahment is hardly unified, right?\nspeak;Ignatius;Exactly, Duke Hogarth von Ilkrest is most vocal in opposition.|While Marquess Zio is in support.\nspeak;Sal;What of Cres?\nspeak;Ignatius;Regrettably, unheard.|Nobody knows where they are...|You don't think...\nspeak;Sal;It's possible Aurelia did something.\nspeak;Blazing;How barbaric...\nspeak;Ignatius;Either way, most of us are reluctant to take sides as of current.|Though given you guided my son home... I trust your morality.\nbop_portrait;Blazing\nspeak;Blazing;Please Father, allow me to travel with them!|I must uncover the truth myself, for the Goddess!\nexpression;Ignatius;Smile\nspeak;Ignatius;I raised a young man, with flickering conviction...|It's almost bringing a tear to my eyes...\nspeak;Sages;We will protect him with our lives, trust us.\nspeak;Ignatius;I cannot allow you to leave empty handed.|Since Blazing is your companion now, this is for you, son.\nspeak;Blazing;Father! Our family tome?\nspeak;Ignatius;Sadly not.|I'm afraid your old man hasn't given up yet.|I'll need it to defend our realm.\nspeak;Blazing;Aww... But, I understand.|I will become responsible enough for it, one day.\nspeak;Sages;Thank you, Count Phyron, for your kind-of support.\nspeak;Ignatius;Of course, I know the ramifications of my son aiding you...|So be it, I trust my family, always.|I bid you safe travels.|You might need it, with how those bloodhound Monsdorians operate.\nspeak;Sages;Adieu!\nspeak;Blazing;Goodbye father!\ntransition;close\nignore_base_convo;Fiery Family\ngive_item;Blazing;Shine\nmulti_remove_portrait;Blazing;Ignatius;Sal;Sages\nchange_background\nmusic_fade_back\ntransition;open\n\n\n"
+        "_source": [
+            "transition;close",
+            "music;74 Dance in the Dark",
+            "change_background;Outside Castle 3 Day",
+            "transition;open",
+            "multi_add_portrait;Sages;MidLeft;Sal;FarLeft;Blazing;Right",
+            "expression;Blazing;Smile",
+            "speak;Blazing;Oh, thank you for accompanying me home!",
+            "speak;Sal;A pleasure, I'm glad we could work together, Blazing.",
+            "speak;Sages;I trust we will meet the Count?",
+            "speak;Blazing;Oh, of course, come in!",
+            "transition;close",
+            "multi_remove_portrait;Sages;Sal;Blazing",
+            "change_background;Inside Castle 9 Day",
+            "transition;open",
+            "multi_add_portrait;Sages;MidLeft;Sal;FarLeft;Blazing;Left;Ignatius;FarRight",
+            "expression;Blazing;Smile",
+            "speak;Blazing;Father!",
+            "move_portrait;Blazing;Right",
+            "expression;Ignatius;Smile",
+            "speak;Ignatius;Ah! Blazing, how is my boy?",
+            "speak;Blazing;Very well, father!|I may not have seen the festival, but I managed to meet new friends!",
+            "speak;Ignatius;And that would be... You two?|Oh! P-Prince Sages?!",
+            "mirror_portrait;Blazing",
+            "move_portrait;Blazing;MidRight",
+            "speak;Sages;The very same!",
+            "speak;Sal;And I, Sal, his loyal knight.",
+            "expression;Ignatius;NoSmile",
+            "speak;Ignatius;How rude of me not to introduce myself.|Count Ignatius Ogier Phyron, glad to be acquainted.|I wish circumstances were better for you.|But I do extend my welcomes, as well as my thanks.",
+            "speak;Sal;Yes, things are rough.|But we'll pull through, with your aid, I assume?",
+            "speak;Ignatius;I cannot promise anything...|The acts committed that day are a spitting at the Goddess.|...Though I do not believe it to be your acts.",
+            "speak;Sages;I understand being shrewd, after all, Grahment is hardly unified, right?",
+            "speak;Ignatius;Exactly, Duke Hogarth von Ilkrest is most vocal in opposition.|While Marquess Zio is in support.",
+            "speak;Sal;What of Cres?",
+            "speak;Ignatius;Regrettably, unheard.|Nobody knows where they are...|You don't think...",
+            "speak;Sal;It's possible Aurelia did something.",
+            "speak;Blazing;How barbaric...",
+            "speak;Ignatius;Either way, most of us are reluctant to take sides as of current.|Though given you guided my son home... I trust your morality.",
+            "bop_portrait;Blazing",
+            "speak;Blazing;Please Father, allow me to travel with them!|I must uncover the truth myself, for the Goddess!",
+            "expression;Ignatius;Smile",
+            "speak;Ignatius;I raised a young man, with flickering conviction...|It's almost bringing a tear to my eyes...",
+            "speak;Sages;We will protect him with our lives, trust us.",
+            "speak;Ignatius;I cannot allow you to leave empty handed.|Since Blazing is your companion now, this is for you, son.",
+            "speak;Blazing;Father! Our family tome?",
+            "speak;Ignatius;Sadly not.|I'm afraid your old man hasn't given up yet.|I'll need it to defend our realm.",
+            "speak;Blazing;Aww... But, I understand.|I will become responsible enough for it, one day.",
+            "speak;Sages;Thank you, Count Phyron, for your kind-of support.",
+            "speak;Ignatius;Of course, I know the ramifications of my son aiding you...|So be it, I trust my family, always.|I bid you safe travels.|You might need it, with how those bloodhound Monsdorians operate.",
+            "speak;Sages;Adieu!",
+            "speak;Blazing;Goodbye father!",
+            "transition;close",
+            "ignore_base_convo;Fiery Family",
+            "give_item;Blazing;Shine",
+            "multi_remove_portrait;Blazing;Ignatius;Sal;Sages",
+            "change_background",
+            "music_fade_back",
+            "transition;open",
+            "",
+            "",
+            ""
+        ]
     }
 ]

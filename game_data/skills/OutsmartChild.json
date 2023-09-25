@@ -2,7 +2,7 @@
     {
         "nid": "OutsmartChild",
         "name": "Outsmart",
-        "desc": "Grants +3 ATK and +10 crit.",
+        "desc": "Grants ATK +3 and crit +10.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

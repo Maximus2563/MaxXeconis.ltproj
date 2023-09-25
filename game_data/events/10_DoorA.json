@@ -4,22 +4,12 @@
         "trigger": "on_region_interact",
         "level_nid": "10",
         "condition": "region.nid == 'DoorA'",
-        "commands": [
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "DoorA"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "sound;Unlock\nshow_layer;DoorA\n"
+        "_source": [
+            "sound;Unlock",
+            "show_layer;DoorA"
+        ]
     }
 ]

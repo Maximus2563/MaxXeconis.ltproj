@@ -2,16 +2,24 @@
     {
         "nid": "Gratitude",
         "name": "Gratitude",
-        "desc": "If unit is healed by an ally, grants them ",
+        "desc": "If unit is healed by an ally, grants them DEF/RES+3",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            3,
+            4,
             11
         ],
         "components": [
             [
-                "give_ally_status_after_combat",
-                "New Skill (1)"
+                "combat_condition",
+                "unit.team == unit2.team"
+            ],
+            [
+                "give_status_on_take_hit",
+                "GratitudeChild"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

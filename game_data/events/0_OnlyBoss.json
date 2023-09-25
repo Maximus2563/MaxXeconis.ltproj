@@ -4,40 +4,15 @@
         "trigger": "combat_end",
         "level_nid": "0",
         "condition": "len(game.get_enemy_units()) == 1",
-        "commands": [
-            [
-                "if",
-                [
-                    "game.check_alive('MaxYoung')"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "MaxYoung",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "MaxYoung",
-                    "Only one left! Stay sharp!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "MaxYoung"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
         "priority": 20,
-        "source": "if;game.check_alive('MaxYoung')\n    add_portrait;MaxYoung;Left\n    speak;MaxYoung;Only one left! Stay sharp!\n    remove_portrait;MaxYoung\nend\n"
+        "_source": [
+            "if;game.check_alive('MaxYoung')",
+            "add_portrait;MaxYoung;Left",
+            "speak;MaxYoung;Only one left! Stay sharp!",
+            "remove_portrait;MaxYoung",
+            "end"
+        ]
     }
 ]

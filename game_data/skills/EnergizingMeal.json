@@ -15,7 +15,7 @@
             ],
             [
                 "allowed_weapons",
-                "item.nid == 'Vulnerary' or 'Elixir' or 'Antitoxin'"
+                "item.nid in ['Vulnerary','Elixir','Antitoxin','Concoction']"
             ],
             [
                 "automatic_combat_art",

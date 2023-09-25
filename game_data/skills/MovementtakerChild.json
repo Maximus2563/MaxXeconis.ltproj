@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "MovementtakerChild",
+        "name": "Movementtaker",
+        "desc": "Grants +1 MOV per stack.\nLost on end of chapter.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

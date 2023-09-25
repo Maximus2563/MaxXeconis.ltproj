@@ -1,0 +1,26 @@
+[
+    {
+        "name": "L5SkillChoice",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.get_field('SkillA') and unit.get_field('SkillB')",
+            "if;DB.classes.get('{e:unit.klass}').tier == 2 and unit.level == 5",
+            "choice;SkillLearn;Choose a skill to learn:;{eval:unit.get_field('SkillA')},{eval:unit.get_field('SkillB')};;v;center;;;type_skill;;left",
+            "give_skill;{unit};{var:SkillLearn}",
+            "end",
+            "end",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]

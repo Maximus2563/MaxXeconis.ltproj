@@ -4,323 +4,58 @@
         "trigger": "level_end",
         "level_nid": "4",
         "condition": "True",
-        "commands": [
-            [
-                "transition",
-                [
-                    "Close"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "Forest"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "Open"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Pykroe') and unit.team('Pykroe') == 'player'"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Pykroe",
-                    "Left",
-                    "no_block"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "We should be home soon, but my gut is telling me this isn't going to be good..."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Pykroe') and unit.team('Pykroe') == 'player'"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pykroe",
-                    "Oh, yes. There villains are much worse then those revenants and the entombed...|But my luck says there will be no fiends beyond!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Entombed?{c:wait;400} Revenants?{c:wait;400} What?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Pykroe",
-                    "Foul creatures from a fairytale I once read.|Heroes must always know the classics!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Right. Either way I don't think luck will help us here..."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Smoke')"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Sal",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "BOO!"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Sal"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Smoke!|You're lucky I didn't impale you right there!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "Well, I sworda thought you wouldn't slice me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Will you ever listen?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "What was that? Sorry, something in my ear..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Smoke",
-                    "Er, I'll go on ahead..."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Smoke"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Pykroe"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Zio",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "Y-you there!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Zio",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "It appears you bear the colours of Arcei..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Huh? Yeah that's so, but I'm afraid I'm in a rush."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "Eek! I'm so sorry!|It's just, you're in Grahment land now and..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Look, I have urgent business with his Majesty Sages. Very urgent."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "Oh my! Well... Go! Go!|I was just... awaiting my friend Cres's return..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Cres? I think she's still in Aurelia, they... helped me escape."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "ACK! Escape?|ESCAPE WHAT?! If they're hurt! NOOOO!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Calm, please.{c:wait;400} You are?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "Duchess Zio of M-Moonglade, I'm one of the nobles of Grahment."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "Strange, I'm well aware of the rulers of Grahment...|But I've never heard of you..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zio",
-                    "Well, I despise making public appearances...|I was just about to request a search party for Cres but...|I-I wish you luck in whatever business you have with his Majesty! Send my r-regards!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Zio"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sal",
-                    "What a strange noble..."
-                ]
-            ],
-            [
-                "remove_tag",
-                [
-                    "Blazing",
-                    "Required",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.turncount < 12"
-                ]
-            ],
-            [
-                "give_bexp",
-                [
-                    "200"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "transition;Close\nchange_background;Forest\ntransition;Open\nif;game.check_alive('Pykroe') and unit.team('Pykroe') == 'player'\n    add_portrait;Pykroe;Left;no_block\nend\nadd_portrait;Sal;Right\nspeak;Sal;We should be home soon, but my gut is telling me this isn't going to be good...\nif;game.check_alive('Pykroe') and unit.team('Pykroe') == 'player'\n    speak;Pykroe;Oh, yes. There villains are much worse then those revenants and the entombed...|But my luck says there will be no fiends beyond!\n    speak;Sal;Entombed?{c:wait;400} Revenants?{c:wait;400} What?\n    speak;Pykroe;Foul creatures from a fairytale I once read.|Heroes must always know the classics!\n    speak;Sal;Right. Either way I don't think luck will help us here...\nend\nif;game.check_alive('Smoke')\n    add_portrait;Sal;FarRight\n    speak;Smoke;BOO!\n    bop_portrait;Sal\n    speak;Sal;Smoke!|You're lucky I didn't impale you right there!\n    speak;Smoke;Well, I sworda thought you wouldn't slice me!\n    speak;Sal;Will you ever listen?\n    speak;Smoke;What was that? Sorry, something in my ear...\n    speak;Sal;...\n    speak;Smoke;Er, I'll go on ahead...\nend\nremove_portrait;Smoke\nremove_portrait;Pykroe\nadd_portrait;Zio;OffscreenLeft\nspeak;Zio;Y-you there!\nmove_portrait;Zio;Left\nspeak;Zio;It appears you bear the colours of Arcei...\nspeak;Sal;Huh? Yeah that's so, but I'm afraid I'm in a rush.\nspeak;Zio;Eek! I'm so sorry!|It's just, you're in Grahment land now and...\nspeak;Sal;Look, I have urgent business with his Majesty Sages. Very urgent.\nspeak;Zio;Oh my! Well... Go! Go!|I was just... awaiting my friend Cres's return...\nspeak;Sal;Cres? I think she's still in Aurelia, they... helped me escape.\nspeak;Zio;ACK! Escape?|ESCAPE WHAT?! If they're hurt! NOOOO!\nspeak;Sal;Calm, please.{c:wait;400} You are?\nspeak;Zio;Duchess Zio of M-Moonglade, I'm one of the nobles of Grahment.\nspeak;Sal;Strange, I'm well aware of the rulers of Grahment...|But I've never heard of you...\nspeak;Zio;Well, I despise making public appearances...|I was just about to request a search party for Cres but...|I-I wish you luck in whatever business you have with his Majesty! Send my r-regards!\nremove_portrait;Zio\nspeak;Sal;What a strange noble...\nremove_tag;Blazing;Required;FLAG(no_warn)\ntransition;close\nif;game.turncount < 12\n    give_bexp;200\nend"
+        "_source": [
+            "transition;Close",
+            "change_background;Forest",
+            "transition;Open",
+            "if;game.check_alive('Pykroe') and unit.team('Pykroe') == 'player'",
+            "add_portrait;Pykroe;Left;no_block",
+            "end",
+            "add_portrait;Sal;Right",
+            "speak;Sal;We should be home soon, but my gut is telling me this isn't going to be good...",
+            "if;game.check_alive('Pykroe') and unit.team('Pykroe') == 'player'",
+            "speak;Pykroe;Oh, yes. There villains are much worse then those revenants and the entombed...|But my luck says there will be no fiends beyond!",
+            "speak;Sal;Entombed?{c:wait;400} Revenants?{c:wait;400} What?",
+            "speak;Pykroe;Foul creatures from a fairytale I once read.|Heroes must always know the classics!",
+            "speak;Sal;Right. Either way I don't think luck will help us here...",
+            "end",
+            "if;game.check_alive('Smoke')",
+            "add_portrait;Sal;FarRight",
+            "speak;Smoke;BOO!",
+            "bop_portrait;Sal",
+            "speak;Sal;Smoke!|You're lucky I didn't impale you right there!",
+            "speak;Smoke;Well, I sworda thought you wouldn't slice me!",
+            "speak;Sal;Will you ever listen?",
+            "speak;Smoke;What was that? Sorry, something in my ear...",
+            "speak;Sal;...",
+            "speak;Smoke;Er, I'll go on ahead...",
+            "end",
+            "remove_portrait;Smoke",
+            "remove_portrait;Pykroe",
+            "add_portrait;Zio;OffscreenLeft",
+            "speak;Zio;Y-you there!",
+            "move_portrait;Zio;Left",
+            "speak;Zio;It appears you bear the colours of Arcei...",
+            "speak;Sal;Huh? Yeah that's so, but I'm afraid I'm in a rush.",
+            "speak;Zio;Eek! I'm so sorry!|It's just, you're in Grahment land now and...",
+            "speak;Sal;Look, I have urgent business with his Majesty Sages. Very urgent.",
+            "speak;Zio;Oh my! Well... Go! Go!|I was just... awaiting my friend Cres's return...",
+            "speak;Sal;Cres? I think she's still in Aurelia, they... helped me escape.",
+            "speak;Zio;ACK! Escape?|ESCAPE WHAT?! If they're hurt! NOOOO!",
+            "speak;Sal;Calm, please.{c:wait;400} You are?",
+            "speak;Zio;Duchess Zio of M-Moonglade, I'm one of the nobles of Grahment.",
+            "speak;Sal;Strange, I'm well aware of the rulers of Grahment...|But I've never heard of you...",
+            "speak;Zio;Well, I despise making public appearances...|I was just about to request a search party for Cres but...|I-I wish you luck in whatever business you have with his Majesty! Send my r-regards!",
+            "remove_portrait;Zio",
+            "speak;Sal;What a strange noble...",
+            "remove_tag;Blazing;Required;FLAG(no_warn)",
+            "transition;close",
+            "if;game.turncount < 12",
+            "give_bexp;200",
+            "end"
+        ]
     }
 ]

@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "KunaiProc",
+        "name": "Smoke's Kunai",
+        "desc": "LCK/DEF/RES-2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": [
+            [
+                "savage_status",
+                {
+                    "status": "Kunai",
+                    "range": 2
+                }
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

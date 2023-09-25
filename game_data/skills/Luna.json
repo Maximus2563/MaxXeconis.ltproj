@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Luna",
+        "name": "Luna",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            40
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "target.get_stat('RES')//2 if item_funcs.is_magic(unit, unit.get_weapon()) else target.get_stat('DEF')//2"
+            ]
+        ]
+    }
+]

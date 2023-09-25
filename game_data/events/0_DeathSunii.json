@@ -4,47 +4,16 @@
         "trigger": "unit_death",
         "level_nid": "0",
         "condition": "unit.nid == \"Sunii\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Sunii",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Sunii",
-                    "My baby... No..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Sunii",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Sunii"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Sunii"
-                ]
-            ],
-            [
-                "lose_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "_source": [
+            "add_portrait;Sunii;FarRight",
+            "speak;Sunii;My baby... No...",
+            "expression;Sunii;CloseEyes",
+            "remove_portrait;Sunii",
+            "remove_unit;Sunii",
+            "lose_game"
+        ]
     }
 ]

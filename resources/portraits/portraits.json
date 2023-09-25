@@ -1980,18 +1980,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Siri",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Speedy",
         "blinking_offset": [
             24,
@@ -2131,6 +2119,78 @@
         ],
         "smiling_offset": [
             16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ForestFather",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "MageMother",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "HatTip",
+        "blinking_offset": [
+            40,
+            64
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ahmari",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Flaco",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Siri",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
             40
         ],
         "info_offset": 0

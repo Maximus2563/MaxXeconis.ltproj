@@ -4,60 +4,18 @@
         "trigger": "unit_death",
         "level_nid": "9",
         "condition": "unit.nid == 'Zashar'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Zashar",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Zashar",
-                    "As if I could make such a mistake...|Another contingency...|I have to... take my tincture...|GRAAAAAAAAAAA!"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "CyclopsCrit"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Zashar"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "ZasharCyclops",
-                    "Zashar",
-                    "fade",
-                    "stack",
-                    "fade"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "ZasharCyclops"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Zashar;Right\nspeak;Zashar;As if I could make such a mistake...|Another contingency...|I have to... take my tincture...|GRAAAAAAAAAAA!\nsound;CyclopsCrit\nremove_portrait;Zashar\nadd_unit;ZasharCyclops;Zashar;fade;stack;fade\nwait;ZasharCyclops\n\n"
+        "_source": [
+            "add_portrait;Zashar;Right",
+            "speak;Zashar;As if I could make such a mistake...|Another contingency...|I have to... take my tincture...|GRAAAAAAAAAAA!",
+            "sound;CyclopsCrit",
+            "remove_portrait;Zashar",
+            "add_unit;ZasharCyclops;Zashar;fade;stack;fade",
+            "wait;ZasharCyclops",
+            "",
+            ""
+        ]
     }
 ]

@@ -4,24 +4,12 @@
         "trigger": "turn_change",
         "level_nid": "2",
         "condition": "game.turncount == 3",
-        "commands": [
-            [
-                "move_cursor",
-                [
-                    "1,9"
-                ]
-            ],
-            [
-                "spawn_group",
-                [
-                    "BanditReinforcements",
-                    "West",
-                    "BanditReinforcements"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": ""
+        "_source": [
+            "move_cursor;1,9",
+            "spawn_group;BanditReinforcements;West;BanditReinforcements"
+        ]
     }
 ]

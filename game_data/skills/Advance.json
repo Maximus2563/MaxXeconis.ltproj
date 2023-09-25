@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Advance",
+        "name": "Advance",
+        "desc": "Unit and target ally move 1 space forwards.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "AdvanceA"
+            ]
+        ]
+    }
+]

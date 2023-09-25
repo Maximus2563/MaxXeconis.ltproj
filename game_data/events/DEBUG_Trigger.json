@@ -4,34 +4,14 @@
         "trigger": null,
         "level_nid": "DEBUG",
         "condition": "True",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Eirika",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "This is a test"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Eirika"
-                ]
-            ],
-            [
-                "comment",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "add_portrait;Eirika;Left\nspeak;Eirika;This is a test\nremove_portrait;Eirika\n"
+        "_source": [
+            "add_portrait;Eirika;Left",
+            "speak;Eirika;This is a test",
+            "remove_portrait;Eirika",
+            ""
+        ]
     }
 ]

@@ -4,25 +4,13 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "remove_skill",
-                [
-                    "Shoop",
-                    "BloodlustStack",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "change_portrait",
-                [
-                    "Shoop",
-                    "Shoop"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "remove_skill;Shoop;BloodlustStack;FLAG(no_banner)\nchange_portrait;Shoop;Shoop\n"
+        "_source": [
+            "remove_skill;Shoop;BloodlustStack;FLAG(no_banner)",
+            "change_portrait;Shoop;Shoop",
+            ""
+        ]
     }
 ]

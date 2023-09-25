@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Refresh",
+        "name": "Refresh",
+        "desc": "Refresh target ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Refresh"
+            ]
+        ]
+    }
+]

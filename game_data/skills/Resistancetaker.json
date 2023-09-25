@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Resistancetaker",
+        "name": "Resistancetaker",
+        "desc": "Grants +2 RES after defeating a foe (max +10).\nResets on end chapter.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_kill",
+                "ResistancetakerChild"
+            ]
+        ]
+    }
+]

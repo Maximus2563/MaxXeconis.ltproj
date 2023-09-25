@@ -4,17 +4,11 @@
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.team == 'enemy' or 'enemy2' and unit2.team == 'other'",
-        "commands": [
-            [
-                "give_bexp",
-                [
-                    "10",
-                    "FLAG(no_banner)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20,
-        "source": "give_bexp;10;FLAG(no_banner)"
+        "_source": [
+            "give_bexp;10;FLAG(no_banner)"
+        ]
     }
 ]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "PaviseProc",
+        "name": "Pavise",
+        "desc": "Reduces sword, lance, axe and special weapon damage by half (Trigger% = SKL).\n",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "SOMNUS"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "defense_proc",
+                "Pavise"
+            ],
+            [
+                "condition",
+                "item_system.weapon_type(target, target.get_weapon()) in ['Sword','Lance','Axe'] or target.klass in ['Revenant','Entombed','Wolf']"
+            ]
+        ]
+    }
+]
