@@ -6,12 +6,12 @@
         "bg_tilemap": null,
         "party": "LeapGroup",
         "music": {
-            "player_phase": "Justice RIP",
-            "enemy_phase": "Justice RIP",
-            "other_phase": "Justice RIP",
-            "player_battle": "Justice RIP",
-            "enemy_battle": "Justice RIP",
-            "other_battle": "Justice RIP",
+            "player_phase": "Bright Sandstorm",
+            "enemy_phase": "Bright Sandstorm",
+            "other_phase": "Bright Sandstorm",
+            "player_battle": "Bright Sandstorm",
+            "enemy_battle": "Bright Sandstorm",
+            "other_battle": "Bright Sandstorm",
             "boss_battle": "Rage in the Light"
         },
         "objective": {
@@ -62,7 +62,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Myrmidon",
-                "faction": "Khonsu",
+                "faction": "Zahul",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -86,7 +86,7 @@
                 "variant": "",
                 "level": 6,
                 "klass": "Mage",
-                "faction": "Khonsu",
+                "faction": "Zahul",
                 "starting_items": [
                     [
                         "Fire",
@@ -217,7 +217,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Deserter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -289,7 +289,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -337,7 +337,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -448,7 +448,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Pegasus_Knight",
                 "faction": "Bandit",
                 "starting_items": [
@@ -472,7 +472,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Pegasus_Knight",
                 "faction": "Bandit",
                 "starting_items": [
@@ -496,7 +496,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Outlaw",
                 "faction": "Bandit",
                 "starting_items": [
@@ -592,7 +592,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Mage",
                 "faction": "Bandit",
                 "starting_items": [
@@ -616,7 +616,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Mage",
                 "faction": "Bandit",
                 "starting_items": [
@@ -640,13 +640,13 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Thief",
                 "faction": "Bandit",
                 "starting_items": [
                     [
                         "Iron Dagger",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -824,6 +824,23 @@
                 "interrupt_move": false
             },
             {
+                "nid": "House1Destroy",
+                "region_type": "event",
+                "position": [
+                    1,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
                 "nid": "House2",
                 "region_type": "event",
                 "position": [
@@ -836,6 +853,23 @@
                 ],
                 "sub_nid": "Visit",
                 "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House2Destroy",
+                "region_type": "event",
+                "position": [
+                    11,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -866,20 +900,7 @@
                     "113",
                     "114"
                 ],
-                "positions": {
-                    "114": [
-                        13,
-                        14
-                    ],
-                    "112": [
-                        15,
-                        12
-                    ],
-                    "113": [
-                        14,
-                        13
-                    ]
-                }
+                "positions": {}
             }
         ],
         "ai_groups": [

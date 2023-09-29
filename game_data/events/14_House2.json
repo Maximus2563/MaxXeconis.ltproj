@@ -1,0 +1,23 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "14",
+        "condition": "region.nid == 'House2'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Daytime Inside House 1",
+            "transition;open",
+            "multi_add_portrait;{unit};Left;Boy1;Right",
+            "speak;Boy1;Oh, hi.|Hello? Helloooo?|You. Yeah, you.|This is my house!|...|Ok, take this and leave, you're scaring me...",
+            "transition;close",
+            "change_background",
+            "multi_remove_portrait;{unit};Boy1",
+            "give_item;{unit};Steel Sword",
+            "transition;open"
+        ]
+    }
+]

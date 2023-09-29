@@ -2,55 +2,73 @@
     {
         "nid": "Chess",
         "name": "Chess",
-        "desc": "An strange knight enlisted in Sages' army.\nHia goals are unknown.",
+        "desc": "A calm knight enlisted in Aurelia's army.\nHis goals are unknown.",
         "variant": "",
-        "level": 6,
+        "level": 7,
         "klass": "KnightL",
         "tags": [],
         "bases": {
-            "HP": 27,
+            "HP": 29,
             "STR": 10,
             "MAG": 0,
             "SKL": 6,
-            "SPD": 3,
-            "LCK": 3,
+            "SPD": 4,
+            "LCK": 2,
             "DEF": 11,
             "CON": 14,
             "MOV": 4,
             "RES": 3
         },
         "growths": {
-            "HP": 85,
+            "HP": 90,
             "STR": 60,
             "MAG": 5,
             "SKL": 40,
             "SPD": 35,
-            "LCK": 35,
+            "LCK": 20,
             "DEF": 55,
             "CON": 0,
             "MOV": 0,
             "RES": 15
         },
         "stat_cap_modifiers": {
-            "HP": 0,
+            "HP": 5,
             "MAG": 0,
             "MOV": 0,
             "CON": 0,
-            "STR": 0,
-            "RES": 0,
+            "STR": 3,
+            "RES": -3,
             "DEF": 0,
-            "LCK": 0,
+            "LCK": -5,
             "SKL": 0,
             "SPD": 0
         },
         "starting_items": [
             [
-                "Iron Lance",
+                "Steel Lance",
+                false
+            ],
+            [
+                "Dragonshield",
                 false
             ]
         ],
-        "learned_skills": [],
-        "unit_notes": [],
+        "learned_skills": [
+            [
+                1,
+                "ZenPresence"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Calm moods"
+            ],
+            [
+                "Dislikes:",
+                "Kesley,Shouting"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -59,7 +77,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                71,
                 251
             ],
             "Axe": [
@@ -101,6 +119,39 @@
         "alternate_classes": [],
         "portrait_nid": "Chess",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "This is true peace and quiet..."
+            ],
+            [
+                "EscapeQuote",
+                "I'm up ahead, stay strong."
+            ],
+            [
+                "MaxStatQuote",
+                "I've reached the top? Imrpessive..."
+            ],
+            [
+                "PromoQuote",
+                "I've achieved great things here, thank you."
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'm impressed. I'll try it again."
+            ],
+            [
+                "MidLevelUpQuote",
+                "This is alright, solid."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Suppose I could do better, next time."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "I must focus on my breathing..."
+            ]
+        ]
     }
 ]

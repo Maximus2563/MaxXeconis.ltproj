@@ -1,0 +1,17 @@
+[
+    {
+        "name": "FlacoDeath",
+        "trigger": "unit_death",
+        "level_nid": "14",
+        "condition": "unit.nid == 'Flacoug'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Flaco;Left",
+            "speak;Flaco;You... ngrh...",
+            "expression;Flaco;CloseEyes",
+            "remove_portrait;Flaco"
+        ]
+    }
+]

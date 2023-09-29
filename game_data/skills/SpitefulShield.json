@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SpitefulShield",
+        "name": "Spiteful Shield",
+        "desc": "If unit is hit by an attack, the attacker receives 5 damage after combat\n(Damage is not lethal).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_on_take_hit",
+                "SpitefulShieldChild"
+            ]
+        ]
+    }
+]

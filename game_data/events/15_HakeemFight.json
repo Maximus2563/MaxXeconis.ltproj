@@ -1,0 +1,16 @@
+[
+    {
+        "name": "HakeemFight",
+        "trigger": "combat_start",
+        "level_nid": "15",
+        "condition": "(unit.nid == \"Hakeem\" and unit2.team == 'player') or (unit2.nid == \"Hakeem\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Hakeem;Left",
+            "speak;Hakeem;You outlanders meddle in our affairs.|I'll enjoy severing your limbs.",
+            "remove_portrait;Hakeem"
+        ]
+    }
+]

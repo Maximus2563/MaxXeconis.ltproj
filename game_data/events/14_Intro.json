@@ -19,8 +19,12 @@
             "speak;Prof;At least we should be approaching the first tribal settlement soon.",
             "speak;Leap;We should take a break first...|Ah...",
             "multi_remove_portrait;Leap;Prof",
-            "if;game.check_alive('Siri') and unit.team('Siri') == 'player'",
+            "if;game.check_alive('Siri') and game.get_unit('Siri').team == 'player'",
             "add_base_convo;Winging it",
+            "end",
+            "if;game.check_alive('Blazing')",
+            "add_base_convo;Sunshine Son",
+            "end",
             "base;Desert Day;Skrimir's Pride",
             "transition;close",
             "multi_add_portrait;Leap;MidLeft;Prof;FarLeft",
@@ -40,7 +44,20 @@
             "remove_portrait;Flaco",
             "move_cursor;Ahmari",
             "multi_add_portrait;Ahmari;Right;FighterPurple;Left",
-            "speak;Ahmari;"
+            "speak;Ahmari;Hmph, again?!",
+            "speak;FighterPurple;Bandits back for more?",
+            "speak;Ahmari;This is getting old, real fast.|I'm gonna have to cave their heads in, teach 'em a lesson!",
+            "speak;FighterPurple;Yes, Chief Ahmari.",
+            "multi_remove_portrait;Ahmari;FighterPurple",
+            "move_cursor;2,1",
+            "spawn_group;Player;east;Player;normal;stack",
+            "multi_add_portrait;Leap;MidLeft;Prof;FarLeft",
+            "speak;Leap;Looks like they need help...",
+            "speak;Prof;Could be helpful for gaining allies...",
+            "speak;Leap;The ruin is everywhere...|Gah! We have to stop it!",
+            "multi_remove_portrait;Leap;Prof",
+            "add_talk;Leap;Ahmari",
+            "prep;t;ResolveLight"
         ]
     }
 ]

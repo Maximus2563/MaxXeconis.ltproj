@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Chest1",
+        "trigger": "Door",
+        "level_nid": "15",
+        "condition": "region.nid == 'Chest1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;Chest1",
+            "sound;Unlock",
+            "give_item;{unit};Restore",
+            "has_traded;{unit}"
+        ]
+    }
+]

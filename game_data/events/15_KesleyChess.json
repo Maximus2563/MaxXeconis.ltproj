@@ -1,0 +1,19 @@
+[
+    {
+        "name": "KesleyChess",
+        "trigger": "combat_start",
+        "level_nid": "15",
+        "condition": "check_pair('KesleyCH15','Chess')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Kesley;Left;Chess;Right",
+            "speak;Kesley;Chess... Why is your lance pointed at me...?",
+            "speak;Chess;Look, I don't see the point in all this.|Plus, I find you to be petulant and annoying.|Really throws off my focus.",
+            "bop_portrait;Kesley",
+            "speak;Kesley;I am not petulant!|Now, you'll feel my wrath for siding with these utter barbarians!",
+            "multi_remove_portrait;Kesley;Chess"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "LeapAhmari",
+        "trigger": "on_talk",
+        "level_nid": "14",
+        "condition": "check_pair('Leap','Ahmari')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Skrimir's Pride",
+            "multi_add_portrait;Leap;Left;Ahmari;Right",
+            "expression;Leap;HalfCloseEyes",
+            "speak;Ahmari;Stand back!",
+            "speak;Leap;I'm... not with them.|I want to help.",
+            "speak;Ahmari;Youngling, you look unwell.",
+            "speak;Leap;It's so hot, here...",
+            "speak;Ahmari;Hm, you don't seem in any position to harm me.|Well, I welcome your kin, northern wanderer!|I am Chief Ahmari, of the Za'hul.",
+            "speak;Leap;I am... Leap.|Of uh, Grahment.",
+            "speak;Ahmari;After this battle, I will find you some shelter, young one.|Until then, we fight on!",
+            "speak;Leap;Of... course...",
+            "music_fade_back",
+            "remove_talk;Leap;Ahmari"
+        ]
+    }
+]

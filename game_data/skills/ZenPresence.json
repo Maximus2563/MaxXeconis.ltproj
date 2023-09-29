@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ZenPresence",
+        "name": "Zen Presence",
+        "desc": "Foe's critical hit damage is multiplied by 2, not 3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            56
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "skill_before_combat",
+                {
+                    "skill": "ZenPresenceChild",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ]
+        ]
+    }
+]

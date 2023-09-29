@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "transition;close",
-            "change_background;Sky Evening",
+            "music;Victory United 1",
+            "change_background;Boat",
             "if;game.check_alive('Cacti')",
             "multi_add_portrait;Timothy;Left;Sages;MidRight;Cacti;FarRight",
             "transition;open",

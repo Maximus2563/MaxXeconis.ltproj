@@ -979,10 +979,6 @@
             {
                 "nid": "Left",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }

@@ -274,14 +274,16 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "new"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    9
+                    8,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -399,6 +401,19 @@
                 "starting_position": [
                     12,
                     8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Chess",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": false

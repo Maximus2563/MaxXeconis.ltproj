@@ -3,7 +3,7 @@
         "name": "FightBrug",
         "trigger": "combat_start",
         "level_nid": "13",
-        "condition": "(unit.nid == \"Brug\" and unit2.team == 'player') or (unit2.nid == \"Pete\" and unit.team == 'Brug')",
+        "condition": "(unit.nid == \"Brug\" and unit2.team == 'player') or (unit2.nid == \"Brug\" and unit.team == 'player')",
         "commands": [],
         "only_once": true,
         "priority": 20,

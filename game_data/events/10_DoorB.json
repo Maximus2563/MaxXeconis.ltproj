@@ -1,7 +1,7 @@
 [
     {
         "name": "DoorB",
-        "trigger": "on_region_interact",
+        "trigger": "Door",
         "level_nid": "10",
         "condition": "region.nid == 'DoorB'",
         "commands": [],
@@ -14,7 +14,8 @@
             "speak;Prof;Thanks, now let's get the hell outta here!",
             "remove_portrait;Prof",
             "move_cursor;1,0",
-            "add_region;EscapeZone;1,0;2,1;event;Escape"
+            "add_region;EscapeZone;1,0;2,1;event;Escape",
+            "has_traded;{unit}"
         ]
     }
 ]

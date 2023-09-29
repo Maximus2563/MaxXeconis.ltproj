@@ -39,13 +39,7 @@
             "add_portrait;Hogarth;Left",
             "speak;Hogarth;How sad, it seems today I become heirless.|Seems I'll have to find someone else.|Troops, show no mercy!",
             "remove_portrait;Hogarth",
-            "music_fade_back",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

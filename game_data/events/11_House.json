@@ -15,7 +15,7 @@
             "speak;Man3;It's all so loud... Please, LEAVE!",
             "transition;close",
             "change_background",
-            "multi_remove_portrait;Leap;Man3",
+            "multi_remove_portrait;{unit};Man3",
             "transition;open"
         ]
     }

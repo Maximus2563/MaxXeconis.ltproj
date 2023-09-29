@@ -20,8 +20,18 @@
         ]
     },
     {
-        "nid": "Khonsu",
-        "name": "Khonsu",
+        "nid": "Zahul",
+        "name": "Za'hul",
+        "desc": "A tribesperson of Khonsu, the desert region.",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Yuta",
+        "name": "Yuta",
         "desc": "A tribesperson of Khonsu, the desert region.",
         "icon_nid": "ResistanceEmblem",
         "icon_index": [

@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Left;Cacti",
+            "add_portrait;Cacti;Left",
             "speak;Cacti;All is clear! Father is here too! Nicely done, guys!",
             "remove_portrait;Cacti",
             "transition;close",

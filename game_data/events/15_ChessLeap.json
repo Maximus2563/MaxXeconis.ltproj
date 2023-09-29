@@ -1,0 +1,33 @@
+[
+    {
+        "name": "ChessLeap",
+        "trigger": "on_talk",
+        "level_nid": "15",
+        "condition": "check_pair('Leap','Chess')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Leap;Left;Chess;Right",
+            "speak;Chess;Uh, you're with the enemy right?",
+            "speak;Leap;I am.",
+            "speak;Chess;You seem, remarkably unflinching...",
+            "speak;Leap;Oh trust me, my anger is nearly boiling over...",
+            "speak;Chess;Yet, you can contain it.|Unlike my annoying ally...",
+            "speak;Leap;You look concerned...",
+            "speak;Chess;I'm a soldier, first and foremost.|But... I can hardly endure spending time in my regiment...|All my patience is eroding, slowly but surely.",
+            "speak;Leap;You could join us?|It'd be better for you not to die here, either.",
+            "speak;Chess;I wasn't planning on dying...|Though looking at how my allies are faring...|Deal.",
+            "music;Guest of Shade",
+            "speak;Leap;Welcome aboard, new guy...?",
+            "speak;Chess;I'm called Chess.|Ironic, since I've spent my whole life as a piece to be controlled.|No more! I choose my own direction now!",
+            "speak;Leap;Good, now get to work!",
+            "speak;Chess;Of course, boss!",
+            "music_fade_back",
+            "change_team;Chess;player",
+            "change_ai;Chess;None",
+            "multi_remove_portrait;Leap;Chess",
+            ""
+        ]
+    }
+]

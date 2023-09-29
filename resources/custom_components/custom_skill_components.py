@@ -142,7 +142,7 @@ class SavageBlowFates(SkillComponent):
     def end_combat(self, playback, unit, item, target, mode):
         if target and skill_system.check_enemy(unit, target):
             r = set(range(self.value+1))
-            locations = target_system.get_shell({target.position}, r, game.board.bounds)
+            locations = game.target_system.get_shell({target.position}, r, game.board.bounds)
             for loc in locations:
                 target2 = game.board.get_unit(loc)
                 if target2 and target2 is not target and skill_system.check_enemy(unit, target2):
@@ -280,8 +280,44 @@ class SavageStatus(SkillComponent):
     def end_combat(self, playback, unit, item, target, mode):
         if target and skill_system.check_enemy(unit, target):
             r = set(range(self.value.get('range') + 1))
-            locations = target_system.get_shell({target.position}, r, game.board.bounds)
+            locations = game.target_system.get_shell({target.position}, r, game.board.bounds)
             for loc in locations:
                 target2 = game.board.get_unit(loc)
                 if target2 and target2 is not target and skill_system.check_enemy(unit, target2):
                     action.do(action.AddSkill(target2, self.value.get('status'), unit))
+class UpkeepAOESkillGain(SkillComponent):
+    nid = 'upkeep_aoe_skill_gain'
+    desc = "Grants the designated skill at upkeep to units in an AoE around owner. Can optionally affect user as well."
+    tag = SkillTags.CUSTOM
+    author = 'Lord_Tweed'
+
+    expose = (ComponentType.NewMultipleOptions)
+    options = {
+        "skill": ComponentType.Skill,
+        "range": ComponentType.Int,
+        "affect_self": ComponentType.Bool,
+        "target": (ComponentType.MultipleChoice, ('ally', 'enemy', 'any')),
+    }
+    
+    def __init__(self, value=None):
+        self.value = {
+            "skill": 'Canto',
+            "range": 1,
+            "affect_self": False,
+            "target": 'ally',
+        }
+        if value:
+            self.value.update(value)
+
+    def on_upkeep(self, actions, playback, unit):
+        r = set(range(self.value.get('range') + 1))
+        locations = game.target_system.get_shell({unit.position}, r, game.board.bounds)
+        for loc in locations:
+            target2 = game.board.get_unit(loc)
+            if target2 and target2 is not unit and self.value.get('target') in ['enemy','any'] and skill_system.check_enemy(unit, target2):
+                action.do(action.AddSkill(target2, self.value.get('skill'), unit))
+            elif target2 and target2 is not unit and self.value.get('target') in ['ally','any'] and skill_system.check_ally(unit, target2):
+                action.do(action.AddSkill(target2, self.value.get('skill'), unit))
+
+        if self.value.get('affect_self'):
+            action.do(action.AddSkill(unit, self.value.get('skill'), unit))

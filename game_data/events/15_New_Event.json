@@ -1,0 +1,16 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "Visit",
+        "level_nid": "15",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_background;Desert Storeroom",
+            "multi_add_portrait;Kesley;Right;Leap;MidLeft;Prof;FarLeft",
+            "speak;Kesley;Just another FYI to people, don't listen to anyone that says I'm racist or homophobic lol.|I don't hate any races, and just because I typically don't ship homosexual pairings doesn't make me a homophobe.|And I'm friends with LGBT+ people and am in that group myself as an asexual.;;200;;;;;;4"
+        ]
+    }
+]

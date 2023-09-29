@@ -1,0 +1,23 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "14",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Daytime Inside House 1",
+            "transition;open",
+            "multi_add_portrait;{unit};Left;OldWoman1;Right",
+            "speak;OldWoman1;Hello, dearie...|Oh, it's warm here? Yes, obviously.|Take this, to cool down.",
+            "transition;close",
+            "change_background",
+            "multi_remove_portrait;{unit};OldWoman1",
+            "give_item;{unit};Ice",
+            "transition;open"
+        ]
+    }
+]

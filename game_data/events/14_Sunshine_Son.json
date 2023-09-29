@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Sunshine Son",
+        "trigger": "on_base_convo",
+        "level_nid": "14",
+        "condition": "unit == 'Sunshine Son'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_background;Desert Day",
+            "music;Lingering Clouds",
+            "multi_add_portrait;Leap;Left;Blazing;Right",
+            "speak;Blazing;Hello there, Leap.",
+            "speak;Leap;Blazing...",
+            "speak;Blazing;Are you feeling well, the sun is rather hot.",
+            "speak;Leap;You're fine...?",
+            "speak;Blazing;Well, I suppose I am.|My faith in the Goddess seems to shield my thoughts of pain...",
+            "speak;Leap;I was a believer once, but never again.",
+            "speak;Blazing;I'll respect your decision, we should live our lives as we wish.",
+            "speak;Leap;Thanks... Though, don't you think being opposed to Aurelia is a sin?",
+            "speak;Blazing;I think not.|The Goddess knows all, include the sins of the nation founded in her image.",
+            "speak;Leap;Makes sense, I guess.",
+            "speak;Blazing;We must all strive to do better.|That's why I'm resolved to helping you.",
+            "speak;Leap;Thanks...",
+            "give_exp;Blazing;45",
+            "ignore_base_convo;Sunshine Son",
+            "change_background",
+            "music_fade_back"
+        ]
+    }
+]

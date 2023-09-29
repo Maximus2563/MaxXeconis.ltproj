@@ -1,0 +1,16 @@
+[
+    {
+        "name": "FlacoFight",
+        "trigger": "combat_start",
+        "level_nid": "14",
+        "condition": "(unit.nid == \"Flaco\" and unit2.team == 'player') or (unit2.nid == \"Flaco\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Flaco;Left",
+            "speak;Flaco;Quit gettin' in the way!|These sands, are ours!",
+            "remove_portrait;Flaco"
+        ]
+    }
+]

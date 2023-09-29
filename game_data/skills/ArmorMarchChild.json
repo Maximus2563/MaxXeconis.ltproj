@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "ArmorMarchChild",
+        "name": "Armor March",
+        "desc": "Grants MOV +2.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            61
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "'Armor' in unit.tags"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ]
+        ]
+    }
+]

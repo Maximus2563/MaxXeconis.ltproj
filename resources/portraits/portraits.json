@@ -768,18 +768,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Joker ",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Seamus ",
         "blinking_offset": [
             24,
@@ -2192,6 +2180,42 @@
         "smiling_offset": [
             24,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Joker",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Hakeem",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kesley",
+        "blinking_offset": [
+            22,
+            32
+        ],
+        "smiling_offset": [
+            22,
+            48
         ],
         "info_offset": 0
     }

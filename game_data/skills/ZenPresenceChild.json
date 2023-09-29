@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "ZenPresenceChild",
+        "name": "Zen Presence",
+        "desc": "Foe's critical hit damage is multiplied by 2, not 3.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            56
+        ],
+        "components": [
+            [
+                "alternate_critical_multiplier_formula",
+                "TWO"
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ]
+        ]
+    }
+]

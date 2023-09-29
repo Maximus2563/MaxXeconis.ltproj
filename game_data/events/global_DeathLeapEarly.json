@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Leap;Right",
-            "if;game.level.nid in ['7', '8', '9', '10', '11']",
+            "if;game.level.nid in ['7', '8', '9', '10', '11', '14']",
             "music;108 Lament",
             "speak;Leap;No... Prof... Help me...",
             "expression;Leap;CloseEyes",

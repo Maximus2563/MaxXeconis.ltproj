@@ -453,5 +453,15 @@
         "Skrimir's Pride",
         true,
         false
+    ],
+    [
+        "Beneath the Banner",
+        false,
+        false
+    ],
+    [
+        "Bright Sandstorm",
+        false,
+        true
     ]
 ]
