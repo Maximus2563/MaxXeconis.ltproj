@@ -471,7 +471,7 @@
             {
                 "nid": "Dean",
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -917,6 +917,10 @@
             {
                 "nid": "Top",
                 "trigger_threshold": 3
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }

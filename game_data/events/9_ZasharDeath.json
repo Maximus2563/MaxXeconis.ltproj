@@ -13,7 +13,7 @@
             "sound;CyclopsCrit",
             "remove_portrait;Zashar",
             "add_unit;ZasharCyclops;Zashar;fade;stack;fade",
-            "wait;ZasharCyclops",
+            "has_finished;ZasharCyclops",
             "",
             ""
         ]

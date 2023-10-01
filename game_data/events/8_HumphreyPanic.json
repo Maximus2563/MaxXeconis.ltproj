@@ -3,7 +3,7 @@
         "name": "HumphreyPanic",
         "trigger": "combat_end",
         "level_nid": "8",
-        "condition": "unit.nid == 'Humphrey' and (unit.get_hp() / unit.stats['HP'] < 0.5)",
+        "condition": "unit.get_hp('Humphrey') =< unit.get_max_hp('Humphrey')//2",
         "commands": [],
         "only_once": true,
         "priority": 20,
