@@ -155,7 +155,7 @@
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": "Maurice",
+                "ai_group": "",
                 "starting_position": [
                     7,
                     7
@@ -323,7 +323,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Maurice",
                 "starting_position": [
                     8,
                     9
@@ -617,6 +617,10 @@
         "ai_groups": [
             {
                 "nid": "Maurice",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
