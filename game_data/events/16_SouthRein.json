@@ -1,0 +1,14 @@
+[
+    {
+        "name": "SouthRein",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "any_unit_in_region('South', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "spawn_group;SouthReinforce;north;SouthReinforce;normal;closest"
+        ]
+    }
+]

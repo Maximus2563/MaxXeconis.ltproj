@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Fearsome Blow",
+        "nid": "Fearsome_Blow",
         "name": "Fearsome Blow",
-        "desc": "If unit initiates combat and defeats an enemy, enemies within\n2 spaces of them will receive 7 damage.",
+        "desc": "If unit initiates combat and defeats an enemy, enemies within\n2 spaces of them will receive 5 damage.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             6,

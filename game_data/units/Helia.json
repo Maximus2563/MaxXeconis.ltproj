@@ -8,15 +8,15 @@
         "klass": "Valkyrie",
         "tags": [],
         "bases": {
-            "HP": 19,
+            "HP": 37,
             "STR": 3,
-            "MAG": 4,
-            "SKL": 6,
-            "SPD": 5,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 8,
-            "CON": 6,
+            "MAG": 14,
+            "SKL": 12,
+            "SPD": 16,
+            "LCK": 2,
+            "DEF": 8,
+            "RES": 14,
+            "CON": 7,
             "MOV": 6
         },
         "growths": {
@@ -43,7 +43,16 @@
             "CON": 0,
             "MOV": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Aura",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

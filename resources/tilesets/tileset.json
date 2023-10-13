@@ -4234,5 +4234,10 @@
         "nid": "Plains Tiles",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "MonsdorCastle",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

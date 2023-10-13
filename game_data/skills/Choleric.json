@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Synergy",
-        "name": "Synergy",
-        "desc": "Grants +1 ATK for every ally within 2 spaces (max 4).",
+        "nid": "Choleric",
+        "name": "Choleric",
+        "desc": "Grants +5 Crit for every ally within 2 spaces (max +20).",
         "icon_nid": "Skills (1)",
         "icon_index": [
             2,
@@ -26,8 +26,8 @@
                 "ally"
             ],
             [
-                "eval_damage",
-                "min(4,unit_funcs.check_focus(unit, 2))"
+                "eval_crit",
+                "5(min(4,unit_funcs.check_focus(unit, 2)))"
             ]
         ]
     }

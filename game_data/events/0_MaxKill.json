@@ -1,0 +1,16 @@
+[
+    {
+        "name": "MaxKill",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit2.nid == 'MaxYoung'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;MaxYoung;Right",
+            "speak;MaxYoung;Hm, I don't know if I'll get used to... killing people...",
+            "remove_portrait;MaxYoung"
+        ]
+    }
+]

@@ -42,10 +42,7 @@
             "end",
             "multi_remove_portrait;Aspl;Bread;Prof",
             "music_fade_back",
-            "ignore_base_convo;Basic Training",
-            "",
-            "",
-            ""
+            "ignore_base_convo;Basic Training"
         ]
     }
 ]

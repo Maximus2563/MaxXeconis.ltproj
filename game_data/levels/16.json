@@ -1,0 +1,1300 @@
+[
+    {
+        "nid": "16",
+        "name": "Chapter 16: Shifting Sands",
+        "tilemap": "Ch16",
+        "bg_tilemap": null,
+        "party": "LeapGroup",
+        "music": {
+            "player_phase": "Bright Sandstorm",
+            "enemy_phase": "Bright Sandstorm",
+            "other_phase": "Bright Sandstorm",
+            "player_battle": "Bright Sandstorm",
+            "enemy_battle": "Bright Sandstorm",
+            "other_battle": "Bright Sandstorm",
+            "boss_battle": "Rage in the Light"
+        },
+        "objective": {
+            "simple": "Defeat Vance",
+            "win": "Defeat Boss",
+            "loss": "Leap dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Leap",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Prof",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Joker",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Vance",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 8,
+                "klass": "Brightwing",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 8,
+                "klass": "Brightwing",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 8,
+                "klass": "Archer",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 7,
+                "klass": "Archer",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 7,
+                "klass": "Archer",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 7,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 7,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Shamshir",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 7,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 7,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Bronze_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 7,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Heavy Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 7,
+                "klass": "Soldier",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 8,
+                "klass": "Brightwing",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Shine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Ballistician",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Ballista",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 7,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Ridersbane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Toxin Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Devil Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Bronze_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 8,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Emmanuel",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 1,
+                "klass": "Harrier",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 1,
+                "klass": "Harrier",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 1,
+                "klass": "Halberdier",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 1,
+                "klass": "Halberdier",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 1,
+                "klass": "Ranger",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 1,
+                "klass": "Ranger",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "1",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "2",
+                "region_type": "formation",
+                "position": [
+                    8,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "3",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "4",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "5",
+                "region_type": "formation",
+                "position": [
+                    8,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "6",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "7",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "8",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TreasureA",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TreasureB",
+                "region_type": "normal",
+                "position": [
+                    5,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TreasureC",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "North",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    5
+                ],
+                "size": [
+                    15,
+                    5
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "South",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    10
+                ],
+                "size": [
+                    15,
+                    4
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Enemy",
+                "units": [
+                    "Vance",
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106"
+                ],
+                "positions": {
+                    "Vance": [
+                        5,
+                        1
+                    ],
+                    "101": [
+                        4,
+                        2
+                    ],
+                    "102": [
+                        6,
+                        2
+                    ],
+                    "103": [
+                        8,
+                        2
+                    ],
+                    "104": [
+                        2,
+                        2
+                    ],
+                    "105": [
+                        3,
+                        3
+                    ],
+                    "106": [
+                        7,
+                        3
+                    ],
+                    "107": [
+                        8,
+                        9
+                    ],
+                    "108": [
+                        2,
+                        6
+                    ],
+                    "109": [
+                        13,
+                        7
+                    ],
+                    "110": [
+                        5,
+                        11
+                    ],
+                    "111": [
+                        12,
+                        14
+                    ],
+                    "112": [
+                        7,
+                        13
+                    ],
+                    "113": [
+                        4,
+                        14
+                    ],
+                    "114": [
+                        12,
+                        12
+                    ],
+                    "115": [
+                        6,
+                        5
+                    ],
+                    "116": [
+                        14,
+                        11
+                    ],
+                    "117": [
+                        3,
+                        9
+                    ],
+                    "118": [
+                        9,
+                        11
+                    ]
+                }
+            },
+            {
+                "nid": "Leap",
+                "units": [
+                    "Leap",
+                    "Prof",
+                    "Joker"
+                ],
+                "positions": {
+                    "Leap": [
+                        9,
+                        17
+                    ],
+                    "Prof": [
+                        8,
+                        18
+                    ],
+                    "Joker": [
+                        10,
+                        18
+                    ]
+                }
+            },
+            {
+                "nid": "NorthReinforce",
+                "units": [
+                    "122",
+                    "123",
+                    "124"
+                ],
+                "positions": {
+                    "122": [
+                        12,
+                        5
+                    ],
+                    "123": [
+                        14,
+                        5
+                    ],
+                    "124": [
+                        13,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "SouthReinforce",
+                "units": [
+                    "126",
+                    "125",
+                    "127"
+                ],
+                "positions": {
+                    "126": [
+                        1,
+                        6
+                    ],
+                    "125": [
+                        0,
+                        5
+                    ],
+                    "127": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            {
+                "nid": "Emmanuels",
+                "units": [
+                    "Emmanuel",
+                    "128",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136",
+                    "137"
+                ],
+                "positions": {
+                    "Emmanuel": [
+                        5,
+                        1
+                    ],
+                    "128": [
+                        3,
+                        5
+                    ],
+                    "129": [
+                        7,
+                        5
+                    ],
+                    "130": [
+                        7,
+                        3
+                    ],
+                    "131": [
+                        3,
+                        3
+                    ],
+                    "132": [
+                        4,
+                        6
+                    ],
+                    "133": [
+                        6,
+                        6
+                    ],
+                    "134": [
+                        6,
+                        2
+                    ],
+                    "136": [
+                        6,
+                        0
+                    ],
+                    "137": [
+                        4,
+                        0
+                    ],
+                    "135": [
+                        4,
+                        2
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
+    }
+]

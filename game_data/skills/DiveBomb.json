@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DiveBomb",
+        "name": "Dive Bomb",
+        "desc": "Unit follow-ups before foe can counter if initiating and foe's HP = 100%",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            32
+        ],
+        "components": [
+            [
+                "condition",
+                "target.get_hp() == target.get_max_hp()"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "desperation",
+                null
+            ]
+        ]
+    }
+]

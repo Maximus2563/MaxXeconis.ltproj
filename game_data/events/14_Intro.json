@@ -10,6 +10,7 @@
         "_source": [
             "chapter_title",
             "change_background;Desert Day",
+            "add_weather;light",
             "transition;open",
             "multi_add_portrait;Leap;Left;Prof;Right",
             "expression;Leap;HalfCloseEyes",

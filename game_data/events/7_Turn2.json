@@ -33,7 +33,7 @@
             "multi_remove_portrait;Bread;Aspl",
             "move_cursor;Leap",
             "add_portrait;Leap;Right",
-            "speak;Leap;Alright! We have backup!",
+            "speak;Leap;Alright! We have backup... Wait!|Is that Aspl and Bread? What are they doing?!",
             "remove_portrait;Leap",
             "music_fade_back"
         ]

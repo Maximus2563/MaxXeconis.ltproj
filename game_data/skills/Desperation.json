@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Desperation",
+        "name": "Desperation",
+        "desc": "Unit follow-ups before foe can counter if initiating at HP<50%.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            34
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_hp() < unit.get_max_hp()//2"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "desperation",
+                null
+            ]
+        ]
+    }
+]

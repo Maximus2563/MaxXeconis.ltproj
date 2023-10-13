@@ -66,6 +66,13 @@
             [
                 "alternate_damage_formula",
                 "SOMNUS"
+            ],
+            [
+                "prf_unit",
+                [
+                    "XeconisYoung",
+                    "Xeconis"
+                ]
             ]
         ]
     }

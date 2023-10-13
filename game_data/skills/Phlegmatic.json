@@ -2,7 +2,7 @@
     {
         "nid": "Phlegmatic",
         "name": "Phlegmatic",
-        "desc": "Grants +20 dodge. Grants +15 avoid if there are no allies within 2 spaces.",
+        "desc": "Grants Dodge +20. Grants Avoid +15 if there are no allies within 2 spaces.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

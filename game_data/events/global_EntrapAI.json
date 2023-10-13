@@ -1,0 +1,18 @@
+[
+    {
+        "name": "EntrapAI",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;Warp;{eval:target_pos}",
+            "sound;Warp",
+            "move_unit;{unit2};{unit};warp;closest",
+            "remove_skill;{unit2};NegativeBlank",
+            "wait;250"
+        ]
+    }
+]

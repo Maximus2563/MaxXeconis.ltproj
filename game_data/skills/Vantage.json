@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "Unit counterattacks first if HP<50%.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            34
+        ],
+        "components": [
+            [
+                "vantage",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_hp() < unit.get_max_hp()//2"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

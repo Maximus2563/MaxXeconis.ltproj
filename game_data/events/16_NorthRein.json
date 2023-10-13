@@ -1,0 +1,14 @@
+[
+    {
+        "name": "NorthRein",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "any_unit_in_region('North', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "spawn_group;NorthReinforce;north;NorthReinforce;normal;closest"
+        ]
+    }
+]

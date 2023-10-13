@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "EntrapAI",
+        "name": "Entrap",
+        "desc": "Bring an enemy to a space adjacent to the user",
+        "icon_nid": "Staff",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                7
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ],
+            [
+                "status_on_hit",
+                "NegativeBlank"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global EntrapAI"
+            ]
+        ]
+    }
+]

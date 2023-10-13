@@ -59,10 +59,6 @@
                 ]
             ],
             [
-                "no_ai",
-                null
-            ],
-            [
                 "min_range",
                 1
             ],
@@ -72,6 +68,10 @@
             ],
             [
                 "target_tile",
+                null
+            ],
+            [
+                "no_ai",
                 null
             ]
         ]

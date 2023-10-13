@@ -104,126 +104,6 @@
                 "generic": false
             },
             {
-                "nid": "116",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "117",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "120",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Bronze_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Javi",
                 "team": "enemy",
                 "ai": "None",
@@ -414,6 +294,56 @@
                 "starting_position": [
                     10,
                     16
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Bishop",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "EntrapAI",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Kesley",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Chara",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": false

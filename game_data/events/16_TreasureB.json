@@ -1,0 +1,24 @@
+[
+    {
+        "name": "TreasureB",
+        "trigger": "unit_wait",
+        "level_nid": "16",
+        "condition": "region.nid == 'TreasureB' and unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.klass == 'Thief'",
+            "sound;Item",
+            "give_item;{unit};Master Seal",
+            "remove_region;TreasureB",
+            "else",
+            "level_var;TreasureA;game.get_random(0,99)",
+            "if;game.game_vars['TreasureB'] < unit.get_stat('LCK')",
+            "sound;Item",
+            "give_item;{unit};Master Seal",
+            "remove_region;TreasureB",
+            "end"
+        ]
+    }
+]

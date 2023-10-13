@@ -47,10 +47,6 @@
                 ]
             ],
             [
-                "combined_time",
-                3
-            ],
-            [
                 "upkeep_stat_change",
                 [
                     [
@@ -82,6 +78,10 @@
                         1
                     ]
                 ]
+            ],
+            [
+                "time",
+                3
             ]
         ]
     }

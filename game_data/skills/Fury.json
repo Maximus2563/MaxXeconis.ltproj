@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Fury",
+        "name": "Fury",
+        "desc": "Grants all stats +2, but unit receives 6 damage after combat\n(Recoil is non-lethal).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            42
+        ],
+        "components": [
+            [
+                "recoil",
+                6
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "LCK",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]
