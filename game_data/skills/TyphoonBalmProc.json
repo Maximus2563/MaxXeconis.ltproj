@@ -12,6 +12,10 @@
             [
                 "give_ally_status_after_combat",
                 "Typhoon Balm Child   "
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     }

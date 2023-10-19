@@ -2,7 +2,7 @@
     {
         "nid": "Assertive",
         "name": "Assertive",
-        "desc": "Grants +15 crit if unit has WTA.",
+        "desc": "Grants Crit +15 if unit has WTA.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

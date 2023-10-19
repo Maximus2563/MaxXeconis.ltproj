@@ -2,7 +2,7 @@
     {
         "nid": "Ambush",
         "name": "Ambush",
-        "desc": "Grants +20 crit on initiation when receiving terrain bonuses.",
+        "desc": "Grants Crit+20 on initiation when receiving terrain bonuses.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             2,

@@ -66,6 +66,10 @@
             [
                 "map_cast_sfx",
                 "Recover"
+            ],
+            [
+                "equation_blast_aoe",
+                "MAGIC_RANGE"
             ]
         ]
     }

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DarkResonance",
+        "name": "Dark Resonance",
+        "desc": "Grants +3 ATK if within 2 spaces of a dark affinity ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            60
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "condition",
+                "len([u for u in get_allies_within_distance(unit, 2) if (u is not unit and u.affinity == 'Dark')]) > 0 "
+            ]
+        ]
+    }
+]

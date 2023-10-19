@@ -27,15 +27,7 @@
             "speak;Maro;Sir, yes si- I mean,{c:wait;400} yes ma'am!",
             "add_lore;Maro",
             "multi_remove_portrait;Maro;Sal",
-            "music_fade_back",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

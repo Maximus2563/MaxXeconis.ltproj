@@ -8,12 +8,18 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "multi_add_portrait;Kesley;Left;Chess;Right",
-            "speak;Kesley;Chess... Why is your lance pointed at me...?",
-            "speak;Chess;Look, I don't see the point in all this.|Plus, I find you to be petulant and annoying.|Really throws off my focus.",
+            "hide_combat_ui",
+            "add_portrait;Kesley;Left",
+            "speak;Kesley;Chess... Why is your lance pointed at me...?;;;boss_convo_left",
+            "remove_portrait;Kesley",
+            "add_portrait;Chess;Right",
+            "speak;Chess;Look, I don't see the point in all this.|Plus, I find you to be petulant and annoying.|Really throws off my focus.;;;boss_convo_right",
+            "remove_portrait;Chess",
+            "add_portrait;Kesley;Left",
             "bop_portrait;Kesley",
-            "speak;Kesley;I am not petulant!|Now, you'll feel my wrath for siding with these utter barbarians!",
-            "multi_remove_portrait;Kesley;Chess"
+            "speak;Kesley;I am not petulant!|Now, you'll feel my wrath for siding with these utter barbarians!;;;boss_convo_left",
+            "remove_portrait;Kesley",
+            "show_combat_ui"
         ]
     }
 ]

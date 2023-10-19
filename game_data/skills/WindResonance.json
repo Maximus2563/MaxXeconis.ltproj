@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WindResonance",
+        "name": "Wind Resonance",
+        "desc": "Grants +3 ATK if within 2 spaces of a wind affinity ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            2,
+            60
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "condition",
+                "len([u for u in get_allies_within_distance(unit, 2) if (u is not unit and u.affinity == 'Wind')]) > 0 "
+            ]
+        ]
+    }
+]

@@ -347,6 +347,45 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Adventurer",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Heal",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "SealStr"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Snow",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

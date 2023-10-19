@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "AugmentAOE",
+        "name": "Augment",
+        "desc": "+1 AoE for healing staves.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            58
+        ],
+        "components": [
+            [
+                "oversplash",
+                1
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

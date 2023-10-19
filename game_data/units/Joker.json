@@ -63,7 +63,16 @@
                 "Rage"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Fighting"
+            ],
+            [
+                "Dislikes:",
+                "Talking"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -119,6 +128,39 @@
         "alternate_classes": [],
         "portrait_nid": "Joker",
         "affinity": "Earth",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "I'm just... gonna die over here... yup..."
+            ],
+            [
+                "EscapeQuote",
+                "Runnin' is cowardly, but whatever..."
+            ],
+            [
+                "PromoQuote",
+                "New power to defeat new foes. Hawhawhaw!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Raaaaarh! Hyaaaaarh! Haha!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "This is gonna help me cave some skulls in."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Sure, whatever."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Ghraaaaaa! Bad, bad! Stop it!"
+            ],
+            [
+                "MaxStatQuote",
+                "Hawhawhaw! I am too good!"
+            ]
+        ]
     }
 ]

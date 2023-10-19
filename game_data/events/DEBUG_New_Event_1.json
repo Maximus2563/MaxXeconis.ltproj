@@ -1,20 +1,17 @@
 [
     {
         "name": "New Event_1",
-        "trigger": null,
+        "trigger": "combat_start",
         "level_nid": "DEBUG",
-        "condition": "True",
+        "condition": "unit.nid == 'Chara' or unit2.nid == 'Chara'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "change_background;Forest 6 Night",
-            "multi_add_portrait;Chara;Right;Snow;MidLeft;Landros;FarLeft",
-            "expression;Chara;Smile",
-            "speak;Chara;You are actually stupid. Oh, well. I'm better than you as a person. I get more pussy, I'm smarter, more successful and probably make more money, seeing as I don't live with my parents.|Since we're having a sticks and stones fight in a glass house. Anyone who wasn't being a prick just ignore that.;;;;;;;;4",
-            "expression;Chara;CloseEyes,Smile",
-            "speak;Chara;I am fucking immortal. If I'm important enough to you to save it, I'm obviously way more special than any if you incells.;;;;;;;;3",
-            ""
+            "hide_combat_ui",
+            "add_portrait;Chara;Left",
+            "speak;Chara;You are actually stupid.;;;boss_convo_left",
+            "show_combat_ui"
         ]
     }
 ]

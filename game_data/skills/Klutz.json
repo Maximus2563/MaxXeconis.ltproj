@@ -2,7 +2,7 @@
     {
         "nid": "Klutz",
         "name": "Klutz",
-        "desc": "Grants Crit+10/Dodge-10.",
+        "desc": "Grants Crit +10, Dodge -10.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,

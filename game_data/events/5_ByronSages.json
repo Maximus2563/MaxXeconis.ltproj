@@ -8,13 +8,19 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "hide_combat_ui",
             "add_portrait;Byron;Left",
+            "speak;Byron;Here's the man of the hour, the princeling.;;;boss_convo_left",
+            "remove_portrait;Byron",
             "add_portrait;Sages;Right",
-            "speak;Byron;Here's the man of the hour, princeling.",
-            "speak;Sages;I know. I am great.",
-            "speak;Byron;Your lack of awareness speaks volumes as to Arcein's idiocy.|Of course you'd ruin everything.",
-            "speak;Sages;The only thing I'm going to ruin, is your face! Ha!",
-            "multi_remove_portrait;Sages;Byron"
+            "speak;Sages;Thanks! I know that I am great.;;;boss_convo_right",
+            "remove_portrait;Sages",
+            "add_portrait;Byron;Left",
+            "speak;Byron;Your lack of awareness speaks volumes as to Arcein's idiocy.|Of course your kind would ruin everything.;;;boss_convo_left",
+            "remove_portrait;Byron",
+            "add_portrait;Sages;Right",
+            "speak;Sages;The only thing I'm going to ruin, is your face! Ha!;;;boss_convo_right",
+            "remove_portrait;Sages"
         ]
     }
 ]

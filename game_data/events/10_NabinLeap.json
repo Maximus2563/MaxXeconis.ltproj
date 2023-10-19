@@ -8,14 +8,23 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "multi_add_portrait;Nabin;Left;Leap;Right",
-            "speak;Nabin;I have to see for myself, are you worthy...?|I have to... clear all this doubt, the only way I know how.",
-            "speak;Leap;Please! You don't have to do this...",
-            "speak;Nabin;I'm sorry, but this will determine... what I have to do.",
-            "speak;Leap;I understand doubt, fear...|Do what you must, but please be true to yourself...",
-            "speak;Nabin;I'll try...",
-            "multi_remove_portrait;Nabin;Leap",
-            ""
+            "hide_combat_ui",
+            "add_portrait;Nabin;Left",
+            "speak;Nabin;I have to see for myself, are you worthy...?|I have to... clear all this doubt, the only way I know how.;;;boss_convo_left",
+            "remove_portrait;Nabin",
+            "add_portrait;Leap;Right",
+            "speak;Leap;Please! You don't have to do this...;;;boss_convo_right",
+            "remove_portrait;Leap",
+            "add_portrait;Nabin;Left",
+            "speak;Nabin;I'm sorry, but this will determine... what I have to do.;;;boss_convo_left",
+            "remove_portrait;Nabin",
+            "add_portrait;Leap;Right",
+            "speak;Leap;I understand doubt, fear...|Do what you must, but please be true to yourself...;;;boss_convo_right",
+            "remove_portrait;Leap",
+            "add_portrait;Nabin;Left",
+            "speak;Nabin;I'll try...;;;boss_convo_left",
+            "remove_portrait;Nabin",
+            "show_combat_ui"
         ]
     }
 ]

@@ -70,6 +70,10 @@
             [
                 "map_cast_sfx",
                 "Mend"
+            ],
+            [
+                "ally_blast_aoe",
+                1
             ]
         ]
     }

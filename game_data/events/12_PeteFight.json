@@ -8,11 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "hide_combat_ui",
             "add_portrait;Pete;Left",
-            "speak;Pete;Yar har!|Do you think you can stand up to Shanty Pete?",
+            "speak;Pete;Yar har!|Do you think you can stand up to Shanty Pete?;;;boss_convo_left",
             "remove_portrait;Pete",
-            "",
-            ""
+            "show_combat_ui"
         ]
     }
 ]

@@ -11,9 +11,7 @@
             "add_portrait;Septimus;Left",
             "speak;Septimus;All my beautiful... Monsters!",
             "expression;Septimus;CloseEyes",
-            "remove_portrait;Septimus",
-            "",
-            ""
+            "remove_portrait;Septimus"
         ]
     }
 ]

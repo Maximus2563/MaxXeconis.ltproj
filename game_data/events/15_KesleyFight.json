@@ -8,9 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "hide_combat_ui",
             "add_portrait;Kesley;Left",
-            "speak;Kesley;You don't look like the uncivilised type...|What are you doing?",
-            "remove_portrait;Kesley"
+            "speak;Kesley;You don't look like the uncivilised type...|What are you doing?;;;boss_convo_left",
+            "remove_portrait;Kesley",
+            "show_combat_ui"
         ]
     }
 ]

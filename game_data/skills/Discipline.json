@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Discipline",
+        "name": "Discipline",
+        "desc": "Doubles wexp gain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "wexp_multiplier",
+                2.0
+            ]
+        ]
+    }
+]

@@ -8,17 +8,30 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "hide_combat_ui",
             "add_portrait;Maurice;Left",
+            "speak;Maurice;How bizarre...;;;boss_convo_left",
+            "remove_portrait;Maurice",
             "add_portrait;Leap;Right",
-            "speak;Maurice;How bizarre...",
-            "speak;Leap;Excuse me?",
-            "speak;Maurice;A fine young lady as yourself...|Yet so bold...",
-            "speak;Leap;Uhm, well...",
-            "speak;Maurice;Such a shame to hurt you.|Hand over your things, and I might be... {c:expression;Maurice;Smile}more than merciful.",
+            "speak;Leap;Excuse me?;;;boss_convo_right",
+            "remove_portrait;Leap",
+            "add_portrait;Maurice;Left",
+            "speak;Maurice;A fine young lady as yourself...|Yet so bold...;;;boss_convo_left",
+            "remove_portrait;Maurice",
+            "add_portrait;Leap;Right",
+            "speak;Leap;Uhm, well...;;;boss_convo_right",
+            "remove_portrait;Leap",
+            "add_portrait;Maurice;Left",
+            "speak;Maurice;Such a shame to hurt you.|Hand over your things, and I might be... {c:expression;Maurice;Smile}more than merciful.;;;boss_convo_left",
+            "remove_portrait;Maurice",
+            "add_portrait;Leap;Right",
             "bop_portrait;Leap",
-            "speak;Leap;Ew! You're so gross!",
+            "speak;Leap;Ew! You're so gross!;;;boss_convo_right",
+            "remove_portrait;Leap",
+            "add_portrait;Maurice;Left",
             "expression;Maurice;NoSmile",
-            "speak;Maurice;Gross? I'll leave you looking gross!"
+            "speak;Maurice;Gross? I'll leave you looking gross!;;;boss_convo_left",
+            "remove_portrait;Maurice"
         ]
     }
 ]

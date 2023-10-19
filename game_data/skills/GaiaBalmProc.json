@@ -12,6 +12,10 @@
             [
                 "give_ally_status_after_combat",
                 "Gaia Balm Child  "
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     }
