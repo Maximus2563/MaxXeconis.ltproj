@@ -2,7 +2,7 @@
     {
         "nid": "Max",
         "name": "Max",
-        "desc": "",
+        "desc": "A keen mage who wishes to aid his friends. Seeks to become more knowledgeable about the world.  ",
         "variant": "",
         "level": 3,
         "klass": "Mage Knight",
@@ -15,7 +15,7 @@
             "SPD": 15,
             "LCK": 5,
             "DEF": 9,
-            "RES": 8,
+            "RES": 7,
             "CON": 9,
             "MOV": 7
         },
@@ -49,15 +49,11 @@
                 false
             ],
             [
-                "Sandblast",
+                "Steel Sword",
                 false
             ],
             [
-                "Epee",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Concoction",
                 false
             ]
         ],

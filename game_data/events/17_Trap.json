@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Trap",
+        "trigger": "unit_wait",
+        "level_nid": "17",
+        "condition": "get_units_in_region('Trap', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Xeconis;Right",
+            "speak;Xeconis;Now!",
+            "remove_portrait;Xeconis",
+            "add_region;PoisonTrap;14,3;4,2;Status;Poison;3",
+            "map_anim;MapPoison;PoisonTrap"
+        ]
+    }
+]

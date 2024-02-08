@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_skill;Shoop;BloodlustStack;FLAG(no_banner)",
+            "remove_skill;Shoop;BloodlustStack;no_banner",
             "change_portrait;Shoop;Shoop",
             ""
         ]

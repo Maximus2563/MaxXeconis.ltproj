@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;Guy;Relaxed;;FLAG(no_banner)",
+            "give_skill;Guy;Relaxed;;no_banner",
             "sound;Rally"
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Xeconis",
         "name": "Xeconis",
-        "desc": "A soldier in training whose shrewd demeanour keeps him sharp.",
+        "desc": "A freshly trained soldier simultaneously tutored in battlefield tactics. Has a sharp tongue.",
         "variant": "",
         "level": 9,
         "klass": "Soldier",
@@ -63,7 +63,16 @@
                 "Adaptive Bearings"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Challenges,Efficiency"
+            ],
+            [
+                "Dislikes:",
+                "Being inept,Sand"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

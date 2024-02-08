@@ -3,10 +3,10 @@
         "nid": "Augment",
         "name": "Augment",
         "desc": "Unit's healing staves gain +1 AoE.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            7,
-            58
+            6,
+            49
         ],
         "components": [
             [

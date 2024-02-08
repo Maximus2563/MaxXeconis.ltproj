@@ -10,7 +10,7 @@
         "_source": [
             "chapter_title",
             "transition;open",
-            "spawn_group;SagesGang;south;SagesGang;normal;stack;FLAG(no_follow)",
+            "spawn_group;SagesGang;south;SagesGang;normal;stack;no_follow",
             "multi_add_portrait;Dean;Right;Sages;MidLeft;Sal;Left;Javi;FarLeft",
             "expression;Javi;HalfCloseEyes",
             "speak;Sages;Please, we need your aid, kind Sir.",
@@ -43,7 +43,7 @@
             "speak;Dean;Their pact...|So it wasn't purely their own volition?",
             "speak;Sages;I believe Grahment is collateral to get to us.|For Monsdor to display their strength, so Aurelia respects them.",
             "speak;Leap;We're just some kind of spectacle?!|Our people have suffered, given their lives up!",
-            "speak;Prof;...;FLAG(no_talk)",
+            "speak;Prof;...;no_talk",
             "bop_portrait;Leap",
             "speak;Leap;Oh, that's it!|Monsdor needs to learn a lesson!",
             "speak;Sages;Indeed...",
@@ -84,13 +84,7 @@
             "end",
             "skip_save;true",
             "set_next_chapter;12",
-            "win_game",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "win_game"
         ]
     }
 ]

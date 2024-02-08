@@ -2,7 +2,7 @@
     {
         "nid": "Bread",
         "name": "Bread",
-        "desc": "",
+        "desc": "A young villager obsessed with cuteness.",
         "variant": "Sword",
         "level": 1,
         "klass": "SwordCavalierBread",

@@ -2,7 +2,7 @@
     {
         "nid": "HarmonyChild",
         "name": "Harmony",
-        "desc": "Unit heals 20% of their max HP at the start of each turn.",
+        "desc": "Unit heals 10% of their max HP at the start of each turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -11,7 +11,7 @@
         "components": [
             [
                 "regeneration",
-                0.2
+                0.1
             ]
         ]
     }

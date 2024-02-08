@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;{eval:unit.nid};LevelUpRight;FLAG(immediate)",
+            "add_portrait;{eval:unit.nid};LevelUpRight;immediate",
             "if;any(DB.classes.get(unit.klass).max_stats.get(stat_nid) <= unit.stats[stat_nid] for stat_nid in unit.stats) and sum(stat_changes.values())== 0",
             "speak;{eval:unit.nid};{eval:unit.get_field('MaxStatQuote')};top_right",
             "elif;sum(stat_changes.values())>8",

@@ -196,6 +196,10 @@
         false
     ],
     [
+        "show_abilities",
+        false
+    ],
+    [
         "convoy_on_death",
         true
     ],

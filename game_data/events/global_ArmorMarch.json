@@ -9,9 +9,9 @@
         "priority": 20,
         "_source": [
             "if;any([u for u in get_allies_within_distance(unit.position, 1) if 'Armor' in u.tags and u.nid != unit.nid])",
-            "give_skill;{unit};ArmorMarchChild;{unit};FLAG(no_banner)",
+            "give_skill;{unit};ArmorMarchChild;{unit};no_banner",
             "for;ally_armor;[u for u in get_allies_within_distance(unit.position, 1) if 'Armor' in u.tags]",
-            "give_skill;{ally_armor};ArmorMarchChild;{unit};FLAG(no_banner)",
+            "give_skill;{ally_armor};ArmorMarchChild;{unit};no_banner",
             "endf",
             "end",
             "",

@@ -8,14 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Angel;Left;no_block",
-            "add_portrait;Boey;Right",
-            "speak;Angel;(Insert racism here).",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "change_background;CastleRuins",
+            "add_portrait;Shoop;Left;no_block",
+            "add_portrait;Leap;MidRight",
+            "add_portrait;LeapAlt;FarRight",
+            "speak;Cherry;Why."
         ]
     }
 ]

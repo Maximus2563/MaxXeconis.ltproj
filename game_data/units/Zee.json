@@ -2,20 +2,20 @@
     {
         "nid": "Zee",
         "name": "Zee",
-        "desc": "",
+        "desc": "A proud knight who is worried about defending himself.",
         "variant": "",
-        "level": 3,
+        "level": 8,
         "klass": "KnightS",
         "tags": [],
         "bases": {
-            "HP": 25,
-            "STR": 7,
+            "HP": 32,
+            "STR": 8,
             "MAG": 2,
-            "SKL": 5,
-            "SPD": 8,
-            "LCK": 0,
-            "DEF": 6,
-            "RES": 9,
+            "SKL": 7,
+            "SPD": 11,
+            "LCK": 8,
+            "DEF": 9,
+            "RES": 6,
             "CON": 13,
             "MOV": 4
         },
@@ -49,12 +49,17 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "ArmorMarch"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                31,
+                71,
                 251
             ],
             "Lance": [

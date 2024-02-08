@@ -1,7 +1,7 @@
 [
     {
         "nid": "15",
-        "name": "Chapter 15: Taking the Heat",
+        "name": "Ch. 15: Taking the Heat",
         "tilemap": "Ch15",
         "bg_tilemap": null,
         "party": "LeapGroup",
@@ -76,7 +76,7 @@
             {
                 "nid": "KesleyCH15",
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -107,7 +107,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -862,7 +862,88 @@
                     "117",
                     "118"
                 ],
-                "positions": {}
+                "positions": {
+                    "KesleyCH15": [
+                        12,
+                        15
+                    ],
+                    "Chess": [
+                        10,
+                        11
+                    ],
+                    "101": [
+                        11,
+                        16
+                    ],
+                    "102": [
+                        13,
+                        16
+                    ],
+                    "103": [
+                        14,
+                        15
+                    ],
+                    "104": [
+                        15,
+                        14
+                    ],
+                    "105": [
+                        6,
+                        0
+                    ],
+                    "106": [
+                        3,
+                        3
+                    ],
+                    "107": [
+                        9,
+                        8
+                    ],
+                    "108": [
+                        10,
+                        7
+                    ],
+                    "109": [
+                        4,
+                        2
+                    ],
+                    "110": [
+                        7,
+                        1
+                    ],
+                    "111": [
+                        9,
+                        0
+                    ],
+                    "112": [
+                        9,
+                        2
+                    ],
+                    "113": [
+                        12,
+                        1
+                    ],
+                    "114": [
+                        10,
+                        1
+                    ],
+                    "115": [
+                        12,
+                        2
+                    ],
+                    "116": [
+                        9,
+                        14
+                    ],
+                    "117": [
+                        13,
+                        14
+                    ],
+                    "118": [
+                        13,
+                        2
+                    ]
+                }
             },
             {
                 "nid": "Yuta",
@@ -872,7 +953,24 @@
                     "121",
                     "122"
                 ],
-                "positions": {}
+                "positions": {
+                    "119": [
+                        2,
+                        15
+                    ],
+                    "120": [
+                        5,
+                        15
+                    ],
+                    "121": [
+                        3,
+                        13
+                    ],
+                    "122": [
+                        4,
+                        13
+                    ]
+                }
             },
             {
                 "nid": "NorthReinforce",
@@ -880,7 +978,16 @@
                     "123",
                     "124"
                 ],
-                "positions": {}
+                "positions": {
+                    "123": [
+                        16,
+                        1
+                    ],
+                    "124": [
+                        17,
+                        2
+                    ]
+                }
             },
             {
                 "nid": "SouthReinforce",
@@ -889,7 +996,20 @@
                     "126",
                     "127"
                 ],
-                "positions": {}
+                "positions": {
+                    "125": [
+                        15,
+                        14
+                    ],
+                    "126": [
+                        15,
+                        15
+                    ],
+                    "127": [
+                        15,
+                        16
+                    ]
+                }
             },
             {
                 "nid": "Chief",
@@ -897,7 +1017,16 @@
                     "Ahmari",
                     "Hakeem"
                 ],
-                "positions": {}
+                "positions": {
+                    "Ahmari": [
+                        4,
+                        9
+                    ],
+                    "Hakeem": [
+                        3,
+                        9
+                    ]
+                }
             }
         ],
         "ai_groups": []

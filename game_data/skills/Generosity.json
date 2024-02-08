@@ -3,10 +3,10 @@
         "nid": "Generosity",
         "name": "Generosity",
         "desc": "Unit's healing items gain +1 AoE.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            7,
-            54
+            9,
+            43
         ],
         "components": [
             [

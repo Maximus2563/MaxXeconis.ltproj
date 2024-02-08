@@ -31,7 +31,8 @@
             "add_portrait;Maurice;Left",
             "expression;Maurice;NoSmile",
             "speak;Maurice;Gross? I'll leave you looking gross!;;;boss_convo_left",
-            "remove_portrait;Maurice"
+            "remove_portrait;Maurice",
+            "show_combat_ui"
         ]
     }
 ]

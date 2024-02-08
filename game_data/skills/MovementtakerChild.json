@@ -3,10 +3,10 @@
         "nid": "MovementtakerChild",
         "name": "Movementtaker",
         "desc": "Grants +1 MOV per stack.\nLost on end of chapter.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            7,
-            6
+            2,
+            27
         ],
         "components": [
             [

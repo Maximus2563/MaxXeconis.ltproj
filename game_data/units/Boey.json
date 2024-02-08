@@ -50,7 +50,16 @@
                 "Failing Forward"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Money,Accessories"
+            ],
+            [
+                "Dislikes:",
+                "Backstabbers,Pedantic rules"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

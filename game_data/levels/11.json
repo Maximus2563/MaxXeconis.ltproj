@@ -1,7 +1,7 @@
 [
     {
         "nid": "11",
-        "name": "Chapter 11: Escape!",
+        "name": "Ch. 11: Escape!",
         "tilemap": "OtherCastle",
         "bg_tilemap": null,
         "party": "LeapGroup",

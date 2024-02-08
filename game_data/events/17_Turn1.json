@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn1",
+        "trigger": "turn_change",
+        "level_nid": "17",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;10,10",
+            "flicker_cursor;108",
+            "add_portrait;Timothy;Left",
+            "speak;Timothy;That soldier appears to be guarding the gate.|We should be able to progress after defeating him.",
+            "remove_portrait;Timothy",
+            "move_cursor;Sages"
+        ]
+    }
+]

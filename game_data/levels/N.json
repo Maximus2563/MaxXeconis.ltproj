@@ -90,7 +90,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 7,
+                "level": 11,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -111,7 +111,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -132,7 +132,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 7,
+                "level": 12,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -153,7 +153,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 7,
+                "level": 9,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -174,7 +174,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -195,7 +195,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 7,
+                "level": 11,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -216,7 +216,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -237,7 +237,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -258,7 +258,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 7,
+                "level": 11,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -279,7 +279,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 9,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -300,7 +300,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 9,
+                "level": 11,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [

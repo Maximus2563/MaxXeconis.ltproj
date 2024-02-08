@@ -85,9 +85,9 @@
             "remove_portrait;Smoke;no_block",
             "remove_portrait;Aerial;no_block",
             "remove_portrait;Sal",
-            "change_stats;114;HP,1;FLAG(immediate)",
-            "change_stats;102;HP,1;FLAG(immediate)",
-            "change_stats;103;HP,1;FLAG(immediate)",
+            "change_stats;114;HP,1;immediate",
+            "change_stats;102;HP,1;immediate",
+            "change_stats;103;HP,1;immediate",
             ""
         ]
     }

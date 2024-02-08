@@ -628,5 +628,14 @@
         "speed": 75,
         "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
         "use_frame_time": true
+    },
+    {
+        "nid": "Red_Highlight",
+        "frame_x": 1,
+        "frame_y": 1,
+        "num_frames": 1,
+        "speed": 75,
+        "frame_times": "1",
+        "use_frame_time": false
     }
 ]

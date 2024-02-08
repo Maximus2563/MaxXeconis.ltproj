@@ -21,7 +21,7 @@
             "add_talk;Prof;Pykroe",
             "add_talk;Boey;Angel",
             "#trigger_script;Trigger",
-            "give_bexp;100;FLAG(no_banner)",
+            "give_bexp;100;no_banner",
             "base;Estate Evening",
             "#music;Attack;2000",
             "#wait;5000",

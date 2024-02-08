@@ -51,7 +51,7 @@
             "speak;Zio;Well, I despise making public appearances...|I was just about to request a search party for Cres but...|I-I wish you luck in whatever business you have with his Majesty! Send my r-regards!",
             "remove_portrait;Zio",
             "speak;Sal;What a strange noble...",
-            "remove_tag;Blazing;Required;FLAG(no_warn)",
+            "remove_tag;Blazing;Required;no_warn",
             "transition;close",
             "if;game.turncount < 12",
             "give_bexp;200",

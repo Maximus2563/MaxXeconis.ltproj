@@ -2,7 +2,7 @@
     {
         "nid": "Shoop",
         "name": "Shoop",
-        "desc": "A strange mage who likes makeup, tomfoolery and murder.",
+        "desc": "An eccentric mage who has a penchance for tomfoolery.",
         "variant": "Female",
         "level": 2,
         "klass": "Mage",
@@ -56,7 +56,7 @@
         "learned_skills": [
             [
                 1,
-                "Bloodlust"
+                "AnimalFriend"
             ]
         ],
         "unit_notes": [

@@ -2,7 +2,7 @@
     {
         "nid": "SpeedN2",
         "name": "Speed -2",
-        "desc": "Grants SPD +2.",
+        "desc": "Grants SPD -2.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             4,

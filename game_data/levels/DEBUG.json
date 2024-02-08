@@ -26,19 +26,6 @@
         "should_record": true,
         "units": [
             {
-                "nid": "Roag",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Talia",
                 "team": "enemy2",
                 "ai": "None",
@@ -58,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    7
+                    12,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -97,8 +84,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    10
+                    13,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -117,66 +104,14 @@
                 "generic": false
             },
             {
-                "nid": "Shoop",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Dean",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 6,
-                "klass": "MortalSavant",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Pure Water",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "new"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Apple",
+                "nid": "Leap",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    7
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -188,201 +123,99 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    14
+                    9,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Cacti",
+                "nid": "Cherry",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    15
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Bread",
+                "nid": "Zee",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    15
+                    10,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "Transporter",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Trapper"
-                ],
-                "team": "player",
+                "nid": "Count Varley",
+                "team": "enemy2",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Warrior",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "TacticalMind"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Smoke",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    8
+                    11,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Chess",
+                "nid": "Apple",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    16
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "Bishop",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "EntrapAI",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Kesley",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Chara",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "Adventurer",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Heal",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "SealStr"
-                ],
+                "nid": "Tobi",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     9,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nabin",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
                     8
                 ],
                 "starting_traveler": null,
-                "generic": true
+                "generic": false
             },
             {
-                "nid": "Snow",
+                "nid": "Sages",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    10
+                    12,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false

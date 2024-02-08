@@ -35,7 +35,7 @@
             "add_unit;Nabin;2,4;immediate;stack;fade",
             "transition;open",
             "multi_add_portrait;Hogarth;Left;Nabin;Right",
-            "speak;Nabin;...;FLAG(no_talk)",
+            "speak;Nabin;...;no_talk",
             "speak;Hogarth;Why do you have to say these things about me?|Now they'll squeak about how awful they think I am.",
             "speak;Nabin;How awful you are, more like.",
             "speak;Hogarth;You ingrate...|You have to make this up to me.|You must realise your errors.",
@@ -44,7 +44,7 @@
             "speak;Nabin;G-Gold?! That's what this is about?!",
             "speak;Hogarth;We will take to Aurelia.|I must make you see the light, the golden light...",
             "speak;Nabin;Do I have a choice...?",
-            "speak;Hogarth;Suffer eternal damnation if you don't.",
+            "speak;Hogarth;Lest you suffer eternal damnation if you don't.",
             "speak;Nabin;Alright...",
             "speak;Hogarth;Our boat leaves tomorrow.|Now, rest up.|I- I mean, WE will have a great time.",
             "speak;Nabin;Alright, father...",
@@ -54,8 +54,7 @@
             "remove_item_component;Nabin;Epee;locked",
             "if;game.turncount < 15",
             "give_bexp;150",
-            "end",
-            ""
+            "end"
         ]
     }
 ]

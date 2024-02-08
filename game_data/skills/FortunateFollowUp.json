@@ -3,10 +3,10 @@
         "nid": "FortunateFollowUp",
         "name": "Fortunate Follow-Up",
         "desc": "If unit's LCK >= foe's LCK +5, unit can make a guaranteed follow-up attack.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            7,
-            26
+            4,
+            40
         ],
         "components": [
             [

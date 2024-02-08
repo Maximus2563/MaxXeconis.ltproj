@@ -11,7 +11,7 @@
             "if;game.check_alive('Leap')",
             "music;Theme of Deduction",
             "multi_add_portrait;Leap;Right;Nabin;Left",
-            "speak;Nabin;...;FLAG(no_talk)",
+            "speak;Nabin;...;no_talk",
             "speak;Leap;Well?",
             "speak;Nabin;You survived...",
             "speak;Leap;Seems so, my head's still intact...",

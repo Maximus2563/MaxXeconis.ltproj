@@ -24,7 +24,7 @@
             "change_background",
             "transition;Open",
             "add_unit;Siri;10,4;fade;stack;fade",
-            "move_unit;Siri;10,5;normal;closest;FLAG(no_follow)",
+            "move_unit;Siri;10,5;normal;closest;no_follow",
             "change_team;Siri;player",
             "reset;Siri"
         ]

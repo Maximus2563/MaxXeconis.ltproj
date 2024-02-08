@@ -3,10 +3,10 @@
         "nid": "ArmorMarch",
         "name": "Armor March",
         "desc": "If unit is adjacent to an armor ally, grants MOV +2 to unit and adjacent armor units for 1 turn.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            0,
-            61
+            10,
+            49
         ],
         "components": [
             [
@@ -20,7 +20,11 @@
             ],
             [
                 "condition",
-                "len([u for u in get_allies_within_distance(unit, 1) if (u is not unit and 'Armor' in u.tags) > 0"
+                "len([u for u in get_allies_within_distance(unit, 1) if (u is not unit and 'Armor' in u.tags)]) > 0"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

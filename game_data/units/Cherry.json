@@ -2,14 +2,14 @@
     {
         "nid": "Cherry",
         "name": "Cherry",
-        "desc": "",
+        "desc": "A once shy noble, now a discerning and opulent braggart.\nCares more than she lets on.",
         "variant": "",
         "level": 3,
         "klass": "Valkyrie",
         "tags": [],
         "bases": {
             "HP": 31,
-            "STR": 2,
+            "STR": 0,
             "MAG": 16,
             "SKL": 12,
             "SPD": 11,
@@ -61,10 +61,6 @@
             [
                 1,
                 "Indentured Aid"
-            ],
-            [
-                1,
-                "Terra Boost"
             ]
         ],
         "unit_notes": [
@@ -74,7 +70,7 @@
             ],
             [
                 "Dislikes:",
-                "Being proven wrong"
+                "Being wrong"
             ]
         ],
         "wexp_gain": {

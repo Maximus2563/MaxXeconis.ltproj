@@ -51,24 +51,10 @@
             ],
             [
                 "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
-                "effective_multiplier",
-                3
-            ],
-            [
-                "effective_tag",
-                [
-                    "Horse",
-                    "Armor"
-                ]
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ],
             [
                 "prf_tags",
@@ -79,6 +65,18 @@
             [
                 "weapon_type_exempt",
                 "Sword"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

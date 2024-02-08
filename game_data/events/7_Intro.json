@@ -29,7 +29,7 @@
             "multi_remove_portrait;Leap;Prof;Liz;Man4",
             "transition;open",
             "pair_up;Mizt;Wagon2",
-            "give_skill;Wagon2;Rescue;;FLAG(no_banner)",
+            "give_skill;Wagon2;Rescue;;no_banner",
             "spawn_group;Player;east;Player;normal;stack",
             "move_cursor;1,1",
             "flicker_cursor;1,1",
@@ -51,11 +51,11 @@
             "speak;Leap;Nah. We won't let you.",
             "speak;Maurice;We'll see how long you persist, huh?",
             "multi_remove_portrait;Leap;Prof;Liz;Maurice",
-            "move_unit;Maurice;7,7;normal;stack;FLAG(no_follow)",
+            "move_unit;Maurice;7,7;normal;stack;no_follow",
             "add_talk;Leap;Wagon2",
-            "change_stats;102;SPD,-1;FLAG(no_warn);FLAG(immediate)",
-            "change_stats;106;SPD,-1;FLAG(no_warn);FLAG(immediate)",
-            "change_stats;103;SPD,-1;FLAG(no_warn);FLAG(immediate)",
+            "change_stats;102;SPD,-1;no_warn;immediate",
+            "change_stats;106;SPD,-1;no_warn;immediate",
+            "change_stats;103;SPD,-1;no_warn;immediate",
             ""
         ]
     }

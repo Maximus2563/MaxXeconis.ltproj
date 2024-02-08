@@ -1,7 +1,7 @@
 [
     {
         "nid": "10",
-        "name": "Chapter 10: Cell Splitting",
+        "name": "Ch. 10: Cell Splitting",
         "tilemap": "Ch10",
         "bg_tilemap": null,
         "party": "LeapGroup",

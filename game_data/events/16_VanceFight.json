@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Vance;Left",
-            "speak;Vance;Frankly, the world would be better without your ilk.|The Goddess' mercy is undeserved here, feel eternal damnation!",
+            "speak;Vance;Frankly, the world would be better without your ilk.|The Goddess' mercy is undeserved here, feel eternal damnation!;;;boss_convo_left",
             "remove_portrait;Vance"
         ]
     }

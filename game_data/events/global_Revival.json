@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "choice;revival;Who to revive?;[u.nid for u in game.get_all_units_in_party() if is_dead(u.nid)];FLAG(expression)",
+            "choice;revival;Who to revive?;[u.nid for u in game.get_all_units_in_party() if is_dead(u.nid)];expression",
             "resurrect;{v:revival}",
             "set_current_hp;{v:revival};1",
             "add_unit;{v:revival};{e:target_pos};warp",

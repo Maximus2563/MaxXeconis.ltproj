@@ -109,13 +109,13 @@
                 251
             ],
             "Anima": [
-                true,
-                1,
+                false,
+                0,
                 251
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Default": [

@@ -8,16 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "win_game",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "win_game"
         ]
     }
 ]

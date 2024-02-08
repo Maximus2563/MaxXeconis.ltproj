@@ -1,15 +1,16 @@
 [
     {
         "name": "New Event",
-        "trigger": "on_talk",
+        "trigger": null,
         "level_nid": "DEBUG",
-        "condition": "unit.nid == 'Prof' and unit2.nid == 'Pykroe'",
+        "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "",
-            ""
+            "change_background;Campsite Winter",
+            "multi_add_portrait;Cherry;Right;Shoop;Left",
+            "speak;Cherry;Villager is apitude and underdog you stupid mongrel idiot.|Fuck you."
         ]
     }
 ]

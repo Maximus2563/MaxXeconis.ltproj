@@ -2,7 +2,7 @@
     {
         "nid": "RageArt",
         "name": "Furious Smash",
-        "desc": "Unit releases their rage and adds +1 ATK/5 Crit per stack",
+        "desc": "Unit releases their rage and adds +1 ATK, +5 Hit/Crit, -5 Dodge per stack.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             1,
@@ -20,6 +20,14 @@
             [
                 "eval_crit",
                 "5*(len([skill for skill in unit.skills if skill.nid == 'RageChild']) )"
+            ],
+            [
+                "dynamic_accuracy",
+                "5*(len([skill for skill in unit.skills if skill.nid == 'RageChild']) )"
+            ],
+            [
+                "dynamic_crit_avoid",
+                "-5*(len([skill for skill in unit.skills if skill.nid == 'RageChild']) )"
             ]
         ]
     }

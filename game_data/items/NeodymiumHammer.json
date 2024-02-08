@@ -43,13 +43,10 @@
             ],
             [
                 "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ],
             [
                 "weight",
@@ -76,16 +73,6 @@
                 1
             ],
             [
-                "effective_multiplier",
-                3
-            ],
-            [
-                "effective_tag",
-                [
-                    "Armor"
-                ]
-            ],
-            [
                 "status_on_equip",
                 "NeoHammerHit"
             ],
@@ -94,6 +81,17 @@
                 [
                     "Joker"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

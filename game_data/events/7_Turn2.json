@@ -12,7 +12,7 @@
             "music;Boisterous Folk",
             "add_unit;Bread;1,1;immediate;stack;fade",
             "add_unit;Aspl;1,1;immediate;stack;fade",
-            "move_unit;Aspl;1,3;normal;stack;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Aspl;1,3;normal;stack;no_block;no_follow",
             "move_unit;Bread;2,2;normal;stack",
             "multi_add_portrait;Bread;Right;Aspl;Left",
             "speak;Bread;Yay! My horsie is ready to massacre these no-good meanies!",

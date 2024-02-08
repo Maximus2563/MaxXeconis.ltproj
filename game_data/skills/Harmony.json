@@ -2,7 +2,7 @@
     {
         "nid": "Harmony",
         "name": "Harmony",
-        "desc": "Allies within 2 spaces heal 20% of their max HP at the start of each turn.",
+        "desc": "Allies within 3 spaces heal 10% of their max HP at the start of each turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -19,7 +19,7 @@
             ],
             [
                 "aura_range",
-                2
+                3
             ],
             [
                 "aura_target",

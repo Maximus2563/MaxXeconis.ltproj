@@ -28,7 +28,7 @@
             "speak;Aerial;C'mon guys. A little less bickering in front of the prince.",
             "speak;Sages;Y'know, I've missed you guys.",
             "speak;Aerial;You could stay with us, come back home?",
-            "speak;Sages;...;FLAG(no_talk)",
+            "speak;Sages;...;no_talk",
             "speak;Smoke;Hello? We're looking for an Anne, Sir.",
             "speak;Landros;I think his silence is the answer, but why?",
             "expression;Sages;CloseEyes",

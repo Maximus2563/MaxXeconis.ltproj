@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "LightShift",
+        "name": "Light Shift",
+        "desc": "Unit can use light magic instead of anima magic.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "wexp_usable_skill",
+                "Light"
+            ],
+            [
+                "wexp_unusable_skill",
+                "Anima"
+            ]
+        ]
+    }
+]

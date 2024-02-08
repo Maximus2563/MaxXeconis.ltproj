@@ -22,7 +22,7 @@
             "speak;Leap;Welcome aboard, new guy...?",
             "speak;Chess;I'm called Chess.|Ironic, since I've spent my whole life as a piece to be controlled.|No more! I choose my own direction now!",
             "speak;Leap;Good, now get to work!",
-            "speak;Chess;Of course, boss!",
+            "speak;Chess;Of course, boss.",
             "music_fade_back",
             "change_team;Chess;player",
             "change_ai;Chess;None",

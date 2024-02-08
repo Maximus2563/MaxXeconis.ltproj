@@ -2,7 +2,7 @@
     {
         "nid": "Lucian",
         "name": "Lucian",
-        "desc": "",
+        "desc": "Uncle of Queen Emeline, a conniving and spiteful man.",
         "variant": "",
         "level": 10,
         "klass": "Sage",
@@ -10,7 +10,7 @@
         "bases": {
             "HP": 38,
             "STR": 0,
-            "MAG": 19,
+            "MAG": 22,
             "SKL": 15,
             "SPD": 14,
             "LCK": 12,
@@ -43,8 +43,22 @@
             "CON": 0,
             "MOV": 0
         },
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "Aura",
+                false
+            ],
+            [
+                "Fortify",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Staff_Range_2"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

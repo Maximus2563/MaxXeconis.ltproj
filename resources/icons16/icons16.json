@@ -258,5 +258,9 @@
     {
         "nid": "{Seal} (SacredWar) Ballista 3",
         "subicon_dict": {}
+    },
+    {
+        "nid": "LT_Skills",
+        "subicon_dict": {}
     }
 ]

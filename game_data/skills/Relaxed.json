@@ -3,10 +3,10 @@
         "nid": "Relaxed",
         "name": "Relaxed",
         "desc": "Grants DEF+3.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            7,
-            42
+            14,
+            43
         ],
         "components": [
             [

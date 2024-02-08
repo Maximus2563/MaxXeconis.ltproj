@@ -16,7 +16,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Steel Bow (Steel Bow)",
+            "give_item;{unit};Steel Bow",
             "has_traded;{unit}",
             "show_layer;villagenorth"
         ]

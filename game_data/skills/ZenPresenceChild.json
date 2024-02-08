@@ -3,10 +3,10 @@
         "nid": "ZenPresenceChild",
         "name": "Zen Presence",
         "desc": "Foe's critical hit damage is multiplied by 2, not 3.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            7,
-            56
+            9,
+            52
         ],
         "components": [
             [

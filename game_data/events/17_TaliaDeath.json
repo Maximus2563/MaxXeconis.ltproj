@@ -1,0 +1,17 @@
+[
+    {
+        "name": "TaliaDeath",
+        "trigger": "unit_death",
+        "level_nid": "17",
+        "condition": "unit.nid == 'Talia'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Talia;Left",
+            "speak;Talia;I feel the cold tundra air...|Xeconis, stay safe...",
+            "expression;Talia;CloseEyes",
+            "remove_portrait;Talia"
+        ]
+    }
+]

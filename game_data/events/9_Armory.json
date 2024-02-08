@@ -11,17 +11,7 @@
             "transition;Close",
             "music;Valiant Illusion",
             "shop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow;armory",
-            "transition;Open",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "transition;Open"
         ]
     }
 ]

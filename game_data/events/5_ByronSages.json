@@ -20,7 +20,8 @@
             "remove_portrait;Byron",
             "add_portrait;Sages;Right",
             "speak;Sages;The only thing I'm going to ruin, is your face! Ha!;;;boss_convo_right",
-            "remove_portrait;Sages"
+            "remove_portrait;Sages",
+            "show_combat_ui"
         ]
     }
 ]

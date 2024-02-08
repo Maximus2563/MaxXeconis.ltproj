@@ -25,7 +25,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;Sal;Poison Sword (Poison Sword)",
+            "give_item;Sal;Poison Sword",
             "has_traded;{unit}"
         ]
     }

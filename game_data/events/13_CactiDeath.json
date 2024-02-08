@@ -15,12 +15,7 @@
             "remove_portrait;Cacti",
             "add_portrait;Timothy;Left",
             "speak;Timothy;Cacti... No... NO!|You fiends! Why... How could I let this happen...?",
-            "music_fade_back",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

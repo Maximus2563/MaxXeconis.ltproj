@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Silence",
-        "name": "Silence",
+        "nid": "Silenced",
+        "name": "Silenced",
         "desc": "Unit cannot use magic.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            0,
-            51
+            12,
+            33
         ],
         "components": [
             [

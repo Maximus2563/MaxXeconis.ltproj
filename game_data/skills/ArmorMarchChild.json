@@ -3,10 +3,10 @@
         "nid": "ArmorMarchChild",
         "name": "Armor March",
         "desc": "Grants MOV +2.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            0,
-            61
+            10,
+            49
         ],
         "components": [
             [

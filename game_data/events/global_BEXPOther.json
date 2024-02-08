@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_bexp;10;FLAG(no_banner)"
+            "give_bexp;10;no_banner"
         ]
     }
 ]

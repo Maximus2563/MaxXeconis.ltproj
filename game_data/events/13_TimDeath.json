@@ -12,9 +12,7 @@
             "add_portrait;Right;Timothy",
             "speak;Timothy;Well, this isn't... Where are you, Cact-",
             "expression;Timothy;CloseEyes",
-            "lose_game",
-            "",
-            ""
+            "lose_game"
         ]
     }
 ]

@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_skill;Joker;RageChild;FLAG(no_banner)"
+            "remove_skill;Joker;RageChild;no_banner"
         ]
     }
 ]

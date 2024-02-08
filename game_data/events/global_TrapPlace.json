@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_region;{eval:target_pos};{eval:target_pos};1,1;status;Trapped;;only_once;interrupt_move",
-            "map_anim;Square;{eval:target_pos};FLAG(permanent)",
+            "map_anim;Square;{eval:target_pos};permanent",
             ""
         ]
     }

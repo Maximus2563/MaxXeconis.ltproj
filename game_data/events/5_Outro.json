@@ -10,10 +10,10 @@
         "_source": [
             "transition;Close",
             "change_team;Sages;player",
-            "change_party;Sages;Sal's Platoon (SalGroup)",
-            "remove_tag;Sal;Required;FLAG(no_warn)",
+            "change_party;Sages;SalGroup",
+            "remove_tag;Sal;Required;no_warn",
             "if;unit.team('Frost') != 'Player'",
-            "kill_unit;Frost;FLAG(no_warn)",
+            "kill_unit;Frost;no_warn",
             "end",
             "remove_all_units",
             "change_background;Night Village",

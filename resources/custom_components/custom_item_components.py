@@ -362,4 +362,14 @@ class ShoveFlexibleOnEndCombatInitiate(ItemComponent):
         if not skill_system.ignore_forced_movement(target) and mode and mode == 'attack':
             new_position = self._check_shove(target, unit.position, self.value)
             if new_position:
-                action.do(action.ForcedMovement(target, new_position))
+                action.do(action.ForcedMovement(target, new_position))         
+class Locked2(ItemComponent):
+    nid = 'locked_2'
+    desc = 'Item cannot be taken or dropped from a units inventory. However, the trade command can be used to rearrange its position, and event commands can remove the item.'
+    tag = ItemTags.CUSTOM
+
+    def locked(self, unit, item) -> bool:
+        return True
+
+    def unstealable(self, unit, item) -> bool:
+        return True

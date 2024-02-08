@@ -2,7 +2,7 @@
     {
         "nid": "Eff",
         "name": "Eff",
-        "desc": "",
+        "desc": "A Monsdorian prince who would rather read than govern.",
         "variant": "",
         "level": 6,
         "klass": "Malig Knight",
@@ -45,11 +45,15 @@
         },
         "starting_items": [
             [
+                "Luna",
+                false
+            ],
+            [
                 "Killer Axe",
                 false
             ],
             [
-                "Luna",
+                "Concoction",
                 false
             ]
         ],

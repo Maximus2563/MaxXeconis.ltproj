@@ -3,10 +3,10 @@
         "nid": "Deliverer",
         "name": "Deliverer",
         "desc": "Grants +2 MOV when rescuing an ally.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            1,
-            46
+            9,
+            51
         ],
         "components": [
             [

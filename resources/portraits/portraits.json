@@ -816,18 +816,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Naz",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Balthazar",
         "blinking_offset": [
             16,
@@ -835,18 +823,6 @@
         ],
         "smiling_offset": [
             16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Snowed",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
             40
         ],
         "info_offset": 0
@@ -876,18 +852,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Zee",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Zio",
         "blinking_offset": [
             24,
@@ -896,18 +860,6 @@
         "smiling_offset": [
             16,
             48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Shini",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
         ],
         "info_offset": 0
     },
@@ -925,18 +877,6 @@
     },
     {
         "nid": "Aerial",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "MaxYoung",
         "blinking_offset": [
             24,
             24
@@ -1164,18 +1104,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Shoop",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Guy",
         "blinking_offset": [
             24,
@@ -1236,18 +1164,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Skill",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Prof",
         "blinking_offset": [
             16,
@@ -1297,18 +1213,6 @@
     },
     {
         "nid": "Faerie",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Frost",
         "blinking_offset": [
             24,
             32
@@ -1380,18 +1284,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Eff",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Landros",
         "blinking_offset": [
             20,
@@ -1423,18 +1315,6 @@
         ],
         "smiling_offset": [
             40,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Max",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
             40
         ],
         "info_offset": 0
@@ -1932,18 +1812,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Leap",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Lanii",
         "blinking_offset": [
             24,
@@ -2240,6 +2108,162 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "MaxYoung",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Max",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Leap",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LeapAlt",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Snow",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Eff",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Shoop",
+        "blinking_offset": [
+            18,
+            32
+        ],
+        "smiling_offset": [
+            18,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Skill",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zee",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Shini",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tobi",
+        "blinking_offset": [
+            30,
+            24
+        ],
+        "smiling_offset": [
+            22,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Frost",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Naz",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
         ],
         "info_offset": 0
     }

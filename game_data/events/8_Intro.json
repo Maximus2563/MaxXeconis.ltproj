@@ -63,8 +63,8 @@
             "multi_remove_portrait;Leap;Prof",
             "add_talk;Prof;Dean",
             "add_talk;Leap;Shoop",
-            "change_stats;Scout;MOV,-1;FLAG(no_warn);FLAG(immediate)",
-            "change_stats;Scout2;MOV,-1;FLAG(no_warn);FLAG(immediate)"
+            "change_stats;Scout;MOV,-1;no_warn;immediate",
+            "change_stats;Scout2;MOV,-1;no_warn;immediate"
         ]
     }
 ]

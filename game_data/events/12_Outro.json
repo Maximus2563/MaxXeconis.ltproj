@@ -25,7 +25,7 @@
             "speak;Timothy;Could it be? Prince Sages?",
             "speak;Sages;Of course!",
             "expression;Timothy;NoSmile",
-            "speak;Timothy;...;FLAG(no_talk)",
+            "speak;Timothy;...;no_talk",
             "expression;Cacti;NoSmile",
             "speak;Cacti;Father?",
             "speak;Timothy;Apologies, lost my composure for a second.|It's just that, Arcei is hardly doing well...",
@@ -62,9 +62,7 @@
             "end",
             "if;game.turncount < 10",
             "give_bexp;150",
-            "end",
-            "",
-            ""
+            "end"
         ]
     }
 ]

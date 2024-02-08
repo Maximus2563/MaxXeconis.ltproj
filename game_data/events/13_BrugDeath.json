@@ -14,12 +14,7 @@
             "remove_portrait;Brug",
             "add_portrait;Bandit2;Right",
             "speak;Bandit2;We better scarper!|Retreat!",
-            "remove_portrait;Bandit2",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "remove_portrait;Bandit2"
         ]
     }
 ]

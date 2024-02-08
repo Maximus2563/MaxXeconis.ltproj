@@ -11,7 +11,7 @@
             "add_portrait;Ahmari;Right",
             "speak;Ahmari;The sun... is going cold...",
             "expression;Ahmari;CloseEyes",
-            "remove_portrait;Ahmari;",
+            "remove_portrait;Ahmari",
             "lose_game"
         ]
     }

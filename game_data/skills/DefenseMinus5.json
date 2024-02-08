@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Defense__5_",
+        "nid": "DefenseMinus5",
         "name": "Defense -5",
         "desc": "Inflicts DEF -5.",
         "icon_nid": "Skills (1)",

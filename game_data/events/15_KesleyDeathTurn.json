@@ -19,7 +19,7 @@
             "speak;Ahmari;You are insane! Grr...",
             "speak;Hakeem;Your tribe. You prosper, yet you do not share!|You have these structures, yet we are stuck with tents!|I am tired of this disparity!",
             "speak;Ahmari;You could'a asked instead of this madness!",
-            "speak;Hakeem;Hmph, I only know the way of the figher.|The only words I seek, are your last!",
+            "speak;Hakeem;Hmph, I only know the way of battle.|The only words I seek, are your last!",
             "speak;Ahmari;If that's what you want, you'll be waiting an eternity, hah!",
             "multi_remove_portrait;Ahmari;Hakeem",
             "music_fade_back"

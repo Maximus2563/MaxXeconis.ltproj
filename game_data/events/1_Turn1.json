@@ -12,9 +12,9 @@
             "speak;Landros;I'm sure it's nothing, but those guys look pretty antsy.",
             "remove_portrait;Landros",
             "move_cursor;7,6",
-            "flicker_cursor;Bandit (116)",
-            "flicker_cursor;Bandit (108)",
-            "flicker_cursor;Bandit (110)",
+            "flicker_cursor;116",
+            "flicker_cursor;108",
+            "flicker_cursor;110",
             "add_portrait;Landros;Left",
             "speak;Landros;I'll put an arrow between their eyes, if you want.|Better them than the villagers.",
             "remove_portrait;Landros"

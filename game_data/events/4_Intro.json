@@ -54,7 +54,7 @@
             "speak;Sal;News sure does travel fast, huh?|Well, there's not much we can do but fight!|You can stand back if you wish.",
             "speak;Blazing;As I said, I believe I will be fine.|My light magic will purge through our foes' armor.|Though I suppose keeping me out of blades' range would be useful...",
             "multi_remove_portrait;Blazing;Sal",
-            "add_tag;Blazing;Required;FLAG(no_warn)",
+            "add_tag;Blazing;Required;no_warn",
             "prep;true;Logic Trinity",
             "",
             ""

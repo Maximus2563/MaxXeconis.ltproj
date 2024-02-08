@@ -23,7 +23,7 @@
             "speak;Sages;What? Is this a joke?",
             "speak;Sal;Of course, even I can have fun.",
             "speak;Sages;Really? I did not know that!",
-            "speak;Sal;...;FLAG(no_talk)",
+            "speak;Sal;...;no_talk",
             "speak;Sages;I mean, woohoo! Haha! Later!",
             "multi_remove_portrait;Sal;Sages",
             "remove_talk;Sages;Sal"

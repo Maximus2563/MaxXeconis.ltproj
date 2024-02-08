@@ -2,11 +2,11 @@
     {
         "nid": "TacticalMind",
         "name": "Tactical Mind",
-        "desc": "While foe has a terrain effect, unit gains +3 damage dealt and +30 Hit.",
-        "icon_nid": "Skills (1)",
+        "desc": "While foe has a terrain effect, unit gains +3 damage dealt and +20 Hit.",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            3,
-            58
+            12,
+            46
         ],
         "components": [
             [
@@ -19,7 +19,7 @@
             ],
             [
                 "hit",
-                30
+                20
             ],
             [
                 "damage",

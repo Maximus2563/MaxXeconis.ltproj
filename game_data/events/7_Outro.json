@@ -81,7 +81,7 @@
             "speak;Aspl;Life's mean.|You should toughen up, loser.",
             "speak;Prof;Aspl...",
             "speak;Aspl;Just quit talking.|Do better, so more people don't die.",
-            "speak;Leap;...;FLAG(no_talk)",
+            "speak;Leap;...;no_talk",
             "remove_portrait;Aspl",
             "end",
             "if;game.check_alive('Mizt')",

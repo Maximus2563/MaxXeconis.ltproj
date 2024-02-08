@@ -3,10 +3,10 @@
         "nid": "InsultToInjury",
         "name": "Insult to Injury",
         "desc": "If foe has 4 or more stats debuffed, unit makes a guaranteed follow-up attack.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            0,
-            4
+            1,
+            43
         ],
         "components": [
             [

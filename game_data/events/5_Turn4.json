@@ -18,7 +18,7 @@
             "spawn_group;WestBanditReinforcement;west;WestBanditReinforcement;normal;closest",
             "load_unit;Frost;other",
             "pair_up;Frost;125",
-            "give_skill;125;Rescue;;FLAG(no_banner)",
+            "give_skill;125;Rescue;;no_banner",
             "multi_add_portrait;Bandit1;Left;Bandit2;Right",
             "music;Wonderful Pirates",
             "speak;Bandit1;Guffah! Time ta loot in the darkness of night!",

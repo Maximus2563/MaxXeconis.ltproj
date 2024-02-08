@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Gate",
+        "trigger": "unit_death",
+        "level_nid": "17",
+        "condition": "unit.nid == '108'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;Gate",
+            "sound;Unlock",
+            "move_cursor;Talia",
+            "multi_add_portrait;Talia;MidRight;Xeconis;FarRight",
+            "speak;Talia;Hm...",
+            "speak;Xeconis;What are you thinking now?",
+            "speak;Talia;If we're to fall here, you should run.",
+            "speak;Xeconis;I thought we were going to win easily?",
+            "speak;Talia;Clearly, I was mistaken.",
+            "speak;Xeconis;I won't allow it, I'm not giving up that easily.",
+            "speak;Talia;If you're sure...",
+            "speak;Xeconis;...;no_talk",
+            "speak;Talia;Then we fight, full force.",
+            "remove_portrait;Xeconis",
+            "speak;Talia;Sorry Xeco, if one of us must fall...",
+            "move_cursor;{unit2}"
+        ]
+    }
+]
