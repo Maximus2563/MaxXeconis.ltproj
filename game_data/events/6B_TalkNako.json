@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "multi_add_portrait;Nako;Right;Sages;Left",
-            "speak;Nako;Ah, Lord Sages, you've come to pay me a visit?|I'm just watchign the training in case someone gets hurt.",
+            "speak;Nako;Ah, Lord Sages, you've come to pay me a visit?|I'm just watching the training in case someone gets hurt.",
             "speak;Sages;How caring, you really are Arcei's greatest servant.|I just wanted to say thanks.",
             "speak;Nako;Oh! Thank you!|It's... embarassing seeing you all grown up.|Makes me feel so old...",
             "speak;Sages;Oh, don't be silly!|You're the picture of youth!",

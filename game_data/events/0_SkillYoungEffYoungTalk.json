@@ -10,9 +10,9 @@
         "_source": [
             "add_portrait;SkillYoung;Left;no_block",
             "add_portrait;EffYoung;Right",
-            "speak;EffYoung;A soldier, in blue? Might you be from the Kingdom...?",
-            "speak;SkillYoung;Of course! You must know my of name... Skill Draqon!|Of the glorious Draqon household!",
-            "speak;EffYoung;I am afraid to say I've heard of neither you nor your house...",
+            "speak;EffYoung;A soldier in blue? Might you be from the Kingdom...?",
+            "speak;SkillYoung;Of course! You must know of my name... Skill Draqon!|Of the glorious Draqon household!",
+            "speak;EffYoung;I am afraid to say I've heard of neither you, nor your house...",
             "speak;SkillYoung;Bah! Who might you be anyway to besmirch the great Draqons?",
             "speak;EffYoung;How rude of me, the name's Eff R. Vescence.|Younger brother of Oberon Vescence, charmed to meet you.",
             "speak;SkillYoung;...|There isn't a soul in Aurelia who hasn't heard the tales of Oberon in battle...|Though I had not heard of a third brother...",

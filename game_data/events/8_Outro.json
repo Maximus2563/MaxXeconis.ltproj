@@ -78,11 +78,11 @@
             "speak;Emeline;Thank you, Helia.",
             "speak;Dawn;Oh, yeah, me too!|So sad... Elias...",
             "speak;Helia;He was truly special... Taken so soon...",
-            "speak;Emeline;Yes, but I can't let it hold me back.",
-            "speak;Helia;Father is withholding help, as of current.|My apologies...",
-            "speak;Dawn;What'cha gonna do?|Monsdor is doing, like, so great at hunting the Arcei royalty.",
-            "speak;Helia;Monsdor... Oh, yes, I'm due to be engaged to prince Emmanuel.",
-            "speak;Emeline;This is... news to me.",
+            "speak;Emeline;Yes, but I can't let it hold me back.|I have to prove I am a worthy to succeed father and my brother.",
+            "speak;Helia;Father is busy as of current and couldn't attend.|My apologies...",
+            "speak;Dawn;What'cha gonna do?|Monsdor is doing, like, so great at hunting the Arceini losers.",
+            "speak;Helia;Monsdor... Oh! I forgot to mention...|I'm due to be engaged to Prince Emmanuel.",
+            "speak;Emeline;This is...{c:wait;400} news to me.",
             "speak;Helia;As the eldest sister, it seems most of fathers plans involve me...",
             "speak;Emeline;Uncle is pawning you off to gain influence in Monsdor?|Do you want this?",
             "speak;Helia;Well, I'm sure it'll work out alright.|I've never really been much good at anything else...",
@@ -120,7 +120,7 @@
             "move_unit;Dawn;6,9;no_follow",
             "remove_unit;Dawn;fade;south",
             "remove_unit;Helia;fade;south",
-            "speak;Emeline;She likes my crown, does she?|She... wants it?|Gah... and Helia, marrying into Monsdor too...|Uncle is trying to seek more power than me.|Those two... so easy for him to manipulate...|But what if they want to manipulate me...?|What if they want the crown, I can't die yet!|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! How could she allow this?!|No, the only Goddess that exists in this realm, is me!",
+            "speak;Emeline;She likes my crown, does she?{c:wait;200} She... wants it?|Gah... and Helia, marrying into Monsdor too...|Uncle is trying to seek more power than me.|Those two... so easy for him to manipulate...|But what if they want to manipulate me...?|What if they want the crown, I can't die yet!|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! How could she allow this?!|No, the only Goddess that exists in this realm, is me!",
             "transition;close"
         ]
     }

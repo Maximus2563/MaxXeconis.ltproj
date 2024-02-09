@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "spawn_group;SkillEstebam;north;SkillEstebam;normal;stack",
+            "spawn_group;SkillEstebam;north;SkillEsteban;normal;stack",
             "add_tag;SkillCH3;Boss",
             "add_tag;Esteban;Boss",
             "change_ai;SkillCH3;Pursue",

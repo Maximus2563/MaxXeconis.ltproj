@@ -17,7 +17,7 @@
             "speak;Sunii;Please don't ask questions... You're better off not knowing.",
             "speak;XeconisYoung;Is this just because I'm young?",
             "speak;Sunii;Just... Go on with what you were doing.",
-            "speak;XeconisYoung;Fine, but I expect to be compensated when we're finished, with whatever it is you know.",
+            "speak;XeconisYoung;Fine, but I expect to be compensated with information when we're finished.",
             "speak;Sunii;...",
             "remove_portrait;XeconisYoung;no_block",
             "remove_portrait;Sunii",

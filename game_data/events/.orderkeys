@@ -6,7 +6,7 @@
     "global_DeathXerxesY",
     "global_DeathMaxY",
     "global_DeathEffY",
-    "0_DeathONeill",
+    "0_DeathPierre",
     "6_DeathSeptimus",
     "1_DeathGrinst",
     "0_Outro",
@@ -107,6 +107,7 @@
     "5_House1",
     "5_House2",
     "5_Turn4",
+    "5_Turn3",
     "5_Armory",
     "5_Vendor",
     "global_FrostyChilled",
@@ -124,6 +125,7 @@
     "6B_Fiery_Family",
     "6B_TalkJaviMaro",
     "6B_TalkNako",
+    "6B_TalkSnow",
     "6B_TalkFrost",
     "6B_TalkAerial",
     "6B_TalkSal",
@@ -319,6 +321,7 @@
     "17_XeconisSal",
     "17_XeconisRetreat",
     "17_TaliaDeath",
-    "17_Trap",
-    "N_Intro"
+    "N_Intro",
+    "17_Outro",
+    "17_WinCon"
 ]

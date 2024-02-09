@@ -42,7 +42,7 @@
             {
                 "nid": "Sages",
                 "team": "other",
-                "ai": "Guard",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [

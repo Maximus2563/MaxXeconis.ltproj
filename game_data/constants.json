@@ -200,6 +200,10 @@
         false
     ],
     [
+        "info_menu_blink",
+        false
+    ],
+    [
         "convoy_on_death",
         true
     ],

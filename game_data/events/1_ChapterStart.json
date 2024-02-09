@@ -69,7 +69,7 @@
             "add_portrait;Landros;Left;no_block",
             "add_portrait;Smoke;FarRight",
             "speak;Sal;Well squad, here we are.",
-            "speak;Smoke;I see 'em, not much to look at, are they?",
+            "speak;Smoke;I see 'em. Not much to look at, are they?",
             "speak;Landros;Ugh. I would much rather be back home.|These slimeballs are an insult to my eyes.",
             "speak;Aerial;But we can't undermine them yet... See.|That village is a goner...",
             "speak;Roag;Girl... I don't see why they're doin' this...",
@@ -79,7 +79,7 @@
             "speak;Aerial;All right, Sal. We're all ready... Well, at least I am.|Though, wasn't there supposed to be six of us?",
             "speak;Sal;Obviously the rookie overslept... Shameful!",
             "speak;Aerial;What're your orders boss?",
-            "speak;Sal;Form up! Surround them all! Don't let a single one escape!|For Lord Sages!",
+            "speak;Sal;Form up! Surround them all! Don't let a single one escape!|For King Sages!",
             "remove_portrait;Landros;no_block",
             "remove_portrait;Roag;no_block",
             "remove_portrait;Smoke;no_block",
@@ -87,8 +87,7 @@
             "remove_portrait;Sal",
             "change_stats;114;HP,1;immediate",
             "change_stats;102;HP,1;immediate",
-            "change_stats;103;HP,1;immediate",
-            ""
+            "change_stats;103;HP,1;immediate"
         ]
     }
 ]

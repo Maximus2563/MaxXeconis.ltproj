@@ -936,18 +936,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Argento",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Jeremiah",
         "blinking_offset": [
             24,
@@ -1256,18 +1244,6 @@
         "smiling_offset": [
             24,
             48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Dark",
-        "blinking_offset": [
-            24,
-            40
-        ],
-        "smiling_offset": [
-            16,
-            56
         ],
         "info_offset": 0
     },
@@ -2257,6 +2233,30 @@
     },
     {
         "nid": "Naz",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dark",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Argento",
         "blinking_offset": [
             24,
             24

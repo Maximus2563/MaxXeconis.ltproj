@@ -13,9 +13,7 @@
             "speak;{eval:unit.nid};{eval:unit.get_field('EscapeQuote')}",
             "remove_portrait;{eval:unit.nid}",
             "end",
-            "remove_unit;{unit};;west",
-            "",
-            ""
+            "remove_unit;{unit};;west"
         ]
     }
 ]

@@ -10,16 +10,16 @@
         "_source": [
             "hide_combat_ui",
             "add_portrait;Byron;Left",
-            "speak;Byron;Here's the man of the hour, the princeling.;;;boss_convo_left",
+            "speak;Byron;Here's the man of the hour, the lesser Sages.;;;boss_convo_left",
             "remove_portrait;Byron",
             "add_portrait;Sages;Right",
-            "speak;Sages;Thanks! I know that I am great.;;;boss_convo_right",
+            "speak;Sages;Thanks!{c:wait;600} Wait, lesser?;;;boss_convo_right",
             "remove_portrait;Sages",
             "add_portrait;Byron;Left",
             "speak;Byron;Your lack of awareness speaks volumes as to Arcein's idiocy.|Of course your kind would ruin everything.;;;boss_convo_left",
             "remove_portrait;Byron",
             "add_portrait;Sages;Right",
-            "speak;Sages;The only thing I'm going to ruin, is your face! Ha!;;;boss_convo_right",
+            "speak;Sages;The only thing I'm going to ruin, is your face!{c:wait;200} Ha!;;;boss_convo_right",
             "remove_portrait;Sages",
             "show_combat_ui"
         ]

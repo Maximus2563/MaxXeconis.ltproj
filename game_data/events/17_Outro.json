@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Outro",
+        "trigger": null,
+        "level_nid": "17",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_all_units",
+            "transition;close",
+            "music;Reminiscences ~ Killers' Crossroads",
+            "change_background;Town Day",
+            "multi_add_portrait;Sages;Left;Talia;Right",
+            "expression;Talia;CloseEyes",
+            "transition;open",
+            "speak;Sages;Commander...",
+            "speak;Talia;Hah... I miscalculated...|You're stronger than I thought..."
+        ]
+    }
+]

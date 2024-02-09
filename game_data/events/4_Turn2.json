@@ -24,11 +24,7 @@
             "speak;Guy;So much for a quiet afternoon...",
             "add_talk;Sal;Pykroe",
             "multi_remove_portrait;Guy;Pykroe;Hyper",
-            "music_fade_back",
-            "",
-            "",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

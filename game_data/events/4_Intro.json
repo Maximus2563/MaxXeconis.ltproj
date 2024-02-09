@@ -30,7 +30,7 @@
             "speak;Sal;I suppose I should tell you, we're kind of in er... Trouble at the moment...",
             "speak;Blazing;What sort of trouble?",
             "speak;Sal;Prince Elias was murdered by a rogue assassin...",
-            "speak;Blazing;The prince... dead?",
+            "speak;Blazing;The Prince... dead?",
             "bop_portrait;Blazing",
             "move_portrait;Blazing;FarRight",
             "speak;Blazing;You're not going to k-kill me, are you?!",
@@ -55,9 +55,7 @@
             "speak;Blazing;As I said, I believe I will be fine.|My light magic will purge through our foes' armor.|Though I suppose keeping me out of blades' range would be useful...",
             "multi_remove_portrait;Blazing;Sal",
             "add_tag;Blazing;Required;no_warn",
-            "prep;true;Logic Trinity",
-            "",
-            ""
+            "prep;true;Logic Trinity"
         ]
     }
 ]

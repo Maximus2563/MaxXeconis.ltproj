@@ -1042,23 +1042,6 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
-            },
-            {
-                "nid": "Trap",
-                "region_type": "normal",
-                "position": [
-                    14,
-                    3
-                ],
-                "size": [
-                    4,
-                    2
-                ],
-                "sub_nid": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -1137,10 +1120,6 @@
             },
             {
                 "nid": "C",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]

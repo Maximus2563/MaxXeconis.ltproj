@@ -28,7 +28,7 @@
             "move_cursor;Sal",
             "if;game.check_alive('Aerial')",
             "add_portrait;Aerial;Left",
-            "speak;Aerial;Seems weird, right?|But like, who would frame Sages?",
+            "speak;Aerial;Seems weird, right?|But like, who would frame his Majesty?",
             "if;game.check_alive('Nako')",
             "speak;Nako;I can hardly believe him to do such wrongs either...|But, poor Prince Elias...|If only his wounds were not so servere we could have saved him...",
             "end",

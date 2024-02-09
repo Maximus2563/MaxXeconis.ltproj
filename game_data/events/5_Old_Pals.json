@@ -15,7 +15,7 @@
             "expression;Smoke;Smile",
             "speak;Sages;Hah! Smoke, Landros, Aerial! How's it going?",
             "speak;Smoke;Hey! Your Highness, give us some SAGE advice!",
-            "speak;Sages;Uh, well something I learned recently was...|ALWAYS CHECK THE RULES OF THE CARD GAME YOU'RE PLAYING!",
+            "speak;Sages;Uh, well...{c:wait;400} Something I learned recently was...|ALWAYS CHECK THE RULES OF THE CARD GAME YOU'RE PLAYING!",
             "speak;Landros;Don't tell me you lost a lot of money.",
             "speak;Sages;Uhm, alright! I won't!|My mouth? Shut!",
             "speak;Aerial;It's okay your Highness, I'm sure I can win it back.",

@@ -10,7 +10,7 @@
         "_source": [
             "hide_combat_ui",
             "add_portrait;Sanjay;Left",
-            "speak;Sanjay;I'm the head of this guard, Sanjay!{w}{clear}Desist in your actions, then offer yourself to holy retribution!;;;boss_convo_left",
+            "speak;Sanjay;I'm the head of this guard, Sanjay!|Desist in your actions, then offer yourself to the Goddess!;;;boss_convo_left",
             "remove_portrait;Sanjay",
             "show_combat_ui"
         ]

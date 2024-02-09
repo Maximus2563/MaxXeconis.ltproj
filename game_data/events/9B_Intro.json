@@ -52,17 +52,7 @@
             "speak;Leap;Haha!",
             "speak;Prof;C'mon... I had to speak to that weird shopkeeper.",
             "speak;Leap;Sorry... Teehee...",
-            "change_roam_ai;Prof;FollowLeap",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "change_roam_ai;Prof;FollowLeap"
         ]
     }
 ]

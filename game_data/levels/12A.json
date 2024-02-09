@@ -78,6 +78,16 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Snow",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [],
@@ -87,7 +97,8 @@
                 "units": [
                     "Sages",
                     "Sal",
-                    "Javi"
+                    "Javi",
+                    "Snow"
                 ],
                 "positions": {
                     "Sages": [
@@ -95,12 +106,12 @@
                         6
                     ],
                     "Sal": [
-                        9,
+                        8,
                         7
                     ],
-                    "Javi": [
-                        7,
-                        7
+                    "Snow": [
+                        8,
+                        8
                     ]
                 }
             },
