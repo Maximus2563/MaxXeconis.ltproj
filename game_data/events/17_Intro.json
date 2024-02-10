@@ -12,7 +12,7 @@
             "change_background;Sea Port Day",
             "music;Doctor Sithe ~ Untouchable Coroner",
             "multi_add_portrait;Xeconis;MidLeft;Talia;FarLeft;Max;MidRight;Pit;FarRight",
-            "transition;open",
+            "add_weather;sunset",
             "speak;Talia;Is all prepared?",
             "speak;Max;I believe so...|The watchtower is the perfect spot for me and Pit to shoot from.",
             "speak;Xeconis;Clearly you didn't want the risk of being in actual harms way?",

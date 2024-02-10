@@ -1,0 +1,68 @@
+[
+    {
+        "nid": "Muramasa",
+        "name": "Muramasa",
+        "desc": "Heals 50% of damage dealt.\nEmeline only.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
+        "icon_index": [
+            13,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Emeline"
+                ]
+            ],
+            [
+                "locked_2",
+                null
+            ],
+            [
+                "lifelink",
+                0.5
+            ]
+        ]
+    }
+]

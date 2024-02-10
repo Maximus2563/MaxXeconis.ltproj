@@ -338,5 +338,9 @@
     {
         "nid": "[MON] Fire Dragon {IS}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "[MON] Mauthe Doog {IS}",
+        "subicon_dict": {}
     }
 ]

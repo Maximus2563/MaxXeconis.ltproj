@@ -63,11 +63,20 @@
                 "UnalloyedHeart"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Loyal aides"
+            ],
+            [
+                "Dislikes:",
+                "Arcei,Backstabbers,Her limits"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
-                71,
+                121,
                 251
             ],
             "Lance": [
@@ -119,6 +128,23 @@
         "alternate_classes": [],
         "portrait_nid": "Emeline",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "HighLevelUpQuote",
+                "Is Elias watching over me?"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I must thank the Goddess for this."
+            ],
+            [
+                "LowLevelUpQuote",
+                "A Queen should do better than this..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "I should never have taken the crown..."
+            ]
+        ]
     }
 ]

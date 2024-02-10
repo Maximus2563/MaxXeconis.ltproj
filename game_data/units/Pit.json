@@ -2,7 +2,7 @@
     {
         "nid": "Pit",
         "name": "Pit",
-        "desc": "An Aurelian cavalier whose average talents are countered by his constant efforts.",
+        "desc": "An Aurelian cavalier with great potential.",
         "variant": "",
         "level": 5,
         "klass": "BowCavalier",
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Iron Bow",
+                "Steel Bow",
                 false
             ],
             [
@@ -53,7 +53,7 @@
                 false
             ],
             [
-                "Antitoxin",
+                "Vulnerary",
                 false
             ]
         ],

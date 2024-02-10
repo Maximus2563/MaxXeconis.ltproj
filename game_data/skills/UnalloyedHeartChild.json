@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
                 "resist",
                 2
             ]

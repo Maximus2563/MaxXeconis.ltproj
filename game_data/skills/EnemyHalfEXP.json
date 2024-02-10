@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "EnemyHalfEXP",
+        "name": "EnemyHalfEXP",
+        "desc": "",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            0,
+            53
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "enemy_exp_multiplier",
+                0.5
+            ]
+        ]
+    }
+]

@@ -3,10 +3,10 @@
         "nid": "Kunai",
         "name": "Smoke's Kunai",
         "desc": "LCK/DEF/RES-2.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            5,
-            50
+            14,
+            6
         ],
         "components": [
             [

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LoseXeconis",
+        "trigger": "unit_death",
+        "level_nid": "18",
+        "condition": "unit.nid == 'Emeline'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Xeconis;Right",
+            "speak;Xeconis;I failed you, Talia...",
+            "expression;Xeconis;CloseEyes",
+            "lose_game"
+        ]
+    }
+]

@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "chapter_title",
             "music;The Defendants' Antechamber",
             "change_background;Sea Port Day",
             "add_portrait;Sages;Right",

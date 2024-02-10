@@ -11,6 +11,7 @@ from app.engine.objects.unit import UnitObject
 from app.utilities import utils, static_random
 from app.engine.combat import playback as pb
 from app.utilities.enums import Strike
+import logging
 
 class DoNothing(SkillComponent):
     nid = 'do_nothing'
@@ -103,33 +104,34 @@ class NihiledBy(SkillComponent):
         self._condition = True
 class EventAfterCombat(SkillComponent):
     nid = 'event_after_combat'
-    desc = 'Calls event after any combat'
+    desc = 'calls event after combat'
     tag = SkillTags.ADVANCED
 
     expose = ComponentType.Event
     value = ''
 
-    def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, mode):
-        game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'mode': mode})
+    def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, item2, mode):
+        game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode})
 class FullMiracle(SkillComponent):
     nid = 'full_miracle'
     desc = "Unit will not die after combat, but will instead be resurrected with full hp"
     tag = SkillTags.CUSTOM
 
-    def cleanup_combat(self, playback, unit, item, target, mode):
+    def cleanup_combat(self, playback, unit, item, target, item2, mode):
         if unit.get_hp() <= 0:
             action.do(action.SetHP(unit, unit.get_max_hp()))
             game.death.miracle(unit)
             action.do(action.TriggerCharge(unit, self.skill))
 class LostOnTakeHit(SkillComponent):
     nid = 'lost_on_take_hit'
-    desc = "This skill is lost when receiving an attack"
+    desc = "This skill is lost when receiving an attack (it must hit)"
     tag = SkillTags.CUSTOM
 
     author = 'Lord_Tweed'
 
-    def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info):
-        action.do(action.RemoveSkill(unit, self.skill))
+    def after_take_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
+        if target and skill_system.check_enemy(unit, target) and strike == Strike.HIT:
+            action.do(action.RemoveSkill(unit, self.skill))
 class SavageBlowFates(SkillComponent):
     nid = 'savage_blow_fates'
     desc = 'Deals 20% Current HP damage to enemies within the given number of spaces from target.'
@@ -139,7 +141,7 @@ class SavageBlowFates(SkillComponent):
     value = 0
     author = 'Lord_Tweed'
 
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         if target and skill_system.check_enemy(unit, target):
             r = set(range(self.value+1))
             locations = game.target_system.get_shell({target.position}, r, game.board.bounds)
@@ -174,7 +176,7 @@ class GiveStatusAfterCrit(SkillComponent):
 
     expose = ComponentType.Skill
 
-    def after_strike(self, actions, playback, unit, item, target, mode, attack_info, strike):
+    def after_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
         mark_playbacks = [p for p in playback if p.nid in (
             'mark_crit')]
 
@@ -197,13 +199,13 @@ class UndamagedCondition(SkillComponent):
     def condition(self, unit):
         return not self.skill.data['_has_taken_damage']
 
-    def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info, strike):
+    def after_take_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
         for act in reversed(actions):
             if isinstance(act, action.ChangeHP) and act.num < 0 and act.unit == unit:
                 self._took_damage_this_combat = True
                 break
 
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         if self._took_damage_this_combat:
             action.do(action.SetObjData(self.skill, '_has_taken_damage', True))
         self._took_damage_this_combat = False
@@ -211,19 +213,19 @@ class UndamagedCondition(SkillComponent):
     def on_end_chapter(self, unit, skill):
         self.skill.data['_has_taken_damage'] = False
         self._took_damage_this_combat = False
-class GainSkillAfterCritting(SkillComponent):
-    nid = 'gain_skill_after_crit_attack'
-    desc = "Gives a skill to user after a critical hit"
-    tag = SkillTags.COMBAT2
+class GainSkillAfterCrit(SkillComponent):
+    nid = 'gain_skill_after_crit'
+    desc = "Gives a skill to user after a crit"
+    tag = SkillTags.CUSTOM
 
     expose = ComponentType.Skill
 
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         mark_playbacks = [p for p in playback if p.nid in (
             'mark_crit')]
-        # Unit is overall attacker
-        if any(p.attacker is unit and p.main_attacker is unit for p in mark_playbacks):
-            action.do(action.AddSkill(unit, self.value))
+        if target and any(p.attacker is unit and (p.main_attacker is unit or p.attacker is p.main_attacker.strike_partner)
+                          for p in mark_playbacks):  # Unit is overall attacker
+            action.do(action.AddSkill(unit, self.value, target))
             action.do(action.TriggerCharge(unit, self.skill))
 class LoseSkillAfterAnyAttack(SkillComponent):
     nid = 'lose_skill_after_any_attack'
@@ -232,19 +234,20 @@ class LoseSkillAfterAnyAttack(SkillComponent):
     
     author = 'Lord_Tweed'
 
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         mark_playbacks = [p for p in playback if p.nid in ('mark_miss', 'mark_hit', 'mark_crit')]
         if any(p.attacker is unit for p in mark_playbacks):  # Unit attacked
             action.do(action.RemoveSkill(unit, self.skill))
 class LostOnTakeHit(SkillComponent):
     nid = 'lost_on_take_hit'
-    desc = "This skill is lost when receiving an attack"
+    desc = "This skill is lost when receiving an attack (it must hit)"
     tag = SkillTags.CUSTOM
-    
+
     author = 'Lord_Tweed'
 
-    def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info):
-        action.do(action.RemoveSkill(unit, self.skill))
+    def after_take_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
+        if target and skill_system.check_enemy(unit, target) and strike == Strike.HIT:
+            action.do(action.RemoveSkill(unit, self.skill))
 class GiveStatusOnTakeHit(SkillComponent):
     nid = 'give_status_on_take_hit'
     desc = "When receiving an attack, give a status to the attacker"
@@ -253,7 +256,7 @@ class GiveStatusOnTakeHit(SkillComponent):
     
     expose = ComponentType.Skill
 
-    def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info, strike):
+    def after_take_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
         if target:
             actions.append(action.AddSkill(target, self.value, unit))
             actions.append(action.TriggerCharge(unit, self.skill))
@@ -277,7 +280,7 @@ class SavageStatus(SkillComponent):
         if value:
             self.value.update(value)
 
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         if target and skill_system.check_enemy(unit, target):
             r = set(range(self.value.get('range') + 1))
             locations = game.target_system.get_shell({target.position}, r, game.board.bounds)

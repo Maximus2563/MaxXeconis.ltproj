@@ -321,7 +321,19 @@
     "17_XeconisSal",
     "17_XeconisRetreat",
     "17_TaliaDeath",
-    "N_Intro",
+    "18_Intro",
     "17_Outro",
-    "17_WinCon"
+    "17_WinCon",
+    "18_LoseCon",
+    "18_LoseEmeline",
+    "18_LoseMax",
+    "18_LoseXeconis",
+    "18_LoseSkill",
+    "18_LosePit",
+    "18_Turn2",
+    "18_Turn3",
+    "18_Turn4",
+    "18_Outro",
+    "18_Turn5",
+    "18_Rout"
 ]

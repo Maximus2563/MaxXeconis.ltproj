@@ -11,7 +11,7 @@
             "move_cursor;10,10",
             "flicker_cursor;108",
             "add_portrait;Timothy;Left",
-            "speak;Timothy;That soldier appears to be guarding the gate.|We should be able to progress after defeating him.",
+            "speak;Timothy;That soldier appears to have control of the gate.|We should be able to progress after defeating him.",
             "remove_portrait;Timothy",
             "move_cursor;Sages"
         ]

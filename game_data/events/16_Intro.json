@@ -9,11 +9,10 @@
         "priority": 20,
         "_source": [
             "chapter_title",
-            "add_weather;sunset",
             "change_background;Desert Evening",
+            "add_weather;sunset",
             "music;Skrimir's Pride",
             "multi_add_portrait;Leap;MidRight;Prof;FarRight;Joker;Left",
-            "transition;open",
             "speak;Leap;We're on our way to Monsdor...|They've pillaged our towns, our people...",
             "speak;Joker;I used to be into that business myself.|However, that was a while ago...",
             "speak;Prof;We should probably prepare our things, we're almost at the border.",

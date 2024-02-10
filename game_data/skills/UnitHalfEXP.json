@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "UnitHalfEXP",
+        "name": "UnitHalfEXP",
+        "desc": "",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            0,
+            53
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "exp_multiplier",
+                0.5
+            ]
+        ]
+    }
+]

@@ -60,7 +60,7 @@ class ShoveFlexible(ItemComponent):
 class ShoveFlexibleStops(ItemComponent):
     nid = 'shove_flex_stops'
     desc = "Item shoves target on hit up to X spaces, can be shortened by obstacles"
-    tag = ItemTags.SPECIAL
+    tag = ItemTags.CUSTOM
 
     expose = ComponentType.Int
     value = 1
@@ -89,8 +89,8 @@ class ShoveFlexibleStops(ItemComponent):
             return False
         return ret_position
 
-    def on_hit(self, actions, playback, unit, item, target, target_pos, mode, attack_info):
-        if not skill_system.ignore_forced_movement(target):
+    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+        if target and not skill_system.ignore_forced_movement(target):
             new_position = self._check_shove(target, unit.position, self.value)
             if new_position:
                 actions.append(action.ForcedMovement(target, new_position))
@@ -107,7 +107,7 @@ class GoldCost(ItemComponent):
     def available(self, unit, item) -> bool:
         return game.get_money() >= self.value
 
-    def start_combat(self, playback, unit, item, target, mode):
+    def start_combat(self, playback, unit, item, target, item2, mode):
         action.do(action.GainMoney(game.current_party, -self.value))
 
     def reverse_use(self, unit, item):
@@ -115,7 +115,7 @@ class GoldCost(ItemComponent):
 class Backdash(ItemComponent):
     nid = 'backdash'
     desc = 'Unit shoves *itself* backwards from the target point.'
-    tag = ItemTags.SPECIAL
+    tag = ItemTags.CUSTOM
     author = 'mag'
 
     expose = ComponentType.Int
@@ -127,7 +127,7 @@ class Backdash(ItemComponent):
         offset = utils.tmult(utils.tclamp(utils.tuple_sub(upos, tpos), (-1, -1), (1, 1)), magnitude)
         npos = utils.tuple_add(upos, offset)
 
-        mcost_user = movement_funcs.get_mcost(user, npos)
+        mcost_user = game.movement.get_mcost(user, npos)
         if game.board.check_bounds(npos) and not game.board.get_unit(npos) and \
                 mcost_user <= equations.parser.movement(user):
             return npos
@@ -142,8 +142,8 @@ class Backdash(ItemComponent):
             return True
         return False
 
-    def on_hit(self, actions, playback, unit, item, target, target_pos, mode, attack_info):
-        if not skill_system.ignore_forced_movement(unit):
+    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+        if target and not skill_system.ignore_forced_movement(unit):
             new_position = self._check_dash(target, unit, self.value)
             if new_position:
                 actions.append(action.ForcedMovement(unit, new_position))
@@ -212,89 +212,21 @@ class ShoveOnEndCombatInitiate(ItemComponent):
                         unit_to_move.position[1] + offset_y * magnitude)
 
         mcost = movement_funcs.get_mcost(unit_to_move, new_position)
+        #If we could pass through it if we had movement, allow the action to occur
+        if mcost != 99:
+            mcost = 0
         if game.board.check_bounds(new_position) and \
                 not game.board.get_unit(new_position) and \
                 mcost <= equations.parser.movement(unit_to_move):
             return new_position
         return False
     
-    def end_combat(self, playback, unit, item, target, mode):
-        if not skill_system.ignore_forced_movement(target) and mode and mode == 'attack':
+    def end_combat(self, playback, unit, item, target, item2, mode):
+        if target and not skill_system.ignore_forced_movement(target) and mode and mode == 'attack':
             new_position = self._check_shove(target, unit.position, self.value)
             if new_position:
                 action.do(action.ForcedMovement(target, new_position))
-class Bullrush(ItemComponent):
-    nid = 'bullrush'
-    desc = "Item moves user in a straight line but can't land on obstacles. Provide a list of walkable terrain types"
-    tag = ItemTags.CUSTOM
 
-    expose = (ComponentType.List, ComponentType.Terrain)
-
-    def _specially_traversable(self, unit, pos) -> int:
-        """
-        returns 0 if a square is ordinarily traversable
-        returns 1 if a square is warpable
-        returns 2 if it's not traversable and we shouldn't be able to warp over it
-        """
-        if movement_funcs.check_traversable(unit, pos):
-            return 0
-        elif game.tilemap.get_terrain(pos) in self.value:
-            return 1
-        else:
-            return 2
-
-    def _determine_valid_endpoints(self, unit):
-        """returns dict of {target: endpoint} that can be warped to"""
-        valid_endpoints = {}
-        # down, up, left, right
-        directions = [(0, 1), (0, -1), (-1, 0), (1, 0)]
-        movement = equations.parser.movement(unit)
-        # should be impossible?
-        if not unit.position:
-            return valid_endpoints
-        for delta in directions:
-            current_pos = unit.position
-            targetable_adj_pos = utils.tuple_add(current_pos, delta)[:]
-            if not game.board.check_bounds(targetable_adj_pos): continue # if the neighbor pos doesn't even exist, skip
-            if self._specially_traversable(unit, targetable_adj_pos) != 0: continue # if the neighboring pos isn't a warpable wall, skip
-            while True: # if and only if there's eventually a space we can stop, and we only warp over valid walls in the meantime, this target is ok
-                if delta == (0, 1):
-                    current_pos = utils.tuple_add((current_pos[0], current_pos[1] + (movement - 1)), delta)
-                elif delta == (0, -1):
-                    current_pos = utils.tuple_add((current_pos[0], current_pos[1] - (movement - 1)), delta)
-                elif delta == (-1, 0):
-                    current_pos = utils.tuple_add((current_pos[0] - (movement - 1), current_pos[1]), delta)
-                elif delta == (1, 0):
-                    current_pos = utils.tuple_add((current_pos[0] + (movement - 1), current_pos[1]), delta)
-                if not game.board.check_bounds(current_pos): break # gone off the map, skip
-                status_of_current_square = self._specially_traversable(unit, current_pos)
-                if status_of_current_square == 2: break # crossing over an unwarpable tile, skip
-                elif status_of_current_square == 0: # made it to a standing tile, we're good
-                    valid_endpoints[targetable_adj_pos] = current_pos
-                break
-        return valid_endpoints
-
-    def valid_targets(self, unit, item) -> set:
-        return {pos for pos, _ in self._determine_valid_endpoints(unit).items()}
-
-    #check for target restrict invalid endpoint
-    def target_restrict(self, unit, item, pos, splash) -> bool:
-        possible_endpoints = self._determine_valid_endpoints(unit)
-        endpoint = possible_endpoints.get(pos, None)
-        if unit and endpoint:
-            if movement_funcs.check_traversable(unit, endpoint):
-                return True
-        return False
-
-    def on_hit(self, actions, playback, unit, item, target, target_pos, mode, attack_info):
-        possible_endpoints = self._determine_valid_endpoints(unit)
-        endpoint = possible_endpoints.get(target_pos, None)
-        current_occupant = game.board.get_unit(endpoint)
-        if endpoint:
-            actions.append(action.Swoosh(target, endpoint))
-            if bool(current_occupant) == True:
-                new_pos = target_system.get_nearest_open_tile(current_occupant, endpoint)
-                action.do(action.ForcedMovement(current_occupant, new_pos))
 class MagicWeaponRank(ItemComponent):
     nid = 'magic_weapon_rank'
     desc = "Item is a magic weapon, and has a wrank"
@@ -358,11 +290,11 @@ class ShoveFlexibleOnEndCombatInitiate(ItemComponent):
             return False
         return ret_position
     
-    def end_combat(self, playback, unit, item, target, mode):
-        if not skill_system.ignore_forced_movement(target) and mode and mode == 'attack':
+    def end_combat(self, playback, unit, item, target, item2, mode):
+        if target and not skill_system.ignore_forced_movement(target) and mode and mode == 'attack':
             new_position = self._check_shove(target, unit.position, self.value)
             if new_position:
-                action.do(action.ForcedMovement(target, new_position))         
+                action.do(action.ForcedMovement(target, new_position))        
 class Locked2(ItemComponent):
     nid = 'locked_2'
     desc = 'Item cannot be taken or dropped from a units inventory. However, the trade command can be used to rearrange its position, and event commands can remove the item.'
@@ -373,3 +305,19 @@ class Locked2(ItemComponent):
 
     def unstealable(self, unit, item) -> bool:
         return True
+
+class BuffAlly(ItemComponent):
+    nid = 'buff_ally'
+    desc = "Target gains the specified status on hit. Only use this for staves that target allies."
+    tag = ItemTags.CUSTOM
+
+    expose = ComponentType.Skill  # Nid
+
+    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+        act = action.AddSkill(target, self.value, unit)
+        actions.append(act)
+        playback.append(pb.StatusHit(unit, item, target, self.value))
+
+    def ai_priority(self, unit, item, target, move):
+        # Do I add a new status to the target
+        return ai_status_priority_buff(unit, target, item, move, self.value)

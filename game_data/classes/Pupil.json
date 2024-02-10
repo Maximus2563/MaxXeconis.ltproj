@@ -9,7 +9,7 @@
         "turns_into": [
             "Monk",
             "Priest",
-            "Mage",
+            "MageDark",
             "Shaman"
         ],
         "tags": [],

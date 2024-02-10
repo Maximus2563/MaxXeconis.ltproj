@@ -4,13 +4,13 @@
         "name": "Dark",
         "desc": "A mage in training who has a tendency to take risks.",
         "variant": "Dark",
-        "level": 1,
+        "level": 5,
         "klass": "Pupil",
         "tags": [],
         "bases": {
             "HP": 16,
             "STR": 0,
-            "MAG": 3,
+            "MAG": 4,
             "SKL": 3,
             "SPD": 5,
             "LCK": 4,
@@ -87,12 +87,12 @@
             ],
             "Staff": [
                 false,
-                0,
+                21,
                 251
             ],
             "Light": [
                 false,
-                0,
+                21,
                 251
             ],
             "Anima": [
@@ -102,7 +102,7 @@
             ],
             "Dark": [
                 false,
-                0,
+                21,
                 251
             ],
             "Default": [
