@@ -2,7 +2,7 @@
     {
         "nid": "Blu",
         "name": "Blu",
-        "desc": "",
+        "desc": "A mischevious bandit who slips away with ease.",
         "variant": "Female",
         "level": 7,
         "klass": "Outlaw",
@@ -10,7 +10,7 @@
         "bases": {
             "HP": 22,
             "STR": 9,
-            "MAG": 0,
+            "MAG": 4,
             "SKL": 11,
             "SPD": 10,
             "LCK": 10,

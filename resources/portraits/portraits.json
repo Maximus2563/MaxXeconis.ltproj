@@ -1,366 +1,6 @@
 [
     {
-        "nid": "Eirika",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Seth",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Franz",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Gilliam",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Moulder",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Vanessa",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Garcia",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Ross",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Neimi",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Colm",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Artur",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lute",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Joshua",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Ephraim",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Forde",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Kyle",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Orson",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Innes",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Amelia",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "L'arachel",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Dozla",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Rennac",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Cormag",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Gerik",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Tethys",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Marisa",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Saleh",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Ewan",
-        "blinking_offset": [
-            24,
-            40
-        ],
-        "smiling_offset": [
-            24,
-            56
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Duessel",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Mercenary1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Breguet",
         "blinking_offset": [
             24,
             24
@@ -396,91 +36,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Saar",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Bandit1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Selena",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Valter",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Caellach",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Riev",
-        "blinking_offset": [
-            16,
-            40
-        ],
-        "smiling_offset": [
-            16,
-            56
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Glen",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hayden",
         "blinking_offset": [
             24,
             24
@@ -588,54 +144,6 @@
         "info_offset": 0
     },
     {
-        "nid": "EphraimSepia",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "EirikaSepia",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "VigardeHealthy",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lyon",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Chess",
         "blinking_offset": [
             24,
@@ -669,7 +177,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Bandit2",
@@ -693,7 +201,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Melinda",
@@ -729,7 +237,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Roag",
@@ -849,7 +357,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "Zio",
@@ -861,7 +369,7 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": 5
     },
     {
         "nid": "Sanjay",
@@ -885,7 +393,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "KingSlayer",
@@ -969,7 +477,7 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Esteban",
@@ -981,7 +489,7 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Barnabus",
@@ -1005,7 +513,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "SkillYoung",
@@ -1017,7 +525,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Xeconis",
@@ -1032,18 +540,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Blu",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Nako",
         "blinking_offset": [
             16,
@@ -1053,7 +549,7 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Kana",
@@ -1089,7 +585,7 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Guy",
@@ -1137,7 +633,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "Liz",
@@ -1149,7 +645,7 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Prof",
@@ -1173,7 +669,7 @@
             24,
             46
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Angel",
@@ -1209,7 +705,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Viridia",
@@ -1245,7 +741,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Sunii",
@@ -1281,7 +777,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Nabin",
@@ -1305,7 +801,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Talia",
@@ -1317,7 +813,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Hogarth",
@@ -1365,7 +861,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Sal",
@@ -1377,7 +873,7 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Cacti",
@@ -1389,7 +885,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Cherry",
@@ -1401,7 +897,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "CherryYoung",
@@ -1413,7 +909,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Maxime",
@@ -1437,7 +933,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Sages14",
@@ -1473,7 +969,7 @@
             18,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "XerxesYoung",
@@ -1485,7 +981,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Ignatius",
@@ -1497,7 +993,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "SoldierPurple",
@@ -1701,7 +1197,7 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Emmanuel",
@@ -1725,7 +1221,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Moox",
@@ -1737,7 +1233,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Maurice",
@@ -1761,19 +1257,7 @@
             32,
             48
         ],
-        "info_offset": 0
-    },
-    {
-        "nid": "ShoopFeral",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "EmelinePrincess",
@@ -1797,7 +1281,7 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Speedy",
@@ -1857,7 +1341,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Zashar",
@@ -1884,7 +1368,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Eustace",
+        "nid": "Lucian",
         "blinking_offset": [
             16,
             16
@@ -1917,7 +1401,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Brug",
@@ -1989,7 +1473,7 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Siri",
@@ -2001,7 +1485,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Joker",
@@ -2013,7 +1497,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Hakeem",
@@ -2037,7 +1521,7 @@
             22,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "Bread",
@@ -2049,7 +1533,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Chara",
@@ -2085,7 +1569,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "MaxYoung",
@@ -2121,7 +1605,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "LeapAlt",
@@ -2133,7 +1617,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "Snow",
@@ -2145,7 +1629,7 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "Eff",
@@ -2169,7 +1653,7 @@
             18,
             48
         ],
-        "info_offset": 0
+        "info_offset": 3
     },
     {
         "nid": "Skill",
@@ -2217,7 +1701,7 @@
             22,
             40
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Frost",
@@ -2229,7 +1713,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 1
     },
     {
         "nid": "Naz",
@@ -2253,7 +1737,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 2
     },
     {
         "nid": "Argento",
@@ -2266,5 +1750,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Blu",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 4
     }
 ]
