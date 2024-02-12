@@ -15,8 +15,8 @@
             "boss_battle": "Rage in the Light"
         },
         "objective": {
-            "simple": "Defeat bosses",
-            "win": "Defeat bosses",
+            "simple": "Defeat Bosses",
+            "win": "Defeat Bosses",
             "loss": "Leap or Ahmari die"
         },
         "roam": false,

@@ -8,8 +8,8 @@
         "klass": "Outlaw",
         "tags": [],
         "bases": {
-            "HP": 22,
-            "STR": 9,
+            "HP": 23,
+            "STR": 8,
             "MAG": 4,
             "SKL": 11,
             "SPD": 10,
@@ -45,7 +45,15 @@
         },
         "starting_items": [
             [
+                "Killer Bow",
+                false
+            ],
+            [
                 "Short Bow",
+                false
+            ],
+            [
+                "Lockpick",
                 false
             ]
         ],

@@ -6,13 +6,13 @@
         "bg_tilemap": null,
         "party": "SalGroup",
         "music": {
-            "player_phase": "Dusk Falls",
-            "enemy_phase": "Dusk Falls",
-            "player_battle": "Dusk Falls",
-            "enemy_battle": "Dusk Falls",
+            "player_phase": "Dark Wastes",
+            "enemy_phase": "Dark Wastes",
+            "player_battle": "Dark Wastes",
+            "enemy_battle": "Dark Wastes",
             "boss_battle": "024 - Battle Of Pride",
-            "other_phase": "Dusk Falls",
-            "other_battle": "Dusk Falls"
+            "other_phase": "Dark Wastes",
+            "other_battle": "Dark Wastes"
         },
         "objective": {
             "simple": "Defend Timothy",

@@ -6,13 +6,13 @@
         "bg_tilemap": null,
         "party": "MaxGroup",
         "music": {
-            "player_phase": "Dark Traveler",
-            "enemy_phase": "Dark Traveler",
-            "player_battle": "Dark Traveler",
-            "enemy_battle": "Dark Traveler",
+            "player_phase": "Change_of_Scenery",
+            "enemy_phase": "Change_of_Scenery",
+            "player_battle": "Change_of_Scenery",
+            "enemy_battle": "Change_of_Scenery",
             "enemy2_phase": null,
-            "other_battle": "Dark Traveler",
-            "other_phase": "Dark Traveler"
+            "other_battle": "Change_of_Scenery",
+            "other_phase": "Change_of_Scenery"
         },
         "objective": {
             "simple": "Defeat enemy,Left ???",
@@ -77,7 +77,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 8,
+                "level": 9,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -125,7 +125,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 10,
+                "level": 11,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -215,7 +215,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 8,
+                "level": 9,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -278,7 +278,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -479,7 +479,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -500,7 +500,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 8,
+                "level": 9,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -521,7 +521,7 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Wolf",
                 "faction": "Feral",
                 "starting_items": [
@@ -552,7 +552,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 11,
+                "level": 8,
                 "klass": "Merc",
                 "faction": "Guard",
                 "starting_items": [
@@ -573,7 +573,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 11,
+                "level": 8,
                 "klass": "Soldier",
                 "faction": "Guard",
                 "starting_items": [
@@ -757,6 +757,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

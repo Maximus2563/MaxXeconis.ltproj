@@ -124,6 +124,35 @@
         "alternate_classes": [],
         "portrait_nid": "Skill",
         "affinity": "Dark",
-        "fields": []
+        "fields": [
+            [
+                "HighLevelUpQuote",
+                "It's only natural."
+            ],
+            [
+                "MidLevelUpQuote",
+                "I guess this is acceptable."
+            ],
+            [
+                "LowLevelUpQuote",
+                "*Sigh* I'll try harder next time."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "I need a drink..."
+            ],
+            [
+                "MaxStatQuote",
+                "I'm one of Aurelia's finest."
+            ],
+            [
+                "DeathQuote",
+                "Urgh... Your Majesty..."
+            ],
+            [
+                "EscapeQuote",
+                "I'll clear the path ahead."
+            ]
+        ]
     }
 ]

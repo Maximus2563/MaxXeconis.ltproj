@@ -6,10 +6,10 @@
         "bg_tilemap": null,
         "party": "SalGroup",
         "music": {
-            "player_phase": "No Justice",
-            "enemy_phase": "No Justice",
-            "player_battle": "No Justice",
-            "enemy_battle": "No Justice",
+            "player_phase": "Dark Wastes",
+            "enemy_phase": "Dark Wastes",
+            "player_battle": "Dark Wastes",
+            "enemy_battle": "Dark Wastes",
             "boss_battle": "43 Squirm in the Dark"
         },
         "objective": {

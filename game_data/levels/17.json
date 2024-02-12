@@ -5,11 +5,19 @@
         "tilemap": "Ch17",
         "bg_tilemap": null,
         "party": "SalGroup",
-        "music": {},
+        "music": {
+            "player_phase": "No Justice",
+            "enemy_phase": "No Justice",
+            "other_phase": "No Justice",
+            "player_battle": "No Justice",
+            "enemy_battle": "No Justice",
+            "other_battle": "No Justice",
+            "boss_battle": "A Mighty Foe"
+        },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Defeat Talia",
+            "win": "Defeat Boss",
+            "loss": "Sages dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -681,7 +689,7 @@
             {
                 "nid": "Timothy",
                 "team": "other",
-                "ai": "HealGuard",
+                "ai": "HealDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1120,6 +1128,10 @@
             },
             {
                 "nid": "C",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

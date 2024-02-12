@@ -7,17 +7,17 @@
         "party": "LeapGroup",
         "music": {
             "boss_battle": "50 Wild Outlaw",
-            "player_phase": "Dark Wastes",
-            "enemy_phase": "Dark Wastes",
-            "other_phase": "Dark Wastes",
-            "player_battle": "Dark Wastes",
-            "enemy_battle": "Dark Wastes",
-            "other_battle": "Dark Wastes"
+            "player_phase": "Dusk Falls",
+            "enemy_phase": "Dusk Falls",
+            "other_phase": "Dusk Falls",
+            "player_battle": "Dusk Falls",
+            "enemy_battle": "Dusk Falls",
+            "other_battle": "Dusk Falls"
         },
         "objective": {
             "simple": "Deliver Wagons",
             "win": "Deliver Wagons",
-            "loss": "Leap, Prof die, All Wagons die"
+            "loss": "Leap or Prof die, All Wagons die"
         },
         "roam": false,
         "roam_unit": null,

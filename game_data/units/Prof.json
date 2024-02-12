@@ -2,7 +2,7 @@
     {
         "nid": "Prof",
         "name": "Prof",
-        "desc": "A teacher of his towns children.",
+        "desc": "A teacher and son of a mayor in a Grahment town.",
         "variant": "",
         "level": 7,
         "klass": "KnightB",

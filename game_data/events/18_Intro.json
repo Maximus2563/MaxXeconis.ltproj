@@ -110,7 +110,7 @@
             "speak;Pit;They're out there in the fog...",
             "speak;Skill;Bah! I hate fog!",
             "speak;Emeline;No complaining, go!",
-            "give_skill;Skill;UnitHalfEXP",
+            "give_skill;Skill;UnitHalfEXP;;no_banner",
             "add_item_component;Skill;Silver Sword;locked_2",
             "add_item_component;Max;Steel Sword;locked_2",
             "add_item_component;Max;Elthunder;locked_2",
