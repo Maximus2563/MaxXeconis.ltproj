@@ -1039,6 +1039,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "GuyEscape",
+                "region_type": "event",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.nid == 'Guy' and game.get_unit('Guy').team == 'other'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

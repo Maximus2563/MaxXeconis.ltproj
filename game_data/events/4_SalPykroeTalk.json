@@ -63,6 +63,8 @@
             "change_team;Hyper;player",
             "change_ai;Hyper;None",
             "add_talk;Sal;Hyper",
+            "add_talk;Hyper;Sal",
+            "add_talk;Guy;Sal",
             "add_talk;Sal;Guy",
             "music_fade_back",
             "remove_talk;Sal;Pykroe",

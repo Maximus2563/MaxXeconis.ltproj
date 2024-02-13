@@ -1,0 +1,18 @@
+[
+    {
+        "name": "PykroeDeath",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Pykroe' and game.get_unit('Pykroe').team == 'other'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Pykroe;Right",
+            "speak;Pykroe;Gang... Urgh...",
+            "expression;Pykroe;CloseEyes",
+            "remove_portrait;Pykroe",
+            "add_talk;Sal;Hyper"
+        ]
+    }
+]

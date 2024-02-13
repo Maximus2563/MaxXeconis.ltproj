@@ -1,0 +1,18 @@
+[
+    {
+        "name": "GuyEscape",
+        "trigger": "Escape",
+        "level_nid": "4",
+        "condition": "region.nid == 'GuyEscape'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Guy;Left",
+            "speak;Guy;I'm so done with this...",
+            "remove_portrait;Guy",
+            "remove_unit;Guy;fade;north",
+            "kill_unit;Guy;no_warn"
+        ]
+    }
+]

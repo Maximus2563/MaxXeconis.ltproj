@@ -1,0 +1,17 @@
+[
+    {
+        "name": "GuyFlee",
+        "trigger": "other_turn_change",
+        "level_nid": "4",
+        "condition": "game.check_dead('Pykroe') and game.check_dead('Hyper') and game.get_unit('Guy').team == 'other'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Guy;Left",
+            "speak;Guy;You two... left me all alone...|I don't want to die here too...",
+            "remove_portrait;Guy",
+            "change_ai;Guy;HumphreyEscape"
+        ]
+    }
+]

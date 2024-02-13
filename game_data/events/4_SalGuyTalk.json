@@ -3,7 +3,7 @@
         "name": "SalGuyTalk",
         "trigger": "on_talk",
         "level_nid": "4",
-        "condition": "check_pair('Sal', 'Guy')",
+        "condition": "check_pair('Sal', 'Guy') and game.get_unit('Guy').team == 'player'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -34,11 +34,12 @@
             "speak;Sal;I'm so sorry... Your friends...",
             "speak;Guy;...",
             "speak;Sal;If I can do anything...",
-            "speak;Guy;I doubt it...|But, I guess I have to stay with you... Or else I have nobody.",
+            "speak;Guy;I doubt it...",
             "speak;Sal;...",
             "end",
             "multi_remove_portrait;Sal;Guy",
-            "remove_talk;Sal;Guy"
+            "remove_talk;Sal;Guy",
+            "remove_talk;Guy;Sal"
         ]
     }
 ]

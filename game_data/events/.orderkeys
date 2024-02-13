@@ -85,6 +85,8 @@
     "4_SalPykroeTalkNPC",
     "4_SalGuyTalk",
     "4_SalHyperTalk",
+    "4_SalHyperTalkOther",
+    "4_HyperGuyTalkOther",
     "global_Analysis",
     "global_RageRemove",
     "global_BloodRemove",
@@ -334,5 +336,9 @@
     "18_Turn4",
     "18_Outro",
     "18_Turn5",
-    "18_Rout"
+    "18_Rout",
+    "17_XeconisSal",
+    "4_PykroeDeath",
+    "4_GuyFlee",
+    "4_GuyEscape"
 ]

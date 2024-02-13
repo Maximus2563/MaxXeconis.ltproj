@@ -3,7 +3,7 @@
         "name": "SalHyperTalk",
         "trigger": "on_talk",
         "level_nid": "4",
-        "condition": "check_pair('Sal', 'Hyper')",
+        "condition": "check_pair('Sal', 'Hyper') and game.get_unit('Hyper').team == 'player'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -13,7 +13,7 @@
             "speak;Hyper;Hello new boss!|I see you fight with the sword too!|Oh! Hyper is my name!",
             "speak;Sal;Sure do, Hyper. Believe me, you don't become a commander without the skill.",
             "speak;Hyper;Spar with me!|I must test my swordcraft against a greater opponent!",
-            "speak;Sal;How about you stick to fighting the enmies?|I'll consider it later.",
+            "speak;Sal;How about you stick to fighting the enemies?|I'll consider it later.",
             "speak;Hyper;Aw...|Alright, hyah!",
             "elif;game.check_alive('Pykroe') and game.check_dead('Guy')",
             "speak;Sal;I'm so sorry... Your friend...",
@@ -34,11 +34,12 @@
             "speak;Sal;I'm so sorry... Your crew...",
             "speak;Hyper;I am... too weak...|I couldn't stop it...",
             "speak;Sal;Our enemies are strong, if there's anything I can do to help...",
-            "speak;Hyper;I might be too weak...|But... Please, massacre them all... ALL OF THEM!|I want to see... THEIR BLOOD SPILLED!|AAAAAAAAARGH!",
+            "speak;Hyper;I might be too weak...|But... Please, massacre them all... ALL OF THEM!|I have to right these wrongs, AAARGH!",
             "speak;Sal;...",
             "end",
             "multi_remove_portrait;Sal;Hyper",
-            "remove_talk;Sal;Hyper"
+            "remove_talk;Sal;Hyper",
+            "remove_talk;Hyper;Sal"
         ]
     }
 ]
