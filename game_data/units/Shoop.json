@@ -9,7 +9,7 @@
         "tags": [],
         "bases": {
             "HP": 17,
-            "STR": 2,
+            "STR": 3,
             "MAG": 8,
             "SKL": 5,
             "SPD": 6,
@@ -156,7 +156,7 @@
             ],
             [
                 "PromoQuote",
-                "New ways to kill... Kehahaha!"
+                "Gyahaha! I'm gonna kill ya! Kidding! Or am I?"
             ],
             [
                 "MaxStatQuote",

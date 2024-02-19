@@ -5,7 +5,7 @@
         "level_nid": "9",
         "condition": "region.nid == 'Inn'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "transition;Close",
@@ -26,7 +26,8 @@
             "add_unit;Siri;10,4;fade;stack;fade",
             "move_unit;Siri;10,5;normal;closest;no_follow",
             "change_team;Siri;player",
-            "reset;Siri"
+            "reset;Siri",
+            "remove_region;Inn"
         ]
     }
 ]

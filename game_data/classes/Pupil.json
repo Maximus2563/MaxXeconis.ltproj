@@ -3,7 +3,7 @@
         "nid": "Pupil",
         "name": "Pupil",
         "desc": "Curious practioners of anima magic.",
-        "tier": 1,
+        "tier": 0,
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [

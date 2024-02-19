@@ -2,7 +2,7 @@
     {
         "nid": "Opportunist",
         "name": "Opportunist",
-        "desc": "Grants +5 ATK if unit attacks an enemy who cannot counterattack.",
+        "desc": "Grants +4 ATK if unit attacks an enemy who cannot counterattack.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "dynamic_damage",
-                "5 if not combat_calcs.can_counterattack(unit, unit.get_weapon(), target, target.get_weapon()) else 0"
+                "4 if not combat_calcs.can_counterattack(unit, unit.get_weapon(), target, target.get_weapon()) else 0"
             ]
         ]
     }

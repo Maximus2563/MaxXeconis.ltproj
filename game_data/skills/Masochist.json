@@ -2,7 +2,7 @@
     {
         "nid": "Masochist",
         "name": "Masochist",
-        "desc": "Grants ATK+3 and crit+10 for 1 turn when damaged.",
+        "desc": "Grants ATK+3 and Crit+10 for 1 turn when damaged.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             3,

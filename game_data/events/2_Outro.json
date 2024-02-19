@@ -25,7 +25,7 @@
             "transition;Close",
             "change_background;Village 1 Daytime",
             "transition;Open",
-            "location_card;Theowa, Aurelia",
+            "location_card;Gildon, Aurelia",
             "if;game.check_alive('Roag') and game.check_alive('Nako')",
             "multi_add_portrait;Sal;MidLeft;Roag;Left;Nako;FarLeft",
             "elif;game.check_dead('Roag')and game.check_alive('Nako')",

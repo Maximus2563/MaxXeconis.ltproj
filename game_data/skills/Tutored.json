@@ -2,7 +2,7 @@
     {
         "nid": "Tutored",
         "name": "Tutored",
-        "desc": "Grants x1.5 exp and weapon exp earned.",
+        "desc": "Grants x1.5 Exp and WExp earned.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,

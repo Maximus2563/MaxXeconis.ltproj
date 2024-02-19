@@ -9,13 +9,13 @@
         "tags": [],
         "bases": {
             "HP": 28,
-            "STR": 9,
+            "STR": 10,
             "MAG": 0,
             "SKL": 17,
             "SPD": 15,
             "LCK": 10,
-            "DEF": 6,
-            "RES": 9,
+            "DEF": 7,
+            "RES": 5,
             "CON": 8,
             "MOV": 6
         },
@@ -58,7 +58,16 @@
             ]
         ],
         "learned_skills": [],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Animals,Alcohol"
+            ],
+            [
+                "Dislikes:",
+                "Useless employers"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

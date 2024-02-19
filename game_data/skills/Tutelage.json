@@ -2,7 +2,7 @@
     {
         "nid": "Tutelage",
         "name": "Tutelage",
-        "desc": " x1.5 exp and weapon exp earned by adjacent allies.",
+        "desc": " x1.5 Exp and WExp earned by adjacent allies.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,

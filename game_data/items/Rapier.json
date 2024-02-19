@@ -2,7 +2,7 @@
     {
         "nid": "Rapier",
         "name": "Rapier",
-        "desc": "Effective against horseback and armored units.\nCan be used by Lords, obviously, regardless of wexp.",
+        "desc": "Effective against horseback and armored units.\nCan be used by Lords.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -63,10 +63,6 @@
                 ]
             ],
             [
-                "weapon_type_exempt",
-                "Sword"
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -77,6 +73,14 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
             ]
         ]
     }

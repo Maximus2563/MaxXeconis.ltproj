@@ -3,7 +3,7 @@
         "name": "XeconisFight",
         "trigger": "combat_start",
         "level_nid": "17",
-        "condition": "(unit.nid == \"XeconisCH17\" and unit2.team == 'player') or (unit2.nid == \"XeconisCH17\" and unit.team == 'player')",
+        "condition": "check_default('XeconisCH17','Sal')",
         "commands": [],
         "only_once": true,
         "priority": 20,

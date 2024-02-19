@@ -5,7 +5,7 @@
         "desc": "If unit is healed by an ally, ally restores 50% of amount healed.",
         "icon_nid": "Skills (1)",
         "icon_index": [
-            3,
+            2,
             11
         ],
         "components": [

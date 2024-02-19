@@ -25,8 +25,7 @@
             "speak;Prof;Thank you, father.",
             "multi_remove_portrait;Prof;Dean",
             "give_item;Prof;Elixir",
-            "remove_talk;Prof;Dean",
-            "music_fade_back"
+            "remove_talk;Prof;Dean"
         ]
     }
 ]

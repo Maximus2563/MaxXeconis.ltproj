@@ -3,7 +3,7 @@
         "nid": "Tobi",
         "name": "Tobi",
         "desc": "A master thief who is known as the 'Blue Burglar'.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Trickster",
         "tags": [],

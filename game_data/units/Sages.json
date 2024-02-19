@@ -2,7 +2,7 @@
     {
         "nid": "Sages",
         "name": "Sages",
-        "desc": "The 15th Sages of Arcei. A free spirit who cares not for noble discourse.",
+        "desc": "Son of Arcein King Sages the 14th. \nA free spirit who cares not for noble discourse.",
         "variant": "",
         "level": 5,
         "klass": "SagesLord",
@@ -63,10 +63,6 @@
             [
                 1,
                 "NobleCharm"
-            ],
-            [
-                1,
-                "NobleCharmSword"
             ]
         ],
         "unit_notes": [

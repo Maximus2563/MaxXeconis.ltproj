@@ -2,17 +2,16 @@ from __future__ import annotations
 
 from app.data.database.components import ComponentType
 from app.data.database.database import DB
-from app.data.database.difficulty_modes import RNGOption
 from app.data.database.item_components import ItemComponent, ItemTags
 from app.engine import (action, banner, combat_calcs, engine, equations,
                         image_mods, item_funcs, item_system, skill_system,
                         target_system)
-from app.utilities import (static_random)
 from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
+from app.utilities import utils, static_random
+from app.data.database.difficulty_modes import RNGOption
 from app.engine.combat import playback as pb
 from app.engine.movement import movement_funcs
-from app.utilities import utils
 import logging
 
 
@@ -179,7 +178,7 @@ class BlastAOE(ItemComponent):
 
     def splash_positions(self, unit, item, position) -> set:
         ranges = set(range(self._get_power(unit)))
-        splash = target_system.find_manhattan_spheres(ranges, position[0], position[1])
+        splash = game.target_system.find_manhattan_spheres(ranges, position[0], position[1])
         splash = {pos for pos in splash if game.tilemap.check_bounds(pos)}
         return splash
                 
@@ -190,7 +189,7 @@ class RallyBlastAOE(BlastAOE, ItemComponent):
 
     def splash(self, unit, item, position) -> tuple:
         ranges = set(range(self._get_power(unit)))
-        splash = target_system.find_manhattan_spheres(ranges, position[0], position[1])
+        splash = game.target_system.find_manhattan_spheres(ranges, position[0], position[1])
         splash = {pos for pos in splash if game.tilemap.check_bounds(pos)}
         from app.engine import skill_system
         splash = [game.board.get_unit(s) for s in splash]
@@ -306,6 +305,19 @@ class Locked2(ItemComponent):
     def unstealable(self, unit, item) -> bool:
         return True
 
+def ai_status_priority_buff(unit, target, item, move, status_nid) -> float:
+    if target and status_nid not in [skill.nid for skill in target.skills]:
+        accuracy_term = utils.clamp(combat_calcs.compute_hit(unit, target, item, target.get_weapon(), "attack", (0, 0))/100., 0, 1)
+        num_attacks = combat_calcs.outspeed(unit, target, item, target.get_weapon(), "attack", (0, 0))
+        accuracy_term *= num_attacks
+        # Tries to maximize distance from target
+        distance_term = 0.01 * utils.calculate_distance(move, target.position)
+        if skill_system.check_enemy(unit, target):
+            return -0.5 * accuracy_term + distance_term
+        else:
+            return 0.5 * accuracy_term
+    return 0
+    
 class BuffAlly(ItemComponent):
     nid = 'buff_ally'
     desc = "Target gains the specified status on hit. Only use this for staves that target allies."

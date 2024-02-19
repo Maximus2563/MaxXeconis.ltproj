@@ -8,7 +8,7 @@
         "klass": "Mage Knight",
         "tags": [],
         "bases": {
-            "HP": 30,
+            "HP": 29,
             "STR": 12,
             "MAG": 13,
             "SKL": 14,

@@ -29,10 +29,6 @@
                 }
             ],
             [
-                "status_on_hit",
-                "RallySklChild"
-            ],
-            [
                 "map_hit_sfx",
                 "Rally"
             ],
@@ -55,6 +51,10 @@
             [
                 "rally_blast_aoe",
                 2
+            ],
+            [
+                "buff_ally",
+                "RallySklChild"
             ]
         ]
     }

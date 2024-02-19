@@ -5532,34 +5532,6 @@
                             4
                         ]
                     ],
-                    "6,3": [
-                        "SageCastle",
-                        [
-                            6,
-                            3
-                        ]
-                    ],
-                    "5,3": [
-                        "SageCastle",
-                        [
-                            5,
-                            3
-                        ]
-                    ],
-                    "2,3": [
-                        "SageCastle",
-                        [
-                            2,
-                            3
-                        ]
-                    ],
-                    "0,2": [
-                        "SageCastle",
-                        [
-                            0,
-                            2
-                        ]
-                    ],
                     "5,6": [
                         "SageCastle",
                         [
@@ -5977,7 +5949,7 @@
             },
             {
                 "nid": "door",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "3,14": "6",

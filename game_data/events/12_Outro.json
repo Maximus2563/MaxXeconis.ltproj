@@ -57,8 +57,6 @@
             "speak;Sages;Thank you, Angel.",
             "speak;Angel;Not used to hearing thanks from some fancy flop noble...|But, I'll do whatever.",
             "transition;close",
-            "else",
-            "kill_unit;Angel;no_warn",
             "end",
             "if;game.turncount < 10",
             "give_bexp;150",

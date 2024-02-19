@@ -2,7 +2,7 @@
     {
         "nid": "Desperation",
         "name": "Desperation",
-        "desc": "Unit follow-ups before foe can counter if initiating at HP<50%.",
+        "desc": "If initiating at HP<50%, unit's follow-ups occur before foe can counter.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             1,

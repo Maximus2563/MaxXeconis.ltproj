@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "19",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "music;Lord Chief Justice Stronghart ~ Time-Keeper of the Law",
+            "change_background;Inside House 2 Daytime",
+            "multi_add_portrait;Emeline;Left;Cornelius;Right",
+            "speak;Emeline;We recovered the funds.|Turns out a scoundrel in the church colluded with them!",
+            "speak;Cornelius;That would be Isaac.|What a repugnant sinner.",
+            "speak;Emeline;Now, Father.|What did you wish to speak about?",
+            "speak;Cornelius;Ah, yes.|I believe that Archbishop Jeremiah is...|To put it bluntly, unsuitable.",
+            "speak;Emeline;What? What has he done?",
+            "speak;Cornelius;The man is a former mercenary and gambling addict.",
+            "speak;Emeline;Father, I don't believe we should judge-",
+            "speak;Cornelius;There is more. He has a major alcohol problem.|Several dozen bottles of rum recovered from his office, empty.",
+            "speak;Emeline;How terrible...",
+            "speak;Cornelius;Frankly, he is too enamored with worldly pleasures.|One with cardinal virtue... such as myself.",
+            "speak;Emeline;You, Father?|I suppose that makes sense...|You have given me great aid with the divine...|It's settled, I'll tell the news to the Archbishop.",
+            "speak;Cornelius;Wonderful, though we must rehabilitate the poor soul...",
+            "speak;Emeline;Of course, he will need a temporary absence.",
+            "speak;Cornelius;Thank you, your Majesty.|I will not shirk my responsibility and use my power for the Goddess's benefit!|Now, how were the little ones?",
+            "if;game.check_dead('Dark') and game.check_dead('Lumii') and game.check_dead('Howai')",
+            "speak;Emeline;None of them made it...|I feel so... *Sniff*",
+            "speak;Cornelius;How cruel indeed...|I should have known better than to listen to the rugrats...|Though remember, stay strong of heart, your Majesty.",
+            "speak;Emeline;Of course...",
+            "elif;game.check_dead('Dark') or game.check_dead('Lumii') or game.check_dead('Howai')",
+            "speak;Emeline;Not all of them made it...|I feel so... *Sniff*",
+            "speak;Cornelius;How cruel indeed...|I should have known better than to listen to the rugrats...|Though remember, stay strong of heart, your Majesty.",
+            "speak;Emeline;Of course...",
+            "else",
+            "speak;Emeline;They did well! I was surprised at their magical talent!",
+            "speak;Cornelius;A reflection of the orphanage's teachings.|How marvellous that they flourished under the Goddess's guidance!",
+            "end"
+        ]
+    }
+]

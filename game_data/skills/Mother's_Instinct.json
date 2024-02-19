@@ -2,7 +2,7 @@
     {
         "nid": "Mother's Instinct",
         "name": "Mother's Instinct",
-        "desc": "Enemies within 4 spaces deal 2 less damage.",
+        "desc": "Allies within 4 spaces receive 2 less damage.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             0,

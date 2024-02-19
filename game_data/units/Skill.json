@@ -8,13 +8,13 @@
         "klass": "Paladin",
         "tags": [],
         "bases": {
-            "HP": 44,
+            "HP": 40,
             "STR": 19,
             "MAG": 7,
             "SKL": 16,
             "SPD": 13,
             "LCK": 2,
-            "DEF": 16,
+            "DEF": 15,
             "RES": 9,
             "CON": 12,
             "MOV": 8

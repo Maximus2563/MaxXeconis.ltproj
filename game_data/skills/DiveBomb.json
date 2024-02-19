@@ -2,7 +2,7 @@
     {
         "nid": "DiveBomb",
         "name": "Dive Bomb",
-        "desc": "Unit follow-ups before foe can counter if initiating and foe's HP = 100%",
+        "desc": "If initiating and foe's HP = 100%, unit's follow-ups occur before foe can counter.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             6,

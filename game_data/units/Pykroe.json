@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Slim Lance",
+                "Kismet",
                 false
             ],
             [
@@ -57,10 +57,6 @@
             [
                 1,
                 "FortuneShare"
-            ],
-            [
-                1,
-                "Lucktaker"
             ]
         ],
         "unit_notes": [

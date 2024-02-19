@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Left;Sal",
+            "add_portrait;Sal;Left",
             "speak;Sal;Seems they're giving up! Good work team!",
             "remove_portrait;Sal",
             "win_game"

@@ -2,7 +2,7 @@
     {
         "nid": "MasochistChild",
         "name": "Stimulated",
-        "desc": "Grants ATK+3 and crit+10 for 1 turn.",
+        "desc": "Grants ATK+3 and Crit+10 for 1 turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             3,

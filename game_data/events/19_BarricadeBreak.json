@@ -1,0 +1,14 @@
+[
+    {
+        "name": "BarricadeBreak",
+        "trigger": "unit_death",
+        "level_nid": "19",
+        "condition": "unit.nid == 'Barricade'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_layer;barricade;fade"
+        ]
+    }
+]

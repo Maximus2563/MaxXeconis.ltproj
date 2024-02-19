@@ -3,7 +3,7 @@
         "name": "MaxFight",
         "trigger": "combat_start",
         "level_nid": "17",
-        "condition": "(unit.nid == \"MaxCH17\" and unit2.team == 'player') or (unit2.nid == \"MaxCH17\" and unit.team == 'player')",
+        "condition": "check_default('MaxCH17','Sal')",
         "commands": [],
         "only_once": true,
         "priority": 20,

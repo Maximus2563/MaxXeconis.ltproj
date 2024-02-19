@@ -2,7 +2,7 @@
     {
         "nid": "Choleric",
         "name": "Choleric",
-        "desc": "Grants +5 Crit for every ally within 2 spaces (max +20).",
+        "desc": "Grants Crit+5 for every ally within 2 spaces (max +20).",
         "icon_nid": "Skills (1)",
         "icon_index": [
             2,

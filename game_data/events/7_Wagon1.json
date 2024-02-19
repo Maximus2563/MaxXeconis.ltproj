@@ -12,9 +12,7 @@
             "level_var;Wagon1Arrive;True",
             "if;not any(unit.team == 'other' for unit in game.units if unit.position)",
             "win_game",
-            "end",
-            "",
-            ""
+            "end"
         ]
     }
 ]

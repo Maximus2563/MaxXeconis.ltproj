@@ -13,9 +13,7 @@
             "sound;CyclopsCrit",
             "remove_portrait;Zashar",
             "add_unit;ZasharCyclops;Zashar;fade;stack;fade",
-            "has_finished;ZasharCyclops",
-            "",
-            ""
+            "has_finished;ZasharCyclops"
         ]
     }
 ]

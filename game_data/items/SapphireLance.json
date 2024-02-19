@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "SapphireLance",
+        "name": "Sapphire Lance",
+        "desc": "Doubles weapon triangle effects.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
+        "icon_index": [
+            17,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                660
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "double_triangle",
+                null
+            ]
+        ]
+    }
+]

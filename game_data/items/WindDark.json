@@ -46,17 +46,6 @@
                 2
             ],
             [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],

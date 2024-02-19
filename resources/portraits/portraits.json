@@ -720,18 +720,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Javi",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Aspl",
         "blinking_offset": [
             24,
@@ -1248,7 +1236,7 @@
         "info_offset": 0
     },
     {
-        "nid": "MaroOther",
+        "nid": "Maro",
         "blinking_offset": [
             32,
             32
@@ -1762,5 +1750,29 @@
             48
         ],
         "info_offset": 4
+    },
+    {
+        "nid": "Javi",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Isaac",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

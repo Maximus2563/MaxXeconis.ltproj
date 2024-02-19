@@ -60,7 +60,7 @@
             "speak;Hogarth;Clear?",
             "speak;Nabin;As crystal.",
             "remove_portrait;Hogarth",
-            "speak;Nabin;Oh... whatever should I do...|Only my blade can spell the answer...",
+            "speak;Nabin;Only my blade's winds can dispell my doubts of the intruder...;;;;;red",
             "remove_portrait;Nabin",
             "move_unit;Hogarth;2,0",
             "remove_unit;Hogarth;fade;north",

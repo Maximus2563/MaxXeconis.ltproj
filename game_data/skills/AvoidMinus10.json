@@ -2,17 +2,13 @@
     {
         "nid": "AvoidMinus10",
         "name": "Avoid -10",
-        "desc": "Inflicts -10 Avoid.",
+        "desc": "Inflicts Avoid -10.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             1,
             26
         ],
         "components": [
-            [
-                "class_skill",
-                null
-            ],
             [
                 "avoid",
                 -10

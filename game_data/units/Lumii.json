@@ -47,17 +47,30 @@
             [
                 "Lightning",
                 false
+            ],
+            [
+                "Vulnerary",
+                false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Opportunist"
+            ],
+            [
+                1,
+                "Discipline"
+            ]
+        ],
         "unit_notes": [
             [
                 "Likes:",
-                "New Value"
+                "Cute accessories"
             ],
             [
                 "Dislikes:",
-                "New Value"
+                "Bandits"
             ]
         ],
         "wexp_gain": {

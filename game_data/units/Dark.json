@@ -63,7 +63,16 @@
                 "SpellStudent"
             ]
         ],
-        "unit_notes": [],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Reading,Cool tricks"
+            ],
+            [
+                "Dislikes:",
+                "Setbacks"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -120,10 +129,6 @@
                 "I can't... do it..."
             ],
             [
-                "RetreatQuote",
-                "Yay! I made it guys!"
-            ],
-            [
                 "PromoQuote",
                 "I'll be the best there is!"
             ],
@@ -137,11 +142,11 @@
             ],
             [
                 "LowLevelUpQuote",
-                "I want more! I can't wait!"
+                "This is awful! Hmph."
             ],
             [
                 "WorstLevelUpQuote",
-                "Aw... Why am I no good at anything?"
+                "Why am I no good at anything?"
             ],
             [
                 "MaxStatQuote",

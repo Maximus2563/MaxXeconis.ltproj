@@ -25,7 +25,7 @@
             "speak;Cacti;Please do settle in, though.|It might be a while...",
             "speak;Sages;Appreciate it, I'll sure try.",
             "multi_remove_portrait;Sages;Cacti",
-            "if;game.check_alive('Angel') and game.check_alive('Boey')and game.check_alive('Roag')",
+            "if;game.check_alive('Angel') and game.check_alive('Boey')and game.check_alive('Roag') and game.get_unit('Boey').team == 'player' and game.get_unit('Angel').team == 'player'",
             "add_base_convo;A Gangs Mutiny",
             "end",
             "if;game.check_alive('Frost')",

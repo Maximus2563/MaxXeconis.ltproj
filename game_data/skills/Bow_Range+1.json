@@ -20,6 +20,10 @@
             [
                 "dynamic_accuracy",
                 "-20 if utils.calculate_distance(unit.position, target.position) > unit.get_weapon().max_range.value else 0"
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
             ]
         ]
     }

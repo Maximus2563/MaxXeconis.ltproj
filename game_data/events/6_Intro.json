@@ -15,7 +15,7 @@
             "transition;Open",
             "music;72 The Wistful Wilds",
             "multi_add_portrait;Sal;MidLeft;Sages;FarLeft",
-            "speak;Sal;I'm sorry, your highness.|But your fathers orders...",
+            "speak;Sal;I'm sorry, your highness.|But your father's orders...",
             "speak;Sages;...;no_talk",
             "speak;Sal;Don't pout at me...",
             "speak;Sages;If he told you to burn yourself alive, would you?",

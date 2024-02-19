@@ -12,6 +12,10 @@
             [
                 "item_override",
                 "Miss30"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

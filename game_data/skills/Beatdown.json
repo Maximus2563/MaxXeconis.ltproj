@@ -2,7 +2,7 @@
     {
         "nid": "Beatdown",
         "name": "Beatdown",
-        "desc": "Grants Crit +5 per stat enemy has debuffed.",
+        "desc": "Grants Crit+5 per stat enemy has debuffed.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             0,

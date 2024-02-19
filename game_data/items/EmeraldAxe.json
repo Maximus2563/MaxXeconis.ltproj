@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "EmeraldAxe",
+        "name": "Emerald Axe",
+        "desc": "Doubles weapon triangle effects.",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                690
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "double_triangle",
+                null
+            ]
+        ]
+    }
+]

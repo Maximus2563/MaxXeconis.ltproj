@@ -9,14 +9,14 @@
         "tags": [],
         "bases": {
             "HP": 26,
-            "STR": 9,
+            "STR": 8,
             "MAG": 2,
             "SKL": 12,
             "SPD": 10,
             "LCK": 4,
             "DEF": 8,
-            "RES": 9,
-            "CON": 6,
+            "RES": 4,
+            "CON": 7,
             "MOV": 7
         },
         "growths": {

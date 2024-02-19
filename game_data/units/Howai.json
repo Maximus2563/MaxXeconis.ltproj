@@ -47,12 +47,20 @@
             [
                 "Patch",
                 false
+            ],
+            [
+                "Heal",
+                false
             ]
         ],
         "learned_skills": [
             [
                 1,
                 "Inferno Balm"
+            ],
+            [
+                1,
+                "Paragon"
             ]
         ],
         "unit_notes": [
