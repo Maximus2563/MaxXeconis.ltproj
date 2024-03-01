@@ -599,7 +599,7 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": null,
-                "view_range": -1,
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -1365,12 +1365,9 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": [
-                    "Class",
-                    "Brigand"
-                ],
+                "target_spec": null,
                 "view_range": -2,
-                "invert_targeting": true,
+                "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -1379,7 +1376,7 @@
                 "action": "Move_to",
                 "target": "Ally",
                 "target_spec": null,
-                "view_range": -1,
+                "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -1387,6 +1384,47 @@
             }
         ],
         "priority": 20,
+        "offense_bias": 1.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Escort",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": [
+                    "ID",
+                    "Demonic"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 18,
         "offense_bias": 1.0000000000000002,
         "roam_ai": false
     }

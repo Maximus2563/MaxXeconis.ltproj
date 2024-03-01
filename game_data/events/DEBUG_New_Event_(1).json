@@ -8,11 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_background;CastleRuins",
-            "add_portrait;Shoop;Left;no_block",
-            "add_portrait;Leap;MidRight",
-            "add_portrait;LeapAlt;FarRight",
-            "speak;Cherry;Why."
+            "change_background;House",
+            ""
         ]
     }
 ]

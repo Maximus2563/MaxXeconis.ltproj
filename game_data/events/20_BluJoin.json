@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BluJoin",
+        "trigger": "on_talk",
+        "level_nid": "20",
+        "condition": "check_pair('Max','Blu')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Strange People",
+            "multi_add_portrait;Max;Right;Blu;Left",
+            "speak;Max;You don't look like the rest of this gang...",
+            "speak;Blu;Look, mister.|I go where the coin goes, who can blame me!|Times are tough!",
+            "speak;Max;Aren't they just...",
+            "speak;Blu;Hm... I think you fancy knights carry gold, huh?",
+            "speak;Max;I guess we do.",
+            "speak;Blu;Well, how's about this? 3000 gold, I'm yours!",
+            "speak;Max;Hm...",
+            "choice;BluPay;Recruit Blu for 3000 gold?;Yes,No;;vertical;center;;;;;left",
+            "if;'{v:_last_choice}' == 'Yes' and game.get_money() > 2999",
+            "sound;GoldExchange",
+            "give_money;-3000;;no_banner",
+            "music;Guest of Shade",
+            "speak;Blu;Attaboy!|My bow is yours... and my pickpocketing skills!|The name's Blu, now, let's get to it!",
+            "speak;Max;Let's go, Blu!",
+            "change_team;Blu;player",
+            "change_ai;Blu;None",
+            "reset;Blu",
+            "elif;'{v:_last_choice}' == 'Yes' and game.get_money() < 3000",
+            "speak;Blu;You're kiddin' me!|Your pockets are dry? Bah! Get out of here!",
+            "else",
+            "speak;Blu;Don't want me? fine.|Now get out of my way, or I'll shoot.",
+            "end",
+            "remove_talk;Max;Blu"
+        ]
+    }
+]

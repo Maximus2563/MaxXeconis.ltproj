@@ -2,7 +2,7 @@
     {
         "nid": "Cedric",
         "name": "Cedric",
-        "desc": "A selfish noble who uses his faith to justify his awful acts.",
+        "desc": "A wicked knight in service of Archbishop Cornelius.\nLeap's father.",
         "variant": "",
         "level": 6,
         "klass": "Holy Knight",
@@ -12,10 +12,10 @@
             "STR": 18,
             "MAG": 14,
             "SKL": 10,
-            "SPD": 12,
+            "SPD": 13,
             "LCK": 18,
-            "DEF": 17,
-            "RES": 10,
+            "DEF": 12,
+            "RES": 16,
             "CON": 12,
             "MOV": 7
         },
@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Silver Lance",
+                "Spear",
                 false
             ],
             [
@@ -56,7 +56,7 @@
         "learned_skills": [
             [
                 1,
-                "Overwhelm "
+                "HolyRetribution"
             ]
         ],
         "unit_notes": [],

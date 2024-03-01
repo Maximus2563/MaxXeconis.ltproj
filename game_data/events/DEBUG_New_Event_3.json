@@ -1,0 +1,14 @@
+[
+    {
+        "name": "New Event_3",
+        "trigger": "turn_change",
+        "level_nid": "DEBUG",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "textbox;Info;Emeline will leave the party at the end of this chapter.;center;200;2;;200;red;info;message_bg_base;no_warn"
+        ]
+    }
+]

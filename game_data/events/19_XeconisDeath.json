@@ -1,0 +1,17 @@
+[
+    {
+        "name": "XeconisDeath",
+        "trigger": "unit_death",
+        "level_nid": "19",
+        "condition": "unit.nid == 'Xeconis'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Xeconis;Right",
+            "speak;Xeconis;What a stupid blunder...",
+            "expression;Xeconis;CloseEyes",
+            "lose_game"
+        ]
+    }
+]

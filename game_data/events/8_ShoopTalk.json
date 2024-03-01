@@ -11,23 +11,19 @@
             "music;Guest of Shade",
             "multi_add_portrait;Shoop;Left;Leap;Right",
             "speak;Shoop;Oh, hello Leap.",
-            "speak;Leap;Shoopy! Fighting the good fight against these occupiers?",
-            "speak;Shoop;Occupiers...? I'm just experimenting!|I wish to see how well these goons conduct heat...",
-            "speak;Leap;Huh...",
-            "speak;Shoop;I want to see their charred corpses :3",
-            "speak;Leap;Uhm, we'll you help out!",
-            "speak;Shoop;The rain is ruining your hair by the way!{c:bop_portrait;Shoop} Kehahaha!",
+            "speak;Leap;Shoopy! Why are you here?",
+            "speak;Shoop;You all clearly needed my help.",
+            "speak;Leap;You were already here...?",
+            "speak;Shoop;Look, does it matter?",
+            "speak;Leap;I guess not.",
+            "speak;Shoop;Oh, the rain is ruining your hair by the way!{c:bop_portrait;Shoop} Kehahaha!",
             "remove_portrait;Shoop",
             "speak;Leap;Uhm, wait, what?! My hair looks the same as always!",
             "remove_portrait;Leap",
             "remove_talk;Leap;Shoop",
             "change_team;Shoop;player",
             "change_ai;Shoop;None",
-            "music_fade_back",
-            "",
-            "",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "MaxDeath",
+        "trigger": "unit_death",
+        "level_nid": "19",
+        "condition": "unit.nid == 'Max'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Max;Right",
+            "speak;Max;Cry me... a river... heh...",
+            "expression;Max;CloseEyes",
+            "lose_game"
+        ]
+    }
+]

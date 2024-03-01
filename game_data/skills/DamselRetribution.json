@@ -2,7 +2,7 @@
     {
         "nid": "DamselRetribution",
         "name": "Damsel's Retribution",
-        "desc": "When unarmed, 50% of foe's damage is dealt back to them.",
+        "desc": "When hurt by non-adjacent foe, reflects 50% damage and inflicts LCK-3 on them for 1 turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             6,
@@ -23,7 +23,11 @@
             ],
             [
                 "condition",
-                "not unit.get_weapon()"
+                "utils.calculate_distance(unit.position, target.position) > 1 "
+            ],
+            [
+                "give_status_on_take_hit",
+                "DamselRetributionDebuff"
             ]
         ]
     }

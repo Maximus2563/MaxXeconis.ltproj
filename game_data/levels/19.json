@@ -6,18 +6,18 @@
         "bg_tilemap": null,
         "party": "MaxYoungGroup",
         "music": {
-            "player_phase": "Justice RIP",
-            "enemy_phase": "Justice RIP",
-            "other_phase": "Justice RIP",
-            "player_battle": "Justice RIP",
-            "enemy_battle": "Justice RIP",
-            "other_battle": "Justice RIP",
+            "player_phase": "The Borders of Justice",
+            "enemy_phase": "The Borders of Justice",
+            "other_phase": "The Borders of Justice",
+            "player_battle": "Far Away Paradise",
+            "enemy_battle": "The Fiends' Rapture",
+            "other_battle": "Far Away Paradise",
             "boss_battle": "50 Wild Outlaw"
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Defeat Isaac",
+            "win": "Defeat Boss",
+            "loss": "Emeline/Max/Xeconis die"
         },
         "roam": false,
         "roam_unit": null,
@@ -47,11 +47,15 @@
                     [
                         "Iron Bow",
                         false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Viridia",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -71,11 +75,15 @@
                     [
                         "Iron Axe",
                         false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Viridia",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -199,10 +207,6 @@
                     [
                         "Steel Lance",
                         false
-                    ],
-                    [
-                        "Pure Water",
-                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -227,6 +231,10 @@
                     [
                         "Poison Sword",
                         false
+                    ],
+                    [
+                        "Pure Water",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -491,6 +499,10 @@
                     [
                         "Iron Dagger",
                         false
+                    ],
+                    [
+                        "Antitoxin",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -587,6 +599,10 @@
                     [
                         "Hand Axe",
                         false
+                    ],
+                    [
+                        "Red Gem",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -731,10 +747,6 @@
                     [
                         "Hand Axe",
                         false
-                    ],
-                    [
-                        "Antitoxin",
-                        true
                     ]
                 ],
                 "starting_skills": [],

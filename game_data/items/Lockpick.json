@@ -32,7 +32,9 @@
                 "prf_class",
                 [
                     "Thief",
-                    "Assassin"
+                    "Assassin",
+                    "Outlaw",
+                    "Adventurer"
                 ]
             ]
         ]

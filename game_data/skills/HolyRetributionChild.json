@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "HolyRetributionChild",
+        "name": "Holy Retribution",
+        "desc": "Reflects 50% damage.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            15,
+            42
+        ],
+        "components": [
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "lifelink",
+                -0.5
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ]
+        ]
+    }
+]

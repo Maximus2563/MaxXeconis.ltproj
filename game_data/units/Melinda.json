@@ -2,32 +2,32 @@
     {
         "nid": "Melinda",
         "name": "Melinda",
-        "desc": "",
+        "desc": "A noblewoman who despises her fleeting youth.\nShoop's mother.\n",
         "variant": "Female",
-        "level": 1,
-        "klass": "Sorceror",
+        "level": 6,
+        "klass": "Sage",
         "tags": [],
         "bases": {
-            "HP": 29,
-            "STR": 4,
-            "MAG": 23,
-            "SKL": 22,
-            "SPD": 19,
-            "LCK": 13,
-            "DEF": 9,
-            "RES": 18,
+            "HP": 32,
+            "STR": 2,
+            "MAG": 16,
+            "SKL": 10,
+            "SPD": 15,
+            "LCK": 14,
+            "DEF": 8,
+            "RES": 16,
             "CON": 7,
             "MOV": 6
         },
         "growths": {
             "HP": 45,
-            "STR": 0,
-            "MAG": 25,
-            "SKL": 30,
-            "SPD": 25,
-            "LCK": 15,
-            "DEF": 10,
-            "RES": 35,
+            "STR": 25,
+            "MAG": 20,
+            "SKL": 25,
+            "SPD": 49,
+            "LCK": 42,
+            "DEF": 25,
+            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
@@ -43,7 +43,20 @@
             "SKL": 0,
             "SPD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Bolganone",
+                false
+            ],
+            [
+                "Meteor",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -79,17 +92,17 @@
             ],
             "Light": [
                 false,
-                0,
+                31,
                 251
             ],
             "Anima": [
                 false,
-                121,
+                181,
                 251
             ],
             "Dark": [
                 false,
-                251,
+                0,
                 251
             ],
             "Default": [
@@ -100,7 +113,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Melinda",
-        "affinity": "Ice",
+        "affinity": "None",
         "fields": []
     }
 ]

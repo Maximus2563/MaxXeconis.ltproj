@@ -1,0 +1,17 @@
+[
+    {
+        "name": "EmelineDeath",
+        "trigger": "unit_death",
+        "level_nid": "19",
+        "condition": "unit.nid == 'Emeline'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Emeline;Right",
+            "speak;Emeline;No... not now...!",
+            "expression;Emeline;CloseEyes",
+            "lose_game"
+        ]
+    }
+]

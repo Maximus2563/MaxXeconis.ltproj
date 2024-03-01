@@ -11,7 +11,8 @@
             "flicker_cursor;22,2",
             "sound;VillageDestroyed",
             "show_layer;VILLAGEDESTROYED",
-            "wait;500"
+            "wait;500",
+            "remove_region;Village1"
         ]
     }
 ]

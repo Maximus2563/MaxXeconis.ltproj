@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "20",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_market_item;RubySword;1",
+            "remove_market_item;SapphireLance;1",
+            "remove_market_item;EmeraldAxe;1",
+            "remove_market_item;Short Bow;1",
+            "remove_market_item;Elfire;1",
+            "remove_market_item;Reconcile;1"
+        ]
+    }
+]

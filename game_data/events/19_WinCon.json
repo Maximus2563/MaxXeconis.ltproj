@@ -1,0 +1,14 @@
+[
+    {
+        "name": "WinCon",
+        "trigger": "combat_end",
+        "level_nid": "19",
+        "condition": "game.check_dead('Isaac')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ]
+    }
+]

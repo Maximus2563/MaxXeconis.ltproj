@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Magic Tutoring",
+        "trigger": "on_base_convo",
+        "level_nid": "20",
+        "condition": "unit == 'Magic Tutoring'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_background;Village 2 Daytime",
+            "music;Song of the Buffoon",
+            "multi_add_portrait;Dark;Left;Max;Right",
+            "speak;Dark;Hey, you. Teach me magic.",
+            "speak;Max;If that's how you ask...|I ought to teach you manners before magic!",
+            "speak;Dark;Look, I just... need to learn better.",
+            "speak;Max;Alright... I'll help you out, kid.",
+            "speak;Dark;Kid? Kid?!|Maybe it's YOU who needs etiquette classes!",
+            "speak;Max;Huh? Hm...",
+            "speak;Dark;Sorry...",
+            "speak;Max;Well, if you can channel that level of conviction...|Give it your best shot!",
+            "speak;Dark;What?!",
+            "speak;Max;Channel that emotion, fire at me!",
+            "speak;Dark;But... I don't wanna hurt-",
+            "speak;Max;Do it, kid!|Kid, kid, kid, kid-",
+            "speak;Dark;HYAAAAAAH!",
+            "bop_portrait;Max",
+            "speak;Max;Hyeowch! Yup! Seems alright to me!|Just remember to give it all you have, yeah?",
+            "speak;Dark;Yeah, I will!|Smell ya later, teach!",
+            "remove_portrait;Dark",
+            "speak;Max;Hopefully that didn't singe my eyebrows off...",
+            "remove_portrait;Max",
+            "increment_support_points;Max;Dark;5",
+            "give_exp;Dark;100",
+            "ignore_base_convo;Magic Tutoring",
+            "change_background"
+        ]
+    }
+]

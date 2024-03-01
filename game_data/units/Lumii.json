@@ -106,7 +106,7 @@
             ],
             "Light": [
                 false,
-                1,
+                25,
                 251
             ],
             "Anima": [
@@ -126,7 +126,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Lanii",
+        "portrait_nid": "Lumii",
         "affinity": "Thunder",
         "fields": [
             [
