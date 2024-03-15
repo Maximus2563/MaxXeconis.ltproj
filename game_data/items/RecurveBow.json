@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Steel Longbow ",
-        "name": "Steel Longbow",
+        "nid": "RecurveBow",
+        "name": "Recurve Bow",
         "desc": "",
-        "icon_nid": "Bow",
+        "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
-            0,
-            13
+            16,
+            3
         ],
         "components": [
             [
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                10
+                5
             ],
             [
                 "hit",
-                55
+                70
             ],
             [
                 "weapon_type",
@@ -50,23 +50,23 @@
             ],
             [
                 "weight",
-                16
+                10
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "value",
-                2800
+                2750
             ],
             [
                 "min_range",
-                2
+                4
             ],
             [
                 "max_range",
-                3
+                4
             ],
             [
                 "effective_damage",

@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Miracle",
+        "nid": "MiracleProc",
         "name": "Miracle",
         "desc": "Unit can survive a lethal blow at 1HP (LCK% Activation).",
         "icon_nid": "Skills",
@@ -10,16 +10,8 @@
         ],
         "components": [
             [
-                "proc_rate",
-                "MIRACLE"
-            ],
-            [
-                "class_skill",
+                "miracle",
                 null
-            ],
-            [
-                "defense_proc",
-                "MiracleProc"
             ]
         ]
     }

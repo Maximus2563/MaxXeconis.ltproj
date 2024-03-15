@@ -10,7 +10,7 @@
         "_source": [
             "transition;close",
             "change_background;Sky Evening",
-            "music;Sunlight Through the Trees",
+            "music;74 Dance in the Dark",
             "transition;open",
             "multi_add_portrait;Sal;FarRight;Sages;MidRight;Landros;Left",
             "expression;Landros;Smile",
@@ -28,7 +28,7 @@
             "speak;Sages;Well, at least this new technique should help us in the future!",
             "speak;Landros;Of course!|Watch out foes, my arrows will hit their mark!",
             "transition;close",
-            "give_skill;Landros;Sharpshooter",
+            "give_skill;Landros;CurvedShot",
             "music_fade_back",
             "change_background",
             "ignore_base_convo;Head in the Clouds",

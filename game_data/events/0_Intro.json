@@ -72,7 +72,7 @@
             "add_portrait;XeconisYoung;MidRight",
             "add_portrait;EffYoung;FarRight",
             "speak;MaxYoung;Sounds serious...|But I'm certain they're no match for us!",
-            "speak;XeconisYoung;Best be careful...|I have an hunch that they're no bandits.",
+            "speak;XeconisYoung;Best be careful...|I'm inclined to believe that they're no bandits.",
             "speak;EffYoung;Agreed.|They seem too composed...|Stay prudent!",
             "remove_portrait;MaxYoung;no_block",
             "remove_portrait;XeconisYoung",

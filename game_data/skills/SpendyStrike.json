@@ -2,7 +2,7 @@
     {
         "nid": "SpendyStrike",
         "name": "Spendy Strike",
-        "desc": "Can pay 100 gold to gain +5 ATK in combat.",
+        "desc": "Combat Art: Pay 100 gold to gain +5 ATK in combat.",
         "icon_nid": "LT_Skills",
         "icon_index": [
             4,
