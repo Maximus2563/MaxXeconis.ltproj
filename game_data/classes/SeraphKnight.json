@@ -2,7 +2,7 @@
     {
         "nid": "SeraphKnight",
         "name": "Seraph Knight",
-        "desc": "Flying pegasus knight with mastery over light.",
+        "desc": "Trained pegasus knight with mastery over light.",
         "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Brightwing",
@@ -14,13 +14,13 @@
         "max_level": 20,
         "bases": {
             "HP": 20,
-            "STR": 5,
+            "STR": 3,
             "MAG": 5,
             "SKL": 7,
-            "SPD": 8,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 5,
-            "RES": 4,
+            "DEF": 4,
+            "RES": 7,
             "CON": 6,
             "MOV": 7
         },

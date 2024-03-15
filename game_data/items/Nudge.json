@@ -65,10 +65,6 @@
                 ]
             ],
             [
-                "magic_heal",
-                7
-            ],
-            [
                 "map_cast_anim",
                 "MapSmallHealTrans"
             ],
@@ -81,6 +77,10 @@
             [
                 "shove_flexible_on_end_combat_initiate",
                 1
+            ],
+            [
+                "equation_heal",
+                "SYMBIOSIS"
             ]
         ]
     }

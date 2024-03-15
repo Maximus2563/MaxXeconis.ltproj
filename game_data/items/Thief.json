@@ -2,7 +2,7 @@
     {
         "nid": "Thief",
         "name": "Thief",
-        "desc": "Steal items from enemies.",
+        "desc": "Steal from enemies with RES < unit's MAG.\nMaxime only.",
         "icon_nid": "Staff",
         "icon_index": [
             1,
@@ -24,10 +24,6 @@
             [
                 "weapon_type",
                 "Staff"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ],
             [
                 "uses",
@@ -67,6 +63,16 @@
             [
                 "wexp",
                 3
+            ],
+            [
+                "prf_unit",
+                [
+                    "Maxime"
+                ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.get_stat('MAG') > target.get_stat('RES')"
             ]
         ]
     }

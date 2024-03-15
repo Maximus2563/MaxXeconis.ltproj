@@ -119,6 +119,11 @@
         "alternate_classes": [],
         "portrait_nid": "Cres",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "RangerCres"
+            ]
+        ]
     }
 ]

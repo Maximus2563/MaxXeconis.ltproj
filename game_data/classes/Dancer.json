@@ -2,7 +2,7 @@
     {
         "nid": "Dancer",
         "name": "Dancer",
-        "desc": "??",
+        "desc": "A dancer who can energise allies.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

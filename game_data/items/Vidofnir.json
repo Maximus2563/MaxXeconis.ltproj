@@ -67,16 +67,6 @@
             [
                 "max_range",
                 1
-            ],
-            [
-                "effective_multiplier",
-                3
-            ],
-            [
-                "effective_tag",
-                [
-                    "Monster"
-                ]
             ]
         ]
     }

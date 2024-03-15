@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Orthodox",
+        "name": "Orthodox",
+        "desc": "Unit cannot use magic.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            12,
+            33
+        ],
+        "components": [
+            [
+                "cannot_use_magic_items",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

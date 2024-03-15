@@ -2,7 +2,7 @@
     {
         "nid": "Excalibur",
         "name": "Excalibur",
-        "desc": "Speed +5. Effective against monsters",
+        "desc": "Speed +5. Effective against monsters and fliers.",
         "icon_nid": "Anima",
         "icon_index": [
             2,
@@ -73,18 +73,20 @@
                 2
             ],
             [
-                "effective_multiplier",
-                3
-            ],
-            [
                 "battle_cast_anim",
                 "Aether"
             ],
             [
-                "effective_tag",
-                [
-                    "Monster"
-                ]
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

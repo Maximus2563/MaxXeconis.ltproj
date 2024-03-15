@@ -143,7 +143,7 @@
             ],
             [
                 "MidLevelUpQuote",
-                "Fortune falls upon me today."
+                "I must have been blessed, thank you..."
             ],
             [
                 "LowLevelUpQuote",
@@ -156,6 +156,14 @@
             [
                 "MaxStatQuote",
                 "I can outshine anyone! Except the Goddess of course."
+            ],
+            [
+                "ChangeClass",
+                "Monk"
+            ],
+            [
+                "ChangeQuote",
+                "My devotion to the Goddess remains, no matter my attire."
             ]
         ]
     }

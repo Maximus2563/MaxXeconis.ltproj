@@ -131,7 +131,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "What the... How...?"
+                "What the... how...?"
             ],
             [
                 "HighLevelUpQuote",
@@ -152,6 +152,14 @@
             [
                 "EscapeQuote",
                 "Bye."
+            ],
+            [
+                "ChangeClass",
+                "Mage"
+            ],
+            [
+                "ChangeQuote",
+                "Alright... I didn't ask for this, but sure..."
             ]
         ]
     }

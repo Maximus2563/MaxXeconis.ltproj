@@ -2,7 +2,7 @@
     {
         "nid": "Gargoyle",
         "name": "Gargoyle",
-        "desc": "",
+        "desc": "A flying demon who pierces foes.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,

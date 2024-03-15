@@ -151,6 +151,14 @@
             [
                 "MaxStatQuote",
                 "I'll have to teach the others a thing or two!"
+            ],
+            [
+                "ChangeClass",
+                "Soldier"
+            ],
+            [
+                "ChangeQuote",
+                "I'll have to maintain my new equipment, at once!"
             ]
         ]
     }

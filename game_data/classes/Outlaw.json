@@ -2,7 +2,7 @@
     {
         "nid": "Outlaw",
         "name": "Outlaw",
-        "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
+        "desc": "Lightly armored ruffians armed with bows. Can attack from a distance.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

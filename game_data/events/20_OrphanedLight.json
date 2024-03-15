@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "change_background;Storage Room",
+            "music;Sound of Hammers",
             "multi_add_portrait;CorneliusA;Left;Lumii;MidRight",
             "speak;Lumii;So, we're on a mission together? Super cool!",
             "speak;CorneliusA;Indeed, we're going to Monsdor to pay a visit to the King.",

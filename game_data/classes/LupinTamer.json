@@ -2,7 +2,7 @@
     {
         "nid": "LupinTamer",
         "name": "Lupin Tamer",
-        "desc": "Devotees of the bow. Possess incredible range.",
+        "desc": "A tricky rider atop a tamed beast.",
         "tier": 2,
         "movement_group": "Light Cav",
         "promotes_from": "Servant",
@@ -17,10 +17,10 @@
             "STR": 5,
             "MAG": 4,
             "SKL": 4,
-            "SPD": 6,
+            "SPD": 8,
             "LCK": 0,
             "DEF": 4,
-            "RES": 7,
+            "RES": 6,
             "CON": 8,
             "MOV": 7
         },

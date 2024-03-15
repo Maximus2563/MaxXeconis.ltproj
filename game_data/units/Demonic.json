@@ -114,6 +114,11 @@
         "alternate_classes": [],
         "portrait_nid": "Demonic",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Great_Knight"
+            ]
+        ]
     }
 ]

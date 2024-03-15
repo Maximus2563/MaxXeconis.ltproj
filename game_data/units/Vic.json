@@ -123,6 +123,11 @@
         "alternate_classes": [],
         "portrait_nid": "Vic",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Pirate"
+            ]
+        ]
     }
 ]

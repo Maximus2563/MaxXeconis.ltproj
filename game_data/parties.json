@@ -6,8 +6,8 @@
     },
     {
         "nid": "SalGroup",
-        "name": "Sal's Platoon",
-        "leader": "Sal"
+        "name": "Arcein Army",
+        "leader": "Sages14"
     },
     {
         "nid": "LeapGroup",
@@ -16,7 +16,7 @@
     },
     {
         "nid": "MaxGroup",
-        "name": "Max's Squadron",
-        "leader": "Max"
+        "name": "Aurelian Troop",
+        "leader": "Emeline"
     }
 ]

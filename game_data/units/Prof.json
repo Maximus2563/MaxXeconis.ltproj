@@ -160,6 +160,14 @@
             [
                 "MaxStatQuote",
                 "Where else could I apply myself...?"
+            ],
+            [
+                "ChangeClass",
+                "KnightB"
+            ],
+            [
+                "ChangeQuote",
+                "I suppose even a teacher must learn new skills."
             ]
         ]
     }

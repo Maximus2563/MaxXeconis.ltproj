@@ -115,6 +115,11 @@
         "alternate_classes": [],
         "portrait_nid": "Kana",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Griffon Knight"
+            ]
+        ]
     }
 ]

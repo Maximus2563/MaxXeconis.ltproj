@@ -11,7 +11,7 @@
         "components": [
             [
                 "damage",
-                7
+                5
             ],
             [
                 "event_after_combat",

@@ -156,6 +156,14 @@
             [
                 "MaxStatQuote",
                 "Guess the smoke's hit the ceiling?"
+            ],
+            [
+                "ChangeClass",
+                "Thief"
+            ],
+            [
+                "ChangeQuote",
+                "I won't let them know my next move..."
             ]
         ]
     }

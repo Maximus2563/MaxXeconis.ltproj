@@ -2,7 +2,7 @@
     {
         "nid": "Fleet",
         "name": "Fleet",
-        "desc": "",
+        "desc": "A boat.",
         "tier": 1,
         "movement_group": "Boat",
         "promotes_from": null,

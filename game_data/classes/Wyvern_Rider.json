@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Rider",
         "name": "Wyvern Rider",
-        "desc": "",
+        "desc": "Aerial fighters atop a wyvern.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,

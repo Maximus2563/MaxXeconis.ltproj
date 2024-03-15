@@ -35,7 +35,7 @@
             "speak;Hogarth;Anyway, goodbye...|I confiscated your things, so don't think you can try anything.",
             "speak;Leap;No!",
             "remove_portrait;Hogarth",
-            "speak;Leap;Gah!",
+            "speak;Leap;Gah! You're so cruel!|Release us now! Graaaaaaaaah!",
             "transition;close",
             "change_background",
             "transition;open",

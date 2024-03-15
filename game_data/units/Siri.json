@@ -160,6 +160,14 @@
             [
                 "WorstLevelUpQuote",
                 "I did bad, didn't I?"
+            ],
+            [
+                "ChangeClass",
+                "Wyvern Rider"
+            ],
+            [
+                "ChangeQuote",
+                "More beasts for me to tame? Good, good..."
             ]
         ]
     }

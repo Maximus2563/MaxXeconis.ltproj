@@ -1,12 +1,12 @@
 [
     {
-        "nid": "DamselRetributionChild",
-        "name": "Damsel's Retribution",
+        "nid": "GuiltTripChild",
+        "name": "Guilt Trip",
         "desc": "Reflects 50% damage.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            6,
-            11
+            8,
+            52
         ],
         "components": [
             [

@@ -67,6 +67,10 @@
             [
                 "map_cast_sfx",
                 "Berserk"
+            ],
+            [
+                "hit",
+                60
             ]
         ]
     }

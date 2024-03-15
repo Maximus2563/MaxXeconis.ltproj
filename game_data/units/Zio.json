@@ -49,7 +49,7 @@
                 false
             ],
             [
-                "Iron Lance",
+                "SapphireLance",
                 false
             ]
         ],
@@ -124,6 +124,11 @@
         "alternate_classes": [],
         "portrait_nid": "Zio",
         "affinity": "Water",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Harrier"
+            ]
+        ]
     }
 ]

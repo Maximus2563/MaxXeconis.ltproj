@@ -152,6 +152,14 @@
             [
                 "MaxStatQuote",
                 "Wow! Look at how far I've come!"
+            ],
+            [
+                "ChangeClass",
+                "Troubadour"
+            ],
+            [
+                "ChangeQuote",
+                "I must devote myself to the cause, by any means."
             ]
         ]
     }

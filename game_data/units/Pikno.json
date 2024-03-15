@@ -147,7 +147,7 @@
             ],
             [
                 "WorstLevelUpQuote",
-                "Insufficient, I must rethink my strategy."
+                "Insufficient, I hope nobody noticed..."
             ],
             [
                 "PromoQuote",
@@ -156,6 +156,14 @@
             [
                 "MaxStatQuote",
                 "I must ponder how to develop further."
+            ],
+            [
+                "ChangeClass",
+                "KnightA"
+            ],
+            [
+                "ChangeQuote",
+                "I hope this doesn't bring any unwanted attention..."
             ]
         ]
     }

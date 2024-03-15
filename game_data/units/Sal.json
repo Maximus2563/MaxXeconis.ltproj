@@ -150,6 +150,14 @@
             [
                 "EscapeQuote",
                 "Don't rest yet!"
+            ],
+            [
+                "ChangeClass",
+                "DarkKnight"
+            ],
+            [
+                "ChangeQuote",
+                "I'll do what I must to prove my loyalty."
             ]
         ]
     }

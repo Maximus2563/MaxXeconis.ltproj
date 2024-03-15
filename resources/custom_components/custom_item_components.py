@@ -23,39 +23,6 @@ class DoNothing(ItemComponent):
     expose = ComponentType.Int
     value = 1
 
-class ShoveFlexible(ItemComponent):
-    nid = 'shove_flex'
-    desc = "Item shoves target on hit up to X spaces"
-    tag = ItemTags.SPECIAL
-
-    expose = ComponentType.Int
-    value = 1
-
-    def _check_shove(self, unit_to_move, anchor_pos, magnitude):
-        while(magnitude != 0):
-            offset_x = utils.clamp(unit_to_move.position[0] - anchor_pos[0], -1, 1)
-            offset_y = utils.clamp(unit_to_move.position[1] - anchor_pos[1], -1, 1)
-            new_position = (unit_to_move.position[0] + offset_x * magnitude,
-                            unit_to_move.position[1] + offset_y * magnitude)
-
-            mcost = movement_funcs.get_mcost(unit_to_move, new_position)
-            if game.board.check_bounds(new_position) and \
-                    not game.board.get_unit(new_position) and \
-                    mcost <= equations.parser.movement(unit_to_move):
-                return new_position
-            if magnitude < 0:
-                magnitude += 1
-            else:
-                magnitude -= 1
-        return False
-
-    def on_hit(self, actions, playback, unit, item, target, target_pos, mode, attack_info):
-        if not skill_system.ignore_forced_movement(target):
-            new_position = self._check_shove(target, unit.position, self.value)
-            if new_position:
-                actions.append(action.ForcedMovement(target, new_position))
-                playback.append(pb.ShoveHit(unit, item, target))
-
 class ShoveFlexibleStops(ItemComponent):
     nid = 'shove_flex_stops'
     desc = "Item shoves target on hit up to X spaces, can be shortened by obstacles"
@@ -126,7 +93,7 @@ class Backdash(ItemComponent):
         offset = utils.tmult(utils.tclamp(utils.tuple_sub(upos, tpos), (-1, -1), (1, 1)), magnitude)
         npos = utils.tuple_add(upos, offset)
 
-        mcost_user = game.movement.get_mcost(user, npos)
+        mcost_user = movement_funcs.get_mcost(user, npos)
         if game.board.check_bounds(npos) and not game.board.get_unit(npos) and \
                 mcost_user <= equations.parser.movement(user):
             return npos

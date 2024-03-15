@@ -15,7 +15,7 @@
             "SPD": 6,
             "LCK": 4,
             "DEF": 4,
-            "RES": 3,
+            "RES": 2,
             "CON": 7,
             "MOV": 5
         },
@@ -123,7 +123,8 @@
         },
         "alternate_classes": [
             "Priest",
-            "Bishop"
+            "Bishop",
+            "War Monk"
         ],
         "portrait_nid": "Landros",
         "affinity": "Wind",
@@ -159,6 +160,14 @@
             [
                 "MaxStatQuote",
                 "Hm, where can my talents drift next?"
+            ],
+            [
+                "ChangeClass",
+                "Archer"
+            ],
+            [
+                "ChangeQuote",
+                "The winds of change... how interesting."
             ]
         ]
     }

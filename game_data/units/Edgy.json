@@ -119,6 +119,11 @@
         "alternate_classes": [],
         "portrait_nid": "Edgy",
         "affinity": "Earth",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Myrmidon"
+            ]
+        ]
     }
 ]

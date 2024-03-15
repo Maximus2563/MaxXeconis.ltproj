@@ -123,6 +123,11 @@
         "alternate_classes": [],
         "portrait_nid": "Moox",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Shaman"
+            ]
+        ]
     }
 ]

@@ -33,10 +33,6 @@
                 null
             ],
             [
-                "eval_target_restrict",
-                "unit.level >= 10"
-            ],
-            [
                 "promote",
                 null
             ],
@@ -45,6 +41,10 @@
                 [
                     "Eirika_Lord"
                 ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
             ]
         ]
     }

@@ -13,14 +13,7 @@
             "choice;SkillLearn;Choose a skill to learn:;{eval:unit.get_field('SkillA')},{eval:unit.get_field('SkillB')};;v;center;;;type_skill;;left",
             "give_skill;{unit};{var:SkillLearn}",
             "end",
-            "end",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "end"
         ]
     }
 ]

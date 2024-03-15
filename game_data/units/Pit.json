@@ -156,6 +156,10 @@
             [
                 "MaxStatQuote",
                 "I never thought I could be this strong..."
+            ],
+            [
+                "ChangeClass",
+                "BowCavalier"
             ]
         ]
     }

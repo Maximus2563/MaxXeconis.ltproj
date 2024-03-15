@@ -118,7 +118,8 @@
             "speak;Pit;We'd better hurry, your Majesty!",
             "speak;Emeline;Onward!",
             "add_talk;Emeline;Viridia",
-            "add_talk;Pit;Viridia"
+            "add_talk;Pit;Viridia",
+            "speak;;Emeline will leave the party at the end of this chapter.|Consider this when managing your inventory.;center;;hint;;red;;menu_bg_parchment"
         ]
     }
 ]

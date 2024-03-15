@@ -2,7 +2,7 @@
     {
         "nid": "Snow",
         "name": "Snow",
-        "desc": "sal",
+        "desc": "Apothecary to King Sages and teacher to Nako.",
         "variant": "",
         "level": 1,
         "klass": "Druid",
@@ -123,6 +123,11 @@
         "alternate_classes": [],
         "portrait_nid": "Snow",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Druid"
+            ]
+        ]
     }
 ]

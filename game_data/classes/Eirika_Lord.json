@@ -2,7 +2,7 @@
     {
         "nid": "Eirika_Lord",
         "name": "Lord",
-        "desc": "The princess of Renais. A sword fighter on an important mission.",
+        "desc": "A noble lady who defends herself with a sword.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

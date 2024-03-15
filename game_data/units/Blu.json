@@ -119,6 +119,11 @@
         "alternate_classes": [],
         "portrait_nid": "Blu",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Outlaw"
+            ]
+        ]
     }
 ]

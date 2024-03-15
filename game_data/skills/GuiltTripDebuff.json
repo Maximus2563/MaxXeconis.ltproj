@@ -1,12 +1,12 @@
 [
     {
-        "nid": "DamselRetributionDebuff",
-        "name": "Damsel's Retribution",
+        "nid": "GuiltTripDebuff",
+        "name": "Guilt Trip",
         "desc": "Inflicts LCK-3.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            6,
-            11
+            8,
+            52
         ],
         "components": [
             [

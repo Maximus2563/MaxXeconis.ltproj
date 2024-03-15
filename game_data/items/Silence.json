@@ -65,12 +65,16 @@
                 null
             ],
             [
-                "eval_target_restrict",
-                "unit.wexp['Light'] or unit.wexp['Anima'] or unit.wexp['Dark'] or unit.wexp['Staff']"
-            ],
-            [
                 "map_cast_sfx",
                 "Silence1"
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.wexp['Light'] or unit.wexp['Anima'] or unit.wexp['Dark'] or unit.wexp['Staff']"
             ]
         ]
     }

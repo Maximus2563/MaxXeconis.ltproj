@@ -118,7 +118,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "You only killed me because you're obsessed..."
+                "You only killed me... because you're obsessed..."
             ],
             [
                 "EscapeQuote",
@@ -147,6 +147,14 @@
             [
                 "WorstLevelUpQuote",
                 "This is personal! Who did this?"
+            ],
+            [
+                "ChangeClass",
+                "Merc"
+            ],
+            [
+                "ChangeQuote",
+                "Of course you'd wanna give me extra attention."
             ]
         ]
     }

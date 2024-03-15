@@ -66,7 +66,7 @@
             ],
             [
                 "Dislikes:",
-                "Himself"
+                "Himself,Effortful tasks"
             ]
         ],
         "wexp_gain": {
@@ -156,6 +156,14 @@
             [
                 "MaxStatQuote",
                 "I didn't realise I grew so fast..."
+            ],
+            [
+                "ChangeClass",
+                "AxeCavalier"
+            ],
+            [
+                "ChangeQuote",
+                "Uh, sure. Whatever works."
             ]
         ]
     }

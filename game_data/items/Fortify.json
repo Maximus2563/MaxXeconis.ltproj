@@ -53,10 +53,6 @@
                 8000
             ],
             [
-                "magic_heal",
-                10
-            ],
-            [
                 "map_cast_anim",
                 "MapFortify"
             ],
@@ -67,6 +63,10 @@
             [
                 "equation_blast_aoe",
                 "MAGIC_RANGE"
+            ],
+            [
+                "equation_heal",
+                "HEALSTAFF"
             ]
         ]
     }

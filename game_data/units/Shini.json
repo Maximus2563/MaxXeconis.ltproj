@@ -119,6 +119,11 @@
         "alternate_classes": [],
         "portrait_nid": "Shini",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Merc"
+            ]
+        ]
     }
 ]

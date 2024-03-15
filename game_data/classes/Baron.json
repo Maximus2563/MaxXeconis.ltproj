@@ -2,7 +2,7 @@
     {
         "nid": "Baron",
         "name": "Baron",
-        "desc": "",
+        "desc": "A heavily armored magic practitioner.",
         "tier": 2,
         "movement_group": "Armors",
         "promotes_from": "KnightL",
@@ -12,14 +12,14 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
+            "HP": 21,
             "STR": 6,
             "MAG": 3,
-            "SKL": 4,
-            "SPD": 4,
+            "SKL": 5,
+            "SPD": 3,
             "LCK": 0,
-            "DEF": 10,
-            "RES": 6,
+            "DEF": 9,
+            "RES": 5,
             "CON": 11,
             "MOV": 5
         },
@@ -28,7 +28,7 @@
             "STR": 26,
             "MAG": 25,
             "SKL": 28,
-            "SPD": 15,
+            "SPD": 20,
             "LCK": 20,
             "DEF": 19,
             "RES": 35,
@@ -67,7 +67,7 @@
             "SPD": 22,
             "LCK": 30,
             "DEF": 29,
-            "RES": 28,
+            "RES": 26,
             "CON": 25,
             "MOV": 15
         },
@@ -85,12 +85,12 @@
             ],
             "Axe": [
                 false,
-                1,
+                0,
                 251
             ],
             "Bow": [
                 true,
-                1,
+                31,
                 251
             ],
             "Knife": [

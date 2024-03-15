@@ -65,10 +65,6 @@
                 ]
             ],
             [
-                "magic_heal",
-                7
-            ],
-            [
                 "multi_target",
                 2
             ],
@@ -83,6 +79,10 @@
             [
                 "map_cast_sfx",
                 "MapHeal"
+            ],
+            [
+                "equation_heal",
+                "SYMBIOSIS"
             ]
         ]
     }

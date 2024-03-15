@@ -143,7 +143,7 @@
             ],
             [
                 "MidLevelUpQuote",
-                "Sure, sure."
+                "Guess this is fine."
             ],
             [
                 "LowLevelUpQuote",
@@ -156,6 +156,14 @@
             [
                 "MaxStatQuote",
                 "Nobody bests the best."
+            ],
+            [
+                "ChangeClass",
+                "Trickster"
+            ],
+            [
+                "ChangeQuote",
+                "I love the new getup, does it suit me?"
             ]
         ]
     }

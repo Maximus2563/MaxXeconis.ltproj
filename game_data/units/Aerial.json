@@ -151,6 +151,14 @@
             [
                 "MaxStatQuote",
                 "Where else can I make some gains?"
+            ],
+            [
+                "ChangeClass",
+                "Fighter"
+            ],
+            [
+                "ChangeQuote",
+                "Guess I better change my training, huh?"
             ]
         ]
     }

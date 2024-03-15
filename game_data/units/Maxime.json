@@ -151,6 +151,10 @@
             [
                 "MaxStatQuote",
                 "I'll give myself a pat on the back later."
+            ],
+            [
+                "ChangeClass",
+                "Adventurer"
             ]
         ]
     }

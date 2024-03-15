@@ -2,7 +2,7 @@
     {
         "nid": "SagesLord",
         "name": "Lord",
-        "desc": "??",
+        "desc": "A nobleman who defends himself with a bow.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

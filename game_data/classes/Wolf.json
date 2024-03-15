@@ -2,7 +2,7 @@
     {
         "nid": "Wolf",
         "name": "Wolf",
-        "desc": "",
+        "desc": "A wild beast whose teeth tear flesh.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

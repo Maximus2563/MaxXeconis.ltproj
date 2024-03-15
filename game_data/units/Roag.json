@@ -156,6 +156,14 @@
             [
                 "MaxStatQuote",
                 "Yaya! This is it!"
+            ],
+            [
+                "ChangeClass",
+                "LanceCavalier"
+            ],
+            [
+                "ChangeQuote",
+                "Word on the street is I ate."
             ]
         ]
     }

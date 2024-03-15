@@ -156,6 +156,14 @@
             [
                 "WorstLevelUpQuote",
                 "What would father say about this..."
+            ],
+            [
+                "ChangeClass",
+                "Swordmaster"
+            ],
+            [
+                "ChangeQuote",
+                "Change is a part of the process, I welcome it with open arms!"
             ]
         ]
     }

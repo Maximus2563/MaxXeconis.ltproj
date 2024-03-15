@@ -18,7 +18,7 @@
         "bases": {
             "HP": 14,
             "STR": 4,
-            "MAG": 2,
+            "MAG": 1,
             "SKL": 5,
             "SPD": 7,
             "LCK": 0,

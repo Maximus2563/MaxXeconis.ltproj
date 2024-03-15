@@ -41,10 +41,6 @@
                 null
             ],
             [
-                "eval_target_restrict",
-                "unit.level >= 10"
-            ],
-            [
                 "prf_class",
                 [
                     "Myrmidon",
@@ -52,6 +48,10 @@
                     "Fighter",
                     "Soldier"
                 ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
             ]
         ]
     }

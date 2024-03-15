@@ -7,9 +7,9 @@
         "party": "MaxGroup",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "n",
+            "win": "n",
+            "loss": "n"
         },
         "roam": false,
         "roam_unit": null,

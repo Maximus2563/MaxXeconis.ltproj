@@ -132,6 +132,14 @@
             [
                 "DeathQuote",
                 "And so this chapter... Comes to a close..."
+            ],
+            [
+                "ChangeClass",
+                "Malig Knight"
+            ],
+            [
+                "ChangeQuote",
+                "A new opening for me? I'll take it in stride!"
             ]
         ]
     }

@@ -11,10 +11,10 @@
         "max_level": 20,
         "bases": {
             "HP": 22,
-            "STR": 7,
-            "MAG": 3,
-            "SKL": 10,
-            "SPD": 9,
+            "STR": 6,
+            "MAG": 0,
+            "SKL": 9,
+            "SPD": 8,
             "LCK": 0,
             "DEF": 6,
             "RES": 2,
@@ -24,7 +24,7 @@
         "growths": {
             "HP": 65,
             "STR": 25,
-            "MAG": 15,
+            "MAG": 5,
             "SKL": 30,
             "SPD": 30,
             "LCK": 25,

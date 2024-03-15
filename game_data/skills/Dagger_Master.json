@@ -3,10 +3,10 @@
         "nid": "Dagger Master",
         "name": "Dagger Master",
         "desc": "Grants +1 ATK for every stat the enemy has debuffed.\nIf unit is hit by a knife, attacker also receives status effects.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            5,
-            32
+            6,
+            43
         ],
         "components": [
             [

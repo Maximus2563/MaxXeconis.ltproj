@@ -69,14 +69,6 @@
                 1
             ],
             [
-                "effective_multiplier",
-                3
-            ],
-            [
-                "effective_tag",
-                []
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [

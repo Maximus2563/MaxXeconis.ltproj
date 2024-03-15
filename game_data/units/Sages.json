@@ -130,6 +130,39 @@
         "alternate_classes": [],
         "portrait_nid": "Sages",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "HighLevelUpQuote",
+                "Great results for the Prince of Arcei!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "This is fine, I'm on the up!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Father would tell me to try harder..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Huh?! This is abominable!"
+            ],
+            [
+                "EscapeQuote",
+                "My good fellows, we shall depart!"
+            ],
+            [
+                "MaxStatQuote",
+                "I'm good enough to rule Arcei..."
+            ],
+            [
+                "ChangeClass",
+                "SagesLord"
+            ],
+            [
+                "PromoQuote",
+                "I'll step up to the mantle... Trust in me!"
+            ]
+        ]
     }
 ]

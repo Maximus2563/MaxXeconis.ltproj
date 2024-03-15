@@ -155,6 +155,10 @@
             [
                 "EscapeQuote",
                 "Smell ya later!"
+            ],
+            [
+                "ChangeClass",
+                "Pupil"
             ]
         ]
     }

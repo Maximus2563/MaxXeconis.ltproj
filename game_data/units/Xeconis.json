@@ -61,6 +61,10 @@
             [
                 1,
                 "Adaptive Bearings"
+            ],
+            [
+                1,
+                "Orthodox"
             ]
         ],
         "unit_notes": [
@@ -155,6 +159,22 @@
             [
                 "MaxStatQuote",
                 "Perchance, there are no more ploys to learn."
+            ],
+            [
+                "ChangeClass",
+                "Soldier"
+            ],
+            [
+                "ChangeQuote",
+                "Shuffling my hand may prove strategic..."
+            ],
+            [
+                "SkillA",
+                "RallySkl"
+            ],
+            [
+                "SkillB",
+                "Skilltaker"
             ]
         ]
     }

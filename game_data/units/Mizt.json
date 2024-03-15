@@ -156,6 +156,14 @@
             [
                 "WorstLevelUpQuote",
                 "This may as well be the end for me..."
+            ],
+            [
+                "ChangeClass",
+                "War Monk"
+            ],
+            [
+                "ChangeQuote",
+                "Whatever guided me here, I thank you."
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Physic",
         "name": "Physic",
-        "desc": "Restores an ally's HP from afar.",
+        "desc": "Restores (User's MAG + 20) HP from afar.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -61,10 +61,6 @@
                 ]
             ],
             [
-                "magic_heal",
-                20
-            ],
-            [
                 "max_equation_range",
                 "MAGIC_RANGE"
             ],
@@ -79,6 +75,10 @@
             [
                 "map_cast_anim",
                 "MapSmallHealTrans"
+            ],
+            [
+                "equation_heal",
+                "MEND"
             ]
         ]
     }

@@ -160,6 +160,14 @@
             [
                 "MaxStatQuote",
                 "Hawhawhaw! I am too good!"
+            ],
+            [
+                "ChangeClass",
+                "Brigand"
+            ],
+            [
+                "ChangeQuote",
+                "Alright, who do I bash next?"
             ]
         ]
     }

@@ -152,6 +152,14 @@
             [
                 "EscapeQuote",
                 "I'll clear the path ahead."
+            ],
+            [
+                "ChangeClass",
+                "Paladin"
+            ],
+            [
+                "ChangeQuote",
+                "Not always a fan of change... but I'll see what I can do."
             ]
         ]
     }

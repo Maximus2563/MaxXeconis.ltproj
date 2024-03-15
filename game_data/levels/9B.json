@@ -9,9 +9,9 @@
             "player_phase": "The Defendants' Antechamber"
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Speak to Hogarth",
+            "win": "Speak to Hogarth",
+            "loss": "None"
         },
         "roam": true,
         "roam_unit": "Leap",

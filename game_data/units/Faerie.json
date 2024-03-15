@@ -115,6 +115,11 @@
         "alternate_classes": [],
         "portrait_nid": "Faerie",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "ChangeClass",
+                "Wyvern Rider"
+            ]
+        ]
     }
 ]

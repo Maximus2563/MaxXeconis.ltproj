@@ -2,7 +2,7 @@
     {
         "nid": "Emeline",
         "name": "Emeline",
-        "desc": "",
+        "desc": "Queen of Aurelia, seeks retribution for her brother's death.",
         "variant": "",
         "level": 8,
         "klass": "Eirika_Lord",
@@ -66,7 +66,7 @@
         "unit_notes": [
             [
                 "Likes:",
-                "Loyal aides"
+                "Loyalty"
             ],
             [
                 "Dislikes:",

@@ -2,7 +2,7 @@
     {
         "nid": "Priestess",
         "name": "Priestess",
-        "desc": "Advanced wielders of the natural magics.",
+        "desc": "A devoted lady of the clergy who uses additional means to fight.",
         "tier": 2,
         "movement_group": "Mages",
         "promotes_from": "Diviner",
@@ -12,12 +12,12 @@
         "bases": {
             "HP": 19,
             "STR": 3,
-            "MAG": 4,
+            "MAG": 6,
             "SKL": 6,
-            "SPD": 5,
-            "LCK": 0,
+            "SPD": 6,
+            "LCK": 1,
             "DEF": 3,
-            "RES": 8,
+            "RES": 7,
             "CON": 6,
             "MOV": 6
         },
@@ -47,7 +47,7 @@
         },
         "promotion": {
             "HP": 4,
-            "STR": 0,
+            "STR": 2,
             "MAG": 1,
             "SKL": 1,
             "SPD": 0,

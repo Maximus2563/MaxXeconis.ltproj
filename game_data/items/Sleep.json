@@ -67,6 +67,10 @@
             [
                 "map_cast_sfx",
                 "Sleep2"
+            ],
+            [
+                "hit",
+                65
             ]
         ]
     }

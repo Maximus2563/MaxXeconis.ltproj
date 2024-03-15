@@ -11,7 +11,9 @@
             "add_portrait;{eval:unit.nid};LevelUpRight;immediate",
             "if;any(DB.classes.get(unit.klass).max_stats.get(stat_nid) <= unit.stats[stat_nid] for stat_nid in unit.stats) and sum(stat_changes.values())== 0",
             "speak;{eval:unit.nid};{eval:unit.get_field('MaxStatQuote')};top_right",
-            "elif;sum(stat_changes.values())>8",
+            "elif;'{eval:unit.get_field('ChangeClass')}' != '{e:unit.klass}' and DB.classes.get('{e:unit.klass}').tier == DB.classes.get('{eval:unit.get_field('ChangeClass')}').tier ",
+            "speak;{eval:unit.nid};{eval:unit.get_field('ChangeQuote')};top_right",
+            "elif;'{eval:unit.get_field('ChangeClass')}' != '{e:unit.klass}' and DB.classes.get('{e:unit.klass}').tier != DB.classes.get('{eval:unit.get_field('ChangeClass')}').tier ",
             "expression;{eval:unit.nid};Smile",
             "speak;{eval:unit.nid};{eval:unit.get_field('PromoQuote')};top_right",
             "elif;sum(stat_changes.values())>5",
@@ -23,10 +25,7 @@
             "else",
             "speak;{eval:unit.nid};{eval:unit.get_field('WorstLevelUpQuote')};top_right",
             "end",
-            "",
-            "",
-            "",
-            ""
+            "set_unit_field;{unit};ChangeClass;'{e:unit.klass}'"
         ]
     }
 ]

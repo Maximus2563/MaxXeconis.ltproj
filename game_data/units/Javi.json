@@ -2,7 +2,7 @@
     {
         "nid": "Javi",
         "name": "Javi",
-        "desc": "",
+        "desc": "A loyal knight of Arcei, close guard of King Sages.",
         "variant": "",
         "level": 1,
         "klass": "Spartan",
@@ -160,6 +160,14 @@
             [
                 "MaxStatQuote",
                 "Woah! I've reached a new plateau!"
+            ],
+            [
+                "ChangeClass",
+                "Spartan"
+            ],
+            [
+                "ChangeQuote",
+                "I trust your judgement, no worries!"
             ]
         ]
     }

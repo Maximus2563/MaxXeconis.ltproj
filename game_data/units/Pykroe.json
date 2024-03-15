@@ -45,7 +45,7 @@
         },
         "starting_items": [
             [
-                "Kismet",
+                "Slim Lance",
                 false
             ],
             [
@@ -57,6 +57,10 @@
             [
                 1,
                 "FortuneShare"
+            ],
+            [
+                1,
+                "Lucktaker"
             ]
         ],
         "unit_notes": [
@@ -156,6 +160,14 @@
             [
                 "PromoQuote",
                 "Fear me foes! I will vanquish thee!"
+            ],
+            [
+                "ChangeClass",
+                "Pegasus_Knight"
+            ],
+            [
+                "ChangeQuote",
+                "Is this my fate? Huzzah!"
             ]
         ]
     }

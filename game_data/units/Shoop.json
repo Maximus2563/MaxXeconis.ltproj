@@ -161,6 +161,14 @@
             [
                 "MaxStatQuote",
                 "I'm so scrunkly."
+            ],
+            [
+                "ChangeClass",
+                "Mage"
+            ],
+            [
+                "ChangeQuote",
+                "A kind of metamorphosis... haha!"
             ]
         ]
     }

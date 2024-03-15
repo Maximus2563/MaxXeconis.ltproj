@@ -147,11 +147,19 @@
             ],
             [
                 "PromoQuote",
-                "I foresaw this new path. I won't squander it."
+                "I will cherish this blossoming power."
             ],
             [
                 "EscapeQuote",
                 "I foresaw my safety..."
+            ],
+            [
+                "ChangeClass",
+                "Cleric"
+            ],
+            [
+                "ChangeQuote",
+                "I foresaw a change in my future, this must be it."
             ]
         ]
     }

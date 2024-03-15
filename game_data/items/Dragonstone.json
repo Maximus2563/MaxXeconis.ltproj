@@ -45,10 +45,6 @@
                 15
             ],
             [
-                "effective",
-                32
-            ],
-            [
                 "status_on_equip",
                 "Dragonstone"
             ],
@@ -65,16 +61,6 @@
                 1
             ],
             [
-                "effective_tag",
-                [
-                    "Monster"
-                ]
-            ],
-            [
-                "effective_multiplier",
-                3
-            ],
-            [
                 "prf_unit",
                 [
                     "Emeline"
@@ -83,6 +69,17 @@
             [
                 "transform",
                 null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

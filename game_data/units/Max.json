@@ -9,7 +9,7 @@
         "tags": [],
         "bases": {
             "HP": 29,
-            "STR": 12,
+            "STR": 11,
             "MAG": 13,
             "SKL": 14,
             "SPD": 14,
@@ -126,7 +126,10 @@
             ]
         },
         "alternate_classes": [
-            "Sniper"
+            "Assassin",
+            "Trickster",
+            "Sage",
+            "Mage Knight"
         ],
         "portrait_nid": "Max",
         "affinity": "Wind",
@@ -166,6 +169,14 @@
             [
                 "SkillB",
                 "FiendishBlow"
+            ],
+            [
+                "ChangeClass",
+                "Mage Knight"
+            ],
+            [
+                "ChangeQuote",
+                "A different skillset to master? How fun!"
             ]
         ]
     }

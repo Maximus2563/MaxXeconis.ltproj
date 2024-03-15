@@ -22,12 +22,12 @@
                 }
             ],
             [
-                "condition",
-                "utils.calculate_distance(unit.position, target.position) == 1 "
-            ],
-            [
                 "give_status_on_take_hit",
                 "HolyRetributionDebuff"
+            ],
+            [
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position) == 1 "
             ]
         ]
     }

@@ -77,10 +77,6 @@
                 2
             ],
             [
-                "effective_multiplier",
-                3
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     255,
@@ -89,10 +85,15 @@
                 ]
             ],
             [
-                "effective_tag",
-                [
-                    "Monster"
-                ]
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

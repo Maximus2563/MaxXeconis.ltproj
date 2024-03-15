@@ -23,12 +23,12 @@
         },
         "growths": {
             "HP": 59,
-            "STR": 30,
+            "STR": 27,
             "MAG": 25,
             "SKL": 25,
             "SPD": 24,
             "LCK": 30,
-            "DEF": 25,
+            "DEF": 20,
             "RES": 15,
             "CON": 0,
             "MOV": 0

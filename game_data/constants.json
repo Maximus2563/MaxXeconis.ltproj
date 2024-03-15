@@ -197,7 +197,7 @@
     ],
     [
         "show_abilities",
-        false
+        true
     ],
     [
         "info_menu_blink",
@@ -265,7 +265,7 @@
     ],
     [
         "title_sound",
-        true
+        false
     ],
     [
         "music_main",

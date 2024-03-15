@@ -21,6 +21,13 @@
         "text": "Bonus experience will level up 3 stats at once. Chance relative to unit's growths."
     },
     {
+        "nid": "Canter",
+        "name": "Canter",
+        "title": "Canter",
+        "category": "Skill",
+        "text": "After initiating combat, unit can move the number of tiles specified.\n"
+    },
+    {
         "nid": "Poison",
         "name": "Poison",
         "title": "Poison",
@@ -40,13 +47,6 @@
         "title": "Chill",
         "category": "Status",
         "text": "Three stacks of chill will leave a unit frozen."
-    },
-    {
-        "nid": "Canter",
-        "name": "Canter",
-        "title": "Canter",
-        "category": "Skill",
-        "text": "After initiating combat, unit can move the number of tiles specified.\n"
     },
     {
         "nid": "Eirika",
@@ -186,7 +186,7 @@
         "name": "Shini",
         "title": "Shini",
         "category": "Character",
-        "text": "A swordsman for hire who is eager to please his employers. Sadly, this stresses him to no end, causing anxiety."
+        "text": "A swordsman who serves the church to raise funds. He doesn't enjoy fighting, but it's all he knows."
     },
     {
         "nid": "Smoke",

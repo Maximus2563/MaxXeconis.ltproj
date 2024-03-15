@@ -156,6 +156,14 @@
             [
                 "WorstLevelUpQuote",
                 "What happened?! I cannot believe this!"
+            ],
+            [
+                "ChangeClass",
+                "Brightwing"
+            ],
+            [
+                "ChangeQuote",
+                "I hope I can make use of this new skillset."
             ]
         ]
     }

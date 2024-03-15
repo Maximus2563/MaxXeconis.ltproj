@@ -146,5 +146,21 @@
     {
         "nid": "REND_HEAVEN",
         "expression": "1.5*SKL"
+    },
+    {
+        "nid": "MEND",
+        "expression": "MAG+20"
+    },
+    {
+        "nid": "HEALSTAFF",
+        "expression": "MAG+10"
+    },
+    {
+        "nid": "SYMBIOSIS",
+        "expression": "MAG+7"
+    },
+    {
+        "nid": "RECONCILE",
+        "expression": "MAG+5"
     }
 ]

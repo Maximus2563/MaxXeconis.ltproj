@@ -17,24 +17,24 @@
             "STR": 7,
             "MAG": 3,
             "SKL": 6,
-            "SPD": 8,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 8,
+            "DEF": 7,
             "CON": 11,
             "MOV": 8,
-            "RES": 6
+            "RES": 4
         },
         "growths": {
             "HP": 70,
             "STR": 25,
             "MAG": 12,
-            "SKL": 35,
+            "SKL": 30,
             "SPD": 25,
             "LCK": 25,
-            "DEF": 12,
+            "DEF": 15,
             "CON": 0,
             "MOV": 0,
-            "RES": 25
+            "RES": 20
         },
         "growth_bonus": {
             "HP": 0,

@@ -2,7 +2,7 @@
     {
         "nid": "Fighter",
         "name": "Fighter",
-        "desc": "Ruffians with great strength but\npoor defense.",
+        "desc": "Duelists with great strength but\npoor defense.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
@@ -14,7 +14,7 @@
         "max_level": 20,
         "bases": {
             "HP": 20,
-            "STR": 5,
+            "STR": 6,
             "MAG": 0,
             "SKL": 2,
             "SPD": 4,

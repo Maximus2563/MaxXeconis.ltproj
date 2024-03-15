@@ -10,7 +10,7 @@
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 20,
+            "HP": 19,
             "STR": 0,
             "MAG": 5,
             "SKL": 6,

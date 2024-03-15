@@ -1,6 +1,6 @@
 [
     {
-        "name": "New Event",
+        "name": "Yeehaw",
         "trigger": "level_start",
         "level_nid": "19B",
         "condition": "True",
@@ -64,7 +64,7 @@
             "remove_unit;Emmanuel;fade;south",
             "speak;Leap;Prof! You were so bold...",
             "speak;Prof;If we're his bargaining chips to prove loyalty to Aurelia...|I just assumed he'd want us alive, he couldn't kill us even if he wanted to.",
-            "speak;Leap;His dedication to status is impressive, but scary...|Your words were so cruel... picking on his insecurities...|Even if he was a monster...",
+            "speak;Leap;His dedication to status is impressive, but scary...|A bit like how ruthless you were then...",
             "speak;Prof;I apologise, Leap.|I'm frustrated too... I feel like I'm about to burst...|That just felt so... cathartic.",
             "speak;Leap;It just reminded me too much of my father...",
             "speak;Prof;Oh no... I...",

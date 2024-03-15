@@ -5,7 +5,7 @@
         "desc": "",
         "tier": 3,
         "movement_group": "Armors",
-        "promotes_from": "KnightS",
+        "promotes_from": "General",
         "turns_into": [],
         "tags": [
             "Armor"
@@ -13,9 +13,9 @@
         "max_level": 20,
         "bases": {
             "HP": 21,
-            "STR": 8,
+            "STR": 10,
             "MAG": 0,
-            "SKL": 5,
+            "SKL": 10,
             "SPD": 5,
             "LCK": 0,
             "DEF": 13,

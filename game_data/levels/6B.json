@@ -16,9 +16,9 @@
             "enemy2_battle": "A Mighty Foe"
         },
         "objective": {
-            "simple": "Defeat Boss",
-            "win": "Defeat the Boss",
-            "loss": "Eirika dies"
+            "simple": "Speak to King Sages",
+            "win": "Speak to King Sages",
+            "loss": "None"
         },
         "roam": true,
         "roam_unit": "Sages",

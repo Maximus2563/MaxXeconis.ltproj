@@ -1,12 +1,12 @@
 [
     {
-        "nid": "DamselRetribution",
-        "name": "Damsel's Retribution",
+        "nid": "GuiltTrip",
+        "name": "Guilt Trip",
         "desc": "When hurt by non-adjacent foe, reflects 50% damage and inflicts LCK-3 on them for 1 turn.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            6,
-            11
+            8,
+            52
         ],
         "components": [
             [
@@ -16,18 +16,18 @@
             [
                 "skill_before_combat",
                 {
-                    "skill": "DamselRetributionChild",
+                    "skill": "GuiltTripChild",
                     "recipient": "target",
                     "allegiance": "enemy"
                 }
             ],
             [
-                "condition",
-                "utils.calculate_distance(unit.position, target.position) > 1 "
+                "give_status_on_take_hit",
+                "GuiltTripDebuff"
             ],
             [
-                "give_status_on_take_hit",
-                "DamselRetributionDebuff"
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position) > 1 "
             ]
         ]
     }

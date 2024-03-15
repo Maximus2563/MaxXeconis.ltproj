@@ -16,6 +16,14 @@
             [
                 "canto",
                 null
+            ],
+            [
+                "condition",
+                "'Mounted' in unit.tags"
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     }

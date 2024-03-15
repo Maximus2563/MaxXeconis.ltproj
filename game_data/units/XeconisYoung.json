@@ -33,15 +33,15 @@
         },
         "stat_cap_modifiers": {
             "HP": 0,
-            "MAG": 0,
+            "MAG": -10,
             "MOV": 0,
             "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
+            "STR": -1,
+            "RES": -1,
+            "DEF": -1,
             "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
+            "SKL": 3,
+            "SPD": 1
         },
         "starting_items": [
             [
@@ -57,6 +57,10 @@
             [
                 1,
                 "Adaptive Bearings"
+            ],
+            [
+                1,
+                "Orthodox"
             ]
         ],
         "unit_notes": [

@@ -8,8 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_background;House",
-            ""
+            "speak;;Hello there!;center;;hint;;red;;menu_bg_parchment"
         ]
     }
 ]

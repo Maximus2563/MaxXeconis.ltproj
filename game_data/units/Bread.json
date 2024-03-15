@@ -8,7 +8,7 @@
         "klass": "SwordCavalierBread",
         "tags": [],
         "bases": {
-            "HP": 18,
+            "HP": 19,
             "STR": 5,
             "MAG": 3,
             "SKL": 6,
@@ -121,7 +121,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "SwordCavalierBread",
+            "Paladin",
+            "Mage Knight",
+            "Troubadour",
+            "Valkyrie",
+            "Holy Knight"
+        ],
         "portrait_nid": "Bread",
         "affinity": "Wind",
         "fields": [
@@ -156,6 +163,14 @@
             [
                 "WorstLevelUpQuote",
                 "*Sniff* This isn't cute at all!"
+            ],
+            [
+                "ChangeClass",
+                "SwordCavalierBread"
+            ],
+            [
+                "ChangeQuote",
+                "Oh! These new clothes are so cute!"
             ]
         ]
     }

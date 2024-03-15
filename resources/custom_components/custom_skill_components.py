@@ -257,7 +257,7 @@ class GiveStatusOnTakeHit(SkillComponent):
     expose = ComponentType.Skill
 
     def after_take_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
-        if target:
+        if target and skill_system.check_enemy(unit, target) and strike == Strike.HIT:
             actions.append(action.AddSkill(target, self.value, unit))
             actions.append(action.TriggerCharge(unit, self.skill))
 class SavageStatus(SkillComponent):

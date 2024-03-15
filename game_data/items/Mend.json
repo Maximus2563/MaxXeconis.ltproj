@@ -65,16 +65,16 @@
                 ]
             ],
             [
-                "magic_heal",
-                20
-            ],
-            [
                 "map_cast_anim",
                 "MapMediumHealTrans"
             ],
             [
                 "map_cast_sfx",
                 "Mend"
+            ],
+            [
+                "equation_heal",
+                "MEND"
             ]
         ]
     }
