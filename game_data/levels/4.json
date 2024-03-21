@@ -1051,7 +1051,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "Escape",
+                "sub_nid": "Leave",
                 "condition": "unit.nid == 'Guy' and game.get_unit('Guy').team == 'other'",
                 "time_left": null,
                 "only_once": false,

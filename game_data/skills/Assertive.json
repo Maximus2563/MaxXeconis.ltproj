@@ -2,7 +2,7 @@
     {
         "nid": "Assertive",
         "name": "Assertive",
-        "desc": "Grants Crit +15 if unit has WTA.",
+        "desc": "If unit has weapon-triangle disadvantage, unit makes a guaranteed follow-up attack.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -15,11 +15,11 @@
             ],
             [
                 "combat_condition",
-                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0"
+                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), False).modification > 0"
             ],
             [
-                "crit",
-                15
+                "attack_speed",
+                999
             ]
         ]
     }

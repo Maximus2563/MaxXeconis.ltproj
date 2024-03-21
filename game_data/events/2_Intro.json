@@ -19,9 +19,9 @@
             "add_portrait;Sal;Left;no_block",
             "add_portrait;Pikno;FarRight;no_block",
             "add_portrait;Nako;MidRight",
-            "speak;Sal;This path that Lord Sages has mapped out around the edge of Monsdor...|It seems rather unsafe...",
+            "speak;Sal;This path that King Sages has mapped out around the edge of Monsdor...|It seems rather unsafe...",
             "speak;Pikno;Hmm...{br}Indeed.|But I believe we will be fine.|We are likely to arrive in time for the ceremony.",
-            "speak;Nako;It will be lovely to see Prince Elias of Aurelia take the throne.|Though it makes me feel rather old that someone so young would be crowned...",
+            "speak;Nako;It will be lovely to see Prince Elias take the throne.|Though it makes me feel rather old that someone so young would be crowned...",
             "speak;Sal;The prince...",
             "speak;Pikno;Aurelia's royal family is said to be blessed by the Goddess herself.|It would explain the fuss behind a proper ceremony.",
             "speak;Nako;Indeed, we have to show to maintain good standing, with both the country and religion.",
@@ -48,12 +48,11 @@
             "end",
             "add_portrait;Sal;Left",
             "speak;Sal;Ah! A bandit outbreak?|As if this path wasn't already a pain...",
-            "if;game.check_alive('Landros')",
-            "speak;Landros;There's a village over there...|I'd wager one of these vermin is going to make a dash for it...|That one looks particularly antsy...",
-            "flicker_cursor;TopBandit",
-            "speak;Sal;Right, I'll be sure to take him out.",
+            "if;game.check_alive('Aerial')",
+            "speak;Aerial;Hey boss, there's a village over in the northeast.|We should probably get there before the bandits, yeah?",
+            "speak;Sal;Good idea, Aerial.|Let's move out!",
             "end",
-            "multi_remove_portrait;Sal;Landros"
+            "multi_remove_portrait;Sal;Aerial"
         ]
     }
 ]

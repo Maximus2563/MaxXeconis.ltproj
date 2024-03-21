@@ -321,7 +321,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "Maurice",
                 "starting_position": [
@@ -369,7 +369,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "Maurice",
                 "starting_position": [
@@ -617,7 +617,7 @@
         "ai_groups": [
             {
                 "nid": "Maurice",
-                "trigger_threshold": 1
+                "trigger_threshold": 2
             }
         ]
     }

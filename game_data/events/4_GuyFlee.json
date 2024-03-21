@@ -11,7 +11,7 @@
             "add_portrait;Guy;Left",
             "speak;Guy;You two... left me all alone...|I don't want to die here too...",
             "remove_portrait;Guy",
-            "change_ai;Guy;HumphreyEscape"
+            "change_ai;Guy;GuyLeave"
         ]
     }
 ]

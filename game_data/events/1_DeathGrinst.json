@@ -11,11 +11,7 @@
             "add_portrait;Grinst;Left",
             "speak;Grinst;My tummy...|Urgh...",
             "expression;Grinst;CloseEyes",
-            "remove_portrait;Grinst",
-            "",
-            "",
-            "",
-            ""
+            "remove_portrait;Grinst"
         ]
     }
 ]

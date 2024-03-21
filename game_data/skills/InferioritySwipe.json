@@ -15,7 +15,7 @@
             ],
             [
                 "combat_condition",
-                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification < 0"
+                "combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), False).modification > 0"
             ],
             [
                 "all_brave",

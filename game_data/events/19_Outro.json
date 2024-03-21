@@ -77,17 +77,23 @@
             "speak;Nabin;Yes, father.",
             "speak;Hogarth;It's been an honour, your Majesty.",
             "multi_remove_portrait;Hogarth;Nabin",
-            "speak;Emeline;I have much to do, many answers to obtain.",
-            "speak;Cornelius;Might I suggest taking today's cohort on a mission?",
+            "speak;Cornelius;That man seems like a foul serpent.|He's clearly using us, your Majesty.",
+            "speak;Emeline;I know.|He might be a low-lifed wretch, using us for status...|However, a useful low-life at that.",
+            "speak;Cornelius;How so?",
+            "speak;Emeline;I can hardly trust anyone these days.|Other than Sir Skill and you, Cornelius.|Grahment seems at odds internally as to who supports us.|While Monsdor appears to be underhanded and unholy...",
+            "speak;Cornelius;You wish for Grahmentian dissenters to perish...|Then what?",
+            "speak;Emeline;I cannot trust either yet...|Though if Grahment and Monsdor remain on rocky terms...|They'll be in no shape to take advantage of me...|I won't allow anyone to use me...{c:expression;Emeline;CloseEyes} Ngh...{c:expression;Emeline;NormalBlink}",
+            "speak;Cornelius;Your Majesty? Is everything alright?",
+            "speak;Emeline;I'm fine! Not weak! I can handle this!",
+            "speak;Cornelius;In that case, I wish to take todays squadron on a mission.",
             "speak;Emeline;Yes?",
-            "speak;Cornelius;I wish to ascertain the loyalties of Monsdor.|I wish for them as escorts, so I can seek audience with King Oberon.",
-            "speak;Emeline;As you wish, Archbishop.|I will contact King Jevil of Palushin.|Send Dawn on a mission, perhaps.",
+            "speak;Cornelius;I wish for them as escorts, so I can seek audience with King Oberon.|For your own sake, I must ascertain the loyalties of Monsdor.|Including any potential sacrelige and foul play...",
+            "speak;Emeline;Thank you...|I will contact King Jevil of Palushin, as my last hope.|Send Dawn on a rendezvous, perhaps...",
             "speak;Cornelius;Clever, the less time she has around your uncle...|The less his foul grasp will taint her.",
             "speak;Emeline;I will have your promotion ready at once.|Then, good luck.",
             "speak;Cornelius;Thank you, your Majesty.|However, with the grace of the Goddess on my side..|I need no luck!",
             "transition;close",
-            "change_team;Emeline;enemy",
-            ""
+            "change_team;Emeline;enemy"
         ]
     }
 ]

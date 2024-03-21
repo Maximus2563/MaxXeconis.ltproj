@@ -148,19 +148,19 @@
         "expression": "1.5*SKL"
     },
     {
-        "nid": "MEND",
-        "expression": "MAG+20"
-    },
-    {
-        "nid": "HEALSTAFF",
+        "nid": "HEAL10",
         "expression": "MAG+10"
     },
     {
-        "nid": "SYMBIOSIS",
+        "nid": "HEAL20",
+        "expression": "MAG+20"
+    },
+    {
+        "nid": "HEAL7",
         "expression": "MAG+7"
     },
     {
-        "nid": "RECONCILE",
+        "nid": "HEAL5",
         "expression": "MAG+5"
     }
 ]

@@ -3,7 +3,7 @@
         "name": "IsaacFight",
         "trigger": "combat_start",
         "level_nid": "19",
-        "condition": "check_default('Emeline', 'Isaac')",
+        "condition": "(unit.nid == \"Isaac\" and unit2.team == 'player' and unit2.nid != 'Emeline) or (unit2.nid == \"Isaac\" and unit.team == 'player' and unit.nid != 'Emeline)",
         "commands": [],
         "only_once": true,
         "priority": 20,

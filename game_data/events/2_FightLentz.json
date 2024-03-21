@@ -10,7 +10,7 @@
         "_source": [
             "hide_combat_ui",
             "add_portrait;Lentz;Left",
-            "speak;Lentz;You really come onto my turf?|THEN try to run the show?!{br}You need to learn the rules with a beatdown!;;;boss_convo_left",
+            "speak;Lentz;You really come onto my turf?|THEN try to run the show?!|You need to learn the rules with a beatdown!;;;boss_convo_left",
             "remove_portrait;Lentz",
             "show_combat_ui"
         ]

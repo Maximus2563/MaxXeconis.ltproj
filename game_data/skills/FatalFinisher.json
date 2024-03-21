@@ -2,7 +2,7 @@
     {
         "nid": "FatalFinisher",
         "name": "Fatal Finisher",
-        "desc": "If initiating and damage would defeat enemy, grants Hit +40.",
+        "desc": "If initiating and damage would defeat enemy, grants Hit+40.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             6,

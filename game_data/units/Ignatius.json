@@ -5,7 +5,7 @@
         "desc": "",
         "variant": "",
         "level": 7,
-        "klass": "Druid",
+        "klass": "Sage",
         "tags": [],
         "bases": {
             "HP": 37,
@@ -45,20 +45,15 @@
         },
         "starting_items": [
             [
-                "Aura",
+                "Bolganone",
                 false
             ],
             [
-                "Mire",
+                "Aura",
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Divine Faith"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -93,7 +88,7 @@
             ],
             "Light": [
                 false,
-                121,
+                181,
                 251
             ],
             "Anima": [
@@ -103,7 +98,7 @@
             ],
             "Dark": [
                 false,
-                121,
+                0,
                 251
             ],
             "Default": [

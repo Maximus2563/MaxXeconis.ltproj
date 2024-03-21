@@ -10,7 +10,7 @@
             "Required"
         ],
         "bases": {
-            "HP": 17,
+            "HP": 18,
             "STR": 4,
             "MAG": 6,
             "SKL": 2,
@@ -52,6 +52,10 @@
             ],
             [
                 "Nudge",
+                false
+            ],
+            [
+                "Vulnerary",
                 false
             ]
         ],

@@ -10,9 +10,9 @@
         "_source": [
             "spawn_group;EnemyRein;east;EnemyRein;normal;stack;no_follow",
             "spawn_group;EnemyRein2;west;EnemyRein2;normal;stack;no_follow",
-            "move_cursor;107",
-            "disp_cursor;1",
-            "wait;1000",
+            "move_cursor;113",
+            "flicker_cursor;113",
+            "wait;500",
             "disp_cursor;0",
             "add_portrait;Bandit2;Left",
             "speak;Bandit2;Filthy knights, this is OURS!",
