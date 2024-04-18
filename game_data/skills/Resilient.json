@@ -11,7 +11,7 @@
         "components": [
             [
                 "condition",
-                "unit.get_hp() =< (0.3*(unit.stats['HP']))"
+                "unit.get_hp() <= (0.3*(unit.stats['HP']))"
             ],
             [
                 "regeneration",

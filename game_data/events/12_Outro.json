@@ -11,6 +11,7 @@
             "add_portrait;Cacti;Left",
             "speak;Cacti;All is clear! Father is here too! Nicely done, guys!",
             "remove_portrait;Cacti",
+            "victory_screen",
             "transition;close",
             "music;Victory United 1",
             "change_background;Sea Port Day",

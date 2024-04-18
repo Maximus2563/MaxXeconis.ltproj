@@ -6028,6 +6028,10 @@
         ],
         "palettes": [
             [
+                "Lucian",
+                "SageInit_Image"
+            ],
+            [
                 "Angel",
                 "SageInit_Angel"
             ],
@@ -6243,6 +6247,10 @@
             ]
         ],
         "palettes": [
+            [
+                "Lucian",
+                "SageCrit_Image"
+            ],
             [
                 "Angel",
                 "SageCrit_Angel"
@@ -13808,6 +13816,10 @@
                     ],
                     [
                         "end_parent_loop",
+                        null
+                    ],
+                    [
+                        "lighten",
                         null
                     ]
                 ]

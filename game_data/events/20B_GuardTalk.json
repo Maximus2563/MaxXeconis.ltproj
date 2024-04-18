@@ -1,0 +1,34 @@
+[
+    {
+        "name": "GuardTalk",
+        "trigger": "on_talk",
+        "level_nid": "20B",
+        "condition": "unit2.nid == '104'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Xeconis;MidLeft;Max;FarLeft;SoldierRed;Right",
+            "speak;Xeconis;Excuse me.",
+            "speak;SoldierRed;Oi! What do you want?|Authorised personnel only!",
+            "speak;Max;We are here with the Archbishop.|We're here for Aurelia's 'gift', so to speak.",
+            "speak;SoldierRed;I can't just let you riff-raff in.|We'll sort out the prisoners.",
+            "speak;Xeconis;Might we not help out?",
+            "speak;SoldierRed;Beat it.",
+            "speak;Max;Monsdorian hospitality...",
+            "multi_remove_portrait;Max;Xeconis;SoldierRed",
+            "move_unit;Xeconis;2,10;no_block",
+            "move_unit;Max;3,10;no_follow",
+            "multi_add_portrait;Xeconis;Left;Max;Right",
+            "speak;Xeconis;Probably should have gotten Eff's help...",
+            "speak;Max;I guess if he's not trusted, maybe even he isn't allowed in.",
+            "speak;Xeconis;I suppose so.|Maybe we should just ask Oberon himself.",
+            "speak;Max;Are you feeling alright?|That is just... pure madness!",
+            "speak;Xeconis;Look, the Archbishop is shady.|However, he wouldn't let Oberon hurt us.|His reputation woould be at stake, I'm willing to gamble on it.",
+            "speak;Max;Alright, alright.|Let's do it.",
+            "remove_talk;Xeconis;104",
+            "remove_region;interrupt",
+            "add_region;throne;7,3;8,8;event;roaming_interrupt;only_once;interrupt_move"
+        ]
+    }
+]

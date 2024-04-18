@@ -22,12 +22,12 @@
         "growths": {
             "HP": 45,
             "STR": 5,
-            "MAG": 40,
+            "MAG": 30,
             "SKL": 45,
-            "SPD": 50,
-            "LCK": 55,
+            "SPD": 45,
+            "LCK": 40,
             "DEF": 30,
-            "RES": 55,
+            "RES": 45,
             "CON": 0,
             "MOV": 0
         },
@@ -121,7 +121,13 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Monk",
+            "Bishop",
+            "Mage",
+            "Sage",
+            "Mage Knight"
+        ],
         "portrait_nid": "Blazing",
         "affinity": "Fire",
         "fields": [

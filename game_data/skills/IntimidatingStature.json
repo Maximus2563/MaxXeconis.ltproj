@@ -2,7 +2,7 @@
     {
         "nid": "IntimidatingStature",
         "name": "Intimidating Stature",
-        "desc": "If unit's CON > foe's CON, inflicts avoid/dodge \npenalty on foe equal to the difference x3 (Max -15).",
+        "desc": "If unit's CON > foe's CON, inflicts hit/dodge \npenalty on foe equal to the difference x3 (Max -15).",
         "icon_nid": "Skills (1)",
         "icon_index": [
             6,

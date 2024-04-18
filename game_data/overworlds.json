@@ -1,6 +1,649 @@
 [
     {
         "nid": "0",
+        "name": "Quanada",
+        "tilemap": "Continent",
+        "music": "72 The Wistful Wilds",
+        "overworld_nodes": [
+            {
+                "nid": "26",
+                "name": "Castle Nordz",
+                "pos": [
+                    9,
+                    9
+                ],
+                "icon": "castle",
+                "level": "6B",
+                "menu_options": []
+            },
+            {
+                "nid": "27",
+                "name": "Jandel",
+                "pos": [
+                    10,
+                    11
+                ],
+                "icon": "map_node",
+                "level": "1",
+                "menu_options": []
+            },
+            {
+                "nid": "28",
+                "name": "Aurelia Palace",
+                "pos": [
+                    22,
+                    6
+                ],
+                "icon": "palace",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "29",
+                "name": "Rizan Valley",
+                "pos": [
+                    14,
+                    9
+                ],
+                "icon": "map_node",
+                "level": "2",
+                "menu_options": []
+            },
+            {
+                "nid": "30",
+                "name": "Blackmaw",
+                "pos": [
+                    20,
+                    1
+                ],
+                "icon": "town",
+                "level": "17",
+                "menu_options": []
+            },
+            {
+                "nid": "31",
+                "name": "Glaceil",
+                "pos": [
+                    25,
+                    3
+                ],
+                "icon": "town",
+                "level": "18",
+                "menu_options": []
+            },
+            {
+                "nid": "32",
+                "name": "Moonglade",
+                "pos": [
+                    11,
+                    6
+                ],
+                "icon": "town",
+                "level": "5",
+                "menu_options": []
+            },
+            {
+                "nid": "33",
+                "name": "Border Gaia",
+                "pos": [
+                    15,
+                    5
+                ],
+                "icon": "fort",
+                "level": "4",
+                "menu_options": []
+            },
+            {
+                "nid": "34",
+                "name": "Wyrm Valley",
+                "pos": [
+                    19,
+                    5
+                ],
+                "icon": "map_node",
+                "level": "20",
+                "menu_options": []
+            },
+            {
+                "nid": "35",
+                "name": "Monsdor Keep",
+                "pos": [
+                    17,
+                    4
+                ],
+                "icon": "cathedral",
+                "level": "20B",
+                "menu_options": []
+            },
+            {
+                "nid": "37",
+                "name": "Ilkrest Manor",
+                "pos": [
+                    7,
+                    3
+                ],
+                "icon": "citadel",
+                "level": "9B",
+                "menu_options": []
+            },
+            {
+                "nid": "38",
+                "name": "Port Brin",
+                "pos": [
+                    10,
+                    2
+                ],
+                "icon": "town",
+                "level": "12",
+                "menu_options": []
+            },
+            {
+                "nid": "39",
+                "name": "Nanba Marina",
+                "pos": [
+                    7,
+                    5
+                ],
+                "icon": "town",
+                "level": "9",
+                "menu_options": []
+            },
+            {
+                "nid": "36",
+                "name": "Lu'nim Temple",
+                "pos": [
+                    16,
+                    11
+                ],
+                "icon": "pyramid",
+                "level": "14",
+                "menu_options": []
+            },
+            {
+                "nid": "40",
+                "name": "Te'nab Crossing",
+                "pos": [
+                    18,
+                    9
+                ],
+                "icon": "map_node",
+                "level": "16",
+                "menu_options": []
+            },
+            {
+                "nid": "41",
+                "name": "Flaxei River",
+                "pos": [
+                    23,
+                    9
+                ],
+                "icon": "map_node",
+                "level": "19",
+                "menu_options": []
+            },
+            {
+                "nid": "42",
+                "name": "North Sea",
+                "pos": [
+                    15,
+                    1
+                ],
+                "icon": "map_node",
+                "level": "13",
+                "menu_options": []
+            },
+            {
+                "nid": "43",
+                "name": "Border Solari",
+                "pos": [
+                    20,
+                    12
+                ],
+                "icon": "fort",
+                "level": "21",
+                "menu_options": []
+            },
+            {
+                "nid": "44",
+                "name": "Ramdok Canyon",
+                "pos": [
+                    19,
+                    14
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "45",
+                "name": "Palushin Hall",
+                "pos": [
+                    19,
+                    16
+                ],
+                "icon": "castle",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "46",
+                "name": "Gildon",
+                "pos": [
+                    20,
+                    6
+                ],
+                "icon": "town",
+                "level": "3",
+                "menu_options": []
+            },
+            {
+                "nid": "47",
+                "name": "Algid Highlands",
+                "pos": [
+                    22,
+                    3
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "48",
+                "name": "New Location",
+                "pos": [
+                    6,
+                    9
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "49",
+                "name": "New Location",
+                "pos": [
+                    4,
+                    11
+                ],
+                "icon": "woods",
+                "level": null,
+                "menu_options": []
+            }
+        ],
+        "map_paths": {
+            "(9, 9)-(14, 9)": [
+                [
+                    9,
+                    9
+                ],
+                [
+                    14,
+                    9
+                ]
+            ],
+            "(9, 9)-(11, 6)": [
+                [
+                    11,
+                    6
+                ],
+                [
+                    10,
+                    6
+                ],
+                [
+                    9,
+                    7
+                ],
+                [
+                    9,
+                    9
+                ]
+            ],
+            "(11, 6)-(15, 5)": [
+                [
+                    11,
+                    6
+                ],
+                [
+                    12,
+                    5
+                ],
+                [
+                    15,
+                    5
+                ]
+            ],
+            "(7, 5)-(11, 6)": [
+                [
+                    11,
+                    6
+                ],
+                [
+                    10,
+                    6
+                ],
+                [
+                    9,
+                    5
+                ],
+                [
+                    7,
+                    5
+                ]
+            ],
+            "(10, 2)-(11, 6)": [
+                [
+                    11,
+                    6
+                ],
+                [
+                    11,
+                    4
+                ],
+                [
+                    10,
+                    4
+                ],
+                [
+                    10,
+                    2
+                ]
+            ],
+            "(7, 3)-(7, 5)": [
+                [
+                    7,
+                    5
+                ],
+                [
+                    7,
+                    3
+                ]
+            ],
+            "(11, 6)-(14, 9)": [
+                [
+                    11,
+                    6
+                ],
+                [
+                    13,
+                    8
+                ],
+                [
+                    14,
+                    9
+                ]
+            ],
+            "(16, 11)-(18, 9)": [
+                [
+                    16,
+                    11
+                ],
+                [
+                    17,
+                    11
+                ],
+                [
+                    18,
+                    10
+                ],
+                [
+                    18,
+                    9
+                ]
+            ],
+            "(22, 6)-(23, 9)": [
+                [
+                    22,
+                    6
+                ],
+                [
+                    23,
+                    7
+                ],
+                [
+                    23,
+                    9
+                ]
+            ],
+            "(10, 2)-(15, 1)": [
+                [
+                    10,
+                    2
+                ],
+                [
+                    11,
+                    1
+                ],
+                [
+                    15,
+                    1
+                ]
+            ],
+            "(15, 1)-(20, 1)": [
+                [
+                    15,
+                    1
+                ],
+                [
+                    20,
+                    1
+                ]
+            ],
+            "(17, 4)-(19, 5)": [
+                [
+                    19,
+                    5
+                ],
+                [
+                    18,
+                    5
+                ],
+                [
+                    17,
+                    4
+                ]
+            ],
+            "(17, 4)-(18, 9)": [
+                [
+                    18,
+                    9
+                ],
+                [
+                    18,
+                    5
+                ],
+                [
+                    17,
+                    4
+                ]
+            ],
+            "(20, 6)-(22, 6)": [
+                [
+                    22,
+                    6
+                ],
+                [
+                    20,
+                    6
+                ]
+            ],
+            "(19, 5)-(20, 6)": [
+                [
+                    20,
+                    6
+                ],
+                [
+                    19,
+                    5
+                ]
+            ],
+            "(15, 5)-(19, 5)": [
+                [
+                    19,
+                    5
+                ],
+                [
+                    15,
+                    5
+                ]
+            ],
+            "(14, 9)-(20, 6)": [
+                [
+                    14,
+                    9
+                ],
+                [
+                    17,
+                    6
+                ],
+                [
+                    20,
+                    6
+                ]
+            ],
+            "(19, 14)-(20, 12)": [
+                [
+                    20,
+                    12
+                ],
+                [
+                    20,
+                    13
+                ],
+                [
+                    19,
+                    14
+                ]
+            ],
+            "(19, 14)-(19, 16)": [
+                [
+                    19,
+                    14
+                ],
+                [
+                    19,
+                    16
+                ]
+            ],
+            "(20, 12)-(22, 6)": [
+                [
+                    22,
+                    6
+                ],
+                [
+                    22,
+                    8
+                ],
+                [
+                    21,
+                    9
+                ],
+                [
+                    20,
+                    10
+                ],
+                [
+                    20,
+                    12
+                ]
+            ],
+            "(22, 3)-(25, 3)": [
+                [
+                    25,
+                    3
+                ],
+                [
+                    22,
+                    3
+                ]
+            ],
+            "(20, 1)-(22, 3)": [
+                [
+                    22,
+                    3
+                ],
+                [
+                    20,
+                    1
+                ]
+            ],
+            "(22, 3)-(22, 6)": [
+                [
+                    22,
+                    3
+                ],
+                [
+                    22,
+                    6
+                ]
+            ],
+            "(4, 11)-(6, 9)": [
+                [
+                    4,
+                    11
+                ],
+                [
+                    4,
+                    9
+                ],
+                [
+                    6,
+                    9
+                ]
+            ],
+            "(6, 9)-(9, 9)": [
+                [
+                    6,
+                    9
+                ],
+                [
+                    9,
+                    9
+                ]
+            ],
+            "(9, 9)-(10, 11)": [
+                [
+                    10,
+                    11
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    9,
+                    9
+                ]
+            ],
+            "(15, 5)-(17, 4)": [
+                [
+                    15,
+                    5
+                ],
+                [
+                    16,
+                    5
+                ],
+                [
+                    17,
+                    4
+                ]
+            ],
+            "(11, 6)-(16, 11)": [
+                [
+                    11,
+                    6
+                ],
+                [
+                    16,
+                    11
+                ]
+            ]
+        },
+        "border_tile_width": 0
+    },
+    {
+        "nid": "1",
         "name": "Magvel",
         "tilemap": "Magvel",
         "music": "Main Theme",

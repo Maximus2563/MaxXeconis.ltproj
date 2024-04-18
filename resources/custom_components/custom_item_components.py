@@ -129,7 +129,7 @@ class BlastAOE(ItemComponent):
 
     def splash(self, unit, item, position) -> tuple:
         ranges = set(range(self._get_power(unit)))
-        splash = target_system.find_manhattan_spheres(ranges, position[0], position[1])
+        splash = game.target_system.find_manhattan_spheres(ranges, position[0], position[1])
         splash = {pos for pos in splash if game.tilemap.check_bounds(pos)}
         from app.engine import item_system
         if item_system.is_spell(unit, item):

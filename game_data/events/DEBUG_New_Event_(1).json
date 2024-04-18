@@ -3,12 +3,13 @@
         "name": "New Event (1)",
         "trigger": "on_talk",
         "level_nid": "DEBUG",
-        "condition": "unit.nid == 'Boey' and unit2.nid == 'Angel'",
+        "condition": "unit.nid == 'Angel' and unit2.nid == 'Lucian'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "speak;;Hello there!;center;;hint;;red;;menu_bg_parchment"
+            "speak;;Hello there!;center;;hint;;red;;menu_bg_parchment",
+            "interact_unit;Aerial;Lucian;;;20;arena;force_animation"
         ]
     }
 ]

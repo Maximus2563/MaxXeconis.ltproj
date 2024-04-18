@@ -41,13 +41,13 @@
             "RES": 15
         },
         "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 10,
+            "STR": 10,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 10,
+            "SPD": 5,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 10,
             "CON": 0,
             "MOV": 0,
             "RES": 0

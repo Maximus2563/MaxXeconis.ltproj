@@ -22,7 +22,7 @@
             "speak;Leap;Now, throw down with those bandits!",
             "music_fade_back",
             "multi_remove_portrait;Mizt;Leap;Man4",
-            "separate;Wagon2",
+            "separate;Wagon2;no_warn",
             "remove_skill;Wagon2;Rescue;;no_banner",
             "change_team;Mizt;player",
             "add_unit;Mizt;Wagon2;fade;stack;fade",

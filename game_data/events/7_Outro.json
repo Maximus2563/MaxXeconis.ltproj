@@ -11,6 +11,7 @@
             "add_portrait;Bandit2;Right",
             "speak;Bandit2;Retreat! The wagons are gone!",
             "remove_portrait;Bandit2",
+            "victory_screen",
             "music;Victory United 1",
             "transition;close",
             "change_background;Village 2 Daytime",

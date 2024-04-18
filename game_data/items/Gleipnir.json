@@ -2,7 +2,7 @@
     {
         "nid": "Gleipnir",
         "name": "Gleipnir",
-        "desc": "",
+        "desc": "Grants DEF+3.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                23
+                18
             ],
             [
                 "hit",
-                80
+                70
             ],
             [
                 "weapon_type",
@@ -54,19 +54,11 @@
             ],
             [
                 "weight",
-                20
+                18
             ],
             [
                 "crit",
-                0
-            ],
-            [
-                "status_on_equip",
-                "Skill +5"
-            ],
-            [
-                "wexp",
-                3
+                5
             ],
             [
                 "min_range",
@@ -75,6 +67,27 @@
             [
                 "max_range",
                 2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    95,
+                    24,
+                    89
+                ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Apocalypse"
             ]
         ]
     }

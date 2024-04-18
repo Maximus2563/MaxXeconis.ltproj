@@ -1,0 +1,40 @@
+[
+    {
+        "name": "overworld example",
+        "trigger": null,
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_background",
+            "# This command is necessary to load the overworld tilemap",
+            "overworld_cinematic;0",
+            "# The next two commands are self-explanatory. You'll use these to manipulate overworld data.",
+            "reveal_overworld_node;0;immediate",
+            "set_overworld_position;Eirika;0",
+            "# Here are examples of overworld animations and sounds.",
+            "# Notice that they are the same as the normal tilemap commands.",
+            "transition;open;1500",
+            "wait;1000",
+            "sound;RefreshDance",
+            "map_anim;AOE_Mend;2",
+            "reveal_overworld_node;2",
+            "wait;500",
+            "sound;Mend",
+            "reveal_overworld_road;0;2",
+            "",
+            "# Because narration is more involved than dialogue, we need some different commands",
+            "# to animate the narration window in.",
+            "toggle_narration_mode;open;1000",
+            "wait;500",
+            "narrate;Narrator;Eirika and her companions have liberated the border castle.",
+            "overworld_move_unit;Eirika;2;no_block",
+            "narrate;Narrator;Alongside Princess Tana of Frelia, they ride to the Frelian Capital.",
+            "wait;500",
+            "transition;close",
+            "toggle_narration_mode;close"
+        ]
+    }
+]

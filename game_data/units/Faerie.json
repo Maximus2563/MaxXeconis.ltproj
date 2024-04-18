@@ -20,13 +20,13 @@
             "MOV": 7
         },
         "growths": {
-            "HP": 80,
-            "STR": 60,
+            "HP": 70,
+            "STR": 45,
             "MAG": 5,
             "SKL": 35,
             "SPD": 35,
             "LCK": 25,
-            "DEF": 45,
+            "DEF": 30,
             "RES": 20,
             "CON": 0,
             "MOV": 0

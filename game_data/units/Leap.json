@@ -23,13 +23,13 @@
         },
         "growths": {
             "HP": 40,
-            "STR": 55,
+            "STR": 45,
             "MAG": 45,
-            "SKL": 30,
+            "SKL": 25,
             "SPD": 40,
-            "LCK": 35,
+            "LCK": 25,
             "DEF": 20,
-            "RES": 50,
+            "RES": 40,
             "CON": 0,
             "MOV": 0
         },
@@ -126,7 +126,13 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Brightwing",
+            "SeraphKnight",
+            "ArcaneFlier",
+            "Servant",
+            "LupinTamer"
+        ],
         "portrait_nid": "Leap",
         "affinity": "Water",
         "fields": [

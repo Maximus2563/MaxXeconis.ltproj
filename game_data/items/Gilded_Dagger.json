@@ -2,7 +2,7 @@
     {
         "nid": "Gilded_Dagger",
         "name": "Gilded Dagger",
-        "desc": "Inflicts STR/MAG/SKL/SPD/DEF/RES-2 on hit.",
+        "desc": "Inflicts DEF/RES-5, SPD-3. on hit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
             4,

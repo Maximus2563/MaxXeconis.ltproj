@@ -23,11 +23,11 @@
         },
         "growths": {
             "HP": 55,
-            "STR": 35,
+            "STR": 25,
             "MAG": 30,
-            "SKL": 60,
-            "SPD": 55,
-            "LCK": 65,
+            "SKL": 55,
+            "SPD": 45,
+            "LCK": 50,
             "DEF": 35,
             "RES": 40,
             "CON": 0,
@@ -48,10 +48,6 @@
         "starting_items": [
             [
                 "Manaflaer",
-                false
-            ],
-            [
-                "Rapier",
                 false
             ],
             [

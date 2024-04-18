@@ -3,7 +3,7 @@
         "name": "WarpZashar",
         "trigger": "unit_wait",
         "level_nid": "9",
-        "condition": "get_units_in_region('WarpZashar', team='player')",
+        "condition": "any_unit_in_region('WarpZashar', team='player')",
         "commands": [],
         "only_once": true,
         "priority": 20,

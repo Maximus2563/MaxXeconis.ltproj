@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "victory_screen",
             "remove_all_units",
             "transition;close",
             "music;Reminiscences ~ Killers' Crossroads",

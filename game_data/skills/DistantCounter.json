@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DistantCounter",
+        "name": "Distant Counter",
+        "desc": "Unit can counterattack regardless of range.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            8,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "distant_counter",
+                null
+            ]
+        ]
+    }
+]

@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "victory_screen",
             "transition;close",
             "music;Suspicious Folk",
             "change_background;Inside Tent",

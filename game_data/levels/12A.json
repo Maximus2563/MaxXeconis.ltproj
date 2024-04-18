@@ -131,6 +131,13 @@
                         3
                     ]
                 }
+            },
+            {
+                "nid": "Dean",
+                "units": [
+                    "Dean"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []

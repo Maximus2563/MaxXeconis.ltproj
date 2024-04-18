@@ -61,7 +61,7 @@
     ],
     [
         "overworld",
-        false
+        true
     ],
     [
         "overworld_start",
@@ -89,6 +89,10 @@
     ],
     [
         "growth_info",
+        true
+    ],
+    [
+        "alt_growth_format",
         true
     ],
     [

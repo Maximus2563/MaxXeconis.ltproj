@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "QuickRiposte",
+        "name": "Quick Riposte",
+        "desc": "If foe initiates combat and unit's HP>50%,\nunit can make a guaranteed follow-up attack.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            10,
+            44
+        ],
+        "components": [
+            [
+                "attack_speed",
+                100
+            ]
+        ]
+    }
+]

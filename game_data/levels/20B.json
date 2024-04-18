@@ -5,7 +5,9 @@
         "tilemap": "MonsdorKeep",
         "bg_tilemap": null,
         "party": "MaxGroup",
-        "music": {},
+        "music": {
+            "player_phase": "Daley Vigil ~ The Prison Warders"
+        },
         "objective": {
             "simple": "no",
             "win": "no",
@@ -56,7 +58,7 @@
                 "nid": "Max",
                 "team": "player",
                 "ai": "None",
-                "roam_ai": null,
+                "roam_ai": "FollowXeconis",
                 "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
@@ -278,9 +280,103 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": "",
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": "",
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": "",
+                "level": 1,
+                "klass": "KnightL",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": "",
+                "level": 1,
+                "klass": "KnightL",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "interrupt",
+                "region_type": "event",
+                "position": [
+                    7,
+                    3
+                ],
+                "size": [
+                    9,
+                    8
+                ],
+                "sub_nid": "roaming_interrupt",
+                "condition": "unit.nid == 'Xeconis'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "Player",
@@ -338,13 +434,45 @@
                         16
                     ]
                 }
+            },
+            {
+                "nid": "PlayerRoam",
+                "units": [
+                    "Pit",
+                    "Demonic",
+                    "Howai",
+                    "Dark",
+                    "Lumii",
+                    "Shini"
+                ],
+                "positions": {
+                    "Pit": [
+                        17,
+                        14
+                    ],
+                    "Demonic": [
+                        20,
+                        27
+                    ],
+                    "Howai": [
+                        11,
+                        15
+                    ],
+                    "Dark": [
+                        2,
+                        25
+                    ],
+                    "Lumii": [
+                        3,
+                        25
+                    ],
+                    "Shini": [
+                        13,
+                        23
+                    ]
+                }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

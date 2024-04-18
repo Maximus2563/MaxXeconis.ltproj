@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "victory_screen",
             "transition;close",
             "music;Beneath the Banner",
             "change_background;Desert Day",

@@ -2,32 +2,32 @@
     {
         "nid": "Sages14",
         "name": "Sages",
-        "desc": "",
+        "desc": "The 14th King of Arcei.\nDying of an unknown illness.",
         "variant": "",
-        "level": 18,
+        "level": 15,
         "klass": "Archsage",
         "tags": [],
         "bases": {
-            "HP": 40,
+            "HP": 30,
             "STR": 5,
-            "MAG": 12,
+            "MAG": 19,
             "SKL": 20,
-            "SPD": 10,
+            "SPD": 16,
             "LCK": 9,
-            "DEF": 7,
-            "RES": 18,
-            "CON": 7,
+            "DEF": 5,
+            "RES": 19,
+            "CON": 8,
             "MOV": 6
         },
         "growths": {
-            "HP": 0,
+            "HP": 35,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
+            "MAG": 15,
+            "SKL": 20,
+            "SPD": 10,
+            "LCK": 15,
+            "DEF": 25,
+            "RES": 20,
             "CON": 0,
             "MOV": 0
         },
@@ -45,7 +45,11 @@
         },
         "starting_items": [
             [
-                "Excalibur",
+                "Agni",
+                false
+            ],
+            [
+                "Warp",
                 false
             ]
         ],
@@ -53,6 +57,10 @@
             [
                 1,
                 "Prodigy"
+            ],
+            [
+                1,
+                "FireResonance"
             ]
         ],
         "unit_notes": [],
@@ -110,7 +118,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Sages14",
-        "affinity": "Light",
+        "affinity": "Fire",
         "fields": []
     }
 ]

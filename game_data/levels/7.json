@@ -32,7 +32,7 @@
                 "ai_group": "",
                 "starting_position": [
                     15,
-                    7
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -44,8 +44,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    6
+                    14,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -57,7 +57,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
+                    15,
                     8
                 ],
                 "starting_traveler": null,
@@ -99,7 +99,9 @@
                 "klass": "Transporter",
                 "faction": "Villager",
                 "starting_items": [],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Rescue"
+                ],
                 "team": "other",
                 "ai": "CH7Wagon",
                 "roam_ai": null,
@@ -441,6 +443,79 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 2,
+                "klass": "Merc",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Armorslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 2,
+                "klass": "Deserter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Oberon",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -493,27 +568,27 @@
                 "positions": {
                     "Leap": [
                         15,
-                        7
-                    ],
-                    "Prof": [
-                        16,
                         6
                     ],
+                    "Prof": [
+                        14,
+                        7
+                    ],
                     "Liz": [
-                        16,
+                        15,
                         8
                     ],
                     "Wagon1": [
                         16,
                         5
                     ],
-                    "Wagon2": [
-                        16,
-                        7
-                    ],
                     "Wagon3": [
                         16,
                         9
+                    ],
+                    "Wagon2": [
+                        16,
+                        7
                     ]
                 }
             },
@@ -612,12 +687,38 @@
                         0
                     ]
                 }
+            },
+            {
+                "nid": "Rein2",
+                "units": [
+                    "113",
+                    "114",
+                    "115"
+                ],
+                "positions": {
+                    "113": [
+                        6,
+                        3
+                    ],
+                    "114": [
+                        7,
+                        4
+                    ],
+                    "115": [
+                        7,
+                        2
+                    ]
+                }
             }
         ],
         "ai_groups": [
             {
                 "nid": "Maurice",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }

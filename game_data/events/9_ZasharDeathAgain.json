@@ -12,9 +12,7 @@
             "speak;ZasharMonster;Grr... Gaurgh...",
             "sound;CyclopsCrit",
             "expression;ZasharMonster;CloseEyes",
-            "remove_portrait;ZasharMonster",
-            "",
-            ""
+            "remove_portrait;ZasharMonster"
         ]
     }
 ]

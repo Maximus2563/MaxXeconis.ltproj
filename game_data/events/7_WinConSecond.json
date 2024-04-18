@@ -1,0 +1,16 @@
+[
+    {
+        "name": "WinConSecond",
+        "trigger": "combat_end",
+        "level_nid": "7",
+        "condition": "unit2.team == 'other'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not any(unit.team == 'other' for unit in game.units if unit.position) and (game.check_alive('Wagon1') or game.check_alive('Wagon2') or game.check_alive('Wagon3'))",
+            "win_game",
+            "end"
+        ]
+    }
+]

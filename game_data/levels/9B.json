@@ -278,6 +278,22 @@
                         12
                     ]
                 }
+            },
+            {
+                "nid": "Other",
+                "units": [
+                    "Nabin",
+                    "Hogarth",
+                    "Soldier",
+                    "Merc1",
+                    "Mage",
+                    "Ballista",
+                    "Ballista2",
+                    "Cleric",
+                    "Cleric2",
+                    "Knight"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []

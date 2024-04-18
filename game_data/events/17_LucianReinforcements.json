@@ -1,0 +1,14 @@
+[
+    {
+        "name": "LucianReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "17",
+        "condition": "'{v:Reinforce}' == 'True' and any_unit_in_region('ReinforceZone', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "spawn_group;Reinforcement;east;Reinforcement;normal;closest"
+        ]
+    }
+]

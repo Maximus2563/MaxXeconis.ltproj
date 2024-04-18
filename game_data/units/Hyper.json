@@ -21,10 +21,10 @@
         },
         "growths": {
             "HP": 35,
-            "STR": 50,
+            "STR": 45,
             "MAG": 45,
-            "SKL": 45,
-            "SPD": 60,
+            "SKL": 30,
+            "SPD": 40,
             "LCK": 30,
             "DEF": 25,
             "RES": 25,
@@ -121,7 +121,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Myrmidon",
+            "Swordmaster",
+            "MortalSavant",
+            "Mage",
+            "Sage",
+            "Mage Knight"
+        ],
         "portrait_nid": "Hyper",
         "affinity": "Fire",
         "fields": [

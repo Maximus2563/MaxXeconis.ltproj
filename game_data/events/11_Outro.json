@@ -11,6 +11,8 @@
             "move_cursor;Hogarth",
             "add_portrait;Hogarth;Left",
             "speak;Hogarth;You're all useless!|No matter, they'll see retribution some day...",
+            "remove_portrait;Hogarth",
+            "victory_screen",
             "transition;close",
             "change_background;Forest 2 Evening",
             "music;Reminiscences ~ Killers' Crossroads",

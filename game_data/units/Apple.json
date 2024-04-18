@@ -21,11 +21,11 @@
         },
         "growths": {
             "HP": 40,
-            "STR": 35,
-            "MAG": 30,
-            "SKL": 45,
-            "SPD": 55,
-            "LCK": 45,
+            "STR": 30,
+            "MAG": 20,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 35,
             "DEF": 25,
             "RES": 45,
             "CON": 0,
@@ -125,7 +125,12 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Assassin",
+            "Trickster",
+            "Druid",
+            "DarkKnight"
+        ],
         "portrait_nid": "Apple",
         "affinity": "Earth",
         "fields": [

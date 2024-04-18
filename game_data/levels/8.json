@@ -747,6 +747,69 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -837,7 +900,7 @@
             },
             {
                 "nid": "Escape",
-                "region_type": "normal",
+                "region_type": "event",
                 "position": [
                     0,
                     14
@@ -846,8 +909,8 @@
                     15,
                     1
                 ],
-                "sub_nid": "",
-                "condition": "True",
+                "sub_nid": "Escape",
+                "condition": "unit.nid == 'Humphrey'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -892,9 +955,26 @@
                 }
             },
             {
-                "nid": "Enemy",
-                "units": [],
-                "positions": {}
+                "nid": "EnemyRein",
+                "units": [
+                    "123",
+                    "124",
+                    "125"
+                ],
+                "positions": {
+                    "123": [
+                        3,
+                        13
+                    ],
+                    "124": [
+                        7,
+                        13
+                    ],
+                    "125": [
+                        11,
+                        13
+                    ]
+                }
             },
             {
                 "nid": "OtherRein",
@@ -917,6 +997,10 @@
             {
                 "nid": "Top",
                 "trigger_threshold": 3
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }

@@ -6,12 +6,12 @@
         "bg_tilemap": null,
         "party": "LeapGroup",
         "music": {
-            "player_phase": "Bright Sandstorm",
-            "enemy_phase": "Bright Sandstorm",
-            "other_phase": "Bright Sandstorm",
-            "player_battle": "Bright Sandstorm",
-            "enemy_battle": "Bright Sandstorm",
-            "other_battle": "Bright Sandstorm",
+            "player_phase": "Bright, Bold Sandstorm",
+            "enemy_phase": "Bright, Bold Sandstorm",
+            "other_phase": "Bright, Bold Sandstorm",
+            "player_battle": "Bright, Bold Sandstorm",
+            "enemy_battle": "Bright, Bold Sandstorm",
+            "other_battle": "Bright, Bold Sandstorm",
             "boss_battle": "Rage in the Light"
         },
         "objective": {

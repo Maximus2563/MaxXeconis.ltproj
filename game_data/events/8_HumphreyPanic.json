@@ -3,19 +3,21 @@
         "name": "HumphreyPanic",
         "trigger": "combat_end",
         "level_nid": "8",
-        "condition": "unit.get_hp('Humphrey') =< unit.get_max_hp('Humphrey')//2",
+        "condition": "(unit.nid == 'Humphrey' and unit.get_hp() <= (unit.get_max_hp()//2)) or (unit2.nid == 'Humphrey' and unit2.get_hp() <= (unit2.get_max_hp()//2))",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "add_portrait;Humphrey;Left",
-            "speak;Humphrey;Grr... I gotta run away from these vermin!",
+            "speak;Humphrey;Eek! I gotta run away from these vermin!|Help meeeee!",
             "remove_portrait;Humphrey",
+            "wait;500",
             "change_ai;Humphrey;HumphreyEscape",
+            "move_cursor;Dean",
             "add_portrait;Dean;Right",
-            "speak;Dean;Do not let him escape!|He'll only harass more of our people!",
+            "speak;Dean;Do not let him escape!|Block the south exit!|Oterwise he'll harass more of our people!",
             "remove_portrait;Dean",
-            "add_region;EscapeBlank;0,14;1,15;normal;Escape"
+            "level_var;HumphreyRein;true"
         ]
     }
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CriticalSpiral",
+        "name": "Critical Spiral",
+        "desc": "If unit lands a critical hit, next attack gains Crit+15.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            8,
+            40
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_crit",
+                "CriticalSpiralChild"
+            ]
+        ]
+    }
+]

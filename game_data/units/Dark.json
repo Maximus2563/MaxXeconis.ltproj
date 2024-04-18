@@ -9,7 +9,7 @@
         "tags": [],
         "bases": {
             "HP": 16,
-            "STR": 0,
+            "STR": 1,
             "MAG": 5,
             "SKL": 4,
             "SPD": 5,
@@ -20,14 +20,14 @@
             "MOV": 4
         },
         "growths": {
-            "HP": 50,
+            "HP": 45,
             "STR": 30,
-            "MAG": 50,
-            "SKL": 45,
-            "SPD": 50,
-            "LCK": 50,
+            "MAG": 45,
+            "SKL": 35,
+            "SPD": 45,
+            "LCK": 40,
             "DEF": 25,
-            "RES": 40,
+            "RES": 35,
             "CON": 0,
             "MOV": 0
         },

@@ -11,22 +11,22 @@
             "HP": 18,
             "STR": 6,
             "MAG": 2,
-            "SKL": 7,
+            "SKL": 8,
             "SPD": 8,
-            "LCK": 0,
+            "LCK": 2,
             "DEF": 6,
             "RES": 0,
             "CON": 8,
             "MOV": 5
         },
         "growths": {
-            "HP": 45,
-            "STR": 35,
+            "HP": 40,
+            "STR": 25,
             "MAG": 25,
-            "SKL": 45,
-            "SPD": 55,
-            "LCK": 35,
-            "DEF": 50,
+            "SKL": 35,
+            "SPD": 45,
+            "LCK": 30,
+            "DEF": 45,
             "RES": 30,
             "CON": 0,
             "MOV": 0
@@ -36,12 +36,12 @@
             "MAG": 0,
             "MOV": 0,
             "CON": 0,
-            "STR": 0,
+            "STR": -1,
             "RES": 0,
-            "DEF": 0,
+            "DEF": 1,
             "LCK": 0,
             "SKL": 0,
-            "SPD": 0
+            "SPD": 1
         },
         "starting_items": [
             [
@@ -53,7 +53,7 @@
                 false
             ],
             [
-                "Thunder",
+                "Shine",
                 false
             ],
             [
@@ -129,7 +129,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Myrmidon",
+            "Swordmaster",
+            "MortalSavant",
+            "MercFemale",
+            "Hero",
+            "Spartan"
+        ],
         "portrait_nid": "Liz",
         "affinity": "Dark",
         "fields": [

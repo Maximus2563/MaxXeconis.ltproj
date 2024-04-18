@@ -10,6 +10,16 @@
         ]
     },
     {
+        "nid": "Palushin",
+        "name": "Palushin",
+        "desc": "The army of Palushin, a mining country.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Aurelia",
         "name": "Aurelia",
         "desc": "The army of Aurelia, the largest nation on the entire continent.",
@@ -93,6 +103,16 @@
         "nid": "Monster",
         "name": "Monster",
         "desc": "A grotesque creature created by magic and born in darkness.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Cultist",
+        "name": "Cultist",
+        "desc": "A mysterious cultist who ignores societal norms.",
         "icon_nid": "MonsterEmblem",
         "icon_index": [
             0,

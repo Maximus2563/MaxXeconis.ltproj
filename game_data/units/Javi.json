@@ -20,13 +20,13 @@
             "MOV": 6
         },
         "growths": {
-            "HP": 75,
-            "STR": 35,
+            "HP": 70,
+            "STR": 25,
             "MAG": 25,
-            "SKL": 30,
-            "SPD": 40,
-            "LCK": 25,
-            "DEF": 40,
+            "SKL": 20,
+            "SPD": 30,
+            "LCK": 20,
+            "DEF": 30,
             "RES": 25,
             "CON": 0,
             "MOV": 0
@@ -129,7 +129,12 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Hero",
+            "Spartan",
+            "Paladin",
+            "Mage Knight"
+        ],
         "portrait_nid": "Javi",
         "affinity": "Water",
         "fields": [

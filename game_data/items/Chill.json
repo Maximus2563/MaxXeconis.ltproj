@@ -90,6 +90,10 @@
                     "ChillAttacks",
                     "ChillChilling"
                 ]
+            ],
+            [
+                "battle_cast_anim",
+                "Iceshock"
             ]
         ]
     }

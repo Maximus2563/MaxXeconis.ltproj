@@ -21,13 +21,13 @@
         },
         "growths": {
             "HP": 65,
-            "STR": 55,
+            "STR": 45,
             "MAG": 15,
-            "SKL": 45,
-            "SPD": 40,
-            "LCK": 35,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
             "DEF": 35,
-            "RES": 30,
+            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
@@ -122,6 +122,9 @@
             ]
         },
         "alternate_classes": [
+            "Archer",
+            "Sniper",
+            "Ranger",
             "Priest",
             "Bishop",
             "War Monk"

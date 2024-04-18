@@ -25,8 +25,7 @@
             "sound;Death",
             "show_layer;House1",
             "change_background",
-            "transition;Open",
-            ""
+            "transition;Open"
         ]
     }
 ]

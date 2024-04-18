@@ -901,6 +901,16 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "SkillCH3",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -1154,6 +1164,39 @@
                         12
                     ]
                 }
+            },
+            {
+                "nid": "Enemy",
+                "units": [
+                    "Barnabus",
+                    "101",
+                    "119",
+                    "120",
+                    "102",
+                    "103",
+                    "122",
+                    "104",
+                    "105",
+                    "118",
+                    "106",
+                    "121",
+                    "114",
+                    "107",
+                    "116",
+                    "108",
+                    "109",
+                    "126",
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "115",
+                    "123",
+                    "117",
+                    "124",
+                    "125"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": [

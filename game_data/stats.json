@@ -10,7 +10,7 @@
     {
         "nid": "STR",
         "name": "Str",
-        "maximum": 30,
+        "maximum": 32,
         "desc": "Strength. The higher the number, the more damage you inflict.",
         "position": "left",
         "growth_colors": false
@@ -18,7 +18,7 @@
     {
         "nid": "MAG",
         "name": "Mag",
-        "maximum": 30,
+        "maximum": 33,
         "desc": "Magical power. Increases spell and staff effectiveness.",
         "position": "left",
         "growth_colors": false
@@ -26,7 +26,7 @@
     {
         "nid": "SKL",
         "name": "Skill",
-        "maximum": 30,
+        "maximum": 33,
         "desc": "Fighting skill. A higher number improves accuracy.",
         "position": "left",
         "growth_colors": false
@@ -34,7 +34,7 @@
     {
         "nid": "SPD",
         "name": "Spd",
-        "maximum": 30,
+        "maximum": 33,
         "desc": "This affects both evasion and attack speed.",
         "position": "left",
         "growth_colors": false
@@ -42,7 +42,7 @@
     {
         "nid": "LCK",
         "name": "Luck",
-        "maximum": 30,
+        "maximum": 33,
         "desc": "Luck affects many things.",
         "position": "left",
         "growth_colors": false
@@ -50,7 +50,7 @@
     {
         "nid": "DEF",
         "name": "Def",
-        "maximum": 30,
+        "maximum": 33,
         "desc": "Reduces damage from weapons.",
         "position": "left",
         "growth_colors": false
@@ -58,7 +58,7 @@
     {
         "nid": "RES",
         "name": "Res",
-        "maximum": 30,
+        "maximum": 33,
         "desc": "Reduces damage from magic.",
         "position": "left",
         "growth_colors": false

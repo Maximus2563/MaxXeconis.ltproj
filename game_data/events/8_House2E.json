@@ -24,9 +24,7 @@
             "transition;Open",
             "add_unit;121;{unit};fade;stack;fade",
             "move_group;OtherRein;OtherRein;normal;closest;no_follow",
-            "change_team;121;enemy",
-            "",
-            ""
+            "change_team;121;enemy"
         ]
     }
 ]

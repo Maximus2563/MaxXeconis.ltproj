@@ -2,7 +2,7 @@
     {
         "nid": "LightShift",
         "name": "Light Shift",
-        "desc": "Unit can use light magic instead of anima magic.",
+        "desc": "If unit's class can use anima, but not light magic,\nunit can use light magic instead of anima magic.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             7,
@@ -20,6 +20,10 @@
             [
                 "wexp_unusable_skill",
                 "Anima"
+            ],
+            [
+                "condition",
+                "unit.klass == 'Trickster' or unit.klass == 'Druid'"
             ]
         ]
     }

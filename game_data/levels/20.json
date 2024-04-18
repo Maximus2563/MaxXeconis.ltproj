@@ -53,7 +53,7 @@
                 "roam_ai": null,
                 "ai_group": "Jason",
                 "starting_position": [
-                    3,
+                    5,
                     6
                 ],
                 "starting_traveler": null,
@@ -62,7 +62,7 @@
             {
                 "nid": "Blu",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -90,7 +90,7 @@
                 "roam_ai": null,
                 "ai_group": "Jason",
                 "starting_position": [
-                    4,
+                    6,
                     7
                 ],
                 "starting_traveler": null,
@@ -115,7 +115,7 @@
                 "ai_group": "Jason",
                 "starting_position": [
                     5,
-                    6
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true

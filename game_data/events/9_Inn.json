@@ -16,6 +16,7 @@
             "add_portrait;Siri;Right",
             "speak;Siri;Hello?|Monsters... like... revenants...",
             "speak;{unit};Sure, we're fighting them.",
+            "music;Guest of Shade",
             "speak;Siri;Oh... Mind if I tag along...|Oh yes... This'll be good...",
             "speak;{unit};Sure...",
             "speak;Siri;Siri, at your service...|Sorry if I get... lost in my own world out there.",
@@ -27,7 +28,8 @@
             "move_unit;Siri;10,5;normal;closest;no_follow",
             "change_team;Siri;player",
             "reset;Siri",
-            "remove_region;Inn"
+            "remove_region;Inn",
+            "music_fade_back"
         ]
     }
 ]

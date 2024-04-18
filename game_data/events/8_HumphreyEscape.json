@@ -3,7 +3,7 @@
         "name": "HumphreyEscape",
         "trigger": "unit_wait",
         "level_nid": "8",
-        "condition": "any_unit_in_region('Escape', nid='Humphrey')",
+        "condition": "any_unit_in_region('Village', nid='Humphrey')",
         "commands": [],
         "only_once": false,
         "priority": 20,

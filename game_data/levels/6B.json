@@ -702,6 +702,37 @@
                         21
                     ]
                 }
+            },
+            {
+                "nid": "Everyone",
+                "units": [
+                    "Sal",
+                    "Frost",
+                    "Landros",
+                    "Aerial",
+                    "Smoke",
+                    "Maro",
+                    "Pikno",
+                    "Roag",
+                    "Nako",
+                    "Pykroe",
+                    "Hyper",
+                    "Guy",
+                    "Blazing",
+                    "Sages",
+                    "Sages14",
+                    "Javi",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "Guard",
+                    "Boey",
+                    "Morshu",
+                    "Snow"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []

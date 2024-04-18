@@ -22,12 +22,12 @@
         "growths": {
             "HP": 65,
             "STR": 30,
-            "MAG": 50,
-            "SKL": 30,
-            "SPD": 25,
-            "LCK": 60,
+            "MAG": 35,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 55,
             "DEF": 30,
-            "RES": 35,
+            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
@@ -125,7 +125,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Warrior",
+            "Berserker",
+            "Brigand",
+            "Mage",
+            "Sage",
+            "Mage Knight"
+        ],
         "portrait_nid": "Angel",
         "affinity": "Dark",
         "fields": [

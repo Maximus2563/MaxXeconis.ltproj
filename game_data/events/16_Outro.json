@@ -12,6 +12,7 @@
             "add_portrait;Leap;Left",
             "speak;Leap;They're retreating! Hah!|Take that Monsdor!",
             "remove_portrait;Leap",
+            "victory_screen",
             "transition;close",
             "remove_all_units",
             "move_cursor;5,3",

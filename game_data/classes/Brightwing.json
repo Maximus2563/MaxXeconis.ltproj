@@ -7,7 +7,8 @@
         "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [
-            "SeraphKnight"
+            "SeraphKnight",
+            "ArcaneFlier"
         ],
         "tags": [
             "Mounted",
@@ -29,24 +30,24 @@
         "growths": {
             "HP": 55,
             "STR": 15,
-            "MAG": 40,
+            "MAG": 25,
             "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
+            "SPD": 35,
+            "LCK": 30,
             "DEF": 12,
-            "RES": 40,
+            "RES": 35,
             "CON": 0,
             "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
             "STR": 0,
-            "MAG": 0,
+            "MAG": 15,
             "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
+            "SPD": 10,
+            "LCK": 10,
             "DEF": 0,
-            "RES": 0,
+            "RES": 5,
             "CON": 0,
             "MOV": 0
         },

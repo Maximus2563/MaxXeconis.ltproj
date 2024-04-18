@@ -237,6 +237,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Lucian",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -268,6 +281,83 @@
                     "Sal": [
                         11,
                         12
+                    ]
+                }
+            },
+            {
+                "nid": "Other",
+                "units": [
+                    "Elias",
+                    "Oberon",
+                    "Jevil",
+                    "Cres",
+                    "Cornelius",
+                    "101",
+                    "102",
+                    "103",
+                    "Jeremiah",
+                    "Argento",
+                    "SkillCH3",
+                    "Esteban",
+                    "EmelinePrincess",
+                    "Lucian"
+                ],
+                "positions": {
+                    "Elias": [
+                        7,
+                        2
+                    ],
+                    "Oberon": [
+                        1,
+                        12
+                    ],
+                    "Jevil": [
+                        3,
+                        12
+                    ],
+                    "Cres": [
+                        13,
+                        12
+                    ],
+                    "Cornelius": [
+                        4,
+                        9
+                    ],
+                    "101": [
+                        10,
+                        9
+                    ],
+                    "102": [
+                        5,
+                        10
+                    ],
+                    "103": [
+                        9,
+                        10
+                    ],
+                    "Jeremiah": [
+                        6,
+                        3
+                    ],
+                    "Argento": [
+                        8,
+                        3
+                    ],
+                    "SkillCH3": [
+                        2,
+                        5
+                    ],
+                    "Esteban": [
+                        12,
+                        5
+                    ],
+                    "EmelinePrincess": [
+                        3,
+                        5
+                    ],
+                    "Lucian": [
+                        11,
+                        5
                     ]
                 }
             }

@@ -90,6 +90,21 @@
         "status": null
     },
     {
+        "nid": "4Alt",
+        "name": "Drawbridge",
+        "color": [
+            120,
+            120,
+            90
+        ],
+        "minimap": "Bridge",
+        "platform": "Bridge",
+        "background": null,
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "5",
         "name": "Stairs",
         "color": [
@@ -504,7 +519,7 @@
         ],
         "minimap": "Shop",
         "platform": "Arena",
-        "background": null,
+        "background": "combat_arena",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -668,7 +683,7 @@
             123
         ],
         "minimap": "Wall",
-        "platform": "Arena",
+        "platform": "Deck",
         "background": "Cliff",
         "mtype": "Wall",
         "opaque": false,
@@ -761,7 +776,37 @@
         "platform": "Mountain",
         "background": null,
         "mtype": "Fence",
-        "opaque": true,
+        "opaque": false,
         "status": null
+    },
+    {
+        "nid": "Ballista",
+        "name": "Ballista",
+        "color": [
+            250,
+            138,
+            0
+        ],
+        "minimap": "Fort",
+        "platform": "Arena",
+        "background": null,
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "SpreadBallistaSkill"
+    },
+    {
+        "nid": "FireOrb",
+        "name": "Fire Orb",
+        "color": [
+            250,
+            138,
+            0
+        ],
+        "minimap": "Fort",
+        "platform": "Arena",
+        "background": null,
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "FireOrbSkill"
     }
 ]

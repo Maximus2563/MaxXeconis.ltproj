@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ThroneReject",
+        "trigger": "roaming_interrupt",
+        "level_nid": "20B",
+        "condition": "region.nid == 'interrupt'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Xeconis;Left",
+            "speak;Xeconis;Probably best to be so obvious...;;;thought_bubble;no_talk",
+            "remove_portrait;Xeconis",
+            "move_unit;Xeconis;11,12",
+            "move_unit;Max;11,13;no_follow",
+            "wait;100",
+            "add_region;interrupt;7,3;8,8;event;roaming_interrupt;only_once;interrupt_move"
+        ]
+    }
+]

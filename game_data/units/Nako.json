@@ -22,12 +22,12 @@
         "growths": {
             "HP": 40,
             "STR": 30,
-            "MAG": 45,
+            "MAG": 35,
             "SKL": 45,
-            "SPD": 50,
-            "LCK": 40,
+            "SPD": 45,
+            "LCK": 30,
             "DEF": 20,
-            "RES": 40,
+            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
@@ -117,7 +117,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Cleric",
+            "Bishop",
+            "War Cleric",
+            "Troubadour",
+            "Valkyrie",
+            "Holy Knight"
+        ],
         "portrait_nid": "Nako",
         "affinity": "Earth",
         "fields": [

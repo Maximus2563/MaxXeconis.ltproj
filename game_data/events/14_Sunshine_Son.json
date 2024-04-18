@@ -13,7 +13,7 @@
             "multi_add_portrait;Leap;Left;Blazing;Right",
             "speak;Blazing;Hello there, Leap.",
             "speak;Leap;Blazing...",
-            "speak;Blazing;Are you feeling well, the sun is rather hot.",
+            "speak;Blazing;Are you feeling well...? The sun is rather hot.",
             "speak;Leap;You're fine...?",
             "speak;Blazing;Well, I suppose I am.|My faith in the Goddess seems to shield my thoughts of pain...",
             "speak;Leap;I was a believer once, but never again.",
@@ -23,7 +23,7 @@
             "speak;Leap;Makes sense, I guess.",
             "speak;Blazing;We must all strive to do better.|That's why I'm resolved to helping you.",
             "speak;Leap;Thanks...",
-            "give_exp;Blazing;45",
+            "give_exp;Blazing;35",
             "ignore_base_convo;Sunshine Son",
             "change_background",
             "music_fade_back"

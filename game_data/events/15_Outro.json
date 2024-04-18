@@ -1,13 +1,14 @@
 [
     {
         "name": "Outro",
-        "trigger": null,
+        "trigger": "level_end",
         "level_nid": "15",
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
+            "victory_screen",
             "transition;close",
             "music;Lingering Clouds",
             "change_background;Desert Storeroom",
@@ -35,8 +36,8 @@
             "speak;Leap;Sages might need help...|But, Monsdor out of the picture helps us both...",
             "speak;Prof;Is this more for Sages, or for revenge...?",
             "speak;Leap;Does it matter? They deserve it anyway!",
-            "speak;Ahmari;Revenge is a fools game.|That being said, a true warrior must fight to the end!",
-            "speak;Joker;Fight we shall!",
+            "speak;Ahmari;Revenge is a fools game.|That being said, a true warrior must fight to the end!|Once I am strong again, I will lend my aid.|I will assemble the rest of the tribe, I swear it!",
+            "speak;Joker;Fight we shall, for the pride of the Za'hul!",
             "speak;Leap;Alright, let's go... to Monsdor!",
             "transition;close",
             "if;game.turncount < 12",

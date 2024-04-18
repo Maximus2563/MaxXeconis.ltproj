@@ -12,7 +12,7 @@
         ],
         "bases": {
             "HP": 28,
-            "STR": 11,
+            "STR": 10,
             "MAG": 15,
             "SKL": 16,
             "SPD": 9,
@@ -24,13 +24,13 @@
         },
         "growths": {
             "HP": 40,
-            "STR": 45,
-            "MAG": 50,
-            "SKL": 60,
+            "STR": 30,
+            "MAG": 35,
+            "SKL": 55,
             "SPD": 20,
             "LCK": 25,
-            "DEF": 30,
-            "RES": 40,
+            "DEF": 20,
+            "RES": 35,
             "CON": 0,
             "MOV": 0
         },
@@ -123,7 +123,12 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Paladin",
+            "Great_Knight",
+            "Druid",
+            "DarkKnight"
+        ],
         "portrait_nid": "Sal",
         "affinity": "Water",
         "fields": [

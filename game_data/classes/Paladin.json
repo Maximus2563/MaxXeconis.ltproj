@@ -25,28 +25,28 @@
             "RES": 4
         },
         "growths": {
-            "HP": 70,
-            "STR": 25,
+            "HP": 60,
+            "STR": 15,
             "MAG": 12,
-            "SKL": 30,
-            "SPD": 25,
+            "SKL": 20,
+            "SPD": 20,
             "LCK": 25,
-            "DEF": 15,
+            "DEF": 10,
             "CON": 0,
             "MOV": 0,
             "RES": 20
         },
         "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 10,
+            "STR": 10,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 10,
+            "SPD": 5,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 10,
             "CON": 0,
             "MOV": 0,
-            "RES": 0
+            "RES": 5
         },
         "promotion": {
             "HP": 2,

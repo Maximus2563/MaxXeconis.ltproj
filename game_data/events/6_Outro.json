@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "victory_screen",
             "transition;Close",
             "change_background;Temple",
             "music;72 The Wistful Wilds",

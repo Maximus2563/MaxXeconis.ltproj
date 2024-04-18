@@ -23,19 +23,9 @@
         },
         "roam": false,
         "roam_unit": null,
-        "go_to_overworld": true,
+        "go_to_overworld": false,
         "should_record": true,
         "units": [
-            {
-                "nid": "Landros",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
             {
                 "nid": "Sal",
                 "team": "player",
@@ -47,7 +37,7 @@
                 "generic": false
             },
             {
-                "nid": "Smoke",
+                "nid": "Aerial",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -57,7 +47,17 @@
                 "generic": false
             },
             {
-                "nid": "Aerial",
+                "nid": "Landros",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Smoke",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -345,7 +345,7 @@
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     6,
                     10
@@ -622,9 +622,9 @@
             {
                 "nid": "Player",
                 "units": [
-                    "Landros",
                     "Sal",
                     "Aerial",
+                    "Landros",
                     "Smoke",
                     "Roag"
                 ],

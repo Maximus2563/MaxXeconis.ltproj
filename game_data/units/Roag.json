@@ -20,13 +20,13 @@
             "MOV": 7
         },
         "growths": {
-            "HP": 70,
-            "STR": 35,
+            "HP": 60,
+            "STR": 25,
             "MAG": 10,
-            "SKL": 35,
-            "SPD": 60,
+            "SKL": 25,
+            "SPD": 55,
             "LCK": 40,
-            "DEF": 40,
+            "DEF": 30,
             "RES": 25,
             "CON": 0,
             "MOV": 0
@@ -121,7 +121,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Soldier",
+            "Halberdier",
+            "Spartan",
+            "LanceCavalier",
+            "Paladin",
+            "Great_Knight"
+        ],
         "portrait_nid": "Roag",
         "affinity": "Thunder",
         "fields": [

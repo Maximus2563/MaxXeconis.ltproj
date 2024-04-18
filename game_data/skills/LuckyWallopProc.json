@@ -14,12 +14,15 @@
                 null
             ],
             [
-                "attack_proc",
-                "LuckyWallop"
-            ],
-            [
                 "proc_rate",
                 "CRIT_AVOID"
+            ],
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 1,
+                    "damage_percent": 1.0
+                }
             ]
         ]
     }

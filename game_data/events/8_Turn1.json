@@ -22,9 +22,7 @@
             "speak;Aspl;I've never been wrong in my life.",
             "speak;Leap;Crazy! Well, let's get those guys before they do something mean!",
             "multi_remove_portrait;Aspl;Leap",
-            "end",
-            "",
-            ""
+            "end"
         ]
     }
 ]

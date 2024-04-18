@@ -20,13 +20,13 @@
             "MOV": 4
         },
         "growths": {
-            "HP": 67,
-            "STR": 37,
-            "MAG": 29,
-            "SKL": 43,
+            "HP": 53,
+            "STR": 29,
+            "MAG": 31,
+            "SKL": 37,
             "SPD": 3,
-            "LCK": 31,
-            "DEF": 61,
+            "LCK": 29,
+            "DEF": 41,
             "RES": 43,
             "CON": 0,
             "MOV": 0
@@ -125,7 +125,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "KnightB",
+            "General",
+            "Baron",
+            "Mage",
+            "Sage",
+            "Mage Knight"
+        ],
         "portrait_nid": "Prof",
         "affinity": "Light",
         "fields": [

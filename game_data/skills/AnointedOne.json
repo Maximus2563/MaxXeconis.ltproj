@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AnointedOne",
+        "name": "Anointed One",
+        "desc": "When unit is defeated, they are revived with full HP.\nCan be used twice.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            7,
+            52
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "full_miracle",
+                null
+            ],
+            [
+                "drain_charge",
+                2
+            ]
+        ]
+    }
+]

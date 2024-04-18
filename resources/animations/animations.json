@@ -284,7 +284,7 @@
         "frame_y": 1,
         "num_frames": 11,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -302,7 +302,7 @@
         "frame_y": 2,
         "num_frames": 7,
         "speed": 150,
-        "frame_times": "9,9,9,9,9,9,9",
+        "frame_times": "9,9,9,9,9,9,9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -311,7 +311,7 @@
         "frame_y": 1,
         "num_frames": 11,
         "speed": 150,
-        "frame_times": "9,9,9,9,9,9,9,9,9,9,9",
+        "frame_times": "9,9,9,9,9,9,9,9,9,9,9,1",
         "use_frame_time": false
     },
     {
@@ -338,7 +338,7 @@
         "frame_y": 1,
         "num_frames": 6,
         "speed": 50,
-        "frame_times": "3,3,3,3,3,3",
+        "frame_times": "3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -347,7 +347,7 @@
         "frame_y": 4,
         "num_frames": 17,
         "speed": 68,
-        "frame_times": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+        "frame_times": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -446,7 +446,7 @@
         "frame_y": 1,
         "num_frames": 3,
         "speed": 150,
-        "frame_times": "9,9,9",
+        "frame_times": "9,9,9,1,1,1",
         "use_frame_time": false
     },
     {
@@ -473,7 +473,7 @@
         "frame_y": 2,
         "num_frames": 9,
         "speed": 48,
-        "frame_times": "3,3,3,3,3,3,3,3,3",
+        "frame_times": "3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -482,7 +482,7 @@
         "frame_y": 1,
         "num_frames": 11,
         "speed": 150,
-        "frame_times": "9,9,9,9,9,9,9,9,9,9,9",
+        "frame_times": "9,9,9,9,9,9,9,9,9,9,9,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -545,7 +545,7 @@
         "frame_y": 1,
         "num_frames": 12,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -563,7 +563,7 @@
         "frame_y": 1,
         "num_frames": 12,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -572,7 +572,7 @@
         "frame_y": 1,
         "num_frames": 12,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -599,7 +599,7 @@
         "frame_y": 1,
         "num_frames": 12,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -626,7 +626,7 @@
         "frame_y": 4,
         "num_frames": 20,
         "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23,1",
         "use_frame_time": true
     },
     {
@@ -635,7 +635,25 @@
         "frame_y": 1,
         "num_frames": 1,
         "speed": 75,
-        "frame_times": "1",
+        "frame_times": "1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Ballista",
+        "frame_x": 1,
+        "frame_y": 4,
+        "num_frames": 4,
+        "speed": 75,
+        "frame_times": "20,10,20,10,1",
+        "use_frame_time": true
+    },
+    {
+        "nid": "FireOrb",
+        "frame_x": 1,
+        "frame_y": 4,
+        "num_frames": 4,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1",
         "use_frame_time": false
     }
 ]

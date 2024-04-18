@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CloseCounter",
+        "name": "Close Counter",
+        "desc": "Unit can counterattack at 1 range.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            9,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "close_counter",
+                null
+            ]
+        ]
+    }
+]

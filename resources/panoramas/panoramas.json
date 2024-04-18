@@ -1,6 +1,6 @@
 [
     [
-        "Arena",
+        "ArenaOutside",
         1
     ],
     [
@@ -977,6 +977,10 @@
     ],
     [
         "Boat",
+        1
+    ],
+    [
+        "combat_arena",
         1
     ]
 ]

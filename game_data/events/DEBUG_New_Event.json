@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "speak;Emeline;What if they want the crown, I can't die yet!|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! How could she allow this?!|No, the only Goddess that exists in this realm, is me!"
+            "speak;Emeline;What if they want the crown, I can't die yet!|I won't let anyone undermine me, not even family...|All of these teachings, scriptures, the Goddess...|It's all meaningless! How could she allow this?!|No, the only Goddess that exists in this realm, is me!",
+            "prep;;Shops;Skills;True;SkillLol"
         ]
     }
 ]

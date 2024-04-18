@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ThroneAccept",
+        "trigger": "roaming_interrupt",
+        "level_nid": "20B",
+        "condition": "region.nid == 'throne'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;15,0",
+            "multi_add_portrait;CorneliusA;Left;Oberon;Right",
+            "speak;CorneliusA;So, preparations to move King Sages are underway?",
+            "speak;Oberon;Yes, he will be fresh meat for her Majesty.",
+            "speak;CorneliusA;Monsdor have been invaluable in providing aid.|As well as the ambush on Arcei.|My question, how did you do it?",
+            "speak;Oberon;Grahment's a joke and Duke Hogarth is weak.|He will bend like a twig if you promise him power.",
+            "speak;CorneliusA;So he allowed you passage around the coast...",
+            "speak;Oberon;After that, it was simple.|King Sages is ineffectual, he is barely prepared for anything...|It appears we have two eavesdroppers?",
+            "multi_remove_portrait;CorneliusA;Oberon",
+            "move_unit;Xeconis;10,5;;closest;no_block;",
+            "move_unit;Max;12,5;no_follow",
+            "multi_add_portrait;Max;FarLeft;Xeconis;MidLeft;CorneliusA;FarRight;Oberon;MidRight",
+            "s;Xeconis;Forgive us, your Majesty.|We were just wishing to prepare the King ourselves.",
+            "s;Oberon;You don't trust Monsdor's transportation?",
+            "s;Max;In truth, we just want to rough up the bastard!|Right, Xeconis?",
+            "s;Xeconis;Of course.|Aurelia needs vengeance.|Her Majesty can't have all the fun.",
+            "s;CorneliusA;A rather uncharacteristic request of you two...",
+            "s;Oberon;Go ahead.",
+            "s;Xeconis;Thank you, your Majesty.",
+            "s;Oberon;However, I wish to observe.",
+            "s;Max;Uh, of course!",
+            "s;Xeconis;Alright...",
+            "s;Oberon;Let's go, what say you, Archbishop?|Then we can begin right away.",
+            "s;CorneliusA;I'll wait outside.|I don't wish to bloody my robes."
+        ]
+    }
+]

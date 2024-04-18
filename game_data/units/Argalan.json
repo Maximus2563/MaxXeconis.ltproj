@@ -1,0 +1,98 @@
+[
+    {
+        "nid": "Argalan",
+        "name": "Argalan",
+        "desc": "Father of Xeconis and an incredibly powerful magician.",
+        "variant": "Athos",
+        "level": 20,
+        "klass": "Archsage",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "STR": 16,
+            "MAG": 33,
+            "SKL": 24,
+            "SPD": 19,
+            "LCK": 10,
+            "DEF": 16,
+            "RES": 23,
+            "CON": 12,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 0,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 15,
+            "DEF": 25,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 3,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Vayu",
+                false
+            ],
+            [
+                "Aura",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "FocusedCaster"
+            ],
+            [
+                1,
+                "WindResonance"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Light": [
+                false,
+                251,
+                null
+            ],
+            "Anima": [
+                false,
+                251,
+                null
+            ],
+            "Dark": [
+                false,
+                181,
+                null
+            ],
+            "Staff": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Argalan",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

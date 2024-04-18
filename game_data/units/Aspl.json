@@ -20,16 +20,16 @@
             "RES": 0
         },
         "growths": {
-            "HP": 42,
-            "STR": 50,
+            "HP": 45,
+            "STR": 40,
             "MAG": 10,
-            "SKL": 20,
-            "SPD": 25,
+            "SKL": 10,
+            "SPD": 20,
             "LCK": 113,
-            "DEF": 35,
+            "DEF": 25,
             "CON": 0,
             "MOV": 0,
-            "RES": 30
+            "RES": 20
         },
         "stat_cap_modifiers": {
             "HP": 0,

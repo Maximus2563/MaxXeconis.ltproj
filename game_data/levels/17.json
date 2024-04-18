@@ -218,7 +218,7 @@
             },
             {
                 "nid": "Escort3",
-                "variant": null,
+                "variant": "Female",
                 "level": 1,
                 "klass": "Troubadour",
                 "faction": "Aurelia",
@@ -234,7 +234,7 @@
             },
             {
                 "nid": "Escort4",
-                "variant": null,
+                "variant": "Female",
                 "level": 1,
                 "klass": "Troubadour",
                 "faction": "Aurelia",
@@ -764,7 +764,7 @@
             },
             {
                 "nid": "Rein4",
-                "variant": null,
+                "variant": "",
                 "level": 11,
                 "klass": "Troubadour",
                 "faction": "Aurelia",
@@ -878,6 +878,16 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Boat",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -1050,6 +1060,40 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Gate",
+                "region_type": "normal",
+                "position": [
+                    7,
+                    0
+                ],
+                "size": [
+                    20,
+                    10
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "ReinforceZone",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    0
+                ],
+                "size": [
+                    13,
+                    6
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -1111,6 +1155,44 @@
                         8
                     ]
                 }
+            },
+            {
+                "nid": "Beginning",
+                "units": [
+                    "MaxCH17",
+                    "XeconisCH17",
+                    "Talia",
+                    "101",
+                    "102",
+                    "103",
+                    "PitCH17",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "113",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118",
+                    "121",
+                    "119",
+                    "120",
+                    "Timothy",
+                    "122",
+                    "123",
+                    "124",
+                    "125",
+                    "Sages",
+                    "Sal"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": [

@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "victory_screen",
             "change_background;Village 6 Day",
             "multi_add_portrait;Leap;Left;Prof;Right",
             "speak;Prof;Looks like the monsters are all disintegrating...",

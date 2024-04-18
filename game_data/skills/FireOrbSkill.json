@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FireOrbSkill",
+        "name": "FireOrbSkill",
+        "desc": "",
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "icon_index": [
+            27,
+            4
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "FireOrb"
+            ]
+        ]
+    }
+]

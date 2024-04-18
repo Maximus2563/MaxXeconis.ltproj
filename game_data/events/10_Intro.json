@@ -103,7 +103,8 @@
             "move_item;Prof;101;no_warn",
             "move_item;Prof;109;no_warn",
             "move_item;Prof;101;no_warn",
-            "add_talk;Leap;Prof"
+            "add_talk;Leap;Prof",
+            "add_talk;Leap;Nabin"
         ]
     }
 ]

@@ -16,6 +16,7 @@
             "speak;Leap;You were already here...?",
             "speak;Shoop;Look, does it matter?",
             "speak;Leap;I guess not.",
+            "expression;Shoop;Smile",
             "speak;Shoop;Oh, the rain is ruining your hair by the way!{c:bop_portrait;Shoop} Kehahaha!",
             "remove_portrait;Shoop",
             "speak;Leap;Uhm, wait, what?! My hair looks the same as always!",

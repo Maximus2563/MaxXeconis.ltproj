@@ -1,0 +1,17 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "unit_death",
+        "level_nid": "7",
+        "condition": "unit.nid == 'Maurice'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Maurice;Right",
+            "speak;Maurice;I only wanted... money...",
+            "expression;Maurice;CloseEyes",
+            "remove_portrait;Maurice"
+        ]
+    }
+]

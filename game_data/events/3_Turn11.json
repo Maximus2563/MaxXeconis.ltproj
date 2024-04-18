@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Turn11",
+        "trigger": "enemy_turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "spawn_group;SkillEsteban;north;SkillEsteban;normal;stack",
+            "add_tag;SkillCH3;Boss",
+            "add_tag;Esteban;Boss",
+            "change_ai;SkillCH3;Pursue",
+            "change_ai;Esteban;Pursue",
+            "multi_add_portrait;Skill;Left;Esteban;Right",
+            "speak;Skill;Now we have put his highness to rest...|Where are they... WHERE ARE THEY?",
+            "speak;Esteban;It appears these people are trying to flee, huh.",
+            "speak;Skill;Grr...GAH!|I will have their heads!|Nobody makes her Highness cry and lives to tell the tale!",
+            "speak;Esteban;Oh look, rain... Seems the Goddess is crying...|Sir Skill, try to keep your cool, eh?|If these guys are dangerous, we want to be ready.",
+            "speak;Skill;Arcein scum...|I'll show them who's dangerous!",
+            "multi_remove_portrait;Skill;Esteban"
+        ]
+    }
+]

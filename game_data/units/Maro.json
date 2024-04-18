@@ -20,13 +20,13 @@
             "MOV": 5
         },
         "growths": {
-            "HP": 70,
-            "STR": 60,
+            "HP": 65,
+            "STR": 50,
             "MAG": 5,
-            "SKL": 50,
-            "SPD": 35,
-            "LCK": 40,
-            "DEF": 40,
+            "SKL": 40,
+            "SPD": 25,
+            "LCK": 35,
+            "DEF": 35,
             "RES": 20,
             "CON": 0,
             "MOV": 0
@@ -116,7 +116,13 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Merc",
+            "Hero",
+            "Soldier",
+            "Halberdier",
+            "Spartan"
+        ],
         "portrait_nid": "Maro",
         "affinity": "Wind",
         "fields": [

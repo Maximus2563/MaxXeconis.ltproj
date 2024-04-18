@@ -26,8 +26,7 @@
             "music_fade_back",
             "change_team;Chess;player",
             "change_ai;Chess;None",
-            "multi_remove_portrait;Leap;Chess",
-            ""
+            "multi_remove_portrait;Leap;Chess"
         ]
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Parashu",
         "name": "Parashu",
-        "desc": "STR+3. Effective against monsters.",
+        "desc": "Grants STR+3. ",
         "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
         "icon_index": [
             1,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                20
+                19
             ],
             [
                 "hit",
@@ -50,11 +50,7 @@
             ],
             [
                 "weight",
-                15
-            ],
-            [
-                "status_on_equip",
-                "Strength_plus3"
+                18
             ],
             [
                 "crit",
@@ -69,15 +65,13 @@
                 1
             ],
             [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Monster"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true
-                }
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ]
+                ]
             ]
         ]
     }

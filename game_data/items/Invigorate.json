@@ -71,6 +71,10 @@
             [
                 "map_cast_sfx",
                 "Rally"
+            ],
+            [
+                "magic",
+                null
             ]
         ]
     }

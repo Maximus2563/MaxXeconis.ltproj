@@ -73,6 +73,10 @@
             [
                 "eval_target_restrict_2",
                 "unit.get_stat('MAG') > target.get_stat('RES')"
+            ],
+            [
+                "magic",
+                null
             ]
         ]
     }

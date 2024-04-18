@@ -22,12 +22,12 @@
         "growths": {
             "HP": 55,
             "STR": 5,
-            "MAG": 65,
+            "MAG": 55,
             "SKL": 45,
             "SPD": 30,
-            "LCK": 35,
+            "LCK": 20,
             "DEF": 15,
-            "RES": 70,
+            "RES": 55,
             "CON": 0,
             "MOV": 0
         },
@@ -121,7 +121,14 @@
                 251
             ]
         },
-        "alternate_classes": [],
+        "alternate_classes": [
+            "Cleric",
+            "Bishop",
+            "War Cleric",
+            "Shaman",
+            "Druid",
+            "DarkKnight"
+        ],
         "portrait_nid": "Frost",
         "affinity": "Wind",
         "fields": [

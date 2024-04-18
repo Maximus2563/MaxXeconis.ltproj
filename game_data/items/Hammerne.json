@@ -67,6 +67,10 @@
             [
                 "repair",
                 null
+            ],
+            [
+                "magic",
+                null
             ]
         ]
     }

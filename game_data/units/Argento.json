@@ -2,7 +2,7 @@
     {
         "nid": "Argento",
         "name": "Argento",
-        "desc": "",
+        "desc": "Steward of the Aurelian royal family.",
         "variant": "",
         "level": 17,
         "klass": "Marshall",
@@ -12,11 +12,11 @@
             "STR": 26,
             "MAG": 10,
             "SKL": 26,
-            "SPD": 11,
+            "SPD": 14,
             "LCK": 12,
-            "DEF": 22,
-            "RES": 20,
-            "CON": 15,
+            "DEF": 24,
+            "RES": 22,
+            "CON": 16,
             "MOV": 5
         },
         "growths": {
@@ -61,7 +61,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "AnointedOne"
+            ],
+            [
+                1,
+                "DistantCounter"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

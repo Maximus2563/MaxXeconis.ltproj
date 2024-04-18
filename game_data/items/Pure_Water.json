@@ -43,6 +43,10 @@
             [
                 "status_on_hit",
                 "Resist+"
+            ],
+            [
+                "map_hit_sfx",
+                "PureWater"
             ]
         ]
     }

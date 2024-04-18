@@ -488,5 +488,15 @@
         "Song of the Buffoon",
         true,
         false
+    ],
+    [
+        "Machinations and Deductions",
+        false,
+        false
+    ],
+    [
+        "Bright, Bold Sandstorm",
+        false,
+        true
     ]
 ]
