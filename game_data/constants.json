@@ -337,7 +337,7 @@
     ],
     [
         "exp_formula",
-        "standard"
+        "gompertz"
     ],
     [
         "kill_multiplier",
@@ -365,7 +365,7 @@
     ],
     [
         "heal_offset",
-        7.0
+        9.0
     ],
     [
         "heal_min",

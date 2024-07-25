@@ -228,18 +228,6 @@
         "info_offset": 3
     },
     {
-        "nid": "Roag",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Mars",
         "blinking_offset": [
             24,
@@ -372,18 +360,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Jeremiah",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Oberon",
         "blinking_offset": [
             24,
@@ -444,42 +420,6 @@
         "info_offset": 2
     },
     {
-        "nid": "SkillYoung",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 1
-    },
-    {
-        "nid": "Xeconis",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Nako",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 1
-    },
-    {
         "nid": "Kana",
         "blinking_offset": [
             24,
@@ -492,55 +432,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Apple",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Pit",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 3
-    },
-    {
         "nid": "Byron",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Cres",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 4
-    },
-    {
-        "nid": "Prof",
         "blinking_offset": [
             16,
             24
@@ -562,18 +454,6 @@
             46
         ],
         "info_offset": 2
-    },
-    {
-        "nid": "Angel",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
     },
     {
         "nid": "Mipha",
@@ -610,18 +490,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Aspl",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 2
     },
     {
         "nid": "Sunii",
@@ -708,18 +576,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Jevil",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Emeline",
         "blinking_offset": [
             24,
@@ -754,30 +610,6 @@
             48
         ],
         "info_offset": 1
-    },
-    {
-        "nid": "Cherry",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
-    },
-    {
-        "nid": "CherryYoung",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
     },
     {
         "nid": "Maxime",
@@ -1032,18 +864,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Boey",
-        "blinking_offset": [
-            16,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 2
-    },
-    {
         "nid": "Emmanuel",
         "blinking_offset": [
             16,
@@ -1116,18 +936,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Lumii",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 3
-    },
-    {
         "nid": "Speedy",
         "blinking_offset": [
             24,
@@ -1164,30 +972,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Helia",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Dawn",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 1
-    },
-    {
         "nid": "Zashar",
         "blinking_offset": [
             24,
@@ -1201,18 +985,6 @@
     },
     {
         "nid": "ZasharMonster",
-        "blinking_offset": [
-            16,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lucian",
         "blinking_offset": [
             16,
             16
@@ -1267,18 +1039,6 @@
         ],
         "smiling_offset": [
             24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "idk",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
             40
         ],
         "info_offset": 0
@@ -1368,18 +1128,6 @@
         "info_offset": 4
     },
     {
-        "nid": "Bread",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
-    },
-    {
         "nid": "Chara",
         "blinking_offset": [
             24,
@@ -1404,54 +1152,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Howai",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 4
-    },
-    {
-        "nid": "MaxYoung",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Max",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "LeapAlt",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 4
-    },
-    {
         "nid": "Snow",
         "blinking_offset": [
             24,
@@ -1472,18 +1172,6 @@
         "smiling_offset": [
             24,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Skill",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
         ],
         "info_offset": 0
     },
@@ -1678,18 +1366,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Zio",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
     },
     {
         "nid": "Aerial",
@@ -1942,5 +1618,317 @@
             40
         ],
         "info_offset": 1
+    },
+    {
+        "nid": "Hesphatales",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Jevil",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lucian",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Aspl",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cres",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "Zio",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Nako",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Skill",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "SkillYoung",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 1
+    },
+    {
+        "nid": "Jeremiah",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cherry",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "CherryYoung",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "MaxYoung",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Max",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Xeconis",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Pit",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Howai",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 4
+    },
+    {
+        "nid": "Roag",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Angel",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Apple",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Bread",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dawn",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "Helia",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Boey",
+        "blinking_offset": [
+            25,
+            32
+        ],
+        "smiling_offset": [
+            25,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Prof",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lumii",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
     }
 ]

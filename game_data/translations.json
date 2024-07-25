@@ -410,5 +410,9 @@
     {
         "nid": "repair_no_money",
         "text": "I'm afraid I don't work for free..."
+    },
+    {
+        "nid": "_attribution",
+        "text": "Maximus03 "
     }
 ]

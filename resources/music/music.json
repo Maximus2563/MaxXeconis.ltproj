@@ -498,5 +498,25 @@
         "Bright, Bold Sandstorm",
         false,
         true
+    ],
+    [
+        "Misery in Hand",
+        false,
+        false
+    ],
+    [
+        "Stalwart Preparations",
+        true,
+        false
+    ],
+    [
+        "Friendly Chat",
+        false,
+        false
+    ],
+    [
+        "An Everyday Sort of Day",
+        true,
+        false
     ]
 ]
