@@ -1310,9 +1310,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillageAggro",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     1,
                     1
@@ -1928,23 +1928,6 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "DestroyVillage1",
-                "region_type": "event",
-                "position": [
-                    18,
-                    2
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
                 "interrupt_move": false
             }
         ],
@@ -22050,6 +22033,22 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Cart",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporter",
+                "faction": "Monsdor",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],
@@ -22862,6 +22861,161 @@
                     1
                 ],
                 "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "A",
+        "name": "B",
+        "tilemap": "Coronation",
+        "bg_tilemap": null,
+        "party": "LeapGroup",
+        "music": {
+            "player_phase": "Thorn in You",
+            "enemy_phase": "Thorn in You",
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": "Thorn in You",
+            "enemy_battle": "Thorn in You",
+            "other_battle": null,
+            "enemy2_battle": null,
+            "boss_battle": "44 Condemnation"
+        },
+        "objective": {
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Sal dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Helia",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Emmanuel",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lucian",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Dawn",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Eff",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Oberon",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Cornelius",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Emeline",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "SpawnF",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -26109,11 +26263,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

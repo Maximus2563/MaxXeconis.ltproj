@@ -216,18 +216,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Hyper",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
-    },
-    {
         "nid": "Mars",
         "blinking_offset": [
             24,
@@ -948,18 +936,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Dean",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Humphrey",
         "blinking_offset": [
             24,
@@ -1081,18 +1057,6 @@
     },
     {
         "nid": "Siri",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 1
-    },
-    {
-        "nid": "Joker",
         "blinking_offset": [
             24,
             24
@@ -1596,18 +1560,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Argalan",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Hecati",
         "blinking_offset": [
             24,
@@ -1930,5 +1882,53 @@
             48
         ],
         "info_offset": 3
+    },
+    {
+        "nid": "Hyper",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Dean",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Joker",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Argalan",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

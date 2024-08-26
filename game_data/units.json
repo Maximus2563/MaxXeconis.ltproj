@@ -5500,11 +5500,11 @@
         "tags": [],
         "bases": {
             "HP": 31,
-            "STR": 13,
+            "STR": 14,
             "MAG": 0,
-            "SKL": 8,
+            "SKL": 9,
             "SPD": 9,
-            "LCK": 5,
+            "LCK": 8,
             "DEF": 13,
             "RES": 4,
             "CON": 8,
@@ -6113,10 +6113,6 @@
         "affinity": "Water",
         "fields": [
             [
-                "DeathQuote",
-                "N-no... How could this happen... Prof..."
-            ],
-            [
                 "EscapeQuote",
                 "I'm leaping ahead! Heehee."
             ],
@@ -6299,10 +6295,6 @@
         "portrait_nid": "Prof",
         "affinity": "Light",
         "fields": [
-            [
-                "DeathQuote",
-                "Argh... Leap..."
-            ],
             [
                 "EscapeQuote",
                 "I'll prepare the path ahead."
@@ -8055,18 +8047,18 @@
         "name": "Moox",
         "desc": "",
         "variant": "",
-        "level": 10,
+        "level": 12,
         "klass": "Shaman",
         "tags": [],
         "bases": {
             "HP": 25,
             "STR": 4,
-            "MAG": 10,
-            "SKL": 11,
+            "MAG": 11,
+            "SKL": 12,
             "SPD": 10,
             "LCK": 4,
-            "DEF": 3,
-            "RES": 7,
+            "DEF": 4,
+            "RES": 8,
             "CON": 7,
             "MOV": 5
         },
@@ -8310,7 +8302,7 @@
     {
         "nid": "Maxime",
         "name": "Maxime",
-        "desc": "A former teacher, turned thief. Mourning his beloved.",
+        "desc": "A former teacher, turned thief. \nMourns his ex.",
         "variant": "",
         "level": 3,
         "klass": "Adventurer",
@@ -8469,7 +8461,7 @@
     {
         "nid": "Cres",
         "name": "Cres",
-        "desc": "",
+        "desc": "Marquess of Nekoma, who is a staunch ally of Sages.",
         "variant": "",
         "level": 3,
         "klass": "RangerCres",
@@ -16939,7 +16931,7 @@
     {
         "nid": "Timothy",
         "name": "Timothy",
-        "desc": "Father of Cacti, a minor territory holder who enjoys naval travel.",
+        "desc": "Earl Mandrock of Grahment. \nGreatly enjoys sailing.",
         "variant": "",
         "level": 1,
         "klass": "Holy Knight",

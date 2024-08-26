@@ -80,6 +80,10 @@
         true
     ],
     [
+        "long_range_storage",
+        true
+    ],
+    [
         "allow_negative_as",
         false
     ],
