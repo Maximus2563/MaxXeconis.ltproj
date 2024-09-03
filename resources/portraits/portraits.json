@@ -1476,7 +1476,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sages",
+        "nid": "Keith",
         "blinking_offset": [
             24,
             24
@@ -1488,7 +1488,7 @@
         "info_offset": 3
     },
     {
-        "nid": "SagesP",
+        "nid": "KeithP",
         "blinking_offset": [
             24,
             24
@@ -1500,7 +1500,7 @@
         "info_offset": 3
     },
     {
-        "nid": "Sages14",
+        "nid": "Sagemaster",
         "blinking_offset": [
             16,
             24

@@ -4722,7 +4722,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -5992,7 +5992,7 @@
             "loss": "None"
         },
         "roam": true,
-        "roam_unit": "Sages",
+        "roam_unit": "Keith",
         "go_to_overworld": false,
         "should_record": false,
         "tags": [],
@@ -6167,7 +6167,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -6180,7 +6180,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages14",
+                "nid": "Sagemaster",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -6691,8 +6691,8 @@
                     "Hyper",
                     "Guy",
                     "Blazing",
-                    "Sages",
-                    "Sages14",
+                    "Keith",
+                    "Sagemaster",
                     "Javi",
                     "1",
                     "2",
@@ -6738,7 +6738,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -7605,16 +7605,16 @@
             {
                 "nid": "Sag",
                 "units": [
-                    "Sages",
+                    "Keith",
                     "Sal"
                 ],
                 "positions": {
-                    "Sages": [
-                        2,
-                        2
-                    ],
                     "Sal": [
                         3,
+                        2
+                    ],
+                    "Keith": [
+                        2,
                         2
                     ]
                 }
@@ -11966,7 +11966,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -12031,16 +12031,12 @@
             {
                 "nid": "SagesGang",
                 "units": [
-                    "Sages",
+                    "Keith",
                     "Sal",
                     "Javi",
                     "Snow"
                 ],
                 "positions": {
-                    "Sages": [
-                        8,
-                        6
-                    ],
                     "Sal": [
                         8,
                         7
@@ -12048,6 +12044,10 @@
                     "Snow": [
                         8,
                         8
+                    ],
+                    "Keith": [
+                        8,
+                        6
                     ]
                 }
             },
@@ -12103,7 +12103,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -12795,16 +12795,16 @@
             {
                 "nid": "PlayerStart",
                 "units": [
-                    "Sages",
+                    "Keith",
                     "Cacti"
                 ],
                 "positions": {
-                    "Sages": [
-                        8,
-                        14
-                    ],
                     "Cacti": [
                         7,
+                        14
+                    ],
+                    "Keith": [
+                        8,
                         14
                     ]
                 }
@@ -12865,7 +12865,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -13847,18 +13847,18 @@
                 }
             },
             {
-                "nid": "SagesCacti",
+                "nid": "KeithCacti",
                 "units": [
-                    "Sages",
+                    "Keith",
                     "Cacti"
                 ],
                 "positions": {
-                    "Sages": [
-                        13,
-                        5
-                    ],
                     "Cacti": [
                         14,
+                        5
+                    ],
+                    "Keith": [
+                        13,
                         5
                     ]
                 }
@@ -17283,7 +17283,7 @@
                 "generic": true
             },
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -18336,7 +18336,7 @@
                     "123",
                     "124",
                     "125",
-                    "Sages",
+                    "Keith",
                     "Sal"
                 ],
                 "positions": {}
@@ -20237,7 +20237,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages14",
+                "nid": "Sagemaster",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -21787,7 +21787,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages14",
+                "nid": "Sagemaster",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -22074,7 +22074,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Sages",
+                "nid": "Keith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -26023,7 +26023,7 @@
                 "generic": false
             },
             {
-                "nid": "Sages14",
+                "nid": "Sagemaster",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

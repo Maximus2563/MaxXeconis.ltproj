@@ -1915,9 +1915,9 @@
         "fields": []
     },
     {
-        "nid": "Sages",
-        "name": "Sages",
-        "desc": "Son of Arcein King Sages the 14th. \nA free spirit who cares not for noble discourse.",
+        "nid": "Keith",
+        "name": "Keith",
+        "desc": "Son of the 14th Sagemaster.\nA free spirit who cares not for noble discourse.",
         "variant": "",
         "level": 5,
         "klass": "SagesLord",
@@ -2039,7 +2039,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Sages",
+        "portrait_nid": "Keith",
         "affinity": "Fire",
         "fields": [
             [
@@ -10734,9 +10734,9 @@
         "fields": []
     },
     {
-        "nid": "Sages14",
-        "name": "Sages",
-        "desc": "The 14th King of Arcei.\nDying of an unknown illness.",
+        "nid": "Sagemaster",
+        "name": "Sagemaster",
+        "desc": "The 14th Sagemaster of Arcei.\nDying of an unknown illness.",
         "variant": "",
         "level": 15,
         "klass": "Archsage",
@@ -10851,7 +10851,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Sages14",
+        "portrait_nid": "Sagemaster",
         "affinity": "Fire",
         "fields": []
     },
