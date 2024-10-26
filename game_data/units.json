@@ -885,7 +885,7 @@
     {
         "nid": "CherryYoung",
         "name": "Cherry",
-        "desc": "A young noblewoman who wants to overcome her shyness.",
+        "desc": "A merchant's daughter who wants to overcome her shyness.",
         "variant": "Short",
         "level": 3,
         "klass": "Troubadour",
@@ -1020,7 +1020,7 @@
     {
         "nid": "Cherry",
         "name": "Cherry",
-        "desc": "A once shy noble, now a sharp-tongued and opulent braggart.\nCares more than she lets on.",
+        "desc": "A once shy girl, now a sharp-tongued and opulent braggart.\nCares more than she lets on.",
         "variant": "Short",
         "level": 3,
         "klass": "Valkyrie",
@@ -1072,6 +1072,10 @@
             ],
             [
                 "Recover",
+                false
+            ],
+            [
+                "Blue Gem",
                 false
             ]
         ],
@@ -3266,8 +3270,8 @@
             "SKL": 45,
             "SPD": 25,
             "LCK": 30,
-            "DEF": 25,
-            "RES": 45,
+            "DEF": 30,
+            "RES": 40,
             "CON": 0,
             "MOV": 0
         },
@@ -8337,10 +8341,10 @@
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
+            "RES": -2,
+            "DEF": 1,
+            "LCK": 3,
+            "SKL": -1,
             "SPD": 0
         },
         "starting_items": [
@@ -8457,6 +8461,79 @@
                 "I'll raise my hat to that... later."
             ]
         ]
+    },
+    {
+        "nid": "Meg",
+        "name": "Meg",
+        "desc": "A village girl who likes livestock.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Ranger",
+        "tags": [],
+        "bases": {
+            "HP": 32,
+            "STR": 10,
+            "MAG": 0,
+            "SKL": 13,
+            "SPD": 15,
+            "LCK": 8,
+            "DEF": 8,
+            "RES": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 30,
+            "MAG": 10,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 30,
+            "DEF": 15,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": -2,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Steel Bow",
+                false
+            ],
+            [
+                "Iron Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Meg",
+        "affinity": "Earth",
+        "fields": []
     },
     {
         "nid": "Cres",
@@ -8990,7 +9067,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Pit",
+        "portrait_nid": null,
         "affinity": "Water",
         "fields": []
     },
@@ -9960,7 +10037,7 @@
         "klass": "KnightS",
         "tags": [],
         "bases": {
-            "HP": 32,
+            "HP": 30,
             "STR": 8,
             "MAG": 2,
             "SKL": 7,
@@ -9972,14 +10049,14 @@
             "MOV": 4
         },
         "growths": {
-            "HP": 60,
+            "HP": 65,
             "STR": 30,
             "MAG": 10,
             "SKL": 30,
             "SPD": 50,
             "LCK": 45,
             "DEF": 25,
-            "RES": 50,
+            "RES": 45,
             "CON": 0,
             "MOV": 0
         },
@@ -15658,7 +15735,7 @@
     {
         "nid": "Lucian",
         "name": "Lucian",
-        "desc": "Uncle of Queen Emeline, a conniving and spiteful man.",
+        "desc": "Uncle of Queen Emeline, and Chancellor of Aurelia.\nA dastardly man fueled by grudges.",
         "variant": "",
         "level": 10,
         "klass": "Sage",
@@ -16340,6 +16417,90 @@
         "alternate_classes": [],
         "portrait_nid": "Jeremiah",
         "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Mathias",
+        "name": "Mathias",
+        "desc": "Son of Ex-Archbishop Jeremiah.\nA troubled soul and notable thief.",
+        "variant": null,
+        "level": 1,
+        "klass": "Trickster",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 37,
+            "STR": 9,
+            "MAG": 8,
+            "SKL": 12,
+            "SPD": 16,
+            "LCK": 5,
+            "DEF": 8,
+            "RES": 10,
+            "CON": 9,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 22,
+            "MAG": 17,
+            "SKL": 15,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Silver Dagger ",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Gamble"
+            ],
+            [
+                1,
+                "SealDef"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Knife": [
+                false,
+                181,
+                null
+            ],
+            "Anima": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Mathias",
+        "affinity": null,
         "fields": []
     },
     {
@@ -17797,6 +17958,59 @@
         "variant": "",
         "level": 1,
         "klass": "Fleet",
+        "tags": [],
+        "bases": {
+            "SKL": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "STR": 0,
+            "DEF": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "STR": 0,
+            "DEF": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "STR": 0,
+            "DEF": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Man3",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Transporter",
+        "name": "Transporter",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Transporter",
         "tags": [],
         "bases": {
             "SKL": 0,

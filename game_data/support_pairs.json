@@ -1,6 +1,6 @@
 [
     {
-        "unit1": "Sages",
+        "unit1": "Keith",
         "unit2": "Sal",
         "one_way": false,
         "requirements": [
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "unit1": "Sages",
+        "unit1": "Keith",
         "unit2": "Landros",
         "one_way": false,
         "requirements": [
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "unit1": "Sages",
+        "unit1": "Keith",
         "unit2": "Smoke",
         "one_way": false,
         "requirements": [
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "unit1": "Sages",
+        "unit1": "Keith",
         "unit2": "Aerial",
         "one_way": false,
         "requirements": [
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "unit1": "Sages",
+        "unit1": "Keith",
         "unit2": "Javi",
         "one_way": false,
         "requirements": [
@@ -139,7 +139,7 @@
         ]
     },
     {
-        "unit1": "Sages",
+        "unit1": "Keith",
         "unit2": "Frost",
         "one_way": false,
         "requirements": [
@@ -1122,6 +1122,72 @@
         ]
     },
     {
+        "unit1": "Emeline",
+        "unit2": "Xeconis",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 5,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Emeline",
+        "unit2": "Pit",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 8,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 17,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
         "unit1": "Max",
         "unit2": "Xeconis",
         "one_way": false,
@@ -1141,7 +1207,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 27,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1154,7 +1220,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 61,
+                "requirement": 54,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,

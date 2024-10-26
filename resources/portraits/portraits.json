@@ -180,18 +180,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Pikno",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 1
-    },
-    {
         "nid": "Linda",
         "blinking_offset": [
             24,
@@ -490,30 +478,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Landros",
-        "blinking_offset": [
-            20,
-            24
-        ],
-        "smiling_offset": [
-            20,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Smoke",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 2
     },
     {
         "nid": "Nabin",
@@ -1644,18 +1608,6 @@
         "info_offset": 3
     },
     {
-        "nid": "Nako",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Skill",
         "blinking_offset": [
             24,
@@ -1750,18 +1702,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Pit",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
     },
     {
         "nid": "Howai",
@@ -1930,5 +1870,89 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Mathias",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Pikno",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Landros",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 1
+    },
+    {
+        "nid": "Pit",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Meg",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Smoke",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "Nako",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 2
     }
 ]

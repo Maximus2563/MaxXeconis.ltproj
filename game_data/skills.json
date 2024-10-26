@@ -48,6 +48,34 @@
         ]
     },
     {
+        "nid": "TempCanto",
+        "name": "TempCanto",
+        "desc": "Can move again after all actions.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "canto",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Fort",
         "name": "Fort",
         "desc": "",
@@ -2431,6 +2459,30 @@
             [
                 "crit",
                 30
+            ]
+        ]
+    },
+    {
+        "nid": "Gamble",
+        "name": "Gamble",
+        "desc": "Grants +15 crit but -15 dodge.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            6,
+            39
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "crit_avoid",
+                -15
             ]
         ]
     },
@@ -8109,7 +8161,7 @@
             ],
             [
                 "eval_damage",
-                "max(0,(unit.stat_bonus('STR'))"
+                "max(0,(unit.stat_bonus('STR')))"
             ]
         ]
     },
