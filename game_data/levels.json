@@ -7667,7 +7667,7 @@
     },
     {
         "nid": "7",
-        "name": "Ch. 7: Stand and Deliver!",
+        "name": "Ch. 7: Enter the Wagon ",
         "tilemap": "Ch7",
         "bg_tilemap": null,
         "party": "LeapGroup",
@@ -7822,7 +7822,7 @@
                 "generic": true
             },
             {
-                "nid": "Maurice",
+                "nid": "Yosef",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -7837,9 +7837,9 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Bandit",
+                "level": 3,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -7852,8 +7852,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    4
+                    10,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -7861,9 +7861,9 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Bandit",
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -7874,7 +7874,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Maurice",
+                "ai_group": "Yosef",
                 "starting_position": [
                     8,
                     7
@@ -7885,9 +7885,9 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 2,
-                "klass": "Brigand",
-                "faction": "Bandit",
+                "level": 3,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Axe",
@@ -7896,12 +7896,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    9
+                    4,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -7909,9 +7909,9 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 3,
-                "klass": "Deserter",
-                "faction": "Bandit",
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Bronze_Lance",
@@ -7933,12 +7933,12 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 1,
-                "klass": "Thief",
-                "faction": "Bandit",
+                "level": 2,
+                "klass": "Archer",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Iron Dagger",
+                        "Iron Bow",
                         false
                     ]
                 ],
@@ -7957,12 +7957,12 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Mage",
-                "faction": "Bandit",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Fire",
+                        "Ember",
                         false
                     ]
                 ],
@@ -7983,7 +7983,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Mage",
-                "faction": "Bandit",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Fire",
@@ -7994,7 +7994,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Maurice",
+                "ai_group": "Yosef",
                 "starting_position": [
                     8,
                     9
@@ -8007,7 +8007,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Merc",
-                "faction": "Bandit",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -8031,10 +8031,10 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Merc",
-                "faction": "Bandit",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "RubySword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -8042,7 +8042,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Maurice",
+                "ai_group": "Yosef",
                 "starting_position": [
                     4,
                     5
@@ -8053,9 +8053,9 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Bandit",
+                "level": 3,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Bronze_Axe",
@@ -8075,8 +8075,8 @@
                 "nid": "111",
                 "variant": null,
                 "level": 2,
-                "klass": "Merc",
-                "faction": "Bandit",
+                "klass": "SwordCavalier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -8096,8 +8096,8 @@
                 "nid": "112",
                 "variant": null,
                 "level": 2,
-                "klass": "Deserter",
-                "faction": "Bandit",
+                "klass": "LanceCavalier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -8117,8 +8117,8 @@
                 "nid": "113",
                 "variant": null,
                 "level": 1,
-                "klass": "Brigand",
-                "faction": "Bandit",
+                "klass": "Fighter",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Hammer",
@@ -8139,10 +8139,10 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Merc",
-                "faction": "Bandit",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Armorslayer",
+                        "Lancereaver",
                         false
                     ]
                 ],
@@ -8159,8 +8159,8 @@
                 "nid": "115",
                 "variant": null,
                 "level": 2,
-                "klass": "Deserter",
-                "faction": "Bandit",
+                "klass": "Soldier",
+                "faction": "Monsdor",
                 "starting_items": [
                     [
                         "Javelin",
@@ -8196,8 +8196,8 @@
                     0
                 ],
                 "size": [
-                    6,
-                    7
+                    7,
+                    8
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -8281,7 +8281,7 @@
             {
                 "nid": "Enemy",
                 "units": [
-                    "Maurice",
+                    "Yosef",
                     "102",
                     "101",
                     "104",
@@ -8293,24 +8293,20 @@
                     "109"
                 ],
                 "positions": {
-                    "Maurice": [
-                        7,
-                        7
-                    ],
                     "102": [
                         8,
                         7
                     ],
                     "101": [
-                        13,
-                        4
+                        10,
+                        1
                     ],
                     "104": [
                         9,
                         6
                     ],
                     "103": [
-                        11,
+                        4,
                         9
                     ],
                     "105": [
@@ -8332,6 +8328,10 @@
                     "109": [
                         4,
                         5
+                    ],
+                    "Yosef": [
+                        7,
+                        7
                     ]
                 }
             },
@@ -8344,8 +8344,8 @@
                 ],
                 "positions": {
                     "110": [
-                        7,
-                        1
+                        8,
+                        0
                     ],
                     "112": [
                         7,
@@ -8353,7 +8353,7 @@
                     ],
                     "111": [
                         8,
-                        0
+                        1
                     ]
                 }
             },
@@ -8382,7 +8382,7 @@
         ],
         "ai_groups": [
             {
-                "nid": "Maurice",
+                "nid": "Yosef",
                 "trigger_threshold": 2
             }
         ]
@@ -8472,6 +8472,19 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Meg",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    13
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -8599,7 +8612,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 2,
-                "klass": "Fighter",
+                "klass": "Wyvern Rider",
                 "faction": "Monsdor",
                 "starting_items": [
                     [
@@ -8613,7 +8626,7 @@
                 "roam_ai": null,
                 "ai_group": "Left",
                 "starting_position": [
-                    1,
+                    0,
                     6
                 ],
                 "starting_traveler": null,
@@ -8880,7 +8893,7 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    12
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -9020,7 +9033,7 @@
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    12
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -9119,11 +9132,11 @@
                 "nid": "122",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Wyvern Rider",
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Hammer",
+                        "Poison Axe",
                         false
                     ]
                 ],
@@ -9388,6 +9401,10 @@
             {
                 "nid": "Top",
                 "trigger_threshold": 3
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     },
@@ -9471,6 +9488,16 @@
             },
             {
                 "nid": "Bread",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Meg",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -10103,6 +10130,7 @@
                     "Mizt",
                     "Aspl",
                     "Bread",
+                    "Meg",
                     "Shoop"
                 ],
                 "positions": {
@@ -10133,6 +10161,10 @@
                     "Shoop": [
                         6,
                         14
+                    ],
+                    "Meg": [
+                        6,
+                        15
                     ]
                 }
             },
@@ -10170,6 +10202,10 @@
             },
             {
                 "nid": "Mid",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -11058,6 +11094,16 @@
                 "generic": false
             },
             {
+                "nid": "Meg",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Shoop",
                 "team": "player",
                 "ai": "None",
@@ -11889,7 +11935,8 @@
                     "Mizt",
                     "Aspl",
                     "Bread",
-                    "Shoop"
+                    "Shoop",
+                    "Meg"
                 ],
                 "positions": {
                     "Liz": [
@@ -11909,6 +11956,10 @@
                         31
                     ],
                     "Shoop": [
+                        3,
+                        32
+                    ],
+                    "Meg": [
                         5,
                         32
                     ]
@@ -11930,6 +11981,10 @@
             },
             {
                 "nid": "Left",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -17322,7 +17377,7 @@
                 "generic": false
             },
             {
-                "nid": "Lucian",
+                "nid": "Argento",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -17330,70 +17385,6 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "Escort1",
-                "variant": null,
-                "level": 1,
-                "klass": "Paladin",
-                "faction": "Aurelia",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Escort2",
-                "variant": null,
-                "level": 1,
-                "klass": "Paladin",
-                "faction": "Aurelia",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Escort3",
-                "variant": "Female",
-                "level": 1,
-                "klass": "Troubadour",
-                "faction": "Aurelia",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Escort4",
-                "variant": "Female",
-                "level": 1,
-                "klass": "Troubadour",
-                "faction": "Aurelia",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
             },
             {
                 "nid": "104",
@@ -18245,34 +18236,14 @@
         ],
         "unit_groups": [
             {
-                "nid": "LucianGroup",
+                "nid": "ArgentoGroup",
                 "units": [
-                    "Lucian",
-                    "Escort1",
-                    "Escort2",
-                    "Escort3",
-                    "Escort4"
+                    "Argento"
                 ],
                 "positions": {
-                    "Lucian": [
-                        21,
-                        9
-                    ],
-                    "Escort1": [
-                        19,
-                        9
-                    ],
-                    "Escort2": [
-                        23,
-                        9
-                    ],
-                    "Escort3": [
-                        20,
-                        9
-                    ],
-                    "Escort4": [
+                    "Argento": [
                         22,
-                        9
+                        7
                     ]
                 }
             },
@@ -21246,6 +21217,28 @@
                 }
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "24",
+        "name": "Chapter 24",
+        "tilemap": "Canyon",
+        "bg_tilemap": null,
+        "party": "MaxYoungGroup",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     },
     {
@@ -24787,240 +24780,6 @@
         "ai_groups": []
     },
     {
-        "nid": "20C",
-        "name": "Roam: Monsdor Keep",
-        "tilemap": "MonsdorPrison",
-        "bg_tilemap": null,
-        "party": "MaxGroup",
-        "music": {},
-        "objective": {
-            "simple": "n",
-            "win": "n",
-            "loss": "n"
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": false,
-        "tags": [],
-        "units": [
-            {
-                "nid": "Leap",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Prof",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Sagemaster",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Aspl",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Bread",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Shoop",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Liz",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Joker",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Mizt",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Blazing",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Speedy",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Max",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Xeconis",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Cornelius",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Oberon",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [],
-        "unit_groups": [
-            {
-                "nid": "Player",
-                "units": [
-                    "Max",
-                    "Xeconis",
-                    "Oberon",
-                    "Cornelius"
-                ],
-                "positions": {
-                    "Max": [
-                        6,
-                        6
-                    ],
-                    "Xeconis": [
-                        6,
-                        7
-                    ],
-                    "Oberon": [
-                        7,
-                        5
-                    ],
-                    "Cornelius": [
-                        8,
-                        5
-                    ]
-                }
-            }
-        ],
-        "ai_groups": []
-    },
-    {
         "nid": "21",
         "name": "Chapter 21",
         "tilemap": "FortCamp",
@@ -26016,161 +25775,6 @@
                     1
                 ],
                 "sub_nid": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            }
-        ],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "A",
-        "name": "B",
-        "tilemap": "Coronation",
-        "bg_tilemap": null,
-        "party": "LeapGroup",
-        "music": {
-            "player_phase": "Thorn in You",
-            "enemy_phase": "Thorn in You",
-            "other_phase": null,
-            "enemy2_phase": null,
-            "player_battle": "Thorn in You",
-            "enemy_battle": "Thorn in You",
-            "other_battle": null,
-            "enemy2_battle": null,
-            "boss_battle": "44 Condemnation"
-        },
-        "objective": {
-            "simple": "Escape",
-            "win": "Escape",
-            "loss": "Sal dies"
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": false,
-        "tags": [],
-        "units": [
-            {
-                "nid": "Helia",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Emmanuel",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Lucian",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Dawn",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Eff",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Oberon",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Cornelius",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Emeline",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [
-            {
-                "nid": "SpawnF",
-                "region_type": "normal",
-                "position": [
-                    14,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -27237,60 +26841,13 @@
         "units": [
             {
                 "nid": "Xeconis",
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Count Varley",
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Rally",
-                "variant": null,
-                "level": 1,
-                "klass": "Troubadour",
-                "faction": "Cutthroat",
-                "starting_items": [],
-                "starting_skills": [
-                    "RallyRes"
-                ],
-                "team": "enemy2",
-                "ai": "Heal",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Aerial",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    9
+                    14,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -27309,19 +26866,6 @@
                 "generic": false
             },
             {
-                "nid": "Maxime",
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Landros",
                 "team": "player",
                 "ai": "None",
@@ -27330,32 +26874,6 @@
                 "starting_position": [
                     8,
                     2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Argento",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Bigman",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    15
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -27400,19 +26918,6 @@
                 "generic": false
             },
             {
-                "nid": "Oberon",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Jevil",
                 "team": "enemy",
                 "ai": "None",
@@ -27426,72 +26931,7 @@
                 "generic": false
             },
             {
-                "nid": "Dean",
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Moox",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Max",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Swordmaster",
-                "faction": "Aurelia",
-                "starting_items": [
-                    [
-                        "Brave Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "SustainedStrikes"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Meg",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -27504,40 +26944,105 @@
                 "generic": false
             },
             {
-                "nid": "Emeline",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Bread",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Eff",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
+                    14,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Melledoneus",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Leap",
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Aspl",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
                     13,
-                    15
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shoop",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Angel",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Talia",
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Meg",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -27603,6 +27108,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -162,5 +162,9 @@
     {
         "nid": "HEAL5",
         "expression": "MAG+5"
+    },
+    {
+        "nid": "ASPLPROC",
+        "expression": "LCK+20"
     }
 ]

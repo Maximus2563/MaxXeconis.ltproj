@@ -23,7 +23,7 @@
             "HP": 45,
             "STR": 25,
             "MAG": 30,
-            "SKL": 45,
+            "SKL": 40,
             "SPD": 45,
             "LCK": 15,
             "DEF": 30,
@@ -137,10 +137,10 @@
     {
         "nid": "Max",
         "name": "Max",
-        "desc": "A keen mage who wishes to aid his friends. Seeks to become more knowledgeable about the world.  ",
+        "desc": "A keen mage who wishes to be knowledgeable to aid his friends.",
         "variant": "",
         "level": 1,
-        "klass": "Mage Knight",
+        "klass": "Battlemage",
         "tags": [],
         "bases": {
             "HP": 27,
@@ -150,7 +150,7 @@
             "SPD": 14,
             "LCK": 5,
             "DEF": 9,
-            "RES": 7,
+            "RES": 6,
             "CON": 9,
             "MOV": 7
         },
@@ -158,7 +158,7 @@
             "HP": 45,
             "STR": 25,
             "MAG": 30,
-            "SKL": 45,
+            "SKL": 40,
             "SPD": 45,
             "LCK": 15,
             "DEF": 30,
@@ -184,7 +184,7 @@
                 false
             ],
             [
-                "Steel Sword",
+                "Steel Lance",
                 false
             ],
             [
@@ -211,12 +211,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                71,
+                31,
                 251
             ],
             "Lance": [
                 false,
-                0,
+                60,
                 251
             ],
             "Axe": [
@@ -318,10 +318,10 @@
     {
         "nid": "MaxCH17",
         "name": "Max",
-        "desc": "A keen mage who wishes to aid his friends. Seeks to become more knowledgeable about the world.  ",
+        "desc": "A keen mage who wishes to be knowledgeable to aid his friends.",
         "variant": "",
         "level": 1,
-        "klass": "Mage Knight",
+        "klass": "Battlemage",
         "tags": [],
         "bases": {
             "HP": 27,
@@ -331,7 +331,7 @@
             "SPD": 14,
             "LCK": 5,
             "DEF": 9,
-            "RES": 7,
+            "RES": 6,
             "CON": 9,
             "MOV": 7
         },
@@ -339,7 +339,7 @@
             "HP": 45,
             "STR": 25,
             "MAG": 30,
-            "SKL": 45,
+            "SKL": 40,
             "SPD": 45,
             "LCK": 15,
             "DEF": 30,
@@ -365,7 +365,7 @@
                 false
             ],
             [
-                "Steel Sword",
+                "Steel Lance",
                 false
             ],
             [
@@ -383,12 +383,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                71,
+                31,
                 251
             ],
             "Lance": [
                 false,
-                0,
+                60,
                 251
             ],
             "Axe": [
@@ -561,7 +561,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "XerxesYoung",
+        "portrait_nid": "XeconisYoung",
         "affinity": "Ice",
         "fields": [
             [
@@ -620,7 +620,7 @@
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": -1,
+            "RES": 0,
             "DEF": -1,
             "LCK": 0,
             "SKL": 3,
@@ -713,7 +713,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "My gambit's been foiled... and thus.. I fold..."
+                "My gambit's been foiled... and thus... I fold..."
             ],
             [
                 "EscapeQuote",
@@ -799,7 +799,7 @@
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": -1,
+            "RES": 0,
             "DEF": -1,
             "LCK": 0,
             "SKL": 3,
@@ -885,7 +885,7 @@
     {
         "nid": "CherryYoung",
         "name": "Cherry",
-        "desc": "A merchant's daughter who wants to overcome her shyness.",
+        "desc": "A merchant's daughter who is shy around strangers.",
         "variant": "Short",
         "level": 3,
         "klass": "Troubadour",
@@ -2048,7 +2048,7 @@
         "fields": [
             [
                 "HighLevelUpQuote",
-                "Great results for the Prince of Arcei!"
+                "Great results for the Prince of Encantis!"
             ],
             [
                 "MidLevelUpQuote",
@@ -2068,7 +2068,7 @@
             ],
             [
                 "MaxStatQuote",
-                "I'm good enough to rule Arcei..."
+                "I'm good enough to rule Encantis..."
             ],
             [
                 "PromoQuote",
@@ -2083,7 +2083,7 @@
     {
         "nid": "SalYoung",
         "name": "Sal",
-        "desc": "An Aurelian general's daughter who is fascinated by dark magic.",
+        "desc": "An Aurelian scholar's daughter who is fascinated by dark magic.",
         "variant": "Female",
         "level": 3,
         "klass": "Shaman",
@@ -2195,7 +2195,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "SalYoung",
-        "affinity": "Water",
+        "affinity": "Earth",
         "fields": [
             [
                 "HighLevelUpQuote",
@@ -2218,7 +2218,7 @@
     {
         "nid": "Sal",
         "name": "Sal",
-        "desc": "A general in Sages army, with a complicated past.",
+        "desc": "A general in the Encantis army, with a complicated past.",
         "variant": "Female",
         "level": 1,
         "klass": "DarkKnight",
@@ -2346,7 +2346,7 @@
             "DarkKnight"
         ],
         "portrait_nid": "Sal",
-        "affinity": "Water",
+        "affinity": "Earth",
         "fields": [
             [
                 "HighLevelUpQuote",
@@ -2552,7 +2552,7 @@
     {
         "nid": "Landros",
         "name": "Landros",
-        "desc": "A young nobleman who has an affinity for the weather.",
+        "desc": "A landowner's son who has an penchant for studying the weather.",
         "variant": "",
         "level": 1,
         "klass": "Archer",
@@ -2680,7 +2680,7 @@
             "War Monk"
         ],
         "portrait_nid": "Landros",
-        "affinity": "Wind",
+        "affinity": "Ice",
         "fields": [
             [
                 "DeathQuote",
@@ -3077,7 +3077,7 @@
     {
         "nid": "Maro",
         "name": "Maro",
-        "desc": "A new soldier who is a stickler for weapon maintenance.",
+        "desc": "A new Encantese soldier who is a stickler for weapon maintenance.",
         "variant": "",
         "level": 1,
         "klass": "Soldier",
@@ -3199,7 +3199,7 @@
             "Spartan"
         ],
         "portrait_nid": "Maro",
-        "affinity": "Wind",
+        "affinity": "Water",
         "fields": [
             [
                 "DeathQuote",
@@ -3246,7 +3246,7 @@
     {
         "nid": "Pikno",
         "name": "Pikno",
-        "desc": "A mysterious knight, loyal to Sages. Nobody has seen their face.",
+        "desc": "A mysterious knight, loyal to the Sagemaster. Nobody has seen their face.",
         "variant": "",
         "level": 4,
         "klass": "KnightA",
@@ -3420,7 +3420,7 @@
     {
         "nid": "Nako",
         "name": "Nako",
-        "desc": "A caring servant to the Sages family.",
+        "desc": "A caring servant to the Sagemaster's family.",
         "variant": "Female",
         "level": 1,
         "klass": "Troubadour",
@@ -3611,7 +3611,7 @@
         "growths": {
             "HP": 40,
             "STR": 25,
-            "MAG": 15,
+            "MAG": 10,
             "SKL": 45,
             "SPD": 40,
             "LCK": 65,
@@ -3723,7 +3723,7 @@
             "ArcaneFlier"
         ],
         "portrait_nid": "Pykroe",
-        "affinity": "Ice",
+        "affinity": "Light",
         "fields": [
             [
                 "DeathQuote",
@@ -4247,7 +4247,7 @@
             "Mage Knight"
         ],
         "portrait_nid": "Blazing",
-        "affinity": "Fire",
+        "affinity": "Light",
         "fields": [
             [
                 "DeathQuote",
@@ -4465,7 +4465,7 @@
     {
         "nid": "Javi",
         "name": "Javi",
-        "desc": "A loyal knight of Arcei, close guard of King Sages.",
+        "desc": "A loyal knight of Encantis, close guard of the Sagemaster.",
         "variant": "",
         "level": 1,
         "klass": "Spartan",
@@ -4599,7 +4599,7 @@
             "Mage Knight"
         ],
         "portrait_nid": "Javi",
-        "affinity": "Water",
+        "affinity": "Thunder",
         "fields": [
             [
                 "DeathQuote",
@@ -4619,7 +4619,7 @@
             ],
             [
                 "LowLevelUpQuote",
-                "I can do better than this, for Sages!"
+                "I can do better than this, for Prince Keith!"
             ],
             [
                 "WorstLevelUpQuote",
@@ -4642,7 +4642,7 @@
     {
         "nid": "JaviCH5",
         "name": "Javi",
-        "desc": "A loyal knight of Arcei",
+        "desc": "A loyal knight of Encantis",
         "variant": "",
         "level": 1,
         "klass": "Spartan",
@@ -4740,7 +4740,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Javi",
-        "affinity": "Water",
+        "affinity": "Thunder",
         "fields": []
     },
     {
@@ -4912,7 +4912,7 @@
     {
         "nid": "Angel",
         "name": "Angel",
-        "desc": "A snarky mage who joined Boey's gang.",
+        "desc": "A snarky mage for hire.",
         "variant": "Hoodless",
         "level": 10,
         "klass": "Mage",
@@ -4920,23 +4920,23 @@
         "bases": {
             "HP": 27,
             "STR": 5,
-            "MAG": 11,
+            "MAG": 12,
             "SKL": 7,
             "SPD": 8,
             "LCK": 12,
-            "DEF": 6,
+            "DEF": 5,
             "RES": 8,
             "CON": 6,
             "MOV": 5
         },
         "growths": {
-            "HP": 65,
-            "STR": 30,
-            "MAG": 35,
-            "SKL": 25,
+            "HP": 60,
+            "STR": 5,
+            "MAG": 50,
+            "SKL": 30,
             "SPD": 20,
-            "LCK": 55,
-            "DEF": 30,
+            "LCK": 50,
+            "DEF": 25,
             "RES": 30,
             "CON": 0,
             "MOV": 0
@@ -5083,7 +5083,7 @@
     {
         "nid": "Apple",
         "name": "Apple",
-        "desc": "A member of Boey's gang. Good at helping clean up messes.",
+        "desc": "A fashionable theif. Good at helping clean up messes.",
         "variant": "",
         "level": 1,
         "klass": "Trickster",
@@ -5329,7 +5329,7 @@
     {
         "nid": "Cacti",
         "name": "Cacti",
-        "desc": "A prickly mage who yearns for adventure.",
+        "desc": "Daughter of Earl Mandrock of Grahment.\nLoves adventuring.",
         "variant": "",
         "level": 7,
         "klass": "Brightwing",
@@ -5450,7 +5450,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Cacti",
-        "affinity": "Light",
+        "affinity": "Wind",
         "fields": [
             [
                 "DeathQuote",
@@ -5851,7 +5851,7 @@
     {
         "nid": "Snow",
         "name": "Snow",
-        "desc": "Apothecary to King Sages and teacher to Nako.",
+        "desc": "A loyal servant and apothecary to the Sagemaster.",
         "variant": "",
         "level": 1,
         "klass": "Druid",
@@ -5860,7 +5860,7 @@
             "HP": 26,
             "STR": 0,
             "MAG": 16,
-            "SKL": 10,
+            "SKL": 9,
             "SPD": 10,
             "LCK": 8,
             "DEF": 6,
@@ -5982,7 +5982,7 @@
     {
         "nid": "Leap",
         "name": "Leap",
-        "desc": "A caring, yet quirky, healer. Has a passion for fashion and has a wandering imagination.",
+        "desc": "A caring, quirky healer. Has a passion for fashion and has a wandering imagination.",
         "variant": "Female",
         "level": 1,
         "klass": "Servant",
@@ -5993,11 +5993,11 @@
             "HP": 18,
             "STR": 4,
             "MAG": 6,
-            "SKL": 2,
+            "SKL": 4,
             "SPD": 6,
-            "LCK": 4,
+            "LCK": 5,
             "DEF": 2,
-            "RES": 8,
+            "RES": 7,
             "CON": 6,
             "MOV": 5
         },
@@ -6031,7 +6031,7 @@
                 false
             ],
             [
-                "Nudge",
+                "Inspirit",
                 false
             ],
             [
@@ -6178,15 +6178,15 @@
             "SPD": 3,
             "LCK": 5,
             "DEF": 11,
-            "RES": 7,
+            "RES": 6,
             "CON": 13,
             "MOV": 4
         },
         "growths": {
-            "HP": 53,
-            "STR": 29,
+            "HP": 52,
+            "STR": 27,
             "MAG": 31,
-            "SKL": 37,
+            "SKL": 36,
             "SPD": 3,
             "LCK": 29,
             "DEF": 41,
@@ -6346,13 +6346,13 @@
         "klass": "MercFemale",
         "tags": [],
         "bases": {
-            "HP": 18,
-            "STR": 6,
+            "HP": 19,
+            "STR": 5,
             "MAG": 2,
-            "SKL": 8,
+            "SKL": 7,
             "SPD": 8,
-            "LCK": 2,
-            "DEF": 6,
+            "LCK": 4,
+            "DEF": 4,
             "RES": 0,
             "CON": 8,
             "MOV": 5
@@ -6574,7 +6574,7 @@
                 false
             ],
             [
-                "Vulnerary",
+                "Snooze",
                 false
             ]
         ],
@@ -6653,7 +6653,7 @@
             "War Monk"
         ],
         "portrait_nid": "Mizt",
-        "affinity": "Water",
+        "affinity": "Light",
         "fields": [
             [
                 "DeathQuote",
@@ -6707,7 +6707,7 @@
             "MAG": 0,
             "SKL": 5,
             "SPD": 5,
-            "LCK": 8,
+            "LCK": 10,
             "DEF": 6,
             "CON": 9,
             "MOV": 7,
@@ -6716,14 +6716,14 @@
         "growths": {
             "HP": 45,
             "STR": 40,
-            "MAG": 10,
+            "MAG": 5,
             "SKL": 10,
             "SPD": 20,
             "LCK": 113,
-            "DEF": 25,
+            "DEF": 30,
             "CON": 0,
             "MOV": 0,
-            "RES": 20
+            "RES": 15
         },
         "stat_cap_modifiers": {
             "HP": 0,
@@ -6731,8 +6731,8 @@
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": -1,
-            "DEF": -1,
+            "RES": -2,
+            "DEF": 0,
             "LCK": 5,
             "SKL": -1,
             "SPD": -1
@@ -6758,7 +6758,7 @@
         "learned_skills": [
             [
                 1,
-                "LuckyWallopProc"
+                "LuckyWallop"
             ]
         ],
         "unit_notes": [
@@ -6881,21 +6881,21 @@
         "klass": "SwordCavalierBread",
         "tags": [],
         "bases": {
-            "HP": 20,
+            "HP": 19,
             "STR": 5,
-            "MAG": 3,
-            "SKL": 6,
-            "SPD": 9,
+            "MAG": 2,
+            "SKL": 5,
+            "SPD": 8,
             "LCK": 2,
             "DEF": 5,
-            "RES": 4,
+            "RES": 3,
             "CON": 8,
             "MOV": 7
         },
         "growths": {
             "HP": 30,
-            "STR": 35,
-            "MAG": 35,
+            "STR": 30,
+            "MAG": 30,
             "SKL": 30,
             "SPD": 45,
             "LCK": 25,
@@ -7070,8 +7070,8 @@
         "growths": {
             "HP": 35,
             "STR": 25,
-            "MAG": 50,
-            "SKL": 40,
+            "MAG": 40,
+            "SKL": 35,
             "SPD": 30,
             "LCK": 35,
             "DEF": 20,
@@ -7219,6 +7219,93 @@
                 "I'd rather have a pet reptile, but this is fine too."
             ]
         ]
+    },
+    {
+        "nid": "Meg",
+        "name": "Meg",
+        "desc": "A village girl who likes livestock.",
+        "variant": "Female",
+        "level": 3,
+        "klass": "Archer",
+        "tags": [],
+        "bases": {
+            "HP": 19,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 8,
+            "LCK": 7,
+            "DEF": 3,
+            "RES": 1,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 30,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 45,
+            "DEF": 20,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": -2,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Iron Longbow",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "HerdTogether"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Animals,Farming"
+            ],
+            [
+                "Dislikes:",
+                "Rustlers"
+            ]
+        ],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                31,
+                null
+            ],
+            "Axe": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Meg",
+        "affinity": "Wind",
+        "fields": []
     },
     {
         "nid": "Cade",
@@ -7392,11 +7479,11 @@
             "MOV": 7
         },
         "growths": {
-            "HP": 35,
+            "HP": 40,
             "STR": 35,
-            "MAG": 10,
+            "MAG": 5,
             "SKL": 45,
-            "SPD": 55,
+            "SPD": 50,
             "LCK": 30,
             "DEF": 20,
             "RES": 25,
@@ -7671,7 +7758,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Nabin",
-        "affinity": "Thunder",
+        "affinity": "Light",
         "fields": [
             [
                 "DeathQuote",
@@ -7830,7 +7917,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Chess",
-        "affinity": "Thunder",
+        "affinity": "Earth",
         "fields": [
             [
                 "DeathQuote",
@@ -8463,82 +8550,9 @@
         ]
     },
     {
-        "nid": "Meg",
-        "name": "Meg",
-        "desc": "A village girl who likes livestock.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Ranger",
-        "tags": [],
-        "bases": {
-            "HP": 32,
-            "STR": 10,
-            "MAG": 0,
-            "SKL": 13,
-            "SPD": 15,
-            "LCK": 8,
-            "DEF": 8,
-            "RES": 6,
-            "CON": 9,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 50,
-            "STR": 30,
-            "MAG": 10,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 30,
-            "DEF": 15,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 1,
-            "SPD": 1,
-            "LCK": 0,
-            "DEF": -2,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "starting_items": [
-            [
-                "Steel Bow",
-                false
-            ],
-            [
-                "Iron Axe",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Bow": [
-                false,
-                181,
-                null
-            ],
-            "Axe": [
-                false,
-                31,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Meg",
-        "affinity": "Earth",
-        "fields": []
-    },
-    {
         "nid": "Cres",
         "name": "Cres",
-        "desc": "Marquess of Nekoma, who is a staunch ally of Sages.",
+        "desc": "Marquess of Nekoma, who is a staunch ally of the Sagemaster.",
         "variant": "",
         "level": 3,
         "klass": "RangerCres",
@@ -8585,7 +8599,7 @@
                 false
             ],
             [
-                "Iron Sword",
+                "SapphireLance",
                 false
             ],
             [
@@ -9067,7 +9081,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": null,
+        "portrait_nid": "Pit",
         "affinity": "Water",
         "fields": []
     },
@@ -9211,7 +9225,7 @@
             "DEF": 3,
             "RES": 4,
             "CON": 4,
-            "MOV": 4
+            "MOV": 5
         },
         "growths": {
             "HP": 45,
@@ -9247,7 +9261,7 @@
                 false
             ],
             [
-                "Door Key",
+                "Vulnerary",
                 false
             ]
         ],
@@ -10811,6 +10825,119 @@
         "fields": []
     },
     {
+        "nid": "Naz",
+        "name": "Naz",
+        "desc": "Lord",
+        "variant": "",
+        "level": 6,
+        "klass": "Noble",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 10,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 6,
+            "LCK": 6,
+            "DEF": 7,
+            "RES": 2,
+            "CON": 8,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 65,
+            "MAG": 5,
+            "SKL": 40,
+            "SPD": 40,
+            "LCK": 45,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Rapier",
+                false
+            ],
+            [
+                "Steel Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Naz",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
         "nid": "Sagemaster",
         "name": "Sagemaster",
         "desc": "The 14th Sagemaster of Arcei.\nDying of an unknown illness.",
@@ -10930,119 +11057,6 @@
         "alternate_classes": [],
         "portrait_nid": "Sagemaster",
         "affinity": "Fire",
-        "fields": []
-    },
-    {
-        "nid": "Naz",
-        "name": "Naz",
-        "desc": "Lord",
-        "variant": "",
-        "level": 6,
-        "klass": "Noble",
-        "tags": [],
-        "bases": {
-            "HP": 25,
-            "STR": 10,
-            "MAG": 0,
-            "SKL": 6,
-            "SPD": 6,
-            "LCK": 6,
-            "DEF": 7,
-            "RES": 2,
-            "CON": 8,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 75,
-            "STR": 65,
-            "MAG": 5,
-            "SKL": 40,
-            "SPD": 40,
-            "LCK": 45,
-            "DEF": 40,
-            "RES": 35,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Rapier",
-                false
-            ],
-            [
-                "Steel Sword",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                31,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Naz",
-        "affinity": "Ice",
         "fields": []
     },
     {
@@ -11614,7 +11628,7 @@
     {
         "nid": "Byron",
         "name": "Byron",
-        "desc": "A commander of Monsdor, leading a hunt for Sages.\n",
+        "desc": "A commander of Monsdor, leading a hunt for Encantis.\n",
         "variant": "",
         "level": 8,
         "klass": "Merc",
@@ -11846,6 +11860,117 @@
         "fields": []
     },
     {
+        "nid": "Yosef",
+        "name": "Yosef",
+        "desc": "A loyal knight of Monsdor.\nAmong the occupying forces in Grahment.",
+        "variant": "",
+        "level": 5,
+        "klass": "KnightS",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 29,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 7,
+            "SPD": 2,
+            "LCK": 1,
+            "DEF": 9,
+            "CON": 15,
+            "MOV": 4,
+            "RES": 1
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 30,
+            "LCK": 25,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "RubySword",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "CertainBlow"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Yosef",
+        "affinity": "None",
+        "fields": []
+    },
+    {
         "nid": "Maurice",
         "name": "Maurice",
         "desc": "A highwayman whose greed is insurmountable.",
@@ -11971,10 +12096,10 @@
             "STR": 8,
             "MAG": 2,
             "SKL": 7,
-            "SPD": 8,
-            "LCK": 2,
-            "DEF": 7,
-            "RES": 2,
+            "SPD": 7,
+            "LCK": 5,
+            "DEF": 8,
+            "RES": 4,
             "CON": 11,
             "MOV": 7
         },
@@ -13230,7 +13355,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Hesphatales",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     },
     {
@@ -15408,19 +15533,19 @@
         "desc": "A noblewoman who despises her fleeting youth.\nShoop's mother.\n",
         "variant": "Female",
         "level": 6,
-        "klass": "Sage",
+        "klass": "Mage Knight",
         "tags": [],
         "bases": {
             "HP": 32,
-            "STR": 2,
+            "STR": 10,
             "MAG": 16,
-            "SKL": 10,
+            "SKL": 11,
             "SPD": 15,
             "LCK": 14,
-            "DEF": 9,
+            "DEF": 12,
             "RES": 16,
-            "CON": 7,
-            "MOV": 6
+            "CON": 8,
+            "MOV": 7
         },
         "growths": {
             "HP": 45,
@@ -15448,15 +15573,11 @@
         },
         "starting_items": [
             [
+                "Bolganone",
+                false
+            ],
+            [
                 "Bolting",
-                false
-            ],
-            [
-                "Arcwind",
-                false
-            ],
-            [
-                "Physic",
                 false
             ]
         ],
@@ -15470,7 +15591,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
+                121,
                 251
             ],
             "Lance": [
@@ -15495,12 +15616,12 @@
             ],
             "Staff": [
                 false,
-                121,
+                0,
                 251
             ],
             "Light": [
                 false,
-                31,
+                0,
                 251
             ],
             "Anima": [
@@ -15522,6 +15643,75 @@
         "alternate_classes": [],
         "portrait_nid": "Melinda",
         "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Melledoneus",
+        "name": "Melledoneus",
+        "desc": "A mysterious swordsman from a foreign land.\nWorking as an enforcer for Chancellor Lucian.",
+        "variant": "",
+        "level": 7,
+        "klass": "MortalSavant",
+        "tags": [],
+        "bases": {
+            "HP": 46,
+            "STR": 16,
+            "MAG": 11,
+            "SKL": 23,
+            "SPD": 20,
+            "LCK": 9,
+            "DEF": 11,
+            "RES": 9,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 15,
+            "MAG": 10,
+            "SKL": 12,
+            "SPD": 12,
+            "LCK": 25,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Chandrahas",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "KeenIntuition"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Melledoneus",
+        "affinity": null,
         "fields": []
     },
     {
@@ -15741,14 +15931,14 @@
         "klass": "Sage",
         "tags": [],
         "bases": {
-            "HP": 38,
+            "HP": 50,
             "STR": 0,
             "MAG": 22,
             "SKL": 15,
-            "SPD": 14,
-            "LCK": 12,
-            "DEF": 10,
-            "RES": 16,
+            "SPD": 15,
+            "LCK": 21,
+            "DEF": 11,
+            "RES": 17,
             "CON": 12,
             "MOV": 6
         },

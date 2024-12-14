@@ -342,5 +342,9 @@
     {
         "nid": "[MON] Mauthe Doog {IS}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "[LRD] Generic Lord (M) Lance {Aruka, Yggdra, N426}",
+        "subicon_dict": {}
     }
 ]

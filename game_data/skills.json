@@ -1215,11 +1215,11 @@
     {
         "nid": "Napping",
         "name": "Napping",
-        "desc": "Unit is asleep.",
-        "icon_nid": "Skills",
+        "desc": "Unit is asleep, wakes up after combat.",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            4,
-            8
+            3,
+            44
         ],
         "components": [
             [
@@ -1246,6 +1246,23 @@
             [
                 "cannot_use_items",
                 null
+            ],
+            [
+                "unit_anim",
+                "MapStun"
+            ],
+            [
+                "avoid",
+                -999
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
             ]
         ]
     },
@@ -1253,10 +1270,10 @@
         "nid": "Sleep",
         "name": "Sleep",
         "desc": "Unit is asleep.",
-        "icon_nid": "Skills",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            4,
-            8
+            3,
+            44
         ],
         "components": [
             [
@@ -1709,6 +1726,35 @@
         ]
     },
     {
+        "nid": "Inspirited",
+        "name": "Inspirited",
+        "desc": "Grants STR+4 and Canter (1).",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "canter",
+                1
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    },
+    {
         "nid": "Magic +2 ",
         "name": "Magic +2",
         "desc": "Grants MAG +2.",
@@ -2082,6 +2128,31 @@
                         5
                     ]
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Luck_Plus2",
+        "name": "Luck +2",
+        "desc": "Grants LCK +2.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            1,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
             ]
         ]
     },
@@ -4779,7 +4850,7 @@
     {
         "nid": "AetherProc",
         "name": "Aether",
-        "desc": "Ignore half of foe's DEF/RES when attacking and \nheal half of damage dealt(Trigger% = SKL/2).\n",
+        "desc": "Ignore half of foe's DEF/RES when attacking and \nheal half of damage dealt (Trigger% = SKL/2).\n",
         "icon_nid": "Skills (1)",
         "icon_index": [
             2,
@@ -4897,6 +4968,74 @@
             [
                 "dynamic_damage",
                 "(unit.get_stat('RES') // 2)"
+            ]
+        ]
+    },
+    {
+        "nid": "LuckyWallop",
+        "name": "Lucky Wallop",
+        "desc": "Unit has may attack twice on a hit (Trigger% = LCK+20).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            51
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "ASPLPROC"
+            ],
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 1,
+                    "damage_percent": 1.0,
+                    "show_proc_effects": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "PremonitionProc",
+        "name": "Premonition",
+        "desc": "Unit has a chance to guarantee avoid an attack during combat (Trigger% = MAG/2).",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "defense_proc",
+                "Premonition"
+            ],
+            [
+                "proc_rate",
+                "PREMONITION"
+            ]
+        ]
+    },
+    {
+        "nid": "Premonition",
+        "name": "Premonition",
+        "desc": "Avoid.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            45
+        ],
+        "components": [
+            [
+                "avoid",
+                999
             ]
         ]
     },
@@ -6551,6 +6690,10 @@
             [
                 "stack",
                 2
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     },
@@ -7279,7 +7422,7 @@
     {
         "nid": "Phlegmatic",
         "name": "Phlegmatic",
-        "desc": "Grants Dodge +20. Grants Avoid +15 if there are no allies adjacent to unit",
+        "desc": "Grants Dodge +20. Grants Avoid +15 if there are no allies adjacent to unit.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -7450,6 +7593,47 @@
             [
                 "dynamic_accuracy",
                 "5*(min(4,unit_funcs.check_focus(unit, 3)))"
+            ]
+        ]
+    },
+    {
+        "nid": "HerdTogether",
+        "name": "Herd Together",
+        "desc": "At start of turn, allies within 2 spaces gain LCK+2 for 1 turn.\nGrants Crit = total LCK bonuses on allies within 2 spaces.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            11,
+            52
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Range"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "unit"
+            ],
+            [
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "Luck_Plus2",
+                    "range": 2,
+                    "affect_self": false,
+                    "target": "ally"
+                }
+            ],
+            [
+                "eval_crit",
+                "sum([u.stat_bonus('LCK') for u in get_allies_within_distance(unit, 2) if (u is not unit and u.stat_bonus('LCK')>0)])"
             ]
         ]
     },
@@ -7626,7 +7810,7 @@
             ],
             [
                 "combat_condition",
-                "target.team == unit.team"
+                "target.team == unit.team and target is not unit"
             ],
             [
                 "live_to_serve",
@@ -8012,34 +8196,6 @@
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
                     "lost_on_splash": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "LuckyWallopProc",
-        "name": "Lucky Wallop",
-        "desc": "Unit has a LCK% chance to attack twice on a hit.",
-        "icon_nid": "Skills (1)",
-        "icon_index": [
-            6,
-            51
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "proc_rate",
-                "CRIT_AVOID"
-            ],
-            [
-                "astra_proc",
-                {
-                    "extra_attacks": 1,
-                    "damage_percent": 1.0,
-                    "show_proc_effects": true
                 }
             ]
         ]
@@ -8949,6 +9105,10 @@
             [
                 "alternate_critical_multiplier_formula",
                 "Xec"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -10086,10 +10246,10 @@
         "nid": "Assertive",
         "name": "Assertive",
         "desc": "If unit has weapon-triangle disadvantage, unit makes a guaranteed follow-up attack.",
-        "icon_nid": "Skills (1)",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            5,
-            44
+            13,
+            52
         ],
         "components": [
             [
@@ -10212,46 +10372,6 @@
             [
                 "combined_time",
                 1
-            ]
-        ]
-    },
-    {
-        "nid": "PremonitionProc",
-        "name": "Premonition",
-        "desc": "Unit has a (MAG/2)% chance to guarantee avoid an attack during combat.",
-        "icon_nid": "Skills (1)",
-        "icon_index": [
-            1,
-            45
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "defense_proc",
-                "Premonition"
-            ],
-            [
-                "proc_rate",
-                "PREMONITION"
-            ]
-        ]
-    },
-    {
-        "nid": "Premonition",
-        "name": "Premonition",
-        "desc": "Unit has a MAG% chance of gaining Hit/Avoid+15 for 1 turn",
-        "icon_nid": "Skills (1)",
-        "icon_index": [
-            1,
-            45
-        ],
-        "components": [
-            [
-                "avoid",
-                999
             ]
         ]
     },
@@ -11247,6 +11367,30 @@
             [
                 "class_skill",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "KeenIntuition",
+        "name": "Keen Intuition",
+        "desc": "Grants +20 avoid when attacked from 2+ tiles away.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            4,
+            36
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position) > 1 "
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "avoid",
+                20
             ]
         ]
     }
