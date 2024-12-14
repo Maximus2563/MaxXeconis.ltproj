@@ -9873,10 +9873,6 @@
                 1
             ],
             [
-                "status_on_hit",
-                "Napping"
-            ],
-            [
                 "max_equation_range",
                 "MAGIC_RANGE"
             ],
@@ -9897,6 +9893,10 @@
                 [
                     "Mizt"
                 ]
+            ],
+            [
+                "status_after_combat_on_hit",
+                "Napping"
             ]
         ]
     },

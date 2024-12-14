@@ -9401,10 +9401,6 @@
             {
                 "nid": "Top",
                 "trigger_threshold": 3
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     },
@@ -10202,10 +10198,6 @@
             },
             {
                 "nid": "Mid",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -11981,10 +11973,6 @@
             },
             {
                 "nid": "Left",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -27046,6 +27034,43 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Mizt",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
