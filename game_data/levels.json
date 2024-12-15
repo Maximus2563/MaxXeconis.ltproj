@@ -10423,7 +10423,7 @@
         ],
         "regions": [
             {
-                "nid": "Chest",
+                "nid": "ChestA",
                 "region_type": "event",
                 "position": [
                     9,
@@ -10433,8 +10433,8 @@
                     1,
                     1
                 ],
-                "sub_nid": "Chest",
-                "condition": "True",
+                "sub_nid": "Interact",
+                "condition": "unit.nid == 'Leap'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -27133,11 +27133,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

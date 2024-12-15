@@ -852,18 +852,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Ahmari",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Flaco",
         "blinking_offset": [
             24,
@@ -1981,6 +1969,18 @@
     },
     {
         "nid": "Timothy",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ahmari",
         "blinking_offset": [
             24,
             24

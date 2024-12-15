@@ -16702,14 +16702,14 @@
         "klass": "Wyvern Lord",
         "tags": [],
         "bases": {
-            "HP": 40,
+            "HP": 47,
             "STR": 20,
             "MAG": 0,
             "SKL": 15,
             "SPD": 15,
             "LCK": 8,
             "DEF": 20,
-            "RES": 5,
+            "RES": 8,
             "CON": 16,
             "MOV": 8
         },
@@ -16816,15 +16816,15 @@
         "klass": "Wyvern Lord",
         "tags": [],
         "bases": {
-            "HP": 35,
+            "HP": 40,
             "STR": 16,
-            "MAG": 0,
-            "SKL": 12,
-            "SPD": 11,
-            "LCK": 9,
+            "MAG": 4,
+            "SKL": 16,
+            "SPD": 12,
+            "LCK": 14,
             "DEF": 13,
-            "RES": 5,
-            "CON": 10,
+            "RES": 6,
+            "CON": 12,
             "MOV": 8
         },
         "growths": {
@@ -16854,6 +16854,10 @@
         "starting_items": [
             [
                 "Spear",
+                false
+            ],
+            [
+                "Elixir",
                 false
             ]
         ],
@@ -16940,7 +16944,7 @@
             "SKL": 14,
             "SPD": 9,
             "LCK": 0,
-            "DEF": 15,
+            "DEF": 18,
             "RES": 5,
             "CON": 14,
             "MOV": 7
