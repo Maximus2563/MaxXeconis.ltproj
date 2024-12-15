@@ -5430,7 +5430,6 @@
         "priority": 20,
         "_source": [
             "remove_unit;Wagon1;fade;fade",
-            "level_var;Wagon1Arrive;True",
             "if;not any(unit.team == 'other' for unit in game.units if unit.position)",
             "win_game",
             "end"
@@ -5447,7 +5446,6 @@
         "priority": 20,
         "_source": [
             "remove_unit;Wagon2;fade;fade",
-            "level_var;Wagon2Arrive;True",
             "if;not any(unit.team == 'other' for unit in game.units if unit.position)",
             "win_game",
             "end"
@@ -5464,7 +5462,6 @@
         "priority": 20,
         "_source": [
             "remove_unit;Wagon3;fade;fade",
-            "level_var;Wagon3Arrive;True",
             "if;not any(unit.team == 'other' for unit in game.units if unit.position)",
             "win_game",
             "end"
@@ -5510,13 +5507,13 @@
             "else",
             "speak;Man4;Let's see what we have for ye, for yer excellent work!",
             "end",
-            "if;v(Wagon1Arrive) == 'True'",
+            "if;game.check_alive('Wagon1')",
             "give_item;Leap;Red Gem",
             "end",
-            "if;v(Wagon2Arrive) == 'True'",
+            "if;game.check_alive('Wagon2')",
             "give_item;Leap;Symbiosis",
             "end",
-            "if;v(Wagon3Arrive) == 'True'",
+            "if;game.check_alive('Wagon3')",
             "give_item;Leap;Lancereaver",
             "end",
             "speak;Leap;Very cool!",
@@ -5581,7 +5578,7 @@
             "speak;Leap;Wow...",
             "end",
             "transition;close",
-            "if;game.turncount < 9",
+            "if;game.turncount < 10",
             "give_bexp;100",
             "end"
         ],
@@ -6116,7 +6113,8 @@
             "add_talk;Leap;Shoop",
             "change_team;Meg;player",
             "change_stats;Scout;MOV,-1;no_warn;immediate",
-            "change_stats;Scout2;MOV,-1;no_warn;immediate"
+            "change_stats;Scout2;MOV,-1;no_warn;immediate",
+            "prep;1;ResolveDark"
         ],
         "nid": "8 Intro"
     },
@@ -7098,6 +7096,7 @@
         "_source": [
             "chapter_title",
             "music;038 - Unease",
+            "change_team;Hogarth;enemy",
             "change_team;Nabin;enemy",
             "change_background;Dungeon 2",
             "multi_add_portrait;Hogarth;Left;Leap;Right",
@@ -7178,6 +7177,7 @@
             "speak;Speedy;I forgot.",
             "speak;Leap;At least we have two options!|Now, outta here!|But first, we need to free my partner...",
             "speak;Speedy;Sure thing, just point me where you need.|Beats being down here.",
+            "multi_remove_portrait;Leap;Speedy",
             "change_team;Speedy;player",
             "change_party;Speedy;LeapGroup",
             "move_item;Leap;102;no_warn",
@@ -7191,7 +7191,9 @@
             "move_item;Prof;109;no_warn",
             "move_item;Prof;101;no_warn",
             "add_talk;Leap;Prof",
-            "add_talk;Leap;Nabin"
+            "add_talk;Leap;Nabin",
+            "end_skip",
+            "speak;;The armor units carry Leap and Prof's belongings.|When they are defeated, their inventories will be given back.;center;;hint;;red"
         ],
         "nid": "10 Intro"
     },
@@ -7223,9 +7225,7 @@
             "speak;Leap;The Duke? Won't he be angry?",
             "speak;Nabin;Very, but it's the right thing.|You've probably figured it out, but he's ruthless...|He's also in with bad people, who have him round their finger.",
             "speak;Leap;Like the monster guy?",
-            "speak;Nabin;I wouldn't be surprised...|Now, let me make this all easier for you.",
-            "speak;Leap;Thank you...",
-            "speak;Nabin;If any of these guards have your things, I'll pass them back to you!|And more...",
+            "speak;Nabin;I wouldn't be surprised...|Now, let me make this all easier for you.|We should get your possessions back first.",
             "speak;Leap;Then we won't be so useless... Woop!|Better let you handle those guards!",
             "change_team;Nabin;player",
             "change_ai;Nabin;None",
@@ -7266,7 +7266,9 @@
             "move_item;101;Prof",
             "move_item;101;Prof",
             "move_item;101;Prof",
-            "move_item;101;Prof"
+            "move_item;101;Prof",
+            "sound;Item",
+            "alert;Items returned to Prof!"
         ],
         "nid": "10 ItemPassalong"
     },
@@ -7281,7 +7283,9 @@
         "_source": [
             "move_item;109;Prof",
             "move_item;109;Prof",
-            "move_item;109;Prof"
+            "move_item;109;Prof",
+            "sound;Item",
+            "alert;Items returned to Prof!"
         ],
         "nid": "10 ItemPassalong3"
     },
@@ -7297,7 +7301,9 @@
             "move_item;102;Leap",
             "move_item;102;Leap",
             "move_item;102;Leap",
-            "move_item;102;Leap"
+            "move_item;102;Leap",
+            "sound;Item",
+            "alert;Items returned to Leap!"
         ],
         "nid": "10 ItemPassalong2"
     },
@@ -7312,7 +7318,9 @@
         "_source": [
             "move_item;108;Leap",
             "move_item;108;Leap",
-            "move_item;108;Leap"
+            "move_item;108;Leap",
+            "sound;Item",
+            "alert;Items returned to Leap!"
         ],
         "nid": "10 ItemPassalong4"
     },
@@ -7820,12 +7828,12 @@
         "name": "BEXPOther",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "(unit.team == 'enemy' or unit.team == 'enemy2') and unit2.team == 'other'",
+        "condition": "unit2.team == 'other'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_bexp;10;no_banner"
+            "give_bexp;10;;no_banner"
         ],
         "nid": "Global BEXPOther"
     },

@@ -8338,7 +8338,7 @@
     {
         "nid": "SmokeKunai",
         "name": "Smoke Kunai",
-        "desc": "Smoke only. Inflicts LCK/DEF/RES-2 on foe on hit\nand foes within 2 spaces of target after combat.",
+        "desc": "Inflicts LCK/DEF/RES-2 on foe on hit and foes within 2 spaces of target after combat. Smoke Only.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
             14,
