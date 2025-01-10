@@ -28,26 +28,6 @@
         ]
     },
     {
-        "nid": "Canto+",
-        "name": "Canto+",
-        "desc": "Can move again after all actions.",
-        "icon_nid": "Skills (1)",
-        "icon_index": [
-            7,
-            38
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "canto_plus",
-                null
-            ]
-        ]
-    },
-    {
         "nid": "TempCanto",
         "name": "TempCanto",
         "desc": "Can move again after all actions.",
@@ -71,6 +51,26 @@
             ],
             [
                 "canto",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Canto+",
+        "name": "Canto+",
+        "desc": "Can move again after all actions.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canto_plus",
                 null
             ]
         ]
@@ -5670,7 +5670,7 @@
     {
         "nid": "QuickRiposteProc",
         "name": "Quick Riposte",
-        "desc": "If foe initiates combat and unit's HP>50%,\nunit can make a guaranteed follow-up attack.",
+        "desc": "If foe initiates combat and unit's HP>50% at start of combat,\nunit can make a guaranteed follow-up attack.",
         "icon_nid": "LT_Skills",
         "icon_index": [
             10,
@@ -5752,6 +5752,30 @@
             [
                 "all_brave",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "VeteranExperience",
+        "name": "Veteran's Experience",
+        "desc": "If unit has WTA, unit makes a guaranteed follow-up attack and foe cannot.\nIf unit has WTD, foe makes a guaranteed follow-up attack and foe cannot.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_attack_speed",
+                "100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0 else 100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), False).modification > 0 else 0"
+            ],
+            [
+                "dynamic_defense_speed",
+                "100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0 else 100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), False).modification > 0 else 0"
             ]
         ]
     },
@@ -11308,7 +11332,7 @@
     },
     {
         "nid": "SeniorShout",
-        "name": "SeniorShout",
+        "name": "Senior Shout",
         "desc": "All units within 2 spaces suffer -10 Dodge.",
         "icon_nid": "LT_Skills",
         "icon_index": [
@@ -11391,6 +11415,128 @@
             [
                 "avoid",
                 20
+            ]
+        ]
+    },
+    {
+        "nid": "ScarletStarlings",
+        "name": "Scarlet Starlings",
+        "desc": "If there are more red units than purple units,\nunit and allies within 4 spaces gain STR/DEF+2.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            10,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "ScarletStarlingsChild"
+            ],
+            [
+                "aura_range",
+                4
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "ScarletStarlingsChild",
+        "name": "Scarlet Starlings",
+        "desc": "If there are more red units than purple units, gain STR/SPD/DEF+2.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            10,
+            37
+        ],
+        "components": [
+            [
+                "condition",
+                "len(game.get_enemy1_units()) > len(game.get_enemy2_units())"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "MauveMarauders",
+        "name": "Mauve Marauders",
+        "desc": "If there are more purple units than red units,\nunit and allies within 4 spaces gain STR/DEF+2.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            3,
+            49
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "MauveMaraudersChild"
+            ],
+            [
+                "aura_range",
+                4
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "MauveMaraudersChild",
+        "name": "Mauve Marauders",
+        "desc": "If there are more purple units than red units, gain STR/SPD/DEF+2.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            3,
+            49
+        ],
+        "components": [
+            [
+                "condition",
+                "len(game.get_enemy2_units()) > len(game.get_enemy1_units())"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     }

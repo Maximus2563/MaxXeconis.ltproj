@@ -10029,10 +10029,6 @@
                 1
             ],
             [
-                "status_on_hit",
-                "Dazzled"
-            ],
-            [
                 "max_equation_range",
                 "MAGIC_RANGE"
             ],
@@ -10043,6 +10039,10 @@
             [
                 "map_cast_sfx",
                 "Sleep2"
+            ],
+            [
+                "status_after_combat_on_hit",
+                "Dazzled"
             ]
         ]
     },
@@ -20639,5 +20639,16 @@
                 }
             ]
         ]
+    },
+    {
+        "nid": "new",
+        "name": "new",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
     }
 ]

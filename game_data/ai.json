@@ -97,13 +97,51 @@
         "roam_ai": false
     },
     {
+        "nid": "DebuffHeal",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() < (unit.stats['HP'] // 2)"
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 25,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
         "nid": "AttackHeal",
         "behaviours": [
             {
                 "action": "Support",
                 "target": "Ally",
                 "target_spec": null,
-                "view_range": -1,
+                "view_range": -3,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -130,8 +168,8 @@
                 "condition": ""
             }
         ],
-        "priority": 20,
-        "offense_bias": 2.0,
+        "priority": 25,
+        "offense_bias": 1.6,
         "roam_ai": false
     },
     {

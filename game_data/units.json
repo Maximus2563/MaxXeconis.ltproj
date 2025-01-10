@@ -270,10 +270,6 @@
         "affinity": "Wind",
         "fields": [
             [
-                "DeathQuote",
-                "Everyone, do your best for me..."
-            ],
-            [
                 "EscapeQuote",
                 "Keep on your toes, everyone!"
             ],
@@ -711,10 +707,6 @@
         "portrait_nid": "Xeconis",
         "affinity": "Ice",
         "fields": [
-            [
-                "DeathQuote",
-                "My gambit's been foiled... and thus... I fold..."
-            ],
             [
                 "EscapeQuote",
                 "Let's go, time is against us. Don't fall behind schedule."
@@ -7061,7 +7053,7 @@
             "MAG": 7,
             "SKL": 5,
             "SPD": 6,
-            "LCK": 4,
+            "LCK": 5,
             "DEF": 2,
             "RES": 6,
             "CON": 5,
@@ -8807,19 +8799,19 @@
         "name": "Pit",
         "desc": "An Aurelian cavalier with great potential.",
         "variant": "",
-        "level": 5,
+        "level": 7,
         "klass": "BowCavalier",
         "tags": [],
         "bases": {
             "HP": 24,
-            "STR": 7,
+            "STR": 8,
             "MAG": 0,
-            "SKL": 7,
-            "SPD": 7,
-            "LCK": 7,
-            "DEF": 7,
-            "RES": 7,
-            "CON": 7,
+            "SKL": 8,
+            "SPD": 8,
+            "LCK": 8,
+            "DEF": 6,
+            "RES": 6,
+            "CON": 8,
             "MOV": 6
         },
         "growths": {
@@ -8971,30 +8963,30 @@
         "name": "Pit",
         "desc": "An Aurelian cavalier with great potential.",
         "variant": "",
-        "level": 5,
+        "level": 7,
         "klass": "BowCavalier",
         "tags": [],
         "bases": {
             "HP": 24,
-            "STR": 7,
+            "STR": 8,
             "MAG": 0,
-            "SKL": 7,
-            "SPD": 7,
-            "LCK": 7,
-            "DEF": 7,
-            "RES": 7,
-            "CON": 7,
+            "SKL": 8,
+            "SPD": 8,
+            "LCK": 8,
+            "DEF": 6,
+            "RES": 6,
+            "CON": 8,
             "MOV": 6
         },
         "growths": {
-            "HP": 40,
-            "STR": 40,
+            "HP": 50,
+            "STR": 35,
             "MAG": 5,
-            "SKL": 40,
-            "SPD": 40,
-            "LCK": 40,
-            "DEF": 40,
-            "RES": 40,
+            "SKL": 35,
+            "SPD": 35,
+            "LCK": 35,
+            "DEF": 35,
+            "RES": 35,
             "CON": 0,
             "MOV": 0
         },
@@ -9106,7 +9098,7 @@
             "LCK": 7,
             "DEF": 7,
             "RES": 2,
-            "CON": 9,
+            "CON": 11,
             "MOV": 5
         },
         "growths": {
@@ -9216,56 +9208,52 @@
         "name": "Dark",
         "desc": "A mage in training who has a tendency to take risks.",
         "variant": "Dark",
-        "level": 5,
+        "level": 1,
         "klass": "Pupil",
         "tags": [],
         "bases": {
             "HP": 16,
-            "STR": 1,
-            "MAG": 5,
-            "SKL": 4,
+            "STR": 0,
+            "MAG": 6,
+            "SKL": 6,
             "SPD": 5,
             "LCK": 4,
-            "DEF": 3,
-            "RES": 4,
+            "DEF": 2,
+            "RES": 3,
             "CON": 4,
             "MOV": 5
         },
         "growths": {
-            "HP": 45,
-            "STR": 30,
-            "MAG": 45,
-            "SKL": 35,
+            "HP": 30,
+            "STR": 5,
+            "MAG": 50,
+            "SKL": 40,
             "SPD": 40,
             "LCK": 40,
             "DEF": 25,
-            "RES": 35,
+            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
+            "HP": -3,
+            "MAG": 2,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": 0,
+            "RES": 2,
             "DEF": 0,
             "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
+            "SKL": 1,
+            "SPD": 1
         },
         "starting_items": [
             [
-                "Magic Textbook",
+                "Ice",
                 false
             ],
             [
-                "Wind",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Antitoxin",
                 false
             ]
         ],
@@ -9273,6 +9261,10 @@
             [
                 1,
                 "SpellStudent"
+            ],
+            [
+                1,
+                "Skilltaker"
             ]
         ],
         "unit_notes": [
@@ -9318,7 +9310,7 @@
             ],
             "Anima": [
                 false,
-                1,
+                21,
                 251
             ],
             "Dark": [
@@ -9377,13 +9369,13 @@
     {
         "nid": "Lumii",
         "name": "Lumii",
-        "desc": "",
+        "desc": "A young orphan who was taken in by Father Cornelius.",
         "variant": "Ponytail",
         "level": 1,
         "klass": "Diviner",
         "tags": [],
         "bases": {
-            "HP": 17,
+            "HP": 16,
             "STR": 2,
             "MAG": 6,
             "SKL": 4,
@@ -9412,9 +9404,9 @@
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": 0,
+            "RES": 1,
             "DEF": 0,
-            "LCK": 1,
+            "LCK": 3,
             "SKL": 0,
             "SPD": 2
         },
@@ -9481,7 +9473,7 @@
             ],
             "Light": [
                 false,
-                25,
+                31,
                 251
             ],
             "Anima": [
@@ -9575,13 +9567,13 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "HP": 0,
+            "HP": -3,
             "MAG": 2,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
             "RES": 0,
-            "DEF": -3,
+            "DEF": -2,
             "LCK": 0,
             "SKL": -2,
             "SPD": 3
@@ -9777,6 +9769,10 @@
             [
                 1,
                 "SeniorShout"
+            ],
+            [
+                1,
+                "VeteranExperience"
             ]
         ],
         "unit_notes": [
@@ -10705,7 +10701,7 @@
     {
         "nid": "Vic",
         "name": "Vic",
-        "desc": "A downtrodden sailor who lost his ship.\nResorted to being a pitfighter.",
+        "desc": "A downtrodden sailor who lost his ship.\nResorted to being a bandit.",
         "variant": "Vic",
         "level": 12,
         "klass": "Pirate",
@@ -11975,117 +11971,6 @@
         "fields": []
     },
     {
-        "nid": "Maurice",
-        "name": "Maurice",
-        "desc": "A highwayman whose greed is insurmountable.",
-        "variant": "",
-        "level": 4,
-        "klass": "Outlaw",
-        "tags": [
-            "Boss"
-        ],
-        "bases": {
-            "HP": 31,
-            "STR": 6,
-            "MAG": 0,
-            "SKL": 6,
-            "SPD": 10,
-            "LCK": 4,
-            "DEF": 6,
-            "CON": 9,
-            "MOV": 5,
-            "RES": 2
-        },
-        "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Short Bow",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "SealDef"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                true,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                31,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Maurice",
-        "affinity": "None",
-        "fields": []
-    },
-    {
         "nid": "Humphrey",
         "name": "Humphrey",
         "desc": "A Monsdor general wishing to seize the town.",
@@ -13107,7 +12992,7 @@
     {
         "nid": "Jason",
         "name": "Jason",
-        "desc": "A charismatic bandit who escaped from Monsdor Keep.",
+        "desc": "A charismatic bandit who leads the Mauve Marauders.",
         "variant": null,
         "level": 1,
         "klass": "Warrior",
@@ -13116,13 +13001,13 @@
         ],
         "bases": {
             "HP": 45,
-            "STR": 13,
+            "STR": 14,
             "MAG": 0,
             "SKL": 10,
-            "SPD": 9,
-            "LCK": 7,
-            "DEF": 8,
-            "RES": 4,
+            "SPD": 8,
+            "LCK": 10,
+            "DEF": 6,
+            "RES": 5,
             "CON": 13,
             "MOV": 6
         },
@@ -13167,7 +13052,15 @@
         "learned_skills": [
             [
                 1,
+                "MauveMarauders"
+            ],
+            [
+                1,
                 "RallyStr"
+            ],
+            [
+                1,
+                "MauveMaraudersChild"
             ]
         ],
         "unit_notes": [],
@@ -13185,6 +13078,324 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Jason",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Maurice",
+        "name": "Maurice",
+        "desc": "A highwayman who is a member of the Mauve Marauders.",
+        "variant": "",
+        "level": 10,
+        "klass": "Outlaw",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 33,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 12,
+            "LCK": 9,
+            "DEF": 5,
+            "CON": 9,
+            "MOV": 5,
+            "RES": 2
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Steel Longbow ",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "SealDef"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                121,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Maurice",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Mathias",
+        "name": "Mathias",
+        "desc": "Son of Ex-Archbishop Jeremiah.\nA troubled soul and leader of the Scarlet Starlings.",
+        "variant": null,
+        "level": 1,
+        "klass": "Trickster",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 37,
+            "STR": 9,
+            "MAG": 8,
+            "SKL": 12,
+            "SPD": 16,
+            "LCK": 5,
+            "DEF": 8,
+            "RES": 10,
+            "CON": 9,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 22,
+            "MAG": 17,
+            "SKL": 15,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Silver Dagger ",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Gamble"
+            ],
+            [
+                1,
+                "SealDef"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Knife": [
+                false,
+                181,
+                null
+            ],
+            "Anima": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Mathias",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Poppy",
+        "name": "Poppy",
+        "desc": "A bandit girl who works for the Scarlet Starlings.",
+        "variant": "",
+        "level": 10,
+        "klass": "Merc",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 35,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 9,
+            "SPD": 11,
+            "LCK": 5,
+            "DEF": 7,
+            "CON": 10,
+            "MOV": 5,
+            "RES": 3
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Steel Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "ScarletStarlings"
+            ],
+            [
+                1,
+                "DartingBlow"
+            ],
+            [
+                1,
+                "ScarletStarlingsChild"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Poppy",
         "affinity": "None",
         "fields": []
     },
@@ -13279,6 +13490,126 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Nancy",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Reus",
+        "name": "Reus",
+        "desc": "",
+        "variant": "CJ",
+        "level": 4,
+        "klass": "Sniper",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 37,
+            "STR": 15,
+            "MAG": 0,
+            "SKL": 15,
+            "SPD": 13,
+            "LCK": 7,
+            "DEF": 12,
+            "RES": 9,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Silver Bow",
+                false
+            ],
+            [
+                "Steel Longbow ",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "CloseCounter"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                121,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Reus",
         "affinity": "None",
         "fields": []
     },
@@ -14314,126 +14645,6 @@
         "alternate_classes": [],
         "portrait_nid": "Sunii",
         "affinity": "Light",
-        "fields": []
-    },
-    {
-        "nid": "Reus",
-        "name": "Reus",
-        "desc": "",
-        "variant": "CJ",
-        "level": 4,
-        "klass": "Sniper",
-        "tags": [
-            "Boss"
-        ],
-        "bases": {
-            "HP": 37,
-            "STR": 15,
-            "MAG": 0,
-            "SKL": 15,
-            "SPD": 13,
-            "LCK": 7,
-            "DEF": 12,
-            "RES": 9,
-            "CON": 10,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 65,
-            "STR": 30,
-            "MAG": 0,
-            "SKL": 30,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 15,
-            "RES": 25,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Silver Bow",
-                false
-            ],
-            [
-                "Steel Longbow ",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "CloseCounter"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                121,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Reus",
-        "affinity": "None",
         "fields": []
     },
     {
@@ -16614,90 +16825,6 @@
         "fields": []
     },
     {
-        "nid": "Mathias",
-        "name": "Mathias",
-        "desc": "Son of Ex-Archbishop Jeremiah.\nA troubled soul and notable thief.",
-        "variant": null,
-        "level": 1,
-        "klass": "Trickster",
-        "tags": [
-            "Boss"
-        ],
-        "bases": {
-            "HP": 37,
-            "STR": 9,
-            "MAG": 8,
-            "SKL": 12,
-            "SPD": 16,
-            "LCK": 5,
-            "DEF": 8,
-            "RES": 10,
-            "CON": 9,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 50,
-            "STR": 22,
-            "MAG": 17,
-            "SKL": 15,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 15,
-            "RES": 25,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "starting_items": [
-            [
-                "Silver Dagger ",
-                false
-            ],
-            [
-                "Concoction",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Gamble"
-            ],
-            [
-                1,
-                "SealDef"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Knife": [
-                false,
-                181,
-                null
-            ],
-            "Anima": [
-                false,
-                71,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Mathias",
-        "affinity": null,
-        "fields": []
-    },
-    {
         "nid": "Oberon",
         "name": "Oberon",
         "desc": "King of Monsdor, 'Rule by strength' is his motto.",
@@ -16821,11 +16948,11 @@
         "tags": [],
         "bases": {
             "HP": 40,
-            "STR": 16,
+            "STR": 13,
             "MAG": 4,
-            "SKL": 16,
-            "SPD": 12,
-            "LCK": 14,
+            "SKL": 14,
+            "SPD": 13,
+            "LCK": 8,
             "DEF": 13,
             "RES": 6,
             "CON": 12,
@@ -16861,7 +16988,7 @@
                 false
             ],
             [
-                "Elixir",
+                "Fili Shield",
                 false
             ]
         ],

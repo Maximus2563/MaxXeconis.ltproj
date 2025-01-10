@@ -5359,5 +5359,15 @@
             "13,27": "6"
         },
         "autotiles": {}
+    },
+    {
+        "nid": "Stronghold Update  OG 2021",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Cave",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
