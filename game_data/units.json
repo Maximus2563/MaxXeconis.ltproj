@@ -12799,11 +12799,13 @@
         "variant": "",
         "level": 1,
         "klass": "Bishop",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 30,
             "STR": 0,
-            "MAG": 8,
+            "MAG": 10,
             "SKL": 7,
             "SPD": 9,
             "LCK": 0,
@@ -12911,6 +12913,126 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Vance",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Paul",
+        "name": "Paul",
+        "desc": "Mayor of Whitemaw Port, a smug braggart.",
+        "variant": "",
+        "level": 1,
+        "klass": "Sage",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 34,
+            "STR": 3,
+            "MAG": 12,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 0,
+            "DEF": 12,
+            "RES": 11,
+            "CON": 12,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 0,
+            "MAG": 35,
+            "SKL": 25,
+            "SPD": 30,
+            "LCK": 55,
+            "DEF": 8,
+            "RES": 50,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": -3,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 0,
+            "CON": 5,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Chill",
+                false
+            ],
+            [
+                "Isolation",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Bowbreaker"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                121,
+                251
+            ],
+            "Light": [
+                false,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                181,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Paul",
         "affinity": "None",
         "fields": []
     },
@@ -13491,6 +13613,124 @@
         "alternate_classes": [],
         "portrait_nid": "Nancy",
         "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Talia",
+        "name": "Talia",
+        "desc": "From the icy village of Glaceil, taught Xeconis how to use the lance.",
+        "variant": "Female",
+        "level": 3,
+        "klass": "Halberdier",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 12,
+            "MAG": 3,
+            "SKL": 15,
+            "SPD": 13,
+            "LCK": 12,
+            "DEF": 12,
+            "RES": 7,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 25,
+            "MAG": 15,
+            "SKL": 30,
+            "SPD": 35,
+            "LCK": 25,
+            "DEF": 35,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Spear",
+                false
+            ],
+            [
+                "Silver Lance",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Phlegmatic"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                181,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Talia",
+        "affinity": "Thunder",
         "fields": []
     },
     {
@@ -14866,124 +15106,6 @@
         "alternate_classes": [],
         "portrait_nid": "Linda",
         "affinity": "Ice",
-        "fields": []
-    },
-    {
-        "nid": "Talia",
-        "name": "Talia",
-        "desc": "From the icy village of Glaceil, taught Xeconis how to use the lance.",
-        "variant": "Female",
-        "level": 3,
-        "klass": "Halberdier",
-        "tags": [],
-        "bases": {
-            "HP": 36,
-            "STR": 12,
-            "MAG": 3,
-            "SKL": 15,
-            "SPD": 13,
-            "LCK": 12,
-            "DEF": 12,
-            "RES": 7,
-            "CON": 10,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 45,
-            "STR": 25,
-            "MAG": 15,
-            "SKL": 30,
-            "SPD": 35,
-            "LCK": 25,
-            "DEF": 35,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Spear",
-                false
-            ],
-            [
-                "Silver Lance",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Phlegmatic"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                181,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Talia",
-        "affinity": "Thunder",
         "fields": []
     },
     {

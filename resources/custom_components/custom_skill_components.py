@@ -324,3 +324,128 @@ class UpkeepAOESkillGain(SkillComponent):
 
         if self.value.get('affect_self'):
             action.do(action.AddSkill(unit, self.value.get('skill'), unit))
+class EndstepAOESkillGain(SkillComponent):
+    nid = 'endstep_aoe_skill_gain'
+    desc = "Grants the designated skill at endstep to units in an AoE around owner. Can optionally affect user as well."
+    tag = SkillTags.CUSTOM
+    author = 'Lord_Tweed'
+
+    expose = (ComponentType.NewMultipleOptions)
+    options = {
+        "skill": ComponentType.Skill,
+        "range": ComponentType.Int,
+        "affect_self": ComponentType.Bool,
+        "target": (ComponentType.MultipleChoice, ('ally', 'enemy', 'any')),
+    }
+    
+    def __init__(self, value=None):
+        self.value = {
+            "skill": 'Canto',
+            "range": 1,
+            "affect_self": False,
+            "target": 'ally',
+        }
+        if value:
+            self.value.update(value)
+
+    def on_endstep(self, actions, playback, unit):
+        r = set(range(self.value.get('range') + 1))
+        locations = game.target_system.get_shell({unit.position}, r, game.board.bounds)
+        for loc in locations:
+            target2 = game.board.get_unit(loc)
+            if target2 and target2 is not unit and self.value.get('target') in ['enemy','any'] and skill_system.check_enemy(unit, target2):
+                action.do(action.AddSkill(target2, self.value.get('skill'), unit))
+            elif target2 and target2 is not unit and self.value.get('target') in ['ally','any'] and skill_system.check_ally(unit, target2):
+                action.do(action.AddSkill(target2, self.value.get('skill'), unit))
+
+        if self.value.get('affect_self'):
+            action.do(action.AddSkill(unit, self.value.get('skill'), unit))
+class AoeGainSkillAfterCombat(SkillComponent):
+    nid = 'aoe_gain_skill_after_combat'
+    desc = "Gives a skill to user (optionally) and units within X spaces of user after any combat"
+    tag = SkillTags.COMBAT2
+    author = 'Lord_Tweed'
+
+    expose = (ComponentType.NewMultipleOptions)
+    options = {
+        "skill": ComponentType.Skill,
+        "range": ComponentType.Int,
+        "affect_self": ComponentType.Bool,
+        "target": (ComponentType.MultipleChoice, ('ally', 'enemy', 'any')),
+    }
+    
+    def __init__(self, value=None):
+        self.value = {
+            "skill": 'Canto',
+            "range": 1,
+            "affect_self": False,
+            "target": 'ally',
+        }
+        if value:
+            self.value.update(value)
+
+    def end_combat(self, playback, unit, item, target, item2, mode):
+        r = set(range(self.value.get('range') + 1))
+        skill_used = 0
+        locations = game.target_system.get_shell({unit.position}, r, game.board.bounds)
+        for loc in locations:
+            target2 = game.board.get_unit(loc)
+            if target2 and target2 is not unit and self.value.get('target') in ['enemy','any'] and skill_system.check_enemy(unit, target2):
+                action.do(action.AddSkill(target2, self.value.get('skill'), unit))
+                skill_used += 1
+            elif target2 and target2 is not unit and self.value.get('target') in ['ally','any'] and skill_system.check_ally(unit, target2):
+                action.do(action.AddSkill(target2, self.value.get('skill'), unit))
+                skill_used += 1
+
+        if self.value.get('affect_self'):
+            action.do(action.AddSkill(unit, self.value.get('skill'), unit))
+            skill_used += 1
+        if skill_used > 0:
+            action.do(action.TriggerCharge(unit, self.skill))
+class RescueBonus(SkillComponent):
+    nid = 'rescue_bonus'
+    desc = "Traveler grants a child skill to lead unit while being rescued."
+    tag = SkillTags.STATUS
+
+    expose = ComponentType.Skill
+
+    def on_rescue(self, unit, leader):
+        action.do(action.AddSkill(leader, self.value))
+
+    def on_drop(self, unit, leader):
+        if self.value in [skill.nid for skill in leader.skills]:
+            action.do(action.RemoveSkill(leader, self.value))
+class EvalCritDamage(SkillComponent):
+    nid = 'eval_crit_additional'
+    desc = "Gives +X additional damage on crit solved using evaluate"
+    tag = SkillTags.COMBAT
+
+    expose = ComponentType.String
+
+    def modify_crit_addition(self, unit, item):
+        from app.engine import evaluate
+        try:
+            return int(evaluate.evaluate(self.value, unit, local_args={'item': item}))
+        except Exception as e:
+            logging.error("Couldn't evaluate %s conditional (%s)", self.value, e)
+        return 0
+class EvalCanter(SkillComponent):
+    nid = 'eval_canter'
+    desc = "Evaluates the canter spaces."
+    tag = SkillTags.CUSTOM
+
+    expose = ComponentType.String
+
+    def canto_movement(self, unit, unit2) -> int:
+        from app.engine import evaluate
+        try:
+            return int(evaluate.evaluate(self.value, unit, unit2))
+        except:
+            logging.error("Couldn't evaluate %s conditional" % self.value)
+        return 0
+
+    def has_canto(self, unit, unit2) -> bool:
+        """
+        Can move again after any action, has exactly the number of movement that was determined in the component
+        """
+        return True

@@ -14302,7 +14302,7 @@
     {
         "nid": "Ice",
         "name": "Ice",
-        "desc": "Inflicts SPD-2 on hit.",
+        "desc": "Inflicts MOV-1 on hit.",
         "icon_nid": "Anima",
         "icon_index": [
             3,
@@ -14382,14 +14382,14 @@
             ],
             [
                 "status_on_hit",
-                "SpeedN2"
+                "MovementMinus1"
             ]
         ]
     },
     {
         "nid": "Chill",
         "name": "Chill",
-        "desc": "Attack three times, inflicting <blue>Chill</> on each hit.\nCannot double.",
+        "desc": "Inflicts MOV-1 on hit.",
         "icon_nid": "Anima",
         "icon_index": [
             3,
@@ -14418,11 +14418,11 @@
             ],
             [
                 "damage",
-                3
+                7
             ],
             [
                 "hit",
-                65
+                75
             ],
             [
                 "crit",
@@ -14434,7 +14434,7 @@
             ],
             [
                 "uses",
-                30
+                25
             ],
             [
                 "uses_options",
@@ -14468,19 +14468,12 @@
                 null
             ],
             [
-                "no_double",
-                null
-            ],
-            [
-                "multi_status_on_equip",
-                [
-                    "ChillAttacks",
-                    "ChillChilling"
-                ]
-            ],
-            [
                 "battle_cast_anim",
                 "Iceshock"
+            ],
+            [
+                "status_on_hit",
+                "MovementMinus1"
             ]
         ]
     },
@@ -14570,7 +14563,7 @@
     {
         "nid": "Blizzard",
         "name": "Blizzard",
-        "desc": "Damages huge area, AOE 3. ",
+        "desc": "Damages huge area, AOE 3. \nInflicts MOV-1.",
         "icon_nid": "Anima",
         "icon_index": [
             3,
@@ -14647,6 +14640,10 @@
                     232,
                     255
                 ]
+            ],
+            [
+                "status_on_hit",
+                "MovementMinus1"
             ]
         ]
     },
@@ -15044,7 +15041,7 @@
     {
         "nid": "IceDark",
         "name": "Ice",
-        "desc": "Inflicts SPD-2 on hit.",
+        "desc": "Inflicts MOV-1 on hit.",
         "icon_nid": "Anima",
         "icon_index": [
             3,
@@ -15113,7 +15110,7 @@
             ],
             [
                 "status_on_hit",
-                "SpeedN2"
+                "MovementMinus1"
             ],
             [
                 "battle_cast_anim",
@@ -20639,16 +20636,5 @@
                 }
             ]
         ]
-    },
-    {
-        "nid": "new",
-        "name": "new",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": []
     }
 ]

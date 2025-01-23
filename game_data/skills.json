@@ -479,52 +479,6 @@
         ]
     },
     {
-        "nid": "ChillAttacks",
-        "name": "ChillAttacks",
-        "desc": "Attack thrice",
-        "icon_nid": "Anima",
-        "icon_index": [
-            3,
-            3
-        ],
-        "components": [
-            [
-                "dynamic_multiattacks",
-                "2"
-            ],
-            [
-                "hidden",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "ChillChilling",
-        "name": "ChillChilling",
-        "desc": "Attack thrice",
-        "icon_nid": "Anima",
-        "icon_index": [
-            3,
-            3
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "give_status_after_hit",
-                "Chilled"
-            ],
-            [
-                "nihiled_by",
-                [
-                    "Frozen"
-                ]
-            ]
-        ]
-    },
-    {
         "nid": "DevilReversal",
         "name": "Devil Reversal",
         "desc": "recoil = damage dealt",

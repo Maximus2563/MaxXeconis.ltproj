@@ -2,7 +2,7 @@
     {
         "nid": "0",
         "name": "Prologue: Night's Embrace",
-        "tilemap": "New Tilemap",
+        "tilemap": "PrologueNight",
         "bg_tilemap": null,
         "party": "MaxYoungGroup",
         "music": {
@@ -15843,11 +15843,11 @@
                 "nid": "DoorRight",
                 "region_type": "event",
                 "position": [
-                    12,
+                    11,
                     6
                 ],
                 "size": [
-                    1,
+                    3,
                     1
                 ],
                 "sub_nid": "Door",
@@ -16477,7 +16477,7 @@
                 "faction": "Monsdor",
                 "starting_items": [
                     [
-                        "Axereaver",
+                        "Heavy Spear",
                         false
                     ]
                 ],
@@ -17155,6 +17155,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "House",
+                "region_type": "event",
+                "position": [
+                    8,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -17382,7 +17399,7 @@
     {
         "nid": "17",
         "name": "Ch. 17: Portside Peril",
-        "tilemap": "Ch17",
+        "tilemap": "PortSnow",
         "bg_tilemap": null,
         "party": "SalGroup",
         "music": {
@@ -17395,9 +17412,9 @@
             "boss_battle": "A Mighty Foe"
         },
         "objective": {
-            "simple": "Defeat Talia",
+            "simple": "Defeat Paul",
             "win": "Defeat Boss",
-            "loss": "Sages dies"
+            "loss": "Keith dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -17406,40 +17423,14 @@
         "tags": [],
         "units": [
             {
-                "nid": "MaxCH17",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "XeconisCH17",
+                "nid": "Paul",
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Talia",
+                "ai_group": "Paul",
                 "starting_position": [
                     22,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Talia",
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "Talia",
-                "starting_position": [
-                    21,
-                    7
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -17460,10 +17451,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Talia",
+                "ai_group": "Paul",
                 "starting_position": [
-                    20,
-                    8
+                    21,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17472,7 +17463,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 11,
-                "klass": "Soldier",
+                "klass": "LanceCavalier",
                 "faction": "Aurelia",
                 "starting_items": [
                     [
@@ -17484,10 +17475,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Talia",
+                "ai_group": "Paul",
                 "starting_position": [
-                    20,
-                    6
+                    21,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17496,11 +17487,11 @@
                 "nid": "103",
                 "variant": null,
                 "level": 11,
-                "klass": "Soldier",
+                "klass": "AxeCavalier",
                 "faction": "Aurelia",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -17508,10 +17499,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "Talia",
+                "ai_group": "Paul",
                 "starting_position": [
-                    22,
-                    6
+                    23,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17524,7 +17515,7 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    11
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -17536,32 +17527,9 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    12
+                    3,
+                    16
                 ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "PitCH17",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Argento",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -17581,10 +17549,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "B",
+                "ai_group": "Paul",
                 "starting_position": [
-                    20,
-                    4
+                    23,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17607,7 +17575,7 @@
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
-                    20,
+                    12,
                     3
                 ],
                 "starting_traveler": null,
@@ -17617,22 +17585,22 @@
                 "nid": "106",
                 "variant": null,
                 "level": 11,
-                "klass": "KnightS",
+                "klass": "KnightA",
                 "faction": "Aurelia",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Hand Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    3
+                    17,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17645,18 +17613,18 @@
                 "faction": "Aurelia",
                 "starting_items": [
                     [
-                        "Ridersbane",
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    4
+                    17,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17664,12 +17632,12 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 1,
-                "klass": "Hero",
+                "level": 11,
+                "klass": "Mage",
                 "faction": "Aurelia",
                 "starting_items": [
                     [
-                        "Tomahawk",
+                        "Ice",
                         false
                     ]
                 ],
@@ -17677,11 +17645,11 @@
                     "HP +5 "
                 ],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Mage",
                 "starting_position": [
-                    10,
+                    12,
                     10
                 ],
                 "starting_traveler": null,
@@ -17705,8 +17673,8 @@
                 "roam_ai": null,
                 "ai_group": "A",
                 "starting_position": [
-                    10,
-                    3
+                    9,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17727,7 +17695,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Mage",
                 "starting_position": [
                     11,
                     11
@@ -17753,7 +17721,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
+                    9,
                     12
                 ],
                 "starting_traveler": null,
@@ -17775,10 +17743,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Mage",
                 "starting_position": [
                     13,
-                    11
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17801,8 +17769,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    13
+                    18,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17825,8 +17793,8 @@
                 "roam_ai": null,
                 "ai_group": "A",
                 "starting_position": [
-                    11,
-                    4
+                    10,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17849,8 +17817,8 @@
                 "roam_ai": null,
                 "ai_group": "A",
                 "starting_position": [
-                    9,
-                    4
+                    8,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17873,8 +17841,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    1
+                    19,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17893,12 +17861,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    8
+                    15,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17921,7 +17889,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
+                    18,
                     7
                 ],
                 "starting_traveler": null,
@@ -17945,8 +17913,8 @@
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
-                    23,
-                    1
+                    16,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17954,8 +17922,8 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 1,
-                "klass": "Holy Knight",
+                "level": 11,
+                "klass": "Pegasus_Knight",
                 "faction": "Aurelia",
                 "starting_items": [
                     [
@@ -17969,8 +17937,8 @@
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
-                    24,
-                    1
+                    11,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -17978,27 +17946,23 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 1,
-                "klass": "Holy Knight",
+                "level": 11,
+                "klass": "Pegasus_Knight",
                 "faction": "Aurelia",
                 "starting_items": [
                     [
                         "Heavy Spear",
                         false
-                    ],
-                    [
-                        "Heal",
-                        false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "HealDefend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "B",
                 "starting_position": [
-                    24,
-                    0
+                    13,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18011,7 +17975,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    6
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -18101,6 +18065,69 @@
                 "generic": true
             },
             {
+                "nid": "Rein5",
+                "variant": "",
+                "level": 11,
+                "klass": "Brightwing",
+                "faction": "Aurelia",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein6",
+                "variant": "",
+                "level": 11,
+                "klass": "Myrmidon",
+                "faction": "Aurelia",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein7",
+                "variant": "",
+                "level": 11,
+                "klass": "Myrmidon",
+                "faction": "Aurelia",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "122",
                 "variant": null,
                 "level": 11,
@@ -18108,7 +18135,7 @@
                 "faction": "Aurelia",
                 "starting_items": [
                     [
-                        "Mend",
+                        "Physic",
                         false
                     ]
                 ],
@@ -18118,8 +18145,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    9
+                    16,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18140,10 +18167,10 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "C",
+                "ai_group": "Mage",
                 "starting_position": [
-                    11,
-                    13
+                    13,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18164,10 +18191,10 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "C",
+                "ai_group": "Mage",
                 "starting_position": [
-                    12,
-                    10
+                    11,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18186,13 +18213,34 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    5
+                    21,
+                    9
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Thief1",
+                "variant": "",
+                "level": 10,
+                "klass": "Thief",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Lockpick",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "ThiefFlee",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -18212,8 +18260,8 @@
                 "nid": "1",
                 "region_type": "formation",
                 "position": [
-                    2,
-                    12
+                    3,
+                    16
                 ],
                 "size": [
                     1,
@@ -18230,7 +18278,7 @@
                 "region_type": "formation",
                 "position": [
                     4,
-                    12
+                    15
                 ],
                 "size": [
                     1,
@@ -18246,8 +18294,8 @@
                 "nid": "3",
                 "region_type": "formation",
                 "position": [
-                    3,
-                    9
+                    2,
+                    17
                 ],
                 "size": [
                     1,
@@ -18263,8 +18311,8 @@
                 "nid": "4",
                 "region_type": "formation",
                 "position": [
-                    3,
-                    13
+                    4,
+                    16
                 ],
                 "size": [
                     1,
@@ -18281,7 +18329,7 @@
                 "region_type": "formation",
                 "position": [
                     4,
-                    10
+                    14
                 ],
                 "size": [
                     1,
@@ -18297,8 +18345,8 @@
                 "nid": "6",
                 "region_type": "formation",
                 "position": [
-                    1,
-                    9
+                    2,
+                    12
                 ],
                 "size": [
                     1,
@@ -18349,7 +18397,7 @@
                 "region_type": "formation",
                 "position": [
                     2,
-                    9
+                    14
                 ],
                 "size": [
                     1,
@@ -18365,8 +18413,8 @@
                 "nid": "10",
                 "region_type": "formation",
                 "position": [
-                    4,
-                    9
+                    1,
+                    15
                 ],
                 "size": [
                     1,
@@ -18379,15 +18427,15 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Gate",
+                "nid": "ReinforceZone",
                 "region_type": "normal",
                 "position": [
-                    7,
+                    13,
                     0
                 ],
                 "size": [
-                    20,
-                    10
+                    14,
+                    18
                 ],
                 "sub_nid": null,
                 "condition": "True",
@@ -18396,36 +18444,92 @@
                 "interrupt_move": false
             },
             {
-                "nid": "ReinforceZone",
-                "region_type": "normal",
+                "nid": "Door1",
+                "region_type": "event",
                 "position": [
-                    14,
+                    21,
+                    7
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door2",
+                "region_type": "event",
+                "position": [
+                    22,
                     0
                 ],
                 "size": [
-                    13,
-                    6
+                    3,
+                    1
                 ],
-                "sub_nid": null,
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Chest",
+                "region_type": "event",
+                "position": [
+                    25,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House",
+                "region_type": "event",
+                "position": [
+                    12,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
                 "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Flee",
+                "region_type": "event",
+                "position": [
+                    26,
+                    3
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Flee",
+                "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             }
         ],
         "unit_groups": [
-            {
-                "nid": "ArgentoGroup",
-                "units": [
-                    "Argento"
-                ],
-                "positions": {
-                    "Argento": [
-                        22,
-                        7
-                    ]
-                }
-            },
             {
                 "nid": "Reinforcement",
                 "units": [
@@ -18437,59 +18541,55 @@
                 "positions": {
                     "Rein1": [
                         24,
-                        8
+                        14
                     ],
                     "Rein2": [
                         25,
-                        9
+                        13
                     ],
                     "Rein3": [
                         25,
-                        7
+                        15
                     ],
                     "Rein4": [
                         26,
-                        8
+                        14
                     ]
                 }
             },
             {
-                "nid": "Beginning",
+                "nid": "Thief",
                 "units": [
-                    "MaxCH17",
-                    "XeconisCH17",
-                    "Talia",
-                    "101",
-                    "102",
-                    "103",
-                    "PitCH17",
-                    "104",
-                    "105",
-                    "106",
-                    "107",
-                    "108",
-                    "113",
-                    "109",
-                    "110",
-                    "111",
-                    "112",
-                    "114",
-                    "115",
-                    "116",
-                    "117",
-                    "118",
-                    "121",
-                    "119",
-                    "120",
-                    "Timothy",
-                    "122",
-                    "123",
-                    "124",
-                    "125",
-                    "Keith",
-                    "Sal"
+                    "Thief1"
                 ],
-                "positions": {}
+                "positions": {
+                    "Thief1": [
+                        26,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "Reinforcement2",
+                "units": [
+                    "Rein5",
+                    "Rein6",
+                    "Rein7"
+                ],
+                "positions": {
+                    "Rein5": [
+                        17,
+                        3
+                    ],
+                    "Rein6": [
+                        16,
+                        3
+                    ],
+                    "Rein7": [
+                        18,
+                        3
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -18508,6 +18608,18 @@
             {
                 "nid": "C",
                 "trigger_threshold": 1
+            },
+            {
+                "nid": "Paul",
+                "trigger_threshold": 3
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Mage",
+                "trigger_threshold": 4
             }
         ]
     },
@@ -19113,7 +19225,8 @@
                     "Max",
                     "Pit",
                     "Emeline",
-                    "Skill"
+                    "Skill",
+                    "Xeconis"
                 ],
                 "positions": {
                     "Emeline": [
@@ -19121,8 +19234,8 @@
                         4
                     ],
                     "Xeconis": [
-                        5,
-                        3
+                        4,
+                        5
                     ],
                     "Pit": [
                         3,
@@ -28088,6 +28201,55 @@
                 "positions": {}
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "26x",
+        "name": "Lucian Manor",
+        "tilemap": "LucianManor",
+        "bg_tilemap": null,
+        "party": "MaxGroup",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Emeline",
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Emeline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lucian",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    38,
+                    60
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     }
 ]
