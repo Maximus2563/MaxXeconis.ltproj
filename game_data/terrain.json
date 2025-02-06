@@ -135,6 +135,21 @@
         "status": null
     },
     {
+        "nid": "66",
+        "name": "Rune",
+        "color": [
+            0,
+            186,
+            130
+        ],
+        "minimap": "Switch",
+        "platform": "Floor",
+        "background": null,
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Rune"
+    },
+    {
         "nid": "62",
         "name": "Deck",
         "color": [

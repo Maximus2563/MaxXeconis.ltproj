@@ -113,6 +113,43 @@
         ]
     },
     {
+        "nid": "Rune",
+        "name": "Rune",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.1
+            ],
+            [
+                "avoid",
+                10
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "is_terrain",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Throne",
         "name": "Throne",
         "desc": "",

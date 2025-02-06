@@ -138,15 +138,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Max;Right",
-            "if;'ProfLoss' in game.level.tags",
+            "if;'MaXecLoss' in game.level.tags",
             "music;108 Lament",
             "speak;Max;No... I need to... do more...",
-            "expression;Prof;CloseEyes",
-            "remove_portrait;Prof",
+            "expression;Max;CloseEyes",
+            "remove_portrait;Max",
             "lose_game",
             "else",
-            "speak;Max;Well, it's been fun...",
-            "remove_portrait;Prof",
+            "speak;Max;I had to much more... to see...",
+            "remove_portrait;Max",
             "end"
         ],
         "nid": "Global DeathMax"
@@ -161,15 +161,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Xeconis;Right",
-            "if;'ProfLoss' in game.level.tags",
+            "if;'MaXecLoss' in game.level.tags",
             "music;108 Lament",
-            "speak;Xeconis;My plans... busted....",
-            "expression;Prof;CloseEyes",
+            "speak;Xeconis;I've been... foiled...",
+            "expression;Xeconis;CloseEyes",
             "remove_portrait;Prof",
             "lose_game",
             "else",
             "speak;Xeconis;My gambit's been foiled... and thus... I fold...",
-            "remove_portrait;Prof",
+            "remove_portrait;Xeconis",
             "end"
         ],
         "nid": "Global DeathXeconis"
@@ -8473,6 +8473,7 @@
             "chapter_title",
             "change_background;Ship Interior Day",
             "multi_add_portrait;Cacti;Right;Keith;Left",
+            "transition;open",
             "speak;Keith;Well, this boat's pretty neat.",
             "speak;Cacti;Right? Sailing is pretty cool.|I've been on trips with father many a time.",
             "speak;Keith;He doesn't exactly look like much of a sailor...",
@@ -8521,6 +8522,8 @@
             "add_portrait;Bandit2;Left",
             "speak;Bandit2;Yar har!|By orders of the boss, prepare to be boarded!",
             "remove_portrait;Bandit2",
+            "move_unit;101;14,11;no_block;no_follow",
+            "move_unit;104;13,12;no_follow",
             "move_cursor;Timothy",
             "multi_add_portrait;Timothy;Left;Keith;MidRight;Cacti;FarRight",
             "speak;Cacti;Seems also we have boats heading towards stern and starboard too...",
@@ -10459,7 +10462,7 @@
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -10607,7 +10610,7 @@
             "multi_remove_portrait;Emeline;Skill;Xeconis;Pit",
             "speak;;Skill will leave the party at the end of the chapter. His sword cannot be traded.;center;;hint;;red"
         ],
-        "nid": "18 Intro"
+        "nid": "A Intro"
     },
     {
         "name": "Outro",
@@ -10622,7 +10625,7 @@
             "remove_all_units",
             "transition;close",
             "music;Reminiscences ~ Killers' Crossroads",
-            "change_background;Town Day",
+            "change_background;Village 6 Winter Day",
             "multi_add_portrait;Keith;Left;Paul;Right",
             "expression;Paul;CloseEyes",
             "transition;open",
@@ -10672,7 +10675,10 @@
             "  if;game.check_alive('Cacti')",
             "  speak;Cacti;Bye father!",
             "  end",
-            "end"
+            "end",
+            "multi_remove_portrait;Cacti;Timothy;Keith",
+            "add_portrait;Talia;Left",
+            "speak;Talia;Fascinating..."
         ],
         "nid": "17 Outro"
     },
@@ -10692,7 +10698,7 @@
     {
         "name": "LoseCon",
         "trigger": "unit_death",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "unit.nid == 'Morshu'",
         "commands": [],
         "only_once": false,
@@ -10703,12 +10709,12 @@
             "expression;Morshu;CloseEyes",
             "lose_game"
         ],
-        "nid": "18 LoseCon"
+        "nid": "A LoseCon"
     },
     {
         "name": "LoseMax",
         "trigger": "unit_death",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "unit.nid == 'Max'",
         "commands": [],
         "only_once": false,
@@ -10719,12 +10725,12 @@
             "expression;Max;CloseEyes",
             "lose_game"
         ],
-        "nid": "18 LoseMax"
+        "nid": "A LoseMax"
     },
     {
         "name": "LoseXeconis",
         "trigger": "unit_death",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "unit.nid == 'Emeline'",
         "commands": [],
         "only_once": false,
@@ -10735,12 +10741,12 @@
             "expression;Xeconis;CloseEyes",
             "lose_game"
         ],
-        "nid": "18 LoseXeconis"
+        "nid": "A LoseXeconis"
     },
     {
         "name": "LoseSkill",
         "trigger": "unit_death",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "unit.nid == 'Skill'",
         "commands": [],
         "only_once": false,
@@ -10751,12 +10757,12 @@
             "expression;Skill;CloseEyes",
             "lose_game"
         ],
-        "nid": "18 LoseSkill"
+        "nid": "A LoseSkill"
     },
     {
         "name": "LosePit",
         "trigger": "unit_death",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "unit.nid == 'Pit'",
         "commands": [],
         "only_once": false,
@@ -10767,12 +10773,12 @@
             "expression;Pit;CloseEyes",
             "lose_game"
         ],
-        "nid": "18 LosePit"
+        "nid": "A LosePit"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -10781,12 +10787,12 @@
             "spawn_group;NorthWolves;north;NorthWolves;normal;closest;no_follow",
             "sound;MautheDoogHowl"
         ],
-        "nid": "18 Turn2"
+        "nid": "A Turn2"
     },
     {
         "name": "Turn4",
         "trigger": "turn_change",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "game.turncount == 4",
         "commands": [],
         "only_once": false,
@@ -10795,12 +10801,12 @@
             "spawn_group;SouthWolves;south;SouthWolves;normal;closest;no_follow",
             "sound;MautheDoogHowl"
         ],
-        "nid": "18 Turn4"
+        "nid": "A Turn4"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -10873,12 +10879,12 @@
             "give_bexp;200",
             "end"
         ],
-        "nid": "18 Outro"
+        "nid": "A Outro"
     },
     {
         "name": "Turn5",
         "trigger": "turn_change",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "game.turncount == 5",
         "commands": [],
         "only_once": false,
@@ -10897,12 +10903,12 @@
             "spawn_group;EastWolves;east;EastWolves;normal;closest;no_follow",
             "sound;MautheDoogHowl"
         ],
-        "nid": "18 Turn5"
+        "nid": "A Turn5"
     },
     {
         "name": "Rout",
         "trigger": "combat_end",
-        "level_nid": "18",
+        "level_nid": "A",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [],
         "only_once": false,
@@ -10913,7 +10919,7 @@
             "remove_portrait;Xeconis",
             "win_game"
         ],
-        "nid": "18 Rout"
+        "nid": "A Rout"
     },
     {
         "name": "PykroeDeath",
@@ -13491,12 +13497,14 @@
             "chapter_title",
             "change_background;Cave 1",
             "add_weather;dark",
+            "add_weather;night",
             "set_fog_of_war;gba;2;4;2",
+            "enable_fog_of_war;1",
             "music;The Waxwork Museum",
             "transition;open",
             "multi_add_portrait;Leap;MidLeft;Prof;FarLeft;Emmanuel;Right",
             "s;Emmanuel;There, blindfolds off...",
-            "s;Leap;It's... so dark...",
+            "s;Leap;It's... so dark still...",
             "s;Prof;Why bother with all this?",
             "s;Emmanuel;I don't wish to make a martyr of you.|You'll die in the dark, like the insignificant gnats you are.",
             "s;Leap;Get it over with! I don't care about your silly games!",
@@ -13508,8 +13516,10 @@
             "expression;Emmanuel;Smile",
             "s;Emmanuel;Hahahaha! In position, men!",
             "remove_portrait;Emmanuel",
-            "s;Leap;Argh... This is...",
-            "s;Prof;We'd best stay on our toes...|Any way to brighten this place... that'd be nice.",
+            "s;Prof;I'd say run... but I have no idea where to go.",
+            "s;Leap;If this is it... I love you...",
+            "s;Prof;I love you too... ",
+            "s;Leap;Let's fight with all we have! RARGH!",
             "change_background",
             "prep;1;ResolveDark"
         ],
@@ -13529,11 +13539,11 @@
             "transition;Open",
             "add_portrait;{unit};Left;no_block",
             "add_portrait;OldWoman1;Right",
-            "speak;OldWoman1;Houses around here don't last long...|I suppose the Goddess has allowed this abode to stand.|Take this, may the Goddess shone upon you.",
+            "speak;OldWoman1;Houses around here don't last long...|I suppose the Goddess has allowed this abode to stand.|Take this, may the Goddess shine upon you.",
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Angelic Robe",
+            "give_item;{unit};Torch",
             "has_traded;{unit}"
         ],
         "nid": "16 House"
@@ -13619,5 +13629,422 @@
             "remove_unit;{unit};fade;east"
         ],
         "nid": "17 Flee"
+    },
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "25",
+        "condition": "region.nid == 'Chest'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;Chest",
+            "sound;Unlock",
+            "give_item;{unit};Hex",
+            "has_traded;{unit}"
+        ],
+        "nid": "25 Chest"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "18",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "overworld_cinematic;0",
+            "move_cursor;27,1;immediate;no_block",
+            "reveal_overworld_node;30;immediate",
+            "music;Machinations and Deductions",
+            "transition;open",
+            "toggle_narration_mode;open;1000",
+            "add_portrait;Paul;Left,27;left;CloseEyes;no_block",
+            "add_portrait;Keith;Right,27;Right;OpenEyes;no_block",
+            "narrate;Narrator;Aurelia's Whitemaw port has fallen to Prince Keith",
+            "remove_portrait;Keith;;right;no_block",
+            "remove_portrait;Paul;;left",
+            "sound;RefreshDance",
+            "map_anim;AOE_Mend;31",
+            "map_anim;AOE_Mend;47",
+            "reveal_overworld_node;47",
+            "reveal_overworld_node;31",
+            "wait;500",
+            "sound;Mend",
+            "reveal_overworld_road;47;30",
+            "reveal_overworld_road;31;47",
+            "wait;500",
+            "create_overworld_entity;Keith;Keith;player",
+            "set_overworld_position;Keith;30",
+            "add_portrait;Keith;Left,27;left;OpenEyes;no_block",
+            "narrate;Narrator;Prince Keith hides in the frosty countryside following his victory...",
+            "overworld_move_unit;Keith;47;1.5",
+            "overworld_move_unit;Keith;31;1.5",
+            "remove_portrait;Keith;;left",
+            "disable_overworld_entity;Keith",
+            "move_cursor;22,8;500",
+            "create_overworld_entity;Max;Max;player",
+            "set_overworld_position;Max;47",
+            "create_overworld_entity;Talia;Talia",
+            "set_overworld_position;Talia;30",
+            "add_portrait;Talia;Left,27;left;OpenEyes;no_block",
+            "narrate;Narrator;Meanwhile, a mysterious soldier witnesses Keith's presence in the north.",
+            "overworld_move_unit;Talia;30;1.7;no_follow;no_block",
+            "narrate;Narrator;Perplexed by this, she ventures home to report this development...",
+            "end_skip",
+            "transition;close;1000",
+            "remove_portrait;Talia;;left;no_block",
+            "music_clear;200",
+            "toggle_narration_mode;close",
+            "change_tilemap;Ch18;reload",
+            "chapter_title",
+            "end_skip",
+            "change_background;Village 2 Winter Day",
+            "music;Beneath the Banner",
+            "transition;open",
+            "multi_add_portrait;Xeconis;MidRight;Max;FarRight;Pit;Left;Talia;OffscreenLeft",
+            "speak;Pit;You're back!|My... uhm... hunt. It didn't go so well...",
+            "speak;Max;Don't beat yourself up about it.|With the money from Whitemaw, we can go into town.|Get some quality grub, for a change!",
+            "speak;Xeconis;Hey! Don't disparage my cooking, I told you it wasn't ready...|Still, I suppose our magical education wasn't for naught.",
+            "speak;Pit;Mmm... The steak...|Though, uhm, didn't Talia go to Whitemaw too?",
+            "speak;Xeconis;On her own business, sure.|Who knows when she'll be back.",
+            "speak;Talia;Right about now, I think.",
+            "move_portrait;Talia;FarLeft",
+            "move_portrait;Pit;MidLeft",
+            "s;Max;Hey Talia, you look... more serious than usual.",
+            "s;Talia;For good reason, Prince Keith of Encantis...|Invaded at Whitemaw, mustn't have been long after you two left.",
+            "s;Xeconis;Inconceivable...",
+            "s;Pit;An i-invasion? Ah!",
+            "s;Talia;I'm off to tell Lady Cherry, at once.",
+            "s;Max;Her old friend... She was there, right?",
+            "s;Talia;Indeed. She should send out a messenger to the capital.|The full force of our army may be needed.",
+            "remove_portrait;Talia",
+            "s;Max;So... We could have died at Whitemaw...",
+            "s;Xeconis;I don't believe in miracles...|But, that comes close.",
+            "transition;close",
+            "change_background",
+            "move_cursor;12,24",
+            "transition;open",
+            "wait;100",
+            "music;Plight!",
+            "spawn_group;Isaac;south;Isaac;normal;closest;no_follow",
+            "multi_add_portrait;Isaac;Left;Bandit1;Right",
+            "s;Isaac;Break into the church... Seize any valuables...|Destroy everything! Goddess... I shall punish thee!",
+            "remove_portrait;Isaac",
+            "s;Bandit1;Uh, got it. Weirdo...",
+            "remove_portrait;Bandit1",
+            "move_unit;106;13,23;normal;;no_follow",
+            "transition;close",
+            "change_background;Castle Interior",
+            "multi_add_portrait;Bandit1;Left;Eleonora;MidRight;YoungGirl;FarRight",
+            "transition;open",
+            "s;Bandit1;This is ours now.|Scram, unless you wanna eat cold, hard axe!",
+            "s;YoungGirl;Waaaaah!",
+            "s;Eleonora;Children, we have to leave, now!",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "sound;VillageDestroyed",
+            "show_layer;ChurchDestroyed",
+            "add_group;Green;13,23;fade;stack",
+            "move_group;Green;Green;normal;closest",
+            "multi_add_portrait;Eleonora;Left;Dark;MidRight;Howai;FarRight",
+            "s;Dark;We can't let them do that!",
+            "s;Howai;Our home...",
+            "s;Eleonora;We just have to get help...|You two, go to the village up ahead...|The little ones can't move that quick...",
+            "s;Dark;Alright... On it, Sister.",
+            "multi_remove_portrait;Dark;Howai;Eleonora",
+            "move_unit;Dark;10,10;normal;stack;no_follow;no_block",
+            "move_unit;Howai;10,10;normal;stack",
+            "transition;close",
+            "change_background;Village 2 Winter Day",
+            "transition;open",
+            "multi_add_portrait;Xeconis;MidLeft;Max;FarLeft;Howai;FarRight;Dark;MidRight",
+            "s;Dark;Misters! You need to help us!",
+            "s;Howai;The town is under attack from bandits!|The rest of the orphans are with the Bishop...|She needs help!",
+            "s;Max;Depraved bastards...|Uhm... pardon my language, kids.",
+            "s;Xeconis;Our meal can wait. We must help.",
+            "s;Dark;There's probably more on their way too...",
+            "s;Max;Let's hurry then!",
+            "transition;close",
+            "change_background",
+            "change_team;Dark;player",
+            "change_team;Howai;player",
+            "transition;open",
+            "add_group;Player;10,10;fade;stack",
+            "move_group;Player;Player;normal;closest;no_follow",
+            "wait;50",
+            "move_cursor;Isaac",
+            "flicker_cursor;Isaac",
+            "add_portrait;Isaac;Left",
+            "s;Isaac;Any who defy me will be smited down!|Smited...? Smitten...?|Regardless, you will be left in a snowy grave!|Begin the age... of chaos!",
+            "remove_portrait;Isaac",
+            "move_cursor;Max",
+            "add_talk;Max;Eleonora"
+        ],
+        "nid": "18 Intro"
+    },
+    {
+        "name": "IsaacFight",
+        "trigger": "combat_start",
+        "level_nid": "18",
+        "condition": "check_default('Isaac', 'Dark')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Isaac;Left",
+            "speak;Isaac;I won't go back!|The Goddess has forsaken us all!;;;boss_convo_left",
+            "remove_portrait;Isaac",
+            "show_combat_ui"
+        ],
+        "nid": "18 IsaacFight"
+    },
+    {
+        "name": "IsaacDark",
+        "trigger": "combat_start",
+        "level_nid": "18",
+        "condition": "check_pair('Isaac', 'Dark')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Isaac;Left",
+            "speak;Isaac;Infant... You possess a dark power...|You are a demon! Proof the Goddess has left us!;;;boss_convo_left",
+            "remove_portrait;Isaac",
+            "add_portrait;Dark;Right",
+            "speak;Dark;You destroyed a church orphanage...|Who's the real demon here?|Spoiler alert, it's YOU!;;;boss_convo_left",
+            "remove_portrait;Dark",
+            "add_portrait;Isaac;Left",
+            "speak;Isaac;I... will.. smite thee! Foul beast!|I shall... prove... Gah!;;;boss_convo_left",
+            "remove_portrait;Isaac",
+            "show_combat_ui"
+        ],
+        "nid": "18 IsaacDark"
+    },
+    {
+        "name": "IsaacDeath",
+        "trigger": "unit_death",
+        "level_nid": "18",
+        "condition": "unit.nid == \"Isaac\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Isaac;Left",
+            "speak;Isaac;The Goddess... is a fraud...",
+            "expression;Isaac;CloseEyes",
+            "remove_portrait;Isaac"
+        ],
+        "nid": "18 IsaacDeath"
+    },
+    {
+        "name": "Turn2ReinforceSW",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;2,24",
+            "spawn_group;SouthWest;west;SouthWest;normal;closest;no_follow"
+        ],
+        "nid": "18 Turn2ReinforceSW"
+    },
+    {
+        "name": "Turn5ReinN",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0,0",
+            "spawn_group;Pegasus;north;Pegasus;normal;closest;no_follow"
+        ],
+        "nid": "18 Turn5ReinN"
+    },
+    {
+        "name": "Turn3",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;18,3",
+            "flicker_cursor;18,3",
+            "transition;close",
+            "change_background;Dining Room",
+            "multi_add_portrait;Cherry;Left;Edgy;FarRight;Talia;MidRight",
+            "transition;open",
+            "s;Cherry;What?! Sal is part of this?|Why... those filthy Encantese...",
+            "s;Talia;I'm afraid so.",
+            "s;Cherry;I must send a messenger to her Majesty at once...|And what is that racket outside?! Edgy! Sort it out!",
+            "s;Edgy;Ugh...{c:wait;300} I mean, sure... I guess I can.",
+            "s;Cherry;Hmph! No enthusiasm at all!|Take the old coot with you then!",
+            "s;Edgy;Ugh... Yippee! Thank you, oh gracious Lady Cherry...",
+            "remove_portrait;Edgy",
+            "s;Cherry;Hahaha!|Oh, and thank you for the information, Talia.|You will be compensated handily!|Once we negotiate terms...",
+            "s;Talia;Alright, your Ladyship.",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "add_group;Cherrys;18,3;immediate;stack",
+            "move_group;Cherrys;Cherrys;normal;closest;no_follow",
+            "multi_add_portrait;Edgy;Right;Demonic;Left",
+            "s;Edgy;Oh, great. Bandits.|Seems like those guys have it handled... |Though, I don't want Lady Cherry to bark my ear off...",
+            "s;Demonic;Bwahaha! You're not giving up that easily young'un!",
+            "s;Edgy;Guess I have you to bark my ear off now.",
+            "s;Demonic;Oy! Quit being a negative nancy!|You might learn a thing or two from me, bwahaha!|Sit back and watch a veteran at work!",
+            "multi_remove_portrait;Edgy;Demonic",
+            "interact_unit;Demonic;116;miss1,hit2",
+            "multi_add_portrait;Edgy;Right;Demonic;Left",
+            "s;Edgy;...;no_talk",
+            "s;Demonic;...;no_talk",
+            "s;Edgy;I'll pretend I didn't see that, if you just... stop... talking.",
+            "s;Demonic;Deal.",
+            "add_talk;Edgy;Xeconis",
+            "move_cursor;21,13",
+            "spawn_group;East;east;East;normal;closest;no_follow"
+        ],
+        "nid": "18 Turn3"
+    },
+    {
+        "name": "MaxEleonora",
+        "trigger": "on_talk",
+        "level_nid": "18",
+        "condition": "check_pair('Max','Eleonora')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Max;Left;Eleonora;Right",
+            "s;Max;Sister, what's happened?",
+            "s;Eleonora;The church... They're ransacking it all...",
+            "s;Max;I'll see to it that they're swiftly disposed of.|The little ones will be safe, trust me.",
+            "s;Eleonora;Thank you, Sir.",
+            "remove_talk;Max;Eleonora"
+        ],
+        "nid": "18 MaxEleonora"
+    },
+    {
+        "name": "EdgyXeconis",
+        "trigger": "on_talk",
+        "level_nid": "18",
+        "condition": "check_pair('Edgy','Xeconis')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Xeconis;Left;Edgy;Right",
+            "s;Xeconis;Edgy.",
+            "s;Edgy;Xeconis.",
+            "s;Xeconis;Lady Cherry didn't want to sully her own hands, I take it?",
+            "s;Edgy;Probably not, she had them manicured.|So it's up to me... *sigh*",
+            "s;Xeconis;You're not alone in this, you know.|We're all pulling our weight here.",
+            "s;Edgy;Yeah, but being alone is... easier.|Whatever, I'll just do what I can.",
+            "remove_talk;Xeconis;Edgy"
+        ],
+        "nid": "18 EdgyXeconis"
+    },
+    {
+        "name": "Cave",
+        "trigger": "Visit",
+        "level_nid": "18",
+        "condition": "region.nid == 'Cave'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Cave 1",
+            "transition;open",
+            "add_portrait;{unit};Left",
+            "s;{unit};A cave? Hm...|What's this?",
+            "transition;close",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Blue Gem",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "18 Cave"
+    },
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "18",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Inside House 3",
+            "transition;open",
+            "multi_add_portrait;{unit};Left;OldMan1;Right",
+            "speak;OldMan1;Lady Cherry's father, the royal steward, is a great man.|He makes sure our taxes go to the right thing.|If only he was around more...",
+            "transition;close",
+            "change_background",
+            "multi_remove_portrait;{unit};OldMan1",
+            "transition;open"
+        ],
+        "nid": "18 House1"
+    },
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "18",
+        "condition": "region.nid == 'House2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Inside House 3",
+            "transition;open",
+            "multi_add_portrait;{unit};Left;Man3;Right",
+            "speak;Man3;Ever since the mine closed, work's been rough here.|I was thinking of packing up and moving to Gildao.|My wife says she wants to stay here to care for her mother...|If only there was something else I could do...",
+            "transition;close",
+            "change_background",
+            "multi_remove_portrait;{unit};OldMan1",
+            "transition;open"
+        ],
+        "nid": "18 House2"
+    },
+    {
+        "name": "WallDestroy1",
+        "trigger": "unit_death",
+        "level_nid": "18",
+        "condition": "unit.nid == 'Wall1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;VillageDestroyed",
+            "show_layer;WallSouth;fade"
+        ],
+        "nid": "18 WallDestroy1"
+    },
+    {
+        "name": "WallDestroy2",
+        "trigger": "unit_death",
+        "level_nid": "18",
+        "condition": "unit.nid == 'Wall2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;VillageDestroyed",
+            "show_layer;WallEast;fade"
+        ],
+        "nid": "18 WallDestroy2"
     }
 ]

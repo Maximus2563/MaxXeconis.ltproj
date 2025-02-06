@@ -17397,6 +17397,725 @@
         "ai_groups": []
     },
     {
+        "nid": "25",
+        "name": "Chapter 25",
+        "tilemap": "Cave",
+        "bg_tilemap": null,
+        "party": "MaxYoungGroup",
+        "music": {
+            "player_phase": "Land Below",
+            "enemy_phase": "Land Below",
+            "player_battle": "Land Below",
+            "enemy_battle": "Land Below",
+            "boss_battle": "A Mighty Foe"
+        },
+        "objective": {
+            "simple": "Defeat Emmanuel",
+            "win": "Defeat Boss",
+            "loss": "Leap dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Leap",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Prof",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Emmanuel",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 10,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 10,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Reckless_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 10,
+                "klass": "Myrmidon",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "Lance",
+                "level": 10,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Heavy Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Lance",
+                "level": 10,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Toxin Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": "",
+                "level": 10,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Poison Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": "",
+                "level": 10,
+                "klass": "Bow_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel Longbow ",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": "",
+                "level": 10,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": "",
+                "level": 10,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Arcfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Zephyr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 10,
+                "klass": "Shaman",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 10,
+                "klass": "Shaman",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Rancor",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 10,
+                "klass": "Shaman",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 10,
+                "klass": "Priest",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Heal",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 10,
+                "klass": "Priest",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 10,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 10,
+                "klass": "Wyvern Rider",
+                "faction": "Monsdor",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": "",
+                "level": 10,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Poison Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Chest",
+                "region_type": "event",
+                "position": [
+                    12,
+                    0
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "1",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "2",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "3",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "4",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "5",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "6",
+                "region_type": "formation",
+                "position": [
+                    4,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "7",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "8",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "9",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
         "nid": "17",
         "name": "Ch. 17: Portside Peril",
         "tilemap": "PortSnow",
@@ -18598,24 +19317,12 @@
                 "trigger_threshold": 2
             },
             {
-                "nid": "Talia",
-                "trigger_threshold": 3
-            },
-            {
                 "nid": "B",
                 "trigger_threshold": 2
             },
             {
-                "nid": "C",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "Paul",
                 "trigger_threshold": 3
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             },
             {
                 "nid": "Mage",
@@ -18625,50 +19332,32 @@
     },
     {
         "nid": "18",
-        "name": "Ch. 18: Howling Blizzard",
-        "tilemap": "Snowy",
+        "name": "Ch. 18:",
+        "tilemap": "Ch18",
         "bg_tilemap": null,
         "party": "MaxGroup",
         "music": {
-            "player_phase": "Change_of_Scenery",
-            "enemy_phase": "Change_of_Scenery",
-            "player_battle": "Change_of_Scenery",
-            "enemy_battle": "Change_of_Scenery",
-            "enemy2_phase": null,
-            "other_battle": "Change_of_Scenery",
-            "other_phase": "Change_of_Scenery"
+            "player_phase": "No Justice",
+            "enemy_phase": "No Justice",
+            "other_phase": "No Justice",
+            "player_battle": "No Justice",
+            "enemy_battle": "No Justice",
+            "other_battle": "No Justice",
+            "boss_battle": "Misery in Hand"
         },
         "objective": {
-            "simple": "Defeat enemy,Left ???",
-            "win": "Rout Enemy",
-            "loss": "Any player unit or Morshu dies."
+            "simple": "i",
+            "win": "i",
+            "loss": "i"
         },
         "roam": false,
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "MaXecLoss"
+        ],
         "units": [
-            {
-                "nid": "Emeline",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Skill",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
             {
                 "nid": "Max",
                 "team": "player",
@@ -18700,25 +19389,117 @@
                 "generic": false
             },
             {
+                "nid": "Dark",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Howai",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Demonic",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Edgy",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Eleonora",
+                "team": "other",
+                "ai": "Avoid",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Boy",
+                "variant": "Boy",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "FollowEleonora",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Girl",
+                "variant": "Girl",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "FollowEleonora",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Isaac",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Isaac",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "101",
                 "variant": null,
-                "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Iron Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Left",
                 "starting_position": [
-                    16,
-                    5
+                    1,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18727,22 +19508,22 @@
                 "nid": "102",
                 "variant": null,
                 "level": 8,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "klass": "Outlaw",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Steel Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Left",
                 "starting_position": [
-                    17,
-                    4
+                    0,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18750,23 +19531,23 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 11,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Poison Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Left",
                 "starting_position": [
-                    17,
-                    6
+                    1,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -18774,44 +19555,41 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Poison Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    6
-                ],
+                "ai_group": "Isaac",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "105",
                 "variant": null,
-                "level": 10,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Merc",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Light Brand",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Isaac",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -18820,19 +19598,19 @@
                 "nid": "106",
                 "variant": null,
                 "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "EmeraldAxe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Isaac",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -18840,102 +19618,114 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Iron Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
+                "ai_group": "Right",
+                "starting_position": [
+                    14,
+                    12
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "108",
                 "variant": null,
-                "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Deserter",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Steel Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
+                "ai_group": "Right",
+                "starting_position": [
+                    15,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "109",
                 "variant": null,
-                "level": 8,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 9,
+                "klass": "Merc",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Zanbato",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
+                "ai_group": "Right",
+                "starting_position": [
+                    17,
+                    13
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "110",
                 "variant": null,
-                "level": 10,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Steel Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    16
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "111",
                 "variant": null,
-                "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "KnightA",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Hand Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -18945,37 +19735,34 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "KnightL",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    13
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "113",
                 "variant": null,
-                "level": 8,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 9,
+                "klass": "LanceCavalier",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
-                        false
+                        "Iron Lance",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -18983,23 +19770,20 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    14
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "116",
+                "nid": "114",
                 "variant": null,
                 "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "klass": "SwordCavalier",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
-                        false
+                        "Iron Blade",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -19007,46 +19791,19 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    7,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "117",
-                "variant": null,
-                "level": 10,
-                "klass": "Wolf",
-                "faction": "Feral",
-                "starting_items": [
-                    [
-                        "Fang",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
+                "nid": "115",
                 "variant": null,
                 "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Poison Axe",
                         false
                     ]
                 ],
@@ -19060,14 +19817,149 @@
                 "generic": true
             },
             {
-                "nid": "119",
+                "nid": "116",
                 "variant": null,
-                "level": 10,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 8,
+                "klass": "Deserter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Slim Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 8,
+                "klass": "Thief",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Dagger",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 8,
+                "klass": "Deserter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Ridersbane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 9,
+                "klass": "Myrmidon",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 8,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 9,
+                "klass": "Pegasus_Knight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -19083,12 +19975,12 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 8,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "level": 10,
+                "klass": "Pegasus_Knight",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
+                        "Flame_Spear",
                         false
                     ]
                 ],
@@ -19104,34 +19996,13 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 10,
-                "klass": "Wolf",
-                "faction": "Feral",
-                "starting_items": [
-                    [
-                        "Fang",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "122",
-                "variant": null,
                 "level": 9,
-                "klass": "Wolf",
-                "faction": "Feral",
+                "klass": "Pegasus_Knight",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fang",
-                        false
+                        "SapphireLance",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -19144,260 +20015,305 @@
                 "generic": true
             },
             {
-                "nid": "123",
+                "nid": "Wall1",
                 "variant": null,
-                "level": 10,
-                "klass": "Wolf",
-                "faction": "Feral",
-                "starting_items": [
-                    [
-                        "Fang",
-                        false
-                    ]
-                ],
+                "level": 1,
+                "klass": "Wall25",
+                "faction": "Wall",
+                "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "Morshu",
-                "team": "other",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "114",
+                "nid": "Wall2",
                 "variant": null,
-                "level": 8,
-                "klass": "Merc",
-                "faction": "Guard",
-                "starting_items": [
-                    [
-                        "Bronze_Sword",
-                        false
-                    ]
-                ],
+                "level": 1,
+                "klass": "Wall25",
+                "faction": "Wall",
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Defend",
+                "team": "enemy",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 8,
-                "klass": "Soldier",
-                "faction": "Guard",
-                "starting_items": [
-                    [
-                        "Bronze_Lance",
-                        false
-                    ]
+                "starting_position": [
+                    11,
+                    4
                 ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Cave",
+                "region_type": "event",
+                "position": [
+                    6,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House1",
+                "region_type": "event",
+                "position": [
+                    19,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House2",
+                "region_type": "event",
+                "position": [
+                    9,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "Player",
                 "units": [
                     "Max",
+                    "Xeconis",
                     "Pit",
-                    "Emeline",
-                    "Skill",
-                    "Xeconis"
+                    "Dark",
+                    "Howai"
                 ],
                 "positions": {
-                    "Emeline": [
-                        4,
-                        4
-                    ],
-                    "Xeconis": [
-                        4,
-                        5
+                    "Max": [
+                        10,
+                        11
                     ],
                     "Pit": [
-                        3,
-                        3
+                        9,
+                        12
                     ],
-                    "Max": [
-                        3,
-                        5
-                    ],
-                    "Skill": [
-                        5,
-                        4
-                    ]
-                }
-            },
-            {
-                "nid": "NorthWolves",
-                "units": [
-                    "107",
-                    "108",
-                    "109"
-                ],
-                "positions": {
-                    "107": [
+                    "Xeconis": [
                         11,
-                        1
+                        12
                     ],
-                    "108": [
+                    "Dark": [
+                        8,
+                        11
+                    ],
+                    "Howai": [
                         10,
-                        0
-                    ],
-                    "109": [
-                        12,
-                        0
-                    ]
-                }
-            },
-            {
-                "nid": "EastWolves",
-                "units": [
-                    "118",
-                    "119",
-                    "120"
-                ],
-                "positions": {
-                    "101": [
-                        17,
-                        4
-                    ],
-                    "102": [
-                        16,
-                        5
-                    ],
-                    "103": [
-                        17,
-                        6
-                    ],
-                    "104": [
-                        14,
-                        6
-                    ],
-                    "118": [
-                        17,
-                        8
-                    ],
-                    "119": [
-                        16,
-                        9
-                    ],
-                    "120": [
-                        17,
                         10
                     ]
                 }
             },
             {
-                "nid": "SouthWolves",
+                "nid": "Isaac",
                 "units": [
+                    "Isaac",
+                    "104",
                     "105",
                     "106",
-                    "110",
-                    "111"
+                    "111",
+                    "112"
                 ],
                 "positions": {
+                    "Isaac": [
+                        12,
+                        24
+                    ],
+                    "104": [
+                        10,
+                        23
+                    ],
                     "105": [
-                        4,
-                        12
+                        11,
+                        24
                     ],
                     "106": [
-                        2,
-                        15
-                    ],
-                    "110": [
-                        3,
-                        14
+                        13,
+                        25
                     ],
                     "111": [
-                        4,
-                        15
+                        11,
+                        19
+                    ],
+                    "112": [
+                        12,
+                        19
+                    ],
+                    "118": [
+                        21,
+                        11
                     ]
                 }
             },
             {
-                "nid": "Morshu",
+                "nid": "Green",
                 "units": [
-                    "Morshu",
+                    "Eleonora",
+                    "Dark",
+                    "Howai",
+                    "Boy",
+                    "Girl"
+                ],
+                "positions": {
+                    "Eleonora": [
+                        18,
+                        18
+                    ],
+                    "Howai": [
+                        19,
+                        19
+                    ],
+                    "Dark": [
+                        18,
+                        19
+                    ],
+                    "Boy": [
+                        17,
+                        19
+                    ],
+                    "Girl": [
+                        19,
+                        18
+                    ]
+                }
+            },
+            {
+                "nid": "SouthWest",
+                "units": [
+                    "113",
                     "114",
                     "115"
                 ],
                 "positions": {
-                    "Morshu": [
-                        11,
-                        13
+                    "113": [
+                        1,
+                        18
                     ],
                     "114": [
-                        10,
-                        13
+                        4,
+                        21
                     ],
                     "115": [
-                        11,
+                        6,
+                        24
+                    ]
+                }
+            },
+            {
+                "nid": "Pegasus",
+                "units": [
+                    "119",
+                    "120",
+                    "121"
+                ],
+                "positions": {
+                    "119": [
+                        9,
+                        1
+                    ],
+                    "120": [
+                        8,
+                        2
+                    ],
+                    "121": [
+                        7,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "Cherrys",
+                "units": [
+                    "Demonic",
+                    "Edgy"
+                ],
+                "positions": {
+                    "Demonic": [
+                        15,
+                        6
+                    ],
+                    "Edgy": [
+                        17,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "East",
+                "units": [
+                    "122",
+                    "123",
+                    "124"
+                ],
+                "positions": {
+                    "122": [
+                        20,
+                        13
+                    ],
+                    "123": [
+                        21,
+                        12
+                    ],
+                    "124": [
+                        21,
                         14
                     ]
                 }
-            },
-            {
-                "nid": "NorthWolves2",
-                "units": [
-                    "121",
-                    "122",
-                    "123"
-                ],
-                "positions": {
-                    "121": [
-                        6,
-                        1
-                    ],
-                    "122": [
-                        4,
-                        1
-                    ],
-                    "123": [
-                        5,
-                        0
-                    ]
-                }
-            },
-            {
-                "nid": "Enemy",
-                "units": [
-                    "101",
-                    "102",
-                    "103",
-                    "104",
-                    "112",
-                    "113",
-                    "116",
-                    "117"
-                ],
-                "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "Left",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Isaac",
+                "trigger_threshold": 2
+            },
+            {
+                "nid": "Right",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "19",
@@ -21552,12 +22468,12 @@
         "name": "Chapter 24",
         "tilemap": "Canyon",
         "bg_tilemap": null,
-        "party": "MaxYoungGroup",
+        "party": "MaxGroup",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Arrive",
+            "win": "Arrive at the Castle",
+            "loss": "Emeline/Max/Xeconis die"
         },
         "roam": false,
         "roam_unit": null,
@@ -23384,695 +24300,6 @@
                 }
             }
         ],
-        "ai_groups": []
-    },
-    {
-        "nid": "25",
-        "name": "Chapter 25",
-        "tilemap": "Cave",
-        "bg_tilemap": null,
-        "party": "MaxYoungGroup",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [
-            {
-                "nid": "Leap",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Prof",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Emmanuel",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 10,
-                "klass": "Myrmidon",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 10,
-                "klass": "Myrmidon",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Reckless_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 10,
-                "klass": "Myrmidon",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Lancereaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": "Lance",
-                "level": 10,
-                "klass": "Sword_Bonewalker",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Heavy Spear",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": "Lance",
-                "level": 10,
-                "klass": "Sword_Bonewalker",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Toxin Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": "",
-                "level": 10,
-                "klass": "Sword_Bonewalker",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Poison Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": "",
-                "level": 10,
-                "klass": "Bow_Bonewalker",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Longbow ",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": "",
-                "level": 10,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Rotten Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": "",
-                "level": 10,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Rotten Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 10,
-                "klass": "Mage",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Arcfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
-                "variant": null,
-                "level": 10,
-                "klass": "Mage",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Zephyr",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 10,
-                "klass": "Mage",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Elthunder",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "113",
-                "variant": null,
-                "level": 10,
-                "klass": "Shaman",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Luna",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
-                "variant": null,
-                "level": 10,
-                "klass": "Shaman",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Rancor",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 10,
-                "klass": "Shaman",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Nosferatu",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 10,
-                "klass": "Priest",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Heal",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Heal",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "117",
-                "variant": null,
-                "level": 10,
-                "klass": "Priest",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Mend",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Heal",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
-                "faction": "Monsdor",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            }
-        ],
-        "regions": [
-            {
-                "nid": "Chest",
-                "region_type": "event",
-                "position": [
-                    12,
-                    0
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Chest",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "1",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    15
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "2",
-                "region_type": "formation",
-                "position": [
-                    7,
-                    17
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "3",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    17
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "4",
-                "region_type": "formation",
-                "position": [
-                    6,
-                    18
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "5",
-                "region_type": "formation",
-                "position": [
-                    6,
-                    14
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "6",
-                "region_type": "formation",
-                "position": [
-                    4,
-                    18
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "7",
-                "region_type": "formation",
-                "position": [
-                    7,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "8",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "9",
-                "region_type": "formation",
-                "position": [
-                    7,
-                    15
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            }
-        ],
-        "unit_groups": [],
         "ai_groups": []
     },
     {
@@ -25987,9 +26214,785 @@
         "ai_groups": []
     },
     {
+        "nid": "A",
+        "name": "Ch. A: Howling Blizzard",
+        "tilemap": "Snowy",
+        "bg_tilemap": null,
+        "party": "MaxGroup",
+        "music": {
+            "player_phase": "Change_of_Scenery",
+            "enemy_phase": "Change_of_Scenery",
+            "player_battle": "Change_of_Scenery",
+            "enemy_battle": "Change_of_Scenery",
+            "enemy2_phase": null,
+            "other_battle": "Change_of_Scenery",
+            "other_phase": "Change_of_Scenery"
+        },
+        "objective": {
+            "simple": "Defeat enemy,Left ???",
+            "win": "Rout Enemy",
+            "loss": "Any player unit or Morshu dies."
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Emeline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Skill",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Max",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Xeconis",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Pit",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 8,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 11,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 10,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 8,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 10,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 8,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 10,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 10,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 8,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 10,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 9,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 10,
+                "klass": "Wolf",
+                "faction": "Feral",
+                "starting_items": [
+                    [
+                        "Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Morshu",
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 8,
+                "klass": "Merc",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Bronze_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 8,
+                "klass": "Soldier",
+                "faction": "Guard",
+                "starting_items": [
+                    [
+                        "Bronze_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [],
+        "unit_groups": [
+            {
+                "nid": "Player",
+                "units": [
+                    "Max",
+                    "Pit",
+                    "Emeline",
+                    "Skill",
+                    "Xeconis"
+                ],
+                "positions": {
+                    "Emeline": [
+                        4,
+                        4
+                    ],
+                    "Xeconis": [
+                        4,
+                        5
+                    ],
+                    "Pit": [
+                        3,
+                        3
+                    ],
+                    "Max": [
+                        3,
+                        5
+                    ],
+                    "Skill": [
+                        5,
+                        4
+                    ]
+                }
+            },
+            {
+                "nid": "NorthWolves",
+                "units": [
+                    "107",
+                    "108",
+                    "109"
+                ],
+                "positions": {
+                    "107": [
+                        11,
+                        1
+                    ],
+                    "108": [
+                        10,
+                        0
+                    ],
+                    "109": [
+                        12,
+                        0
+                    ]
+                }
+            },
+            {
+                "nid": "EastWolves",
+                "units": [
+                    "118",
+                    "119",
+                    "120"
+                ],
+                "positions": {
+                    "101": [
+                        17,
+                        4
+                    ],
+                    "102": [
+                        16,
+                        5
+                    ],
+                    "103": [
+                        17,
+                        6
+                    ],
+                    "104": [
+                        14,
+                        6
+                    ],
+                    "118": [
+                        17,
+                        8
+                    ],
+                    "119": [
+                        16,
+                        9
+                    ],
+                    "120": [
+                        17,
+                        10
+                    ]
+                }
+            },
+            {
+                "nid": "SouthWolves",
+                "units": [
+                    "105",
+                    "106",
+                    "110",
+                    "111"
+                ],
+                "positions": {
+                    "105": [
+                        4,
+                        12
+                    ],
+                    "106": [
+                        2,
+                        15
+                    ],
+                    "110": [
+                        3,
+                        14
+                    ],
+                    "111": [
+                        4,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "Morshu",
+                "units": [
+                    "Morshu",
+                    "114",
+                    "115"
+                ],
+                "positions": {
+                    "Morshu": [
+                        11,
+                        13
+                    ],
+                    "114": [
+                        10,
+                        13
+                    ],
+                    "115": [
+                        11,
+                        14
+                    ]
+                }
+            },
+            {
+                "nid": "NorthWolves2",
+                "units": [
+                    "121",
+                    "122",
+                    "123"
+                ],
+                "positions": {
+                    "121": [
+                        6,
+                        1
+                    ],
+                    "122": [
+                        4,
+                        1
+                    ],
+                    "123": [
+                        5,
+                        0
+                    ]
+                }
+            },
+            {
+                "nid": "Enemy",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "112",
+                    "113",
+                    "116",
+                    "117"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    },
+    {
         "nid": "22",
         "name": "Chapter 22",
-        "tilemap": "Ch22",
+        "tilemap": "Ch18",
         "bg_tilemap": null,
         "party": "SalGroup",
         "music": {},
@@ -28211,9 +29214,9 @@
         "party": "MaxGroup",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "?",
+            "win": "?",
+            "loss": "?"
         },
         "roam": true,
         "roam_unit": "Emeline",

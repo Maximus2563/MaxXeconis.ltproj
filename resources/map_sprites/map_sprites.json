@@ -144,11 +144,9 @@
     "Flautist",
     "Bard",
     "Noble",
-    "LupinTamer",
     "Emeline",
     "MonkFemale",
     "Wolf",
-    "LupinTamerOther",
     "BonewalkerLance",
     "Gazer",
     "Gargoyle",
@@ -171,5 +169,8 @@
     "Pegasi Mage (F) Pale Flower Nino {StreetHero}-stand",
     "Troubadour",
     "King",
-    "LanceSage"
+    "LanceSage",
+    "Wolf Knight",
+    "CitizenBoy",
+    "CitizenGirl"
 ]

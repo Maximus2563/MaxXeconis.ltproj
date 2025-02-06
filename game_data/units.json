@@ -312,130 +312,6 @@
         ]
     },
     {
-        "nid": "MaxCH17",
-        "name": "Max",
-        "desc": "A keen mage who wishes to be knowledgeable to aid his friends.",
-        "variant": "",
-        "level": 1,
-        "klass": "Battlemage",
-        "tags": [],
-        "bases": {
-            "HP": 27,
-            "STR": 11,
-            "MAG": 13,
-            "SKL": 14,
-            "SPD": 14,
-            "LCK": 5,
-            "DEF": 9,
-            "RES": 6,
-            "CON": 9,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 45,
-            "STR": 25,
-            "MAG": 30,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 15,
-            "DEF": 30,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 1,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": -2,
-            "DEF": 0,
-            "LCK": -2,
-            "SKL": 1,
-            "SPD": 2
-        },
-        "starting_items": [
-            [
-                "Elthunder",
-                false
-            ],
-            [
-                "Steel Lance",
-                false
-            ],
-            [
-                "Concoction",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "ContraryStrike"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                31,
-                251
-            ],
-            "Lance": [
-                false,
-                60,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                121,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [
-            "Sniper"
-        ],
-        "portrait_nid": "Max",
-        "affinity": "Wind",
-        "fields": []
-    },
-    {
         "nid": "XeconisYoung",
         "name": "Xeconis",
         "desc": "A soldier in training, whose shrewd demeanour keeps him safe.",
@@ -752,127 +628,6 @@
                 "Investing in me? I'll show you returns."
             ]
         ]
-    },
-    {
-        "nid": "XeconisCH17",
-        "name": "Xeconis",
-        "desc": "A freshly trained soldier simultaneously tutored in battlefield tactics. Has a sharp tongue.",
-        "variant": "",
-        "level": 9,
-        "klass": "Soldier",
-        "tags": [],
-        "bases": {
-            "HP": 25,
-            "STR": 8,
-            "MAG": 0,
-            "SKL": 12,
-            "SPD": 11,
-            "LCK": 6,
-            "DEF": 7,
-            "RES": 3,
-            "CON": 9,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 35,
-            "STR": 25,
-            "MAG": -5,
-            "SKL": 55,
-            "SPD": 55,
-            "LCK": 30,
-            "DEF": 30,
-            "RES": 45,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": -10,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": -1,
-            "LCK": 0,
-            "SKL": 3,
-            "SPD": 1
-        },
-        "starting_items": [
-            [
-                "WoYari",
-                false
-            ],
-            [
-                "Short Spear",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Adaptive Bearings"
-            ],
-            [
-                1,
-                "MiracleBoss"
-            ],
-            [
-                1,
-                "Orthodox"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                71,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Xeconis",
-        "affinity": "Ice",
-        "fields": []
     },
     {
         "nid": "CherryYoung",
@@ -6102,8 +5857,7 @@
             "Brightwing",
             "SeraphKnight",
             "ArcaneFlier",
-            "Servant",
-            "LupinTamer"
+            "Servant"
         ],
         "portrait_nid": "Leap",
         "affinity": "Water",
@@ -8959,129 +8713,6 @@
         ]
     },
     {
-        "nid": "PitCH17",
-        "name": "Pit",
-        "desc": "An Aurelian cavalier with great potential.",
-        "variant": "",
-        "level": 7,
-        "klass": "BowCavalier",
-        "tags": [],
-        "bases": {
-            "HP": 24,
-            "STR": 8,
-            "MAG": 0,
-            "SKL": 8,
-            "SPD": 8,
-            "LCK": 8,
-            "DEF": 6,
-            "RES": 6,
-            "CON": 8,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 50,
-            "STR": 35,
-            "MAG": 5,
-            "SKL": 35,
-            "SPD": 35,
-            "LCK": 35,
-            "DEF": 35,
-            "RES": 35,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Iron Bow",
-                false
-            ],
-            [
-                "Iron Longbow",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Reassurance"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                31,
-                251
-            ],
-            "Knives": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Pit",
-        "affinity": "Water",
-        "fields": []
-    },
-    {
         "nid": "Shini",
         "name": "Shini",
         "desc": "A mercenary who raises money for the church orphanage.",
@@ -9208,19 +8839,19 @@
         "name": "Dark",
         "desc": "A mage in training who has a tendency to take risks.",
         "variant": "Dark",
-        "level": 1,
-        "klass": "Pupil",
+        "level": 3,
+        "klass": "Shaman",
         "tags": [],
         "bases": {
-            "HP": 16,
+            "HP": 18,
             "STR": 0,
             "MAG": 6,
-            "SKL": 6,
-            "SPD": 5,
-            "LCK": 4,
-            "DEF": 2,
-            "RES": 3,
-            "CON": 4,
+            "SKL": 4,
+            "SPD": 7,
+            "LCK": 3,
+            "DEF": 3,
+            "RES": 5,
+            "CON": 6,
             "MOV": 5
         },
         "growths": {
@@ -9236,20 +8867,20 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "HP": -3,
+            "HP": 0,
             "MAG": 2,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
             "RES": 2,
-            "DEF": 0,
+            "DEF": -2,
             "LCK": 0,
             "SKL": 1,
             "SPD": 1
         },
         "starting_items": [
             [
-                "Ice",
+                "Flux",
                 false
             ],
             [
@@ -9261,10 +8892,6 @@
             [
                 1,
                 "SpellStudent"
-            ],
-            [
-                1,
-                "Skilltaker"
             ]
         ],
         "unit_notes": [
@@ -9305,17 +8932,17 @@
             ],
             "Light": [
                 false,
-                21,
+                0,
                 251
             ],
             "Anima": [
                 false,
-                21,
+                31,
                 251
             ],
             "Dark": [
                 false,
-                21,
+                31,
                 251
             ],
             "Default": [
@@ -10163,7 +9790,7 @@
     {
         "nid": "Edgy",
         "name": "Edgy",
-        "desc": "Cherry's retainer, believes he is the edgiest around.",
+        "desc": "Cherry's retainer, revels in his own misery.",
         "variant": "",
         "level": 11,
         "klass": "Myrmidon",
@@ -10211,10 +9838,6 @@
             ],
             [
                 "Vulnerary",
-                false
-            ],
-            [
-                "Hero Crest",
                 false
             ]
         ],
