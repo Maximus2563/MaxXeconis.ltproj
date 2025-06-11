@@ -11333,7 +11333,7 @@
     {
         "nid": "Byron",
         "name": "Byron",
-        "desc": "A commander of Monsdor, leading a hunt for Encantis.\n",
+        "desc": "A commander of Monsdor, wishing to enact justice on Grahment.",
         "variant": "",
         "level": 8,
         "klass": "Merc",
@@ -11343,7 +11343,7 @@
         "bases": {
             "HP": 29,
             "STR": 8,
-            "MAG": 0,
+            "MAG": 2,
             "SKL": 8,
             "SPD": 10,
             "LCK": 2,

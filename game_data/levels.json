@@ -5816,8 +5816,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    9
+                    20,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5840,8 +5840,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    4
+                    20,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5864,8 +5864,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    7
+                    15,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5888,8 +5888,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    6
+                    17,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5912,8 +5912,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    7
+                    17,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5936,8 +5936,8 @@
                 "roam_ai": null,
                 "ai_group": "North",
                 "starting_position": [
-                    16,
-                    7
+                    15,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5960,8 +5960,8 @@
                 "roam_ai": null,
                 "ai_group": "North",
                 "starting_position": [
-                    18,
-                    4
+                    16,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5985,7 +5985,7 @@
                 "ai_group": "",
                 "starting_position": [
                     17,
-                    5
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6009,7 +6009,7 @@
                 "ai_group": "North",
                 "starting_position": [
                     16,
-                    6
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6032,8 +6032,8 @@
                 "roam_ai": null,
                 "ai_group": "South",
                 "starting_position": [
-                    17,
-                    9
+                    13,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6056,8 +6056,8 @@
                 "roam_ai": null,
                 "ai_group": "South",
                 "starting_position": [
-                    16,
-                    8
+                    14,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6080,8 +6080,8 @@
                 "roam_ai": null,
                 "ai_group": "South",
                 "starting_position": [
-                    17,
-                    10
+                    15,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6104,7 +6104,7 @@
                 "roam_ai": null,
                 "ai_group": "South",
                 "starting_position": [
-                    13,
+                    11,
                     12
                 ],
                 "starting_traveler": null,
@@ -6128,8 +6128,8 @@
                 "roam_ai": null,
                 "ai_group": "Archers",
                 "starting_position": [
-                    18,
-                    6
+                    17,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6152,8 +6152,8 @@
                 "roam_ai": null,
                 "ai_group": "Archers",
                 "starting_position": [
-                    18,
-                    7
+                    16,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6176,7 +6176,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
+                    19,
                     6
                 ],
                 "starting_traveler": null,
@@ -6200,7 +6200,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
+                    19,
                     7
                 ],
                 "starting_traveler": null,
@@ -6308,8 +6308,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    6
+                    14,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6332,8 +6332,8 @@
                 "roam_ai": null,
                 "ai_group": "Cavalry",
                 "starting_position": [
-                    17,
-                    6
+                    18,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6356,8 +6356,8 @@
                 "roam_ai": null,
                 "ai_group": "Cavalry",
                 "starting_position": [
-                    16,
-                    13
+                    13,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6380,8 +6380,8 @@
                 "roam_ai": null,
                 "ai_group": "Cavalry",
                 "starting_position": [
-                    17,
-                    7
+                    14,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6841,9 +6841,10 @@
                     "113",
                     "114",
                     "115",
-                    "118",
+                    "131",
                     "120",
                     "121",
+                    "118",
                     "122"
                 ],
                 "positions": {
@@ -6852,44 +6853,44 @@
                         6
                     ],
                     "101": [
-                        21,
-                        4
+                        20,
+                        3
                     ],
                     "102": [
-                        21,
-                        9
+                        20,
+                        13
                     ],
                     "103": [
-                        21,
-                        7
+                        15,
+                        2
                     ],
                     "104": [
-                        19,
-                        6
+                        17,
+                        2
                     ],
                     "105": [
-                        19,
-                        7
+                        17,
+                        12
                     ],
                     "106": [
-                        16,
+                        13,
                         3
                     ],
                     "109": [
-                        18,
-                        4
+                        14,
+                        7
                     ],
                     "110": [
-                        17,
-                        5
+                        15,
+                        6
                     ],
                     "119": [
-                        17,
-                        3
+                        16,
+                        7
                     ],
                     "107": [
-                        17,
-                        9
+                        15,
+                        8
                     ],
                     "111": [
                         17,
@@ -6897,39 +6898,43 @@
                     ],
                     "108": [
                         16,
-                        8
+                        3
                     ],
                     "112": [
-                        18,
-                        6
+                        17,
+                        4
                     ],
                     "113": [
-                        18,
-                        7
-                    ],
-                    "114": [
-                        20,
-                        6
-                    ],
-                    "115": [
-                        20,
-                        7
-                    ],
-                    "118": [
-                        15,
-                        6
-                    ],
-                    "120": [
-                        18,
-                        2
-                    ],
-                    "121": [
                         16,
                         13
                     ],
-                    "122": [
-                        17,
+                    "114": [
+                        19,
+                        6
+                    ],
+                    "115": [
+                        19,
                         7
+                    ],
+                    "118": [
+                        14,
+                        14
+                    ],
+                    "120": [
+                        18,
+                        3
+                    ],
+                    "121": [
+                        13,
+                        9
+                    ],
+                    "122": [
+                        14,
+                        13
+                    ],
+                    "131": [
+                        11,
+                        12
                     ]
                 }
             },
@@ -6954,11 +6959,11 @@
                     ],
                     "126": [
                         6,
-                        16
+                        0
                     ],
                     "127": [
                         5,
-                        16
+                        1
                     ],
                     "128": [
                         0,
