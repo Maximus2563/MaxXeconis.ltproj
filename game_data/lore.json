@@ -42,13 +42,6 @@
         "text": "Unit cannot fight, move, or avoid attacks."
     },
     {
-        "nid": "Chill",
-        "name": "Chill",
-        "title": "Chill",
-        "category": "Status",
-        "text": "Three stacks of chill will leave a unit frozen."
-    },
-    {
         "nid": "Eirika",
         "name": "Eirika",
         "title": "Eirika",

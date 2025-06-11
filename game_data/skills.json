@@ -442,6 +442,26 @@
         ]
     },
     {
+        "nid": "HiddenArmsthrift",
+        "name": "HiddenArmsthrift",
+        "desc": "Armsthrift, but hidden!",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "armsthrift",
+                1
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Flying",
         "name": "Flying",
         "desc": "Can fly.",
@@ -546,8 +566,8 @@
         ],
         "components": [
             [
-                "lifelink",
-                -1.0
+                "devil_axe_gba",
+                "Affect attacks done by unit"
             ]
         ]
     },
@@ -5749,7 +5769,7 @@
     {
         "nid": "VeteranExperience",
         "name": "Veteran's Experience",
-        "desc": "If unit has WTA, unit makes a guaranteed follow-up attack and foe cannot.\nIf unit has WTD, foe makes a guaranteed follow-up attack and foe cannot.",
+        "desc": "If unit has WTA, foe cannot make a follow-up attack.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             0,
@@ -5761,12 +5781,12 @@
                 null
             ],
             [
-                "dynamic_attack_speed",
-                "100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0 else 100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), False).modification > 0 else 0"
+                "defense_speed",
+                100
             ],
             [
-                "dynamic_defense_speed",
-                "100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), True).modification > 0 else 100 if combat_calcs.compute_advantage(unit, target, unit.get_weapon(), target.get_weapon(), False).modification > 0 else 0"
+                "combat_condition",
+                "(combat_calcs.compute_advantage(unit, target, item, target.get_weapon()) and combat_calcs.compute_advantage(unit, target, item, target.get_weapon()).accuracy > 0) or (combat_calcs.compute_advantage(unit, target, item, target.get_weapon(), False) and combat_calcs.compute_advantage(unit, target, item, target.get_weapon(), False).accuracy > 0)"
             ]
         ]
     },
@@ -6713,6 +6733,87 @@
         ]
     },
     {
+        "nid": "Necromancer",
+        "name": "Necromancer",
+        "desc": "Physical attacks are calculated using unit's MAG - foe's DEF.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            11,
+            49
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "alternate_damage_formula",
+                "MAGIC_DAMAGE"
+            ]
+        ]
+    },
+    {
+        "nid": "Puppeteer",
+        "name": "Puppeteer",
+        "desc": "Grants DEF/RES+3 to monster allies within 5 spaces and heal 50% of their max HP at the start of each turn.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            7,
+            24
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Puppeted"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Puppeted",
+        "name": "Puppeted",
+        "desc": "Grants DEF/RES+3 and heal 50% of max HP at the start of turn.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            7,
+            24
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.5
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "'Monster' in unit.tags"
+            ]
+        ]
+    },
+    {
         "nid": "Trapper",
         "name": "Trapper",
         "desc": "Unit can place a trap at target location.\nWhen a unit steps on trap, their move is interrupted.",
@@ -7523,59 +7624,6 @@
             [
                 "desperation",
                 null
-            ]
-        ]
-    },
-    {
-        "nid": "Draconis Sola ",
-        "name": "Draconis Sola",
-        "desc": "Grants +2 to all stats when there are no allies within 3 spaces.",
-        "icon_nid": "Skills (1)",
-        "icon_index": [
-            4,
-            5
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "condition",
-                "unit_funcs.check_focus(unit, 3) == 0"
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        2
-                    ],
-                    [
-                        "MAG",
-                        2
-                    ],
-                    [
-                        "SKL",
-                        2
-                    ],
-                    [
-                        "SPD",
-                        2
-                    ],
-                    [
-                        "LCK",
-                        2
-                    ],
-                    [
-                        "DEF",
-                        2
-                    ],
-                    [
-                        "RES",
-                        2
-                    ]
-                ]
             ]
         ]
     },
@@ -10213,9 +10261,9 @@
         ]
     },
     {
-        "nid": "SpitefulShield",
-        "name": "Spiteful Shield",
-        "desc": "If unit is hit by an attack, the attacker receives 5 damage after combat\n(Damage is not lethal).",
+        "nid": "Spite",
+        "name": "Spite",
+        "desc": "If unit is hit by an attack, the foe is <red>cursed</>, inflicting RES-3 to them and their allies within 2 spaces for 1 turn.",
         "icon_nid": "Skills (1)",
         "icon_index": [
             5,
@@ -10228,32 +10276,69 @@
             ],
             [
                 "give_status_on_take_hit",
-                "SpitefulShieldChild"
+                "SpiteChild"
             ]
         ]
     },
     {
-        "nid": "SpitefulShieldChild",
-        "name": "Spiteful Shield",
-        "desc": "5 Recoil",
-        "icon_nid": "Skills (1)",
+        "nid": "SpiteChild",
+        "name": "Cursed",
+        "desc": "Inflicts RES-3 on unit and allies within 2 spaces.\nCurse debuffs do not stack.",
+        "icon_nid": "LT_Skills",
         "icon_index": [
-            5,
-            7
+            2,
+            51
         ],
         "components": [
             [
-                "recoil",
-                5
+                "negative",
+                null
             ],
             [
-                "lost_on_end_combat2",
-                {
-                    "lost_on_self": true,
-                    "lost_on_ally": true,
-                    "lost_on_enemy": true,
-                    "lost_on_splash": true
-                }
+                "aura",
+                "Cursed"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "combined_time",
+                1
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        -3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Cursed",
+        "name": "Cursed",
+        "desc": "Inflicts RES-3.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            2,
+            51
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        -3
+                    ]
+                ]
             ]
         ]
     },
@@ -11257,6 +11342,46 @@
             [
                 "drain_charge",
                 2
+            ]
+        ]
+    },
+    {
+        "nid": "MagicalSavant",
+        "name": "Magical Savant",
+        "desc": "Reduces incoming magic damage by 50%.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            14,
+            19
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "defense_pre_proc",
+                "MagicalSavantChild"
+            ],
+            [
+                "combat_condition",
+                "item_funcs.is_magic(target, target.get_weapon())"
+            ]
+        ]
+    },
+    {
+        "nid": "MagicalSavantChild",
+        "name": "Magical Savant",
+        "desc": "Reduces incoming magic damage by 50%.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            14,
+            19
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
             ]
         ]
     },

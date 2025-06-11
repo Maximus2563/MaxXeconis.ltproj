@@ -144,12 +144,12 @@
         "tags": [],
         "bases": {
             "HP": 27,
-            "STR": 11,
-            "MAG": 13,
+            "STR": 10,
+            "MAG": 12,
             "SKL": 14,
             "SPD": 14,
-            "LCK": 5,
-            "DEF": 9,
+            "LCK": 4,
+            "DEF": 8,
             "RES": 6,
             "CON": 9,
             "MOV": 6
@@ -168,11 +168,11 @@
         },
         "stat_cap_modifiers": {
             "HP": 0,
-            "MAG": 1,
+            "MAG": 0,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
-            "RES": -2,
+            "RES": -1,
             "DEF": 0,
             "LCK": -2,
             "SKL": 1,
@@ -184,7 +184,7 @@
                 false
             ],
             [
-                "Steel Lance",
+                "Steel_Lance",
                 false
             ],
             [
@@ -279,11 +279,11 @@
             ],
             [
                 "MidLevelUpQuote",
-                "I can do anything I set my mind to!"
+                "I can do anything I set my mind to."
             ],
             [
                 "LowLevelUpQuote",
-                "Ah, I'll try harder next time."
+                "Well, that's disheartening... I'll try harder next time."
             ],
             [
                 "WorstLevelUpQuote",
@@ -307,7 +307,7 @@
             ],
             [
                 "StatQuote",
-                "I'm not gonna squander this."
+                "I'll put this to good use, I promise."
             ]
         ]
     },
@@ -345,7 +345,7 @@
         },
         "stat_cap_modifiers": {
             "HP": 0,
-            "MAG": -10,
+            "MAG": -15,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
@@ -357,7 +357,7 @@
         },
         "starting_items": [
             [
-                "Iron Lance",
+                "Iron_Lance",
                 false
             ],
             [
@@ -488,7 +488,7 @@
         },
         "stat_cap_modifiers": {
             "HP": 0,
-            "MAG": -10,
+            "MAG": -15,
             "MOV": 0,
             "CON": 0,
             "STR": 0,
@@ -500,11 +500,11 @@
         },
         "starting_items": [
             [
-                "WoYari",
+                "Wo_Yari",
                 false
             ],
             [
-                "Short Spear",
+                "Short_Spear",
                 false
             ],
             [
@@ -540,7 +540,7 @@
             ],
             "Lance": [
                 false,
-                71,
+                121,
                 251
             ],
             "Axe": [
@@ -632,7 +632,7 @@
     {
         "nid": "CherryYoung",
         "name": "Cherry",
-        "desc": "A merchant's daughter who is shy around strangers.",
+        "desc": "A young noblewoman who is shy around strangers.",
         "variant": "Short",
         "level": 3,
         "klass": "Troubadour",
@@ -982,7 +982,7 @@
         },
         "starting_items": [
             [
-                "Iron Axe",
+                "Iron_Axe",
                 false
             ]
         ],
@@ -1121,7 +1121,7 @@
                 false
             ],
             [
-                "Killer Axe",
+                "Killer_Axe",
                 false
             ],
             [
@@ -1285,7 +1285,7 @@
         },
         "starting_items": [
             [
-                "Steel Sword",
+                "Steel_Sword",
                 false
             ]
         ],
@@ -1420,7 +1420,7 @@
         },
         "starting_items": [
             [
-                "Silver Sword",
+                "Silver_Sword",
                 false
             ],
             [
@@ -1593,7 +1593,7 @@
                 false
             ],
             [
-                "Brave Sword",
+                "Brave_Sword",
                 false
             ]
         ],
@@ -2011,7 +2011,7 @@
         },
         "starting_items": [
             [
-                "Silver Sword",
+                "Silver_Sword",
                 false
             ],
             [
@@ -2175,7 +2175,7 @@
         },
         "starting_items": [
             [
-                "Iron Axe",
+                "Iron_Axe",
                 false
             ],
             [
@@ -2342,7 +2342,7 @@
         },
         "starting_items": [
             [
-                "Iron Bow",
+                "Iron_Bow",
                 false
             ],
             [
@@ -2521,7 +2521,7 @@
                 false
             ],
             [
-                "SmokeKunai",
+                "Smoke_Kunai",
                 false
             ]
         ],
@@ -2610,7 +2610,7 @@
             ],
             [
                 "EscapeQuote",
-                "The Smoke is moving! Heh."
+                "Smoke bomb! Hah!"
             ],
             [
                 "PromoQuote",
@@ -2692,7 +2692,7 @@
         },
         "starting_items": [
             [
-                "Iron Lance",
+                "Iron_Lance",
                 false
             ],
             [
@@ -2809,7 +2809,7 @@
             ],
             [
                 "MaxStatQuote",
-                "Yaya! This is it!"
+                "Yas! This is it!"
             ],
             [
                 "ChangeQuote",
@@ -2817,7 +2817,7 @@
             ],
             [
                 "StatQuote",
-                "Oh my god, girl! Queen shit!"
+                "Word on the street is I ate it up."
             ]
         ]
     },
@@ -2871,7 +2871,7 @@
                 false
             ],
             [
-                "Steel Lance",
+                "Steel_Lance",
                 false
             ]
         ],
@@ -3036,7 +3036,7 @@
         },
         "starting_items": [
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ],
             [
@@ -3381,11 +3381,11 @@
         },
         "starting_items": [
             [
-                "Slim Lance",
+                "Slim_Lance",
                 false
             ],
             [
-                "Heavy Spear",
+                "Heavy_Spear",
                 false
             ]
         ],
@@ -3560,7 +3560,7 @@
         },
         "starting_items": [
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ],
             [
@@ -3867,7 +3867,7 @@
     {
         "nid": "Blazing",
         "name": "Blazing",
-        "desc": "Son of a Grahment Count. His faith is a source of strength.",
+        "desc": "Son of a Grahment Count studying in Aurelia. \nHis faith is a source of strength.",
         "variant": "",
         "level": 4,
         "klass": "Monk",
@@ -3972,7 +3972,7 @@
             ],
             "Anima": [
                 false,
-                0,
+                31,
                 251
             ],
             "Dark": [
@@ -4255,7 +4255,7 @@
         },
         "starting_items": [
             [
-                "TacticalEdge",
+                "Tactical_Edge",
                 false
             ],
             [
@@ -4873,7 +4873,7 @@
         },
         "starting_items": [
             [
-                "Steel Dagger",
+                "Steel_Dagger",
                 false
             ],
             [
@@ -5046,7 +5046,7 @@
         },
         "starting_items": [
             [
-                "Silver Dagger ",
+                "Silver_Dagger",
                 false
             ],
             [
@@ -5291,7 +5291,7 @@
                 false
             ],
             [
-                "Battle Axe",
+                "Battle_Axe",
                 false
             ]
         ],
@@ -5514,11 +5514,11 @@
         },
         "starting_items": [
             [
-                "Killer Bow",
+                "Killer_Bow",
                 false
             ],
             [
-                "Steel Longbow ",
+                "Steel_Longbow",
                 false
             ],
             [
@@ -5880,11 +5880,11 @@
             ],
             [
                 "LowLevelUpQuote",
-                "I can do better, just you wait!"
+                "I can do better, trust!"
             ],
             [
                 "WorstLevelUpQuote",
-                "Oh. Bit shit, that."
+                "How could this happen...?"
             ],
             [
                 "MaxStatQuote",
@@ -5954,11 +5954,11 @@
         },
         "starting_items": [
             [
-                "Steel Bow",
+                "Steel_Bow",
                 false
             ],
             [
-                "Short Bow",
+                "Short_Bow",
                 false
             ],
             [
@@ -6129,11 +6129,11 @@
         },
         "starting_items": [
             [
-                "Iron Sword",
+                "Iron_Sword",
                 false
             ],
             [
-                "Iron Blade",
+                "Iron_Blade",
                 false
             ],
             [
@@ -6246,7 +6246,7 @@
             ],
             [
                 "LowLevelUpQuote",
-                "Hm, not sure if I like this..."
+                "I'll turn this page, quickly ..."
             ],
             [
                 "WorstLevelUpQuote",
@@ -6312,7 +6312,7 @@
         },
         "starting_items": [
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ],
             [
@@ -6440,10 +6440,10 @@
         ]
     },
     {
-        "nid": "Aspl",
-        "name": "Aspl",
+        "nid": "Sophie",
+        "name": "Sophie",
         "desc": "A cavalier in training.\nHas delusions of grandeur.",
-        "variant": "",
+        "variant": "Female",
         "level": 1,
         "klass": "LanceCavalier",
         "tags": [],
@@ -6485,7 +6485,7 @@
         },
         "starting_items": [
             [
-                "Iron Lance",
+                "Iron_Lance",
                 false
             ],
             [
@@ -6565,7 +6565,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Aspl",
+        "portrait_nid": "Sophie",
         "affinity": "Thunder",
         "fields": [
             [
@@ -6664,7 +6664,7 @@
         },
         "starting_items": [
             [
-                "Iron Sword",
+                "Iron_Sword",
                 false
             ],
             [
@@ -6930,7 +6930,7 @@
             ],
             [
                 "EscapeQuote",
-                "I'm setting an ambush for you ahead, hehe..."
+                "I'm setting an ambush for you ahead, teehee..."
             ],
             [
                 "HighLevelUpQuote",
@@ -6962,14 +6962,14 @@
             ],
             [
                 "StatQuote",
-                "I'd rather have a pet reptile, but this is fine too."
+                "Huh? Thanks, I guess."
             ]
         ]
     },
     {
         "nid": "Meg",
         "name": "Meg",
-        "desc": "A village girl who likes livestock.",
+        "desc": "A village girl who likes livestock, particularly cows.",
         "variant": "Female",
         "level": 3,
         "klass": "Archer",
@@ -7012,11 +7012,11 @@
         },
         "starting_items": [
             [
-                "Iron Bow",
+                "Iron_Bow",
                 false
             ],
             [
-                "Iron Longbow",
+                "Iron_Longbow",
                 false
             ],
             [
@@ -7055,7 +7055,40 @@
         "alternate_classes": [],
         "portrait_nid": "Meg",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Urgh... I can't seem to keep on my feet..."
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'm pretty happy about this! Yeah!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I appreciate gains like these."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Shucks, could do better here..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "This stinks! Like dung..."
+            ],
+            [
+                "StatQuote",
+                "Thank you kindly!"
+            ],
+            [
+                "EscapeQuote",
+                "I'll get ya outta here, promise!"
+            ],
+            [
+                "MaxStatQuote",
+                "Aw... Surely I can improve somethin'..."
+            ]
+        ]
     },
     {
         "nid": "Siri",
@@ -7103,7 +7136,7 @@
         },
         "starting_items": [
             [
-                "Iron Axe",
+                "Iron_Axe",
                 false
             ],
             [
@@ -7225,9 +7258,127 @@
             ],
             [
                 "StatQuote",
-                "This is my reward? Thanks a lot!"
+                "This is my reward? I'd rather a pet, but alright."
             ]
         ]
+    },
+    {
+        "nid": "Kana",
+        "name": "Kana",
+        "desc": "A wyvern rider of Monsdor who doesn't care for warfare.",
+        "variant": "",
+        "level": 3,
+        "klass": "Wyvern Rider",
+        "tags": [],
+        "bases": {
+            "HP": 26,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 7,
+            "LCK": 6,
+            "DEF": 8,
+            "RES": 0,
+            "CON": 10,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 35,
+            "MAG": 5,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Hammer",
+                false
+            ],
+            [
+                "Hand_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Specialist"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Kana",
+        "affinity": "Light",
+        "fields": []
     },
     {
         "nid": "Nabin",
@@ -7275,7 +7426,7 @@
         },
         "starting_items": [
             [
-                "Wind Sword",
+                "Wind_Sword",
                 false
             ],
             [
@@ -7443,7 +7594,7 @@
         },
         "starting_items": [
             [
-                "Steel Lance",
+                "Steel_Lance",
                 false
             ],
             [
@@ -7606,11 +7757,11 @@
         },
         "starting_items": [
             [
-                "Dragon Axe",
+                "Dragon_Axe",
                 false
             ],
             [
-                "Hand Axe",
+                "Hand_Axe",
                 false
             ],
             [
@@ -8055,7 +8206,7 @@
         },
         "starting_items": [
             [
-                "Silver Dagger ",
+                "Silver_Dagger",
                 false
             ],
             [
@@ -8063,7 +8214,7 @@
                 false
             ],
             [
-                "Killing Edge",
+                "Killing_Edge",
                 false
             ]
         ],
@@ -8186,7 +8337,7 @@
         },
         "starting_items": [
             [
-                "Silver Bow",
+                "Silver_Bow",
                 false
             ],
             [
@@ -8267,11 +8418,11 @@
         "fields": [
             [
                 "DeathQuote",
-                "So it finally happened..."
+                "This was... a long time comin'..."
             ],
             [
                 "EscapeQuote",
-                "Now I can breathe..."
+                "Now, I can finally breathe..."
             ],
             [
                 "HighLevelUpQuote",
@@ -8291,11 +8442,11 @@
             ],
             [
                 "MaxStatQuote",
-                "I'll give myself a pat on the back later."
+                "I'll have to find a new angle..."
             ],
             [
                 "StatQuote",
-                "I'll raise my hat to that... later."
+                "I'll raise a drink to that... later."
             ]
         ]
     },
@@ -8345,11 +8496,11 @@
         },
         "starting_items": [
             [
-                "Steel Longbow ",
+                "Steel_Longbow",
                 false
             ],
             [
-                "SapphireLance",
+                "Sapphire_Lance",
                 false
             ],
             [
@@ -8471,7 +8622,7 @@
                 false
             ],
             [
-                "SapphireLance",
+                "Sapphire_Lance",
                 false
             ]
         ],
@@ -8553,11 +8704,11 @@
         "name": "Pit",
         "desc": "An Aurelian cavalier with great potential.",
         "variant": "",
-        "level": 7,
+        "level": 8,
         "klass": "BowCavalier",
         "tags": [],
         "bases": {
-            "HP": 24,
+            "HP": 25,
             "STR": 8,
             "MAG": 0,
             "SKL": 8,
@@ -8594,11 +8745,11 @@
         },
         "starting_items": [
             [
-                "Steel Bow",
+                "Steel_Bow",
                 false
             ],
             [
-                "Iron Longbow",
+                "Iron_Longbow",
                 false
             ],
             [
@@ -8631,7 +8782,7 @@
             ],
             "Bow": [
                 false,
-                31,
+                56,
                 251
             ],
             "Knives": [
@@ -8684,7 +8835,7 @@
             ],
             [
                 "PromoQuote",
-                "Now, this is epic!"
+                "Is this real? I feel so much stronger!"
             ],
             [
                 "HighLevelUpQuote",
@@ -8713,131 +8864,9 @@
         ]
     },
     {
-        "nid": "Shini",
-        "name": "Shini",
-        "desc": "A mercenary who raises money for the church orphanage.",
-        "variant": "",
-        "level": 8,
-        "klass": "Merc",
-        "tags": [],
-        "bases": {
-            "HP": 30,
-            "STR": 10,
-            "MAG": 2,
-            "SKL": 9,
-            "SPD": 8,
-            "LCK": 7,
-            "DEF": 7,
-            "RES": 2,
-            "CON": 11,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 65,
-            "STR": 50,
-            "MAG": 5,
-            "SKL": 45,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 35,
-            "RES": 25,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Iron Blade",
-                false
-            ],
-            [
-                "Steel Sword",
-                false
-            ],
-            [
-                "Master Seal",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Reciprocity"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                71,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Shini",
-        "affinity": "Thunder",
-        "fields": []
-    },
-    {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "A mage in training who has a tendency to take risks.",
+        "desc": "An orphan with a flair for black magic.",
         "variant": "Dark",
         "level": 3,
         "klass": "Shaman",
@@ -8845,7 +8874,7 @@
         "bases": {
             "HP": 18,
             "STR": 0,
-            "MAG": 6,
+            "MAG": 7,
             "SKL": 4,
             "SPD": 7,
             "LCK": 3,
@@ -8891,7 +8920,7 @@
         "learned_skills": [
             [
                 1,
-                "SpellStudent"
+                "Spite"
             ]
         ],
         "unit_notes": [
@@ -8965,11 +8994,11 @@
             ],
             [
                 "HighLevelUpQuote",
-                "Hahaha! I'm smarter than teach now!"
+                "I'll show them what I can really do!"
             ],
             [
                 "MidLevelUpQuote",
-                "Aw yeah, this is more like it!"
+                "Yeah, this is more like it!"
             ],
             [
                 "LowLevelUpQuote",
@@ -8981,17 +9010,634 @@
             ],
             [
                 "MaxStatQuote",
-                "I'm king of the world! Go me!"
+                "I'm king of the world, right?"
             ],
             [
                 "EscapeQuote",
-                "Smell ya later!"
+                "I'm done here."
             ],
             [
                 "StatQuote",
-                "I can have this?"
+                "I can have this? Cool."
             ]
         ]
+    },
+    {
+        "nid": "Jayver",
+        "name": "Jayver",
+        "desc": "An orphaned boy who likes to paint.",
+        "variant": "",
+        "level": 2,
+        "klass": "Priest",
+        "tags": [],
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 5,
+            "SKL": 3,
+            "SPD": 7,
+            "LCK": 9,
+            "DEF": 0,
+            "RES": 7,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 35,
+            "STR": 20,
+            "MAG": 50,
+            "SKL": 25,
+            "SPD": 65,
+            "LCK": 40,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": -3,
+            "MAG": 2,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": -2,
+            "LCK": 0,
+            "SKL": -2,
+            "SPD": 3
+        },
+        "starting_items": [
+            [
+                "Reconcile",
+                false
+            ],
+            [
+                "Patch",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Inferno Balm"
+            ],
+            [
+                1,
+                "Paragon"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Painting,Roaming"
+            ],
+            [
+                "Dislikes:",
+                "Restrictions,Boring tasks"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knives": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Jayver",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "PromoQuote",
+                "Oh! This is so cool!"
+            ],
+            [
+                "EscapeQuote",
+                "Yippee!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "Yay! This is a lovely scene!"
+            ],
+            [
+                "MidLevelUpQuote",
+                "I'll make a self portrait to celebrate!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "Wait, what?"
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Oh no... I let everyone down..."
+            ],
+            [
+                "MaxStatQuote",
+                "Anywhere else left to grow? Hm..."
+            ],
+            [
+                "DeathQuote",
+                "My blood...? Painting the floor..."
+            ],
+            [
+                "StatQuote",
+                "Woohoo!"
+            ]
+        ]
+    },
+    {
+        "nid": "Demonic",
+        "name": "Demonic",
+        "desc": "An old, yet not so wise knight of Aurelia.",
+        "variant": "",
+        "level": 7,
+        "klass": "Great_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "STR": 17,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 9,
+            "LCK": 13,
+            "DEF": 16,
+            "CON": 13,
+            "MOV": 7,
+            "RES": 6
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 5,
+            "SKL": 10,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 30,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 15
+        },
+        "stat_cap_modifiers": {
+            "HP": 3,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 3,
+            "RES": -2,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": -3,
+            "SPD": -3
+        },
+        "starting_items": [
+            [
+                "Devil_Axe",
+                false
+            ],
+            [
+                "Reckless_Lance",
+                false
+            ],
+            [
+                "Steel_Blade",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "VeteranExperience"
+            ],
+            [
+                1,
+                "Stalwart"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Shouting,Rambling"
+            ],
+            [
+                "Dislikes:",
+                "Being old"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                71,
+                251
+            ],
+            "Lance": [
+                true,
+                121,
+                251
+            ],
+            "Axe": [
+                false,
+                181,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Demonic",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "StatQuote",
+                "Thanks, this rocks!"
+            ],
+            [
+                "MaxStatQuote",
+                "At my age, this is good."
+            ],
+            [
+                "DeathQuote",
+                "It was bound to happen... eventually..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "WHAT? I DIDN'T HEAR THAT!"
+            ],
+            [
+                "LowLevelUpQuote",
+                "I'll take what I can get, youngster."
+            ],
+            [
+                "MidLevelUpQuote",
+                "Gwahaha!"
+            ],
+            [
+                "HighLevelUpQuote",
+                "LOOK AT ME NOW! HAH!"
+            ],
+            [
+                "ChangeQuote",
+                "Weird, but okay!"
+            ],
+            [
+                "EscapeQuote",
+                "Ah! I'm out!"
+            ]
+        ]
+    },
+    {
+        "nid": "Edgy",
+        "name": "Edgy",
+        "desc": "Cherry's retainer, revels in his own misery.",
+        "variant": "",
+        "level": 10,
+        "klass": "Myrmidon",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 7,
+            "MAG": 3,
+            "SKL": 10,
+            "SPD": 13,
+            "LCK": 9,
+            "DEF": 5,
+            "RES": 2,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 30,
+            "MAG": 20,
+            "SKL": 40,
+            "SPD": 55,
+            "LCK": 35,
+            "DEF": 35,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": -2,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 1,
+            "SPD": 2
+        },
+        "starting_items": [
+            [
+                "Shamshir",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Melancholic"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Edgy",
+        "affinity": "Earth",
+        "fields": [
+            [
+                "StatQuote",
+                "A waste of a gift... but thanks."
+            ],
+            [
+                "PromoQuote",
+                "I suppose I can TRY to do more."
+            ],
+            [
+                "EscapeQuote",
+                "Finally, it's over..."
+            ],
+            [
+                "MaxStatQuote",
+                "I got this far..."
+            ],
+            [
+                "HighLevelUpQuote",
+                "I'm not smiling... I swear."
+            ],
+            [
+                "MidLevelUpQuote",
+                "Yeah, this is fine."
+            ],
+            [
+                "LowLevelUpQuote",
+                "Can't say I expected better..."
+            ],
+            [
+                "WorstLevelUpQuote",
+                "Nobody look at me, please."
+            ],
+            [
+                "DeathQuote",
+                "No... death isn't actually... cool..."
+            ]
+        ]
+    },
+    {
+        "nid": "Shini",
+        "name": "Shini",
+        "desc": "A mercenary who raises money for the church orphanage.",
+        "variant": "",
+        "level": 8,
+        "klass": "Merc",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 10,
+            "MAG": 2,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 7,
+            "DEF": 7,
+            "RES": 2,
+            "CON": 11,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 50,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 35,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Blade",
+                false
+            ],
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Master Seal",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Reciprocity"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Shini",
+        "affinity": "Thunder",
+        "fields": []
     },
     {
         "nid": "Lumii",
@@ -9162,346 +9808,6 @@
         ]
     },
     {
-        "nid": "Howai",
-        "name": "Howai",
-        "desc": "An orphaned boy who likes to paint.",
-        "variant": "",
-        "level": 1,
-        "klass": "Priest",
-        "tags": [],
-        "bases": {
-            "HP": 16,
-            "STR": 0,
-            "MAG": 4,
-            "SKL": 2,
-            "SPD": 7,
-            "LCK": 9,
-            "DEF": 0,
-            "RES": 7,
-            "CON": 5,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 35,
-            "STR": 20,
-            "MAG": 50,
-            "SKL": 25,
-            "SPD": 65,
-            "LCK": 40,
-            "DEF": 10,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": -3,
-            "MAG": 2,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": -2,
-            "LCK": 0,
-            "SKL": -2,
-            "SPD": 3
-        },
-        "starting_items": [
-            [
-                "Patch",
-                false
-            ],
-            [
-                "Heal",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Inferno Balm"
-            ],
-            [
-                1,
-                "Paragon"
-            ]
-        ],
-        "unit_notes": [
-            [
-                "Likes:",
-                "Painting,Roaming"
-            ],
-            [
-                "Dislikes:",
-                "Restrictions,Boring tasks"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knives": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                1,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Howai",
-        "affinity": "Fire",
-        "fields": [
-            [
-                "PromoQuote",
-                "Oh! This is so cool!"
-            ],
-            [
-                "EscapeQuote",
-                "Yippee!"
-            ],
-            [
-                "HighLevelUpQuote",
-                "Yay! This is a lovely scene!"
-            ],
-            [
-                "MidLevelUpQuote",
-                "I'll make a self portrait to celebrate!"
-            ],
-            [
-                "LowLevelUpQuote",
-                "Wait, what?"
-            ],
-            [
-                "WorstLevelUpQuote",
-                "Oh no... I let everyone down..."
-            ],
-            [
-                "MaxStatQuote",
-                "Anywhere else left to grow? Hm..."
-            ],
-            [
-                "DeathQuote",
-                "My blood...? Painting the floor..."
-            ],
-            [
-                "StatQuote",
-                "Woohoo!"
-            ]
-        ]
-    },
-    {
-        "nid": "Demonic",
-        "name": "Demonic",
-        "desc": "An old, yet not so wise knight of Aurelia.",
-        "variant": "",
-        "level": 7,
-        "klass": "Great_Knight",
-        "tags": [],
-        "bases": {
-            "HP": 40,
-            "STR": 17,
-            "MAG": 3,
-            "SKL": 8,
-            "SPD": 9,
-            "LCK": 13,
-            "DEF": 15,
-            "CON": 13,
-            "MOV": 7,
-            "RES": 6
-        },
-        "growths": {
-            "HP": 60,
-            "STR": 30,
-            "MAG": 5,
-            "SKL": 10,
-            "SPD": 25,
-            "LCK": 30,
-            "DEF": 30,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 15
-        },
-        "stat_cap_modifiers": {
-            "HP": 3,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 3,
-            "RES": -2,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": -3,
-            "SPD": -3
-        },
-        "starting_items": [
-            [
-                "Devil Axe",
-                false
-            ],
-            [
-                "Reckless_Lance",
-                false
-            ],
-            [
-                "Steel Blade",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "SeniorShout"
-            ],
-            [
-                1,
-                "VeteranExperience"
-            ]
-        ],
-        "unit_notes": [
-            [
-                "Likes:",
-                "Shouting,Rambling"
-            ],
-            [
-                "Dislikes:",
-                "Being old"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                71,
-                251
-            ],
-            "Lance": [
-                true,
-                121,
-                251
-            ],
-            "Axe": [
-                false,
-                181,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Demonic",
-        "affinity": "Fire",
-        "fields": [
-            [
-                "StatQuote",
-                "Thanks!"
-            ],
-            [
-                "MaxStatQuote",
-                "At my age, this is good."
-            ],
-            [
-                "DeathQuote",
-                "It was happening... eventually..."
-            ],
-            [
-                "WorstLevelUpQuote",
-                "WHAT? I DIDN'T HEAR THAT!"
-            ],
-            [
-                "LowLevelUpQuote",
-                "I'll take what I can get, youngster."
-            ],
-            [
-                "MidLevelUpQuote",
-                "Gwahaha!"
-            ],
-            [
-                "HighLevelUpQuote",
-                "LOOK AT ME NOW! HAH!"
-            ],
-            [
-                "ChangeQuote",
-                "Weird, but okay!"
-            ],
-            [
-                "EscapeQuote",
-                "Ah! I'm out!"
-            ]
-        ]
-    },
-    {
         "nid": "Blu",
         "name": "Blu",
         "desc": "A mischevious bandit who slips away with ease.",
@@ -9547,11 +9853,11 @@
         },
         "starting_items": [
             [
-                "Killer Bow",
+                "Killer_Bow",
                 false
             ],
             [
-                "Short Bow",
+                "Short_Bow",
                 false
             ],
             [
@@ -9715,7 +10021,7 @@
         },
         "starting_items": [
             [
-                "Steel Blade",
+                "Steel_Blade",
                 false
             ],
             [
@@ -9788,124 +10094,6 @@
         "fields": []
     },
     {
-        "nid": "Edgy",
-        "name": "Edgy",
-        "desc": "Cherry's retainer, revels in his own misery.",
-        "variant": "",
-        "level": 11,
-        "klass": "Myrmidon",
-        "tags": [],
-        "bases": {
-            "HP": 25,
-            "STR": 7,
-            "MAG": 4,
-            "SKL": 13,
-            "SPD": 13,
-            "LCK": 8,
-            "DEF": 6,
-            "RES": 2,
-            "CON": 8,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 55,
-            "STR": 30,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 55,
-            "LCK": 35,
-            "DEF": 35,
-            "RES": 15,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": -2,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 1,
-            "SPD": 2
-        },
-        "starting_items": [
-            [
-                "Shamshir",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Melancholic"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                71,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Edgy",
-        "affinity": "Earth",
-        "fields": []
-    },
-    {
         "nid": "Speedy",
         "name": "Speedy",
         "desc": "A mysterious thief, donning a shady mask.\nIs proud of his quick reflexes.",
@@ -9951,11 +10139,11 @@
         },
         "starting_items": [
             [
-                "Iron Dagger",
+                "Iron_Dagger",
                 false
             ],
             [
-                "CaltropKnife",
+                "Caltrop_Knife",
                 false
             ],
             [
@@ -10074,130 +10262,12 @@
         ]
     },
     {
-        "nid": "Kana",
-        "name": "Kana",
-        "desc": "",
-        "variant": "",
-        "level": 3,
-        "klass": "Griffon Knight",
-        "tags": [],
-        "bases": {
-            "HP": 28,
-            "STR": 13,
-            "MAG": 4,
-            "SKL": 13,
-            "SPD": 16,
-            "LCK": 6,
-            "DEF": 11,
-            "RES": 7,
-            "CON": 11,
-            "MOV": 8
-        },
-        "growths": {
-            "HP": 60,
-            "STR": 30,
-            "MAG": 5,
-            "SKL": 25,
-            "SPD": 40,
-            "LCK": 25,
-            "DEF": 30,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [
-            [
-                "Steel Longbow ",
-                false
-            ],
-            [
-                "Hammer",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Specialist"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                71,
-                251
-            ],
-            "Bow": [
-                false,
-                121,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Kana",
-        "affinity": "Light",
-        "fields": []
-    },
-    {
         "nid": "Jevil",
         "name": "Jevil",
         "desc": "King of Palushin. He has an eye of the finer things in life.",
         "variant": "",
         "level": 9,
-        "klass": "King",
+        "klass": "Emperor",
         "tags": [],
         "bases": {
             "HP": 46,
@@ -10237,11 +10307,11 @@
         },
         "starting_items": [
             [
-                "CrannBuidhe",
+                "Crann_Buidhe",
                 false
             ],
             [
-                "Steel Longbow ",
+                "Steel_Longbow",
                 false
             ],
             [
@@ -10367,7 +10437,7 @@
         },
         "starting_items": [
             [
-                "Hand Axe",
+                "Hand_Axe",
                 false
             ],
             [
@@ -10497,7 +10567,7 @@
                 false
             ],
             [
-                "Steel Sword",
+                "Steel_Sword",
                 false
             ]
         ],
@@ -10575,8 +10645,8 @@
             "SKL": 20,
             "SPD": 16,
             "LCK": 9,
-            "DEF": 5,
-            "RES": 19,
+            "DEF": 9,
+            "RES": 16,
             "CON": 8,
             "MOV": 6
         },
@@ -10610,11 +10680,15 @@
                 false
             ],
             [
-                "Warp",
+                "Vulnerary",
                 false
             ]
         ],
         "learned_skills": [
+            [
+                1,
+                "MagicalSavant"
+            ],
             [
                 1,
                 "Prodigy"
@@ -10622,6 +10696,10 @@
             [
                 1,
                 "FireResonance"
+            ],
+            [
+                1,
+                "HiddenArmsthrift"
             ]
         ],
         "unit_notes": [],
@@ -10730,7 +10808,7 @@
         },
         "starting_items": [
             [
-                "Iron Axe",
+                "Iron_Axe",
                 false
             ]
         ],
@@ -10841,11 +10919,11 @@
         },
         "starting_items": [
             [
-                "Hand Axe",
+                "Hand_Axe",
                 false
             ],
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ]
         ],
@@ -11022,9 +11100,9 @@
     {
         "nid": "Sanjay",
         "name": "Sanjay",
-        "desc": "A town guard keen on killing disruptors.",
+        "desc": "A town guard paid off by a mysterious outsider.",
         "variant": "",
-        "level": 6,
+        "level": 5,
         "klass": "LanceCavalier",
         "tags": [
             "Boss"
@@ -11067,11 +11145,15 @@
         },
         "starting_items": [
             [
-                "Steel Lance",
+                "Steel_Lance",
                 false
             ],
             [
                 "Javelin",
+                false
+            ],
+            [
+                "Talisman",
                 false
             ]
         ],
@@ -11296,11 +11378,11 @@
         },
         "starting_items": [
             [
-                "Light Brand",
+                "Light_Brand",
                 false
             ],
             [
-                "Steel Sword",
+                "Steel_Sword",
                 false
             ],
             [
@@ -11530,7 +11612,7 @@
         },
         "starting_items": [
             [
-                "RubySword",
+                "Ruby_Sword",
                 false
             ]
         ],
@@ -11761,7 +11843,7 @@
                 false
             ],
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ],
             [
@@ -11876,7 +11958,7 @@
         },
         "starting_items": [
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ],
             [
@@ -11991,7 +12073,7 @@
         },
         "starting_items": [
             [
-                "Battle Axe",
+                "Battle_Axe",
                 false
             ],
             [
@@ -12111,7 +12193,7 @@
         },
         "starting_items": [
             [
-                "Devil Axe",
+                "Devil_Axe",
                 false
             ]
         ],
@@ -12227,7 +12309,7 @@
         },
         "starting_items": [
             [
-                "Hand Axe",
+                "Hand_Axe",
                 false
             ]
         ],
@@ -12343,7 +12425,7 @@
         },
         "starting_items": [
             [
-                "Killing Edge",
+                "Killing_Edge",
                 false
             ],
             [
@@ -12672,7 +12754,7 @@
         "bases": {
             "HP": 30,
             "STR": 0,
-            "MAG": 9,
+            "MAG": 11,
             "SKL": 8,
             "SPD": 9,
             "LCK": 10,
@@ -12782,11 +12864,11 @@
         },
         "starting_items": [
             [
-                "Silver Axe",
+                "Silver_Axe",
                 false
             ],
             [
-                "Steel Bow",
+                "Steel_Bow",
                 false
             ],
             [
@@ -12874,7 +12956,7 @@
         },
         "starting_items": [
             [
-                "Steel Longbow ",
+                "Steel_Longbow",
                 true
             ]
         ],
@@ -12985,7 +13067,7 @@
         },
         "starting_items": [
             [
-                "Silver Dagger ",
+                "Silver_Dagger",
                 false
             ],
             [
@@ -13069,7 +13151,128 @@
         },
         "starting_items": [
             [
-                "Steel Sword",
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "ScarletStarlings"
+            ],
+            [
+                1,
+                "DartingBlow"
+            ],
+            [
+                1,
+                "ScarletStarlingsChild"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Poppy",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "PoppyNPC",
+        "name": "Poppy",
+        "desc": "A bandit girl who works for the Scarlet Starlings.",
+        "variant": "",
+        "level": 10,
+        "klass": "Merc",
+        "tags": [],
+        "bases": {
+            "HP": 35,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 9,
+            "SPD": 11,
+            "LCK": 5,
+            "DEF": 7,
+            "CON": 10,
+            "MOV": 5,
+            "RES": 3
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Steel_Sword",
                 false
             ],
             [
@@ -13200,7 +13403,7 @@
                 false
             ],
             [
-                "Brave Lance",
+                "Brave_Lance",
                 false
             ]
         ],
@@ -13288,7 +13491,7 @@
                 false
             ],
             [
-                "Silver Lance",
+                "Silver_Lance",
                 false
             ]
         ],
@@ -13404,11 +13607,11 @@
         },
         "starting_items": [
             [
-                "Silver Bow",
+                "Silver_Bow",
                 false
             ],
             [
-                "Steel Longbow ",
+                "Steel_Longbow",
                 false
             ]
         ],
@@ -13479,10 +13682,10 @@
     {
         "nid": "Hesphatales",
         "name": "Hesphatales",
-        "desc": "A mysterious druid who is seeking for something in Arcei",
+        "desc": "A mysterious druid who engages in necromancy",
         "variant": "",
         "level": 4,
-        "klass": "Druid",
+        "klass": "Summoner",
         "tags": [
             "Boss"
         ],
@@ -13532,7 +13735,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Puppeteer"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Dark": [
@@ -13637,6 +13845,86 @@
         "fields": []
     },
     {
+        "nid": "Lazir",
+        "name": "Lazir",
+        "desc": "A mysterious druid allied with the Palushin invaders.",
+        "variant": null,
+        "level": 1,
+        "klass": "Druid",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 29,
+            "STR": 9,
+            "MAG": 17,
+            "SKL": 9,
+            "SPD": 15,
+            "LCK": 7,
+            "DEF": 3,
+            "RES": 13,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 0,
+            "MAG": 45,
+            "SKL": 25,
+            "SPD": 25,
+            "LCK": 15,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Waste",
+                false
+            ],
+            [
+                "Silence",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Dark": [
+                false,
+                181,
+                null
+            ],
+            "Anima": [
+                false,
+                121,
+                null
+            ],
+            "Staff": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lazir",
+        "affinity": "None",
+        "fields": []
+    },
+    {
         "nid": "Viridia",
         "name": "Viridia",
         "desc": "Pit's twin sister, a bubbly overachiever with an unflinching resolve.",
@@ -13682,7 +13970,7 @@
         },
         "starting_items": [
             [
-                "Killer Lance",
+                "Killer_Lance",
                 false
             ],
             [
@@ -13800,7 +14088,7 @@
         },
         "starting_items": [
             [
-                "Steel Sword",
+                "Steel_Sword",
                 false
             ],
             [
@@ -13913,11 +14201,11 @@
         },
         "starting_items": [
             [
-                "Short Spear",
+                "Short_Spear",
                 false
             ],
             [
-                "Hand Axe",
+                "Hand_Axe",
                 false
             ]
         ],
@@ -14216,7 +14504,7 @@
         },
         "starting_items": [
             [
-                "Killer Lance",
+                "Killer_Lance",
                 false
             ],
             [
@@ -14732,34 +15020,247 @@
         "fields": []
     },
     {
+        "nid": "Elias",
+        "name": "Elias",
+        "desc": "The newly crowned king of Aurelia.",
+        "variant": "",
+        "level": 5,
+        "klass": "King",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 4,
+            "MAG": 9,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 20,
+            "MAG": 35,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 60,
+            "DEF": 35,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Shine",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                31,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Elias",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "EliasDead",
+        "name": "Elias",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "NobleDead",
+        "tags": [],
+        "bases": {
+            "HP": 10,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0,
+            "STR": 0,
+            "RES": 0,
+            "DEF": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "EliasDead",
+        "affinity": "None",
+        "fields": []
+    },
+    {
         "nid": "EmelinePrincess",
         "name": "Emeline",
         "desc": "",
         "variant": "",
         "level": 5,
-        "klass": "Eirika_Lord",
+        "klass": "EirikaNPC",
         "tags": [],
         "bases": {
-            "HP": 41,
-            "STR": 16,
-            "MAG": 20,
-            "SKL": 11,
-            "SPD": 19,
-            "LCK": 15,
-            "DEF": 13,
-            "RES": 17,
-            "CON": 6,
-            "MOV": 6
+            "HP": 26,
+            "STR": 9,
+            "MAG": 6,
+            "SKL": 9,
+            "SPD": 11,
+            "LCK": 9,
+            "DEF": 8,
+            "RES": 6,
+            "CON": 7,
+            "MOV": 5
         },
         "growths": {
-            "HP": 40,
-            "STR": 25,
-            "MAG": 40,
-            "SKL": 25,
-            "SPD": 25,
-            "LCK": 15,
-            "DEF": 15,
-            "RES": 45,
+            "HP": 90,
+            "STR": 55,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 65,
+            "DEF": 35,
+            "RES": 50,
             "CON": 0,
             "MOV": 0
         },
@@ -14885,7 +15386,7 @@
                 false
             ],
             [
-                "Light Brand",
+                "Light_Brand",
                 false
             ],
             [
@@ -15675,214 +16176,6 @@
         "fields": []
     },
     {
-        "nid": "Elias",
-        "name": "Elias",
-        "desc": "",
-        "variant": "",
-        "level": 1,
-        "klass": "Prince",
-        "tags": [],
-        "bases": {
-            "HP": 10,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 5,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 65,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Elias",
-        "affinity": "None",
-        "fields": []
-    },
-    {
-        "nid": "EliasDead",
-        "name": "Elias",
-        "desc": "",
-        "variant": "",
-        "level": 1,
-        "klass": "NobleDead",
-        "tags": [],
-        "bases": {
-            "HP": 10,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 5,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 65,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0,
-            "STR": 0,
-            "RES": 0,
-            "DEF": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "SPD": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Knife": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "EliasDead",
-        "affinity": "None",
-        "fields": []
-    },
-    {
         "nid": "Lucian",
         "name": "Lucian",
         "desc": "Uncle of Queen Emeline, and Chancellor of Aurelia.\nA dastardly man fueled by grudges.",
@@ -16116,7 +16409,7 @@
     {
         "nid": "Dawn",
         "name": "Dawn",
-        "desc": "Emeline's cousin, youthful and full of energy.",
+        "desc": "Emeline's cousin, full of energy and spoilt rotten.",
         "variant": "Female",
         "level": 1,
         "klass": "SeraphKnight",
@@ -16163,7 +16456,7 @@
                 false
             ],
             [
-                "Silver Dagger ",
+                "Silver_Dagger",
                 false
             ]
         ],
@@ -16381,7 +16674,7 @@
         },
         "starting_items": [
             [
-                "Silver Blade",
+                "Silver_Blade",
                 false
             ],
             [
@@ -16389,11 +16682,11 @@
                 false
             ],
             [
-                "Brave Axe",
+                "Brave_Axe",
                 false
             ],
             [
-                "Silver Longbow",
+                "Silver_Longbow",
                 false
             ]
         ],
@@ -16851,11 +17144,11 @@
         },
         "starting_items": [
             [
-                "Brave Lance",
+                "Brave_Lance",
                 false
             ],
             [
-                "Hand Axe",
+                "Hand_Axe",
                 false
             ]
         ],
@@ -17323,7 +17616,7 @@
         },
         "starting_items": [
             [
-                "Steel Axe",
+                "Steel_Axe",
                 false
             ]
         ],
@@ -17437,7 +17730,7 @@
         },
         "starting_items": [
             [
-                "CaltropKnife",
+                "Caltrop_Knife",
                 false
             ],
             [
@@ -17557,7 +17850,7 @@
         },
         "starting_items": [
             [
-                "Brave Sword",
+                "Brave_Sword",
                 false
             ]
         ],
@@ -17799,7 +18092,7 @@
         },
         "starting_items": [
             [
-                "Poison Bow",
+                "Poison_Bow",
                 false
             ],
             [

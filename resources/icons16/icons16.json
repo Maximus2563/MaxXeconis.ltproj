@@ -258,5 +258,9 @@
     {
         "nid": "LT_Skills",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Batima_Stones",
+        "subicon_dict": {}
     }
 ]

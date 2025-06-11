@@ -1,13 +1,18 @@
 [
     {
         "nid": "MaxYoungGroup",
-        "name": "Max's Group",
+        "name": "Students",
         "leader": "MaxYoung"
     },
     {
+        "nid": "EncantisArmy",
+        "name": "Encantis Army",
+        "leader": "Keith"
+    },
+    {
         "nid": "SalGroup",
-        "name": "Arcein Army",
-        "leader": "Sagemaster"
+        "name": "Encantis Army",
+        "leader": "Sal"
     },
     {
         "nid": "LeapGroup",
@@ -17,6 +22,6 @@
     {
         "nid": "MaxGroup",
         "name": "Aurelian Troop",
-        "leader": "Emeline"
+        "leader": "Max"
     }
 ]

@@ -132,10 +132,10 @@
         "fields": []
     },
     {
-        "nid": "Prince",
-        "name": "Prince",
+        "nid": "King",
+        "name": "King",
         "desc": "An ordinary commoner.",
-        "tier": 0,
+        "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
@@ -167,15 +167,15 @@
         },
         "growth_bonus": {
             "HP": 0,
-            "STR": 0,
-            "MAG": 35,
-            "SKL": 0,
+            "STR": 5,
+            "MAG": 10,
+            "SKL": 10,
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0
+            "RES": 5
         },
         "promotion": {
             "HP": 0,
@@ -234,8 +234,8 @@
                 251
             ],
             "Light": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Anima": [
@@ -260,7 +260,7 @@
             0
         ],
         "map_sprite_nid": "Prince",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Prince",
         "fields": []
     },
     {
@@ -393,6 +393,143 @@
         ],
         "map_sprite_nid": "NobleDead",
         "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "EirikaNPC",
+        "name": "Lord",
+        "desc": "A noble lady who defends herself with a sword.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Eirika_Great_Lord"
+        ],
+        "tags": [
+            "Lord",
+            "Sword"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 16,
+            "STR": 4,
+            "MAG": 2,
+            "SKL": 8,
+            "SPD": 9,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 5,
+            "MOV": 5,
+            "RES": 0
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 45,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 35,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15,
+            "RES": 20
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Knife": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "EirikaNoWeapon",
+        "combat_anim_nid": "Eirika_Lord",
         "fields": []
     },
     {
@@ -6787,9 +6924,9 @@
         "fields": []
     },
     {
-        "nid": "King",
-        "name": "King",
-        "desc": "A heavily armored magic practitioner.",
+        "nid": "Emperor",
+        "name": "Emperor",
+        "desc": "Armoured ruler of Palushin.",
         "tier": 2,
         "movement_group": "Armors",
         "promotes_from": "KnightL",
@@ -11584,7 +11721,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Necromancer"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

@@ -276,18 +276,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Pierre",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Sanjay",
         "blinking_offset": [
             16,
@@ -360,18 +348,6 @@
         "info_offset": 2
     },
     {
-        "nid": "Kana",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Pykroe",
         "blinking_offset": [
             24,
@@ -420,18 +396,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Sunii",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Nabin",
         "blinking_offset": [
             40,
@@ -454,18 +418,6 @@
             32
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Emeline",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 2
     },
     {
         "nid": "Cacti",
@@ -756,18 +708,6 @@
         "info_offset": 3
     },
     {
-        "nid": "EmelinePrincess",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Speedy",
         "blinking_offset": [
             24,
@@ -996,18 +936,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Dark",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 2
-    },
-    {
         "nid": "Argento",
         "blinking_offset": [
             24,
@@ -1081,18 +1009,6 @@
     },
     {
         "nid": "Jason",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Demonic",
         "blinking_offset": [
             16,
             24
@@ -1296,18 +1212,6 @@
         "info_offset": 1
     },
     {
-        "nid": "Hesphatales",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Jevil",
         "blinking_offset": [
             24,
@@ -1344,19 +1248,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Cherry",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 3
-    },
-    {
-        "nid": "Howai",
+        "nid": "Jayver",
         "blinking_offset": [
             24,
             32
@@ -1366,30 +1258,6 @@
             48
         ],
         "info_offset": 4
-    },
-    {
-        "nid": "Roag",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Angel",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
     },
     {
         "nid": "Apple",
@@ -1402,30 +1270,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Bread",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Dawn",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 2
     },
     {
         "nid": "Boey",
@@ -1536,30 +1380,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Smoke",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 2
-    },
-    {
-        "nid": "Nako",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 2
-    },
-    {
         "nid": "Byron",
         "blinking_offset": [
             24,
@@ -1608,18 +1428,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Lucian",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "JevilSon",
         "blinking_offset": [
             24,
@@ -1652,18 +1460,6 @@
         "smiling_offset": [
             16,
             48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Helia",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
         ],
         "info_offset": 0
     },
@@ -1726,18 +1522,6 @@
             40
         ],
         "info_offset": 2
-    },
-    {
-        "nid": "CherryYoung",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
     },
     {
         "nid": "Sal",
@@ -1824,18 +1608,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Emmanuel",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Oberon",
         "blinking_offset": [
             24,
@@ -1908,18 +1680,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Aspl",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Joker",
         "blinking_offset": [
             24,
@@ -1930,18 +1690,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Meg",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 1
     },
     {
         "nid": "Timothy",
@@ -1992,6 +1740,258 @@
         "info_offset": 0
     },
     {
+        "nid": "MaxYoung",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dark",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Demonic",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CherryYoung",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cherry",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Hesphatales",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sunii",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Helia",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dawn",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Bread",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Sophie",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "Lucian",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "LucianYoung",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "AlbusYoung",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Smoke",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "Lazir",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Roag",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Nako",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 1
+    },
+    {
+        "nid": "Pierre",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PierreOlder",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Emmanuel",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Max",
         "blinking_offset": [
             32,
@@ -2004,7 +2004,19 @@
         "info_offset": 0
     },
     {
-        "nid": "MaxYoung",
+        "nid": "Angel",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Meg",
         "blinking_offset": [
             24,
             32
@@ -2012,6 +2024,42 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 1
+    },
+    {
+        "nid": "Emeline",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "EmelinePrincess",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kana",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
         ],
         "info_offset": 0
     }

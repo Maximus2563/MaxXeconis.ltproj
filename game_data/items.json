@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Iron Sword",
+        "nid": "Iron_Sword",
         "name": "Iron Sword",
         "desc": "",
         "icon_nid": "Sword",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "nid": "Slim Sword",
+        "nid": "Slim_Sword",
         "name": "Slim Sword",
         "desc": "",
         "icon_nid": "Sword",
@@ -213,7 +213,7 @@
         ]
     },
     {
-        "nid": "Steel Sword",
+        "nid": "Steel_Sword",
         "name": "Steel Sword",
         "desc": "",
         "icon_nid": "Sword",
@@ -284,7 +284,7 @@
         ]
     },
     {
-        "nid": "Silver Sword",
+        "nid": "Silver_Sword",
         "name": "Silver Sword",
         "desc": "",
         "icon_nid": "Sword",
@@ -355,7 +355,7 @@
         ]
     },
     {
-        "nid": "Iron Blade",
+        "nid": "Iron_Blade",
         "name": "Iron Blade",
         "desc": "",
         "icon_nid": "Sword",
@@ -430,7 +430,7 @@
         ]
     },
     {
-        "nid": "Steel Blade",
+        "nid": "Steel_Blade",
         "name": "Steel Blade",
         "desc": "",
         "icon_nid": "Sword",
@@ -505,7 +505,7 @@
         ]
     },
     {
-        "nid": "Silver Blade",
+        "nid": "Silver_Blade",
         "name": "Silver Blade",
         "desc": "",
         "icon_nid": "Sword",
@@ -580,7 +580,7 @@
         ]
     },
     {
-        "nid": "RubySword",
+        "nid": "Ruby_Sword",
         "name": "Ruby Sword",
         "desc": "Doubles weapon triangle effects.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -659,7 +659,7 @@
         ]
     },
     {
-        "nid": "Poison Sword",
+        "nid": "Poison_Sword",
         "name": "Poison Sword",
         "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Sword",
@@ -734,7 +734,7 @@
         ]
     },
     {
-        "nid": "Killing Edge",
+        "nid": "Killing_Edge",
         "name": "Killing Edge",
         "desc": "",
         "icon_nid": "Sword",
@@ -1295,7 +1295,7 @@
         ]
     },
     {
-        "nid": "Brave Sword",
+        "nid": "Brave_Sword",
         "name": "Brave Sword",
         "desc": "Allows 2 consecutive hits.",
         "icon_nid": "Sword",
@@ -1542,7 +1542,7 @@
         ]
     },
     {
-        "nid": "Light Brand",
+        "nid": "Light_Brand",
         "name": "Light Brand",
         "desc": "Uses MAG to determine damage.",
         "icon_nid": "Sword",
@@ -1696,7 +1696,7 @@
         ]
     },
     {
-        "nid": "Wind Sword",
+        "nid": "Wind_Sword",
         "name": "Wind Sword",
         "desc": "Uses MAG to determine damage. Grants SPD+3.",
         "icon_nid": "Sword",
@@ -2247,7 +2247,7 @@
         ]
     },
     {
-        "nid": "TacticalEdge",
+        "nid": "Tactical_Edge",
         "name": "Tactical Edge",
         "desc": "Targets the lower of foe's DEF/RES.  Javi only.",
         "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
@@ -2386,7 +2386,7 @@
         ]
     },
     {
-        "nid": "Iron Lance",
+        "nid": "Iron_Lance",
         "name": "Iron Lance",
         "desc": "",
         "icon_nid": "Lance",
@@ -2528,7 +2528,7 @@
         ]
     },
     {
-        "nid": "Slim Lance",
+        "nid": "Slim_Lance",
         "name": "Slim Lance",
         "desc": "",
         "icon_nid": "Lance",
@@ -2599,7 +2599,7 @@
         ]
     },
     {
-        "nid": "Steel Lance",
+        "nid": "Steel_Lance",
         "name": "Steel Lance",
         "desc": "",
         "icon_nid": "Lance",
@@ -2674,7 +2674,7 @@
         ]
     },
     {
-        "nid": "Silver Lance",
+        "nid": "Silver_Lance",
         "name": "Silver Lance",
         "desc": "",
         "icon_nid": "Lance",
@@ -2745,7 +2745,7 @@
         ]
     },
     {
-        "nid": "Toxin Lance",
+        "nid": "Toxin_Lance",
         "name": "Toxin Lance",
         "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Lance",
@@ -2820,7 +2820,7 @@
         ]
     },
     {
-        "nid": "Killer Lance",
+        "nid": "Killer_Lance",
         "name": "Killer Lance",
         "desc": "",
         "icon_nid": "Lance",
@@ -2895,7 +2895,7 @@
         ]
     },
     {
-        "nid": "WoYari",
+        "nid": "Wo_Yari",
         "name": "Wo Yari",
         "desc": "Critical hits deal 4x damage.",
         "icon_nid": "Lance",
@@ -2974,7 +2974,7 @@
         ]
     },
     {
-        "nid": "SapphireLance",
+        "nid": "Sapphire_Lance",
         "name": "Sapphire Lance",
         "desc": "Doubles weapon triangle effects.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -3124,7 +3124,7 @@
         ]
     },
     {
-        "nid": "Short Spear",
+        "nid": "Short_Spear",
         "name": "Short Spear",
         "desc": "",
         "icon_nid": "Lance",
@@ -3350,7 +3350,7 @@
         ]
     },
     {
-        "nid": "Brave Lance",
+        "nid": "Brave_Lance",
         "name": "Brave Lance",
         "desc": "Allows two consecutive hits.",
         "icon_nid": "Lance",
@@ -3508,7 +3508,7 @@
         ]
     },
     {
-        "nid": "Heavy Spear",
+        "nid": "Heavy_Spear",
         "name": "Heavy Spear",
         "desc": "Effective against armored units",
         "icon_nid": "Lance",
@@ -3922,7 +3922,7 @@
         ]
     },
     {
-        "nid": "CrannBuidhe",
+        "nid": "Crann_Buidhe",
         "name": "Crann Buidhe",
         "desc": "Grants SKL+3.",
         "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
@@ -4221,7 +4221,7 @@
         ]
     },
     {
-        "nid": "Iron Axe",
+        "nid": "Iron_Axe",
         "name": "Iron Axe",
         "desc": "",
         "icon_nid": "Axe",
@@ -4363,7 +4363,7 @@
         ]
     },
     {
-        "nid": "Steel Axe",
+        "nid": "Steel_Axe",
         "name": "Steel Axe",
         "desc": "",
         "icon_nid": "Axe",
@@ -4438,7 +4438,7 @@
         ]
     },
     {
-        "nid": "Silver Axe",
+        "nid": "Silver_Axe",
         "name": "Silver Axe",
         "desc": "",
         "icon_nid": "Axe",
@@ -4509,7 +4509,7 @@
         ]
     },
     {
-        "nid": "Poison Axe",
+        "nid": "Poison_Axe",
         "name": "Poison Axe",
         "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Axe",
@@ -4584,7 +4584,7 @@
         ]
     },
     {
-        "nid": "EmeraldAxe",
+        "nid": "Emerald_Axe",
         "name": "Emerald Axe",
         "desc": "Doubles weapon triangle effects.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -4730,7 +4730,7 @@
         ]
     },
     {
-        "nid": "Hand Axe",
+        "nid": "Hand_Axe",
         "name": "Hand Axe",
         "desc": "",
         "icon_nid": "Axe",
@@ -4872,7 +4872,7 @@
         ]
     },
     {
-        "nid": "Killer Axe",
+        "nid": "Killer_Axe",
         "name": "Killer Axe",
         "desc": "",
         "icon_nid": "Axe",
@@ -5117,7 +5117,7 @@
         ]
     },
     {
-        "nid": "Dragon Axe",
+        "nid": "Dragon_Axe",
         "name": "Dragon Axe",
         "desc": "Effective against dragon units",
         "icon_nid": "Axe",
@@ -5200,9 +5200,9 @@
         ]
     },
     {
-        "nid": "Devil Axe",
+        "nid": "Devil_Axe",
         "name": "Devil Axe",
-        "desc": "User may receive damage equal to damage dealt.\nProc Rate = (31 - LCK)% (Min 0%)",
+        "desc": "User may receive damage intended for target.\nProc Rate = (31 - LCK, Min 0)%",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5441,7 +5441,7 @@
         ]
     },
     {
-        "nid": "Brave Axe",
+        "nid": "Brave_Axe",
         "name": "Brave Axe",
         "desc": "Allows two consecutive hits.",
         "icon_nid": "Axe",
@@ -5595,7 +5595,7 @@
         ]
     },
     {
-        "nid": "Battle Axe",
+        "nid": "Battle_Axe",
         "name": "Battle Axe",
         "desc": "",
         "icon_nid": "Axe",
@@ -5666,7 +5666,7 @@
         ]
     },
     {
-        "nid": "NeodymiumHammer",
+        "nid": "Neodymium_Hammer",
         "name": "Neodymium Hammer",
         "desc": "Effective against armored units, grants Hit+50 vs armored units.\nJoker only.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -5927,7 +5927,7 @@
         ]
     },
     {
-        "nid": "Iron Bow",
+        "nid": "Iron_Bow",
         "name": "Iron Bow",
         "desc": "",
         "icon_nid": "jellyunicorns item icons ltinsert",
@@ -6093,7 +6093,7 @@
         ]
     },
     {
-        "nid": "Steel Bow",
+        "nid": "Steel_Bow",
         "name": "Steel Bow",
         "desc": "",
         "icon_nid": "Bow",
@@ -6176,7 +6176,7 @@
         ]
     },
     {
-        "nid": "Silver Bow",
+        "nid": "Silver_Bow",
         "name": "Silver Bow",
         "desc": "",
         "icon_nid": "Bow",
@@ -6259,7 +6259,7 @@
         ]
     },
     {
-        "nid": "Iron Longbow",
+        "nid": "Iron_Longbow",
         "name": "Iron Longbow",
         "desc": "",
         "icon_nid": "Bow",
@@ -6342,7 +6342,7 @@
         ]
     },
     {
-        "nid": "Steel Longbow ",
+        "nid": "Steel_Longbow",
         "name": "Steel Longbow",
         "desc": "",
         "icon_nid": "Bow",
@@ -6425,7 +6425,7 @@
         ]
     },
     {
-        "nid": "Silver Longbow",
+        "nid": "Silver_Longbow",
         "name": "Silver Longbow",
         "desc": "",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -6508,7 +6508,7 @@
         ]
     },
     {
-        "nid": "Poison Bow",
+        "nid": "Poison_Bow",
         "name": "Poison Bow",
         "desc": "Inflicts <red>poison</> after combat.",
         "icon_nid": "Bow",
@@ -6595,7 +6595,7 @@
         ]
     },
     {
-        "nid": "Killer Bow",
+        "nid": "Killer_Bow",
         "name": "Killer Bow",
         "desc": "",
         "icon_nid": "Bow",
@@ -6682,7 +6682,7 @@
         ]
     },
     {
-        "nid": "Brave Bow",
+        "nid": "Brave_Bow",
         "name": "Brave Bow",
         "desc": "Allows two consecutive hits.",
         "icon_nid": "Bow",
@@ -6769,7 +6769,7 @@
         ]
     },
     {
-        "nid": "Short Bow",
+        "nid": "Short_Bow",
         "name": "Short Bow",
         "desc": "Can counterattack at 1 range.",
         "icon_nid": "Bow",
@@ -7204,7 +7204,7 @@
         ]
     },
     {
-        "nid": "RecurveBow",
+        "nid": "Recurve_Bow",
         "name": "Recurve Bow",
         "desc": "",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -7287,7 +7287,7 @@
         ]
     },
     {
-        "nid": "FortuneBow",
+        "nid": "Fortune_Bow",
         "name": "Fortune Bow",
         "desc": "Grants LCK+7.",
         "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
@@ -7883,7 +7883,7 @@
         ]
     },
     {
-        "nid": "Iron Dagger",
+        "nid": "Iron_Dagger",
         "name": "Iron Dagger",
         "desc": "Inflicts MAG -1, DEF/RES -2 on hit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -7958,7 +7958,7 @@
         ]
     },
     {
-        "nid": "Steel Dagger",
+        "nid": "Steel_Dagger",
         "name": "Steel Dagger",
         "desc": "Inflicts STR -2, DEF/RES -3 on hit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -8033,8 +8033,8 @@
         ]
     },
     {
-        "nid": "Silver Dagger ",
-        "name": "Silver Dagger ",
+        "nid": "Silver_Dagger",
+        "name": "Silver Dagger",
         "desc": "Inflicts STR/MAG/DEF/RES -3 on hit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
         "icon_index": [
@@ -8336,7 +8336,7 @@
         ]
     },
     {
-        "nid": "SmokeKunai",
+        "nid": "Smoke_Kunai",
         "name": "Smoke Kunai",
         "desc": "Inflicts LCK/DEF/RES-2 on foe on hit and foes within 2 spaces of target after combat. Smoke Only.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -8417,7 +8417,7 @@
         ]
     },
     {
-        "nid": "CaltropKnife",
+        "nid": "Caltrop_Knife",
         "name": "Caltrop Knife",
         "desc": "Inflicts MOV-3 on hit.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -8492,7 +8492,7 @@
         ]
     },
     {
-        "nid": "MysticalKeris",
+        "nid": "Mystical_Keris",
         "name": "Mystical Keris",
         "desc": "Uses MAG to determine damage.",
         "icon_nid": "{Ereshkigal} Sprite Sheet V1.4 Converted",
@@ -9297,12 +9297,12 @@
                 "Mend"
             ],
             [
-                "ally_blast_aoe",
-                1
-            ],
-            [
                 "equation_heal",
                 "HEAL5"
+            ],
+            [
+                "rally_blast_aoe",
+                1
             ]
         ]
     },
@@ -9822,7 +9822,7 @@
     {
         "nid": "Snooze",
         "name": "Snooze",
-        "desc": "Enemy cannot move or attack, removed after combat.",
+        "desc": "Enemy cannot move or attack, removed after combat.\nMizt only.",
         "icon_nid": "{Ereshkigal} Staves",
         "icon_index": [
             2,
@@ -13307,7 +13307,7 @@
     {
         "nid": "Gust",
         "name": "Gust",
-        "desc": "Propels unit backwards one space.\nCannot double.",
+        "desc": "Propels unit backwards one space. Cannot double.\nTargets cardinal directions only.",
         "icon_nid": "Anima",
         "icon_index": [
             2,
@@ -13396,13 +13396,17 @@
             [
                 "backdash",
                 1
+            ],
+            [
+                "eval_special_range",
+                "x == 0 or y == 0"
             ]
         ]
     },
     {
         "nid": "Zephyr",
         "name": "Zephyr",
-        "desc": "If unit initiates combat, pushes enemy up to two spaces after combat.\n",
+        "desc": "If unit initiates combat, pushes enemy up to two spaces after combat.\nTargets cardinal directions only.",
         "icon_nid": "Anima",
         "icon_index": [
             2,
@@ -13487,6 +13491,10 @@
             [
                 "shove_flexible_on_end_combat_initiate",
                 2
+            ],
+            [
+                "eval_special_range",
+                "x == 0 or y == 0"
             ]
         ]
     },
@@ -15326,10 +15334,10 @@
         "nid": "FireCrystal",
         "name": "Fire Crystal",
         "desc": "A valuable fire infused magic crystal. Cannot crit, double or be equipped. \nIgnores user's MAG stat.",
-        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "icon_nid": "Batima_Stones",
         "icon_index": [
-            27,
-            4
+            11,
+            0
         ],
         "components": [
             [
@@ -19353,6 +19361,22 @@
         "icon_index": [
             0,
             2
+        ],
+        "components": [
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
+        "nid": "Eluskar",
+        "name": "Eluskar",
+        "desc": "An arcane crystal housing untold power, studied by the Sagemaster.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
         ],
         "components": [
             [
