@@ -7039,10 +7039,6 @@
             {
                 "nid": "Cavalry",
                 "trigger_threshold": 2
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     },
@@ -7051,7 +7047,7 @@
         "name": "Roam: Castle Nordz",
         "tilemap": "SageCastleRoam",
         "bg_tilemap": null,
-        "party": "SalGroup",
+        "party": "EncantisArmy",
         "music": {
             "player_phase": "74 Dance in the Dark",
             "enemy_phase": null,
@@ -7230,19 +7226,6 @@
                 "generic": false
             },
             {
-                "nid": "Blazing",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Sagemaster",
                 "team": "other",
                 "ai": "None",
@@ -7338,8 +7321,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    20
+                    5,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -7417,70 +7400,6 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 7,
-                "klass": "Ranger",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 7,
-                "klass": "Ranger",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "117",
-                "variant": null,
-                "level": 7,
-                "klass": "Holy Knight",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 7,
-                "klass": "Holy Knight",
-                "faction": "Monsdor",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
             },
             {
                 "nid": "119",
@@ -7585,51 +7504,36 @@
                 "nid": "EnemyOutro",
                 "units": [
                     "Oberon",
-                    "115",
-                    "116",
-                    "117",
-                    "118",
                     "119",
                     "120",
                     "121",
-                    "122"
+                    "122",
+                    "Javi"
                 ],
                 "positions": {
                     "Oberon": [
                         13,
-                        5
-                    ],
-                    "115": [
-                        12,
-                        7
-                    ],
-                    "116": [
-                        14,
-                        7
-                    ],
-                    "117": [
-                        11,
-                        6
-                    ],
-                    "118": [
-                        15,
                         6
                     ],
                     "119": [
-                        10,
+                        11,
                         7
                     ],
                     "120": [
-                        16,
+                        12,
                         7
                     ],
                     "121": [
-                        11,
-                        8
+                        14,
+                        7
                     ],
                     "122": [
                         15,
-                        8
+                        7
+                    ],
+                    "Javi": [
+                        11,
+                        4
                     ]
                 }
             },
@@ -7643,20 +7547,20 @@
                 ],
                 "positions": {
                     "1": [
-                        12,
-                        4
+                        11,
+                        9
                     ],
                     "2": [
-                        14,
-                        4
+                        12,
+                        9
                     ],
                     "3": [
-                        11,
-                        4
+                        14,
+                        9
                     ],
                     "Guard": [
                         15,
-                        4
+                        9
                     ]
                 }
             },
@@ -7691,35 +7595,16 @@
                 "nid": "EnemyOutroFirst",
                 "units": [
                     "Oberon",
-                    "115",
-                    "116",
-                    "117",
-                    "118",
                     "119",
                     "120",
                     "121",
-                    "122"
+                    "122",
+                    "Javi"
                 ],
                 "positions": {
                     "Oberon": [
                         5,
                         20
-                    ],
-                    "115": [
-                        6,
-                        19
-                    ],
-                    "116": [
-                        6,
-                        21
-                    ],
-                    "117": [
-                        8,
-                        19
-                    ],
-                    "118": [
-                        8,
-                        21
                     ],
                     "119": [
                         4,
@@ -7736,6 +7621,10 @@
                     "122": [
                         3,
                         21
+                    ],
+                    "Javi": [
+                        6,
+                        20
                     ]
                 }
             },
@@ -7753,7 +7642,6 @@
                     "Pykroe",
                     "Hyper",
                     "Guy",
-                    "Blazing",
                     "Keith",
                     "Sagemaster",
                     "Javi",
@@ -7768,6 +7656,37 @@
                     "Snow"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "OutroPlayer",
+                "units": [
+                    "Keith",
+                    "Sal",
+                    "Sagemaster",
+                    "Snow"
+                ],
+                "positions": {
+                    "Sagemaster": [
+                        13,
+                        3
+                    ],
+                    "Keith": [
+                        12,
+                        4
+                    ],
+                    "Sal": [
+                        14,
+                        4
+                    ],
+                    "Javi": [
+                        11,
+                        4
+                    ],
+                    "Snow": [
+                        15,
+                        4
+                    ]
+                }
             }
         ],
         "ai_groups": []
@@ -11402,6 +11321,381 @@
                 "trigger_threshold": 1
             }
         ]
+    },
+    {
+        "nid": "9_1",
+        "name": "Ch. 9: It's Alive?",
+        "tilemap": "Ch9_1",
+        "bg_tilemap": null,
+        "party": "LeapGroup",
+        "music": {
+            "boss_battle": "A Mighty Foe",
+            "player_phase": "Road Of Sorrow",
+            "enemy_phase": "Road Of Sorrow",
+            "other_phase": null,
+            "player_battle": "016 - On Glory's Wings",
+            "enemy_battle": "015 - March",
+            "other_battle": null
+        },
+        "objective": {
+            "simple": "Defeat Zashar",
+            "win": "Defeat Boss",
+            "loss": "Leap or Prof die"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [
+            "ProfLoss"
+        ],
+        "units": [
+            {
+                "nid": "Leap",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Prof",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Liz",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Mizt",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sophie",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Bread",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Meg",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shoop",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Kana",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "ZasharWarp",
+                "region_type": "normal",
+                "position": [
+                    4,
+                    0
+                ],
+                "size": [
+                    5,
+                    4
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Inn",
+                "region_type": "event",
+                "position": [
+                    10,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Cafe",
+                "region_type": "event",
+                "position": [
+                    1,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Armory",
+                "region_type": "event",
+                "position": [
+                    15,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armory",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Vendor",
+                "region_type": "event",
+                "position": [
+                    17,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Vendor",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "1",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "2",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "3",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "4",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "5",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "6",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Player",
+                "units": [
+                    "Leap",
+                    "Prof",
+                    "Liz",
+                    "Mizt",
+                    "Sophie",
+                    "Bread",
+                    "Meg",
+                    "Shoop"
+                ],
+                "positions": {
+                    "Leap": [
+                        6,
+                        13
+                    ],
+                    "Prof": [
+                        7,
+                        13
+                    ],
+                    "Mizt": [
+                        7,
+                        14
+                    ],
+                    "Liz": [
+                        7,
+                        15
+                    ],
+                    "Bread": [
+                        7,
+                        12
+                    ],
+                    "Shoop": [
+                        6,
+                        14
+                    ],
+                    "Meg": [
+                        6,
+                        15
+                    ],
+                    "Sophie": [
+                        6,
+                        12
+                    ]
+                }
+            },
+            {
+                "nid": "Enemy",
+                "units": [],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
     },
     {
         "nid": "9B",
