@@ -482,6 +482,32 @@
         ]
     },
     {
+        "nid": "Levitate",
+        "name": "Levitate",
+        "desc": "Can fly and nullifies flier effective bonuses.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            10,
+            48
+        ],
+        "components": [
+            [
+                "ignore_terrain",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Flying"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "FlyingTemp",
         "name": "Flying",
         "desc": "Can fly.",
@@ -760,7 +786,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -1272,7 +1299,8 @@
                     "lost_on_self": false,
                     "lost_on_ally": false,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -7119,7 +7147,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -8010,7 +8039,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -8096,7 +8126,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -8258,7 +8289,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -8488,7 +8520,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -8589,7 +8622,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ],
             [
@@ -9018,7 +9052,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -9504,7 +9539,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -9650,7 +9686,8 @@
                     "lost_on_self": false,
                     "lost_on_ally": false,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -11206,7 +11243,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
@@ -11653,6 +11691,96 @@
             [
                 "hidden_if_inactive",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "WilySnap",
+        "name": "Wily Snap",
+        "desc": "Inflicts DEF/RES-3 on enemies in a 2 range + centered on unit.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            7,
+            19
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura_shape",
+                [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        -1,
+                        0
+                    ],
+                    [
+                        -2,
+                        0
+                    ],
+                    [
+                        0,
+                        -1
+                    ],
+                    [
+                        0,
+                        -2
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ]
+                ]
+            ],
+            [
+                "aura",
+                "Snapped"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    },
+    {
+        "nid": "Snapped",
+        "name": "Snapped",
+        "desc": "Inflicts DEF/RES-3.",
+        "icon_nid": "LT_Skills",
+        "icon_index": [
+            7,
+            19
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        -3
+                    ],
+                    [
+                        "RES",
+                        -3
+                    ]
+                ]
             ]
         ]
     }

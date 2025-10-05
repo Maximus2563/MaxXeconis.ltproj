@@ -346,5 +346,9 @@
     {
         "nid": "[LRD] Generic Lord (M) Lance {Aruka, Yggdra, N426}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Banshee [F] {Sphealnuke}",
+        "subicon_dict": {}
     }
 ]

@@ -166,5 +166,9 @@
     {
         "nid": "ASPLPROC",
         "expression": "LCK+20"
+    },
+    {
+        "nid": "AVGDEF",
+        "expression": "(DEF+RES)//2"
     }
 ]

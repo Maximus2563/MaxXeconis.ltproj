@@ -154889,5 +154889,71 @@
         ],
         "frames": [],
         "palettes": []
+    },
+    {
+        "nid": "Screech",
+        "poses": [
+            [
+                "Attack",
+                [
+                    [
+                        "darken",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            4
+                        ]
+                    ],
+                    [
+                        "pan",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            4
+                        ]
+                    ],
+                    [
+                        "spell_hit",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            16
+                        ]
+                    ],
+                    [
+                        "pan",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            4
+                        ]
+                    ],
+                    [
+                        "lighten",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            4
+                        ]
+                    ],
+                    [
+                        "end_parent_loop",
+                        null
+                    ]
+                ]
+            ]
+        ],
+        "frames": [],
+        "palettes": []
     }
 ]

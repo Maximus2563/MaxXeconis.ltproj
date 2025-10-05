@@ -284,7 +284,7 @@
     {
         "nid": "Default",
         "name": "Consumable",
-        "force_melee_anim": false,
+        "force_melee_anim": true,
         "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],

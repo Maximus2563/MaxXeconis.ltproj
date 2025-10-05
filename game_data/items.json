@@ -12772,17 +12772,13 @@
     {
         "nid": "Fireball",
         "name": "Fireball",
-        "desc": "Affects a medium area, AOE 2.",
+        "desc": "Affects a medium area, AOE 1.",
         "icon_nid": "BatimaTomes",
         "icon_index": [
             0,
             0
         ],
         "components": [
-            [
-                "spell",
-                null
-            ],
             [
                 "weapon_type",
                 "Anima"
@@ -12808,11 +12804,11 @@
             ],
             [
                 "hit",
-                55
+                65
             ],
             [
                 "damage",
-                6
+                5
             ],
             [
                 "map_cast_anim",
@@ -12848,10 +12844,18 @@
             ],
             [
                 "enemy_blast_aoe",
-                2
+                1
             ],
             [
-                "no_equip",
+                "map_cast_sfx",
+                "FireCharge"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "no_double",
                 null
             ]
         ]
@@ -13568,10 +13572,6 @@
                 2
             ],
             [
-                "spell",
-                null
-            ],
-            [
                 "target_tile",
                 null
             ],
@@ -13592,7 +13592,11 @@
                 3
             ],
             [
-                "no_equip",
+                "siege_weapon",
+                null
+            ],
+            [
+                "no_double",
                 null
             ]
         ]
@@ -14036,7 +14040,7 @@
     {
         "nid": "Thunderclap",
         "name": "Thunderclap",
-        "desc": "Attack up to three units.",
+        "desc": "Affects a small X-shaped area.",
         "icon_nid": "Leif Tomes",
         "icon_index": [
             2,
@@ -14044,44 +14048,55 @@
         ],
         "components": [
             [
-                "target_enemy",
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
                 null
             ],
             [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
                 "min_range",
-                1
+                3
             ],
             [
                 "max_range",
                 3
             ],
             [
-                "damage",
-                3
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "crit",
-                5
-            ],
-            [
-                "weight",
-                13
+                "target_tile",
+                null
             ],
             [
                 "level_exp",
                 null
-            ],
-            [
-                "weapon_type",
-                "Anima"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ],
             [
                 "map_hit_add_blend",
@@ -14092,46 +14107,48 @@
                 ]
             ],
             [
-                "magic",
+                "no_equip",
                 null
             ],
             [
-                "value",
-                1550
+                "map_cast_sfx",
+                "Thunder"
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
+                "shape_blast_aoe",
                 {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
+                    "shape": [
+                        [
+                            -1,
+                            1
+                        ],
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "target": "enemy",
+                    "range": 1
                 }
             ],
             [
-                "wexp",
-                2
-            ],
-            [
-                "spell",
+                "no_double",
                 null
             ],
             [
-                "multi_target",
-                3
-            ],
-            [
-                "allow_less_than_max_targets",
-                null
-            ],
-            [
-                "allow_same_target",
-                null
-            ],
-            [
-                "no_equip",
+                "siege_weapon",
                 null
             ]
         ]
@@ -16824,6 +16841,74 @@
         ]
     },
     {
+        "nid": "Shriek",
+        "name": "Shriek",
+        "desc": "Uses target's DEF/2 +RES/2.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Screech"
+            ],
+            [
+                "weapon_type_exempt",
+                "Default"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weight",
+                0
+            ],
+            [
+                "alternate_resist_formula",
+                "AVGDEF"
+            ]
+        ]
+    },
+    {
         "nid": "Demon Light",
         "name": "Demon Light",
         "desc": "",
@@ -17386,16 +17471,12 @@
                 90
             ],
             [
-                "weight",
-                0
-            ],
-            [
                 "locked",
                 null
             ],
             [
                 "wexp",
-                2
+                0
             ],
             [
                 "crit",
@@ -17408,6 +17489,14 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "weapon_type_exempt",
+                "Default"
+            ],
+            [
+                "weight",
+                0
             ]
         ]
     },

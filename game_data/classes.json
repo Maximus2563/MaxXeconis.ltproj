@@ -16207,5 +16207,123 @@
         "map_sprite_nid": "Dragon",
         "combat_anim_nid": null,
         "fields": []
+    },
+    {
+        "nid": "Banshee",
+        "name": "Banshee",
+        "desc": "A lost soul that wanders the Arborstian forests.",
+        "tier": 1,
+        "movement_group": "Fliers",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Flying",
+            "Monster"
+        ],
+        "max_level": 20,
+        "bases": {
+            "STR": 0,
+            "MAG": 6,
+            "SKL": 4,
+            "SPD": 6,
+            "LCK": 6,
+            "DEF": 3,
+            "RES": 5,
+            "CON": 7,
+            "MOV": 5,
+            "HP": 22
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 0,
+            "MAG": 40,
+            "SKL": 35,
+            "SPD": 45,
+            "LCK": 0,
+            "DEF": 25,
+            "RES": 45,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "RES": 30,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Levitate"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Knife": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Banshee [F] {Sphealnuke}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Banshee (F) {Sphealnuke}",
+        "combat_anim_nid": "Banshee",
+        "fields": []
     }
 ]

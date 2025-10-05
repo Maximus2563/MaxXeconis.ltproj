@@ -128,7 +128,7 @@
             },
             {
                 "nid": "39",
-                "name": "Nanba Marina",
+                "name": "Nanba Harbour",
                 "pos": [
                     7,
                     4
@@ -238,13 +238,13 @@
             },
             {
                 "nid": "48",
-                "name": "New Location",
+                "name": "Eroka Woods",
                 "pos": [
                     6,
                     9
                 ],
-                "icon": "map_node",
-                "level": null,
+                "icon": "woods",
+                "level": "6",
                 "menu_options": []
             },
             {
@@ -254,7 +254,7 @@
                     4,
                     11
                 ],
-                "icon": "woods",
+                "icon": "forest_temple",
                 "level": null,
                 "menu_options": []
             },

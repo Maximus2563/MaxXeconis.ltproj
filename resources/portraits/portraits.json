@@ -408,30 +408,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Hogarth",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Cacti",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 1
-    },
-    {
         "nid": "Edgy",
         "blinking_offset": [
             24,
@@ -442,30 +418,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Blazing",
-        "blinking_offset": [
-            18,
-            32
-        ],
-        "smiling_offset": [
-            18,
-            48
-        ],
-        "info_offset": 4
-    },
-    {
-        "nid": "Ignatius",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 2
     },
     {
         "nid": "SoldierPurple",
@@ -912,18 +864,6 @@
         "info_offset": 2
     },
     {
-        "nid": "Frost",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 1
-    },
-    {
         "nid": "Naz",
         "blinking_offset": [
             24,
@@ -1200,18 +1140,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Hecati",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 1
-    },
-    {
         "nid": "Jevil",
         "blinking_offset": [
             24,
@@ -1246,18 +1174,6 @@
             40
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Jayver",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 4
     },
     {
         "nid": "Apple",
@@ -1312,18 +1228,6 @@
         "blinking_offset": [
             24,
             24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Argalan",
-        "blinking_offset": [
-            24,
-            16
         ],
         "smiling_offset": [
             24,
@@ -2060,6 +1964,114 @@
         "smiling_offset": [
             24,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Frost",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 1
+    },
+    {
+        "nid": "Cacti",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 1
+    },
+    {
+        "nid": "Ignatius",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Blazing",
+        "blinking_offset": [
+            18,
+            32
+        ],
+        "smiling_offset": [
+            18,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Jayver",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 3
+    },
+    {
+        "nid": "Alicia",
+        "blinking_offset": [
+            23,
+            32
+        ],
+        "smiling_offset": [
+            23,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Argalan",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Hecati",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Hogarth",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
         ],
         "info_offset": 0
     }
